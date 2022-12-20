@@ -134,7 +134,21 @@ $fa-font-path: "fonts/";
     background-color: #f2f2f2;
 }
 
+h1, h2, h3{
+    font-family: "truenobold";
+}
+
+div.date-time{
+    font-family: "truenolight";
+}
+
+body{
+    font-family: "loraregular";
+}
+
+
 .section-title {
+    font-family: "truenobold";
     margin-top: 1.5rem;
     text-align: center;
 
@@ -163,6 +177,7 @@ $fa-font-path: "fonts/";
         letter-spacing: 1px;
         white-space: nowrap;
         color: white;
+        font-family: "truenolight";
     }
 
     .tag:hover {
@@ -174,10 +189,17 @@ $fa-font-path: "fonts/";
     font-weight: 600;
 }
 
+a#email{
+    font-family: "truenobold";
+}
+
+
+
 .pagination {
     justify-content: center;
     margin: 1rem 0;
     font-size: 1.3rem;
+    font-family: "truenolight";
 }
 
 #social-media-share {

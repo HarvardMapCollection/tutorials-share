@@ -6,12 +6,18 @@
     color: rgba(0, 0, 0, 0.82);
     line-height: 1.7;
     background-color: white;
+    font-family: "loraregular";
 
     h2,h3,h4,h5,h6 {
         margin-top: 1.5rem;
         font-weight: 600;
-        font-family: "truenobold";
+        font-family: "truenolight";
     }
+
+    a{
+        font-family: "truenolight";
+    }
+
 
     .title {
         margin-top: 2rem;

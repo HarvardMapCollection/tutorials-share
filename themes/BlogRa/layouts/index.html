@@ -37,20 +37,20 @@
 <div class="bg-offwhite pb-5 pt-1">
     <div class="container-md">
         <h2 class="section-title">
-            <a href={{ "/sections/" | relURL }}>Sections</a>
+            <a href={{ "/tutorials/" | relURL }}>Tutorials</a>
         </h2>
 
         <div class="row">
-            {{ $allPages := where .Site.Pages "Section" "sections" }}
-            {{ $contentPages_and_section := where .Site.RegularPages "Section" "sections" }}
+            {{ $allPages := where .Site.Pages "Section" "tutorials" }}
+            {{ $contentPages_and_section := where .Site.RegularPages "Section" "tutorials" }}
             {{ $contentPages := symdiff $allPages $contentPages_and_section }}
 
-            {{ $sections := where $contentPages "Title" "!=" "Sections" }}
+            {{ $sections := where $contentPages "Title" "!=" "Tutorials" }}
 
             {{ $sections := $sections.ByDate.Reverse | first 3 }}
 
             {{ range $sections }}
-                {{ if ne .Title "Sections" }}
+                {{ if ne .Title "Tutorials" }}
                 {{ partial "suggestion-section.html" . }}
                 {{ end }}
             {{ end }}

@@ -1,4 +1,4 @@
-baseURL = 'https://harvardmapcollection.github.io/tutorials/'
+baseURL = 'https://harvardmapcollection.github.io/'
 languageCode = 'en-us'
 title = 'GIS @ Harvard Libraries'
 theme = 'BlogRa'
@@ -16,7 +16,7 @@ theme = 'BlogRa'
 
     [[menu.main]]
         name = "Tutorials"
-        url = "/sections/"
+        url = "/tutorials/"
         weight = 2
 
     [[menu.main]]
@@ -27,7 +27,7 @@ theme = 'BlogRa'
 
     [[menu.main]]
         name = "Connect"
-        url = "/contact/"
+        url = "/connect/"
         weight = 4
 
 [markup.goldmark.parser.attribute]

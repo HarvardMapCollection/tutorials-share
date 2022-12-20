@@ -1,0 +1,42 @@
+baseURL = 'https://harvardmapcollection.github.io/tutorials/'
+languageCode = 'en-us'
+title = 'GIS @ Harvard Libraries'
+theme = 'BlogRa'
+
+[params]
+    description     = "Mapping news and support from the Harvard Map Collection"
+    github= "https://github.com/HarvardMapCollection/harvardmapcollection.github.io"
+
+# Configure the site menu here
+[menu]
+    [[menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+
+    [[menu.main]]
+        name = "Tutorials"
+        url = "/sections/"
+        weight = 2
+
+    [[menu.main]]
+        identifier = "blog"
+        name = "Blog"
+        url = "/tags/articles"
+        weight = 3
+
+    [[menu.main]]
+        name = "Connect"
+        url = "/contact/"
+        weight = 4
+
+[markup.goldmark.parser.attribute]
+    block = true
+
+[markup.goldmark.renderer]
+    unsafe = true
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.102.3"

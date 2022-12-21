@@ -22,7 +22,7 @@ theme = 'BlogRa'
     [[menu.main]]
         identifier = "blog"
         name = "Blog"
-        url = "/tags/articles"
+        url = "/tags/news"
         weight = 3
 
     [[menu.main]]

@@ -71,7 +71,7 @@ If you already have a GeoTIFF, but do not yet have it hosted as a web layer, thi
 
 2. [Request access](https://projects.iq.harvard.edu/cga-pin/request) to the ArcGIS Imagery tool. It is not free, but Harvard key holders have access. When prompted with which option to request, select, `ArcGIS Image for ArcGIS Online`.
 
-3. You’ll get an email when it’s been completed. To inquire about the status of your request, you can contact Jeff Blossom at jblossom@cga.harvard.edu. 
+3. You’ll receive an email when the request is fulfilled. This should not take longer than one business day. To inquire about the status of your request, contact Jeff Blossom at jblossom@cga.harvard.edu. 
 
 #### Upload the GeoTIFF
 

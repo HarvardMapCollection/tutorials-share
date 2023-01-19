@@ -80,9 +80,9 @@ Once your extension has been enabled, you can upload the `GeoTIFF`. From `My Con
 
 ## Configure your web project
 
-Once you have added your georeferenced map as a layer in ArcGIS Online, there are many fun ways to configure the apps for exploration and comparison with other georeferenced maps or modern datasets.
+Once you have added your georeferenced map as a layer in ArcGIS Online, there are many ways to configure the online apps for exploration and comparison with other georeferenced maps or modern datasets.
 
-To do so, check out the following resources:
+To learn how, check out the following resources:
 - [Apps you can use to swipe and compare](https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/swipe-compare-apps/)
 - [StoryMap Swipe and Spyglass](https://storymaps-classic.arcgis.com/en/app-list/swipe-spyglass/)
 

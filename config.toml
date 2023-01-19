@@ -20,14 +20,29 @@ theme = 'BlogRa'
         weight = 2
             [[menu.main]]
                 parent = "Tutorials"
-                name = "Census"
-                url = "/tutorials/census-data-primer/"
+                name = "ArcGIS"
+                url = "/tags/ArcGIS/"
                 weight = 1
             [[menu.main]]
                 parent = "Tutorials"
-                name = "QGIS"
-                url = "/tags/qgis"
+                name = "Census"
+                url = "/tutorials/census-data-primer/"
                 weight = 2
+            [[menu.main]]
+                parent = "Tutorials"
+                name = "Georeferencing"
+                url = "/tutorials/Georeferencing"
+                weight = 3
+            [[menu.main]]
+                parent = "Tutorials"
+                name = "OpenStreetMap (OSM)"
+                url = "/tags/OpenStreetMap/"
+                weight = 4
+            [[menu.main]]
+                parent = "Tutorials"
+                name = "QGIS"
+                url = "/tags/QGIS/"
+                weight = 5
 
     [[menu.main]]
         name = "Resources"

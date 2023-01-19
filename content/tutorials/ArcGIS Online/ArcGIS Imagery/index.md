@@ -1,8 +1,8 @@
 ---
 title: Uploading georeferenced maps to ArcGIS Online
 date: 2022-12-20
-tags: ["tutorials"]
-image: agol-imagery.png
+tags: ["tutorials", "ArcGIS"]
+image: spyglass-arcgis.gif
 ---
 
 Do you want to be able to use a historic map for comparison in one of your ArcGIS Online projects, such as StoryMaps?

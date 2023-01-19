@@ -1,6 +1,6 @@
 ---
 title: Extract OpenStreetMap features
-date: 2023-01-18
+date: 2023-01-19
 tags: ["tutorials", "OpenStreetMap"]
 image: gradient10.png
 ---

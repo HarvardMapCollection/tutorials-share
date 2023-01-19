@@ -31,7 +31,7 @@ theme = 'BlogRa'
             [[menu.main]]
                 parent = "Tutorials"
                 name = "Georeferencing"
-                url = "/tutorials/Georeferencing"
+                url = "/tags/georeferencing/"
                 weight = 3
             [[menu.main]]
                 parent = "Tutorials"
@@ -50,9 +50,14 @@ theme = 'BlogRa'
         weight = 3
             [[menu.main]]
                 parent = "Resources"
+                name = "GIS Research Strategies"
+                url = "/resources/research-strategies"
+                weight = 1
+            [[menu.main]]
+                parent = "Resources"
                 name = "Harvard Geospatial Library (HGL)"
                 url = "https://library.harvard.edu/services-tools/harvard-geospatial-library"
-                weight = 1
+                weight = 2
 
     [[menu.main]]
         identifier = "blog"

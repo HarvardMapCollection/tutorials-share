@@ -69,7 +69,7 @@ If you already have a GeoTIFF, but do not yet have it hosted as a web layer, thi
 
 1. Make sure you have [created an ArcGIS Online account using your Harvard key](https://gis.harvard.edu/arcgis-online).
 
-2. [Request access](https://projects.iq.harvard.edu/cga-pin/request) to the ArcGIS Imagery tool. It is not free, but Harvard key holders have access. When picking the item to request choose the last item, `ArcGIS Image for ArcGIS Online`.
+2. [Request access](https://projects.iq.harvard.edu/cga-pin/request) to the ArcGIS Imagery tool. It is not free, but Harvard key holders have access. When prompted with which option to request, select, `ArcGIS Image for ArcGIS Online`.
 
 3. You’ll get an email when it’s been completed. To inquire about the status of your request, you can contact Jeff Blossom at jblossom@cga.harvard.edu. 
 

@@ -50,7 +50,8 @@ They picked digital datasets that could help visually explore this topic: histor
 
 ### Map 3: at-risk structures
 
-{{< figure src="media//4.png" caption="_The final map shows all of the datasets, and includes structures that are at risk, given the flood zones._" alt="The final map shows all of the datasets, and includes structures that are at risk, given the flood zones.">}}
+{{< figure src="media//4.png" alt="The final map shows all of the datasets, and includes structures that are at risk, given the flood zones.">}}
+<figcaption>The final map shows all of the datasets, and includes structures that are at risk, given the flood zones.</figcaption>
 
 ## Resources
 

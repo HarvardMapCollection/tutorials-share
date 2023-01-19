@@ -26,7 +26,8 @@ For the recent CityLab piece, Rachael started framing her project by thinking ab
 
 <span style="font-family:lorabold;color:#5f0217;">DOTTLE:</span> "I knew right off the bat that [NHGIS]([nhgis.org](http://nhgis.org/)), the program at the University of Minnesota, has all that historical census data available as shapefiles, so I thought, alright, I'm going to start with the 1950 data. Starting at the census tract level, I can deep-dive into data for some of the cities I *know* had highways built through black neighborhoods. I started my project with what I knew about cities with highways constructed, and what I knew about what data is available.
 
-{{< figure src="media//7.png" caption="Archival photograph used in the project. *Photographer: William Russell. Tulane University Special Collections.*">}}
+{{< figure src="media//7.png" alt="Photograph of a highway overpass">}}
+<figcaption class="append">Archival photograph used in the project. Photographer: William Russell. Tulane University Special Collections.</figcaption>
 
 
 "I knew there were certain cities we wanted to focus on, from a narrative perspective. Miami was of interest, because there are ongoing highway construction projects. New Orleans was in the news, from Biden's mention of it, and from previous CityLab stories. CityLab also had covered St. Paul, and I knew there was discussion in the State Senate and House about money being approved for the land bridge. Those were the newsworthy angles, and I went in looking at data for those."

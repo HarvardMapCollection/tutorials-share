@@ -136,7 +136,18 @@ $fa-font-path: "fonts/";
 
 h1, h2, h3{
     font-family: "truenobold";
+
 }
+
+h1{
+    padding-bottom: .35em;
+    font-size: 60px;
+}
+
+h2,h3{
+    padding-bottom: .7em;
+}
+
 
 div.date-time{
     font-family: "truenolight";
@@ -263,4 +274,12 @@ input#cse-search-input-box-id.form-control [type="text"] {
 li.nav-item{
     font-family: "truenolight";
     text-transform: uppercase;
+}
+
+figcaption.append {
+    font-family: "loraitalic";
+    text-align: center;
+    padding-bottom: 2em;
+    font-size: 19px;
+    line-height: 26px;
 }

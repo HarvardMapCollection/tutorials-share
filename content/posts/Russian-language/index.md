@@ -9,10 +9,13 @@ We met undergraduate Paige Lee while working with her general education class ab
 
 In this interview, we look at Paige’s custom-coded interactive mapping visualization, and learn more about her thought process and workflow.
 
-
+## The project
 
 <iframe width="100%" height="700" src="https://eelegiap.github.io/russophonemap/index.html" title="Paige's project" ></iframe>
+<figcaption class="append">Paige's project. Hover for interactivity.</figcaption>
 
+
+## The interview
 
 <span style="font-family:lorabold;color:#5f0217;">BELLE LIPTON:</span> Paige, could you tell us a little bit about why the topic of Russian language in post-Soviet countries was interesting to you? 
 

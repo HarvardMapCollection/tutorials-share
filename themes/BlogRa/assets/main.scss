@@ -282,3 +282,74 @@ figcaption.append {
     font-size: 19px;
     line-height: 26px;
 }
+
+/* The alert message box */
+.alert-danger, .alert-info, .alert-success, .alert-warning{
+    padding: 20px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.alert-danger {
+    background-color: #FD0314; /* Red */
+  }
+
+.alert-warning{
+    background-color: #FFC000;
+}
+
+.alert-success{
+    background-color:rgb(127,176,153);
+}
+
+.alert-info{
+    background-color: #007ABA;
+}
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
+
+  li{
+    padding-bottom: .35em;
+  }
+
+  /* spacing */
+
+
+
+table {
+	width: 100%;
+    margin-bottom: 3em;
+    margin-top:1.7em;
+    background-color: #F3F3F3;
+}
+
+th {
+    text-align: left;
+}
+
+th, td {
+	padding: 10px;
+    border-bottom: 1px solid black;
+
+}
+
+td {
+    width: 3em;
+    vertical-align: bottom;
+}
+

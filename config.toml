@@ -65,6 +65,11 @@ theme = 'BlogRa'
         name = "Connect"
         url = "/connect/"
         weight = 5
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      table = true
+
 
 [markup.goldmark.parser.attribute]
     block = true

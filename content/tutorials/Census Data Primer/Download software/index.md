@@ -1,7 +1,7 @@
 ---
 title: 1. Download the software
 date: 2022-12-20
-tags: ["tutorials"]
+tags: ["tutorials", "qgis"]
 image: map-canvas.gif
 ---
 

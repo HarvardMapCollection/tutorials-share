@@ -31,12 +31,12 @@
                     </div>
                 </div>
 
-                {{ with .Page.Params.image }}
+                <!-- {{ with .Page.Params.image }}
                 <figure>
                     {{ $image := $.Page.Resources.GetMatch . }}
                     <img id="cover-image" src={{ $image.RelPermalink }} alt="{{ $.Title }}">
                 </figure>
-                {{ end }}
+                {{ end }} -->
 
                 {{ .Content }}
 

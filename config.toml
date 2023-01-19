@@ -18,17 +18,38 @@ theme = 'BlogRa'
         name = "Tutorials"
         url = "/tutorials/"
         weight = 2
+            [[menu.main]]
+                parent = "Tutorials"
+                name = "Census"
+                url = "/tutorials/census-data-primer/"
+                weight = 1
+            [[menu.main]]
+                parent = "Tutorials"
+                name = "QGIS"
+                url = "/tags/qgis"
+                weight = 2
+
+    [[menu.main]]
+        name = "Resources"
+        url = "/resources/"
+        weight = 3
+            [[menu.main]]
+                parent = "Resources"
+                name = "Harvard Geospatial Library (HGL)"
+                url = "https://library.harvard.edu/services-tools/harvard-geospatial-library"
+                weight = 1
 
     [[menu.main]]
         identifier = "blog"
         name = "Blog"
         url = "/tags/news"
-        weight = 3
+        weight = 4
+
 
     [[menu.main]]
         name = "Connect"
         url = "/connect/"
-        weight = 4
+        weight = 5
 
 [markup.goldmark.parser.attribute]
     block = true

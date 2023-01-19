@@ -15,5 +15,5 @@ Are you already using GIS @ Harvard? Would you like to start?
 
 Email us at **maps@harvard.edu.**
 
-Stop by our GIS Office Hours every Tuesday at 10 am (Spring 2023). We meet in Lamont 310, chat about GIS, and problem solve. 
+Stop by our **[GIS Office Hours](https://libcal.library.harvard.edu/calendar/main?t=d&q=gis%20office&cid=15049&cal=15049&inc=0)** every Tuesday at 10 am (Spring 2023). We meet in Lamont 310, chat about GIS, and problem solve. 
 

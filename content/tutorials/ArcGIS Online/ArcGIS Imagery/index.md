@@ -15,7 +15,7 @@ There are a number of pathways or workflows for accomplishing this. Which one yo
 
 ## Options
 
-### Option 1: Using a map hosted as a web link
+### Option 1: Use a map hosted as a web link
 
 There are many data sources which offer maps available as `hosted web services`. For example, if you visit a georeferenced map in the University of Texas at Austin's [data portal](https://geodata.lib.utexas.edu/catalog/utaustin_121147), and select `web services`, a pop-up window with links will appear. If you copy these links to your clipboard, you can paste them into your ArcGIS Online web application, including StoryMaps or Experience Builder. To do this, see the ArcGIS Online documentation to [Add a Tile Layer](https://doc.arcgis.com/en/arcgis-online/create-maps/add-layers-from-url.htm).
 

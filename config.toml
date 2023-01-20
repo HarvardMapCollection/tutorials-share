@@ -50,14 +50,19 @@ theme = 'BlogRa'
         weight = 3
             [[menu.main]]
                 parent = "Resources"
+                name = "New to GIS"
+                url = "/resources/new-to-gis"
+                weight = 1
+            [[menu.main]]
+                parent = "Resources"
                 name = "Research Strategies"
                 url = "/resources/research-strategies"
-                weight = 1
+                weight = 2
             [[menu.main]]
                 parent = "Resources"
                 name = "Harvard Geospatial Library (HGL)"
                 url = "https://library.harvard.edu/services-tools/harvard-geospatial-library"
-                weight = 2
+                weight = 3
 
     [[menu.main]]
         identifier = "blog"
@@ -74,6 +79,7 @@ theme = 'BlogRa'
   [markup.goldmark]
     [markup.goldmark.extensions]
       table = true
+      footnote = true
 
 
 [markup.goldmark.parser.attribute]

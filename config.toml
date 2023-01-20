@@ -50,7 +50,7 @@ theme = 'BlogRa'
         weight = 3
             [[menu.main]]
                 parent = "Resources"
-                name = "GIS Research Strategies"
+                name = "Research Strategies"
                 url = "/resources/research-strategies"
                 weight = 1
             [[menu.main]]

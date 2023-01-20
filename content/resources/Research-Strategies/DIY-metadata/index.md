@@ -2,7 +2,7 @@
 title: DIY Metadata
 date: 2023-01-19
 tags: ["Resources", "Research"]
-image: gradient6.png
+image: a-gradient8.png
 layout: single2
 ---
 

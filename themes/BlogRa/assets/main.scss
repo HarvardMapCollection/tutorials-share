@@ -290,6 +290,11 @@ figcaption.append {
     margin-bottom: 15px;
 }
 
+.alert-danger a, .alert-info a, .alert-success a, .alert-warning a{
+    color: #e1d0c1;
+}
+
+
 .alert-danger {
     background-color: #FD0314; /* Red */
   }

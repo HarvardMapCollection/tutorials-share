@@ -50,7 +50,7 @@ theme = 'BlogRa'
         weight = 3
             [[menu.main]]
                 parent = "Resources"
-                name = "New to GIS"
+                name = "Introduction to GIS"
                 url = "/resources/new-to-gis"
                 weight = 1
             [[menu.main]]

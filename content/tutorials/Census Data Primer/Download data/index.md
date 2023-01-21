@@ -1,8 +1,10 @@
 ---
-title: 2. Download the data
-date: 2022-12-19
-tags: ["tutorials"]
+title: Download the data
+date: 2023-01-18
+tags: ["tutorials", "census"]
 image: farmgoat.png
+layout: single2
+
 ---
 
 

@@ -1,8 +1,10 @@
 ---
-title: 1. Download the software
-date: 2022-12-20
+title: Download the software
+date: 2023-01-19
 tags: ["tutorials", "qgis"]
 image: map-canvas.gif
+layout: single2
+
 ---
 
 Desktop GIS software is helpful when trying to make sense of census data. We will use free, open-source QGIS.

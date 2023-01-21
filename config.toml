@@ -55,14 +55,19 @@ theme = 'BlogRa'
                 weight = 1
             [[menu.main]]
                 parent = "Resources"
-                name = "Research Strategies"
-                url = "/resources/research-strategies"
+                name = "Researchers' Handbook"
+                url = "/resources/researchers-handbook"
                 weight = 2
+            [[menu.main]]
+                parent = "Resources"
+                name = "Statistical Mapping Best Practices"
+                url = "https://gistbok.ucgis.org/bok-topics/statistical-mapping-enumeration-normalization-classification"
+                weight = 3
             [[menu.main]]
                 parent = "Resources"
                 name = "Harvard Geospatial Library (HGL)"
                 url = "https://library.harvard.edu/services-tools/harvard-geospatial-library"
-                weight = 3
+                weight = 4
 
     [[menu.main]]
         identifier = "blog"

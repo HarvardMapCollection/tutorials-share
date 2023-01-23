@@ -1,11 +1,12 @@
-baseURL = 'https://harvardmapcollection.github.io/'
+baseURL = 'https://mapping.share.library.harvard.edu/'
 languageCode = 'en-us'
 title = 'GIS @ Harvard Libraries'
 theme = 'BlogRa'
 
 [params]
     description     = "Mapping news and support from the Harvard Map Collection"
-    github= "https://github.com/HarvardMapCollection/harvardmapcollection.github.io"
+    github= "https://github.com/HarvardMapCollection/tutorials-share"
+    googleAnalytics = "G-XCNRPXZNVM" 
 
 # Configure the site menu here
 [menu]
@@ -97,3 +98,5 @@ theme = 'BlogRa'
   [module.hugoVersion]
     extended = true
     min = "0.102.3"
+
+

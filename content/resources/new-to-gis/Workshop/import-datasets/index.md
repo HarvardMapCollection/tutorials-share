@@ -10,7 +10,7 @@ To review the difference between raster and vector data, visit the [Introduction
 
 ## Raster data
 
-1. If you haven't already, [download and install QGIS -- LINK]().
+1. If you haven't already, [download and install QGIS](https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-software/).
 
 2. Open QGIS.
 

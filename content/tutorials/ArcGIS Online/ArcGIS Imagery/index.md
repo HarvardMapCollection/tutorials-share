@@ -32,7 +32,7 @@ If you want to use a map from the Harvard Map Collection in your ArcGIS Online w
 | Format | Instructions |
 | --- | --- |
 | In the physical map collection, but not yet scanned | Request a scan from [maps@harvard.edu](mailto:maps@harvard.edu), then use either Option 2 or 3 on this page. |
-| Scanned and in the [Harvard Digital Collections](https://library.harvard.edu/digital-collections), but not yet georeferenced from the [Harvard Geospatial Library](https://hgl.harvard.edu/?_gl=1%2A1gaxm7z%2A_ga%2AMTk0NzAyODI4Ni4xNjY4NDYxOTEz%2A_ga_3CXC97RWEK%2AMTY3NDEzMTA5My4zNi4wLjE2NzQxMzEwOTMuNjAuMC4w&f%5Bdc_format_s%5D%5B%5D=GeoTIFF&f%5Bdct_provenance_s%5D%5B%5D=Harvard&q=&search_field=all_fields) | Use our [tutorial]() to generate a tile link layer directly from the Harvard Digital Collections. Then, use ESRI's [Add a Tile Layer documentation](https://doc.arcgis.com/en/arcgis-online/create-maps/add-layers-from-url.htm) to add it to your online map. |
+| Scanned and in the [Harvard Digital Collections](https://library.harvard.edu/digital-collections), but not yet georeferenced from the [Harvard Geospatial Library](https://hgl.harvard.edu/?_gl=1%2A1gaxm7z%2A_ga%2AMTk0NzAyODI4Ni4xNjY4NDYxOTEz%2A_ga_3CXC97RWEK%2AMTY3NDEzMTA5My4zNi4wLjE2NzQxMzEwOTMuNjAuMC4w&f%5Bdc_format_s%5D%5B%5D=GeoTIFF&f%5Bdct_provenance_s%5D%5B%5D=Harvard&q=&search_field=all_fields) | Use our [tutorial](https://mapping.share.library.harvard.edu/tutorials/georeferencing/allmaps/) to generate a tile link layer directly from the Harvard Digital Collections. Then, use ESRI's [Add a Tile Layer documentation](https://doc.arcgis.com/en/arcgis-online/create-maps/add-layers-from-url.htm) to add it to your online map. |
 | Already georeferenced and available in `GeoTIFF` format for download from the  [Harvard Geospatial Library](https://hgl.harvard.edu/?_gl=1%2A1gaxm7z%2A_ga%2AMTk0NzAyODI4Ni4xNjY4NDYxOTEz%2A_ga_3CXC97RWEK%2AMTY3NDEzMTA5My4zNi4wLjE2NzQxMzEwOTMuNjAuMC4w&f%5Bdc_format_s%5D%5B%5D=GeoTIFF&f%5Bdct_provenance_s%5D%5B%5D=Harvard&q=&search_field=all_fields)| Download the map from the Harvard Geospatial Library. Then, follow the instructions in Option 3 on this page. |
 
 
@@ -45,7 +45,7 @@ ArcGIS Pro is a desktop software made by the same company who makes ArcGIS Onlin
 
 #### Steps to use option 2
 
-1. Once you have a copy of the map as a picture on your computer (ideally a high-resolution `TIFF`, but a high-quality `.jpeg` or `.png` could also work), use our [tutorial]() to georeference the map in ArcGIS Pro. 
+1. Once you have a copy of the map as a picture on your computer (ideally a high-resolution `TIFF`, but a high-quality `.jpeg` or `.png` could also work), use our [tutorial](https://mapping.share.library.harvard.edu/tutorials/georeferencing/arcgis-pro/) to georeference the map in ArcGIS Pro. 
 The tutorial will cover how to access the software using your Harvard key.
 
 2. Publish the georeferenced map from ArcGIS Pro to ArcGIS Online using [this guide](https://doc.arcgis.com/en/arcgis-online/manage-data/publish-tiles.htm).
@@ -54,7 +54,7 @@ The tutorial will cover how to access the software using your Harvard key.
 
 If you already have a GeoTIFF, but do not yet have it hosted as a web layer, this is the best way to get your georeferenced maps into an ArcGIS Online web map. Possible scenarios where this might occur are:
 
-- You have georeferenced the map using the open source software QGIS ([tutorial]()), or otherwise want to generally avoid having to use ArcGIS Pro.
+- You have georeferenced the map using the open source software QGIS ([tutorial](https://mapping.share.library.harvard.edu/tutorials/georeferencing/qgis/)), or otherwise want to generally avoid having to use ArcGIS Pro.
 > ESRI allows you to upload `GeoTIFFs` to ArcGIS Online without using their desktop software, but once the maps are uploaded, you frustratingly cannot add them to a web map or StoryMap ([documentation](https://support.esri.com/en/technical-article/000016852)). 
 
 - You already have a `GeoTIFF`, acquired from the [Harvard Geospatial Library](https://hgl.harvard.edu/?_gl=1%2A1gaxm7z%2A_ga%2AMTk0NzAyODI4Ni4xNjY4NDYxOTEz%2A_ga_3CXC97RWEK%2AMTY3NDEzMTA5My4zNi4wLjE2NzQxMzEwOTMuNjAuMC4w&f%5Bdc_format_s%5D%5B%5D=GeoTIFF&f%5Bdct_provenance_s%5D%5B%5D=Harvard&q=&search_field=all_fields) or elsewhere, and want to bypass having to use any desktop software.

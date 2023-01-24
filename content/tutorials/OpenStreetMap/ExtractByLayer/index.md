@@ -3,6 +3,8 @@ title: Extract OpenStreetMap Layers
 date: 2023-01-18
 tags: ["tutorials", "OpenStreetMap"]
 image: subregions.gif
+authors: ["Belle Lipton"]
+description: Learn how to extract waterways, buildings, transport, places, and land use data from OpenStreetMap.
 ---
 
 In this tutorial, you will learn how to extract waterways, buildings, transport, places, and land use data from OpenStreetMap.

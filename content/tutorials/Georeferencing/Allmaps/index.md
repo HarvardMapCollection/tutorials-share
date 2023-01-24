@@ -4,6 +4,8 @@ date: 2023-01-19
 tags: ["tutorials","georeferencing", "allmaps"]
 image: 4.png
 layout: single2
+authors: ["Belle Lipton"]
+description: Learn how to use AllMaps to georeference Harvard Library Digital Collections items in the browser, to use in GIS and map making projects.
 ---
 
 1. Find the map you would like to work with in the [Harvard Libraries Digital Collections](https://library.harvard.edu/digital-collections)

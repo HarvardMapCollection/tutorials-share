@@ -26,10 +26,17 @@
             }
         }
 
+        span.authors{
+            margin-bottom: 1rem;
+            color: #4a4a4a;
+
+
+        }
+
     
         .date-time  {
             margin-bottom: 1rem;
-            .date, .time-to-read .authors {
+            .date, .time-to-read  {
                 color: #4a4a4a;
             }
         }

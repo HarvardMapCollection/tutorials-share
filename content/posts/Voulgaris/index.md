@@ -1,8 +1,10 @@
 ---
-title: Student georeferencing projects
+title: Georeferencing the historic map collections
 date: 2021-10-12
 tags: ["news"]
 image: 4.png
+authors: ["Belle Lipton"]
+description: Collaboration between Harvard Graduate School of Design's Spatial Analysis GIS project and the Harvard Map Collection.
 ---
 
 Earlier this Fall, we visited with Carole Voulgaris's Spatial Analysis class from the Graduate School of Design. 

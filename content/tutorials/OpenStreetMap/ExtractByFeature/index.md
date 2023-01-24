@@ -3,6 +3,7 @@ title: Extract OpenStreetMap features
 date: 2023-01-19
 tags: ["tutorials", "OpenStreetMap"]
 image: gradient10.png
+description: Learn how to extract OpenStreetMap features by feature type, using the QuickOSM plugin for QGIS.
 ---
 
 In the [previous OpenStreetMap (OSM) tutorial](https://harvardmapcollection.github.io/tutorials/openstreetmap/how-to-extract-openstreetmap-data-layers/), we learned how to extract a standard set of map features from [OpenStreetMap](https://www.openstreetmap.org/) including waterways, buildings, general points of interest, and roads.

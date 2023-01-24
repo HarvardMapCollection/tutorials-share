@@ -4,6 +4,7 @@ date: 2023-01-18
 tags: ["tutorials", "census"]
 image: farmgoat.png
 layout: single2
+authors: ["Belle Lipton"]
 
 ---
 

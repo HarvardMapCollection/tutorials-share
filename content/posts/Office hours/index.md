@@ -2,7 +2,9 @@
 title: Introducing GIS Office Hours
 date: 2022-12-20
 tags: ["news"]
-image: annex.jpeg
+image: a-gradient8.png
+authors: ["Belle Lipton"]
+description: New opportunity for working on GIS projects with guided support from the Harvard Map Collection.
 ---
 
 Join us Spring 2023 for weekly GIS office hours. We will meet in the Lamont media lab annex every Tuesday from 10am-12pm.

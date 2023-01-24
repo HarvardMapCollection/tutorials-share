@@ -1,9 +1,10 @@
 ---
-title: How graphics journalists approach digital mapping
+title: Map-based storytelling at Bloomberg News
 date: 2021-08-16
 tags: ["news"]
-image: 3.png
+image: digital-humanities-harvard.png
 authors: ["Belle Lipton", "Rachael Dottle"]
+description: Project scoping advice from a graphics journalist working on a  story about the history of urban renewal.
 ---
 
 <p class="callout">Skills to create beautiful and engaging maps can be strengthened in a semester, says Bloomberg graphics journalist.</p>

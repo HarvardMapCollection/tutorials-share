@@ -13,9 +13,16 @@
         <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
 
         <div class="date-time">
+            <span class="authors">
+            {{ range .Param "authors" }}
+            {{ . }}
+            &centerdot;
+            {{ end }}
+        </span>
             {{ partial "date.html" .Date }}
-            &nbsp; &centerdot; &nbsp;
+            &centerdot;
             {{ partial "time-to-read.html" .}}
+
         </div>
 
         <p class="summary">

@@ -3,6 +3,7 @@ title: Mapping projects at Harvard, Russian language speakers in post-Soviet cou
 date: 2023-01-13
 tags: ["news"]
 image: cover.png
+authors: ["Belle Lipton", "Paige Lee"]
 ---
 
 We met undergraduate Paige Lee while working with her general education class about how borders are constructed. In the class, students were asked to complete a project, choosing from a variety of format options, including making a map. The Harvard Map Collection supported students by advising on searching for data, using mapping software, and scoping out project ideas.

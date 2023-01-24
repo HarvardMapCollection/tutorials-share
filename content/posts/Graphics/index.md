@@ -3,6 +3,7 @@ title: How graphics journalists approach digital mapping
 date: 2021-08-16
 tags: ["news"]
 image: 3.png
+authors: ["Belle Lipton", "Rachael Dottle"]
 ---
 
 <p class="callout">Skills to create beautiful and engaging maps can be strengthened in a semester, says Bloomberg graphics journalist.</p>

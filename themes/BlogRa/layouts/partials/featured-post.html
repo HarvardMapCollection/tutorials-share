@@ -31,7 +31,12 @@
         <div class="low-tab">
             {{ partial "date.html" .context.Date }}
             &nbsp; <b>&centerdot;</b> &nbsp;
+            {{ range .context.Params.authors }}
+            {{ . }}
+            &nbsp; <b>&centerdot;</b> &nbsp;
+            {{ end }}
             {{ partial "time-to-read.html" .context}}
+            
         </div>
     </div>
 </div>

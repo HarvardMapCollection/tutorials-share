@@ -16,13 +16,17 @@
 
                 <div class="container-fluid px-0 mb-4">
                     <div class="row align-items-end">
-                        <div class="col-md-4 date-time">
+                        <div class="col-md-8 date-time">
+                            {{ range .Param "authors" }}
+                                {{ . }}
+                                &centerdot;
+                            {{ end }}
                             {{ partial "date.html" .Date }}
                             &centerdot;
                             {{ partial "time-to-read.html" .}}
                         </div>
 
-                        <div class="col-md-8 tags ">
+                        <div class="col-md-4 tags ">
                             {{ range .Params.tags }}
                             <a href="{{ "/tags/" | relURL }}{{ . | urlize }}"><span
                                     class="tag bg-dark">{{ . }}</span></a>

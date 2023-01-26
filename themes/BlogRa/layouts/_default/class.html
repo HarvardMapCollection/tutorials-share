@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+<main class="blog-content">
+    <div class="container-md">
+        <div class="row">
+            <div class="col-lg-11 offset-lg-1 px-lg-4">
+                <h1 class="title">{{ .Title | title }}</h1>
+                <div class="slides">
+                    {{ .Content }}
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+{{ end }}

@@ -2,5 +2,5 @@
 title: FAS Government
 image: a-gradient1.png
 date: 2022-01-17
-description: Course materials for GIS Instruction from the Harvard Map Collection.
+description: Geographic Information Systems (GIS) outreach materials for FAS Government.
 ---

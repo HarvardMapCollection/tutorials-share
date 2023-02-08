@@ -7,7 +7,7 @@ layout: single2
 description: Links to data and slides for the in-person version of Introduction to GIS from the Harvard Map Collection.
 ---
 
-`https://bit.ly/3Sfgpz8`
+`https://bit.ly/3YeQ2MZ`
 
 [Slides](https://www.canva.com/design/DAFMSShvkmY/f5HGG-a9NcqjWp6SI85vvg/view?utm_content=DAFMSShvkmY&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent)
 

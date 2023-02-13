@@ -7,6 +7,8 @@ authors: ["Belle Lipton"]
 description: New opportunity for working on GIS projects with guided support from the Harvard Map Collection.
 ---
 
+![Picture of something](annex.jpeg)
+
 Join us Spring 2023 for weekly GIS office hours. We will meet in the Lamont media lab annex every Tuesday from 10am-12pm.
 
 ## What to expect

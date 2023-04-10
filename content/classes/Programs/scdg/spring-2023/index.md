@@ -10,7 +10,8 @@ layout: class
 
 - Kelly
 
-- Joyce
+<iframe width="100%" height="700" src="https://iiif.lib.harvard.edu/manifests/view/drs:459291544$3i" title="Rewilding Harvard" ></iframe>
+<figcaption class="append"><a href="https://hollisarchives.lib.harvard.edu/repositories/4/resources/4258/digital_only">Drawings and sketches by W.D. Peck, 1793-1807, Harvard University Archives.</a></figcaption>
 
 ## What else
 

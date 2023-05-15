@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><title>
+    
+    Mindful Representation | 
+    
+    GIS @ Harvard Libraries
+</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="https://mapping.share.library.harvard.edu/tutorials/census-data-primer/normalize-a-dataset/" />
+<link rel="icon" type="image/png" href="https://mapping.share.library.harvard.edu/image/favicon.ico">
+
+
+<meta name="description" content="
+    Ensure your dataset is prepared in a way that permits you to make clear and responsible arguments when you are mapping. To cover your bases, read through this guide on statistical mapping best practices .
+In this tutorial, we will cover one common data cleaning task &ndash; that of &ldquo;normalizing&rdquo; data.
+&ldquo;To normalize, in a statistical sense, is to transform a set of measurements so that they may be compared in a meaningful way.
+    "
+/>
+<meta property="og:description" content="
+    Ensure your dataset is prepared in a way that permits you to make clear and responsible arguments when you are mapping. To cover your bases, read through this guide on statistical mapping best practices .
+In this tutorial, we will cover one common data cleaning task &ndash; that of &ldquo;normalizing&rdquo; data.
+&ldquo;To normalize, in a statistical sense, is to transform a set of measurements so that they may be compared in a meaningful way.
+    " 
+/>
+
+
+<meta property="og:image" content="https://mapping.share.library.harvard.edu/tutorials/census-data-primer/normalize-a-dataset/mindful.png" />
+
+
+
+
+
+
+<meta property="og:title" content="Mindful representation" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mapping.share.library.harvard.edu/tutorials/census-data-primer/normalize-a-dataset/" /><meta property="article:section" content="tutorials" />
+<meta property="article:published_time" content="2023-01-15T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-01-15T00:00:00+00:00" />
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Mindful representation"/>
+<meta name="twitter:description" content="Ensure your dataset is prepared in a way that permits you to make clear and responsible arguments when you are mapping. To cover your bases, read through this guide on statistical mapping best practices .
+In this tutorial, we will cover one common data cleaning task &ndash; that of &ldquo;normalizing&rdquo; data.
+&ldquo;To normalize, in a statistical sense, is to transform a set of measurements so that they may be compared in a meaningful way."/>
+
+<meta itemprop="name" content="Mindful representation">
+<meta itemprop="description" content="Ensure your dataset is prepared in a way that permits you to make clear and responsible arguments when you are mapping. To cover your bases, read through this guide on statistical mapping best practices .
+In this tutorial, we will cover one common data cleaning task &ndash; that of &ldquo;normalizing&rdquo; data.
+&ldquo;To normalize, in a statistical sense, is to transform a set of measurements so that they may be compared in a meaningful way."><meta itemprop="datePublished" content="2023-01-15T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-01-15T00:00:00+00:00" />
+<meta itemprop="wordCount" content="349">
+<meta itemprop="keywords" content="tutorials,census,qgis," />
+
+
+
+
+<link rel="stylesheet" href="/main.min.css">
+<link rel="stylesheet" href="https://use.typekit.net/yiq3yrx.css">
+<link rel="stylesheet" href="/typekit/stylesheet.css">
+
+
+
+
+
+<script src="/bundle.js"></script>
+
+
+
+
+
+
+
+<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XCNRPXZNVM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XCNRPXZNVM');
+</script>
+
+
+
+<link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
+  <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-55D9M4Z');</script>
+
+
+
+
+
+</head>
+
+<body><header id="header">
+  <div class="top-bar">
+    <div class="container-md">
+
+      <div class="row align-items-center">
+
+        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
+          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <i class="fas fa-bars"></i> Menu
+          </button>
+        </div>
+
+        <div class="col-12 col-sm-12">
+          <h2 class="title"><a href="/">GIS @ Harvard Libraries</a></h2>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-md">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+
+
+
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/">
+              Home
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Tutorials
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/tags/arcgis/">ArcGIS</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tutorials/census-data-primer/">Census</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/georeferencing/">Georeferencing</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/openstreetmap/">OpenStreetMap (OSM)</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/qgis/">QGIS</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Resources
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/resources/new-to-gis">Introduction to GIS</a>
+              
+              
+              
+                <a class="dropdown-item" href="/resources/researchers-handbook">Researchers&#39; Handbook</a>
+              
+              
+              
+                <a class="dropdown-item" href="https://gistbok.ucgis.org/bok-topics/statistical-mapping-enumeration-normalization-classification">Statistical Mapping Best Practices</a>
+              
+              
+              
+                <a class="dropdown-item" href="https://library.harvard.edu/services-tools/harvard-geospatial-library">Harvard Geospatial Library (HGL)</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/tags/news">
+              Blog
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/connect/">
+              Connect
+            </a>
+          </li>
+          
+          
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="blog-content">
+    <div class="container-md">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 px-lg-4">
+                <h1 class="title">Mindful Representation</h1>
+                <p>Ensure your dataset is prepared in a way that permits you to make clear and responsible arguments when you are mapping. To cover your bases, read through this guide on <a href="https://gistbok.ucgis.org/bok-topics/statistical-mapping-enumeration-normalization-classification" target="_blank">statistical mapping best practices</a>
+.</p>
+<p>In this tutorial, we will cover one common data cleaning task &ndash; that of &ldquo;normalizing&rdquo; data.</p>
+<blockquote>
+<p>&ldquo;To normalize, in a statistical sense, is to transform a set of measurements so that they may be compared in a meaningful way. Technically, normalization involves factoring out the size of the domain when you wish to compare counts collected over unequal areas or populations. Normalization transforms measures of magnitude (counts or weights) into measures of intensity.&rdquo; - <a href="https://www.pbcgis.com/normalize/" target="_blank">pcbgis.com</a>
+</p>
+</blockquote>
+<p>This tutorial will cover how to turn counts into percents in QGIS.</p>
+<h2 id="normalization-sample-data">Normalization sample data</h2>
+<p>Download the sample data, <a href="https://downgit.github.io/#/home?url=https://github.com/HarvardMapCollection/tutorials/blob/main/sample-data/cambridge-tenure-counts.geojson" target="_blank">tenure by census tract in Cambridge, MA</a>
+.</p>
+<h2 id="normalization-steps">Normalization steps</h2>
+<ol>
+<li>
+<p>Right click the tenure data layer in the layer list and select <code>Open Attribute Table</code>.</p>
+</li>
+<li>
+<p>Scroll all the way to the right to find the three census variables we will be working with. Note their names, something along the lines of <code>tenure-2019_SE_A10060_001</code>, <code>tenure-2019_SE_A10060_002</code>, and <code>tenure-2019_SE_A10060_003</code>. From the <a href="https://github.com/HarvardMapCollection/tutorials/blob/main/sample-data/tenure-2019-codebook.txt" target="_blank">codebook which came along with the download</a>
+ we know that these fields are the total number of housing units, the <em>number</em> (or count) of owner-occupied units, and the number of renter-occupied units. We need to use these fields to create new <em>percent</em> fields.</p>
+</li>
+<li>
+<p>Select the menu icon that looks like an abacus called <code>Open field calculator</code>.</p>
+</li>
+<li>
+<p>Ensure <code>Create a new field</code> is checked <strong>on</strong>.</p>
+</li>
+<li>
+<p>Under <code>Output field name</code>, name the field <code>OwnerPct</code>.</p>
+</li>
+<li>
+<p>Under <code>Output field type</code>, select <code>Decimal number (real)</code>.</p>
+</li>
+<li>
+<p>In the expression box type <code>(&quot;tenure-2019_SE_A10060_002&quot; / &quot;tenure-2019_SE_A10060_001&quot;) * 100</code>.</p>
+</li>
+</ol>
+<blockquote>
+<p>You will know your expression is valid if under the expression box there is an <code>Output preview</code> with a value that looks like a valid percentage.</p>
+</blockquote>
+<ol start="8">
+<li>
+<p>Select <code>OK</code> and scroll to the right of the attribute table to ensure your new field has populated.</p>
+</li>
+<li>
+<p>Repeat steps 3-8 for the renter occupied variable.</p>
+</li>
+</ol>
+<div class="alert-danger">
+  <strong>Important!</strong> Make sure to save your newly created columns by toggling the editing mode pencil icon in the attribute table menu.
+</div>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+
+</body>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-55D9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+</html>

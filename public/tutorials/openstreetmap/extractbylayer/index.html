@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><title>
+    
+    Extract OpenStreetMap Layers | 
+    
+    GIS @ Harvard Libraries
+</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbylayer/" />
+<link rel="icon" type="image/png" href="https://mapping.share.library.harvard.edu/image/favicon.ico">
+
+
+<meta name="description" content="
+    Learn how to extract waterways, buildings, transport, places, and land use data from OpenStreetMap.
+    "
+/>
+<meta property="og:description" content="
+    Learn how to extract waterways, buildings, transport, places, and land use data from OpenStreetMap.
+    " 
+/>
+
+
+<meta property="og:image" content="https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbylayer/subregions.gif" />
+
+
+
+
+
+
+<meta property="og:title" content="Extract OpenStreetMap Layers" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbylayer/" /><meta property="article:section" content="tutorials" />
+<meta property="article:published_time" content="2023-01-18T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-01-18T00:00:00+00:00" />
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Extract OpenStreetMap Layers"/>
+<meta name="twitter:description" content="Learn how to extract waterways, buildings, transport, places, and land use data from OpenStreetMap."/>
+
+<meta itemprop="name" content="Extract OpenStreetMap Layers">
+<meta itemprop="description" content="Learn how to extract waterways, buildings, transport, places, and land use data from OpenStreetMap."><meta itemprop="datePublished" content="2023-01-18T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-01-18T00:00:00+00:00" />
+<meta itemprop="wordCount" content="506">
+<meta itemprop="keywords" content="tutorials,OpenStreetMap," />
+
+
+
+
+<link rel="stylesheet" href="/main.min.css">
+<link rel="stylesheet" href="https://use.typekit.net/yiq3yrx.css">
+<link rel="stylesheet" href="/typekit/stylesheet.css">
+
+
+
+
+
+<script src="/bundle.js"></script>
+
+
+
+
+
+
+
+<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XCNRPXZNVM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XCNRPXZNVM');
+</script>
+
+
+
+<link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
+  <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-55D9M4Z');</script>
+
+
+
+
+
+</head>
+
+<body><header id="header">
+  <div class="top-bar">
+    <div class="container-md">
+
+      <div class="row align-items-center">
+
+        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
+          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <i class="fas fa-bars"></i> Menu
+          </button>
+        </div>
+
+        <div class="col-12 col-sm-12">
+          <h2 class="title"><a href="/">GIS @ Harvard Libraries</a></h2>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-md">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+
+
+
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/">
+              Home
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Tutorials
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/tags/arcgis/">ArcGIS</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tutorials/census-data-primer/">Census</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/georeferencing/">Georeferencing</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/openstreetmap/">OpenStreetMap (OSM)</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/qgis/">QGIS</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Resources
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/resources/new-to-gis">Introduction to GIS</a>
+              
+              
+              
+                <a class="dropdown-item" href="/resources/researchers-handbook">Researchers&#39; Handbook</a>
+              
+              
+              
+                <a class="dropdown-item" href="https://gistbok.ucgis.org/bok-topics/statistical-mapping-enumeration-normalization-classification">Statistical Mapping Best Practices</a>
+              
+              
+              
+                <a class="dropdown-item" href="https://library.harvard.edu/services-tools/harvard-geospatial-library">Harvard Geospatial Library (HGL)</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/tags/news">
+              Blog
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/connect/">
+              Connect
+            </a>
+          </li>
+          
+          
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="blog-content">
+    <div class="container-md">
+        <div class="row">
+            
+            <div class="col-lg-2 d-none d-xl-block">
+                <div class="ad-left-offset"></div>
+                
+            </div>
+
+            <div class="col-md-12 col-lg-8 px-lg-4">
+                
+
+                <h1 class="title">Extract OpenStreetMap Layers</h1>
+
+                <div class="container-fluid px-0 mb-4">
+                    <div class="row align-items-end">
+                        <div class="col-md-8 date-time">
+                            
+                                Belle Lipton
+                                &centerdot;
+                            
+                            <span class="date">
+    Jan 18, 2023
+</span>
+                            &centerdot;
+                            <span class="time-to-read">
+    3 mins read</span>
+                        </div>
+
+                        <div class="col-md-4 tags ">
+                            
+                            <a href="/tags/tutorials"><span
+                                    class="tag bg-dark">tutorials</span></a>
+                            
+                            <a href="/tags/openstreetmap"><span
+                                    class="tag bg-dark">OpenStreetMap</span></a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <p>In this tutorial, you will learn how to extract waterways, buildings, transport, places, and land use data from OpenStreetMap.</p>
+<p>As a GIS user, you may encounter scenarios where data about a place&rsquo;s built and natural environment is challenging to find.</p>
+<p>Depending on the administrative resources of the place you are studying, GIS data may be more or less available for that place.</p>
+<p><a href="https://www.openstreetmap.org/#map=12/45.4284/12.2597" target="_blank">OpenStreetMap (OSM)</a>
+ can sometimes be a solution to that problem &ndash; with some important caveats.</p>
+<p>This tutorial will explain:</p>
+<ol>
+<li>What OpenStreetMap data is</li>
+<li>When you should and shouldn&rsquo;t use it</li>
+<li>How to go about downloading the data</li>
+</ol>
+<h2 id="what-is-openstreetmap">What is OpenStreetMap?</h2>
+<p><img src="media/3.png" alt="Screenshot of OpenStreetMap website zoomed in to show all the different roads, water features, places of interest, etc"></p>
+<p><a href="https://www.openstreetmap.org/#map=12/45.4284/12.2597" target="_blank">OpenStreetMap (OSM)</a>
+ is a mapping tool powered by <em>crowd-contributed</em> data. You can think of OSM as the Wikipedia of GIS mapping &ndash; you can usually find decent geospatial information about most locations here, but should bring the same level of healthy skepticism you would approach a Wikipedia article with.</p>
+<p>OpenStreetMap allows users all over the world to add or edit data features about a place. You can also download this information, and use it in any spatial software which supports <a href="https://sites.udel.edu/gis/file-formats-for-gis/" target="_blank">common GIS file formats</a>
+ (shapefiles, geoJSON, etc.).</p>
+<p>Using OSM data extracts can be a great way to find data about the roads, rivers, trails, buildings, and other features of a place, when you are having a hard time finding official datasets created and published by administrative managers of that place.</p>
+<h2 id="when-is-it-appropriate-to-use-openstreetmap-data">When is it appropriate to use OpenStreetMap data?</h2>
+<p>Because the data is crowd-contributed, if you are doing serious research and it is absolutely integral to your project to have verifiable data sources, replete with sound data collection methodology, you should <em>not</em> use OpenStreetMap data.</p>
+<p>Alternatively, if you are looking for some quick baselayers to get your project started, or to get a rough visual sense of a place, extracting data from OpenStreetLayers is a great option.</p>
+<h2 id="step-by-step-guide-to-downloading-osm-data">Step-by-step guide to downloading OSM data</h2>
+<ol>
+<li>
+<p><strong>Visit <a href="https://download.geofabrik.de/" target="_blank">GeoFabrik</a>
+</strong>, a tool providing OSM data which is updated on a daily basis.</p>
+<p><em>Remember, this data is crowd-contributed, so it changes every day.</em></p>
+</li>
+<li>
+<p><strong>Select the appropriate <code>sub-region</code></strong>.</p>
+<p>For this particular example, we are searching for data for Venice, Italy, so we will select <code>Europe</code>.</p>
+</li>
+</ol>
+<p><img src="media/1.png" alt="Screenshot of subregions option from GeoFabrik data extract website."></p>
+<ol start="3">
+<li>
+<p><strong>Select the additional <code>sub-region</code></strong>.</p>
+<p>Venice is in the Northeast of Italy, so we will select <code>Nord-Est</code>.</p>
+</li>
+</ol>
+<p><img src="media/2.png" alt="Screenshot of subregions option from GeoFabrik data extract website."></p>
+<h3 id="tip">Tip</h3>
+<p>If you hover over the available sub-regions, the map will preview the extract extent.</p>
+<p><img src="media/subregions.gif" alt="Data extract extent preview"></p>
+<ol start="4">
+<li>
+<p>To use this data in a typical desktop GIS environment such as <code>ArcGIS Pro</code> or <code>QGIS</code>, <strong>select the <code>.shp.zip</code></strong> quick link. This will download the data to your computer.</p>
+<p>The data comes downloaded in multiple layers, each representing a different kind of data. For instance, you will find:</p>
+<ul>
+<li>waterways</li>
+<li>transport</li>
+<li>places</li>
+<li>land use</li>
+<li>buildings</li>
+</ul>
+<p>Each of these layers is available as a <a href="https://cartinal.leventhalmap.org/guides/file-formats.html#shapefile" target="_blank">shapefile</a>
+ you can use in the GIS software.</p>
+</li>
+</ol>
+<p>Also included in the download is a <code>README</code> file, which links out to documentation. In the documentation, you can read the data attributes and understand how to interpret the data.</p>
+<p>The documentation is availble as <a href="http://download.geofabrik.de/osm-data-in-gis-formats-free.pdf" target="_blank">a PDF, OpenStreetMap Data in Layered GIS Data Format</a>
+.</p>
+
+
+
+                
+                <br>
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    (function () {
+        
+        
+        if (window.location.hostname == "localhost")
+            return;
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = '';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>
+
+            <div class="col-lg-2 d-none d-xl-block">
+                <div class="ad-right-offset"></div>
+                
+            </div>
+        </div>
+    </div>
+</main>
+
+
+</body>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-55D9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+</html>

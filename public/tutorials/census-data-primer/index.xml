@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Census data primer on GIS @ Harvard Libraries</title>
+    <link>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/</link>
+    <description>Recent content in Census data primer on GIS @ Harvard Libraries</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tutorials/census-data-primer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Census series introduction</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/introduction/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/introduction/</guid>
+      <description>The census series will equip you with all of the skills necessary to work with census data for digital mapping.
+The United States census is a huge topic, and you may or may not have worked with census data before.
+Being able to navigate census data GIS files, and handle them in a way compatible with digital mapping is not intuitive, and this tutorial series is designed to set you up to be confident making census maps with GIS.</description>
+    </item>
+    
+    <item>
+      <title>Download the software</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-software/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-software/</guid>
+      <description>Desktop GIS software is helpful when trying to make sense of census data. We will use free, open-source QGIS.
+How to Download QGIS QGIS is a free and open source desktop GIS software used to create, edit, visualize, analyze, and publish geospatial information on Windows, Mac, Linux, BSD and mobile devices.
+How to Download Visit QGIS.org .
+Select Download Now.
+Select your desired platform.
+Tips If you have the option between many installer packages, choose Standalone Long Term Release To learn your way around the QGIS interface, you can check out these resources: Understanding the QGIS Interface QGIS Documentation Warning If you get an error message that Apple can&amp;rsquo;t check the app for malicious software, you can follow these instructions , by right-clicking the application and selecting Open.</description>
+    </item>
+    
+    <item>
+      <title>Download the data</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-data/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-data/</guid>
+      <description>Example data We will be exploring tenure data, which looks at owner vs. renter-occupied units. We want census responses that have been aggregated to the census tract level. Our area of study is near the Harvard campus, in Somerville and Cambridge. We&amp;rsquo;ll be looking at the most recent estimates at the time this guide was written, 2015-2019. Geography tip: Census tracts are a popular aggregation unit, as they are more granular than county or state level data, but more available and statistically-reliable than block level data.</description>
+    </item>
+    
+    <item>
+      <title>Perform a table join</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/perform-a-table-join/</link>
+      <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/perform-a-table-join/</guid>
+      <description>Need help turning your spreadsheet data into a map? In this tutorial you will learn how to join tables to GIS shapefiles to create a new, mappable dataset with both geographic boundaries and statistical or attribute information.
+Why do we join? Often, spreadsheets contain useful information we want to map. GIS software, however, does not know how to translate a spreadsheet without any inherent spatial information (such as point coordinates) into a visual map.</description>
+    </item>
+    
+    <item>
+      <title>Clip a dataset</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/clip-a-dataset/</link>
+      <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/clip-a-dataset/</guid>
+      <description>Clipping is a way of cropping GIS data to a certain extent.
+1
+Why do we clip? Large datasets can be unwieldy and difficult to work with. You can create more effective visualizations if your data is focused. Tutorial data In this tutorial you will clip a shapefile of all census tracts in the United States to create a new shapefile of only census tracts in Cambridge, Massachusetts. For those who are following the census data tutorial series , we will be using the United States Census Tracts file we just created.</description>
+    </item>
+    
+    <item>
+      <title>Mindful representation</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/normalize-a-dataset/</link>
+      <pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/normalize-a-dataset/</guid>
+      <description>Ensure your dataset is prepared in a way that permits you to make clear and responsible arguments when you are mapping. To cover your bases, read through this guide on statistical mapping best practices .
+In this tutorial, we will cover one common data cleaning task &amp;ndash; that of &amp;ldquo;normalizing&amp;rdquo; data.
+&amp;ldquo;To normalize, in a statistical sense, is to transform a set of measurements so that they may be compared in a meaningful way.</description>
+    </item>
+    
+    <item>
+      <title>Style the data</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/style-the-data/</link>
+      <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/style-the-data/</guid>
+      <description>Depending on whether you plan to make a static map, or there is some necessary interactive functionality required, the steps towards stying the map may be a bit different.
+To create a rendered static map using QGIS, we recommend exploring the Points Unknown tutorials , each of which contains beginner-level tips for using QGIS to create maps with a nice design. You can skim these tutorials to glean recommended settings for using the Print Layout in QGIS.</description>
+    </item>
+    
+  </channel>
+</rss>

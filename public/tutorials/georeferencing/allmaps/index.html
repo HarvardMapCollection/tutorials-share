@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><title>
+    
+    Georeference Library Digital Collections Using Allmaps | 
+    
+    GIS @ Harvard Libraries
+</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="https://mapping.share.library.harvard.edu/tutorials/georeferencing/allmaps/" />
+<link rel="icon" type="image/png" href="https://mapping.share.library.harvard.edu/image/favicon.ico">
+
+
+<meta name="description" content="
+    Learn how to use AllMaps to georeference Harvard Library Digital Collections items in the browser, to use in GIS and map making projects.
+    "
+/>
+<meta property="og:description" content="
+    Learn how to use AllMaps to georeference Harvard Library Digital Collections items in the browser, to use in GIS and map making projects.
+    " 
+/>
+
+
+<meta property="og:image" content="https://mapping.share.library.harvard.edu/tutorials/georeferencing/allmaps/4.png" />
+
+
+
+
+
+
+<meta property="og:title" content="Georeference library digital collections using Allmaps" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mapping.share.library.harvard.edu/tutorials/georeferencing/allmaps/" /><meta property="article:section" content="tutorials" />
+<meta property="article:published_time" content="2023-01-19T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-01-19T00:00:00+00:00" />
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Georeference library digital collections using Allmaps"/>
+<meta name="twitter:description" content="Learn how to use AllMaps to georeference Harvard Library Digital Collections items in the browser, to use in GIS and map making projects."/>
+
+<meta itemprop="name" content="Georeference library digital collections using Allmaps">
+<meta itemprop="description" content="Learn how to use AllMaps to georeference Harvard Library Digital Collections items in the browser, to use in GIS and map making projects."><meta itemprop="datePublished" content="2023-01-19T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-01-19T00:00:00+00:00" />
+<meta itemprop="wordCount" content="925">
+<meta itemprop="keywords" content="tutorials,georeferencing,allmaps," />
+
+
+
+
+<link rel="stylesheet" href="/main.min.css">
+<link rel="stylesheet" href="https://use.typekit.net/yiq3yrx.css">
+<link rel="stylesheet" href="/typekit/stylesheet.css">
+
+
+
+
+
+<script src="/bundle.js"></script>
+
+
+
+
+
+
+
+<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XCNRPXZNVM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XCNRPXZNVM');
+</script>
+
+
+
+<link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
+  <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-55D9M4Z');</script>
+
+
+
+
+
+</head>
+
+<body><header id="header">
+  <div class="top-bar">
+    <div class="container-md">
+
+      <div class="row align-items-center">
+
+        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
+          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <i class="fas fa-bars"></i> Menu
+          </button>
+        </div>
+
+        <div class="col-12 col-sm-12">
+          <h2 class="title"><a href="/">GIS @ Harvard Libraries</a></h2>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-md">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+
+
+
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/">
+              Home
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Tutorials
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/tags/arcgis/">ArcGIS</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tutorials/census-data-primer/">Census</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/georeferencing/">Georeferencing</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/openstreetmap/">OpenStreetMap (OSM)</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/qgis/">QGIS</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Resources
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/resources/new-to-gis">Introduction to GIS</a>
+              
+              
+              
+                <a class="dropdown-item" href="/resources/researchers-handbook">Researchers&#39; Handbook</a>
+              
+              
+              
+                <a class="dropdown-item" href="https://gistbok.ucgis.org/bok-topics/statistical-mapping-enumeration-normalization-classification">Statistical Mapping Best Practices</a>
+              
+              
+              
+                <a class="dropdown-item" href="https://library.harvard.edu/services-tools/harvard-geospatial-library">Harvard Geospatial Library (HGL)</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/tags/news">
+              Blog
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/connect/">
+              Connect
+            </a>
+          </li>
+          
+          
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="blog-content">
+    <div class="container-md">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 px-lg-4">
+                <h1 class="title">Georeference Library Digital Collections Using Allmaps</h1>
+                <h2 id="topics-covered-by-this-guide">Topics covered by this guide</h2>
+<ul>
+<li>Select a map to georeference from the Harvard Libraries&rsquo; digital collections</li>
+<li>Repeat the process for maps in any library digital collection</li>
+<li>Learn how to georeference with free browser tool, <a href="https://allmaps.org/" target="_blank">AllMaps</a>
+</li>
+<li>How to use the georeferenced map with the rest of your project</li>
+</ul>
+<h2 id="select-a-map-to-georeference-from-the-harvard-libraries-digital-collections">Select a map to georeference from the Harvard Libraries&rsquo; digital collections</h2>
+<ol>
+<li>Find the map you would like to work with in the <a href="https://library.harvard.edu/digital-collections" target="_blank">Harvard Libraries Digital Collections</a>
+</li>
+</ol>
+<div class="alert-success">
+Filter results by selecting <code>Type: Map</code> or <code>Repository: Map Coll (Pusey)</code>
+</div>
+<ol start="2">
+<li>
+<p>In the top-right corner of the image viewer, select the metadata Tooltip by clicking the <code>i</code> icon.
+<img src="media/1.png" alt="Digital collections image viewer with a red box around the metadata Tooltip represented by an i icon in the upper-right corner"></p>
+</li>
+<li>
+<p>Scroll to the bottom of the popup window and under <code>Links → Manifest</code>, copy the manifest URL.</p>
+</li>
+</ol>
+<div class="alert-success">
+<h3>Example IIIF Manifest</h3>
+<ul>
+<li><a href="https://iiif.lib.harvard.edu/manifests/ids:12216977">https://iiif.lib.harvard.edu/manifests/ids:12216977</a></li>
+<li>If the map you are interested has not been scanned, you are working with a multi-page book, or otherwise need help finding the manifest URL, contact us at <strong>maps@harvard.edu</strong>.</li>
+</ul>
+<img src="media/2.png" alt="Digital colletions image viewer with metadata tooltip open, showing a highlighted manifest URL">
+</div>
+<ol start="4">
+<li>Navigate to the <a href="https://editor.allmaps.org/#/" target="_blank">AllMaps.org Editor</a>
+</li>
+</ol>
+<div class="alert-success">AllMaps is a free, open-source software for georeferencing maps in the browser.</div>
+<ol start="5">
+<li>Paste the map&rsquo;s IIIF manifest URL into the input box and select <code>Load</code>.
+<img src="media/3.png" alt="Screenshot of the AllMaps.org editor input box with the map manifest URL pasted in."></li>
+</ol>
+<h2 id="repeat-the-process-for-maps-in-any-library-digital-collection">Repeat the process for maps in any library digital collection</h2>
+<p>It is necessary to copy one of these links, called a <code>IIIF manifest</code> in order to georeference the map using AllMaps. Most libraries host their digital maps using IIIF, but they don&rsquo;t always put the manifest link in the same place.</p>
+<p>For example, in this guide from the Library of Congress, librarians instruct you to scroll to the bottom of the page to find the link.</p>
+<p><img src="media/loc.png" alt="Screenshot of LOC IIIF instructions.">
+<em><a href="https://iiif.io/guides/guides/loc.gov/" target="_blank">Get Started Guides: Library of Congress</a>
+</em></p>
+<p>If you only plan to use maps from the Harvard Map Collection in your project, you can skip this section and head to <a href="#learn-how-to-georeference-with-free-browser-tool-allmaps">learn how to georeference with free browser tool, Allmaps</a>
+.</p>
+<p>If you plan to georeference maps from many different library collections, it might be worthwhile installing the chrome extension, <a href="https://chrome.google.com/webstore/detail/detektiiif2/aaodcobgcadinjipaocibamdfcffpcpp" target="_blank">detektIIIF2</a>
+. This extension will generate the correct link for georeferencing, regardless of which library&rsquo;s collections you are using.</p>
+<h3 id="using-detektiiif2">Using detekTIIIF2</h3>
+<ol>
+<li>
+<p>Install <a href="https://chrome.google.com/webstore/detail/detektiiif2/aaodcobgcadinjipaocibamdfcffpcpp" target="_blank">the extension</a>
+.</p>
+</li>
+<li>
+<p>Visit a map in a digital collections. There are <a href="https://collections.lib.uwm.edu/digital/collection/agdm/search/searchterm/?CISOBOX1=" target="_blank">over 19,000 maps digitized in the  American Geographical Society Library (AGSL) digital collections</a>
+.</p>
+</li>
+</ol>
+<p><img src="media/map-of-louisiana.png" alt="Screenshot of LOC IIIF instructions.">
+<em>Map of Louisiana in the <a href="https://collections.lib.uwm.edu/digital/collection/agdm/id/21336/rec/1" target="_blank">AGSL digital collections</a>
+.</em></p>
+<ol start="3">
+<li>With the <a href="https://chrome.google.com/webstore/detail/detektiiif2/aaodcobgcadinjipaocibamdfcffpcpp" target="_blank">detektIIIF2 Chrome extension</a>
+ enabled, click on the extension from your Chrome extensions list.</li>
+</ol>
+<p><img src="media/extensions.png" alt="Google Chrome extensions"></p>
+<ol start="4">
+<li>
+<p>Here, you can copy the manifest URL to your clipboard, which you can paste into the <a href="">AllMaps editor</a>
+.
+<img src="media/detektiiif.png" alt="Detektiiif manifest copier"></p>
+</li>
+<li>
+<p>If a manifest URL isn&rsquo;t immediately detected, trying expanding the map viewer. For example, in the <a href="https://collections.leventhalmap.org/search?utf8=%E2%9C%93&amp;q=" target="_blank">Leventhal Map and Education Center digital collections</a>
+ &ndash; which feature nearly 12,000 digitized maps, many of Boston, Cambridge, and New England &ndash; you must expand the map viewer to full-screen for the detektIIIF extension to work.</p>
+</li>
+</ol>
+<p><img src="media/full-screen-lmec.gif" alt="expanding the map viewer to big"></p>
+<p>Once the viewer is expanded, when you click the <code>detektIIIF</code> icon and pan over to the <code>IMAGES</code> tab, you&rsquo;ll find a link you can copy into the AllMaps editor.
+<img src="media/lmec-detektiiif.png" alt="images tab in detektiiif"></p>
+<h2 id="learn-how-to-georeference-with-free-browser-tool-allmaps">Learn how to georeference with free browser tool, AllMaps</h2>
+<p>Use the <code>mask</code> tab to crop out marginalia, if necessary, and the <code>georeference</code> tab to assign control points between the map on the left, and the baselayer on the right. Start with at least three control points, evenly distributed at equidistant spots around the map. You can add a few more, for more specificity. Click the <code>results</code> tab to check the results.
+<img src="media/4.png" alt="Screenshot of a map being georeferenced in the AllMaps editor."></p>
+<div class="alert-danger">
+Right now, AllMaps works best for larger-scale maps, or maps that show a smaller area, in more detail. If you need more robust transformations for small-scale maps, you might try one of our <a href="https://mapping.share.library.harvard.edu/tags/georeferencing/">other georeferencing guides</a>. <a href="http://www.geo.hunter.cuny.edu/~jochen/gtech361/lectures/lecture02/concepts/04%20Understanding%20map%20scale.html#:~:text=You%20will%20commonly%20see%20references,large%20area%20in%20less%20detail.">Learn the difference between small and large scale maps.</a>
+</div>
+<h2 id="how-to-use-the-georeferenced-map-with-the-rest-of-your-project">How to use the georeferenced map with the rest of your project</h2>
+<p>Once you have finished georeferencing your map in AllMaps, click the <code>Results</code> tab. AllMaps is now hosting your georeferenced map as a GIS web layer you can use in any project. All you will need is the layer link. You can find it on the <code>Results</code> page:
+<img src="media/allmaps-tiles-link.png" alt="Allmaps layer link"></p>
+<h3 id="ideas-for-using-the-map-in-your-project">Ideas for using the map in your project</h3>
+<ul>
+<li>Configure the map as a layer in your ArcGIS Online project.
+<ul>
+<li><a href="https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/swipe-compare-apps/" target="_blank">Apps you can use to swipe and compare</a>
+</li>
+<li><a href="https://storymaps-classic.arcgis.com/en/app-list/swipe-spyglass/" target="_blank">Storymap swipe and spyglass</a>
+</li>
+</ul>
+</li>
+<li>Use the map in your own custom JavaScript application built with mapping tools like <a href="https://leafletjs.com/reference.html" target="_blank">Leaflet</a>
+ or <a href="https://openlayers.org/" target="_blank">OpenLayers</a>
+.</li>
+<li>Add the map as a layer to a desktop GIS program, such as ArcGIS Pro, or QGIS.</li>
+</ul>
+<h3 id="add-the-layer-to-a-qgis-project">Add the layer to a QGIS project</h3>
+<ol>
+<li>
+<p>Open QGIS. If you need to download the free desktop software, learn how to do so <a href="https://harvardmapcollection.github.io/tutorials/qgis/download/" target="_blank">here</a>
+.</p>
+</li>
+<li>
+<p>Open a new project.</p>
+</li>
+<li>
+<p>In the <code>Browser</code> window, under <code>XYZ Tiles</code> drag <code>OpenStreetMap</code> into the map canvas window.
+<img src="media/add.gif" alt="GIF of adding a basemap to QGIS"></p>
+</li>
+<li>
+<p>In the <code>Browser</code> window, right-click <code>XYZ Tiles</code> and select <code>New Connection</code>.
+<img src="media/7.png" alt="Screenshot of QGIS browser menu"></p>
+</li>
+<li>
+<p>Name your map, and paste in tile URL you copied from the AllMaps <code>Results</code> panel. Select <code>OK</code>.
+<img src="media/8.png" alt="Screenshot of QGIS New XYZ Tile Connection menu"></p>
+</li>
+<li>
+<p>In the <code>Browser</code> window, under <code>XYZ Tiles</code>, double-click the new connection item you just created to add it to the map.</p>
+</li>
+<li>
+<p>Zoom in to your area of interest using the zoom controls in the banner menu across the top of the program. As you zoom in, your georeferenced map should appear.</p>
+</li>
+</ol>
+<blockquote>
+<p>Tip: it may take a second for the quality of the tiles to resolve.
+<img src="media/zoom.gif" alt="GIF of zooming in on the map"></p>
+</blockquote>
+<ol start="8">
+<li>
+<p>To adjust opacity of your map, right-click the map layer in the <code>Layer list</code> and select <code>Properties</code>.
+<img src="media/10.png" alt="Screenshot of opening layer properties in QGIS"></p>
+</li>
+<li>
+<p>Under the <code>Legend</code> tab in the <code>Properties</code> menu, highlight <code>Opacity Slider</code> and use the right-pointing arrow to move the widget from <code>Available widgets</code> to <code>Used Widgets</code>.
+<img src="media/11.png" alt="Screenshot of Legend tab in QGIS layer properties"></p>
+</li>
+<li>
+<p>Select <code>OK</code>. There should now be an opacity control under the map layer item in the <code>Layer list</code>.
+<img src="media/qgisopacity.gif" alt="GIF of using the new opacity control in the QGIS layer list"></p>
+</li>
+</ol>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+
+</body>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-55D9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+</html>

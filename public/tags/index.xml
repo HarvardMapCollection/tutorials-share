@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on GIS @ Harvard Libraries</title>
+    <link>https://mapping.share.library.harvard.edu/tags/</link>
+    <description>Recent content in Tags on GIS @ Harvard Libraries</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>class</title>
+      <link>https://mapping.share.library.harvard.edu/tags/class/</link>
+      <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tags/class/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ArcGIS</title>
+      <link>https://mapping.share.library.harvard.edu/tags/arcgis/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tags/arcgis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>census</title>
+      <link>https://mapping.share.library.harvard.edu/tags/census/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tags/census/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Georeferencing</title>
+      <link>https://mapping.share.library.harvard.edu/tags/georeferencing/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tags/georeferencing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tutorials</title>
+      <link>https://mapping.share.library.harvard.edu/tags/tutorials/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tags/tutorials/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>allmaps</title>
+      <link>https://mapping.share.library.harvard.edu/tags/allmaps/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tags/allmaps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GIS-Research-Strategies-Workshop</title>
+      <link>https://mapping.share.library.harvard.edu/tags/gis-research-strategies-workshop/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tags/gis-research-strategies-workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction-to-GIS-Workshop</title>
+      <link>https://mapping.share.library.harvard.edu/tags/introduction-to-gis-workshop/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tags/introduction-to-gis-workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OpenStreetMap</title>
+      <link>https://mapping.share.library.harvard.edu/tags/openstreetmap/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tags/openstreetmap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>qgis</title>
+      <link>https://mapping.share.library.harvard.edu/tags/qgis/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tags/qgis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://mapping.share.library.harvard.edu/tags/research/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tags/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>https://mapping.share.library.harvard.edu/tags/resources/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tags/resources/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>arcgis-pro</title>
+      <link>https://mapping.share.library.harvard.edu/tags/arcgis-pro/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tags/arcgis-pro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>news</title>
+      <link>https://mapping.share.library.harvard.edu/tags/news/</link>
+      <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tags/news/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

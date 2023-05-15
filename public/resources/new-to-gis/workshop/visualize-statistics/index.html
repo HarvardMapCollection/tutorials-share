@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><title>
+    
+    5. Visualize Statistics | 
+    
+    GIS @ Harvard Libraries
+</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="https://mapping.share.library.harvard.edu/resources/new-to-gis/workshop/visualize-statistics/" />
+<link rel="icon" type="image/png" href="https://mapping.share.library.harvard.edu/image/favicon.ico">
+
+
+<meta name="description" content="
+    Exploring the Polish cities dataset Now, let&rsquo;s familiarize ourselves with the Polish cities statistical data. Right-click on the poland-stats layer in the Layer Panel and select Open Attribute Table. You should see a table where each row is one of the Polish cities on the map, and each layer is a statistical figure about that city. Take a look and try to make sense of the table. You may have noticed that the field headers are not easy to understand.
+    "
+/>
+<meta property="og:description" content="
+    Exploring the Polish cities dataset Now, let&rsquo;s familiarize ourselves with the Polish cities statistical data. Right-click on the poland-stats layer in the Layer Panel and select Open Attribute Table. You should see a table where each row is one of the Polish cities on the map, and each layer is a statistical figure about that city. Take a look and try to make sense of the table. You may have noticed that the field headers are not easy to understand.
+    " 
+/>
+
+
+<meta property="og:image" content="https://mapping.share.library.harvard.edu/resources/new-to-gis/workshop/visualize-statistics/a-gradient1.png" />
+
+
+
+
+
+
+<meta property="og:title" content="5. Visualize statistics" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mapping.share.library.harvard.edu/resources/new-to-gis/workshop/visualize-statistics/" /><meta property="article:section" content="resources" />
+<meta property="article:published_time" content="2023-01-02T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-01-02T00:00:00+00:00" />
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="5. Visualize statistics"/>
+<meta name="twitter:description" content="Exploring the Polish cities dataset Now, let&rsquo;s familiarize ourselves with the Polish cities statistical data. Right-click on the poland-stats layer in the Layer Panel and select Open Attribute Table. You should see a table where each row is one of the Polish cities on the map, and each layer is a statistical figure about that city. Take a look and try to make sense of the table. You may have noticed that the field headers are not easy to understand."/>
+
+<meta itemprop="name" content="5. Visualize statistics">
+<meta itemprop="description" content="Exploring the Polish cities dataset Now, let&rsquo;s familiarize ourselves with the Polish cities statistical data. Right-click on the poland-stats layer in the Layer Panel and select Open Attribute Table. You should see a table where each row is one of the Polish cities on the map, and each layer is a statistical figure about that city. Take a look and try to make sense of the table. You may have noticed that the field headers are not easy to understand."><meta itemprop="datePublished" content="2023-01-02T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-01-02T00:00:00+00:00" />
+<meta itemprop="wordCount" content="791">
+<meta itemprop="keywords" content="Introduction-to-GIS-workshop," />
+
+
+
+
+<link rel="stylesheet" href="/main.min.css">
+<link rel="stylesheet" href="https://use.typekit.net/yiq3yrx.css">
+<link rel="stylesheet" href="/typekit/stylesheet.css">
+
+
+
+
+
+<script src="/bundle.js"></script>
+
+
+
+
+
+
+
+<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XCNRPXZNVM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XCNRPXZNVM');
+</script>
+
+
+
+<link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
+  <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-55D9M4Z');</script>
+
+
+
+
+
+</head>
+
+<body><header id="header">
+  <div class="top-bar">
+    <div class="container-md">
+
+      <div class="row align-items-center">
+
+        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
+          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <i class="fas fa-bars"></i> Menu
+          </button>
+        </div>
+
+        <div class="col-12 col-sm-12">
+          <h2 class="title"><a href="/">GIS @ Harvard Libraries</a></h2>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-md">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+
+
+
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/">
+              Home
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Tutorials
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/tags/arcgis/">ArcGIS</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tutorials/census-data-primer/">Census</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/georeferencing/">Georeferencing</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/openstreetmap/">OpenStreetMap (OSM)</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/qgis/">QGIS</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Resources
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/resources/new-to-gis">Introduction to GIS</a>
+              
+              
+              
+                <a class="dropdown-item" href="/resources/researchers-handbook">Researchers&#39; Handbook</a>
+              
+              
+              
+                <a class="dropdown-item" href="https://gistbok.ucgis.org/bok-topics/statistical-mapping-enumeration-normalization-classification">Statistical Mapping Best Practices</a>
+              
+              
+              
+                <a class="dropdown-item" href="https://library.harvard.edu/services-tools/harvard-geospatial-library">Harvard Geospatial Library (HGL)</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/tags/news">
+              Blog
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/connect/">
+              Connect
+            </a>
+          </li>
+          
+          
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="blog-content">
+    <div class="container-md">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 px-lg-4">
+                <h1 class="title">5. Visualize Statistics</h1>
+                <h2 id="exploring-the-polish-cities-dataset">Exploring the Polish cities dataset</h2>
+<ol>
+<li>
+<p>Now, let&rsquo;s familiarize ourselves with the Polish cities statistical data. Right-click on the <code>poland-stats</code> layer in the <code>Layer Panel</code> and select <code>Open Attribute Table</code>.
+<img src="media/open-attribute-table.gif" alt="GIF of right-clicking the layer in the layer list to open attribute table"></p>
+</li>
+<li>
+<p>You should see a table where each row is one of the Polish cities on the map, and each layer is a statistical figure about that city. Take a look and try to make sense of the table.
+<img src="media/2-12.png" alt="Screenshot of the Polish cities attribute table showing rows of cities and columns with indiscernible field headers"></p>
+</li>
+<li>
+<p>You may have noticed that the field headers are not easy to understand. This is common when working with datasets. Because column headers have character limits, datasets often come with codes as the field headers, and you must use what is called a <strong>codebook</strong> to interpret what the columns mean. In the data you downloaded for this activity, navigate to <code>poland-stats</code> and open the file <code>poland-stats-codebook.csv</code>.
+<img src="media/2-13.png" alt="Screenshot of the codebook"></p>
+</li>
+<li>
+<p>Revisit the Polish cities attribute table and use the codebook to make sense of the values in the table. What do you notice?</p>
+</li>
+</ol>
+<h2 id="using-map-symbology-to-notice-trends">Using map symbology to notice trends</h2>
+<ol>
+<li>
+<p>While we can observe the values in tabular format, it is difficult to understand trends looking at a list of statistics. Let&rsquo;s try to symbolize some of these values on the map and see what we can learn. Double-click the <code>poland-stats</code> layer in the <code>Layer Panel</code> to open the <code>Layer Properties</code>.</p>
+</li>
+<li>
+<p>Select the <code>Symbology</code> menu tab.</p>
+</li>
+<li>
+<p>Engage the drop down that says <code>Single Symbol</code>, and change it to <code>Graduated</code>.
+<img src="media/graduated.gif" alt="Changing the symbology from single symbol to graduated in QGIS"></p>
+</li>
+</ol>
+<blockquote>
+<p>QGIS had been symbolizing each city with the same, singular symbology. We are now telling it we want to symbolize the values so they gradually get larger based on the values within our data.</p>
+</blockquote>
+<ol start="4">
+<li>
+<p>We need to tell the program <em>which</em> column or attribute we want to create graduated symbology based on. Let&rsquo;s select <code>P0001</code>, which as we learned from our codebook, is the percent of Polish-speaking school children in each city. Use the drop-down next to <code>Value</code> and select <code>P0001</code>.
+<img src="media/select-grad-value.gif" alt="GIF showing how to use the symbology manager to choose which value to symbolize on."></p>
+</li>
+<li>
+<p>Change the <code>Method</code> from <code>Color</code> to <code>Size</code>.
+<img src="media/method.gif" alt="GIF of changing the method in the symbology layer properties"></p>
+</li>
+<li>
+<p>Select <code>Classify</code> in the bottom-left corner of the symbology interface.
+<img src="media/2-14.png" alt="Screenshot of the symbology interface with the classify button highlighted"></p>
+</li>
+<li>
+<p>Select <code>OK</code>. We can now see the spatial breakdown of where cities with high percentages of Polish-speaking school children lived.
+<img src="media/schoolchildren.png" alt="Screenshot of graduated point symbols showing Polish school children"></p>
+</li>
+<li>
+<p>If we consult the legend from our historcal map, we can remember that <code>red</code> represents Polish, and <code>blue</code> represents Germans. We can compare this demographic breakdown on the historic map from 1919 with the pattern we are seeing in the Polish-speaking school children data from 1911.
+<img src="media/legend.png" alt="Screenshot of the historical map legend, showing red for Polish and blue for Germany. It shows that in the area where we are studying there was a high percentage of Polish people."></p>
+</li>
+<li>
+<p>Now let&rsquo;s compare this nationality data against the results of the plebiscite vote. This is the data we are going to use to make our finished map. We are going to compare the votes for East Prussia (or Germany) against the votes for Poland. Double-click the <code>poland-stats</code> layer in the <code>Layer Panel</code> to open the <code>Layer Properties</code>.</p>
+</li>
+<li>
+<p>Under the <code>Symbology</code> tab, engage the drop-down that reads <code>Graduated</code>, and change it to <code>No Symbols</code>.
+<img src="media/no-symbols.gif" alt="GIF of how to disable symbology in QGIS"></p>
+</li>
+</ol>
+<blockquote>
+<p>We are going to emulate the comparative proportional symbol style of this hand-drawn map in the Harvard Map Collection&rsquo;s digital collections. This map from 1911 shows Polish school children (in black) compared to German school children (in white) in the pie charts, scaled by size depending on the total number of children who lived in that city. We are going to apply the same symbology to look at votes for Germany vs. votes for Poland in the plebiscite result.
+<img src="media/poland-old-map.png" alt="Screenshot of old hand-drawn map of Poland showing pie chart symbols for German vs. Polish schoolchildren"></p>
+</blockquote>
+<ol start="12">
+<li>
+<p>The QGIS program handles pie-chart maps as <code>Diagrams</code>, rather than <code>Symbology</code>, as we have been working with so far. Click the <code>Diagrams</code> tab in the <code>Layer Properties</code>.
+<img src="media/diagrams.png" alt="Screenshot of Diagrams tab in the QGIS layer properties"></p>
+</li>
+<li>
+<p>Engage the drop-down that says <code>No Diagram</code>, and change it to <code>Pie Charts</code>.
+<img src="media/pie-charts.gif" alt="GIF showing enabling the pie chart dialog in the QGIS Diagrams menu"></p>
+</li>
+<li>
+<p>Recall from our codebook that the columns <code>P0005</code> and <code>P0006</code> represented percent of votes for East Prussia vs votes for Poland, respectively. Add these two variables to the pie chart diagram, by highlighting one at a time, and selecting the <code>Add Selected Attributes</code> button, which looks like a green plus sign.
+<img src="media/add-attrs-pie.gif" alt="GIF showing how to use the diagrams wizard to add attributes"></p>
+</li>
+<li>
+<p>Double-click each of the <code>Assigned Attributes</code> color squares to change the color. For <code>P0005</code>, or East Prussia, paste in the HTML color code <code>#eee</code>. For <code>P0006</code>, or Poland, paste in the color code <code>#000</code>.
+<img src="media/color-pie.gif" alt="GIF showing how to change the colors of the slices in the pie, using the QGIS diagrams interface"></p>
+</li>
+<li>
+<p>In the <code>Size</code> tab of the <code>Diagram</code> Properties, change the size from <code>Fixed Size</code> to <code>Scaled Size</code>.
+<img src="media/piesize.gif" alt="GIF demonstrating switching from fixed size to scaled size in QGIS diagrams menu"></p>
+</li>
+<li>
+<p>Fill out the rest of this dialog box as follows:</p>
+</li>
+</ol>
+<blockquote>
+<ul>
+<li>For the <code>Attribute</code>, select <code>P0003</code>, because we want to scale the symbols by the total number of votes.</li>
+<li>Next to <code>Maximum value</code>, click the <code>Find</code> button to let it automatically generate the maximum value from the dataset.</li>
+<li>Set the size to <code>10.0</code>, and switch the <code>Scale</code> from <code>Area</code> to <code>Diameter</code>.
+The dialog box should look like this when you&rsquo;re all done:
+<img src="media/size-params.png" alt="Screenshot of the settings populated in the diagram size menu in QGIS"></li>
+</ul>
+</blockquote>
+<ol start="18">
+<li>Select <code>OK</code>. Your map should now look like this, with the symbol showing two comparative variables for each city.
+<img src="media/pies-done.png" alt="Screenshot of completed pie charts"></li>
+</ol>
+<p><a href="/resources/new-to-gis/workshop/share-results/">Next lesson: 6. Share results →</a>
+</p>
+<p><a href="/resources/new-to-gis/workshop/import-datasets/">← Previous lesson: 4. Import datasets</a>
+</p>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+
+</body>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-55D9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+</html>

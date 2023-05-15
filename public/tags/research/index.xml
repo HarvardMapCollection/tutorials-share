@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research on GIS @ Harvard Libraries</title>
+    <link>https://mapping.share.library.harvard.edu/tags/research/</link>
+    <description>Recent content in Research on GIS @ Harvard Libraries</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DIY Metadata</title>
+      <link>https://mapping.share.library.harvard.edu/resources/researchers-handbook/diy-metadata/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/researchers-handbook/diy-metadata/</guid>
+      <description>If you are creating your own data, or reshaping data you have found so it is easier to work with for some purpose, you might not always know the exact contextual information to provide so the data can be the most widely discovered, understood, and used.
+This guide provides a template for creating documentation for GIS data projects that well-positions your research for discovery and reuse.
+Tips Document your data creation and editing process early and often.</description>
+    </item>
+    
+  </channel>
+</rss>

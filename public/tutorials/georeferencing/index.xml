@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Georeferencing on GIS @ Harvard Libraries</title>
+    <link>https://mapping.share.library.harvard.edu/tutorials/georeferencing/</link>
+    <description>Recent content in Georeferencing on GIS @ Harvard Libraries</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tutorials/georeferencing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Georeference library digital collections using Allmaps</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/georeferencing/allmaps/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/georeferencing/allmaps/</guid>
+      <description>Topics covered by this guide Select a map to georeference from the Harvard Libraries&amp;rsquo; digital collections Repeat the process for maps in any library digital collection Learn how to georeference with free browser tool, AllMaps How to use the georeferenced map with the rest of your project Select a map to georeference from the Harvard Libraries&amp;rsquo; digital collections Find the map you would like to work with in the Harvard Libraries Digital Collections Filter results by selecting Type: Map or Repository: Map Coll (Pusey) In the top-right corner of the image viewer, select the metadata Tooltip by clicking the i icon.</description>
+    </item>
+    
+    <item>
+      <title>Georeference in ArcGIS Pro</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/georeferencing/arcgis-pro/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/georeferencing/arcgis-pro/</guid>
+      <description>Open a new map in ArcGIS Pro and select the basemap of your choice Map → Basemap → Open Street Map Set the projection by right clicking the basemap in the Contents pane and select Properties Properties → Coordinate Systems
+Open the image which needs to be georeferenced Catalog → Folders → Add Folder Connection Right click on &amp;lsquo;Folders&amp;rsquo; and navigate to the folder containing the map that needs to be georeferenced.</description>
+    </item>
+    
+    <item>
+      <title>Georeference in QGIS</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/georeferencing/qgis/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/georeferencing/qgis/</guid>
+      <description>Download QGIS , if you haven&amp;rsquo;t already.
+Add a basemap Browser → XYZ Tiles → Open Street Map.
+Set the project projection to WGS 84. At all times in the bottom right of the QGIS document, EPSG should read 4326.
+Open Raster → Georeferencer.
+The Georeferencing plugin comes automatically installed with recent versions of QGIS. If you do not see it, it is because it has not been enabled. To enable: navigate to Plugins → Manage &amp; Install Plugins → Installed and make sure the box next to Georeferencer GDAL is checked.</description>
+    </item>
+    
+  </channel>
+</rss>

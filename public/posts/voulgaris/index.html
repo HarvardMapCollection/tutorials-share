@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><title>
+    
+    Georeferencing the Historic Map Collections | 
+    
+    GIS @ Harvard Libraries
+</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="https://mapping.share.library.harvard.edu/posts/voulgaris/" />
+<link rel="icon" type="image/png" href="https://mapping.share.library.harvard.edu/image/favicon.ico">
+
+
+<meta name="description" content="
+    Collaboration between Harvard Graduate School of Design&#39;s Spatial Analysis GIS project and the Harvard Map Collection.
+    "
+/>
+<meta property="og:description" content="
+    Collaboration between Harvard Graduate School of Design&#39;s Spatial Analysis GIS project and the Harvard Map Collection.
+    " 
+/>
+
+
+<meta property="og:image" content="https://mapping.share.library.harvard.edu/posts/voulgaris/4.png" />
+
+
+
+
+
+
+<meta property="og:title" content="Georeferencing the historic map collections" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mapping.share.library.harvard.edu/posts/voulgaris/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-10-12T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-10-12T00:00:00+00:00" />
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Georeferencing the historic map collections"/>
+<meta name="twitter:description" content="Collaboration between Harvard Graduate School of Design&#39;s Spatial Analysis GIS project and the Harvard Map Collection."/>
+
+<meta itemprop="name" content="Georeferencing the historic map collections">
+<meta itemprop="description" content="Collaboration between Harvard Graduate School of Design&#39;s Spatial Analysis GIS project and the Harvard Map Collection."><meta itemprop="datePublished" content="2021-10-12T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2021-10-12T00:00:00+00:00" />
+<meta itemprop="wordCount" content="388">
+<meta itemprop="keywords" content="news," />
+
+
+
+
+<link rel="stylesheet" href="/main.min.css">
+<link rel="stylesheet" href="https://use.typekit.net/yiq3yrx.css">
+<link rel="stylesheet" href="/typekit/stylesheet.css">
+
+
+
+
+
+<script src="/bundle.js"></script>
+
+
+
+
+
+
+
+<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XCNRPXZNVM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XCNRPXZNVM');
+</script>
+
+
+
+<link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
+  <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-55D9M4Z');</script>
+
+
+
+
+
+</head>
+
+<body><header id="header">
+  <div class="top-bar">
+    <div class="container-md">
+
+      <div class="row align-items-center">
+
+        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
+          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <i class="fas fa-bars"></i> Menu
+          </button>
+        </div>
+
+        <div class="col-12 col-sm-12">
+          <h2 class="title"><a href="/">GIS @ Harvard Libraries</a></h2>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-md">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+
+
+
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/">
+              Home
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Tutorials
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/tags/arcgis/">ArcGIS</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tutorials/census-data-primer/">Census</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/georeferencing/">Georeferencing</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/openstreetmap/">OpenStreetMap (OSM)</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/qgis/">QGIS</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Resources
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/resources/new-to-gis">Introduction to GIS</a>
+              
+              
+              
+                <a class="dropdown-item" href="/resources/researchers-handbook">Researchers&#39; Handbook</a>
+              
+              
+              
+                <a class="dropdown-item" href="https://gistbok.ucgis.org/bok-topics/statistical-mapping-enumeration-normalization-classification">Statistical Mapping Best Practices</a>
+              
+              
+              
+                <a class="dropdown-item" href="https://library.harvard.edu/services-tools/harvard-geospatial-library">Harvard Geospatial Library (HGL)</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/tags/news">
+              Blog
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/connect/">
+              Connect
+            </a>
+          </li>
+          
+          
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="blog-content">
+    <div class="container-md">
+        <div class="row">
+            
+            <div class="col-lg-2 d-none d-xl-block">
+                <div class="ad-left-offset"></div>
+                
+            </div>
+
+            <div class="col-md-12 col-lg-8 px-lg-4">
+                
+
+                <h1 class="title">Georeferencing the historic map collections</h1>
+
+                <div class="container-fluid px-0 mb-4">
+                    <div class="row align-items-end">
+                        <div class="col-md-8 date-time">
+                            
+                                Belle Lipton
+                                &centerdot;
+                            
+                            <span class="date">
+    Oct 12, 2021
+</span>
+                            &centerdot;
+                            <span class="time-to-read">
+    2 mins read</span>
+                        </div>
+
+                        <div class="col-md-4 tags ">
+                            
+                            <a href="/tags/news"><span
+                                    class="tag bg-dark">news</span></a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <p>Earlier this Fall, we visited with Carole Voulgaris&rsquo;s Spatial Analysis class from the Graduate School of Design.</p>
+<figure><img src="media//5.png"
+         alt="_Example georeferencing assignment submitted by GSD student Ellie Shield._"/><figcaption>
+            <p><em>Example <strong>georeferencing assignment</strong> submitted by GSD student Ellie Shield.</em></p>
+        </figcaption>
+</figure>
+
+<p>The assignments in <strong>Spatial Analysis</strong> are tailored to introduce fundamental geospatial competencies, as well as center group collaboration, creativity, and iterative design.</p>
+<h2 id="the-visit">THE VISIT</h2>
+<p>In early September 2021, The Harvard Map Collection facilitated a class visit with <strong>Spatial Analysis</strong>, where we discussed shifts in cartographic theory, introduced the map collection, and foreshadowed the concept of <a href="https://en.wikipedia.org/wiki/Georeferencing" target="_blank">georeferencing</a>
+. Following the session, we worked with independent groups of students who were tasked with picking a map from our collections, georeferencing it, and combining that newly spatialized image with other datasets to produce three digitally rendered maps.</p>
+<p>When visiting the map collection in groups, for many, it was the first time meeting other group members. Students started leveraging their shared interests to try to think of project topics that could highlight broader issues. During the course of these conversations, aided by library staff, students evaluated potential topics against the availability of source material, including both historic maps and supplementary geospatial data.</p>
+<p>During this assignment, students practiced:</p>
+<ul>
+<li>Working collaboratively</li>
+<li>Some fundamentals of creating compelling data maps, including:
+<ul>
+<li>Georeferencing</li>
+<li>Working with different spatial file types</li>
+<li>Layering multiple datasets</li>
+</ul>
+</li>
+<li>Finding and working with primary source materials, including:
+<ul>
+<li>Archival collections</li>
+<li>Digital geospatial data</li>
+</ul>
+</li>
+</ul>
+<h2 id="the-project">The project</h2>
+<p>One map that caught our eye was created by Aeshna Prasad, Michael Lidwin, Megan Mcglinchey, and Mehvish Jamal. They were determined to stitch together eight disparate sheets from an 18th century map of Venice.</p>
+<figure><img src="media//1.png"
+         alt="The stitched version of the 18th century map of Venice."/><figcaption>
+            <p><em>The stitched version of the 18th century map of Venice.</em></p>
+        </figcaption>
+</figure>
+
+<p>The group was interested in exploring the theme of climate change and sea level rise through the lens of flooding in Venice.</p>
+<p>They picked digital datasets that could help visually explore this topic: historic boundaries, neighborhood districts, flooding areas, and buildings which could be affected.</p>
+<h3 id="map-1-boundaries">Map 1: boundaries</h3>
+<figure><img src="media//2.png"
+         alt="Map showing historic boundaries and neighborhood districts in Venice."/><figcaption>
+            <p><em>Map showing historic boundaries and neighborhood districts in Venice.</em></p>
+        </figcaption>
+</figure>
+
+<h3 id="map-2-flooding">Map 2: flooding</h3>
+<figure><img src="media//3.png"
+         alt="The stitched version of the 18th century map of Venice."/><figcaption>
+            <p><em>Map showing flood areas in Venice. Students practiced working with both <a href="https://www.gislounge.com/geodatabases-explored-vector-and-raster-data/" target="_blank">raster and vector datasets</a>
+ for this assignment.</em></p>
+        </figcaption>
+</figure>
+
+<h3 id="map-3-at-risk-structures">Map 3: at-risk structures</h3>
+<figure><img src="media//4.png"
+         alt="The final map shows all of the datasets, and includes structures that are at risk, given the flood zones."/>
+</figure>
+
+<figcaption>The final map shows all of the datasets, and includes structures that are at risk, given the flood zones.</figcaption>
+<h2 id="resources">Resources</h2>
+<p>To schedule a class visit, check out our <a href="https://library.harvard.edu/libraries/harvard-map-collection#teach" target="_blank">Teach with Us</a>
+ page, or email us at <a href="mailto:maps@harvard.edu">maps@harvard.edu</a>
+.</p>
+
+
+
+                
+                <br>
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    (function () {
+        
+        
+        if (window.location.hostname == "localhost")
+            return;
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = '';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>
+
+            <div class="col-lg-2 d-none d-xl-block">
+                <div class="ad-right-offset"></div>
+                
+            </div>
+        </div>
+    </div>
+</main>
+
+
+</body>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-55D9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+</html>

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><title>
+    
+    GIS @ Harvard Libraries | 
+    
+    GIS @ Harvard Libraries
+</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="https://mapping.share.library.harvard.edu/classes/programs/cga-institute/spring-2023/" />
+<link rel="icon" type="image/png" href="https://mapping.share.library.harvard.edu/image/favicon.ico">
+
+
+<meta name="description" content="
+    Classes GSD: Spatial Analysis Fall 2021 presentation .
+Map created by GSD students Aeshna Prasad, Michael Lidwin, Megan Mcglinchey, and Mehvish Jamal working with the Map Collection.
+Data management OldNYC: Mapping Historic Photographs at the NYPL .
+1880 census from Archive.org .
+ArcGIS Map comparing 1890 atlas to today.
+Global volcanoes dataset in the Harvard Geospatial Library (HGL).
+Research Record from Harvard Map Collection card catalog .
+Services and Resources The Harvard Map Collection maintains a series of tutorials, guides, and updates about mapmaking.
+    "
+/>
+<meta property="og:description" content="
+    Classes GSD: Spatial Analysis Fall 2021 presentation .
+Map created by GSD students Aeshna Prasad, Michael Lidwin, Megan Mcglinchey, and Mehvish Jamal working with the Map Collection.
+Data management OldNYC: Mapping Historic Photographs at the NYPL .
+1880 census from Archive.org .
+ArcGIS Map comparing 1890 atlas to today.
+Global volcanoes dataset in the Harvard Geospatial Library (HGL).
+Research Record from Harvard Map Collection card catalog .
+Services and Resources The Harvard Map Collection maintains a series of tutorials, guides, and updates about mapmaking.
+    " 
+/>
+
+
+<meta property="og:image" content="https://mapping.share.library.harvard.edu/classes/programs/cga-institute/spring-2023/a-gradient1.png" />
+
+
+
+
+
+
+<meta property="og:title" content="GIS @ Harvard Libraries" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mapping.share.library.harvard.edu/classes/programs/cga-institute/spring-2023/" /><meta property="article:section" content="classes" />
+<meta property="article:published_time" content="2022-12-19T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-12-19T00:00:00+00:00" />
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="GIS @ Harvard Libraries"/>
+<meta name="twitter:description" content="Classes GSD: Spatial Analysis Fall 2021 presentation .
+Map created by GSD students Aeshna Prasad, Michael Lidwin, Megan Mcglinchey, and Mehvish Jamal working with the Map Collection.
+Data management OldNYC: Mapping Historic Photographs at the NYPL .
+1880 census from Archive.org .
+ArcGIS Map comparing 1890 atlas to today.
+Global volcanoes dataset in the Harvard Geospatial Library (HGL).
+Research Record from Harvard Map Collection card catalog .
+Services and Resources The Harvard Map Collection maintains a series of tutorials, guides, and updates about mapmaking."/>
+
+<meta itemprop="name" content="GIS @ Harvard Libraries">
+<meta itemprop="description" content="Classes GSD: Spatial Analysis Fall 2021 presentation .
+Map created by GSD students Aeshna Prasad, Michael Lidwin, Megan Mcglinchey, and Mehvish Jamal working with the Map Collection.
+Data management OldNYC: Mapping Historic Photographs at the NYPL .
+1880 census from Archive.org .
+ArcGIS Map comparing 1890 atlas to today.
+Global volcanoes dataset in the Harvard Geospatial Library (HGL).
+Research Record from Harvard Map Collection card catalog .
+Services and Resources The Harvard Map Collection maintains a series of tutorials, guides, and updates about mapmaking."><meta itemprop="datePublished" content="2022-12-19T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-12-19T00:00:00+00:00" />
+<meta itemprop="wordCount" content="126">
+<meta itemprop="keywords" content="class," />
+
+
+
+
+<link rel="stylesheet" href="/main.min.css">
+<link rel="stylesheet" href="https://use.typekit.net/yiq3yrx.css">
+<link rel="stylesheet" href="/typekit/stylesheet.css">
+
+
+
+
+
+<script src="/bundle.js"></script>
+
+
+
+
+
+
+
+<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XCNRPXZNVM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XCNRPXZNVM');
+</script>
+
+
+
+<link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
+  <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-55D9M4Z');</script>
+
+
+
+
+
+</head>
+
+<body><header id="header">
+  <div class="top-bar">
+    <div class="container-md">
+
+      <div class="row align-items-center">
+
+        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
+          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <i class="fas fa-bars"></i> Menu
+          </button>
+        </div>
+
+        <div class="col-12 col-sm-12">
+          <h2 class="title"><a href="/">GIS @ Harvard Libraries</a></h2>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-md">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+
+
+
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/">
+              Home
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Tutorials
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/tags/arcgis/">ArcGIS</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tutorials/census-data-primer/">Census</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/georeferencing/">Georeferencing</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/openstreetmap/">OpenStreetMap (OSM)</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/qgis/">QGIS</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Resources
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/resources/new-to-gis">Introduction to GIS</a>
+              
+              
+              
+                <a class="dropdown-item" href="/resources/researchers-handbook">Researchers&#39; Handbook</a>
+              
+              
+              
+                <a class="dropdown-item" href="https://gistbok.ucgis.org/bok-topics/statistical-mapping-enumeration-normalization-classification">Statistical Mapping Best Practices</a>
+              
+              
+              
+                <a class="dropdown-item" href="https://library.harvard.edu/services-tools/harvard-geospatial-library">Harvard Geospatial Library (HGL)</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/tags/news">
+              Blog
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/connect/">
+              Connect
+            </a>
+          </li>
+          
+          
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="blog-content">
+    <div class="container-md">
+        <div class="row">
+            <div class="col-lg-11 offset-lg-1 px-lg-4">
+                <h1 class="title">GIS @ Harvard Libraries</h1>
+                <div class="slides">
+                    <p><img src="../../../media/intro.png" alt="Screenshot from an article about the Map Collection"></p>
+<h2 id="classes">Classes</h2>
+<h3 id="gsd-spatial-analysis">GSD: Spatial Analysis</h3>
+<p><img src="../../../media/spatial-analysis.gif" alt="Animation of presentation given to GSD students">
+<em><a href="https://docs.google.com/presentation/d/141irEQNA3_SAY2sWqDPoZAheSil0gZZR7yfGWNJhVKg/edit#slide=id.gea70bf8953_0_22" target="_blank">Fall 2021 presentation</a>
+.</em></p>
+<p><img src="../../../media/venice.jpg" alt="Eight-sheet map of Venice from the 1700s"></p>
+<p><img src="../../../media/spatial-analysis.png" alt="Map created by GSD students">
+<em>Map <a href="https://mapping.share.library.harvard.edu/blog/2021/vis-2128/" target="_blank">created by</a>
+ GSD students Aeshna Prasad, Michael Lidwin, Megan Mcglinchey, and Mehvish Jamal working with the Map Collection.</em></p>
+<h2 id="data-management">Data management</h2>
+<p><img src="../../../media/oldnyc.gif" alt="Screen recording of New York Public Library app OldNYC">
+<em><a href="https://www.oldnyc.org/" target="_blank">OldNYC: Mapping Historic Photographs at the NYPL</a>
+.</em></p>
+<p><img src="../../../media/1880-census.png" alt="Screenshot from 1880 census">
+<em>1880 census from <a href="https://archive.org/details/10thcensus0561unit/page/n45/mode/2up?view=theater" target="_blank">Archive.org</a>
+.</em></p>
+<p><img src="../../../media/spyglass-arcgis.gif" alt="Comparison of 1890 atlas to today">
+<em><a href="https://harvard-cga.maps.arcgis.com/apps/webappviewer/index.html?id=4f084606c3f64df8a32ce2ad938a43f6" target="_blank">ArcGIS Map</a>
+ comparing 1890 atlas to today.</em></p>
+<p><img src="../../../media/volcanoes.png" alt="Screenshot from Harvard Geospatial Library">
+<em><a href="https://hgl.harvard.edu/catalog/harvard-glb-volc" target="_blank">Global volcanoes dataset</a>
+ in the Harvard Geospatial Library (HGL).</em></p>
+<h2 id="research">Research</h2>
+<p><img src="../../../media/jess-map.png" alt="Student project map showing Indian restaurants in London"></p>
+<p><img src="../../../media/restaurant.png" alt="Photograph of a collections item"></p>
+<p><img src="../../../media/climate-reactions.png" alt="Screenshot from Harvard online library catalog">
+<em>Record from  <a href="https://iiif.lib.harvard.edu/manifests/view/drs:45555303$402i" target="_blank">Harvard Map Collection card catalog</a>
+.</em></p>
+<h2 id="services-and-resources">Services and Resources</h2>
+<p><img src="../../../media/tutorials-pub.gif" alt="GIF of available QGIS guides on various topics">
+<em>The Harvard Map Collection maintains a series of <a href="https://gis-harvard.pubpub.org/" target="_blank">tutorials, guides, and updates</a>
+ about mapmaking.</em></p>
+<p><img src="../../../media/rdm-workshop.png" alt="Screen grab of GIS Research Data Management workshop March of 2023">
+<em>We offer workshops available via the <a href="https://libcal.library.harvard.edu/calendar/main?cid=15049&amp;t=d&amp;d=0000-00-00&amp;cal=15049&amp;inc=0" target="_blank">library events calendar</a>
+.</em></p>
+<p><img src="../../../media/office-hours.png" alt="Screenshot of event information for weekly GIS Office hours">
+<em>Join us for <a href="https://libcal.library.harvard.edu/calendar/main?t=d&amp;q=GIS%20Office%20Hours&amp;cid=15049&amp;cal=15049&amp;inc=0" target="_blank">GIS Office Hours</a>
+.</em></p>
+<p><img src="../../../media/appointment-hmc.gif" alt="Screen recording of using the Harvard Map Collection website to make a one-on-one appointment">
+<em>For in-depth one-on-one consultations make an appointment frome the <a href="https://library.harvard.edu/libraries/harvard-map-collection" target="_blank">Harvard Map Colletion Website</a>
+.</em></p>
+<h2 id="mapsharvardedu"><a href="mailto:maps@harvard.edu">maps@harvard.edu</a>
+</h2>
+<p>For any questions, you can contact us at <a href="mailto:maps@harvard.edu">maps@harvard.edu</a>
+.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+</body>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-55D9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+</html>

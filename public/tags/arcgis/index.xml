@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ArcGIS on GIS @ Harvard Libraries</title>
+    <link>https://mapping.share.library.harvard.edu/tags/arcgis/</link>
+    <description>Recent content in ArcGIS on GIS @ Harvard Libraries</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tags/arcgis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Uploading georeferenced maps to ArcGIS Online</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/arcgis-online/arcgis-imagery/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/arcgis-online/arcgis-imagery/</guid>
+      <description>Do you want to be able to use a historic map for comparison in one of your ArcGIS Online projects, such as StoryMaps or ArcGIS Experience Builder ?
+Georeferenced map from 1880 compared to a modern map in ArcGIS Online. There are a number of pathways or workflows for accomplishing this. Which one you pick will depend on a. the format your map data is in and b. the software environment you prefer to work in.</description>
+    </item>
+    
+  </channel>
+</rss>

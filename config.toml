@@ -7,6 +7,7 @@ theme = 'BlogRa'
     description     = "Mapping news and support from the Harvard Map Collection"
     github= "https://github.com/HarvardMapCollection/tutorials-share"
     googleAnalytics = "G-XCNRPXZNVM" 
+    gtm_id = "GTM-55D9M4Z"
 
 # Configure the site menu here
 [menu]

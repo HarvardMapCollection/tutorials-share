@@ -38,6 +38,9 @@
     {{ partial "googleAnalytics.html" . }}
 {{ end }}
 
+<!-- Google Tag Manager -->
+{{ if .Site.Params.gtm_id}}{{- partial "gtm.html" . }}{{ end }}
+
 <!-- Katex math equations -->
 {{ if or .Params.math .Site.Params.math }}
 {{ partial "math.html" . }}

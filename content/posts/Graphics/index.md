@@ -1,5 +1,5 @@
 ---
-title: Map-based storytelling at Bloomberg News
+title: GIS storytelling tips from a professional graphics journalist
 date: 2021-08-16
 tags: ["news"]
 image: digital-humanities-harvard.png

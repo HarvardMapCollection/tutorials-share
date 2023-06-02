@@ -22,9 +22,10 @@
             {{/* $filteredPosts := where (where .Site.Pages "Type" "blog") "UniqueID" "!= ".UniqueID }}
             {{ $relatedPosts := shuffle $filteredPosts | first 3 */}}
 
+            <!-- Where to adjust how many featured blog posts on homepage--> 
             {{ $latestPosts := where .Site.RegularPages ".Section" "in" (slice "posts" "sections") }}
             {{ $latestPosts = $latestPosts | symdiff $featured}}
-            {{ $latestPosts = $latestPosts.ByDate.Reverse | first 6 }}
+            {{ $latestPosts = $latestPosts.ByDate.Reverse | first 3 }}
 
             {{ range $latestPosts }}
             {{ partial "suggestion.html" . }}

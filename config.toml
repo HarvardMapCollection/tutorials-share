@@ -1,6 +1,6 @@
 baseURL = 'https://mapping.share.library.harvard.edu/'
 languageCode = 'en-us'
-title = 'GIS @ Harvard Libraries'
+title = 'GIS, maps + data @ Harvard Libraries'
 theme = 'BlogRa'
 
 [params]

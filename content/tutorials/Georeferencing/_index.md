@@ -1,7 +1,7 @@
 ---
 title: Georeferencing
-image: a-gradient12.png
-date: 2023-01-18
+image: spyglass-arcgis.gif
+date: 2023-01-09
 ---
 
 Steps for georeferencing maps in a number of software choices.

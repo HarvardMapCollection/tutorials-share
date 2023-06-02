@@ -1,11 +1,13 @@
 ---
-title: Mapping Cultural Difference - Latinx Community Theaters in NYC
+title: Learning GIS while working in the map archives
 date: 2022-07-07
 tags: ["news"]
 authors: ["Ricky Sanchez"]
-image: gradient11.png
-description: Ricky Sanchez reports on research utilizing GIS census mapping and historic maps at the Harvard Map Collection. This project was made possible by a May-Crane fellowship.
+image: map.png
+description: Map Collection research fellow Ricky Sanchez documents her Spring 2022 project with historic maps, census, and transit data. 
 ---
+
+This project was made possible through a [May Crane fellowship](https://library.harvard.edu/may-crane-fellowships).
 
 # Mapping Cultural Difference
 The goal of this webpage is to allow others to follow the progress of this mapping project and understand the immediate and long-term goals and uses of the mapping project.

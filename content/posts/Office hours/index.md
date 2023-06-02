@@ -1,5 +1,5 @@
 ---
-title: Introducing GIS Office Hours
+title: Introducing GIS Office Hours 
 date: 2022-12-20
 tags: ["news"]
 image: a-gradient8.png

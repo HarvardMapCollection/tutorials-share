@@ -1,8 +1,8 @@
 ---
-title: Mapping projects at Harvard, Russian language speakers in post-Soviet countries
+title: Approaching language data mapping with GIS and D3.js
 date: 2023-01-13
 tags: ["news"]
-image: cover.png
+image: a-gradient12.png
 authors: ["Belle Lipton", "Paige Lee"]
 description: Project demo of an interactive map made with D3.js data visualization library and GIS tools, supported by the Harvard Map Collection.
 ---

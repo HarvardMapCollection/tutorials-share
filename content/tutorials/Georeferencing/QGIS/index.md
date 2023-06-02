@@ -1,6 +1,6 @@
 ---
 title: Georeference in QGIS
-date: 2023-01-18
+date: 2023-01-20
 tags: ["tutorials","georeferencing", "qgis"]
 image: default-gradient.png
 layout: single2

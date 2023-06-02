@@ -1,5 +1,5 @@
 ---
-title: Mapping Black Boston
+title: A GIS database and webmap of historic Black life on Boston's Beacon Hill
 description: Digital humanities and GIS project to facilitate discovery of resources depicting Black history in 18th and 19th century Boston.
 date: 2022-11-22
 image: cover.png

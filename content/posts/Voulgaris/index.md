@@ -1,5 +1,5 @@
 ---
-title: Georeferencing the historic map collections
+title: Faculty designing GIS projects around map archives
 date: 2021-10-12
 tags: ["news"]
 image: 4.png

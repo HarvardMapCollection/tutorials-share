@@ -1,5 +1,5 @@
 ---
-title: Mindful representation
+title: Normalize data in QGIS
 date: 2023-01-15
 tags: ["tutorials", "census", "qgis"]
 image: mindful.png

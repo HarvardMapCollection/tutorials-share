@@ -1,5 +1,5 @@
 ---
-title: Add a spreadsheet
+title: Add a spreadsheet .XLSX or .CSV to a QGIS project
 date: 2023-01-18
 tags: ["tutorials", "qgis"]
 image: add-csv.png
@@ -10,7 +10,7 @@ This tutorial will cover how to add tabular data to a QGIS project.
 
 <div class="alert-warning">GIS software prefer tabular data to be in <code>.csv</code> format, rather than <code>.xlsx</code>. Before attempting to bring any spreadsheets into either QGIS or ArcGIS Pro, please be sure to <a href="https://support.microsoft.com/en-us/office/save-a-workbook-to-text-format-txt-or-csv-3e9a9d6c-70da-4255-aa28-fcacf1f081e6">save as .csv</a>.</div>
 
-1. Open [QGIS](https://harvardmapcollection.github.io/tutorials/qgis/download/).
+1. Open [QGIS](https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-software/).
 
 2. In the main QGIS menu (banner across the top of the computer screen), select `Layer → Add Layer → Add delimited text layer`.
 ![Screenshot of the add delimited text wizard in QGIS](media/1.png)

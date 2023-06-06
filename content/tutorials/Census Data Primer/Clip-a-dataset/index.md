@@ -1,5 +1,5 @@
 ---
-title: Clip a dataset
+title: Clip a dataset in QGIS
 date: 2023-01-16
 tags: ["census", "qgis", "tutorials"]
 image: a-gradient13.png

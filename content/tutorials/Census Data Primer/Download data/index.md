@@ -1,5 +1,5 @@
 ---
-title: Download the data
+title: Download census data for GIS
 date: 2023-01-18
 tags: ["tutorials", "census"]
 image: farmgoat.png

@@ -1,5 +1,5 @@
 ---
-title: Add a basemap
+title: Add a basemap in QGIS
 date: 2023-01-18
 tags: ["tutorials", "qgis"]
 image: zoom.gif

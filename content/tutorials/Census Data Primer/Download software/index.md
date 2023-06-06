@@ -1,5 +1,5 @@
 ---
-title: Download the software
+title: Download QGIS software
 date: 2023-01-19
 tags: ["tutorials", "qgis"]
 image: map-canvas.gif

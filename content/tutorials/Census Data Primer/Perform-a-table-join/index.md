@@ -1,5 +1,5 @@
 ---
-title: Perform a table join
+title: Perform a table join in QGIS
 date: 2023-01-17
 tags: ["tutorials", "census", "qgis"]
 image: 2.png

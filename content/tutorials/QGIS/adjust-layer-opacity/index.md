@@ -1,5 +1,5 @@
 ---
-title: Adjust layer opacity
+title: Adjust layer opacity in QGIS
 date: 2023-01-18
 tags: ["tutorials", "qgis"]
 image: poland-opacity.gif

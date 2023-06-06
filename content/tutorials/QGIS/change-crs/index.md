@@ -1,5 +1,5 @@
 ---
-title: Change the coordinate reference system
+title: Change QGIS coordinate reference system
 date: 2023-01-18
 tags: ["tutorials", "qgis"]
 image: 2.jpeg

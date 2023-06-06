@@ -1,6 +1,6 @@
 ---
 title: Publishing tips from a data safety expert
-date: 2023-06-05
+date: 2023-06-06
 tags: ["news"]
 image: lab.png
 authors: ["Belle Lipton", "Megan Potterbusch"]

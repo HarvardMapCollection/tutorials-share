@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>qgis on GIS @ Harvard Libraries</title>
+    <title>qgis on GIS, maps &#43; data @ Harvard Libraries</title>
     <link>https://mapping.share.library.harvard.edu/tags/qgis/</link>
-    <description>Recent content in qgis on GIS @ Harvard Libraries</description>
+    <description>Recent content in qgis on GIS, maps &#43; data @ Harvard Libraries</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tags/qgis/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tags/qgis/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Download the software</title>
+      <title>Georeference in QGIS</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/georeferencing/qgis/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/georeferencing/qgis/</guid>
+      <description>Download QGIS , if you haven&amp;rsquo;t already.
+Add a basemap Browser → XYZ Tiles → Open Street Map.
+Set the project projection to WGS 84. At all times in the bottom right of the QGIS document, EPSG should read 4326.
+Open Raster → Georeferencer.
+The Georeferencing plugin comes automatically installed with recent versions of QGIS. If you do not see it, it is because it has not been enabled. To enable: navigate to Plugins → Manage &amp; Install Plugins → Installed and make sure the box next to Georeferencer GDAL is checked.</description>
+    </item>
+    
+    <item>
+      <title>Download QGIS software</title>
       <link>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-software/</link>
       <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
       
@@ -22,7 +35,7 @@ Tips If you have the option between many installer packages, choose Standalone L
     </item>
     
     <item>
-      <title>Add a basemap</title>
+      <title>Add a basemap in QGIS</title>
       <link>https://mapping.share.library.harvard.edu/tutorials/qgis/add-basemap/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
       
@@ -33,7 +46,7 @@ OpenStreetMap base tiles are built in to QGIS. Drag OpenStreetMap into the Map C
     </item>
     
     <item>
-      <title>Add a spreadsheet</title>
+      <title>Add a spreadsheet .XLSX or .CSV to a QGIS project</title>
       <link>https://mapping.share.library.harvard.edu/tutorials/qgis/add-spreadsheet/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
       
@@ -44,7 +57,7 @@ In the main QGIS menu (banner across the top of the computer screen), select Lay
     </item>
     
     <item>
-      <title>Adjust layer opacity</title>
+      <title>Adjust layer opacity in QGIS</title>
       <link>https://mapping.share.library.harvard.edu/tutorials/qgis/adjust-layer-opacity/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
       
@@ -56,7 +69,7 @@ In the properties menu, select Legend. Move Opacity slider from Available widget
     </item>
     
     <item>
-      <title>Change the coordinate reference system</title>
+      <title>Change QGIS coordinate reference system</title>
       <link>https://mapping.share.library.harvard.edu/tutorials/qgis/change-crs/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
       
@@ -66,20 +79,7 @@ A coordinate reference system (CRS) then defines how the two-dimensional, projec
     </item>
     
     <item>
-      <title>Georeference in QGIS</title>
-      <link>https://mapping.share.library.harvard.edu/tutorials/georeferencing/qgis/</link>
-      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://mapping.share.library.harvard.edu/tutorials/georeferencing/qgis/</guid>
-      <description>Download QGIS , if you haven&amp;rsquo;t already.
-Add a basemap Browser → XYZ Tiles → Open Street Map.
-Set the project projection to WGS 84. At all times in the bottom right of the QGIS document, EPSG should read 4326.
-Open Raster → Georeferencer.
-The Georeferencing plugin comes automatically installed with recent versions of QGIS. If you do not see it, it is because it has not been enabled. To enable: navigate to Plugins → Manage &amp; Install Plugins → Installed and make sure the box next to Georeferencer GDAL is checked.</description>
-    </item>
-    
-    <item>
-      <title>Perform a table join</title>
+      <title>Perform a table join in QGIS</title>
       <link>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/perform-a-table-join/</link>
       <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
       
@@ -89,7 +89,7 @@ Why do we join? Often, spreadsheets contain useful information we want to map. G
     </item>
     
     <item>
-      <title>Clip a dataset</title>
+      <title>Clip a dataset in QGIS</title>
       <link>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/clip-a-dataset/</link>
       <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
       
@@ -100,7 +100,7 @@ Why do we clip? Large datasets can be unwieldy and difficult to work with. You c
     </item>
     
     <item>
-      <title>Mindful representation</title>
+      <title>Normalize data in QGIS</title>
       <link>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/normalize-a-dataset/</link>
       <pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate>
       

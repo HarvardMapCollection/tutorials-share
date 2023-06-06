@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>QGIS on GIS @ Harvard Libraries</title>
+    <title>QGIS on GIS, maps &#43; data @ Harvard Libraries</title>
     <link>https://mapping.share.library.harvard.edu/tutorials/qgis/</link>
-    <description>Recent content in QGIS on GIS @ Harvard Libraries</description>
+    <description>Recent content in QGIS on GIS, maps &#43; data @ Harvard Libraries</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tutorials/qgis/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tutorials/qgis/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Add a basemap</title>
+      <title>Add a basemap in QGIS</title>
       <link>https://mapping.share.library.harvard.edu/tutorials/qgis/add-basemap/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
       
@@ -19,7 +19,7 @@ OpenStreetMap base tiles are built in to QGIS. Drag OpenStreetMap into the Map C
     </item>
     
     <item>
-      <title>Add a spreadsheet</title>
+      <title>Add a spreadsheet .XLSX or .CSV to a QGIS project</title>
       <link>https://mapping.share.library.harvard.edu/tutorials/qgis/add-spreadsheet/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
       
@@ -30,7 +30,7 @@ In the main QGIS menu (banner across the top of the computer screen), select Lay
     </item>
     
     <item>
-      <title>Adjust layer opacity</title>
+      <title>Adjust layer opacity in QGIS</title>
       <link>https://mapping.share.library.harvard.edu/tutorials/qgis/adjust-layer-opacity/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
       
@@ -42,7 +42,7 @@ In the properties menu, select Legend. Move Opacity slider from Available widget
     </item>
     
     <item>
-      <title>Change the coordinate reference system</title>
+      <title>Change QGIS coordinate reference system</title>
       <link>https://mapping.share.library.harvard.edu/tutorials/qgis/change-crs/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
       

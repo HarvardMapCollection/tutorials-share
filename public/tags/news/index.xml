@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>news on GIS @ Harvard Libraries</title>
+    <title>news on GIS, maps &#43; data @ Harvard Libraries</title>
     <link>https://mapping.share.library.harvard.edu/tags/news/</link>
-    <description>Recent content in news on GIS @ Harvard Libraries</description>
+    <description>Recent content in news on GIS, maps &#43; data @ Harvard Libraries</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tags/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Mapping projects at Harvard, Russian language speakers in post-Soviet countries</title>
+      <title>Publishing tips from a data safety expert</title>
+      <link>https://mapping.share.library.harvard.edu/posts/potterbusch/</link>
+      <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/posts/potterbusch/</guid>
+      <description>In this interview with Megan Potterbusch , the Harvard Kennedy School&amp;rsquo;s Research Data Steward, you will learn:
+How to balance open science and data safety How to get started with support for your research The interview BELLE LIPTON: Megan, can you introduce us to your role?
+MEGAN POTTERBUSCH: I work within the Kennedy School’s Libraries and Research Services. I’m the primary reviewer for data safety plans. A data safety plan is required for anyone who is working with regulated or contracted data, especially data that is considered sensitive.</description>
+    </item>
+    
+    <item>
+      <title>Approaching language data mapping with GIS and D3.js</title>
       <link>https://mapping.share.library.harvard.edu/posts/russian-language/</link>
       <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
       
@@ -28,7 +39,7 @@ What to expect Chat about GIS tools and datasets Meet others using GIS in their 
     </item>
     
     <item>
-      <title>Mapping Black Boston</title>
+      <title>A GIS database and webmap of historic Black life on Boston&#39;s Beacon Hill</title>
       <link>https://mapping.share.library.harvard.edu/projects/mapping-black-boston/</link>
       <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
       
@@ -39,17 +50,18 @@ To access the underlying project data, visit the project Github .</description>
     </item>
     
     <item>
-      <title>Mapping Cultural Difference - Latinx Community Theaters in NYC</title>
+      <title>Learning GIS while working in the map archives</title>
       <link>https://mapping.share.library.harvard.edu/posts/mapping-cultural-difference/</link>
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://mapping.share.library.harvard.edu/posts/mapping-cultural-difference/</guid>
-      <description>Mapping Cultural Difference The goal of this webpage is to allow others to follow the progress of this mapping project and understand the immediate and long-term goals and uses of the mapping project.
-About this mapping project At its inception, this project&amp;rsquo;s main goal is to demonstrate cultural distance and difference as they pertain to staged representations of Latinx (or Latine) Americans living in the United States. In order to do so, this project maps the difference between the spaces that are occupied by Latinx-Americans and Latinx immigrants and the spaces that represent or claim to represent Latinx Americans in the United States.</description>
+      <description>This project was made possible through a May Crane fellowship .
+Mapping Cultural Difference The goal of this webpage is to allow others to follow the progress of this mapping project and understand the immediate and long-term goals and uses of the mapping project.
+About this mapping project At its inception, this project&amp;rsquo;s main goal is to demonstrate cultural distance and difference as they pertain to staged representations of Latinx (or Latine) Americans living in the United States.</description>
     </item>
     
     <item>
-      <title>Georeferencing the historic map collections</title>
+      <title>Faculty designing GIS projects around map archives</title>
       <link>https://mapping.share.library.harvard.edu/posts/voulgaris/</link>
       <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
       
@@ -61,7 +73,7 @@ THE VISIT In early September 2021, The Harvard Map Collection facilitated a clas
     </item>
     
     <item>
-      <title>Map-based storytelling at Bloomberg News</title>
+      <title>GIS storytelling tips from a professional graphics journalist</title>
       <link>https://mapping.share.library.harvard.edu/posts/graphics/</link>
       <pubDate>Mon, 16 Aug 2021 00:00:00 +0000</pubDate>
       

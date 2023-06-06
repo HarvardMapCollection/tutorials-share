@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>class on GIS @ Harvard Libraries</title>
+    <title>class on GIS, maps &#43; data @ Harvard Libraries</title>
     <link>https://mapping.share.library.harvard.edu/tags/class/</link>
-    <description>Recent content in class on GIS @ Harvard Libraries</description>
+    <description>Recent content in class on GIS, maps &#43; data @ Harvard Libraries</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tags/class/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tags/class/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Everything happens somewhere</title>
+      <link>https://mapping.share.library.harvard.edu/classes/programs/dcwg/spring-2023/</link>
+      <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/classes/programs/dcwg/spring-2023/</guid>
+      <description>1 maps, relevancy mapping inequality
+2 workflow diagrams documentation
+3 conf pics participants</description>
+    </item>
+    
     <item>
       <title>GIS Outreach with the Harvard Map Collection</title>
       <link>https://mapping.share.library.harvard.edu/classes/programs/scdg/spring-2023/</link>
@@ -126,15 +137,6 @@ ArcGIS Map comparing 1890 atlas to today.
 Global volcanoes dataset in the Harvard Geospatial Library (HGL).
 Research Record from Harvard Map Collection card catalog .
 Services and Resources The Harvard Map Collection maintains a series of tutorials, guides, and updates about mapmaking.</description>
-    </item>
-    
-    <item>
-      <title>GIS @ Harvard Libraries</title>
-      <link>https://mapping.share.library.harvard.edu/classes/programs/test/spring-2023/</link>
-      <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://mapping.share.library.harvard.edu/classes/programs/test/spring-2023/</guid>
-      <description>TEST</description>
     </item>
     
     <item>

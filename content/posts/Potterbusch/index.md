@@ -4,7 +4,7 @@ date: 2023-06-06
 tags: ["news"]
 image: lab.png
 authors: ["Belle Lipton", "Megan Potterbusch"]
-description: We interviewed Megan Botterbusch from the Harvard Kennedy School Libraries about the balance between reproducibility and data security measures.
+description: We interviewed Megan Potterbusch from the Harvard Kennedy School Libraries about the balance between reproducibility and data security measures.
 ---
 
 In this interview with [Megan Potterbusch](https://library.harvard.edu/staff/megan-potterbusch), the Harvard Kennedy School's Research Data Steward, you will learn:

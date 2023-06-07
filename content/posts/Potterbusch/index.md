@@ -49,4 +49,4 @@ Another reason for partnering with librarians is we have a long history of organ
 
 
 <span style="font-family:lorabold;color:#5f0217;">POTTERBUSCH:</span> 
-If people have questions about libraries’ support open science, privacy and security, they can absolutely reach out to me as a first stop. I can then help link to the right data services for your school or research question.
+If people have questions about libraries’ support for open science, privacy and security, they can absolutely reach out to me as a first stop. I can then help link to the right data services for your school or research question.

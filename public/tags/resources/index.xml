@@ -6,7 +6,16 @@
     <description>Recent content in Resources on GIS, maps &#43; data @ Harvard Libraries</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tags/resources/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tags/resources/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project Scoping</title>
+      <link>https://mapping.share.library.harvard.edu/resources/researchers-handbook/socio-technical-roadmap/</link>
+      <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/researchers-handbook/socio-technical-roadmap/</guid>
+      <description>Socio-Technical Sustainability Roadmap, University of Pittsburgh </description>
+    </item>
+    
     <item>
       <title>DIY Metadata</title>
       <link>https://mapping.share.library.harvard.edu/resources/researchers-handbook/diy-metadata/</link>

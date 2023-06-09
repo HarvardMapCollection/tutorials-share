@@ -1,5 +1,5 @@
 ---
-title: Project scoping resources
+title: Project Scoping
 date: 2023-06-07
 tags: ["Resources", "Research"]
 image: a-gradient1.png

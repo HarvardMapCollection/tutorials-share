@@ -7,6 +7,6 @@ authors: ["Vivian Nguyen"]
 description: Vivian's blog post
 
 # Title
-
+Welcome to my blog post! 
 ## Subtitle 
 Text

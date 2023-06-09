@@ -7,7 +7,8 @@ authors: ["Vivian Nguyen"]
 description: Vivian's blog post
 ---
 
-# Title
+# My Title
+Welcome to my blog post! 
 
-## Subtitle 
-Text
+## My Subtitle 
+This is a post detailing some of the work I did this summer with Belle and the Harvard Geospatial Library.

@@ -24,9 +24,8 @@
       <guid>https://mapping.share.library.harvard.edu/tutorials/georeferencing/qgis/</guid>
       <description>Download QGIS , if you haven&amp;rsquo;t already.
 Add a basemap Browser → XYZ Tiles → Open Street Map.
-Set the project projection to WGS 84. At all times in the bottom right of the QGIS document, EPSG should read 4326.
-Open Raster → Georeferencer.
-The Georeferencing plugin comes automatically installed with recent versions of QGIS. If you do not see it, it is because it has not been enabled. To enable: navigate to Plugins → Manage &amp; Install Plugins → Installed and make sure the box next to Georeferencer GDAL is checked.</description>
+Set the project coordinate reference system to WGS 84. At all times in the bottom right of the QGIS document, EPSG should read 4326.
+Optional context on coordinate reference systems Every dataset and every QGIS project each has a coordinate reference system (CRS). Coordinate reference systems allow the GIS software to know where on the world to place the dataset, how to line it up spatially.</description>
     </item>
     
     <item>

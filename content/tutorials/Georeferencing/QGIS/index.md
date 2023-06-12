@@ -10,7 +10,29 @@ layout: single2
 
 2. [Add a basemap](https://harvardmapcollection.github.io/tutorials/qgis/add-a-basemap/) `Browser → XYZ Tiles → Open Street Map`.
 
-3. Set the project projection to WGS 84. At all times in the bottom right of the QGIS document, EPSG should read 4326.
+3. Set the project coordinate reference system to WGS 84. At all times in the bottom right of the QGIS document, EPSG should read 4326. 
+
+<div class="alert-info">
+<h2>
+Optional context on coordinate reference systems</h2>
+  Every <strong>dataset</strong> and every <strong>QGIS project</strong> each has a coordinate reference system (CRS). Coordinate reference systems allow the GIS software to know where on the world to place the dataset, how to line it up spatially. There are a number of different mathematical models that each define different ways of flattening a round globe onto a flat surface like a computer monitor, or a piece of paper (a map!) Cartographers or GIScientists will typically select one model, or CRS, over another, depending on the project. They make this selection based on the goals of the project, which features they want to highlight, deemphasize, or preserve. You can get started with coordinate reference systems in chapters 10-13 in the <a href="https://openpress.usask.ca/introgeomatics/chapter/measuring-and-modeling-earth/">Open Geomatics Textbook</a>.
+  <br>
+  <br>
+ There are some cases where picking a specific CRS is necessary -- for instance if you want the map to <em>look</em> a certain way, or need your geographic features defined in meters or feet for calculating distance. Many times, however, picking a specific CRS is not imperative to the project, and in those cases, we recommend defaulting to Mercator. If you have worked with us before, you will recall we encourage questioning default settings, so to do your due diligence, you can read more about <a href="https://source.opennews.org/articles/choosing-right-map-projection/">Mercator's pros and cons</a>. For georeferencing, we've found it works well to start off in EPSG:4326, because it decreases the likelihood for errors down the road, especially if you want to someday bring your project to the web. 
+   <br>
+  <br>
+For this tutorial, an important fact to know about QGIS is the program will adopt as its project CRS the same CRS as the <em>first dataset added to the project</em> Since we brought the OpenStreetMap basemap into our project as a reference layer, and since the OpenStreetMap basemap has a CRS of <em>Web</em> Mercator (EPSG code 3857), we must now change the project CRS back to regular Mercator (4326), to avoid those web problems down the road. To complete this, follow these steps:
+<br>
+<br>
+<h2>Steps to change the project CRS</h2>
+<ol>
+<li>In the bottom right-hand section of the screen where the project CRS is displayed as EPSG: 3857, click EPSG 3857 to open the Project Properties - CRS Wizard.</li>
+<li>In the search bar, type in 4326. Under Coordinate Reference System, WGS 84 4326 should now be an options you can select.</li>
+<li>Select or highlight WGS 84 EPSG:4326.</li>
+<li>Select Okay.</li>
+<li>In the bottom right-hand corner of QGIS, the project CRS should now read EPSG:4326.</li>
+</ol>
+</div>
 
 
 4. Open `Raster → Georeferencer`. 

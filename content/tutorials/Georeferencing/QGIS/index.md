@@ -38,6 +38,9 @@ For this tutorial, an important fact to know about QGIS is the program will adop
 4. Open `Raster → Georeferencer`. 
 <div class="alert-info">
   The Georeferencing plugin comes automatically installed with recent versions of QGIS. If you do not see it, it is because it has not been enabled. To enable: navigate to Plugins → Manage & Install Plugins → Installed and make sure the box next to Georeferencer GDAL is checked.
+  <br>
+  <br>
+  Update: As of version 3.28, the georeferencer plugin is <strong>found under the `Layer` menu.</strong>
 </div>
 
 

@@ -1,6 +1,6 @@
 ---
 title: Data visualization specialist's approaches to data
-date: 2023-06-21
+date: 2023-08-21
 tags: ["news"]
 image: abacus.png
 authors: ["Belle Lipton", "Jessica Cohen-Tanugi", "Gabe Pizzorno"]
@@ -16,3 +16,4 @@ One of the goals of this blog is to help you become better positioned in underst
 
 In this post I'd like to surface some experiences of my colleagues in Harvard's Digital Scholarship Group, which is an interdisciplinary team of faculty and staff advancing facility with digital research methods. We talk with data visualization specialist Jessica Cohen-Tanugi, who herself is coming from a background in physical sciences, but has worked across the board in terms of subject specialties, and is well-positioned to dicuss how different approaches to working with data can impact research outcomes.
 
+TEST.

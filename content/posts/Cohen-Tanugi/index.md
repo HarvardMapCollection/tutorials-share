@@ -1,5 +1,5 @@
 ---
-title: Disciplinary predispositions to working with data
+title: Disciplinary frames to working with data
 date: 2023-07-11
 tags: ["news"]
 image: abacus.png

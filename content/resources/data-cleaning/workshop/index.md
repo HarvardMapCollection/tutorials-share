@@ -59,7 +59,7 @@ A student researcher wanted to understand geographic contexts for women who had 
 To do this, she had identified [a national survey](https://www.inegi.org.mx/programas/enpol/2021/#Microdatos) of incarcerated people in Mexico. It contained results from over 1,000 variables about the participants, but only three of those columns contained geographic information the researcher wanted to map. To use this dataset, we will have to rely on the documentation, which is available [in Spanish](https://github.com/HarvardMapCollection/jb-pae/blob/main/documentation/2021_enpol_cuestionario_principal.pdf) and here [translated for English](https://github.com/HarvardMapCollection/jb-pae/blob/main/documentation/2021_enpol_cuestionario_principal_english_translation.pdf).
 
 ### Data scope discussion
-Joint consults w. MPB
+Joint consults w. MPB or equiv
 
 
 ### Steps

@@ -57,7 +57,7 @@ theme = 'BlogRa'
                 weight = 1
             [[menu.main]]
                 parent = "Resources"
-                name = "Researchers' Handbook"
+                name = "Open Access Practices for GIS"
                 url = "/resources/researchers-handbook"
                 weight = 2
             [[menu.main]]

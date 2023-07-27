@@ -1,5 +1,5 @@
 ---
-title: Researchers' Handbook
+title: Open Access Practices for GIS
 image: a-gradient1.png
 date: 2022-01-17
 

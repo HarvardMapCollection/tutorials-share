@@ -52,24 +52,29 @@ theme = 'BlogRa'
         weight = 3
             [[menu.main]]
                 parent = "Resources"
+                name = "Harvard Geospatial Library (HGL)"
+                url = "https://library.harvard.edu/services-tools/harvard-geospatial-library"
+                weight = 1
+            [[menu.main]]
+                parent = "Resources"
                 name = "Introduction to GIS"
                 url = "/resources/new-to-gis"
-                weight = 1
+                weight = 2
+            [[menu.main]]
+                parent = "Resources"
+                name = "Data Cleaning for GIS"
+                url = "/resources/data-cleaning"
+                weight = 3
             [[menu.main]]
                 parent = "Resources"
                 name = "Open Access Practices for GIS"
                 url = "/resources/researchers-handbook"
-                weight = 2
-            [[menu.main]]
-                parent = "Resources"
-                name = "Statistical Mapping Best Practices"
-                url = "https://gistbok.ucgis.org/bok-topics/statistical-mapping-enumeration-normalization-classification"
-                weight = 3
-            [[menu.main]]
-                parent = "Resources"
-                name = "Harvard Geospatial Library (HGL)"
-                url = "https://library.harvard.edu/services-tools/harvard-geospatial-library"
                 weight = 4
+            [[menu.main]]
+                parent = "Resources"
+                name = "GIS Statistics (Enumeration, Normalization, and Classification)"
+                url = "https://gistbok.ucgis.org/bok-topics/statistical-mapping-enumeration-normalization-classification"
+                weight = 5
 
     [[menu.main]]
         identifier = "blog"

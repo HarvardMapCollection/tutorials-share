@@ -44,13 +44,17 @@ In this workshop, we will be using an example from a real data cleaning project 
 
 ![Screen capture of the original source data showing many messy rows and columns](media/dimensions.png)
 
-For the purposes of this workshop, where we will need to be able to run cleaning processes in the softare in a timely fashion, we have clipped this dataset down from over a million records to only a handful. For that reason, the workshop test data is not representative, and you should not use it for any purpose other than data cleaning practice. We will not be able to garner any statistical insights from this practice dataset.
+For the purposes of this workshop, where we will need to be able to run cleaning processes in the software in a timely fashion, we have clipped this dataset down from over a million records to only a handful. For that reason, the workshop test data is not representative, and you should not use it for any purpose other than data cleaning practice. We will not be able to garner any statistical insights from this practice dataset.
 
 ### Data download
 
 The workshop practice data is available from this [Google Drive folder](https://drive.google.com/drive/folders/1JILKFS7P9FV4EAui1gAuT1rqgPcnaqls?usp=sharing).
 
 If you are interested in the data in its origianl format, it is available on this [Github page](https://github.com/HarvardMapCollection/jb-pae), although this is optional and not required for the workshop.
+
+### What is the data?
+
+
 
 
 

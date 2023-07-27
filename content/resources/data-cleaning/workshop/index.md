@@ -56,7 +56,7 @@ If you are interested in the data in its original format, it is available on thi
 
 A student researcher wanted to understand geographic contexts for women who had been imprisoned in Mexico. The researcher was looking at places where women had been born, were supposed to have committed crimes, and where they had been arrested.
 
-To do this, she had identified [a national survey](https://www.inegi.org.mx/programas/enpol/2021/#Microdatos) of incarcerated people in Mexico. It contained results from over 1,000 questions asked of the participants, but only three of those columns contained geographic information the researcher wanted to map. To use this dataset, we will have to rely on the documentation, which is available [in Spanish](https://github.com/HarvardMapCollection/jb-pae/blob/main/documentation/2021_enpol_cuestionario_principal.pdf) and here [tranlsated for English](https://github.com/HarvardMapCollection/jb-pae/blob/main/documentation/2021_enpol_cuestionario_principal_english_translation.pdf).
+To do this, she had identified [a national survey](https://www.inegi.org.mx/programas/enpol/2021/#Microdatos) of incarcerated people in Mexico. It contained results from over 1,000 questions asked of the participants, but only three of those columns contained geographic information the researcher wanted to map. To use this dataset, we will have to rely on the documentation, which is available [in Spanish](https://github.com/HarvardMapCollection/jb-pae/blob/main/documentation/2021_enpol_cuestionario_principal.pdf) and here [translated for English](https://github.com/HarvardMapCollection/jb-pae/blob/main/documentation/2021_enpol_cuestionario_principal_english_translation.pdf).
 
 
 

@@ -50,7 +50,7 @@ For the purposes of this workshop, where we will need to be able to run cleaning
 
 The workshop practice data is available from this [Google Drive folder](https://drive.google.com/drive/folders/1JILKFS7P9FV4EAui1gAuT1rqgPcnaqls?usp=sharing).
 
-If you are interested in the data in its origianl format, it is available on this [Github page](https://github.com/HarvardMapCollection/jb-pae), although this is optional and not required for the workshop.
+If you are interested in the data in its original format, it is available on this [Github page](https://github.com/HarvardMapCollection/jb-pae), although this is optional and not required for the workshop.
 
 ### What is the data?
 

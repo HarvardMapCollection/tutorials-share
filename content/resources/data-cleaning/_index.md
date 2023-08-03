@@ -1,7 +1,7 @@
 ---
 title: Data Cleaning for GIS
 image: a-gradient1.png
-date: 2023-09-27
+date: 2023-07-27
 
 ---
 

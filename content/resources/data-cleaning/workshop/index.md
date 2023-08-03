@@ -12,6 +12,8 @@ Workshop materials in progress. Check the [library calendar](https://libcal.libr
 
 1. Resources
 - Us (HMC GIS Data Services)
+     - Consults
+     - Office hours
 - Network (local libs)
 - Jess
 - DSSG Workshops
@@ -59,18 +61,28 @@ A student researcher wanted to understand geographic contexts for women who had 
 To do this, she had identified [a national survey](https://www.inegi.org.mx/programas/enpol/2021/#Microdatos) of incarcerated people in Mexico. It contained results from over 1,000 variables about the participants, but only three of those columns contained geographic information the researcher wanted to map. To use this dataset, we will have to rely on the documentation, which is available [in Spanish](https://github.com/HarvardMapCollection/jb-pae/blob/main/documentation/2021_enpol_cuestionario_principal.pdf) and here [translated for English](https://github.com/HarvardMapCollection/jb-pae/blob/main/documentation/2021_enpol_cuestionario_principal_english_translation.pdf).
 
 ### Data scope discussion
-Joint consults w. MPB or equiv
+MPB considerations of the datasets
+Details about joint consults
 
 
 ### Steps
 
-Either:
-- W. Mexican nat'l survey data
-    - Pivot table to states w. row counts
-    - Discuss well whatif you don't have states
-- Lat / lon w Ukraine displacement Qualtrix data, points in polygon
+2 Examples:
 
-pending
+1. When you have joinable (with Mexican national survey data):
+    - Create a pivot table to the states with row counts
+    - Then join using the country codes
+2. When you have points (locations of Russian universities)
+    - Discuss problems with IP addresses in the Qualtrics, why do we need other workflow
+    - Translate the cells
+    - Standardize responses
+    - Pivot to get counts per university
+    - Geocode 
+    - Aggregate responses to oblasts
+    - Normalize
+
+
+
 
 
 

@@ -6,25 +6,28 @@
     <description>Recent content in Resources on GIS, maps &#43; data @ Harvard Libraries</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tags/resources/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tags/resources/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Project Scoping</title>
-      <link>https://mapping.share.library.harvard.edu/resources/researchers-handbook/socio-technical-roadmap/</link>
-      <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
+      <title>Enabling discovery and reuse of your GIS research</title>
+      <link>https://mapping.share.library.harvard.edu/resources/researchers-handbook/long-term-preservation/</link>
+      <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://mapping.share.library.harvard.edu/resources/researchers-handbook/socio-technical-roadmap/</guid>
-      <description>Socio-Technical Sustainability Roadmap, University of Pittsburgh </description>
+      <guid>https://mapping.share.library.harvard.edu/resources/researchers-handbook/long-term-preservation/</guid>
+      <description>The Harvard Map Collection collects and preserves GIS data for long-term discovery and reuse in the Harvard Geospatial Library (HGL) . Depositing your data in HGL or Dataverse might not be the right choice for your project; perhaps you&amp;rsquo;d like to simply make sure you&amp;rsquo;re checking all the boxes to make sure your data is the most accessible and reusable it can be.
+On this page, you will find: A list of prompts for creating your own geospatial metadata A template for doing so Descriptions of the consultation services available through the library 3 steps to discovery It is helpful to think of packaging up your data in 3 steps.</description>
     </item>
     
     <item>
-      <title>DIY Metadata</title>
+      <title>DIY metadata prompts</title>
       <link>https://mapping.share.library.harvard.edu/resources/researchers-handbook/diy-metadata/</link>
       <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://mapping.share.library.harvard.edu/resources/researchers-handbook/diy-metadata/</guid>
-      <description>If you are creating your own data, or reshaping data you have found so it is easier to work with for some purpose, you might not always know the exact contextual information to provide so the data can be the most widely discovered, understood, and used.
-This guide provides a template for creating documentation for GIS data projects that well-positions your research for discovery and reuse.
-Tips Document your data creation and editing process early and often.</description>
+      <description>This guide can be used on your own or together with a librarian during a guided interview .
+Documentation elements Originator(s) The name(s) of the organization(s) or individual(s) who developed the dataset.
+Publication Date The date when the dataset is published or otherwise made available for release.
+Calendar Date(s) of the Content The date, dates or date range describing the content of the dataset.
+Title A title for the dataset.</description>
     </item>
     
   </channel>

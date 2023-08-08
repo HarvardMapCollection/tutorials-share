@@ -6,20 +6,11 @@
     <description>Recent content in Tags on GIS, maps &#43; data @ Harvard Libraries</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>news</title>
-      <link>https://mapping.share.library.harvard.edu/tags/news/</link>
-      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://mapping.share.library.harvard.edu/tags/news/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Tue, 08 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Research</title>
       <link>https://mapping.share.library.harvard.edu/tags/research/</link>
-      <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://mapping.share.library.harvard.edu/tags/research/</guid>
       <description></description>
@@ -28,9 +19,27 @@
     <item>
       <title>Resources</title>
       <link>https://mapping.share.library.harvard.edu/tags/resources/</link>
-      <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://mapping.share.library.harvard.edu/tags/resources/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data-Cleaning-Workshop</title>
+      <link>https://mapping.share.library.harvard.edu/tags/data-cleaning-workshop/</link>
+      <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tags/data-cleaning-workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>news</title>
+      <link>https://mapping.share.library.harvard.edu/tags/news/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tags/news/</guid>
       <description></description>
     </item>
     

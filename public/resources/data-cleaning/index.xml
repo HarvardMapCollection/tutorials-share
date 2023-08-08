@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Cleaning for GIS on GIS, maps &#43; data @ Harvard Libraries</title>
+    <link>https://mapping.share.library.harvard.edu/resources/data-cleaning/</link>
+    <description>Recent content in Data Cleaning for GIS on GIS, maps &#43; data @ Harvard Libraries</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/resources/data-cleaning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Cleaning for GIS Workshop</title>
+      <link>https://mapping.share.library.harvard.edu/resources/data-cleaning/workshop/</link>
+      <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/data-cleaning/workshop/</guid>
+      <description>Bit.ly https://bit.ly/gis-cleaning Sign up Library calendar Slides Workshop slides Example data Example data Survey Post-workshop survey </description>
+    </item>
+    
+  </channel>
+</rss>

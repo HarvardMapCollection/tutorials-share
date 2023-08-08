@@ -17,7 +17,7 @@ description: Companion guide for thinking about how to prepare your GIS data for
 The Harvard Map Collection collects and preserves GIS data for long-term discovery and reuse in the [Harvard Geospatial Library (HGL)](https://library.harvard.edu/services-tools/harvard-geospatial-library). Depositing your data in HGL or [Dataverse](https://dataverse.harvard.edu/) might not be the right choice for your project; perhaps you'd like to simply make sure you're checking all the boxes to make sure your data is the most accessible and reusable it can be. 
 
 ## On this page, you will find:
-- A [list of prompts](#prompts) for creating your own geospatial metadata
+- A [list of prompts](https://mapping.share.library.harvard.edu/resources/researchers-handbook/prompts/) for creating your own geospatial metadata
 - A <a href="media/FGDC-Metadata-Template.xlsx" download="FGDC-Metadata-Template.xlsx">template</a> for doing so
 - Descriptions of the [consultation services](#guided-interview) available through the library
 

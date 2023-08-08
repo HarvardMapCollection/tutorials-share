@@ -2,7 +2,7 @@
 title: Enabling discovery and reuse of your GIS research
 date: 2023-08-08
 tags: ["Resources", "Research"]
-image: a-gradient8.png
+image: a-gradient3.png
 layout: single2
 description: Companion guide for thinking about how to prepare your GIS data for discovery and reuse.
 ---

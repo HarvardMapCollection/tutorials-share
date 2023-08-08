@@ -2,7 +2,7 @@
 title: DIY metadata prompts
 date: 2023-01-19
 tags: ["Resources", "Research"]
-image: a-gradient3.png
+image: a-gradient1.png
 layout: single2
 description: Prompts for documenting your data.
 ---

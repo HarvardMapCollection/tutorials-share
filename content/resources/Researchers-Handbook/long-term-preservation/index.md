@@ -47,21 +47,19 @@ Oscillating between actually working on the project, and carving out time to wor
 
 ### Guided interview
 
-One of the services we offer at the Map Collection is a guided interview meant to intermediate between where you are with your project, and where you'd like to be with your data. If you were to deposit your data today, the way we would enter it into our [data portal](https://library.harvard.edu/services-tools/harvard-geospatial-library), is by creating highly structured metadata using extensible markup language (XML) and a federally-specified standard of description, by the [Federal Geographic Data Committee (FGDC)](https://www.fgdc.gov/metadata). 
-
-Describing data this way allows portals like the Harvard Geospatial Library to function, and provides useful contextual information for researchers trying to understand details about the datasets they find in online discovery portals. The problem is that these standards are incredibly specific and time consuming, and do require specialist knowledge to populate. 
+One of the services we offer at the Map Collection is a guided interview meant to intermediate between where you are with your project, and where you'd like to be with your data. 
 
 Our guided interviews are meant to liaise between the vast knowledge you have about your project, and the technical, specific ways to capture it so that many people can benefit from and continue building upon your work.
 
 | Action item | What's in it for the library | What's in it for the researcher |
 | --- | --- | --- |
-| Partner with the library to package and describe your GIS data using methods aligned with open access best practices | Able to provide better access to data materials because they are well-described and discoverable; Fulfill objectives of supporting GIS needs of researchers | Extend the value of your work by making your methods reproducible; facilitate transparency; Ensure you (and not a publisher) are retaining rights to your data |
+| Partner with the library to package and describe your GIS data using methods aligned with open access best practices | Provide better access to data materials because they are well-described and discoverable; Fulfill objectives of supporting GIS needs of researchers | Extend the value of your work by making your methods reproducible; facilitate transparency; Ensure you (and not a publisher) are retaining rights to your data |
 
 
 
 ## Suggested next steps
 
-1. We don't recommend trying to fill out the <a href="media/FGDC-Metadata-Template.xlsx" download="FGDC-Metadata-Template.xlsx">FGDC metadata template</a>  on your own, however it can be useful to know which fields we typically capture, so that while you're working you can document any important information. 
+1. We don't recommend trying to fill out the <a href="media/FGDC-Metadata-Template.xlsx" download="FGDC-Metadata-Template.xlsx">metadata template</a>  on your own, however it can be useful to know which fields we typically capture, so that while you're working you can document any important information. 
 
 2. [Schedule an interview with us](https://library.harvard.edu/libraries/harvard-map-collection). We will walk through prompts designed to generate high-quality metadata. Even if your goal is not to deposit datasets, it can be helpful to get feedback about how you are thinking about and communicating your data work. If you'd like to preview the prompts ahead of time, they are available from our [documentation guide](https://mapping.share.library.harvard.edu/resources/researchers-handbook/prompts/).
 

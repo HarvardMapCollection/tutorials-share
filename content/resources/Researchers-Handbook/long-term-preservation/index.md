@@ -63,7 +63,7 @@ Our guided interviews are meant to liaise between the vast knowledge you have ab
 
 1. Even though we don't recommend trying to fill out the <a href="media/FGDC-Metadata-Template.xlsx" download="FGDC-Metadata-Template.xlsx">FGDC template</a>  on your own, it can be useful to know which fields we typically capture, so that while you're working you can document any important information. 
 
-2. [Schedule an interview with us](https://library.harvard.edu/libraries/harvard-map-collection). We will walk through prompts designed to generate high-quality metadata. Even if your goal is not to deposit datasets, it can be helpful to get feedback about how you are thinking about and communicating your data work. You can also use [the prompts](https://mapping.share.library.harvard.edu/resources/researchers-handbook/prompts/) on your own.
+2. [Schedule an interview with us](https://library.harvard.edu/libraries/harvard-map-collection). We will walk through prompts designed to generate high-quality metadata. Even if your goal is not to deposit datasets, it can be helpful to get feedback about how you are thinking about and communicating your data work. If you'd like to preview the prompts ahead of time, they are available from our [documentation guide](https://mapping.share.library.harvard.edu/resources/researchers-handbook/prompts/).
 
 
 

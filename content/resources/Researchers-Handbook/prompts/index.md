@@ -1,5 +1,5 @@
 ---
-title: DIY metadata prompts
+title: Documentation 101
 date: 2023-01-19
 tags: ["Resources", "Research"]
 image: a-gradient1.png

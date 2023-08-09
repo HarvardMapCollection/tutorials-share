@@ -43,7 +43,7 @@ In the research project stage, you are immersed in the work of your project. You
 
 When you are creating metadata, instead of broadly envisioning your project, you are now having to switch to a hyperfocused stage of work that can feel rote, technical, and tedious. 
 
-Oscillating between actually working on the project, and carving out time to work on this highly technical, but important metadata is a serious challenge for researchers. This is why we offer our guided interview consultation services.
+Oscillating between actually working on the project, and carving out time to work on highly technical, but important metadata can be challenging, especially under time constraints. 
 
 ### Guided interview
 

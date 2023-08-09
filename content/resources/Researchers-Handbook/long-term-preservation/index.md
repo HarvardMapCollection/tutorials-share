@@ -18,9 +18,18 @@ The Harvard Map Collection collects and preserves GIS data for long-term discove
 
 ## Metadata?
 
-You may already have a system for citing the GIS layers you're finding or making. Or maybe it's the very beginning of your project and you want some tips. Ultimately, the usability of your data comes down to the documentation or metadata you're creating. 
+You may already have a system for citing the GIS layers you're finding or making. Or maybe it's the very beginning of your project and you want some tips. Ultimately, the usability of your data comes down to the documentation or metadata you're creating. GIS metadata is not super intuitive, so this guide is meant to help with that.
 
-GIS metadata is not super intuitive, so this guide is meant to help with that.
+## Examples
+
+Here are some examples of projects where the extra work put into the data, methods, and documentation extends people's ability to engage with the materials.
+
+| GIS project | Data, methods and documentation | 
+| --- | --- | 
+| <a href="https://dsl.richmond.edu/panorama/redlining/#loc=5/39.1/-94.58">Mapping Inequality</a> |<a href="https://dsl.richmond.edu/panorama/redlining/#loc=5/39.1/-94.58&text=downloads">Data, methods and documentation </a>| 
+| <a href="https://www.landgrabu.org/">Land-Grab Universities</a> | <a href="https://github.com/HCN-Digital-Projects/landgrabu-data">Data, methods and documentation </a> |
+| <a href="https://scalar.fas.harvard.edu/imperiia/card-sorts?path=the-playing-cards">Imperiia Geocards</a> | <a href="https://github.com/HarvardMapCollection/geocards-placeholder">Data, methods and documentation </a>|
+
 
 ## On this page, you will find:
 - A [list of prompts](https://mapping.share.library.harvard.edu/resources/researchers-handbook/prompts/) for creating your own GIS metadata

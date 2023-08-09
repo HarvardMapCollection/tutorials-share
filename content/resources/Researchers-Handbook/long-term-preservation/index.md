@@ -14,7 +14,7 @@ description: Companion guide for thinking about how to prepare your GIS data for
 </style>
 
 
-The Harvard Map Collection collects and preserves GIS data for long-term discovery and reuse in the [Harvard Geospatial Library (HGL)](https://library.harvard.edu/services-tools/harvard-geospatial-library). You might like to extend the long-term value of your research by making your data available in a tool like HGL or [Dataverse](https://dataverse.harvard.edu/), or perhaps you'd like some feedback on how you are communicating the GIS components of your project. Maybe this is the first time you are thinking about this topics, and it sounds intriguing to you. No matter where you are in this process, we are here to help.
+The Harvard Map Collection collects and preserves GIS data for long-term discovery and reuse in the [Harvard Geospatial Library (HGL)](https://library.harvard.edu/services-tools/harvard-geospatial-library). You might like to extend the long-term value of your research by making your data available in a tool like HGL or [Dataverse](https://dataverse.harvard.edu/), or perhaps you'd like some feedback on how you are communicating the GIS components of your project. Maybe this is the first time you are thinking about this topic, and it sounds intriguing to you. No matter where you are in this process, we are here to help.
 
 ## Metadata?
 
@@ -55,13 +55,13 @@ Our guided interviews are meant to liaise between the vast knowledge you have ab
 
 | Action item | What's in it for the library | What's in it for the researcher |
 | --- | --- | --- |
-| Partner with the library to package and describe your GIS data using methods aligned with open access best practices | Able to provide better access to data materials because they are well-described and discoverable; Fulfill objectives of supporting GIS needs of researchers | Extend the value of your work by making your methods reproducible; facilitate transparency; Ensure you (and not the publisher) are retaining rights to your data |
+| Partner with the library to package and describe your GIS data using methods aligned with open access best practices | Able to provide better access to data materials because they are well-described and discoverable; Fulfill objectives of supporting GIS needs of researchers | Extend the value of your work by making your methods reproducible; facilitate transparency; Ensure you (and not a publisher) are retaining rights to your data |
 
 
 
 ## Suggested next steps
 
-1. Even though we don't recommend trying to fill out the <a href="media/FGDC-Metadata-Template.xlsx" download="FGDC-Metadata-Template.xlsx">FGDC template</a>  on your own, it can be useful to know which fields we typically capture, so that while you're working you can document any important information. 
+1. We don't recommend trying to fill out the <a href="media/FGDC-Metadata-Template.xlsx" download="FGDC-Metadata-Template.xlsx">FGDC metadata template</a>  on your own, however it can be useful to know which fields we typically capture, so that while you're working you can document any important information. 
 
 2. [Schedule an interview with us](https://library.harvard.edu/libraries/harvard-map-collection). We will walk through prompts designed to generate high-quality metadata. Even if your goal is not to deposit datasets, it can be helpful to get feedback about how you are thinking about and communicating your data work. If you'd like to preview the prompts ahead of time, they are available from our [documentation guide](https://mapping.share.library.harvard.edu/resources/researchers-handbook/prompts/).
 

@@ -6,7 +6,37 @@
     <description>Recent content on GIS, maps &#43; data @ Harvard Libraries</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>https://mapping.share.library.harvard.edu/projects/hgl-explore/overview/</link>
+      <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/projects/hgl-explore/overview/</guid>
+      <description>This guide is a result of a 2023 summer project funded by the Harvard Libraries May Crane Fellowship program. The goals of this project were twofold:
+To give undergraduate students an opportunity to apply coursework methods for data cleaning, analysis and visualization to a real-world corpus of data, useful to our library work.
+To create a website that helps users of the Harvard Geospatial Library (HGL) make better sense of what types of data they might find in the portal.</description>
+    </item>
+    
+    <item>
+      <title>Places and &#34;spatial&#34;</title>
+      <link>https://mapping.share.library.harvard.edu/projects/hgl-explore/places/</link>
+      <pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/projects/hgl-explore/places/</guid>
+      <description>Motivation One of the most immediate features of a geospatial dataset is the region it covers. That&amp;rsquo;s why early on in this project, a burning question for me was “what region(s) &amp;ndash; cities, states, countries, continents &amp;ndash; does the Harvard Geospatial Library (HGL) have data to describe?”
+Diving into the metadata To acquire insights into the library&amp;rsquo;s vast collection of geospatial datasets, totaling over 11,000 to date, I worked with the metadata records for every dataset in the Harvard Geospatial Library, which are available publicly from the Harvard Library Github .</description>
+    </item>
+    
+    <item>
+      <title>Subjects</title>
+      <link>https://mapping.share.library.harvard.edu/projects/hgl-explore/subjects/</link>
+      <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/projects/hgl-explore/subjects/</guid>
+      <description>All subjects in HGL All 256 of the original subjects available in HGL. My approach I wanted to condense this messy subjects list into more comprehensible buckets. This would allow potential users of HGL to understand the categories of information in the data portal in a more organized fashion. The approach I used was one of thematic clustering, I started by grouping the subjects that are closely related, intertwined and intermingled into bigger categories.</description>
+    </item>
+    
     <item>
       <title>Enabling discovery and reuse of your GIS research</title>
       <link>https://mapping.share.library.harvard.edu/resources/researchers-handbook/long-term-preservation/</link>
@@ -14,6 +44,16 @@
       
       <guid>https://mapping.share.library.harvard.edu/resources/researchers-handbook/long-term-preservation/</guid>
       <description>The Harvard Map Collection collects and preserves GIS data for long-term discovery and reuse in the Harvard Geospatial Library (HGL) . You might like to extend the long-term value of your research by making your data available in a tool like HGL or Dataverse , or perhaps you&amp;rsquo;d like some feedback on how you are communicating the GIS components of your project. Maybe this is the first time you are thinking about this topic, and it sounds intriguing to you.</description>
+    </item>
+    
+    <item>
+      <title>Further analysis</title>
+      <link>https://mapping.share.library.harvard.edu/projects/hgl-explore/next-steps/</link>
+      <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/projects/hgl-explore/next-steps/</guid>
+      <description> Use this page to organize any future steps you think would be cool. You can break them into headers for each type of method or exploration you would like to do, and give no more than a paragraph for each next stage with proof of concept or use cases. This is optional, but can be a good place for any work you did you don&#39;t want to lose.
+Vivian Hi Dhruv Hi </description>
     </item>
     
     <item>

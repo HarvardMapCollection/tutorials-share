@@ -6,7 +6,16 @@
     <description>Recent content in news on GIS, maps &#43; data @ Harvard Libraries</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploratory data visualization of Harvard Geospatial Library data</title>
+      <link>https://mapping.share.library.harvard.edu/projects/hgl-explore/</link>
+      <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/projects/hgl-explore/</guid>
+      <description>Pardon our appearance while we are in progress! Check back August 23, 2023 for the final project.</description>
+    </item>
+    
     <item>
       <title>Disciplinary frames to working with data</title>
       <link>https://mapping.share.library.harvard.edu/posts/data-disciplines/</link>

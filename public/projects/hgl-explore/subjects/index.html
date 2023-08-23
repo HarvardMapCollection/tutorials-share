@@ -48,7 +48,7 @@
 <meta itemprop="name" content="Subjects">
 <meta itemprop="description" content="Investigation of &#34;subject&#34; tag in Harvard Geospatial Library metadata."><meta itemprop="datePublished" content="2023-08-09T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2023-08-09T00:00:00+00:00" />
-<meta itemprop="wordCount" content="247"><meta itemprop="image" content="https://mapping.share.library.harvard.edu/projects/hgl-explore/subjects/cover.png">
+<meta itemprop="wordCount" content="540"><meta itemprop="image" content="https://mapping.share.library.harvard.edu/projects/hgl-explore/subjects/cover.png">
 <meta itemprop="keywords" content="" />
 
 
@@ -257,7 +257,7 @@
 </span>
                             &centerdot;
                             <span class="time-to-read">
-    1 min read</span>
+    3 mins read</span>
                         </div>
 
                         <div class="col-md-4 tags ">
@@ -274,56 +274,42 @@
     max-height:50rem;
 }
 </style>
-<h2 id="all-subjects-in-hgl">All subjects in HGL</h2>
+<p><img src="media/top-20-subjects.png" alt="Bar chart">
+<em>Top twenty subject tags in the original, uncleaned metadata for all Harvard Geospatial Library datasets.</em></p>
+<h2 id="my-approach-and-methods">My approach and methods</h2>
+<p>I wanted to condense this messy subjects list into more comprehensible buckets. Within the over 11,000 metadata records representing the datasets in the <a href="https://hgl.harvard.edu/" target="_blank">Harvard Geospatial Library (HGL)</a>
+, I noticed that there are only 256 unique subject values. Subject tags are meant to give users a sense of what the dataset is about.</p>
+<p>I wanted to work with massaging these 256 subject values using approaches I had learned in previous life sciences data analysis. The approach I used was one of thematic clustering. I started by grouping the 256 unique subjects that are closely related, intertwined and intermingled into bigger categories.</p>
+<h3 id="step-1-defining-24-research-areas">Step 1: Defining 24 research areas</h3>
+<p>On a whiteboard, as I was thinking about how to approach the data cleaning for the messy subjects in the metadata, I manually worked out 24 categories that could could subsume the larger 256 unique subjects.</p>
+<h3 id="step-2-defining-8-application-based-metacategories">Step 2: Defining 8 application-based metacategories</h3>
+<p>I continued to refine this list by adding another level of headings, or another &ldquo;parent for the children&rdquo;, to use the <code>.json</code> jargon, or another node for the network, as is defined in the <a href="https://d3js.org/d3-hierarchy/tree" target="_blank">D3 user documentation</a>
+. I finally finessed the number of headings down to a more digestible eight super-headings, which we can think of as application-based research areas. To clarify, the 256 unique subjects became the lowest level of the hierarchy or &ldquo;level 3&rdquo;, the research area headings became the second lowest level of hierarchy or &ldquo;level 2&rdquo;, and the megacategory headings became the highest level of the hierarchy of &ldquo;level 1&rdquo;.</p>
+<h3 id="how-i-finalized-the-categories">How I finalized the categories</h3>
+<p>I spent a little time tweaking the categories to adjust for some of the discipline-specific nuances. I created a ninth category for Indian Reservations, &ldquo;administrative boundaries&rdquo;, and I defined a few more granular specification for some of the categories.</p>
+<p>To make the groupings, I looked up the different subjects on Wikipedia, spoke with researchers and found scientifically-coherent megacategories that encapsulate the other subject areas. For example: Water bodies is an appropriate research area that can include oceans, rivers and lakes. This thematic clustering method requires human imagination, empathy for researchers and a creative passion for simplification— I am not ashamed to say this is as much art as science. There are many ways one could create these groupings &ndash; this just the way that made the most sense to me.</p>
+<h4 id="long-unclustered-list-of-original-subject-tags">Long, unclustered list of original subject tags</h4>
 <iframe width="180%" height="600px" frameborder="0"
   src="https://observablehq.com/embed/f0560478322c9f92?cells=oldone"></iframe>
   <figcaption class="append">All 256 of the original subjects available in HGL.</figcaption>
-<h2 id="my-approach">My approach</h2>
-<p>I wanted to condense this messy subjects list into more comprehensible buckets. This would allow potential users of HGL to understand the categories of information in the data portal in a more organized fashion. The approach I used was one of thematic clustering, I started by grouping the subjects that are closely related, intertwined and intermingled into bigger categories.</p>
-<ol>
-<li>Coming up with logical buckets? What are logical buckets?</li>
-</ol>
-<ul>
-<li>On a board, I manually made up categories, as a part of the data cleaning process
-During data cleaning, there were patterns of tags that seemed logically similar, but weren&rsquo;t discoverable in consistent way. So as part of the data cleaning process, as I was trying to make sense of the categories</li>
-</ul>
-<ol start="2">
-<li>
-<p>1 level
-2 levels
-How did you create the subgroups
-Looking up the different subjects on Wikipedia</p>
-</li>
-<li>
-<p>Stored these in two lists</p>
-</li>
-<li>
-<p>Made a hierarchical JSON file using the Flare database with parent-child relationships,</p>
-</li>
-</ol>
-<p>E.g. parent would be &ldquo;Landforms&rdquo;
-Child would be &ldquo;cliffs and valleys&rdquo;</p>
-<ol start="5">
-<li>Upload to D3 and use <a href="https://d3js.org/d3-hierarchy/tree" target="_blank">Tree Layout</a>
-</li>
-</ol>
-<h2 id="clustered-subjects">Clustered subjects</h2>
+<h4 id="final-live-version-of-subjects-after-thematic-clustering">Final, live version of subjects after thematic clustering</h4>
 <iframe width="180%" height="600px" frameborder="0"
   src="https://observablehq.com/embed/f0560478322c9f92?cells=chart"></iframe>
-<h2 id="examples-and-highlights">Examples and highlights</h2>
+<h3 id="how-i-made-the-final-thematic-clustering-chart">How I made the final thematic clustering chart</h3>
+<ol>
+<li>I made a <a href="https://github.com/HarvardMapCollection/may-crane-23-documentation/blob/main/subject-clustering/clusters.json" target="_blank">hierarchical JSON</a>
+ file with parent-child relationships, specifying the location of every node. In D3.js you get incredible control, this allows you to pass in a numerical value for where exactly you want every parent and child to sit, which then allows us to draw it in the chart.</li>
+</ol>
 <ul>
-<li><strong>Water Body</strong> is a research area that includes Seas, Oceans, Coastline, Island, Lake, River.</li>
-<li>Cliffs, Hills, Mountains and Valleys can be grouped as <strong>Landforms</strong>.</li>
-<li>Crosswalks, Ramps and Sidewalks become <strong>Walkways</strong>.</li>
+<li>e.g. <strong>Water Body</strong> is a research area that includes Seas, Oceans, Coastline, Island, Lake, River.</li>
+<li>e.g. Cliffs, Hills, Mountains and Valleys can be grouped as <strong>Landforms</strong>.</li>
+<li>e.g. Crosswalks, Ramps and Sidewalks become <strong>Walkways</strong>.</li>
 </ul>
-<div class="alert-warning">
-<h2>Next steps for Dhruv</h2>
-  <ul>
-  <li>Hoverable?</li>
-  <li>Breakdown by format?</li>
-  <li>Any other of your visualizations you want to make it onto this guide, where would they go?</li>
-  </ul>
-</div>
+<ol start="2">
+<li>I uploaded the file to D3 and used their <a href="%28https://d3js.org/d3-hierarchy/tree%29">tidy tree algorithm</a>
+ to demonstrate my work.</li>
+</ol>
+
 
 
                 

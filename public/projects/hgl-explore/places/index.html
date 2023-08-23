@@ -48,7 +48,7 @@
 <meta itemprop="name" content="Places and &#34;spatial&#34;">
 <meta itemprop="description" content="Investigation of &#34;spatial&#34; tag in Harvard Geospatial Library metadata."><meta itemprop="datePublished" content="2023-08-10T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2023-08-10T00:00:00+00:00" />
-<meta itemprop="wordCount" content="488"><meta itemprop="image" content="https://mapping.share.library.harvard.edu/projects/hgl-explore/places/cover.png">
+<meta itemprop="wordCount" content="969"><meta itemprop="image" content="https://mapping.share.library.harvard.edu/projects/hgl-explore/places/cover.png">
 <meta itemprop="keywords" content="" />
 
 
@@ -249,7 +249,7 @@
                     <div class="row align-items-end">
                         <div class="col-md-8 date-time">
                             
-                                Vivan Nha Nguyen
+                                Vivian Nha Nguyen
                                 &centerdot;
                             
                             <span class="date">
@@ -257,7 +257,7 @@
 </span>
                             &centerdot;
                             <span class="time-to-read">
-    3 mins read</span>
+    5 mins read</span>
                         </div>
 
                         <div class="col-md-4 tags ">
@@ -278,36 +278,55 @@
 <p>One of the most immediate features of a geospatial dataset is the region it covers. That&rsquo;s why early on in this project, a burning question for me was “what region(s) &ndash; cities, states, countries, continents &ndash; does the Harvard Geospatial Library (HGL) have data to describe?”</p>
 <h2 id="diving-into-the-metadata">Diving into the metadata</h2>
 <p>To acquire insights into the library&rsquo;s vast collection of geospatial datasets, totaling over 11,000 to date, I worked with the metadata records for every dataset in the Harvard Geospatial Library, which are available publicly from the <a href="https://github.com/harvard-library/harvard-geodata/" target="_blank">Harvard Library Github</a>
-. One of my favorite and earliest conversations with a librarian was with HGL&rsquo;s very own Marc McGee, the Geospatial Metadata Librarian, who specializes in the production of FGDC (Federal Geographic Data Committee)-compliant metadata. He noted that there are two main formats of metadata records that the library keeps &ndash; the robust FGDC format and more accessible JSON GeoBlacklight format, which is derived from the former.</p>
-<p>After exploring both formats of metadata, I elected to delve into the JSON GeoBlacklight metadata. Find the .py script to download all metadata fields for the 11,000 datasets as 1 .csv <a href="https://github.com/HarvardMapCollection/vn-may-crane-23-docs/blob/main/all-jsons.py" target="_blank">here</a>
-. The relevant data field was “dct_spatial_sm”, which describes the spatial/geographical coverage given by a given geospatial dataset. For simplicity, I refer to this field as “spatial”.</p>
+. One of my favorite and earliest conversations with a librarian was with HGL&rsquo;s very own <a href="https://library.harvard.edu/staff/marc-mcgee" target="_blank">Marc McGee</a>
+, the Geospatial Metadata Librarian, who specializes in the production of FGDC (Federal Geographic Data Committee)-compliant metadata records. He noted that there are two main formats of metadata records that the library keeps &ndash; the robust FGDC format and more accessible JSON GeoBlacklight format, which is derived from the former.</p>
+<p>After exploring both formats of metadata, I elected to delve into the JSON GeoBlacklight metadata. Find the <a href="https://github.com/HarvardMapCollection/may-crane-23-documentation/blob/main/places-analysis/all-jsons.py" target="_blank">.py script</a>
+ to download all metadata fields for the 11,000 datasets as one <code>.csv</code>. The relevant data field was <code>dct_spatial_sm</code>, which describes the spatial or geographic coverage given by a geospatial dataset. For simplicity, I refer to this field as <code>spatial</code>, and <code>spatial</code> has no controlled vocabulary, which makes its values variable and unstandardized.</p>
 <h2 id="exploratory-visualizations">Exploratory visualizations</h2>
-<p>Using the metadata as is, I plotted the top 10 places covered in the Harvard collection:
-<img src="media/top_10_n.png" alt="top 10"></p>
+<h3 id="top-15-locations-of-spatial-coverage-in-hgl">Top 15 Locations of Spatial Coverage in HGL</h3>
+<p>Using the metadata as is, I plotted the top 15 places covered in the Harvard collection:
+<img src="media/top15.png" alt="top 15"></p>
 <p>We see the same Massachusetts, United States, and Boston prevalence in this alternate view, a wordcloud:
 <img src="media/wordcloud.png" alt="worldcloud"></p>
-<p>Interestingly, China, Germany, and Australia, in that order, stand out as the dominating countries, while Europe, Africa, South America, and North America, in that order, are the prevailing continents. We can rather easily reason about the prevalence of United States, Massachusetts, and Boston, given the location of the Harvard Geospatial Library, but why not Asia? Why Germany? Questions like this can be expertly answered by HGL&rsquo;s Bonnie Burns, the Head of Geospatial Resources and a key decisionmaker in the collection&rsquo;s development.</p>
+<p>Interestingly, China, Germany, and Australia, in that order, stand out as the dominating countries, while Europe, Africa, South America, and North America, in that order, are the prevailing continents. We can rather easily reason about the prevalence of United States, Massachusetts, and Boston, given the location of the Harvard Map Collection, but why not Asia? Why Germany? In addition to analyzing the metadata, I also benefitted from conversations with
+Bonnie Burns, the Head of Geospatial Resources at the Library, and a key decisionmaker in the collection&rsquo;s development, to help contextualize.</p>
+<h2 id="top-places-for-vector-and-raster-data">Top places for vector and raster data</h2>
+<p>Marc and Bonnie suggested looking at the data filtered by the field of <code>dc_format_s</code>, which describes the file format of the data. The two main formats archived by the Harvard Map Collection are shapefiles, which are structured feature classes, and GeoTIFFs, which are georeferenced versions of the <a href="https://curiosity.lib.harvard.edu/scanned-maps" target="_blank">scanned maps</a>
+ from the Harvard Map Collection. To read more on the distinction between these file types, and their applications for geospatial research, you can check out the Map Collection&rsquo;s <a href="https://mapping.share.library.harvard.edu/resources/new-to-gis/workshop/introduction/" target="_blank">Intro to GIS workshop</a>
+, which is offered synchronously and asynchronously.</p>
+<h3 id="shapefiles-vector-data">Shapefiles (vector data)</h3>
+<p>Looking at shapefiles first:</p>
+<p><img src="media/top-15-shapefile.png" alt="Bar chart"></p>
+<p>We see that the HGL keeps the most shapefile records of the U.S., Europe, Massachusetts, Africa, and North America.</p>
+<h3 id="geotiffs-raster-data">GeoTIFFs (raster data)</h3>
+<p>In contrast, looking at GeoTIFFs:</p>
+<p><img src="media/top-15-geotiff.png" alt="Bar chart">
+We see that the HGL keeps comparatively more GeoTIFF records of Massachusetts, Boston, China, the U.K., and European places.</p>
+<h3 id="shapefiles-and-geotiffs">Shapefiles and GeoTIFFs</h3>
+<p>Placing both format-place breakdowns onto the same plot, we can compare their top 15&rsquo;s head-to-head:</p>
+<p><img src="media/top_by_format.png" alt="Bar chart"></p>
+<p>Looking at this view of the metadata reveals that shapefiles seem to describe larger regions than GeoTIFFs &ndash; like Earth, hemispheres, and even the Polar regions.</p>
 <h2 id="spatial-levels">Spatial Levels</h2>
-<p>After the initial passthrough the metadata, I wanted to dive deeper into the &ldquo;spatial&rdquo; field. As shown in the exploratory data visualizations, the metadata records were counting &ldquo;Boston&rdquo;, &ldquo;Massachusetts&rdquo;, and &ldquo;United States&rdquo; differently so that out of three datasets with those &ldquo;spatial&rdquo; descriptions, only one would contribute to the &ldquo;United States&rdquo; count. I used Google&rsquo;s geocoder API to flesh out the &ldquo;spatial&rdquo; field so that every dataset would have information about the town/city, state, country, and continent if possible. The documentation for this feature engineering can be found <a href="https://github.com/HarvardMapCollection/vn-may-crane-23-docs/blob/main/spatial_levels.py" target="_blank">here</a>
+<p>After an initial passthrough with the original metadata, I wanted to dive deeper into the <code>spatial</code> field. In the original metadata, the way places are categorized is such that datasets are tagged spatially with the most <em>true</em> description of where they represent. So, for instance, if we had a dataset of Boston, and a dataset of Massachusetts, those would not show up if we clicked on the &ldquo;United States&rdquo; filter tag in HGL. The reason the cataloggers tag datasets this way, is so that when people are trying to search for datasets of the United States, the results are not cluttered with more localized results, of places like Boston, or Massachusetts.</p>
+<p>The problem for us, when we were venturing out to understand the contours of the data in HGL for this project, was that Boston and Massachusetts <em>are</em> in the United States. So, if we wanted to understand the breakdown of datasets by country or continent, we needed to do some cleaning.</p>
+<p>I tried to standardize the completeness of our spatial descriptions by using the <a href="https://developers.google.com/maps/documentation/geocoding/overview" target="_blank">Google geocoding API</a>
+ to aggregate the <code>spatial</code> field, so that every dataset would have information about the municipality, state, country, and continent if available. I&rsquo;ve made available the <a href="https://github.com/HarvardMapCollection/may-crane-23-documentation/blob/main/places-analysis/spatial_levels.py" target="_blank">documentation for the feature engineering workflow</a>
 .</p>
-<p>After completing this breakdown of spatial levels, my updated top 10 bar plot looks like so:</p>
-<h3 id="state">State</h3>
-<img src="media/states.png" alt="states" width="800"/>
-<h3 id="country">Country</h3>
-<img src="media/countries.png" alt="states" width="800"/>
-<h3 id="continent">Continent</h3>
-<img src="media/continents.png" alt="states" width="800"/>
-<div class="alert-warning">
-<h2>Next steps for Vivian</h2>
-  <ul>
-  <li>Top 15 places?</li>
-  <li>Mention Bonnie's caveat about aggregating by place</li>
-  <li>Marc's note about limitations of data?</li>
-  <li>Breakdown by format?</li>
-  <li>Any other feedback you want to incorporate?</li>
-  <li>Any other data analysis you want to make it onto this guide... Some of the descriptions work?</li>
-  </ul>
-</div>
+<p>Please take these considerations about the nature of the descriptions into account, when interpreting the following charts.</p>
+<h3 id="states-with-the-most-amount-of-data-in-hgl">States with the most amount of data in HGL</h3>
+<img src="media/states.png" alt="bar chart" width="800"/>
+<br>
+<p>Again, Massachusetts prevails. D.C. and N.Y. follow, the political, economic, and social capitals of the U.S. Interestingly, N.H. and M.E. are next.</p>
+<h3 id="countries-with-the-most-amount-of-data-in-hgl">Countries with the most amount of data in HGL</h3>
+<img src="media/countries.png" alt="bar chart" width="800"/>
+<br>
+<p>The U.S. and China are intuitive to me. But shockingly, Nicaragua, Guatemala, and Germany trail China closely.</p>
+<h3 id="continents-with-the-most-amount-of-data-in-hgl">Continents with the most amount of data in HGL</h3>
+<img src="media/continents.png" alt="bar chart" width="800"/>
+<br>
+<p>North America and Europe stand out here. Of course, we have the least data &ndash; nearly none &ndash; on Antarctica. It really suprises me that we have so little data available about South America relative to the other continents.</p>
+<p>When we fully flesh out the spatial metadata, we find that Massachusetts, the United States, and North America still prevail, with some suprising places trailing. It would be very interesting to investigate next exactly which regions of Masssachusetts, the U.S., or North America have the highest density of coverage by our library&rsquo;s collection! We could use this information to dive deeply into those regions with rich data, or pose questions about which undercollected datasets and regions we&rsquo;d like to delve into next.</p>
+
 
 
                 

@@ -6,26 +6,7 @@
     <description>Recent content on GIS, maps &#43; data @ Harvard Libraries</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Vivian&#39;s blog post</title>
-      <link>https://mapping.share.library.harvard.edu/posts/vivian-nguyen-article/</link>
-      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://mapping.share.library.harvard.edu/posts/vivian-nguyen-article/</guid>
-      <description>Title Subtitle Text</description>
-    </item>
-    
-    <item>
-      <title>Vivian&#39;s blog post</title>
-      <link>https://mapping.share.library.harvard.edu/posts/vivian-nguyen-guide/</link>
-      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://mapping.share.library.harvard.edu/posts/vivian-nguyen-guide/</guid>
-      <description>My Title Welcome to my blog post!
-My Subtitle This is a post detailing some of the work I did this summer with Belle and the Harvard Geospatial Library.</description>
-    </item>
-    
+    <lastBuildDate>Fri, 11 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction</title>
       <link>https://mapping.share.library.harvard.edu/projects/hgl-explore/overview/</link>
@@ -53,7 +34,8 @@ Diving into the metadata To acquire insights into the library&amp;rsquo;s vast c
       <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://mapping.share.library.harvard.edu/projects/hgl-explore/subjects/</guid>
-      <description>All subjects in HGL All 256 of the original subjects available in HGL. My approach I wanted to condense this messy subjects list into more comprehensible buckets. This would allow potential users of HGL to understand the categories of information in the data portal in a more organized fashion. The approach I used was one of thematic clustering, I started by grouping the subjects that are closely related, intertwined and intermingled into bigger categories.</description>
+      <description>Top twenty subject tags in the original, uncleaned metadata for all Harvard Geospatial Library datasets.
+My approach and methods I wanted to condense this messy subjects list into more comprehensible buckets. Within the over 11,000 metadata records representing the datasets in the Harvard Geospatial Library (HGL) , I noticed that there are only 256 unique subject values. Subject tags are meant to give users a sense of what the dataset is about.</description>
     </item>
     
     <item>
@@ -71,8 +53,8 @@ Diving into the metadata To acquire insights into the library&amp;rsquo;s vast c
       <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://mapping.share.library.harvard.edu/projects/hgl-explore/next-steps/</guid>
-      <description> Use this page to organize any future steps you think would be cool. You can break them into headers for each type of method or exploration you would like to do, and give no more than a paragraph for each next stage with proof of concept or use cases. This is optional, but can be a good place for any work you did you don&#39;t want to lose.
-Vivian Hi Dhruv Hi </description>
+      <description> Description analysis Placeholder text for proof of concept for analyzing the records&amp;rsquo; descriptions.
+Dhruv Hi </description>
     </item>
     
     <item>

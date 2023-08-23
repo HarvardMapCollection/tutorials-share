@@ -6,7 +6,26 @@
     <description>Recent content in news on GIS, maps &#43; data @ Harvard Libraries</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vivian&#39;s blog post</title>
+      <link>https://mapping.share.library.harvard.edu/posts/vivian-nguyen-article/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/posts/vivian-nguyen-article/</guid>
+      <description>Title Subtitle Text</description>
+    </item>
+    
+    <item>
+      <title>Vivian&#39;s blog post</title>
+      <link>https://mapping.share.library.harvard.edu/posts/vivian-nguyen-guide/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/posts/vivian-nguyen-guide/</guid>
+      <description>My Title Welcome to my blog post!
+My Subtitle This is a post detailing some of the work I did this summer with Belle and the Harvard Geospatial Library.</description>
+    </item>
+    
     <item>
       <title>Exploratory data visualization of Harvard Geospatial Library data</title>
       <link>https://mapping.share.library.harvard.edu/projects/hgl-explore/</link>

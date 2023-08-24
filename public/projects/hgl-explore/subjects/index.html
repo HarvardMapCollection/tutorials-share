@@ -48,7 +48,7 @@
 <meta itemprop="name" content="Subjects">
 <meta itemprop="description" content="Investigation of &#34;subject&#34; tag in Harvard Geospatial Library metadata."><meta itemprop="datePublished" content="2023-08-09T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2023-08-09T00:00:00+00:00" />
-<meta itemprop="wordCount" content="540"><meta itemprop="image" content="https://mapping.share.library.harvard.edu/projects/hgl-explore/subjects/cover.png">
+<meta itemprop="wordCount" content="531"><meta itemprop="image" content="https://mapping.share.library.harvard.edu/projects/hgl-explore/subjects/cover.png">
 <meta itemprop="keywords" content="" />
 
 
@@ -271,11 +271,17 @@
                 <style>
 
 .blog-content img{
-    max-height:50rem;
+    max-height:500rem;
+    max-width: 500rem;
 }
+
+.blog-content img#wide{
+    margin-left:-10rem;
+}
+
 </style>
-<p><img src="media/top-20-subjects.png" alt="Bar chart">
-<em>Top twenty subject tags in the original, uncleaned metadata for all Harvard Geospatial Library datasets.</em></p>
+<img src="media/top-20-subjects.png" alt="bar chart" width="900px"/>
+<p><em>Top twenty subject tags in the original, uncleaned metadata for all Harvard Geospatial Library datasets.</em></p>
 <h2 id="my-approach-and-methods">My approach and methods</h2>
 <p>I wanted to condense this messy subjects list into more comprehensible buckets. Within the over 11,000 metadata records representing the datasets in the <a href="https://hgl.harvard.edu/" target="_blank">Harvard Geospatial Library (HGL)</a>
 , I noticed that there are only 256 unique subject values. Subject tags are meant to give users a sense of what the dataset is about.</p>
@@ -289,12 +295,11 @@
 <p>I spent a little time tweaking the categories to adjust for some of the discipline-specific nuances. I created a ninth category for Indian Reservations, &ldquo;administrative boundaries&rdquo;, and I defined a few more granular specification for some of the categories.</p>
 <p>To make the groupings, I looked up the different subjects on Wikipedia, spoke with researchers and found scientifically-coherent megacategories that encapsulate the other subject areas. For example: Water bodies is an appropriate research area that can include oceans, rivers and lakes. This thematic clustering method requires human imagination, empathy for researchers and a creative passion for simplification— I am not ashamed to say this is as much art as science. There are many ways one could create these groupings &ndash; this just the way that made the most sense to me.</p>
 <h4 id="long-unclustered-list-of-original-subject-tags">Long, unclustered list of original subject tags</h4>
-<iframe width="180%" height="600px" frameborder="0"
-  src="https://observablehq.com/embed/f0560478322c9f92?cells=oldone"></iframe>
-  <figcaption class="append">All 256 of the original subjects available in HGL.</figcaption>
+<img src="media/256.svg" alt="bar chart" width="1200px"/>
+<br>
 <h4 id="final-live-version-of-subjects-after-thematic-clustering">Final, live version of subjects after thematic clustering</h4>
-<iframe width="180%" height="600px" frameborder="0"
-  src="https://observablehq.com/embed/f0560478322c9f92?cells=chart"></iframe>
+<img id="wide" src="media/wide-subjects.svg" alt="bar chart"  width="1000px"/>
+<br>
 <h3 id="how-i-made-the-final-thematic-clustering-chart">How I made the final thematic clustering chart</h3>
 <ol>
 <li>I made a <a href="https://github.com/HarvardMapCollection/may-crane-23-documentation/blob/main/subject-clustering/clusters.json" target="_blank">hierarchical JSON</a>

@@ -10,11 +10,18 @@ page: single2
 <style>
 
 .blog-content img{
-    max-height:50rem;
+    max-height:500rem;
+    max-width: 500rem;
 }
+
+.blog-content img#wide{
+    margin-left:-10rem;
+}
+
 </style>
 
-![Bar chart](media/top-20-subjects.png)
+<img src="media/top-20-subjects.png" alt="bar chart" width="900px"/>
+
 *Top twenty subject tags in the original, uncleaned metadata for all Harvard Geospatial Library datasets.*
 
 ## My approach and methods
@@ -41,16 +48,14 @@ To make the groupings, I looked up the different subjects on Wikipedia, spoke wi
 
 #### Long, unclustered list of original subject tags
 
+<img src="media/256.svg" alt="bar chart" width="1200px"/>
+<br>
 
-<iframe width="180%" height="600px" frameborder="0"
-  src="https://observablehq.com/embed/f0560478322c9f92?cells=oldone"></iframe>
-
-  <figcaption class="append">All 256 of the original subjects available in HGL.</figcaption>
 
 #### Final, live version of subjects after thematic clustering
 
-<iframe width="180%" height="600px" frameborder="0"
-  src="https://observablehq.com/embed/f0560478322c9f92?cells=chart"></iframe>
+<img id="wide" src="media/wide-subjects.svg" alt="bar chart"  width="1000px"/>
+<br>
 
 
 ### How I made the final thematic clustering chart 

@@ -76,6 +76,11 @@ theme = 'BlogRa'
                 url = "https://gistbok.ucgis.org/bok-topics/statistical-mapping-enumeration-normalization-classification"
                 weight = 5
 
+        [[menu.main]]
+        name = "Projects"
+        url = "/projects/"
+        weight=5
+
     [[menu.main]]
         identifier = "blog"
         name = "Blog"
@@ -86,7 +91,7 @@ theme = 'BlogRa'
     [[menu.main]]
         name = "Connect"
         url = "/connect/"
-        weight = 5
+        weight = 6
 [markup]
   [markup.goldmark]
     [markup.goldmark.extensions]

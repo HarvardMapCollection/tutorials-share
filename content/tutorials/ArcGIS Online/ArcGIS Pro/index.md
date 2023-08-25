@@ -4,7 +4,6 @@ date: 2023-06-01
 tags: ["tutorials", "ArcGIS"]
 image: a-gradient8.png
 layout: single2
-authors: ["Belle Lipton"]
 description: Learn how to get help with ArcGIS at Harvard.
 ---
 

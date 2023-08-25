@@ -4,7 +4,6 @@ date: 2023-01-20
 tags: ["tutorials", "ArcGIS", "Georeferencing"]
 image: spyglass-arcgis.gif
 layout: single2
-authors: ["Belle Lipton"]
 description: Learn how to use maps and GIS layers from the Harvard Map Collection in your StoryMaps or ArcGIS Experience Builder project.
 ---
 

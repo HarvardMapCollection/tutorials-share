@@ -3,7 +3,7 @@ title: Descriptions
 date: 2023-08-08
 image: wordcount.png
 authors: ["Vivian Nha Nguyen"]
-description: Where we would like to go next with this project.
+description: Proof of concept for starting to explore descriptions metadata.
 page: single2
 ---
 

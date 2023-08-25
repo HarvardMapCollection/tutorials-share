@@ -6,14 +6,15 @@
     <description>Recent content in news on GIS, maps &#43; data @ Harvard Libraries</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tags/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Exploratory data visualization of Harvard Geospatial Library data</title>
-      <link>https://mapping.share.library.harvard.edu/projects/hgl-explore/</link>
-      <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
+      <title>Exploratory data visualization of Harvard Geospatial Library collections</title>
+      <link>https://mapping.share.library.harvard.edu/posts/exploratory-hgl/</link>
+      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://mapping.share.library.harvard.edu/projects/hgl-explore/</guid>
-      <description>Pardon our appearance while we are in progress! Check back August 23, 2023 for the final project.</description>
+      <guid>https://mapping.share.library.harvard.edu/posts/exploratory-hgl/</guid>
+      <description>This summer, we were pleased to host two rising seniors, Vivian Nha Nguyen and Dhruv Chugh as May-Crane fellows . Vivian and Dhruv worked on a project to apply data analysis methodology from their coursework to a real-world corpus of data &amp;ndash; the over 11,000 metadata records for GIS datasets hosted in the Harvard Geospatial Library (HGL) .
+We framed this project as a way to get a better sense of both the data hosted in HGL, as well as the way we collect and describe GIS data at Harvard Libraries.</description>
     </item>
     
     <item>
@@ -54,17 +55,6 @@ In this interview, we look at Paige’s custom-coded interactive mapping visuali
       <guid>https://mapping.share.library.harvard.edu/posts/office-hours/</guid>
       <description>Join us Spring 2023 for weekly GIS office hours. We will meet in the Lamont media lab annex every Tuesday from 10am-12pm.
 What to expect Chat about GIS tools and datasets Meet others using GIS in their work Share projects and get feedback What office hours are not You don’t need to have a specific question! Just an interest. Depending on how many people we have, you may still need to book a personal consultation for more in-depth advice.</description>
-    </item>
-    
-    <item>
-      <title>A GIS database and webmap of historic Black life on Boston&#39;s Beacon Hill</title>
-      <link>https://mapping.share.library.harvard.edu/projects/mapping-black-boston/</link>
-      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://mapping.share.library.harvard.edu/projects/mapping-black-boston/</guid>
-      <description>This is a prototype for Mapping Black Boston, a research project by David Weimer. Dave, our former Map Librarian, is now Curator of Maps and Director of the Center for the History of Cartography at the Newberry Library. For information on the project, or to collaborate, you can get in touch with Dave .
-Check out the interactive Mapping Black Boston prototype .
-To access the underlying project data, visit the project Github .</description>
     </item>
     
     <item>

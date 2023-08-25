@@ -39,13 +39,13 @@ My approach and methods I wanted to condense this messy subjects list into more 
     </item>
     
     <item>
-      <title>Further analysis</title>
-      <link>https://mapping.share.library.harvard.edu/projects/hgl-explore/next-steps/</link>
+      <title>Descriptions</title>
+      <link>https://mapping.share.library.harvard.edu/projects/hgl-explore/descriptions/</link>
       <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://mapping.share.library.harvard.edu/projects/hgl-explore/next-steps/</guid>
-      <description> Description analysis Placeholder text for proof of concept for analyzing the records&amp;rsquo; descriptions.
-Dhruv Hi </description>
+      <guid>https://mapping.share.library.harvard.edu/projects/hgl-explore/descriptions/</guid>
+      <description>Motivations Over the course of the summer, Belle and I discussed possible ways to approach understanding the shape of the 11,000+ datasets the Map Collection curates. One of our shared questions about the metadata was focused on the descriptions, housed in the dc_description_s metadata column. We pondered what the differences were between the many descriptions we had of datasets – their tone, their descriptive power, their focuses.
+Exploratory analysis I was able to get started on some exploratory analysis.</description>
     </item>
     
   </channel>

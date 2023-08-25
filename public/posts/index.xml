@@ -6,7 +6,17 @@
     <description>Recent content in Posts on GIS, maps &#43; data @ Harvard Libraries</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploratory data visualization of Harvard Geospatial Library collections</title>
+      <link>https://mapping.share.library.harvard.edu/posts/exploratory-hgl/</link>
+      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/posts/exploratory-hgl/</guid>
+      <description>This summer, we were pleased to host two rising seniors, Vivian Nha Nguyen and Dhruv Chugh as May-Crane fellows . Vivian and Dhruv worked on a project to apply data analysis methodology from their coursework to a real-world corpus of data &amp;ndash; the over 11,000 metadata records for GIS datasets hosted in the Harvard Geospatial Library (HGL) .
+We framed this project as a way to get a better sense of both the data hosted in HGL, as well as the way we collect and describe GIS data at Harvard Libraries.</description>
+    </item>
+    
     <item>
       <title>Disciplinary frames to working with data</title>
       <link>https://mapping.share.library.harvard.edu/posts/data-disciplines/</link>

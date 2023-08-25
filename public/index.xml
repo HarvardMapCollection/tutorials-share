@@ -6,7 +6,17 @@
     <description>Recent content on GIS, maps &#43; data @ Harvard Libraries</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploratory data visualization of Harvard Geospatial Library collections</title>
+      <link>https://mapping.share.library.harvard.edu/posts/exploratory-hgl/</link>
+      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/posts/exploratory-hgl/</guid>
+      <description>This summer, we were pleased to host two rising seniors, Vivian Nha Nguyen and Dhruv Chugh as May-Crane fellows . Vivian and Dhruv worked on a project to apply data analysis methodology from their coursework to a real-world corpus of data &amp;ndash; the over 11,000 metadata records for GIS datasets hosted in the Harvard Geospatial Library (HGL) .
+We framed this project as a way to get a better sense of both the data hosted in HGL, as well as the way we collect and describe GIS data at Harvard Libraries.</description>
+    </item>
+    
     <item>
       <title>Introduction</title>
       <link>https://mapping.share.library.harvard.edu/projects/hgl-explore/overview/</link>
@@ -39,22 +49,22 @@ My approach and methods I wanted to condense this messy subjects list into more 
     </item>
     
     <item>
+      <title>Descriptions</title>
+      <link>https://mapping.share.library.harvard.edu/projects/hgl-explore/descriptions/</link>
+      <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/projects/hgl-explore/descriptions/</guid>
+      <description>Motivations Over the course of the summer, Belle and I discussed possible ways to approach understanding the shape of the 11,000+ datasets the Map Collection curates. One of our shared questions about the metadata was focused on the descriptions, housed in the dc_description_s metadata column. We pondered what the differences were between the many descriptions we had of datasets – their tone, their descriptive power, their focuses.
+Exploratory analysis I was able to get started on some exploratory analysis.</description>
+    </item>
+    
+    <item>
       <title>Enabling discovery and reuse of your GIS research</title>
       <link>https://mapping.share.library.harvard.edu/resources/researchers-handbook/long-term-preservation/</link>
       <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://mapping.share.library.harvard.edu/resources/researchers-handbook/long-term-preservation/</guid>
       <description>The Harvard Map Collection collects and preserves GIS data for long-term discovery and reuse in the Harvard Geospatial Library (HGL) . You might like to extend the long-term value of your research by making your data available in a tool like HGL or Dataverse , or perhaps you&amp;rsquo;d like some feedback on how you are communicating the GIS components of your project. Maybe this is the first time you are thinking about this topic, and it sounds intriguing to you.</description>
-    </item>
-    
-    <item>
-      <title>Further analysis</title>
-      <link>https://mapping.share.library.harvard.edu/projects/hgl-explore/next-steps/</link>
-      <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://mapping.share.library.harvard.edu/projects/hgl-explore/next-steps/</guid>
-      <description> Description analysis Placeholder text for proof of concept for analyzing the records&amp;rsquo; descriptions.
-Dhruv Hi </description>
     </item>
     
     <item>

@@ -1,6 +1,6 @@
 ---
 title: Introduction to Harvard's data landscape
-date: 2023-09-01
+date: 2023-12-01
 tags: ["news"]
 image: bank-comp.png
 authors: ["Belle Lipton", "Ceilyn Boyd"]

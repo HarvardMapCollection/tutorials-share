@@ -44,6 +44,9 @@ If you created the data yourself, or augmented existing data, how does the work 
 ### Data sources
 If you obtained data from elsewhere and edited it, the source of the original datasets and date accessed.
 
+### Body of work
+Is this data related to any larger bodies of work or projects which could help explain the methods or content of the data? Please include links to any relevant citations.
+
 
 ### Process steps and methods
 A sequential explanation of the step-by-step process for creating or editing the data.
@@ -80,3 +83,14 @@ Restrictions on access to the data.
 
 ### Use Constraints
 Restrictions on the use of the data.
+
+
+<div class="alert-success">
+<h2>Works cited</h2>
+<p>We created this guide drawing inspiration from the following helpful resources:</p>
+<p>
+<ul>
+<li><a href="https://data.research.cornell.edu/data-management/sharing/readme/">Guide to writing "readme" style metadata</a> from Cornell Data Services</li>
+<li><a href="https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/atoms/files/MetadataQuestionnaire_508compliant.pdf">Metadata Questionnaire Form</a> from the United States Geological Survey (U.S.G.S.)</li>
+</ul></p>
+</div>

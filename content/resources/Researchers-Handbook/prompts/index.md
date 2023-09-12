@@ -7,6 +7,14 @@ layout: single2
 description: Prompts for documenting your data.
 ---
 
+<div class="alert-success">
+<h2>Works cited</h2>
+<ul>
+<li><a href="https://data.research.cornell.edu/data-management/sharing/readme/">Guide to writing "readme" style metadata</a> from Cornell Data Services</li>
+<li><a href="https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/atoms/files/MetadataQuestionnaire_508compliant.pdf">Metadata Questionnaire Form</a> from the United States Geological Survey (U.S.G.S.)</li>
+</ul></p>
+</div>
+
 This guide can be used on your own or together with a librarian during a [guided interview](https://mapping.share.library.harvard.edu/resources/researchers-handbook/long-term-preservation/).
 
 ## Documentation elements
@@ -55,22 +63,27 @@ A sequential explanation of the step-by-step process for creating or editing the
 ### Challenges
 Challenging aspects of working with the data, or words-to-the-wise for someone else endeavoring to work with it.
 
+### Pride points
+If you were showing this dataset to someone for the first time, which aspects of it would you draw their attention to, and why? Help us understand which columns you think are the most important and valuable.
 
 ### Relationships
 If there are multiple datasets in the project, processing scripts, or other resources, the filenames and how the materials relate to or were used with one another.
 
 
 ### Data integrity
-If values are missing, or fields are blank, instructions for future users for making sense of possible reasons why.
+If values are missing, or fields are blank, instructions for future users for making sense of possible reasons why. You can also provide any guidance on how you were thinking about "accuracy" for this project.
 
 
 ### Codebooks
-If you cleaned data, deleted, renamed, mathematically calculated or inferred fields from other fields, the filename and link to a plain-text codebook with field name definitions, including units of measurement.
+If you cleaned data, deleted, renamed, mathematically calculated or inferred fields from other fields, the filename and link to a plain-text codebook with field name definitions, including units of measurement. 
+
+### Taxonomies
+If you used any taxonomic authorities, provide the reference and any modifications.
 
 
-### Maintenance and Update Frequency
-How often you intend to update or maintain the data layers.
-> Examples: "annually", "never updated"
+### Completion and maintenance
+Acknowledging that projects are seldom "finished" or "perfect", what, in your estimation, marks this submission as "complete"? Speak a little about the status of the data, as well as anticipated maintenance frequency (e.g. "annually", "never", etc.)
+
 
 
 ### Point of contact
@@ -84,13 +97,3 @@ Restrictions on access to the data.
 ### Use Constraints
 Restrictions on the use of the data.
 
-
-<div class="alert-success">
-<h2>Works cited</h2>
-<p>We created this guide drawing inspiration from the following helpful resources:</p>
-<p>
-<ul>
-<li><a href="https://data.research.cornell.edu/data-management/sharing/readme/">Guide to writing "readme" style metadata</a> from Cornell Data Services</li>
-<li><a href="https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/atoms/files/MetadataQuestionnaire_508compliant.pdf">Metadata Questionnaire Form</a> from the United States Geological Survey (U.S.G.S.)</li>
-</ul></p>
-</div>

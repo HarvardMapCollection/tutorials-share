@@ -11,7 +11,7 @@ layout: single2
 
 ## Sign up
 
-[Library calendar](https://libcal.library.harvard.edu/calendar/main?cid=15049&t=d&d=0000-00-00&cal=15049&inc=0)
+[Library calendar](https://libcal.library.harvard.edu/calendar/main?t=d&q=gis&cid=15049&cal=15049&inc=0)
 
 
 ## Slides
@@ -20,12 +20,12 @@ layout: single2
 
 ## Example data
 
-[Example data](https://drive.google.com/drive/folders/1JILKFS7P9FV4EAui1gAuT1rqgPcnaqls?usp=sharing)
+[Example data](https://github.com/HarvardMapCollection/modalities-cleaning)
 
 
 ## Survey
 
-[Post-workshop survey]()
+[Post-workshop survey](https://harvard.az1.qualtrics.com/jfe/form/SV_eX0ThXAYbyGjPkG)
 
 
 

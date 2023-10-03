@@ -6,7 +6,17 @@
     <description>Recent content in news on GIS, maps &#43; data @ Harvard Libraries</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Preserving GIS research data for long-term discovery and access</title>
+      <link>https://mapping.share.library.harvard.edu/posts/odessa-biodiversity/</link>
+      <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/posts/odessa-biodiversity/</guid>
+      <description>Floral motif from Ukrainian textile produced in 1902.
+This year, the Harvard Map Collection partnered with Kelly O&amp;rsquo;Neill from the Davis Center on a project to demonstrate the value of our GIS data curation services . Dr. O&amp;rsquo;Neill&amp;rsquo;s project aims to capture data about historic biodiversity in the Ukraine. The Harvard Map Collection worked with her team to co-develop robust and useful metadata, so that the sources can be archived for long-term discovery and reuse.</description>
+    </item>
+    
     <item>
       <title>Exploratory data visualization of Harvard Geospatial Library collections</title>
       <link>https://mapping.share.library.harvard.edu/posts/exploratory-hgl/</link>

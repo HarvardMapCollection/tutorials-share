@@ -1,5 +1,5 @@
 ---
-title: Documentation 101
+title: DIY documentation guide
 date: 2023-01-19
 tags: ["Resources", "Research"]
 image: a-gradient1.png

@@ -6,7 +6,16 @@
     <description>Recent content on GIS, maps &#43; data @ Harvard Libraries</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3. Example</title>
+      <link>https://mapping.share.library.harvard.edu/template/</link>
+      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/template/</guid>
+      <description> Paige&#39;s project. Hover for interactivity. The final map shows all of the datasets, and includes structures that are at risk, given the flood zones. List of exportable features from OSM. &amp;times; This is an alert box. &amp;times; This is an alert box. &amp;times; This is an alert box. &amp;times; This is an alert box. </description>
+    </item>
+    
     <item>
       <title>Introduction to Harvard&#39;s data landscape</title>
       <link>https://mapping.share.library.harvard.edu/posts/boyd/</link>

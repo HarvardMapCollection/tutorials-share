@@ -29,3 +29,10 @@ This tutorial will cover how to add tabular data to a QGIS project.
 6. Select `Add`.
 
 7. Select `Close`.
+
+<div class="alert-success">
+  <h2>More QGIS tutorials</h2>
+  <ul><li>
+  <p>Check out our <a target="_blank" href="/tags/qgis/"> other QGIS tutorials.</a></p>
+  </ul>
+</div>

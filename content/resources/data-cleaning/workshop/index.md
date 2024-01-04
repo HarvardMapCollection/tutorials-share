@@ -18,9 +18,9 @@ layout: single2
 
 [Workshop slides](https://docs.google.com/presentation/d/1eNX1_46CuVUcX3pUkZVZU2XoXEJLbgfKSm4y9v4XiQE/edit?usp=sharing)
 
-## Example data
+## Workshop data
 
-[Example data](https://github.com/HarvardMapCollection/modalities-cleaning)
+[Example data](https://drive.google.com/file/d/1885Vfi-cf4bgc1xpCRsR7caXSVRn_7Hr/view?usp=drive_link)
 
 
 ## Survey

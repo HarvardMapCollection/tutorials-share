@@ -33,16 +33,7 @@ This tutorial will cover how to add tabular data to a QGIS project.
 
 <div class="alert-success">
 <h2>Give your feedback to improve our tutorials</h2>
-<form 
-  method="POST" 
-  action="GFORM_URL"
->
-  <input type="radio" id="yes" name="tutorial-feedback" value="yes">
-  <label for="html">This tutorial was helpful</label><br>
-  <input type="radio" id="no" name="tutorial-feedback" value="no">
-  <label for="css">This was not helpful</label><br>
-  <br>
-  <button type="submit">Submit feedback</button>
-</form>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeIFB5VI2ijy9pIPByQB0Ci4K49vu_2htzeW9Y71B-b3Ps_gQ/viewform?embedded=true" width="640" height="422" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 </div>
+
 

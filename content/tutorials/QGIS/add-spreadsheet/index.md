@@ -30,9 +30,19 @@ This tutorial will cover how to add tabular data to a QGIS project.
 
 7. Select `Close`.
 
+
 <div class="alert-success">
-  <h2>More QGIS tutorials</h2>
-  <ul><li>
-  <p>Check out our <a target="_blank" href="/tags/qgis/"> other QGIS tutorials.</a></p>
-  </ul>
+<h2>Give your feedback to improve our tutorials</h2>
+<form 
+  method="POST" 
+  action="GFORM_URL"
+>
+  <input type="radio" id="yes" name="tutorial-feedback" value="yes">
+  <label for="html">This tutorial was helpful</label><br>
+  <input type="radio" id="no" name="tutorial-feedback" value="no">
+  <label for="css">This was not helpful</label><br>
+  <br>
+  <button type="submit">Submit feedback</button>
+</form>
 </div>
+

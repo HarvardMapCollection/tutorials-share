@@ -8,7 +8,7 @@ description: This digital publication was supported by the Leventhal Map & Educa
 ---
 
 The Harvard Map Collection recently partnered with the [Leventhal Map and Education Center](https://www.leventhalmap.org/) at the
-Boston Public Library to support a digital mapping project by scholars Joan Brunetta and Eve Loftus. Joan and Eve's project, titled [Mapping Black Cambridge](https://felt.com/map/Mapping-Black-Cambridge-1790-1820-Snapshots-from-the-First-Four-Federal-Censuses-ghIMa0VXTy6XhXh9A1g2bhA?loc=42.36999,-71.09789,12.89z&share=1), contributes to an evolving landscape of available data used to discern historic dimensions of Black life in Boston and Cambridge. 
+Boston Public Library to support a digital mapping project by scholars Joan Brunetta and Eve Loftus. Joan and Eve's project, titled [Mapping Black Cambridge](https://www.leventhalmap.org/articles/mapping-black-cambridge/), contributes to an evolving landscape of available data used to discern historic dimensions of Black life in Boston and Cambridge. 
 
 ![Old archives](media/1.png)
 

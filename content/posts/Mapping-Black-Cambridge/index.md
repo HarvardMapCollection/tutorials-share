@@ -17,6 +17,6 @@ Leveraging historic maps and records from local libraries and archives, along wi
 
 ![More old archives](media/2.png)
 
-In addition to discovering historic GIS datasets via these portals, researchers can also make use of the library's [trainings](https://docs.google.com/presentation/d/1Kn6eqwqHdORRjKq89uW4HAn-NTAzBoV8lVE9ofhlVDs/edit?usp=sharing) and [guided brainstorming sessions](https://mapping.share.library.harvard.edu/resources/researchers-handbook/long-term-preservation/) on how to maintain and preserve your own historic datasets for long-term discovery and reuse. 
+In addition to discovering historic GIS datasets via these portals, researchers can also make use of the library's [trainings](https://docs.google.com/presentation/d/1Kn6eqwqHdORRjKq89uW4HAn-NTAzBoV8lVE9ofhlVDs/edit?usp=sharing) and [guided brainstorming sessions](https://mapping.share.library.harvard.edu/resources/researchers-handbook/long-term-preservation/) on how to maintain and preserve their own historic datasets for long-term discovery and reuse. 
 
 To get inspired for ways to use datasets like these in your research and educational pursuits, consider signing up for our **Asking Spatial Questions Workshop** on April 8th, 2024. In this session, you will learn how to use researcher-created historic GIS datasets to practice spatial thinking, and build these concepts into a mock lesson plan. Space is limited; to join the waitlist, please email maps@harvard.edu.

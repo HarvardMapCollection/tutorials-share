@@ -1,7 +1,6 @@
 ---
 title: 5. Visualize statistics
 date: 2023-01-02
-tags: ["Introduction-to-GIS-workshop"]
 image: a-gradient1.png
 layout: single2
 ---

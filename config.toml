@@ -52,29 +52,14 @@ theme = 'BlogRa'
         weight = 3
             [[menu.main]]
                 parent = "Resources"
-                name = "Finding data"
-                url = "https://library.harvard.edu/services-tools/harvard-geospatial-library"
-                weight = 1
-            [[menu.main]]
-                parent = "Resources"
-                name = "Introduction"
-                url = "/resources/new-to-gis"
+                name = "Workshops"
+                url = "/resources/workshops"
                 weight = 2
-            [[menu.main]]
-                parent = "Resources"
-                name = "Cleaning data"
-                url = "/resources/data-cleaning"
-                weight = 3
             [[menu.main]]
                 parent = "Resources"
                 name = "Data management"
                 url = "/resources/researchers-handbook"
                 weight = 4
-            [[menu.main]]
-                parent = "Resources"
-                name = "GIS Statistics"
-                url = "https://gistbok.ucgis.org/bok-topics/statistical-mapping-enumeration-normalization-classification"
-                weight = 5
 
         [[menu.main]]
         name = "Projects"

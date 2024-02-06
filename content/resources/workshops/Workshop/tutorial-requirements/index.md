@@ -1,7 +1,6 @@
 ---
 title: 2. Tutorial requirements
 date: 2023-01-05
-tags: ["Introduction-to-GIS-workshop"]
 image: gradient.png
 layout: single2
 ---

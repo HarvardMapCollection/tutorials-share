@@ -1,7 +1,6 @@
 ---
 title: 3. Data overview
 date: 2023-01-04
-tags: ["Introduction-to-GIS-workshop"]
 image: a-gradient13.png
 layout: single2
 ---

@@ -1,7 +1,6 @@
 ---
 title: 6. Share results
 date: 2023-01-01
-tags: ["Introduction-to-GIS-workshop"]
 image: a-gradient12.png
 layout: single2
 ---

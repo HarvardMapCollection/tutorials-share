@@ -1,7 +1,6 @@
 ---
 title: 4. Import datasets
 date: 2023-01-03
-tags: ["Introduction-to-GIS-workshop"]
 image: gradient2.png
 layout: single2
 ---

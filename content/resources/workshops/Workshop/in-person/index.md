@@ -1,7 +1,6 @@
 ---
 title: In-person materials
 date: 2022-11-11
-tags: ["Introduction-to-GIS-workshop"]
 image: a-gradient1.png
 layout: single2
 description: Links to data and slides for the in-person version of Introduction to GIS from the Harvard Map Collection.

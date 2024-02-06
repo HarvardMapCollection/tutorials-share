@@ -1,7 +1,6 @@
 ---
 title: 7. Browse maps and data
 date: 2022-12-31
-tags: ["Introduction-to-GIS-workshop"]
 image: gradient.png
 layout: single2
 ---

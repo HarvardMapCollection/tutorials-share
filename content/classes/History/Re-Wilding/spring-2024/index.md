@@ -23,4 +23,4 @@ Get to this page quickly:
 - [BPL Atlascope](https://www.atlascope.org/)
 - [NYPL Building Inspector](https://ny.curbed.com/2014/5/2/10105942/play-building-inspector-with-the-nypls-new-mapping-tool) (old project, expect broken links, but you can skim to get a sense)
 - [Find maps in Harvard Map Collection](https://library.harvard.edu/libraries/harvard-map-collection)
-- [Download QGIS]()
+- [Download QGIS](https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-software/)

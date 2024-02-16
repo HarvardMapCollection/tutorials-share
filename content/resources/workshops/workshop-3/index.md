@@ -7,7 +7,7 @@ description: In this workshop, we will practice working through common problems 
 ---
 
 Get to this page quick: 
-[https://bit.ly/gis-cleaning](https://bit.ly/gis-cleaning)
+[https://bit.ly/49mV3c3](https://bit.ly/49mV3c3)
 
 ## Sign up
 Find out when we are offering this workshop by visiting the [library calendar](https://libcal.library.harvard.edu/calendar/main?t=d&q=gis&cid=15049&cal=15049&inc=0).

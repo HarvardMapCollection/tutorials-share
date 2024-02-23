@@ -6,14 +6,14 @@ description: Schedule, overview, and class materials for in-person participants.
 ---
 
 Get to this page quick: 
-[https://bit.ly/3UHoNM6](hhttps://bit.ly/3UHoNM6)
+[https://bit.ly/3IaHnot](https://bit.ly/3IaHnot)
 
 ## Schedule
 
 | Time | Topic |
 | --- | --- |
 | 0:00 - 0:20 | Welcome, software and materials overview |
-| 0:20 - 0:30 | [Introduction to spatial data structures]()|
+| 0:20 - 0:30 | [Introduction to spatial data structures](https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-1/)|
 
 
 

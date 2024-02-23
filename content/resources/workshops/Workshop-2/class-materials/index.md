@@ -1,7 +1,7 @@
 ---
 title: Class materials
 date: 2024-02-23
-image: default-gradient.png
+image: gradient.png
 description: Schedule, overview, and class materials for in-person participants.
 ---
 
@@ -13,7 +13,11 @@ Get to this page quick:
 | Time | Topic |
 | --- | --- |
 | 0:00 - 0:20 | Welcome, software and materials overview |
-| 0:20 - 0:30 | [Introduction to spatial data structures](https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-1/)|
+| 0:20 - 0:40 | [Introducing spatial data structures](https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-1/)|
+| 0:40 - 0:50 | [Turning spreadsheet data into spatial data](https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-2/) |
+| 0:50 - 1:00 | Diving into core concepts |
+| 1:00 - 1:15 | [Leveraging attributes to make maps](https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-3/)|
+| 1:15 - 1:30 | Introducing raster data |
 
 
 

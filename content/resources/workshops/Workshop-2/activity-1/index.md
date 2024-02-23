@@ -1,10 +1,12 @@
 ---
-title: Introduction to spatial data structures
-date: 2022-12-31
+title: 1. Introducing spatial data structures
+date: 2024-02-22
 image: gradient.png
 layout: single2
 description: Introducing common file formats and their relationship to GIS methods.
 ---
+
+## In your group...
 
 1. Visit the U.S. arms exports in 2022 by country data [^1] in the `Activity 1 folder`. What do you notice about how the data is structured?
 

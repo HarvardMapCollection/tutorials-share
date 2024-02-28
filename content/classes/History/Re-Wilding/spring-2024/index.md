@@ -11,6 +11,12 @@ description: Materials for visits on 2/14, 2/21, 2/28 and 4/24.
 Get to this page quickly:
 [https://bit.ly/3HVp6vm](https://bit.ly/3HVp6vm)
 
+## 2/28 class map
+
+
+<iframe width="100%" height="700" frameborder="0" title="2/28 class map" src="https://felt.com/embed/map/Encoding-features-0t39CdDKQRuiKeCWcOHPaTD?loc=42.374175%2C-71.116321%2C17.06z&legend=0&logo=1&link=1" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<figcaption class="append">2/28 class map.</figcaption>
+
 ## Resources
 
 - [May Crane Fellowships](https://library.harvard.edu/may-crane-fellowships) - *Apply by **March 8** for stipended work with GIS in the Map Collection, Summer 2024.*

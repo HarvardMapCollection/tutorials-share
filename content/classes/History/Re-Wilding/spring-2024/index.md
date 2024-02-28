@@ -15,6 +15,6 @@ Get to this page quickly:
 
 - [May Crane Fellowships](https://library.harvard.edu/may-crane-fellowships) - *Apply by **March 8** for stipended work with GIS in the Map Collection, Summer 2024.*
 - [Download QGIS](https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-software/) - *Instructions for installing Open Source desktop GIS software, with debugging tips.*
-- [GIS Office Hours Tuesday 9:30-noon, Widener 240](https://libcal.library.harvard.edu/event/11812806) -  *Every week through April 30.*
+- [GIS Office Hours Tuesday 9:30-noon, Widener 240](https://libcal.library.harvard.edu/event/11812806) -  *Every week through April 30, 2024.*
 - [Make a 1:1 appointment with Belle](https://calendly.com/bellelipton/meeting) - *Please specify your preference for in-person or remote.*
 - [Access historic maps in Harvard Map Collection](https://library.harvard.edu/libraries/harvard-map-collection) - *Appointments required.*

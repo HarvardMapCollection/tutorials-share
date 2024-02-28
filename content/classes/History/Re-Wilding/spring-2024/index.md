@@ -11,16 +11,10 @@ description: Materials for visits on 2/14, 2/21, 2/28 and 4/24.
 Get to this page quickly:
 [https://bit.ly/3HVp6vm](https://bit.ly/3HVp6vm)
 
+## Resources
 
-## 2/14 visit
-
-- [Slides](https://docs.google.com/presentation/d/1LEqGoZdnWt9p8s3ylqhRwUMarb-MTuO3PYZ7dSqaOgA/edit?usp=sharing)
-- [Live QGIS demo materials](https://drive.google.com/file/d/1bMqunJDaCNB-OYQA0vdzafgDr7vhSyHp/view?usp=drive_link)
-- [Re-Wilding Felt Class Page](https://felt.com/maps/Rewilding-Harvard-OEcPy6QPTFWkHs9Bg9AwhaCB)
-
-## General resources
-- [GIS Office Hours in Widener](https://libcal.library.harvard.edu/event/11812806)
-- [BPL Atlascope](https://www.atlascope.org/)
-- [NYPL Building Inspector](https://ny.curbed.com/2014/5/2/10105942/play-building-inspector-with-the-nypls-new-mapping-tool) (old project, expect broken links, but you can skim to get a sense)
-- [Find maps in Harvard Map Collection](https://library.harvard.edu/libraries/harvard-map-collection)
-- [Download QGIS](https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-software/)
+- [May Crane Fellowships](https://library.harvard.edu/may-crane-fellowships) - *Apply by **March 8** for stipended work with GIS in the Map Collection, Summer 2024.*
+- [Download QGIS](https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-software/) - *Instructions for installing Open Source desktop GIS software, with debugging tips.*
+- [GIS Office Hours Tuesday 9:30-noon, Widener 240](https://libcal.library.harvard.edu/event/11812806) -  *Every week through April 30.*
+- [Make a 1:1 appointment with Belle](https://calendly.com/bellelipton/meeting) - *Please specify your preference for in-person or remote.*
+- [Access historic maps in Harvard Map Collection](https://library.harvard.edu/libraries/harvard-map-collection) - *Appointments required.*

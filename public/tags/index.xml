@@ -1,27 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on GIS, maps &#43; data @ Harvard Libraries</title>
+    <title>Tags on GIS, maps &#43; data @ Harvard Library</title>
     <link>https://mapping.share.library.harvard.edu/tags/</link>
-    <description>Recent content in Tags on GIS, maps &#43; data @ Harvard Libraries</description>
+    <description>Recent content in Tags on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>test-template</title>
-      <link>https://mapping.share.library.harvard.edu/tags/test-template/</link>
-      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
+      <title>class</title>
+      <link>https://mapping.share.library.harvard.edu/tags/class/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mapping.share.library.harvard.edu/tags/test-template/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tags/class/</guid>
       <description></description>
     </item>
     
     <item>
       <title>news</title>
       <link>https://mapping.share.library.harvard.edu/tags/news/</link>
-      <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://mapping.share.library.harvard.edu/tags/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test-template</title>
+      <link>https://mapping.share.library.harvard.edu/tags/test-template/</link>
+      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tags/test-template/</guid>
       <description></description>
     </item>
     
@@ -40,24 +49,6 @@
       <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://mapping.share.library.harvard.edu/tags/resources/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data-Cleaning-Workshop</title>
-      <link>https://mapping.share.library.harvard.edu/tags/data-cleaning-workshop/</link>
-      <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://mapping.share.library.harvard.edu/tags/data-cleaning-workshop/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>class</title>
-      <link>https://mapping.share.library.harvard.edu/tags/class/</link>
-      <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://mapping.share.library.harvard.edu/tags/class/</guid>
       <description></description>
     </item>
     
@@ -112,15 +103,6 @@
       <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://mapping.share.library.harvard.edu/tags/allmaps/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Introduction-to-GIS-Workshop</title>
-      <link>https://mapping.share.library.harvard.edu/tags/introduction-to-gis-workshop/</link>
-      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://mapping.share.library.harvard.edu/tags/introduction-to-gis-workshop/</guid>
       <description></description>
     </item>
     

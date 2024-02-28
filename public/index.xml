@@ -1,12 +1,69 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>GIS, maps &#43; data @ Harvard Libraries</title>
+    <title>GIS, maps &#43; data @ Harvard Library</title>
     <link>https://mapping.share.library.harvard.edu/</link>
-    <description>Recent content on GIS, maps &#43; data @ Harvard Libraries</description>
+    <description>Recent content on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Class materials</title>
+      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/class-materials/</link>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/class-materials/</guid>
+      <description>Get to this page quick: https://bit.ly/3IaHnot Schedule Time Topic 0:00 - 0:20 Welcome, software and materials overview 0:20 - 0:40 Introducing spatial data structures 0:40 - 0:50 Turning spreadsheet data into spatial data 0:50 - 1:00 Diving into core concepts 1:00 - 1:15 Leveraging attributes to make maps 1:15 - 1:30 Introducing raster data Materials Slides Data Next steps Survey Help us design the programming you want by filling out the workshop survey.</description>
+    </item>
+    
+    <item>
+      <title>1. Introducing spatial data structures</title>
+      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-1/</link>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-1/</guid>
+      <description>In your group&amp;hellip; Visit the U.S. arms exports in 2022 by country data 1 in the Activity 1 folder. What do you notice about how the data is structured?
+Visit the Countries Admin 0 GIS data in Natural Earth . Download a copy of the data. Look at the data in a file explorer. What do you notice about the data? What questions do you have?
+U.S. Arms Data by Country, Statistica, March 2023 .</description>
+    </item>
+    
+    <item>
+      <title>2. Turning spreadsheet data into spatial data</title>
+      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-2/</link>
+      <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-2/</guid>
+      <description>As a class&amp;hellip; Open QGIS. Select Project → New and navigate to arms-map.qgz in the Activity 2 folder of your class data materials. Right click the layer in the layer list us-arms-export-by-country Select Zoom to Layer. You should see the countries dataset Right-click the layer in the layer list Select Open Attribute Table Take note of the column names. Which column do you think we should symbolize based on? Double click on us-arms-exports-by-country in the layer list.</description>
+    </item>
+    
+    <item>
+      <title>3. Leveraging attributes to make maps</title>
+      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-3/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-3/</guid>
+      <description>As a class&amp;hellip; Visit MassGIS Data: Bicycle Trails , and read through the page. Discuss any observations you make about how this data is structured and presented. Select Download this data Uncompress biketrails_arc.zip In the QGIS main menu at the top of the screen, navigate to Project and then click New If you are prompted to save your work, you don’t have to, we won’t need it for anything else later In the Browser pane, under XYZ Tiles, double click OpenStreetMap.</description>
+    </item>
+    
+    <item>
+      <title>GIS Methods for Re-Wilding Spring 2024</title>
+      <link>https://mapping.share.library.harvard.edu/classes/history/re-wilding/spring-2024/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/classes/history/re-wilding/spring-2024/</guid>
+      <description>Get to this page quickly: https://bit.ly/3HVp6vm 2/28 class map 2/28 class map. Resources May Crane Fellowships - Apply by March 8 for stipended work with GIS in the Map Collection, Summer 2024. Download QGIS - Instructions for installing Open Source desktop GIS software, with debugging tips. GIS Office Hours Tuesday 9:30-noon, Widener 240 - Every week through April 30, 2024. Make a 1:1 appointment with Belle - Please specify your preference for in-person or remote.</description>
+    </item>
+    
+    <item>
+      <title>Mapping Black Cambridge</title>
+      <link>https://mapping.share.library.harvard.edu/posts/mapping-black-cambridge/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/posts/mapping-black-cambridge/</guid>
+      <description>The Harvard Map Collection recently partnered with the Leventhal Map and Education Center at the Boston Public Library to support a digital mapping project by scholars Joan Brunetta and Eve Loftus. Joan and Eve&amp;rsquo;s project, titled Mapping Black Cambridge , contributes to an evolving landscape of available data used to discern historic dimensions of Black life in Boston and Cambridge.
+Leveraging historic maps and records from local libraries and archives, along with GIS training services , Joan and Eve have created a dataset from their meticulous research about Black life in Cambridge in the 19th century.</description>
+    </item>
+    
     <item>
       <title>3. Example</title>
       <link>https://mapping.share.library.harvard.edu/template/</link>
@@ -97,12 +154,13 @@ Exploratory analysis I was able to get started on some exploratory analysis.</de
     </item>
     
     <item>
-      <title>Data Cleaning for GIS Workshop</title>
-      <link>https://mapping.share.library.harvard.edu/resources/data-cleaning/workshop/</link>
+      <title>Advanced Data Cleaning for GIS</title>
+      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop-3/</link>
       <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://mapping.share.library.harvard.edu/resources/data-cleaning/workshop/</guid>
-      <description>Bit.ly https://bit.ly/gis-cleaning Sign up Library calendar Slides Workshop slides Workshop data Example data Survey Post-workshop survey </description>
+      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop-3/</guid>
+      <description>Get to this page quick: https://bit.ly/49mV3c3 Sign up Find out when we are offering this workshop by visiting the library calendar .
+Class materials Slides Activity sheet Activity data Post-workshop survey Help us design the programming you want by filling out the workshop survey .</description>
     </item>
     
     <item>
@@ -364,20 +422,20 @@ In this interview, we look at Paige’s custom-coded interactive mapping visuali
     
     <item>
       <title>1. Introduction</title>
-      <link>https://mapping.share.library.harvard.edu/resources/new-to-gis/workshop/introduction/</link>
+      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop/introduction/</link>
       <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://mapping.share.library.harvard.edu/resources/new-to-gis/workshop/introduction/</guid>
+      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop/introduction/</guid>
       <description>About this workshop This course is for those wishing to develop a strong foundational understanding of how GIS works. After completing this course, you will be well-positioned to begin GIS projects of your own.
 The step-by-step materials here can be followed along asynchronously. The in-person version (register ) covers the same materials, but with live demonstrations and hands-on support from the instructor. We can schedule additional workshop sessions on demand, as well as in-class workshops.</description>
     </item>
     
     <item>
       <title>2. Tutorial requirements</title>
-      <link>https://mapping.share.library.harvard.edu/resources/new-to-gis/workshop/tutorial-requirements/</link>
+      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop/tutorial-requirements/</link>
       <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://mapping.share.library.harvard.edu/resources/new-to-gis/workshop/tutorial-requirements/</guid>
+      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop/tutorial-requirements/</guid>
       <description>In order to follow this workshop, you will need the free, open-source desktop software QGIS. This tutorial will teach you how to download it and use some of its most useful features.
 There are many software options for manipulating, analyzing, and visualizing geospatial data. QGIS is a favorite, as it is free, lightweight, and doesn&amp;rsquo;t require a login or license.
 The concepts from this course are not software-specific, so you will be able to apply them to whichever software you end up using.</description>
@@ -385,19 +443,19 @@ The concepts from this course are not software-specific, so you will be able to 
     
     <item>
       <title>3. Data overview</title>
-      <link>https://mapping.share.library.harvard.edu/resources/new-to-gis/workshop/data-overview/</link>
+      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop/data-overview/</link>
       <pubDate>Wed, 04 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://mapping.share.library.harvard.edu/resources/new-to-gis/workshop/data-overview/</guid>
+      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop/data-overview/</guid>
       <description>As an example project, we are going study Poland at the end of WWI. By the end of the course, we will have made maps that help us understand the country&amp;rsquo;s demographic makeup at the time. This is a real mapmaking example we worked on with a history class about the making of borders. 1 At any point, you can skip ahead to the maps and datasets . To download the data, visit this Google Drive .</description>
     </item>
     
     <item>
       <title>4. Import datasets</title>
-      <link>https://mapping.share.library.harvard.edu/resources/new-to-gis/workshop/import-datasets/</link>
+      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop/import-datasets/</link>
       <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://mapping.share.library.harvard.edu/resources/new-to-gis/workshop/import-datasets/</guid>
+      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop/import-datasets/</guid>
       <description>To review the difference between raster and vector data, visit the Introduction .
 Raster data If you haven&amp;rsquo;t already, download and install QGIS .
 Open QGIS.
@@ -407,28 +465,28 @@ In the left-hand Browser menu, find the dropdown titled XYZ tiles. Expand the XY
     
     <item>
       <title>5. Visualize statistics</title>
-      <link>https://mapping.share.library.harvard.edu/resources/new-to-gis/workshop/visualize-statistics/</link>
+      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop/visualize-statistics/</link>
       <pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://mapping.share.library.harvard.edu/resources/new-to-gis/workshop/visualize-statistics/</guid>
+      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop/visualize-statistics/</guid>
       <description>Exploring the Polish cities dataset Now, let&amp;rsquo;s familiarize ourselves with the Polish cities statistical data. Right-click on the poland-stats layer in the Layer Panel and select Open Attribute Table. You should see a table where each row is one of the Polish cities on the map, and each layer is a statistical figure about that city. Take a look and try to make sense of the table. You may have noticed that the field headers are not easy to understand.</description>
     </item>
     
     <item>
       <title>6. Share results</title>
-      <link>https://mapping.share.library.harvard.edu/resources/new-to-gis/workshop/share-results/</link>
+      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop/share-results/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://mapping.share.library.harvard.edu/resources/new-to-gis/workshop/share-results/</guid>
+      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop/share-results/</guid>
       <description>Now we are ready to learn how to style a &amp;ldquo;finished product&amp;rdquo; version of the map. So far, we have been using GIS to overlay different GIS layers and see how they compare with one another. We&amp;rsquo;ve been exploring the data by looking at the attribute table and playing with the map symbols. We&amp;rsquo;ve been trying to understand the data for ourselves. Now, we are going to learn how to prepare an outward-facing map to communicate our findings with others.</description>
     </item>
     
     <item>
       <title>7. Browse maps and data</title>
-      <link>https://mapping.share.library.harvard.edu/resources/new-to-gis/workshop/browse-maps-and-data/</link>
+      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop/browse-maps-and-data/</link>
       <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://mapping.share.library.harvard.edu/resources/new-to-gis/workshop/browse-maps-and-data/</guid>
+      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop/browse-maps-and-data/</guid>
       <description>Polish cities data: interactive map view Hover over each Polish city to engage with statistics about the city from around the time of WWI. In addition to plebiscite vote results, there is also statistical demographic data from 1911 conveying the percentage of Polish-speaking school children in each city. Polish cities data: table view This is what the Polish cities GIS dataset looks like, displayed in tabular view in the GIS software.</description>
     </item>
     
@@ -629,10 +687,10 @@ To access the underlying project data, visit the project Github .</description>
     
     <item>
       <title>In-person materials</title>
-      <link>https://mapping.share.library.harvard.edu/resources/new-to-gis/workshop/in-person/</link>
+      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop/in-person/</link>
       <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://mapping.share.library.harvard.edu/resources/new-to-gis/workshop/in-person/</guid>
+      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop/in-person/</guid>
       <description>https://bit.ly/3YeQ2MZ
 Slides Data Raster data service https://allmaps.xyz/maps/8d5cc5d1fec615d6/{z}/{x}/{y}.png
 Vector data download Google drive link Hex codes #e0f3db
@@ -709,9 +767,8 @@ The Harvard Map Collection asked Bloomberg graphics journalist, Rachael Dottle a
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://mapping.share.library.harvard.edu/connect/</guid>
-      <description>About This site is an effort of the Harvard Map Collection to make our teaching and research materials more discoverable.
-There are many people at Harvard teaching GIS or using GIS in their research. If this is you, we would like to be more connected!
-Are you already using GIS @ Harvard? Would you like to start?
+      <description>About This site is an effort of the Harvard Map Collection to make our GIS teaching and research materials more discoverable.
+Already using GIS @ Harvard? Want to start?
 How to connect Email us at maps@harvard.edu .</description>
     </item>
     

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Resources on GIS, maps &#43; data @ Harvard Libraries</title>
+    <title>Resources on GIS, maps &#43; data @ Harvard Library</title>
     <link>https://mapping.share.library.harvard.edu/resources/</link>
-    <description>Recent content in Resources on GIS, maps &#43; data @ Harvard Libraries</description>
+    <description>Recent content in Resources on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/resources/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/resources/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

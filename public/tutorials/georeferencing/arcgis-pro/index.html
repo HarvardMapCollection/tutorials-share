@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><title>
+    
+    Georeference in ArcGIS Pro | 
+    
+    GIS, maps &#43; data @ Harvard Library
+</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="https://mapping.share.library.harvard.edu/tutorials/georeferencing/arcgis-pro/" />
+<link rel="icon" type="image/png" href="https://mapping.share.library.harvard.edu/image/favicon.ico">
+
+
+<meta name="description" content="
+    Open a new map in ArcGIS Pro and select the basemap of your choice Map → Basemap → Open Street Map Set the projection by right clicking the basemap in the Contents pane and select Properties Properties → Coordinate Systems
+Open the image which needs to be georeferenced Catalog → Folders → Add Folder Connection Right click on &lsquo;Folders&rsquo; and navigate to the folder containing the map that needs to be georeferenced.
+    "
+/>
+<meta property="og:description" content="
+    Open a new map in ArcGIS Pro and select the basemap of your choice Map → Basemap → Open Street Map Set the projection by right clicking the basemap in the Contents pane and select Properties Properties → Coordinate Systems
+Open the image which needs to be georeferenced Catalog → Folders → Add Folder Connection Right click on &lsquo;Folders&rsquo; and navigate to the folder containing the map that needs to be georeferenced.
+    " 
+/>
+
+
+<meta property="og:image" content="https://mapping.share.library.harvard.edu/tutorials/georeferencing/arcgis-pro/default-gradient.png" />
+
+
+
+
+
+
+<meta property="og:title" content="Georeference in ArcGIS Pro" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mapping.share.library.harvard.edu/tutorials/georeferencing/arcgis-pro/" /><meta property="article:section" content="tutorials" />
+<meta property="article:published_time" content="2023-01-18T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-01-18T00:00:00+00:00" />
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Georeference in ArcGIS Pro"/>
+<meta name="twitter:description" content="Open a new map in ArcGIS Pro and select the basemap of your choice Map → Basemap → Open Street Map Set the projection by right clicking the basemap in the Contents pane and select Properties Properties → Coordinate Systems
+Open the image which needs to be georeferenced Catalog → Folders → Add Folder Connection Right click on &lsquo;Folders&rsquo; and navigate to the folder containing the map that needs to be georeferenced."/>
+
+<meta itemprop="name" content="Georeference in ArcGIS Pro">
+<meta itemprop="description" content="Open a new map in ArcGIS Pro and select the basemap of your choice Map → Basemap → Open Street Map Set the projection by right clicking the basemap in the Contents pane and select Properties Properties → Coordinate Systems
+Open the image which needs to be georeferenced Catalog → Folders → Add Folder Connection Right click on &lsquo;Folders&rsquo; and navigate to the folder containing the map that needs to be georeferenced."><meta itemprop="datePublished" content="2023-01-18T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-01-18T00:00:00+00:00" />
+<meta itemprop="wordCount" content="392">
+<meta itemprop="keywords" content="tutorials,georeferencing,arcgis-pro," />
+
+
+
+
+<link rel="stylesheet" href="/main.min.css">
+<link rel="stylesheet" href="https://use.typekit.net/yiq3yrx.css">
+<link rel="stylesheet" href="/typekit/stylesheet.css">
+
+
+
+
+
+<script src="/bundle.js"></script>
+
+
+
+
+
+
+
+<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XCNRPXZNVM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XCNRPXZNVM');
+</script>
+
+
+
+<link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
+  <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-55D9M4Z');</script>
+
+
+
+
+
+</head>
+
+<body><header id="header">
+  <div class="top-bar">
+    <div class="container-md">
+
+      <div class="row align-items-center">
+
+        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
+          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <i class="fas fa-bars"></i> Menu
+          </button>
+        </div>
+
+        <div class="col-12 col-sm-12">
+          <h2 class="title"><a href="/">GIS, maps &#43; data @ Harvard Library</a></h2>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-md">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+
+
+
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/">
+              Home
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Tutorials
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/tags/arcgis/">ArcGIS</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tutorials/census-data-primer/">Census</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/georeferencing/">Georeferencing</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/openstreetmap/">OpenStreetMap (OSM)</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/qgis/">QGIS</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Resources
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/resources/workshops">Workshops</a>
+              
+              
+              
+                <a class="dropdown-item" href="/resources/researchers-handbook">Data management</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/tags/news">
+              Blog
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/projects/">
+              Projects
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/connect/">
+              Connect
+            </a>
+          </li>
+          
+          
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="blog-content">
+    <div class="container-md">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 px-lg-4">
+                <h1 class="title">Georeference in ArcGIS Pro</h1>
+                <ol>
+<li>
+<p>Open a new map <img src="media/newmap.PNG" alt="Screenshot of new map icon">
+in ArcGIS Pro and select the basemap <img src="media/basemap.PNG" alt="Screenshot of new map icon"> of your choice <code>Map → Basemap → Open Street Map</code> <img src="media/basemap2.PNG" alt="Screenshot of new map icon"></p>
+</li>
+<li>
+<p><strong>Set the projection</strong> by right clicking the basemap in the <em>Contents</em> pane and select <strong>Properties</strong> <code>Properties → Coordinate Systems</code><img src="media/projection.PNG" alt="Screenshot of new map icon"></p>
+</li>
+<li>
+<p>Open the image which needs to be georeferenced <code>Catalog → Folders → Add Folder Connection </code></p>
+</li>
+</ol>
+<blockquote>
+<p>Right click on &lsquo;Folders&rsquo; and navigate to the folder containing the map that needs to be georeferenced. Press &lsquo;OK&rsquo; to add the folder as a connection.</p>
+</blockquote>
+<ol start="4">
+<li>Drag the image from the &lsquo;Catalog&rsquo; pane, into the &lsquo;Map&rsquo; pane</li>
+</ol>
+<blockquote>
+<p>Select &lsquo;OK&rsquo; to &lsquo;Build Pyramids and Calculate Statistics&rsquo;</p>
+</blockquote>
+<ol start="5">
+<li>
+<p>Open the georeferencing toolbar <code>Imagery → Georeference</code><img src="media/georeference_button.PNG" alt="Screenshot of start georeferencing icon"></p>
+</li>
+<li>
+<p>Now it is time to add control points. <code>Georeference → Add Control Points</code> <img src="media/add_cp.PNG" alt="Screenshot of add ctrl points icon"></p>
+</li>
+</ol>
+<div class="alert-info">Adding control points creates a link between a real geographic location and a location present in the map image.</div>
+<ul>
+<li>Find a recognizable geographic location on the map image and click on it to add the first control point, thus creating Link 1.
+<ul>
+<li>For example, in a map of New York, you could use the tip of Manhattan as a control point.</li>
+</ul>
+</li>
+<li>Now, we want to link this control point to an actual lat/long value.
+<ul>
+<li>Right-click on the <strong>basemap</strong> in the &lsquo;Contents&rsquo; pane and select &lsquo;Zoom to Layer&rsquo; to bring it into view.</li>
+<li>Once you have found the same location on the basemap, simply click to add the corresponding control point, completing Link 1.</li>
+</ul>
+</li>
+<li>Use the &ldquo;Locate&rdquo; tool in the upper left hand corner of the Georeferencing toolbar to help you find places.
+<ul>
+<li>For example, search &ldquo;Manhattan&rdquo; or &ldquo;Manhattan, New York&rdquo;, and it will locate Manhattan on the basemap for you!</li>
+<li>You can also type in XY coordinates into the Locate tool</li>
+</ul>
+</li>
+</ul>
+<ol start="7">
+<li>Continue to add two more control points, so that there are three control points in total.</li>
+</ol>
+<blockquote>
+<p>Switch between the image and the basemap by right clicking on the layer in the &lsquo;Contents&rsquo; pane and selecting &lsquo;Zoom to Layer&rsquo;.</p>
+</blockquote>
+<ul>
+<li>Control points can be added <img src="media/add_cp.PNG" alt="Screenshot of add ctrl points icon"> or deleted <img src="media/delete_cp.PNG" alt="Screenshot of delete ctrl points icon"> using the options available in the georeferencing toolbar.</li>
+<li>Select &ldquo;Control Point Table&rdquo; to see a table of links you have made.<img src="media/open_cp_table.PNG" alt="Screenshot of add ctrl point table icon">
+<ul>
+<li>Here, you can also add and delete control points, and even alter their geographic coordinates directly from within this table.</li>
+</ul>
+</li>
+</ul>
+<ol start="8">
+<li>Now that the control points are completed, we are able to transform the map. <code>Georeference → Transformation → Similarity Polynomial</code></li>
+</ol>
+<div class="alert-success">Your image has been georeferenced! </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+</body>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-55D9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+</html>

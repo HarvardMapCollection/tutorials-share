@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><title>
+    
+    Download Census Data for GIS | 
+    
+    GIS, maps &#43; data @ Harvard Library
+</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-data/" />
+<link rel="icon" type="image/png" href="https://mapping.share.library.harvard.edu/image/favicon.ico">
+
+
+<meta name="description" content="
+    Example data We will be exploring tenure data, which looks at owner vs. renter-occupied units. We want census responses that have been aggregated to the census tract level. Our area of study is near the Harvard campus, in Somerville and Cambridge. We&rsquo;ll be looking at the most recent estimates at the time this guide was written, 2015-2019. Geography tip: Census tracts are a popular aggregation unit, as they are more granular than county or state level data, but more available and statistically-reliable than block level data.
+    "
+/>
+<meta property="og:description" content="
+    Example data We will be exploring tenure data, which looks at owner vs. renter-occupied units. We want census responses that have been aggregated to the census tract level. Our area of study is near the Harvard campus, in Somerville and Cambridge. We&rsquo;ll be looking at the most recent estimates at the time this guide was written, 2015-2019. Geography tip: Census tracts are a popular aggregation unit, as they are more granular than county or state level data, but more available and statistically-reliable than block level data.
+    " 
+/>
+
+
+<meta property="og:image" content="https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-data/farmgoat.png" />
+
+
+
+
+
+
+<meta property="og:title" content="Download census data for GIS" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-data/" /><meta property="article:section" content="tutorials" />
+<meta property="article:published_time" content="2023-01-18T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-01-18T00:00:00+00:00" />
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Download census data for GIS"/>
+<meta name="twitter:description" content="Example data We will be exploring tenure data, which looks at owner vs. renter-occupied units. We want census responses that have been aggregated to the census tract level. Our area of study is near the Harvard campus, in Somerville and Cambridge. We&rsquo;ll be looking at the most recent estimates at the time this guide was written, 2015-2019. Geography tip: Census tracts are a popular aggregation unit, as they are more granular than county or state level data, but more available and statistically-reliable than block level data."/>
+
+<meta itemprop="name" content="Download census data for GIS">
+<meta itemprop="description" content="Example data We will be exploring tenure data, which looks at owner vs. renter-occupied units. We want census responses that have been aggregated to the census tract level. Our area of study is near the Harvard campus, in Somerville and Cambridge. We&rsquo;ll be looking at the most recent estimates at the time this guide was written, 2015-2019. Geography tip: Census tracts are a popular aggregation unit, as they are more granular than county or state level data, but more available and statistically-reliable than block level data."><meta itemprop="datePublished" content="2023-01-18T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-01-18T00:00:00+00:00" />
+<meta itemprop="wordCount" content="345">
+<meta itemprop="keywords" content="tutorials,census," />
+
+
+
+
+<link rel="stylesheet" href="/main.min.css">
+<link rel="stylesheet" href="https://use.typekit.net/yiq3yrx.css">
+<link rel="stylesheet" href="/typekit/stylesheet.css">
+
+
+
+
+
+<script src="/bundle.js"></script>
+
+
+
+
+
+
+
+<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XCNRPXZNVM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XCNRPXZNVM');
+</script>
+
+
+
+<link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
+  <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-55D9M4Z');</script>
+
+
+
+
+
+</head>
+
+<body><header id="header">
+  <div class="top-bar">
+    <div class="container-md">
+
+      <div class="row align-items-center">
+
+        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
+          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <i class="fas fa-bars"></i> Menu
+          </button>
+        </div>
+
+        <div class="col-12 col-sm-12">
+          <h2 class="title"><a href="/">GIS, maps &#43; data @ Harvard Library</a></h2>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-md">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+
+
+
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/">
+              Home
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Tutorials
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/tags/arcgis/">ArcGIS</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tutorials/census-data-primer/">Census</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/georeferencing/">Georeferencing</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/openstreetmap/">OpenStreetMap (OSM)</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/qgis/">QGIS</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Resources
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/resources/workshops">Workshops</a>
+              
+              
+              
+                <a class="dropdown-item" href="/resources/researchers-handbook">Data management</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/tags/news">
+              Blog
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/projects/">
+              Projects
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/connect/">
+              Connect
+            </a>
+          </li>
+          
+          
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="blog-content">
+    <div class="container-md">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 px-lg-4">
+                <h1 class="title">Download Census Data for GIS</h1>
+                <h2 id="example-data">Example data</h2>
+<ul>
+<li>We will be exploring <code>tenure</code> data, which looks at owner vs. renter-occupied units.</li>
+<li>We want census responses that have been aggregated to the <strong>census tract</strong> level.</li>
+<li>Our area of study is near the Harvard campus, in Somerville and Cambridge.</li>
+<li>We&rsquo;ll be looking at the most recent <a href="https://www.census.gov/programs-surveys/acs/guidance/estimates.html" target="_blank">estimates</a>
+ at the time this guide was written, 2015-2019.</li>
+</ul>
+<blockquote>
+<p><strong>Geography tip:</strong> Census tracts are a popular aggregation unit, as they are more granular than county or state level data, but more available and statistically-reliable than block level data.</p>
+</blockquote>
+<p>The steps in this tutorial series will work for any U.S. census data, such as age, race, income, etc. If you&rsquo;re not sure which variables are available, you can use <a href="https://censusreporter.org/" target="_blank">censusreporter.org</a>
+ to find out.</p>
+<p><img src="media/1.png" alt="Screenshot of final map, showing renter occupied units in Somerville and Cambridge">
+<em>Example of the tenure data we will work with, uploaded to ArcGIS Online.</em></p>
+<h2 id="steps">Steps</h2>
+<ol>
+<li>
+<p>Visit NHGIS.org.</p>
+</li>
+<li>
+<p>Select <code>Get Data</code>.
+<img src="media/2.png" alt="Screenshot of Get Data button on NHGIS.org"></p>
+</li>
+<li>
+<p>Select <code>Topics</code>.
+<img src="media/3.png" alt="Screenshot of Topics facet on NHGIS.org"></p>
+</li>
+<li>
+<p>Select <code>Housing</code>.
+<img src="media/4.png" alt="Screenshot of Housing topic facet on NHGIS.org"></p>
+</li>
+<li>
+<p>Check off <code>Tenure and Mortgage Status</code>.
+<img src="media/5.png" alt="Screenshot of Tenure and Mortgage Status topic checked off on NHGIS.org"></p>
+</li>
+<li>
+<p>Finalize your topics selection by choosing the <code>Submit</code> button.
+<img src="media/6.png" alt="Screenshot of Submit button on NHGIS.org"></p>
+</li>
+<li>
+<p>To specify we want to work with census tracts, select <code>Geographic Levels</code>.
+<img src="media/8.png" alt="Screenshot of Geographic Levels facet on NHGIS.org"></p>
+</li>
+<li>
+<p>Check off <code>Census Tract</code>.
+<img src="media/9.png" alt="Screenshot of checked-off census tract option on NHGIS.org"></p>
+</li>
+<li>
+<p>Finalize your geographic levels selection by choosing the <code>Submit</code> button.
+<img src="media/6.png" alt="Screenshot of Submit button on NHGIS.org"></p>
+</li>
+<li>
+<p>To indicate our time frame of 2015-2019, select <code>Years</code>.
+<img src="media/10.png" alt="Screenshot of Years facet on NHGIS.org"></p>
+</li>
+<li>
+<p>Check off <code>2015-2019</code>.
+<img src="media/11.png" alt="Screenshot of checked-off 2015-2019 option on NHGIS.org"></p>
+</li>
+<li>
+<p>Finalize your years selection by choosing the <code>Submit</code> button.
+<img src="media/6.png" alt="Screenshot of Submit button on NHGIS.org"></p>
+</li>
+<li>
+<p>Under <code>Source Tables</code>, check off the <strong>Tenure</strong> data table. This will add the census statistical table to our shopping cart.
+<img src="media/13.png" alt="Screenshot of checked-off tenure table on NHGIS.org"></p>
+</li>
+<li>
+<p>To change the results that match our criteria from <strong>tables</strong> to <strong>GIS boundary files</strong>, select <code>GIS Files</code>.</p>
+</li>
+</ol>
+<blockquote>
+<p>Remember, we need both!
+<img src="media/12.png" alt="Screenshot of GIS files tab on NHGIS.org"></p>
+</blockquote>
+<ol start="15">
+<li>
+<p>Checkout by selecting <code>Continue</code> from the data cart in the upper-right hand corner of the screen.
+<img src="media/14.png" alt="Screenshot of data cart on NHGIS.org"></p>
+</li>
+<li>
+<p>Accept all of the download defaults.</p>
+</li>
+<li>
+<p>Select <code>Submit</code>.</p>
+</li>
+</ol>
+<blockquote>
+<p>You will need to create a free login in order to checkout. You can create one in a new tab if you don&rsquo;t want to lose your data selection.</p>
+</blockquote>
+<h2 id="tips">Tips</h2>
+<ul>
+<li>It takes a few minutes to prepare your extract. You can either wait and refresh the page, or you will receive an email when the data is ready.</li>
+<li>Extracts come with any accompanying codebook.
+<img src="media/15.png" alt="Screenshot of codebook file from  NHGIS.org download"></li>
+<li>Use this codebook to make sense of the table&rsquo;s field names.
+<img src="media/16.png" alt="Screenshot of codebook from  NHGIS.org download"></li>
+</ul>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+
+</body>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-55D9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+</html>

@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GIS, maps &#43; data @ Harvard Library</title>
+    <link>https://mapping.share.library.harvard.edu/</link>
+    <description>Recent content on GIS, maps &#43; data @ Harvard Library</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Class materials</title>
+      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/class-materials/</link>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/class-materials/</guid>
+      <description>Get to this page quick: https://bit.ly/3IaHnot Schedule Time Topic 0:00 - 0:20 Welcome, software and materials overview 0:20 - 0:40 Introducing spatial data structures 0:40 - 0:50 Turning spreadsheet data into spatial data 0:50 - 1:00 Diving into core concepts 1:00 - 1:15 Leveraging attributes to make maps 1:15 - 1:30 Introducing raster data Materials Slides Data Next steps Survey Help us design the programming you want by filling out the workshop survey.</description>
+    </item>
+    
+    <item>
+      <title>1. Introducing spatial data structures</title>
+      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-1/</link>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-1/</guid>
+      <description>In your group&amp;hellip; Visit the U.S. arms exports in 2022 by country data 1 in the Activity 1 folder. What do you notice about how the data is structured?
+Visit the Countries Admin 0 GIS data in Natural Earth . Download a copy of the data. Look at the data in a file explorer. What do you notice about the data? What questions do you have?
+U.S. Arms Data by Country, Statistica, March 2023 .</description>
+    </item>
+    
+    <item>
+      <title>2. Turning spreadsheet data into spatial data</title>
+      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-2/</link>
+      <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-2/</guid>
+      <description>As a class&amp;hellip; Open QGIS. Select Project → New and navigate to arms-map.qgz in the Activity 2 folder of your class data materials. Right click the layer in the layer list us-arms-export-by-country Select Zoom to Layer. You should see the countries dataset Right-click the layer in the layer list Select Open Attribute Table Take note of the column names. Which column do you think we should symbolize based on? Double click on us-arms-exports-by-country in the layer list.</description>
+    </item>
+    
+    <item>
+      <title>3. Leveraging attributes to make maps</title>
+      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-3/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-3/</guid>
+      <description>As a class&amp;hellip; Visit MassGIS Data: Bicycle Trails , and read through the page. Discuss any observations you make about how this data is structured and presented. Select Download this data Uncompress biketrails_arc.zip In the QGIS main menu at the top of the screen, navigate to Project and then click New If you are prompted to save your work, you don’t have to, we won’t need it for anything else later In the Browser pane, under XYZ Tiles, double click OpenStreetMap.</description>
+    </item>
+    
+    <item>
+      <title>GIS Methods for Re-Wilding Spring 2024</title>
+      <link>https://mapping.share.library.harvard.edu/classes/history/re-wilding/spring-2024/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/classes/history/re-wilding/spring-2024/</guid>
+      <description>Get to this page quickly: https://bit.ly/3HVp6vm 2/28 class map 2/28 class map. Resources May Crane Fellowships - Apply by March 8 for stipended work with GIS in the Map Collection, Summer 2024. Download QGIS - Instructions for installing Open Source desktop GIS software, with debugging tips. GIS Office Hours Tuesday 9:30-noon, Widener 240 - Every week through April 30, 2024. Make a 1:1 appointment with Belle - Please specify your preference for in-person or remote.</description>
+    </item>
+    
+    <item>
+      <title>Mapping Black Cambridge</title>
+      <link>https://mapping.share.library.harvard.edu/posts/mapping-black-cambridge/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/posts/mapping-black-cambridge/</guid>
+      <description>The Harvard Map Collection recently partnered with the Leventhal Map and Education Center at the Boston Public Library to support a digital mapping project by scholars Joan Brunetta and Eve Loftus. Joan and Eve&amp;rsquo;s project, titled Mapping Black Cambridge , contributes to an evolving landscape of available data used to discern historic dimensions of Black life in Boston and Cambridge.
+Leveraging historic maps and records from local libraries and archives, along with GIS training services , Joan and Eve have created a dataset from their meticulous research about Black life in Cambridge in the 19th century.</description>
+    </item>
+    
+    <item>
+      <title>3. Example</title>
+      <link>https://mapping.share.library.harvard.edu/template/</link>
+      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/template/</guid>
+      <description> Paige&#39;s project. Hover for interactivity. The final map shows all of the datasets, and includes structures that are at risk, given the flood zones. List of exportable features from OSM. &amp;times; This is an alert box. &amp;times; This is an alert box. &amp;times; This is an alert box. &amp;times; This is an alert box. </description>
+    </item>
+    
+    <item>
+      <title>Introduction to Harvard&#39;s data landscape</title>
+      <link>https://mapping.share.library.harvard.edu/posts/boyd/</link>
+      <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/posts/boyd/</guid>
+      <description>In this interview, we are lucky to speak with Ceilyn Boyd , the Dataverse Development Project Manager at Harvard’s Institute for Quantitative Social Science (IQSS). Prior to her role with IQSS, Ceilyn served as the Manager of the Harvard Library Research Data Management Program. In this interview, she provides an invaluable tour around the complex research data ecosystem of Harvard University.
+BELLE LIPTON: Hi Ceilyn. Thank you for speaking with us.</description>
+    </item>
+    
+    <item>
+      <title>Preserving GIS research data for long-term discovery and access</title>
+      <link>https://mapping.share.library.harvard.edu/posts/odessa-biodiversity/</link>
+      <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/posts/odessa-biodiversity/</guid>
+      <description>Floral motif from Ukrainian textile produced in 1902.
+This year, the Harvard Map Collection partnered with Kelly O&amp;rsquo;Neill from the Davis Center on a project to demonstrate the value of our GIS data curation services . Dr. O&amp;rsquo;Neill&amp;rsquo;s project aims to capture data about historic biodiversity in the Ukraine. The Harvard Map Collection worked with her team to co-develop robust and useful metadata, so that the sources can be archived for long-term discovery and reuse.</description>
+    </item>
+    
+    <item>
+      <title>Exploratory data visualization of Harvard Geospatial Library collections</title>
+      <link>https://mapping.share.library.harvard.edu/posts/exploratory-hgl/</link>
+      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/posts/exploratory-hgl/</guid>
+      <description>This summer, we were pleased to host two rising seniors, Vivian Nha Nguyen and Dhruv Chugh as May-Crane fellows . Vivian and Dhruv worked on a project to apply data analysis methodology from their coursework to a real-world corpus of data &amp;ndash; the over 11,000 metadata records for GIS datasets hosted in the Harvard Geospatial Library (HGL) .
+We framed this project as a way to get a better sense of both the data hosted in HGL, as well as the way we collect and describe GIS data at Harvard Libraries.</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://mapping.share.library.harvard.edu/projects/hgl-explore/overview/</link>
+      <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/projects/hgl-explore/overview/</guid>
+      <description>This guide is a result of a 2023 summer project funded by the Harvard Libraries May Crane Fellowship program. The goals of this project were twofold:
+To give undergraduate students an opportunity to apply coursework methods for data cleaning, analysis and visualization to a real-world corpus of data, useful to our library work.
+To create a website that helps users of the Harvard Geospatial Library (HGL) make better sense of what types of data they might find in the portal.</description>
+    </item>
+    
+    <item>
+      <title>Places and &#34;spatial&#34;</title>
+      <link>https://mapping.share.library.harvard.edu/projects/hgl-explore/places/</link>
+      <pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/projects/hgl-explore/places/</guid>
+      <description>Motivation One of the most immediate features of a geospatial dataset is the region it covers. That&amp;rsquo;s why early on in this project, a burning question for me was “what region(s) &amp;ndash; cities, states, countries, continents &amp;ndash; does the Harvard Geospatial Library (HGL) have data to describe?”
+Diving into the metadata To acquire insights into the library&amp;rsquo;s vast collection of geospatial datasets, totaling over 11,000 to date, I worked with the metadata records for every dataset in the Harvard Geospatial Library, which are available publicly from the Harvard Library Github .</description>
+    </item>
+    
+    <item>
+      <title>Subjects</title>
+      <link>https://mapping.share.library.harvard.edu/projects/hgl-explore/subjects/</link>
+      <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/projects/hgl-explore/subjects/</guid>
+      <description>Top twenty subject tags in the original, uncleaned metadata for all Harvard Geospatial Library datasets.
+My approach and methods I wanted to condense this messy subjects list into more comprehensible buckets. Within the over 11,000 metadata records representing the datasets in the Harvard Geospatial Library (HGL) , I noticed that there are only 256 unique subject values. Subject tags are meant to give users a sense of what the dataset is about.</description>
+    </item>
+    
+    <item>
+      <title>Descriptions</title>
+      <link>https://mapping.share.library.harvard.edu/projects/hgl-explore/descriptions/</link>
+      <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/projects/hgl-explore/descriptions/</guid>
+      <description>Motivations Over the course of the summer, Belle and I discussed possible ways to approach understanding the shape of the 11,000+ datasets the Map Collection curates. One of our shared questions about the metadata was focused on the descriptions, housed in the dc_description_s metadata column. We pondered what the differences were between the many descriptions we had of datasets – their tone, their descriptive power, their focuses.
+Exploratory analysis I was able to get started on some exploratory analysis.</description>
+    </item>
+    
+    <item>
+      <title>GIS data management services guide</title>
+      <link>https://mapping.share.library.harvard.edu/resources/researchers-handbook/long-term-preservation/</link>
+      <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/researchers-handbook/long-term-preservation/</guid>
+      <description>The Harvard Map Collection collects and preserves GIS data for long-term discovery and reuse in the Harvard Geospatial Library (HGL) . You might like to extend the long-term value of your research by making your data available in a tool like HGL or Dataverse , or perhaps you&amp;rsquo;d like some feedback on how you are communicating the GIS components of your project. Maybe this is the first time you are thinking about this topic, and it sounds intriguing to you.</description>
+    </item>
+    
+    <item>
+      <title>Advanced Data Cleaning for GIS</title>
+      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop-3/</link>
+      <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop-3/</guid>
+      <description>Get to this page quick: https://bit.ly/49mV3c3 Sign up Find out when we are offering this workshop by visiting the library calendar .
+Class materials Slides Activity sheet Activity data Post-workshop survey Help us design the programming you want by filling out the workshop survey .</description>
+    </item>
+    
+    <item>
+      <title>Disciplinary frames to working with data</title>
+      <link>https://mapping.share.library.harvard.edu/posts/data-disciplines/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/posts/data-disciplines/</guid>
+      <description>One of the goals of this blog is to help you become better positioned in understanding the networks of research data services happening across the Harvard community. There is a lot of data research happening at Harvard. There are also lot of places to get help. In our GIS support services, we encounter a wide range of disciplinary backgrounds when we are helping researchers with their data. The software, methods, and conceptual approaches to working with data can vary greatly, depending on which school you are coming from.</description>
+    </item>
+    
+    <item>
+      <title>Publishing tips from a data safety expert</title>
+      <link>https://mapping.share.library.harvard.edu/posts/potterbusch/</link>
+      <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/posts/potterbusch/</guid>
+      <description>In this interview with Megan Potterbusch , the Harvard Kennedy School&amp;rsquo;s Research Data Steward, you will learn:
+How to balance open science and data safety How to get started with support for your research The interview BELLE LIPTON: Megan, can you introduce us to your role?
+MEGAN POTTERBUSCH: I work within the Kennedy School’s Libraries and Research Services. I’m the primary reviewer for data safety plans. A data safety plan is required for anyone who is working with regulated or contracted data, especially data that is considered sensitive.</description>
+    </item>
+    
+    <item>
+      <title>Supporting creative uses of our collections</title>
+      <link>https://mapping.share.library.harvard.edu/classes/programs/dcwg/summer-2023/</link>
+      <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/classes/programs/dcwg/summer-2023/</guid>
+      <description>Credit: Joan Brunetta and Eve Loftus.
+Map of the city of Cambridge for 1865, Harvard Map Collection. Mapping Inequality, University of Richmond How does it work? Current set up Harvard Geospatial Library Why not GeoTIFF? Time consuming for researchers and library staff Hard to use, outdated format Completely different app - bad for discovery Incompatible with tools our students are using Credit: John Nelson&amp;rsquo;s Mapping Mount Everest Credit: Andria Olson&amp;rsquo;s Mapping the First Transcontinental Railroad IIIF Georeference Extension specification Picture of the IIIF conference hosted at Harvard in 2022 from the British Library Digital Scholarship blog .</description>
+    </item>
+    
+    <item>
+      <title>Getting help with ArcGIS at Harvard</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/arcgis-online/arcgis-pro/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/arcgis-online/arcgis-pro/</guid>
+      <description>One-on-one support For free, tailored, one-on-one help for your research project or GIS task, you can always make an appointment on the Harvard Map Collection&amp;rsquo;s website . Our librarians will work with you on the specifics of your project and deadlines to give you customized support at no cost. We specialize in a number of GIS software options, including ArcGIS, as well as open-source tools, and can help explain the differences, pros, and cons.</description>
+    </item>
+    
+    <item>
+      <title>GIS Outreach with the Harvard Map Collection</title>
+      <link>https://mapping.share.library.harvard.edu/classes/programs/scdg/spring-2023/</link>
+      <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/classes/programs/scdg/spring-2023/</guid>
+      <description>GIS vector dataset showing historic old growth trees in Washington State loaded into QGIS, a map making software.
+Historic old growth trees in Washington State dataset in QGIS table view.
+Harvard Geospatial Library (HGL) Georeferenced map of Poland from 1919.
+Russian Atlas, consisting of forty-four maps..., 1792. Example historical GIS data derived from library archives.
+Playing card geodata translations codebook. Drawings and sketches by W.D. Peck, 1793-1807, Harvard University Archives.</description>
+    </item>
+    
+    <item>
+      <title>Census series introduction</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/introduction/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/introduction/</guid>
+      <description>The census series will equip you with all of the skills necessary to work with census data for digital mapping.
+The United States census is a huge topic, and you may or may not have worked with census data before.
+Being able to navigate census data GIS files, and handle them in a way compatible with digital mapping is not intuitive, and this tutorial series is designed to set you up to be confident making census maps with GIS.</description>
+    </item>
+    
+    <item>
+      <title>Georeference in QGIS</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/georeferencing/qgis/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/georeferencing/qgis/</guid>
+      <description>Download QGIS , if you haven&amp;rsquo;t already.
+Add a basemap Browser → XYZ Tiles → Open Street Map.
+Set the project coordinate reference system to WGS 84. At all times in the bottom right of the QGIS document, EPSG should read 4326.
+Optional context on coordinate reference systems Every dataset and every QGIS project each has a coordinate reference system (CRS). Coordinate reference systems allow the GIS software to know where on the world to place the dataset, how to line it up spatially.</description>
+    </item>
+    
+    <item>
+      <title>Uploading georeferenced maps to ArcGIS Online</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/arcgis-online/arcgis-imagery/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/arcgis-online/arcgis-imagery/</guid>
+      <description>Do you want to be able to use a historic map for comparison in one of your ArcGIS Online projects, such as StoryMaps or ArcGIS Experience Builder ?
+Georeferenced map from 1880 compared to a modern map in ArcGIS Online. There are a number of pathways or workflows for accomplishing this. Which one you pick will depend on a. the format your map data is in and b. the software environment you prefer to work in.</description>
+    </item>
+    
+    <item>
+      <title>DIY documentation guide</title>
+      <link>https://mapping.share.library.harvard.edu/resources/researchers-handbook/prompts/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/researchers-handbook/prompts/</guid>
+      <description>Works cited Guide to writing &#34;readme&#34; style metadata from Cornell Data Services Metadata Questionnaire Form from the United States Geological Survey (U.S.G.S.) This guide can be used on your own or together with a librarian during a guided interview .
+Documentation elements Originator(s) The name(s) of the organization(s) or individual(s) who developed the dataset.
+Publication Date The date when the dataset is published or otherwise made available for release.</description>
+    </item>
+    
+    <item>
+      <title>Download QGIS software</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-software/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-software/</guid>
+      <description>Desktop GIS software is helpful when trying to make sense of census data. We will use free, open-source QGIS.
+How to Download QGIS QGIS is a free and open source desktop GIS software used to create, edit, visualize, analyze, and publish geospatial information on Windows, Mac, Linux, BSD and mobile devices.
+How to Download Visit QGIS.org .
+Select Download Now.
+Select your desired platform.
+Tips If you have the option between many installer packages, choose Standalone Long Term Release To learn your way around the QGIS interface, you can check out these resources: Understanding the QGIS Interface QGIS Documentation Warning If you get an error message that Apple can&amp;rsquo;t check the app for malicious software, you can follow these instructions , by right-clicking the application and selecting Open.</description>
+    </item>
+    
+    <item>
+      <title>Extract OpenStreetMap features</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbyfeature/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbyfeature/</guid>
+      <description>In the previous OpenStreetMap (OSM) tutorial , we learned how to extract a standard set of map features from OpenStreetMap including waterways, buildings, general points of interest, and roads.
+In this tutorial, we will learn how to specify by type of feature, and extract data within a particular extent for only that type of feature.
+No programming is required for this tutorial; we will use only a QGIS plugin called QuickOSM.</description>
+    </item>
+    
+    <item>
+      <title>Georeference library digital collections using Allmaps</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/georeferencing/allmaps/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/georeferencing/allmaps/</guid>
+      <description>Topics covered by this guide Select a map to georeference from the Harvard Libraries&amp;rsquo; digital collections Repeat the process for maps in any library digital collection Learn how to georeference with free browser tool, AllMaps How to use the georeferenced map with the rest of your project Select a map to georeference from the Harvard Libraries&amp;rsquo; digital collections Find the map you would like to work with in the Harvard Libraries Digital Collections Filter results by selecting Type: Map or Repository: Map Coll (Pusey) In the top-right corner of the image viewer, select the metadata Tooltip by clicking the i icon.</description>
+    </item>
+    
+    <item>
+      <title>Add a basemap in QGIS</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/qgis/add-basemap/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/qgis/add-basemap/</guid>
+      <description>Basemaps can be helpful reference points when working with spatial data.
+How to add a basemap to your project Open a new QGIS project. In the left-hand browser menu, locate XYZ Tiles → OpenStreetMap
+OpenStreetMap base tiles are built in to QGIS. Drag OpenStreetMap into the Map Canvas Zoom in to the desired location by selecting the Zoom In menu item, and clicking and dragging on the Map Canvas Tips To add other styles of basemap not included by default in the QGIS install, you can run a Google search about the latest QGIS plugins for basemaps.</description>
+    </item>
+    
+    <item>
+      <title>Add a spreadsheet .XLSX or .CSV to a QGIS project</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/qgis/add-spreadsheet/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/qgis/add-spreadsheet/</guid>
+      <description>This tutorial will cover how to add tabular data to a QGIS project.
+GIS software prefer tabular data to be in .csv format, rather than .xlsx. Before attempting to bring any spreadsheets into either QGIS or ArcGIS Pro, please be sure to save as .csv. Open QGIS .
+In the main QGIS menu (banner across the top of the computer screen), select Layer → Add Layer → Add delimited text layer.</description>
+    </item>
+    
+    <item>
+      <title>Adjust layer opacity in QGIS</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/qgis/adjust-layer-opacity/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/qgis/adjust-layer-opacity/</guid>
+      <description>In this tutorial you will learn how to adjust a layer&amp;rsquo;s opacity in QGIS so that you can &amp;ldquo;see underneath&amp;rdquo; or through the layer to the map data below.
+In the QGIS layer list, right-click the layer you would like to adjust the opacity for.
+Select Properties.
+In the properties menu, select Legend. Move Opacity slider from Available widgets to Used widgets by selecting Opacity slider and clicking the right-hand arrow Add selected widgets.</description>
+    </item>
+    
+    <item>
+      <title>Change QGIS coordinate reference system</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/qgis/change-crs/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/qgis/change-crs/</guid>
+      <description>Concepts &amp;ldquo;Map projections try to portray the surface of the earth, or a portion of the earth, on a flat piece of paper or computer screen. In layman’s term, map projections try to transform the earth from its spherical shape (3D) to a planar shape (2D).
+A coordinate reference system (CRS) then defines how the two-dimensional, projected map in your GIS relates to real places on the earth. The decision of which map projection and CRS to use depends on the regional extent of the area you want to work in, on the analysis you want to do, and often on the availability of data.</description>
+    </item>
+    
+    <item>
+      <title>Download census data for GIS</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-data/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-data/</guid>
+      <description>Example data We will be exploring tenure data, which looks at owner vs. renter-occupied units. We want census responses that have been aggregated to the census tract level. Our area of study is near the Harvard campus, in Somerville and Cambridge. We&amp;rsquo;ll be looking at the most recent estimates at the time this guide was written, 2015-2019. Geography tip: Census tracts are a popular aggregation unit, as they are more granular than county or state level data, but more available and statistically-reliable than block level data.</description>
+    </item>
+    
+    <item>
+      <title>Extract OpenStreetMap Layers</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbylayer/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbylayer/</guid>
+      <description>In this tutorial, you will learn how to extract waterways, buildings, transport, places, and land use data from OpenStreetMap.
+As a GIS user, you may encounter scenarios where data about a place&amp;rsquo;s built and natural environment is challenging to find.
+Depending on the administrative resources of the place you are studying, GIS data may be more or less available for that place.
+OpenStreetMap (OSM) can sometimes be a solution to that problem &amp;ndash; with some important caveats.</description>
+    </item>
+    
+    <item>
+      <title>Georeference in ArcGIS Pro</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/georeferencing/arcgis-pro/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/georeferencing/arcgis-pro/</guid>
+      <description>Open a new map in ArcGIS Pro and select the basemap of your choice Map → Basemap → Open Street Map Set the projection by right clicking the basemap in the Contents pane and select Properties Properties → Coordinate Systems
+Open the image which needs to be georeferenced Catalog → Folders → Add Folder Connection Right click on &amp;lsquo;Folders&amp;rsquo; and navigate to the folder containing the map that needs to be georeferenced.</description>
+    </item>
+    
+    <item>
+      <title>Perform a table join in QGIS</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/perform-a-table-join/</link>
+      <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/perform-a-table-join/</guid>
+      <description>Need help turning your spreadsheet data into a map? In this tutorial you will learn how to join tables to GIS shapefiles to create a new, mappable dataset with both geographic boundaries and statistical or attribute information.
+Why do we join? Often, spreadsheets contain useful information we want to map. GIS software, however, does not know how to translate a spreadsheet without any inherent spatial information (such as point coordinates) into a visual map.</description>
+    </item>
+    
+    <item>
+      <title>Clip a dataset in QGIS</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/clip-a-dataset/</link>
+      <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/clip-a-dataset/</guid>
+      <description>Clipping is a way of cropping GIS data to a certain extent.
+1
+Why do we clip? Large datasets can be unwieldy and difficult to work with. You can create more effective visualizations if your data is focused. Tutorial data In this tutorial you will clip a shapefile of all census tracts in the United States to create a new shapefile of only census tracts in Cambridge, Massachusetts. For those who are following the census data tutorial series , we will be using the United States Census Tracts file we just created.</description>
+    </item>
+    
+    <item>
+      <title>Normalize data in QGIS</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/normalize-a-dataset/</link>
+      <pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/normalize-a-dataset/</guid>
+      <description>Ensure your dataset is prepared in a way that permits you to make clear and responsible arguments when you are mapping. To cover your bases, read through this guide on statistical mapping best practices .
+In this tutorial, we will cover one common data cleaning task &amp;ndash; that of &amp;ldquo;normalizing&amp;rdquo; data.
+&amp;ldquo;To normalize, in a statistical sense, is to transform a set of measurements so that they may be compared in a meaningful way.</description>
+    </item>
+    
+    <item>
+      <title>Style the data</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/style-the-data/</link>
+      <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/style-the-data/</guid>
+      <description>Depending on whether you plan to make a static map, or there is some necessary interactive functionality required, the steps towards stying the map may be a bit different.
+To create a rendered static map using QGIS, we recommend exploring the Points Unknown tutorials , each of which contains beginner-level tips for using QGIS to create maps with a nice design. You can skim these tutorials to glean recommended settings for using the Print Layout in QGIS.</description>
+    </item>
+    
+    <item>
+      <title>Approaching language data mapping with GIS and D3.js</title>
+      <link>https://mapping.share.library.harvard.edu/posts/russian-language/</link>
+      <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/posts/russian-language/</guid>
+      <description>We met undergraduate Paige Lee while working with her general education class about how borders are constructed. In the class, students were asked to complete a project, choosing from a variety of format options, including making a map. The Harvard Map Collection supported students by advising on searching for data, using mapping software, and scoping out project ideas.
+In this interview, we look at Paige’s custom-coded interactive mapping visualization, and learn more about her thought process and workflow.</description>
+    </item>
+    
+    <item>
+      <title>1. Introduction</title>
+      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop/introduction/</link>
+      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop/introduction/</guid>
+      <description>About this workshop This course is for those wishing to develop a strong foundational understanding of how GIS works. After completing this course, you will be well-positioned to begin GIS projects of your own.
+The step-by-step materials here can be followed along asynchronously. The in-person version (register ) covers the same materials, but with live demonstrations and hands-on support from the instructor. We can schedule additional workshop sessions on demand, as well as in-class workshops.</description>
+    </item>
+    
+    <item>
+      <title>2. Tutorial requirements</title>
+      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop/tutorial-requirements/</link>
+      <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop/tutorial-requirements/</guid>
+      <description>In order to follow this workshop, you will need the free, open-source desktop software QGIS. This tutorial will teach you how to download it and use some of its most useful features.
+There are many software options for manipulating, analyzing, and visualizing geospatial data. QGIS is a favorite, as it is free, lightweight, and doesn&amp;rsquo;t require a login or license.
+The concepts from this course are not software-specific, so you will be able to apply them to whichever software you end up using.</description>
+    </item>
+    
+    <item>
+      <title>3. Data overview</title>
+      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop/data-overview/</link>
+      <pubDate>Wed, 04 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop/data-overview/</guid>
+      <description>As an example project, we are going study Poland at the end of WWI. By the end of the course, we will have made maps that help us understand the country&amp;rsquo;s demographic makeup at the time. This is a real mapmaking example we worked on with a history class about the making of borders. 1 At any point, you can skip ahead to the maps and datasets . To download the data, visit this Google Drive .</description>
+    </item>
+    
+    <item>
+      <title>4. Import datasets</title>
+      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop/import-datasets/</link>
+      <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop/import-datasets/</guid>
+      <description>To review the difference between raster and vector data, visit the Introduction .
+Raster data If you haven&amp;rsquo;t already, download and install QGIS .
+Open QGIS.
+Open a New Empty Project.
+In the left-hand Browser menu, find the dropdown titled XYZ tiles. Expand the XYZ tiles dropown and double-click OpenStreetMap to add a basemap to your project. The basemap exists in the background of the project to give us a reference while we are working.</description>
+    </item>
+    
+    <item>
+      <title>5. Visualize statistics</title>
+      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop/visualize-statistics/</link>
+      <pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop/visualize-statistics/</guid>
+      <description>Exploring the Polish cities dataset Now, let&amp;rsquo;s familiarize ourselves with the Polish cities statistical data. Right-click on the poland-stats layer in the Layer Panel and select Open Attribute Table. You should see a table where each row is one of the Polish cities on the map, and each layer is a statistical figure about that city. Take a look and try to make sense of the table. You may have noticed that the field headers are not easy to understand.</description>
+    </item>
+    
+    <item>
+      <title>6. Share results</title>
+      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop/share-results/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop/share-results/</guid>
+      <description>Now we are ready to learn how to style a &amp;ldquo;finished product&amp;rdquo; version of the map. So far, we have been using GIS to overlay different GIS layers and see how they compare with one another. We&amp;rsquo;ve been exploring the data by looking at the attribute table and playing with the map symbols. We&amp;rsquo;ve been trying to understand the data for ourselves. Now, we are going to learn how to prepare an outward-facing map to communicate our findings with others.</description>
+    </item>
+    
+    <item>
+      <title>7. Browse maps and data</title>
+      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop/browse-maps-and-data/</link>
+      <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop/browse-maps-and-data/</guid>
+      <description>Polish cities data: interactive map view Hover over each Polish city to engage with statistics about the city from around the time of WWI. In addition to plebiscite vote results, there is also statistical demographic data from 1911 conveying the percentage of Polish-speaking school children in each city. Polish cities data: table view This is what the Polish cities GIS dataset looks like, displayed in tabular view in the GIS software.</description>
+    </item>
+    
+    <item>
+      <title>Introducing GIS Office Hours</title>
+      <link>https://mapping.share.library.harvard.edu/posts/office-hours/</link>
+      <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/posts/office-hours/</guid>
+      <description>Join us Spring 2023 for weekly GIS office hours. We will meet in the Lamont media lab annex every Tuesday from 10am-12pm.
+What to expect Chat about GIS tools and datasets Meet others using GIS in their work Share projects and get feedback What office hours are not You don’t need to have a specific question! Just an interest. Depending on how many people we have, you may still need to book a personal consultation for more in-depth advice.</description>
+    </item>
+    
+    <item>
+      <title>Fall 2022 Harvard Map Collection</title>
+      <link>https://mapping.share.library.harvard.edu/classes/emr/155/fall-2022/</link>
+      <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/classes/emr/155/fall-2022/</guid>
+      <description>GIS definitions.
+John Snow cholera map, 1854.
+John Snow cholera map, overlaid by a modern-day GIS heatmap layer.
+Map of Boston from 1743 .
+GIS heatmap of density of restaurants in Boston.
+Analyze Boston , Boston&amp;rsquo;s open data portal.
+Vision Zero dataset, open as a table.
+Bike crash data displayed visually as individual points in GIS software.
+OldNYC: Mapping Historic Photographs at the NYPL .
+GIS data layers diagram.</description>
+    </item>
+    
+    <item>
+      <title>Fall 2022 Harvard Map Collection</title>
+      <link>https://mapping.share.library.harvard.edu/classes/english/90dr/fall-2022/</link>
+      <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/classes/english/90dr/fall-2022/</guid>
+      <description>Services Record from Harvard Map Collection card catalog .
+Formats Tutorial for how to use Harvard Libraries digital collections items in Allmaps Working with 19th century map layers of Boston .
+Concepts Ancestral characteristics of Modern Populations dataset.
+Map by Leo Saenger, applied mathematics.
+Landscape The Library of Missing Datasets by Mimi Ọnụọha.
+Global volcanoes dataset in the Harvard Geospatial Library (HGL).</description>
+    </item>
+    
+    <item>
+      <title>Fall 2022 Harvard Map Collection</title>
+      <link>https://mapping.share.library.harvard.edu/classes/english/90ln/fall-2022/</link>
+      <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/classes/english/90ln/fall-2022/</guid>
+      <description>GIS definitions What is GIS used for? John Snow cholera map, 1854.
+John Snow cholera map, overlaid by a modern-day GIS heatmap layer.
+GIS data layers GIS data layers diagram.
+OldNYC: Mapping Historic Photographs at the NYPL .
+Property research with GIS Belle&amp;rsquo;s house in college.
+City of Boston Archives Reading Room.
+19th century insurance atlas, open to a plate of downtown Boston.
+Microfilm reader.
+Milwaukee probate records on mircofilm.</description>
+    </item>
+    
+    <item>
+      <title>Fall 2022 Harvard Map Collection</title>
+      <link>https://mapping.share.library.harvard.edu/classes/general-education/1140/fall-2022/</link>
+      <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/classes/general-education/1140/fall-2022/</guid>
+      <description>GIS definitions.
+John Snow cholera map, 1854.
+John Snow cholera map, overlaid by a modern-day GIS heatmap layer.
+Offical Olympic National Park map.
+Graduated proportional symbol map showing 2020 population by state in the United States.
+Louisiana and Mississippi roadmap from the Harvard Map Collection.
+Louisiana and Mississippi roadmap from the Harvard Map Collection showing the New Orleans area.
+Land cover map of Louisiana from 1909 in the Harvard Map Collection.</description>
+    </item>
+    
+    <item>
+      <title>Fall 2022 Harvard Map Collection</title>
+      <link>https://mapping.share.library.harvard.edu/classes/government/1008/fall-2022/</link>
+      <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/classes/government/1008/fall-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fall 2022 Harvard Map Collection</title>
+      <link>https://mapping.share.library.harvard.edu/classes/hks/dpi-851m/fall-2022/</link>
+      <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/classes/hks/dpi-851m/fall-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fall 2022 Harvard Map Collection</title>
+      <link>https://mapping.share.library.harvard.edu/classes/hunap/naiswg/fall-2022/</link>
+      <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/classes/hunap/naiswg/fall-2022/</guid>
+      <description>Our slides .</description>
+    </item>
+    
+    <item>
+      <title>GIS @ Harvard Libraries</title>
+      <link>https://mapping.share.library.harvard.edu/classes/programs/cga-institute/spring-2023/</link>
+      <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/classes/programs/cga-institute/spring-2023/</guid>
+      <description>Classes GSD: Spatial Analysis Fall 2021 presentation .
+Map created by GSD students Aeshna Prasad, Michael Lidwin, Megan Mcglinchey, and Mehvish Jamal working with the Map Collection.
+Data management OldNYC: Mapping Historic Photographs at the NYPL .
+1880 census from Archive.org .
+ArcGIS Map comparing 1890 atlas to today.
+Global volcanoes dataset in the Harvard Geospatial Library (HGL).
+Research Record from Harvard Map Collection card catalog .
+Services and Resources The Harvard Map Collection maintains a series of tutorials, guides, and updates about mapmaking.</description>
+    </item>
+    
+    <item>
+      <title>Spring 2023 Harvard Map Collection</title>
+      <link>https://mapping.share.library.harvard.edu/classes/anthropology/2030/spring-2023/</link>
+      <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/classes/anthropology/2030/spring-2023/</guid>
+      <description>Collections and support services Historic maps of Havana in the Harvard Map Collection
+Land cover map of Louisiana from 1909 in the Harvard Map Collection.
+The legend of the 1909 land cover map of Louisiana.
+USGS data download tool, showing land cover data from 2016.
+Global volcanoes dataset in the Harvard Geospatial Library (HGL).
+Workshops Mapping Inequality project via the University of Richmond&amp;rsquo;s Digital Scholarship Lab.
+Land-Grab Univerisities interactive digital project.</description>
+    </item>
+    
+    <item>
+      <title>Spring 2023 Harvard Map Collection</title>
+      <link>https://mapping.share.library.harvard.edu/classes/english/195bd/spring-2023/</link>
+      <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/classes/english/195bd/spring-2023/</guid>
+      <description>Trying to understand things encodes them sometimes Descriptive map of London poverty, 1889 in the Harvard Map Collection. Predictive policing hotspot maps. New technologies and ethical grey space Data-Smart City Solutions from Harvard Kennedy Schools&#39; Ash Center. Being up front in your maps/data about your motivations Spaces of Avoidance project by Alie Kilts. Letting people in to allow critique Land-Grab Univerisities interactive digital project. Mapping Inequality project via the University of Richmond&#39;s Digital Scholarship Lab.</description>
+    </item>
+    
+    <item>
+      <title>Spring 2023 Harvard Map Collection</title>
+      <link>https://mapping.share.library.harvard.edu/classes/government/94dn/spring-2023/</link>
+      <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/classes/government/94dn/spring-2023/</guid>
+      <description>Trying to understand things encodes them sometimes Descriptive map of London poverty, 1889 in the Harvard Map Collection. New technologies and ethical grey space Data-Smart City Solutions from Harvard Kennedy Schools&#39; Ash Center. Being up front in your maps/data about your motivations Spaces of Avoidance project by Alie Kilts. Letting people in to allow critique Land-Grab Univerisities interactive digital project. Mapping Inequality project via the University of Richmond&#39;s Digital Scholarship Lab.</description>
+    </item>
+    
+    <item>
+      <title>Spring 2023 Harvard Map Collection</title>
+      <link>https://mapping.share.library.harvard.edu/classes/history/3920/spring-2023/</link>
+      <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/classes/history/3920/spring-2023/</guid>
+      <description>OldNYC: Mapping Historic Photographs at the NYPL. 1880 census from Archive.org .
+ArcGIS Map comparing 1890 atlas to today.
+Belle&amp;rsquo;s house in college.
+City of Boston Archives Reading Room.
+19th century insurance atlas, open to a plate of downtown Boston.
+Analyze Boston , Boston&amp;rsquo;s open data portal.
+Vision Zero dataset, open as a table.
+Bike crash data displayed visually as individual points in GIS software.
+Introduction to GIS workshop in the library calendar.</description>
+    </item>
+    
+    <item>
+      <title>Spring 2023 Harvard Map Collection</title>
+      <link>https://mapping.share.library.harvard.edu/classes/hks/dpi-852m/spring-2023/</link>
+      <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/classes/hks/dpi-852m/spring-2023/</guid>
+      <description>Collections and support services Historic maps of Havana in the Harvard Map Collection
+Global volcanoes dataset in the Harvard Geospatial Library (HGL).
+Workshops Mapping Inequality project via the University of Richmond&amp;rsquo;s Digital Scholarship Lab.
+Land-Grab Univerisities interactive digital project.
+Spring 2023 workshop offerings. Registration via the Harvard Library Events calendar .
+Office hours Map created by Luisa Shido.
+Tutorials and project examples Tutorials and blog .
+maps@harvard.edu https://library.harvard.edu/libraries/harvard-map-collection </description>
+    </item>
+    
+    <item>
+      <title>A GIS database and webmap of historic Black life on Boston&#39;s Beacon Hill</title>
+      <link>https://mapping.share.library.harvard.edu/projects/mapping-black-boston/</link>
+      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/projects/mapping-black-boston/</guid>
+      <description>This is a prototype for Mapping Black Boston, a research project by David Weimer. Dave, our former Map Librarian, is now Curator of Maps and Director of the Center for the History of Cartography at the Newberry Library. For information on the project, or to collaborate, you can get in touch with Dave .
+Check out the interactive Mapping Black Boston prototype .
+To access the underlying project data, visit the project Github .</description>
+    </item>
+    
+    <item>
+      <title>In-person materials</title>
+      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop/in-person/</link>
+      <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop/in-person/</guid>
+      <description>https://bit.ly/3YeQ2MZ
+Slides Data Raster data service https://allmaps.xyz/maps/8d5cc5d1fec615d6/{z}/{x}/{y}.png
+Vector data download Google drive link Hex codes #e0f3db
+Follow-along workshop steps Tutorial version Survey Post-workshop survey </description>
+    </item>
+    
+    <item>
+      <title>Learning GIS while working in the map archives</title>
+      <link>https://mapping.share.library.harvard.edu/posts/mapping-cultural-difference/</link>
+      <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/posts/mapping-cultural-difference/</guid>
+      <description>This project was made possible through a May Crane fellowship .
+Mapping Cultural Difference The goal of this webpage is to allow others to follow the progress of this mapping project and understand the immediate and long-term goals and uses of the mapping project.
+About this mapping project At its inception, this project&amp;rsquo;s main goal is to demonstrate cultural distance and difference as they pertain to staged representations of Latinx (or Latine) Americans living in the United States.</description>
+    </item>
+    
+    <item>
+      <title>Spring 2023 Harvard Map Collection</title>
+      <link>https://mapping.share.library.harvard.edu/classes/history/97p/spring-2023/</link>
+      <pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/classes/history/97p/spring-2023/</guid>
+      <description>Analyze Boston , Boston&amp;rsquo;s open data portal.
+Vision Zero dataset, open as a table.
+Bike crash data displayed visually as individual points in GIS software.
+OldNYC: Mapping Historic Photographs at the NYPL. Belle&amp;rsquo;s house in college.
+City of Boston Archives Reading Room.
+19th century insurance atlas, open to a plate of downtown Boston.
+GIS heatmap of density of restaurants in Boston.
+Mapping Inequality project via the University of Richmond&#39;s Digital Scholarship Lab.</description>
+    </item>
+    
+    <item>
+      <title>Spring 2023 Harvard Map Collection</title>
+      <link>https://mapping.share.library.harvard.edu/classes/womgen/1274/spring-2023/</link>
+      <pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/classes/womgen/1274/spring-2023/</guid>
+      <description>
+Analyze Boston , Boston&amp;rsquo;s open data portal.
+Vision Zero dataset, open as a table.
+Bike crash data displayed visually as individual points in GIS software.
+GIS heatmap of density of restaurants in Boston.
+Mapping Inequality project via the University of Richmond&#39;s Digital Scholarship Lab. Mapping project by student Luisa Shido, created in QGIS. Next Steps Email maps@harvard.edu Workshop signups on the library calendar GIS Office hours Tuesdays, 10-noon </description>
+    </item>
+    
+    <item>
+      <title>Faculty designing GIS projects around map archives</title>
+      <link>https://mapping.share.library.harvard.edu/posts/voulgaris/</link>
+      <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/posts/voulgaris/</guid>
+      <description>Earlier this Fall, we visited with Carole Voulgaris&amp;rsquo;s Spatial Analysis class from the Graduate School of Design.
+Example georeferencing assignment submitted by GSD student Ellie Shield.
+The assignments in Spatial Analysis are tailored to introduce fundamental geospatial competencies, as well as center group collaboration, creativity, and iterative design.
+THE VISIT In early September 2021, The Harvard Map Collection facilitated a class visit with Spatial Analysis, where we discussed shifts in cartographic theory, introduced the map collection, and foreshadowed the concept of georeferencing .</description>
+    </item>
+    
+    <item>
+      <title>GIS storytelling tips from a professional graphics journalist</title>
+      <link>https://mapping.share.library.harvard.edu/posts/graphics/</link>
+      <pubDate>Mon, 16 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/posts/graphics/</guid>
+      <description>Skills to create beautiful and engaging maps can be strengthened in a semester, says Bloomberg graphics journalist.
+The type of narrative, map-based digital projects we see in the news, like the recent CityLab project documenting racist urban infrastructure in St. Paul, Minnesota require many research and technical skills to pull off.
+The Harvard Map Collection asked Bloomberg graphics journalist, Rachael Dottle about her methodology in scoping, researching, and creating maps for this story.</description>
+    </item>
+    
+    <item>
+      <title>Connect</title>
+      <link>https://mapping.share.library.harvard.edu/connect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/connect/</guid>
+      <description>About This site is an effort of the Harvard Map Collection to make our GIS teaching and research materials more discoverable.
+Already using GIS @ Harvard? Want to start?
+How to connect Email us at maps@harvard.edu .</description>
+    </item>
+    
+  </channel>
+</rss>

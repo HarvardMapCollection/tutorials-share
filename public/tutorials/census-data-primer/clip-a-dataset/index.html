@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><title>
+    
+    Clip a Dataset in QGIS | 
+    
+    GIS, maps &#43; data @ Harvard Library
+</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="https://mapping.share.library.harvard.edu/tutorials/census-data-primer/clip-a-dataset/" />
+<link rel="icon" type="image/png" href="https://mapping.share.library.harvard.edu/image/favicon.ico">
+
+
+<meta name="description" content="
+    Clipping is a way of cropping GIS data to a certain extent.
+1
+Why do we clip? Large datasets can be unwieldy and difficult to work with. You can create more effective visualizations if your data is focused. Tutorial data In this tutorial you will clip a shapefile of all census tracts in the United States to create a new shapefile of only census tracts in Cambridge, Massachusetts. For those who are following the census data tutorial series , we will be using the United States Census Tracts file we just created.
+    "
+/>
+<meta property="og:description" content="
+    Clipping is a way of cropping GIS data to a certain extent.
+1
+Why do we clip? Large datasets can be unwieldy and difficult to work with. You can create more effective visualizations if your data is focused. Tutorial data In this tutorial you will clip a shapefile of all census tracts in the United States to create a new shapefile of only census tracts in Cambridge, Massachusetts. For those who are following the census data tutorial series , we will be using the United States Census Tracts file we just created.
+    " 
+/>
+
+
+<meta property="og:image" content="https://mapping.share.library.harvard.edu/tutorials/census-data-primer/clip-a-dataset/a-gradient13.png" />
+
+
+
+
+
+
+<meta property="og:title" content="Clip a dataset in QGIS" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mapping.share.library.harvard.edu/tutorials/census-data-primer/clip-a-dataset/" /><meta property="article:section" content="tutorials" />
+<meta property="article:published_time" content="2023-01-16T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-01-16T00:00:00+00:00" />
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Clip a dataset in QGIS"/>
+<meta name="twitter:description" content="Clipping is a way of cropping GIS data to a certain extent.
+1
+Why do we clip? Large datasets can be unwieldy and difficult to work with. You can create more effective visualizations if your data is focused. Tutorial data In this tutorial you will clip a shapefile of all census tracts in the United States to create a new shapefile of only census tracts in Cambridge, Massachusetts. For those who are following the census data tutorial series , we will be using the United States Census Tracts file we just created."/>
+
+<meta itemprop="name" content="Clip a dataset in QGIS">
+<meta itemprop="description" content="Clipping is a way of cropping GIS data to a certain extent.
+1
+Why do we clip? Large datasets can be unwieldy and difficult to work with. You can create more effective visualizations if your data is focused. Tutorial data In this tutorial you will clip a shapefile of all census tracts in the United States to create a new shapefile of only census tracts in Cambridge, Massachusetts. For those who are following the census data tutorial series , we will be using the United States Census Tracts file we just created."><meta itemprop="datePublished" content="2023-01-16T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-01-16T00:00:00+00:00" />
+<meta itemprop="wordCount" content="1221">
+<meta itemprop="keywords" content="census,qgis,tutorials," />
+
+
+
+
+<link rel="stylesheet" href="/main.min.css">
+<link rel="stylesheet" href="https://use.typekit.net/yiq3yrx.css">
+<link rel="stylesheet" href="/typekit/stylesheet.css">
+
+
+
+
+
+<script src="/bundle.js"></script>
+
+
+
+
+
+
+
+<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XCNRPXZNVM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XCNRPXZNVM');
+</script>
+
+
+
+<link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
+  <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-55D9M4Z');</script>
+
+
+
+
+
+</head>
+
+<body><header id="header">
+  <div class="top-bar">
+    <div class="container-md">
+
+      <div class="row align-items-center">
+
+        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
+          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <i class="fas fa-bars"></i> Menu
+          </button>
+        </div>
+
+        <div class="col-12 col-sm-12">
+          <h2 class="title"><a href="/">GIS, maps &#43; data @ Harvard Library</a></h2>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-md">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+
+
+
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/">
+              Home
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Tutorials
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/tags/arcgis/">ArcGIS</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tutorials/census-data-primer/">Census</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/georeferencing/">Georeferencing</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/openstreetmap/">OpenStreetMap (OSM)</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/qgis/">QGIS</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Resources
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/resources/workshops">Workshops</a>
+              
+              
+              
+                <a class="dropdown-item" href="/resources/researchers-handbook">Data management</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/tags/news">
+              Blog
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/projects/">
+              Projects
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/connect/">
+              Connect
+            </a>
+          </li>
+          
+          
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="blog-content">
+    <div class="container-md">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 px-lg-4">
+                <h1 class="title">Clip a Dataset in QGIS</h1>
+                <p>Clipping is a way of cropping GIS data to a certain extent.</p>
+<p><img src="media/1.png" alt="Image of input, clip, and output data, illustrating a clip"><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<h2 id="why-do-we-clip">Why do we clip?</h2>
+<ul>
+<li>Large datasets can be unwieldy and difficult to work with.</li>
+<li>You can create more effective visualizations if your data is focused.</li>
+</ul>
+<h2 id="tutorial-data">Tutorial data</h2>
+<p>In this tutorial you will clip a shapefile of all census tracts in the United States to create a new shapefile of <em>only</em> census tracts in Cambridge, Massachusetts. For those who are following the census data <a href="/tutorials/census-data-primer/">tutorial series</a>
+, we will be using the United States Census Tracts file we just created. For those not using the tutorial, you should <a href="https://geodata.socialexplorer.com/collection/90937129-3414-434e-a880-e358308654b4" target="_blank">download the U.S. Census Tracts file</a>
+.</p>
+<p>Because we are clipping census tracts data to the extent of Cambridge, Massachusetts, you will also need to download a <a href="https://downgit.github.io/#/home?url=https://github.com/HarvardMapCollection/tutorials/blob/main/sample-data/cambridge.geojson" target="_blank">boundary file for the City of Cambridge, MA.</a>
+.</p>
+<h2 id="clip-by-attribute">Clip by attribute</h2>
+<p>Before we clip by geography, let&rsquo;s first isolate only census tracts in the state of Massachsuetts. This will make our data much easier to work with, and will make the clipping processes run faster.</p>
+<h3 id="open-the-files">Open the files</h3>
+<ol>
+<li>
+<p>Open <a href="https://harvardmapcollection.github.io/tutorials/qgis/download/" target="_blank">QGIS</a>
+.</p>
+</li>
+<li>
+<p>Add the census tracts file titled <code>TRACT_2019_US_SL140_Coast_Clipped.shp</code> to QGIS.</p>
+</li>
+</ol>
+<details>
+  <summary>How to add vector files to QGIS</summary>
+  <br>
+  <p>A predominant spatial data format is the <strong>shapefile</strong>. This is a format created for storing vector data.</p>
+  <p>Vector data consists of:
+  <ul>
+    <li>points (e.g. landmarks)</li>
+    <li>lines (e.g. roads, rivers)</li>
+    <li>polygons (e.g. towns, bodies of water)</li>
+  </ul>
+  </p>
+<img src="media/open-vector1.jpeg" alt="Image showing an example of points, lines and polygons">
+<p>Since the advent of geospatial technology, <strong>shapefiles</strong> have been the most common format for storing vector information. Today, other file formats exist for storing vector information, such as the <strong>geopackage (.gpkg)</strong>, or <strong>geoJSON (.geoJSON)</strong>, but shapefiles are still widely used, and many of the datasets you will encounter will come in this format.</p>
+<h2>Adding vector data to QGIS</h2>
+<ol>
+    <li>Open QGIS. </li>
+        <li>In QGIS, open a `New empty project`.</li>
+    <li>From your computer file directory,  drag the vector data file (shapefile, geojson, geopackage) into the map browser. If your data is in shapefile format, drag the file that ends in the `.shp` extension. You can click through any warning messages about the data projection at this point.</li>
+</ol>
+<img src="media/open-vector1.gif" alt="Screen recording of dragging the file into the QGIS program">
+<h2>Menu add</h2>
+<p>If the quick add approach is not cooperating, you can add data through the menu add.
+</p>
+<ol>
+<li>In the menu, select `Layer → Add Layer → Add Vector Layer`.</li>
+<li>Under `Source → Vector Dataset(s)` click the browse ellipses.</li>
+<li>Navigate to the file you want to add. If it is a shapefile, select the file with the `.shp` extension.</li>
+<li>Select `Open`.</li>
+<li>Select `Close`.</li>
+</ol>
+</details>
+<br>
+<h3 id="filter-by-attribute">Filter by attribute</h3>
+<ol>
+<li>Open the dataset&rsquo;s attribute table by right-clicking the tracts layer in the layer list, and selecting <code>Open Attribute Table</code>.</li>
+</ol>
+<blockquote>
+<p>Filter the table to only show records that have a <a href="https://www.nrcs.usda.gov/wps/portal/nrcs/detail/?cid=nrcs143_013696" target="_blank">state FIPS code</a>
+ of 25, the Massachusetts state FIPS code.</p>
+</blockquote>
+<ol start="2">
+<li>
+<p>In the bottom-right hand corner click <code>Show All Features</code>.</p>
+</li>
+<li>
+<p>Select <code>Field Filter → STATEFP</code>.</p>
+</li>
+<li>
+<p>In the search box to the right of <code>STATEFP</code> type in <code>25</code>.</p>
+</li>
+<li>
+<p>Press the <code>enter key</code>. It will take a long time to return results because there are so many records to search through.</p>
+</li>
+<li>
+<p>Highlight all of the records in the table by clicking to the left of a row to highlight it, then holding the shift key, and selecting the rest.</p>
+</li>
+</ol>
+<blockquote>
+<p>Any feature you have selected will appear yellow on the map to indicate it is highlighted. All of Massachusetts should be highlighted.
+<img src="media/1.gif" alt="Select all function in QGIS attribute table"></p>
+</blockquote>
+<ol start="7">
+<li>
+<p>To save just the Massachusetts tracts as a new file, right click on the tracts layer in the layer list and select <code>Export → Save Selected Features As</code>.</p>
+</li>
+<li>
+<p>You can accept all defaults, but you need to save the dataset somewhere you will remember by clicking the ellipses (…) button next to file name and naming the file. After you enter a file name, your path should look something like this &hellip;Downloads/ma-tracts-2019.geojson.</p>
+</li>
+</ol>
+<blockquote>
+<p>QGIS may default to other vector file formats, such as geopackage (.gpkg) or shapefile (.shp). Any of these formats will work for storing vector data.</p>
+</blockquote>
+<ol start="9">
+<li>
+<p>Select <code>OK</code>.</p>
+</li>
+<li>
+<p>Your new dataset will be automatically added to the map. You can free up space by removing the original nation-wide tracts dataset. Do this by right-clicking the U.S. Tracts layer and selecting <code>Remove layer</code>.</p>
+</li>
+</ol>
+<h2 id="clip-by-geography">Clip by geography</h2>
+<ol>
+<li>Set up your QGIS project so that the layer list contains:</li>
+</ol>
+<ul>
+<li>Census tracts in the state of Massachusetts. This is the file we just made above. You can also <a href="https://downgit.github.io/#/home?url=https://github.com/HarvardMapCollection/tutorials/blob/main/sample-data/ma-tracts-2019.geojson" target="_blank">download it here</a>
+.</li>
+<li>The boundary of the municipality of Cambridge. We haven&rsquo;t done anything with this data yet, and if you haven&rsquo;t yet downloaded it, you can <a href="https://downgit.github.io/#/home?url=https://github.com/HarvardMapCollection/tutorials/blob/main/sample-data/cambridge.geojson" target="_blank">do so here</a>
+.</li>
+</ul>
+<ol start="2">
+<li>
+<p>Check to make sure your project looks something like this:
+<img src="media/3.png" alt="QGIS document showing map of census tracts. On top of the census tracts is a polygon for the boundary of Cambridge, MA. These are the only two layers in the layer list."></p>
+</li>
+<li>
+<p>Add an opacity slider to the Cambridge boundary layer by following the steps in <a href="https://harvardmapcollection.github.io/tutorials/qgis/adjust-opacity/" target="_blank">this tutorial</a>
+. Use this to &ldquo;peer under&rdquo; the Cambridge boundary data and inspect the tracts we will be isolating via the geographic clip.</p>
+</li>
+<li>
+<p>In the main QGIS menu (banner across the top of the computer screen), select <code>Vector → Geoprocessing Tools → Clip</code>.</p>
+</li>
+<li>
+<p>Input layer is MA tracts. Overlay layer is Cambridge.</p>
+</li>
+</ol>
+<blockquote>
+<ul>
+<li><strong>Input:</strong> Data you want to clip</li>
+<li><strong>Output:</strong> Clipping boundary (new extent you want to clip <em>by</em>)</li>
+</ul>
+</blockquote>
+<ol start="6">
+<li>Under <code>Clipped</code> select the ellipse three dots icon, pick <code>Save to file</code>, and save the new clipped layer somewhere you will remember. You can title the file <code>Cambridge-tracts</code>, and save it as either a <code>shapefile</code> or <code>geoJSON</code>.</li>
+</ol>
+<blockquote>
+<p><strong>Tip:</strong> We prefer <a href="https://geojson.org/" target="_blank">GeoJSON</a>
+ because it is an open standard, and is only one file instead of six.</p>
+</blockquote>
+<ol start="7">
+<li>
+<p>Select <code>Save</code>.</p>
+</li>
+<li>
+<p>Select <code>Run</code>.</p>
+</li>
+<li>
+<p>The new dataset is automatically added to the map. You can toggle off the original two layers in the layer list to make sure your new dataset looks correct.
+<img src="media/4.png" alt="Screenshot of new, clipped layer in QGIS only showing census tracts in Cambridge"></p>
+</li>
+</ol>
+<div class="alert-warning">
+  <strong>Tip: </strong>Any geoprocessing functions can fail if data layers are set in different coordinate reference systems. If you suspect this might be a problem, you can follow the steps in <a href="https://harvardmapcollection.github.io/tutorials/qgis/change-crs/">this tutorial</a>.
+</div>
+<h2 id="troubleshooting-clipping">Troubleshooting clipping</h2>
+<p>Clipping by geography is the most straightforward way to clip one dataset to a specific extent. This method, however, can be a bit crude sometimes, and you may need to take other approaches for a more refined result.</p>
+<p>In this example we will explain why a simple clip may fall short for your purposes.</p>
+<p><img src="media/ts-clip1.png" alt="Screenshot of building data intersecting with city boundary"></p>
+<p>The image above pictures two datasets: (1) buildings and (2) the border or outline of the city of Cambridge.</p>
+<p><img src="media/ts-clip2.png" alt="Screenshot of buildings getting cut off halfway with a simple clip"></p>
+<p>When we run a simple clipping function, that process crudely crops one dataset by the other. Here we can see how there are some buildings which straddle the border of Cambridge and the next town over, Somerville. The features for those buildings are being cut off halfway. Sometimes a simple clip will work, but sometimes you may need to use other, more nuanced toolbox functions.</p>
+<p><img src="media/ts-clip3.png" alt="Screenshot of extract by location, which preserves the full version"></p>
+<p>Here, we have used the toolbox function <code>Extract by location</code>. This function lets you specify <em>how</em> you want the data to be clipped. For instance, you can choose to extract all building features that fall <em>within</em> the boundary of Cambridge, as is pictured in the image above.</p>
+<p><img src="media/ts-clip4.png" alt="Screenshot of extraction options"></p>
+<p>The image above pictures the extraction options. For instance, you can extract all data that falls within, intersects, contains, or overlaps the other dataset.</p>
+<h3 id="extract-by-location">Extract by location</h3>
+<p>To use the <strong>extract by location</strong> tool, navigate to <code>Processing → Toolbox → Vector Selection →  Extract by Location</code>.</p>
+<p>Under <code>Extract features from</code> select the dataset you want to clip.</p>
+<p>Under <code>By comparing features from</code> select the dataset you want to clip <em>by</em> (the desired extent).</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://desktop.arcgis.com/en/arcmap/10.3/tools/coverage-toolbox/clip.htm" target="_blank">ESRI documentation on clipping</a>
+.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+
+</body>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-55D9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+</html>

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><title>
+    
+    Approaching Language Data Mapping With GIS and D3.js | 
+    
+    GIS, maps &#43; data @ Harvard Library
+</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="https://mapping.share.library.harvard.edu/posts/russian-language/" />
+<link rel="icon" type="image/png" href="https://mapping.share.library.harvard.edu/image/favicon.ico">
+
+
+<meta name="description" content="
+    Project demo of an interactive map made with D3.js data visualization library and GIS tools, supported by the Harvard Map Collection.
+    "
+/>
+<meta property="og:description" content="
+    Project demo of an interactive map made with D3.js data visualization library and GIS tools, supported by the Harvard Map Collection.
+    " 
+/>
+
+
+<meta property="og:image" content="https://mapping.share.library.harvard.edu/posts/russian-language/a-gradient12.png" />
+
+
+
+
+
+
+<meta property="og:title" content="Approaching language data mapping with GIS and D3.js" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mapping.share.library.harvard.edu/posts/russian-language/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-01-13T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-01-13T00:00:00+00:00" />
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Approaching language data mapping with GIS and D3.js"/>
+<meta name="twitter:description" content="Project demo of an interactive map made with D3.js data visualization library and GIS tools, supported by the Harvard Map Collection."/>
+
+<meta itemprop="name" content="Approaching language data mapping with GIS and D3.js">
+<meta itemprop="description" content="Project demo of an interactive map made with D3.js data visualization library and GIS tools, supported by the Harvard Map Collection."><meta itemprop="datePublished" content="2023-01-13T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-01-13T00:00:00+00:00" />
+<meta itemprop="wordCount" content="1034">
+<meta itemprop="keywords" content="news," />
+
+
+
+
+<link rel="stylesheet" href="/main.min.css">
+<link rel="stylesheet" href="https://use.typekit.net/yiq3yrx.css">
+<link rel="stylesheet" href="/typekit/stylesheet.css">
+
+
+
+
+
+<script src="/bundle.js"></script>
+
+
+
+
+
+
+
+<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XCNRPXZNVM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XCNRPXZNVM');
+</script>
+
+
+
+<link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
+  <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-55D9M4Z');</script>
+
+
+
+
+
+</head>
+
+<body><header id="header">
+  <div class="top-bar">
+    <div class="container-md">
+
+      <div class="row align-items-center">
+
+        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
+          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <i class="fas fa-bars"></i> Menu
+          </button>
+        </div>
+
+        <div class="col-12 col-sm-12">
+          <h2 class="title"><a href="/">GIS, maps &#43; data @ Harvard Library</a></h2>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-md">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+
+
+
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/">
+              Home
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Tutorials
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/tags/arcgis/">ArcGIS</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tutorials/census-data-primer/">Census</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/georeferencing/">Georeferencing</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/openstreetmap/">OpenStreetMap (OSM)</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/qgis/">QGIS</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Resources
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/resources/workshops">Workshops</a>
+              
+              
+              
+                <a class="dropdown-item" href="/resources/researchers-handbook">Data management</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/tags/news">
+              Blog
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/projects/">
+              Projects
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/connect/">
+              Connect
+            </a>
+          </li>
+          
+          
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="blog-content">
+    <div class="container-md">
+        <div class="row">
+            
+            <div class="col-lg-2 d-none d-xl-block">
+                <div class="ad-left-offset"></div>
+                
+            </div>
+
+            <div class="col-md-12 col-lg-8 px-lg-4">
+                
+
+                <h1 class="title">Approaching language data mapping with GIS and D3.js</h1>
+
+                <div class="container-fluid px-0 mb-4">
+                    <div class="row align-items-end">
+                        <div class="col-md-8 date-time">
+                            
+                                Belle Lipton
+                                &centerdot;
+                            
+                                Paige Lee
+                                &centerdot;
+                            
+                            <span class="date">
+    Jan 13, 2023
+</span>
+                            &centerdot;
+                            <span class="time-to-read">
+    6 mins read</span>
+                        </div>
+
+                        <div class="col-md-4 tags ">
+                            
+                            <a href="/tags/news"><span
+                                    class="tag bg-dark">news</span></a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <p>We met undergraduate Paige Lee while working with her general education class about how borders are constructed. In the class, students were asked to complete a project, choosing from a variety of format options, including making a map. The Harvard Map Collection supported students by advising on searching for data, using mapping software, and scoping out project ideas.</p>
+<p>In this interview, we look at Paige’s custom-coded interactive mapping visualization, and learn more about her thought process and workflow.</p>
+<h2 id="the-project">The project</h2>
+<iframe width="100%" height="700" src="https://eelegiap.github.io/russophonemap/index.html" title="Paige's project" ></iframe>
+<figcaption class="append">Paige's project. Hover for interactivity.</figcaption>
+<h2 id="the-interview">The interview</h2>
+<p><span style="font-family:lorabold;color:#5f0217;">BELLE LIPTON:</span> Paige, could you tell us a little bit about why the topic of Russian language in post-Soviet countries was interesting to you?</p>
+<p><span style="font-family:lorabold;color:#5f0217;">PAIGE LEE:</span>  Hey Belle! I wanted to learn more about the geographic distribution of Russian speakers because of my thesis work which involves contemporary Russian poetry and the war in Ukraine. Language is so important to understanding the cultural dynamics around the war, especially since Vladimir Putin uses Russian language speakers in Eastern Ukraine as one of his justifications for invading Ukraine. It’s my guess that this map will look quite different in a generation, since more and more Ukrainians are beginning to adopt Ukrainian as their primary language at home and work instead of Russian, very understandably considering the circumstances. My map project includes more than just Ukraine because I wanted to see how this dynamic might have similarities in other regions in the post-Soviet sphere. For example, my friend from Georgia recently told me about how he isn’t teaching Russian to his young children even though it’s a common second language, since he doesn’t want them to be susceptible to Russian-language propaganda. It made me wonder — we really should be paying more attention to where and how the Russian language is used! This project shows the “where” of it.</p>
+<p><span style="font-family:lorabold;color:#5f0217;">BELLE:</span>  What were the factors influencing why you chose to make a map, rather than some of the other options, such as a podcast, or essay?</p>
+<p><span style="font-family:lorabold;color:#5f0217;">PAIGE:</span>  I’m doing a joint concentration between Computer Science and Slavic Languages and Literatures, and I love data visualization! I wanted to challenge myself to try a new way (for me) of visually representing data. When you’re trying to communicate a geographic distribution of data over so many small regions, a map is the best tool since the spatial relations between the data points really shine. I’ve also never had the opportunity to make a map as a final project. Typically, classes ask for essays or presentations, but the opportunity to make a map seemed like the option with the most creative potential since there are so many design choices that go into making a map. That being said, I love podcasts and would love to make one in the future.</p>
+<p><span style="font-family:lorabold;color:#5f0217;">BELLE:</span>  One of the reasons your project stood out to me was that it is custom-created, meaning you coded the website yourself, rather than use some of the online templates that exist. Why did you choose this?</p>
+<p><span style="font-family:lorabold;color:#5f0217;">PAIGE:</span>  Custom map-making definitely has its pros and cons. On one hand, the map templates built into systems such as ArcGIS are carefully designed by people who are knowledgeable about cartography and visualization standards, but on the other hand, map templates limit your creative potential to a pre-existing set of options. I have made other custom (non-map) visualizations in the past for projects which I had no chance of finding a template for, like <a href="https://visualizingrussian.fas.harvard.edu/word-formation" target="_blank">this visualization</a>
+ of the frequency of Russian words based on word type and word root. Engaging with visualization design from the ground-up has been a great way for me to think through what makes a visualization work, and why.</p>
+<p><span style="font-family:lorabold;color:#5f0217;">BELLE:</span>  Could you walk us through your workflow? How did you manage the data, and what software did you use for each step?</p>
+<p><span style="font-family:lorabold;color:#5f0217;">PAIGE:</span>  Sure, so after thinking of the initial idea, I met with you at the Map Collection to start looking for data sources. It turned out that there wasn’t a central source to find information about the geography of native languages on the scale I was looking for, so we had to search for data on a country-by-country basis. Scouring the citation pages of Wikipedia articles on “Russian language in ‘X’ country” was where I found the sources of most of the data, which was stored in spreadsheets and PDFs of national census data. This opened my eyes to the fact that this kind of map didn’t exist yet since the dataset wasn’t readily available. I compiled the census data into an Excel spreadsheet which I merged in QGIS with the Admin 0 and Admin 1 spatial data which I downloaded from <a href="https://www.naturalearthdata.com/" target="_blank">naturalearthdata.com</a>
+. Afterwards, I exported the merged data from QGIS to geojson files which were compatible with D3.js, my favorite visualization library for JavaScript. I set up a basic webpage using HTML, CSS, JavaScript, and D3.js for the final product. The webpage gave me the freedom to add custom labels, custom zooming capabilities, and the freedom to design the map in the context of the webpage!</p>
+<p><span style="font-family:lorabold;color:#5f0217;">BELLE:</span>  Is there anything you wish you had known beforehand? Any words to the wise for others hoping to undertake a similar project, either topic-wise, or related to the software you chose?</p>
+<p><span style="font-family:lorabold;color:#5f0217;">PAIGE:</span>  I would say, don’t be afraid of going outside of your comfort zone or doing something no one else has done before! Something I wish I had known beforehand was that this kind of dataset didn’t really exist already on the internet. Nonetheless, it was a rewarding experience to compile a new dataset from primary sources, some of them written only in Russian, which I am learning as a second language. A tip: some of the old census data was only accessible through Wayback Machine links I found in Wikipedia citation sections. And definitely talk to the Map Collection librarians, since they can share access to amazing geospatial datasets with you. Although they couldn’t find my exact data, they were very helpful for walking me through the steps of making this kind of map, and were unphased by my lack of cartographic experience. I would love to do something like that again and incorporate more maps into my visualization repertoire.</p>
+
+
+
+                
+                <br>
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    (function () {
+        
+        
+        if (window.location.hostname == "localhost")
+            return;
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = '';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>
+
+            <div class="col-lg-2 d-none d-xl-block">
+                <div class="ad-right-offset"></div>
+                
+            </div>
+        </div>
+    </div>
+</main>
+
+
+</body>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-55D9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+</html>

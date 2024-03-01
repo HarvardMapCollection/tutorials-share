@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><title>
+    
+    Uploading Georeferenced Maps to ArcGIS Online | 
+    
+    GIS, maps &#43; data @ Harvard Library
+</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="https://mapping.share.library.harvard.edu/tutorials/arcgis-online/arcgis-imagery/" />
+<link rel="icon" type="image/png" href="https://mapping.share.library.harvard.edu/image/favicon.ico">
+
+
+<meta name="description" content="
+    Learn how to use maps and GIS layers from the Harvard Map Collection in your StoryMaps or ArcGIS Experience Builder project.
+    "
+/>
+<meta property="og:description" content="
+    Learn how to use maps and GIS layers from the Harvard Map Collection in your StoryMaps or ArcGIS Experience Builder project.
+    " 
+/>
+
+
+<meta property="og:image" content="https://mapping.share.library.harvard.edu/tutorials/arcgis-online/arcgis-imagery/spyglass-arcgis.gif" />
+
+
+
+
+
+
+<meta property="og:title" content="Uploading georeferenced maps to ArcGIS Online" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mapping.share.library.harvard.edu/tutorials/arcgis-online/arcgis-imagery/" /><meta property="article:section" content="tutorials" />
+<meta property="article:published_time" content="2023-01-20T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-01-20T00:00:00+00:00" />
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Uploading georeferenced maps to ArcGIS Online"/>
+<meta name="twitter:description" content="Learn how to use maps and GIS layers from the Harvard Map Collection in your StoryMaps or ArcGIS Experience Builder project."/>
+
+<meta itemprop="name" content="Uploading georeferenced maps to ArcGIS Online">
+<meta itemprop="description" content="Learn how to use maps and GIS layers from the Harvard Map Collection in your StoryMaps or ArcGIS Experience Builder project."><meta itemprop="datePublished" content="2023-01-20T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-01-20T00:00:00+00:00" />
+<meta itemprop="wordCount" content="917">
+<meta itemprop="keywords" content="tutorials,ArcGIS,Georeferencing," />
+
+
+
+
+<link rel="stylesheet" href="/main.min.css">
+<link rel="stylesheet" href="https://use.typekit.net/yiq3yrx.css">
+<link rel="stylesheet" href="/typekit/stylesheet.css">
+
+
+
+
+
+<script src="/bundle.js"></script>
+
+
+
+
+
+
+
+<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XCNRPXZNVM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XCNRPXZNVM');
+</script>
+
+
+
+<link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
+  <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-55D9M4Z');</script>
+
+
+
+
+
+</head>
+
+<body><header id="header">
+  <div class="top-bar">
+    <div class="container-md">
+
+      <div class="row align-items-center">
+
+        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
+          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <i class="fas fa-bars"></i> Menu
+          </button>
+        </div>
+
+        <div class="col-12 col-sm-12">
+          <h2 class="title"><a href="/">GIS, maps &#43; data @ Harvard Library</a></h2>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-md">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+
+
+
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/">
+              Home
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Tutorials
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/tags/arcgis/">ArcGIS</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tutorials/census-data-primer/">Census</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/georeferencing/">Georeferencing</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/openstreetmap/">OpenStreetMap (OSM)</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/qgis/">QGIS</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Resources
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/resources/workshops">Workshops</a>
+              
+              
+              
+                <a class="dropdown-item" href="/resources/researchers-handbook">Data management</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/tags/news">
+              Blog
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/projects/">
+              Projects
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/connect/">
+              Connect
+            </a>
+          </li>
+          
+          
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="blog-content">
+    <div class="container-md">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 px-lg-4">
+                <h1 class="title">Uploading Georeferenced Maps to ArcGIS Online</h1>
+                <p>Do you want to be able to use a historic map for comparison in one of your ArcGIS Online projects, such as <a href="https://storymaps.arcgis.com/" target="_blank">StoryMaps</a>
+ or ArcGIS <a href="https://experience.arcgis.com/" target="_blank">Experience Builder</a>
+?</p>
+<p><img src="media/spyglass-arcgis.gif" alt="Screen recording of an old map compared to it&amp;rsquo;s modern geography."></p>
+<figcaption class="append">Georeferenced map from 1880 compared to a modern map in ArcGIS Online.</figcaption>
+<p>There are a number of pathways or workflows for accomplishing this. Which one you pick will depend on a. the format your map data is in and b. the software environment you prefer to work in.</p>
+<h2 id="options">Options</h2>
+<h3 id="option-1-use-a-map-hosted-as-a-web-link">Option 1: Use a map hosted as a web link</h3>
+<p>There are many data sources which offer maps available as <code>hosted web services</code>. For example, if you visit a georeferenced map in the University of Texas at Austin&rsquo;s <a href="https://geodata.lib.utexas.edu/catalog/utaustin_121147" target="_blank">data portal</a>
+, and select <code>web services</code>, a pop-up window with links will appear. If you copy these links to your clipboard, you can paste them into your ArcGIS Online web application, including StoryMaps or Experience Builder. To do this, see the ArcGIS Online documentation to <a href="https://doc.arcgis.com/en/arcgis-online/create-maps/add-layers-from-url.htm" target="_blank">Add a Tile Layer</a>
+.</p>
+<p><img src="media/web-services.png" alt="Sceenshot of web services popup on U of Texas geoportal"></p>
+<figcaption class="append">University of Texas at Austin's<a href="(https://geodata.lib.utexas.edu/catalog/utaustin_121147"> data portal</a> with maps hosted as web services.</figcaption>
+<p>Unfortunately, while the <a href="https://hgl.harvard.edu/?_gl=1*1olmc9p*_ga*MTk0NzAyODI4Ni4xNjY4NDYxOTEz*_ga_3CXC97RWEK*MTY3NDEyNTAzMy4zNS4xLjE2NzQxMjY0NTMuNjAuMC4w" target="_blank">Harvard Geospatial Library</a>
+ contains nearly 4,000 georeferenced maps &ndash; more on how to work with these later&ndash; it does not provide access to georeferenced maps as streaming data layers (link URLs).</p>
+<p>The easiest way to use georeferenced maps in ArcGIS Online products like StoryMaps or Experience Builder is if your data is available as one of these web links. When you are searching for maps online, check to see if the hosting repository provides these URLs. Then, you can use ESRI&rsquo;s <a href="https://doc.arcgis.com/en/arcgis-online/create-maps/add-layers-from-url.htm" target="_blank">Add a Tile Layer documentation</a>
+ to add it to your online map in ArcGIS Online.</p>
+<p>If you want to use a map from the Harvard Map Collection in your ArcGIS Online web map, you&rsquo;ll first need to figure out what format the map is in.</p>
+<table>
+<thead>
+<tr>
+<th>Format</th>
+<th>Instructions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>In the physical map collection, but not yet scanned</td>
+<td>Request a scan from <a href="mailto:maps@harvard.edu">maps@harvard.edu</a>
+, then use either Option 2 or 3 on this page.</td>
+</tr>
+<tr>
+<td>Scanned and in the <a href="https://library.harvard.edu/digital-collections" target="_blank">Harvard Digital Collections</a>
+, but not yet georeferenced from the <a href="https://hgl.harvard.edu/?_gl=1%2A1gaxm7z%2A_ga%2AMTk0NzAyODI4Ni4xNjY4NDYxOTEz%2A_ga_3CXC97RWEK%2AMTY3NDEzMTA5My4zNi4wLjE2NzQxMzEwOTMuNjAuMC4w&amp;f%5Bdc_format_s%5D%5B%5D=GeoTIFF&amp;f%5Bdct_provenance_s%5D%5B%5D=Harvard&amp;q=&amp;search_field=all_fields" target="_blank">Harvard Geospatial Library</a>
+</td>
+<td>Use our <a href="https://mapping.share.library.harvard.edu/tutorials/georeferencing/allmaps/" target="_blank">tutorial</a>
+ to generate a tile link layer directly from the Harvard Digital Collections. Then, use ESRI&rsquo;s <a href="https://doc.arcgis.com/en/arcgis-online/create-maps/add-layers-from-url.htm" target="_blank">Add a Tile Layer documentation</a>
+ to add it to your online map.</td>
+</tr>
+<tr>
+<td>Already georeferenced and available in <code>GeoTIFF</code> format for download from the  <a href="https://hgl.harvard.edu/?_gl=1%2A1gaxm7z%2A_ga%2AMTk0NzAyODI4Ni4xNjY4NDYxOTEz%2A_ga_3CXC97RWEK%2AMTY3NDEzMTA5My4zNi4wLjE2NzQxMzEwOTMuNjAuMC4w&amp;f%5Bdc_format_s%5D%5B%5D=GeoTIFF&amp;f%5Bdct_provenance_s%5D%5B%5D=Harvard&amp;q=&amp;search_field=all_fields" target="_blank">Harvard Geospatial Library</a>
+</td>
+<td>Download the map from the Harvard Geospatial Library. Then, follow the instructions in Option 3 on this page.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="option-2-use-arcgis-pro-to-publish-your-map-as-a-tile-layer">Option 2: Use ArcGIS Pro to publish your map as a tile layer</h3>
+<p>If you do not already have a web link for your map, and you still need to georeference it, you can use ArcGIS Pro to georeference the map and publish it to your online map.</p>
+<p>ArcGIS Pro is a desktop software made by the same company who makes ArcGIS Online and Storymaps. Harvard key holders have access to ArcGIS Pro.</p>
+<h4 id="steps-to-use-option-2">Steps to use option 2</h4>
+<ol>
+<li>
+<p>Once you have a copy of the map as a picture on your computer (ideally a high-resolution <code>TIFF</code>, but a high-quality <code>.jpeg</code> or <code>.png</code> could also work), use our <a href="https://mapping.share.library.harvard.edu/tutorials/georeferencing/arcgis-pro/" target="_blank">tutorial</a>
+ to georeference the map in ArcGIS Pro.
+The tutorial will cover how to access the software using your Harvard key.</p>
+</li>
+<li>
+<p>Publish the georeferenced map from ArcGIS Pro to ArcGIS Online using <a href="https://doc.arcgis.com/en/arcgis-online/manage-data/publish-tiles.htm" target="_blank">this guide</a>
+.</p>
+</li>
+</ol>
+<h3 id="option-3-use-the-arcgis-imagery-extension">Option 3: Use the ArcGIS Imagery Extension</h3>
+<p>If you already have a GeoTIFF, but do not yet have it hosted as a web layer, this is the best way to get your georeferenced maps into an ArcGIS Online web map. Possible scenarios where this might occur are:</p>
+<ul>
+<li>You have georeferenced the map using the open source software QGIS (<a href="https://mapping.share.library.harvard.edu/tutorials/georeferencing/qgis/" target="_blank">tutorial</a>
+), or otherwise want to generally avoid having to use ArcGIS Pro.</li>
+</ul>
+<blockquote>
+<p>ESRI allows you to upload <code>GeoTIFFs</code> to ArcGIS Online without using their desktop software, but once the maps are uploaded, you frustratingly cannot add them to a web map or StoryMap (<a href="https://support.esri.com/en/technical-article/000016852" target="_blank">documentation</a>
+).</p>
+</blockquote>
+<ul>
+<li>You already have a <code>GeoTIFF</code>, acquired from the <a href="https://hgl.harvard.edu/?_gl=1%2A1gaxm7z%2A_ga%2AMTk0NzAyODI4Ni4xNjY4NDYxOTEz%2A_ga_3CXC97RWEK%2AMTY3NDEzMTA5My4zNi4wLjE2NzQxMzEwOTMuNjAuMC4w&amp;f%5Bdc_format_s%5D%5B%5D=GeoTIFF&amp;f%5Bdct_provenance_s%5D%5B%5D=Harvard&amp;q=&amp;search_field=all_fields" target="_blank">Harvard Geospatial Library</a>
+ or elsewhere, and want to bypass having to use any desktop software.</li>
+</ul>
+<div class="alert-warning">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  Warning: The following steps require access to the ArcGIS Imagery extension, which is not free with a standard public ArcGIS Online account. Harvard key holders have access, instructions are below.
+</div>
+<h4 id="enable-the-arcgis-imagery-extension">Enable the ArcGIS Imagery Extension</h4>
+<ol>
+<li>
+<p>Make sure you have <a href="https://gis.harvard.edu/arcgis-online" target="_blank">created an ArcGIS Online account using your Harvard key</a>
+.</p>
+</li>
+<li>
+<p><a href="https://projects.iq.harvard.edu/cga-pin/request" target="_blank">Request access</a>
+ to the ArcGIS Imagery tool. It is not free, but Harvard key holders have access. When prompted with which option to request, select, <code>ArcGIS Image for ArcGIS Online</code>.</p>
+</li>
+<li>
+<p>You’ll receive an email when the request is fulfilled. This should not take longer than one business day. To inquire about the status of your request, contact Jeff Blossom at <a href="mailto:jblossom@cga.harvard.edu">jblossom@cga.harvard.edu</a>
+.</p>
+</li>
+</ol>
+<h4 id="upload-the-geotiff">Upload the GeoTIFF</h4>
+<p>Once your extension has been enabled, you can upload the <code>GeoTIFF</code>. From <code>My Content</code> select <code>New Item</code>, and choose <code>Imagery Layer</code>. Follow the prompts.</p>
+<h2 id="configure-your-web-project">Configure your web project</h2>
+<p>Once you have added your georeferenced map as a layer in ArcGIS Online, there are many ways to configure the online apps for exploration and comparison with other georeferenced maps or modern datasets.</p>
+<p>To learn how, check out the following resources:</p>
+<ul>
+<li><a href="https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/swipe-compare-apps/" target="_blank">Apps you can use to swipe and compare</a>
+</li>
+<li><a href="https://storymaps-classic.arcgis.com/en/app-list/swipe-spyglass/" target="_blank">StoryMap Swipe and Spyglass</a>
+</li>
+</ul>
+<div class="alert-danger">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  <strong>Important!</strong> Make sure the tile layer, the web map, and the StoryMap are all set to <strong>public</strong>. All three items --found in <strong>My Content</strong>-- must be publicly shared in order for the final StoryMap to be viewable.
+</div>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+
+</body>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-55D9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+</html>

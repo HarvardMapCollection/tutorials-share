@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>allmaps on GIS, maps &#43; data @ Harvard Library</title>
+    <link>https://mapping.share.library.harvard.edu/tags/allmaps/</link>
+    <description>Recent content in allmaps on GIS, maps &#43; data @ Harvard Library</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tags/allmaps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Georeference library digital collections using Allmaps</title>
+      <link>https://mapping.share.library.harvard.edu/tutorials/georeferencing/allmaps/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/tutorials/georeferencing/allmaps/</guid>
+      <description>Topics covered by this guide Select a map to georeference from the Harvard Libraries&amp;rsquo; digital collections Repeat the process for maps in any library digital collection Learn how to georeference with free browser tool, AllMaps How to use the georeferenced map with the rest of your project Select a map to georeference from the Harvard Libraries&amp;rsquo; digital collections Find the map you would like to work with in the Harvard Libraries Digital Collections Filter results by selecting Type: Map or Repository: Map Coll (Pusey) In the top-right corner of the image viewer, select the metadata Tooltip by clicking the i icon.</description>
+    </item>
+    
+  </channel>
+</rss>

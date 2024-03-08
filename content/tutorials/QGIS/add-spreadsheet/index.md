@@ -14,7 +14,7 @@ This tutorial will cover how to add tabular data to a QGIS project.
   To ensure interoperability, it's best to err on the side of encoding data in open data formats, such as .csv, .geoJSON or geopackage.
   </div>
 
-2. Once you have spreadsheet data saved in `.CSV` format,  [QGIS](https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-software/).
+2. Once you have spreadsheet data saved in `.CSV` format, open [QGIS](https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-software/).
 
 3. In the main QGIS menu (banner across the top of the computer screen), select `Layer → Add Layer → Add delimited text layer`.
 ![Screenshot of the add delimited text wizard in QGIS](media/1.png)

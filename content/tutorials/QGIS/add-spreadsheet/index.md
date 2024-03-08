@@ -11,7 +11,7 @@ This tutorial will cover how to add tabular data to a QGIS project.
 1. If your spreadsheet is saved in `.XLSX` format, export it as a `.CSV` before bringing it into QGIS. QGIS **will not** be able to read `.XLSX`.
 
 <div class="alert-success">
-  To ensure interoperability issues, it's best to err on the side of encoding data in open data formats, such as .csv, .geoJSON or geopackage.
+  To ensure interoperability, it's best to err on the side of encoding data in open data formats, such as .csv, .geoJSON or geopackage.
   </div>
 
 2. Once you have spreadsheet data saved in `.CSV` format,  [QGIS](https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-software/).

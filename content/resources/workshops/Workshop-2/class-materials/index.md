@@ -12,19 +12,18 @@ Get to this page quick:
 
 | Time | Topic |
 | --- | --- |
-| 0:00 - 0:20 | Welcome, software and materials overview |
-| 0:20 - 0:40 | [Introducing spatial data structures](https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-1/)|
-| 0:40 - 0:50 | [Turning spreadsheet data into spatial data](https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-2/) |
-| 0:50 - 1:00 | Diving into core concepts |
-| 1:00 - 1:15 | [Leveraging attributes to make maps](https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-3/)|
-| 1:15 - 1:30 | Introducing raster data |
+| 0:00 - 0:20 | Welcome, software and housekeeping|
+| 0:20 - 0:40 | Introducing spatial data structures|
+| 0:40 - 1:00 | Turning spreadsheet data into spatial data |
+| 1:00 - 1:15 | Leveraging attributes to make maps|
+| 1:15 - 1:30 | Wrap-up, demo, brainstorm, questions |
 
 
 
-## Materials
+## Slides 
 
-- [Slides](https://docs.google.com/presentation/d/14MjrM5WxHkkDKHDml93CimL0JyBlFpQP2AmXg0DlOmE/edit?usp=sharing)
-- [Data](https://drive.google.com/file/d/1eOwEUprVWgULX2PZAxInFgDRPfPf9R_y/view?usp=sharing)
+- [Workshop slides](https://docs.google.com/presentation/d/14MjrM5WxHkkDKHDml93CimL0JyBlFpQP2AmXg0DlOmE/edit?usp=sharing)
+
 
 
 ## Next steps

@@ -13,36 +13,8 @@
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/class-materials/</guid>
-      <description>Get to this page quick: https://bit.ly/3IaHnot Schedule Time Topic 0:00 - 0:20 Welcome, software and materials overview 0:20 - 0:40 Introducing spatial data structures 0:40 - 0:50 Turning spreadsheet data into spatial data 0:50 - 1:00 Diving into core concepts 1:00 - 1:15 Leveraging attributes to make maps 1:15 - 1:30 Introducing raster data Materials Slides Data Next steps Survey Help us design the programming you want by filling out the workshop survey.</description>
-    </item>
-    
-    <item>
-      <title>1. Introducing spatial data structures</title>
-      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-1/</link>
-      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-1/</guid>
-      <description>In your group&amp;hellip; Visit the U.S. arms exports in 2022 by country data 1 in the Activity 1 folder. What do you notice about how the data is structured?
-Visit the Countries Admin 0 GIS data in Natural Earth . Download a copy of the data. Look at the data in a file explorer. What do you notice about the data? What questions do you have?
-U.S. Arms Data by Country, Statistica, March 2023 .</description>
-    </item>
-    
-    <item>
-      <title>2. Turning spreadsheet data into spatial data</title>
-      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-2/</link>
-      <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-2/</guid>
-      <description>As a class&amp;hellip; Open QGIS. Select Project → New and navigate to arms-map.qgz in the Activity 2 folder of your class data materials. Right click the layer in the layer list us-arms-export-by-country Select Zoom to Layer. You should see the countries dataset Right-click the layer in the layer list Select Open Attribute Table Take note of the column names. Which column do you think we should symbolize based on? Double click on us-arms-exports-by-country in the layer list.</description>
-    </item>
-    
-    <item>
-      <title>3. Leveraging attributes to make maps</title>
-      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-3/</link>
-      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-3/</guid>
-      <description>As a class&amp;hellip; Visit MassGIS Data: Bicycle Trails , and read through the page. Discuss any observations you make about how this data is structured and presented. Select Download this data Uncompress biketrails_arc.zip In the QGIS main menu at the top of the screen, navigate to Project and then click New If you are prompted to save your work, you don’t have to, we won’t need it for anything else later In the Browser pane, under XYZ Tiles, double click OpenStreetMap.</description>
+      <description>Get to this page quick: https://bit.ly/3IaHnot Schedule Time Topic 0:00 - 0:20 Welcome, software and housekeeping 0:20 - 0:40 Introducing spatial data structures 0:40 - 1:00 Turning spreadsheet data into spatial data 1:00 - 1:15 Leveraging attributes to make maps 1:15 - 1:30 Wrap-up, demo, brainstorm, questions Slides Workshop slides Next steps Survey Help us design the programming you want by filling out the workshop survey.
+More GIS programs Sign up for this and other GIS programs in the library calendar.</description>
     </item>
     
     <item>
@@ -51,7 +23,9 @@ U.S. Arms Data by Country, Statistica, March 2023 .</description>
       <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://mapping.share.library.harvard.edu/classes/history/re-wilding/spring-2024/</guid>
-      <description>Get to this page quickly: https://bit.ly/3HVp6vm 2/28 class map 2/28 class map. Resources May Crane Fellowships - Apply by March 8 for stipended work with GIS in the Map Collection, Summer 2024. Download QGIS - Instructions for installing Open Source desktop GIS software, with debugging tips. GIS Office Hours Tuesday 9:30-noon, Widener 240 - Every week through April 30, 2024. Make a 1:1 appointment with Belle - Please specify your preference for in-person or remote.</description>
+      <description>Get to this page quickly: https://bit.ly/3HVp6vm Project datasets About Harvard University Planning and Design (HUPAD) has provided access to the following datasets, which you can use in your Re-Wilding projects:
+Yard trees Hardscape (includes surface materials and pathways) Street blocks Greenspace Buildings Preview HUPAD data. Download instructions To download a copy of these datatsets to use in your project:
+Visit this shared class map In the map legend, click the ellipsis next to the layer you want to download Select Export and to GeoPackage Map Collection Resources May Crane Fellowships - Apply by March 12 for stipended work with GIS in the Map Collection, Summer 2024.</description>
     </item>
     
     <item>
@@ -311,8 +285,7 @@ OpenStreetMap base tiles are built in to QGIS. Drag OpenStreetMap into the Map C
       
       <guid>https://mapping.share.library.harvard.edu/tutorials/qgis/add-spreadsheet/</guid>
       <description>This tutorial will cover how to add tabular data to a QGIS project.
-GIS software prefer tabular data to be in .csv format, rather than .xlsx. Before attempting to bring any spreadsheets into either QGIS or ArcGIS Pro, please be sure to save as .csv. Open QGIS .
-In the main QGIS menu (banner across the top of the computer screen), select Layer → Add Layer → Add delimited text layer.</description>
+If your spreadsheet is saved in .XLSX format, export it as a .CSV before bringing it into QGIS. QGIS will not be able to read .XLSX. To ensure interoperability, it&#39;s best to err on the side of encoding data in open data formats, such as .csv, .geoJSON or geopackage. Once you have spreadsheet data saved in .CSV format, open QGIS .</description>
     </item>
     
     <item>

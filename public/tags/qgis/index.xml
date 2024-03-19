@@ -51,8 +51,7 @@ OpenStreetMap base tiles are built in to QGIS. Drag OpenStreetMap into the Map C
       
       <guid>https://mapping.share.library.harvard.edu/tutorials/qgis/add-spreadsheet/</guid>
       <description>This tutorial will cover how to add tabular data to a QGIS project.
-GIS software prefer tabular data to be in .csv format, rather than .xlsx. Before attempting to bring any spreadsheets into either QGIS or ArcGIS Pro, please be sure to save as .csv. Open QGIS .
-In the main QGIS menu (banner across the top of the computer screen), select Layer → Add Layer → Add delimited text layer.</description>
+If your spreadsheet is saved in .XLSX format, export it as a .CSV before bringing it into QGIS. QGIS will not be able to read .XLSX. To ensure interoperability, it&#39;s best to err on the side of encoding data in open data formats, such as .csv, .geoJSON or geopackage. Once you have spreadsheet data saved in .CSV format, open QGIS .</description>
     </item>
     
     <item>

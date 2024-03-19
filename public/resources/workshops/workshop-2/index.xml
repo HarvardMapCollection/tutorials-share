@@ -13,36 +13,8 @@
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/class-materials/</guid>
-      <description>Get to this page quick: https://bit.ly/3IaHnot Schedule Time Topic 0:00 - 0:20 Welcome, software and materials overview 0:20 - 0:40 Introducing spatial data structures 0:40 - 0:50 Turning spreadsheet data into spatial data 0:50 - 1:00 Diving into core concepts 1:00 - 1:15 Leveraging attributes to make maps 1:15 - 1:30 Introducing raster data Materials Slides Data Next steps Survey Help us design the programming you want by filling out the workshop survey.</description>
-    </item>
-    
-    <item>
-      <title>1. Introducing spatial data structures</title>
-      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-1/</link>
-      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-1/</guid>
-      <description>In your group&amp;hellip; Visit the U.S. arms exports in 2022 by country data 1 in the Activity 1 folder. What do you notice about how the data is structured?
-Visit the Countries Admin 0 GIS data in Natural Earth . Download a copy of the data. Look at the data in a file explorer. What do you notice about the data? What questions do you have?
-U.S. Arms Data by Country, Statistica, March 2023 .</description>
-    </item>
-    
-    <item>
-      <title>2. Turning spreadsheet data into spatial data</title>
-      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-2/</link>
-      <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-2/</guid>
-      <description>As a class&amp;hellip; Open QGIS. Select Project → New and navigate to arms-map.qgz in the Activity 2 folder of your class data materials. Right click the layer in the layer list us-arms-export-by-country Select Zoom to Layer. You should see the countries dataset Right-click the layer in the layer list Select Open Attribute Table Take note of the column names. Which column do you think we should symbolize based on? Double click on us-arms-exports-by-country in the layer list.</description>
-    </item>
-    
-    <item>
-      <title>3. Leveraging attributes to make maps</title>
-      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-3/</link>
-      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/activity-3/</guid>
-      <description>As a class&amp;hellip; Visit MassGIS Data: Bicycle Trails , and read through the page. Discuss any observations you make about how this data is structured and presented. Select Download this data Uncompress biketrails_arc.zip In the QGIS main menu at the top of the screen, navigate to Project and then click New If you are prompted to save your work, you don’t have to, we won’t need it for anything else later In the Browser pane, under XYZ Tiles, double click OpenStreetMap.</description>
+      <description>Get to this page quick: https://bit.ly/3IaHnot Schedule Time Topic 0:00 - 0:20 Welcome, software and housekeeping 0:20 - 0:40 Introducing spatial data structures 0:40 - 1:00 Turning spreadsheet data into spatial data 1:00 - 1:15 Leveraging attributes to make maps 1:15 - 1:30 Wrap-up, demo, brainstorm, questions Slides Workshop slides Next steps Survey Help us design the programming you want by filling out the workshop survey.
+More GIS programs Sign up for this and other GIS programs in the library calendar.</description>
     </item>
     
   </channel>

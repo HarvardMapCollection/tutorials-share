@@ -16,8 +16,6 @@ Find out when we are offering this workshop by visiting the [library calendar](h
 ## Class materials
 
 - [Slides](https://docs.google.com/presentation/d/1eNX1_46CuVUcX3pUkZVZU2XoXEJLbgfKSm4y9v4XiQE/edit?usp=sharing)
-- [Activity sheet](https://docs.google.com/document/d/1gUSFADxn54ibBXcv8DAWoua9Yo0XhEayMPwcEk52b60/edit?usp=sharing)
-- [Activity data](https://drive.google.com/file/d/1uEnh3Yj5GeJWweWlmSNMm7dUXrjpYWgZ/view?usp=drive_link)
 
 
 ## Post-workshop survey

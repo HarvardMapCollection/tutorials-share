@@ -28,4 +28,5 @@ jobs:
           protocol: ftps
           port: ${{ secrets.SERVER_PORT }}
           local-dir: ./public/
-          server-dir: ~/public_html/
+          server-dir: ~/home/bellelip/public_html/
+         

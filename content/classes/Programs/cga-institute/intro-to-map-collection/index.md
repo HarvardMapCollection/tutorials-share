@@ -1,9 +1,10 @@
 ---
-title: GIS @ Harvard Libraries
+title: Harvard Map Collection
 date: 2022-12-19
 tags: ["class"]
-image: a-gradient1.png
+image: map.png
 layout: class
+description: Informational slides about Harvard Map Collection services and how to make use of them
 ---
 
 ![Screenshot from an article about the Map Collection](../../../media/intro.png)
@@ -49,20 +50,18 @@ layout: class
 
 ## Services and Resources
 
-![GIF of available QGIS guides on various topics](../../../media/tutorials-pub.gif)
+### Tutorials
+
+![Available QGIS guides on various topics](../../../media/qgis-tutorials.png)
 _The Harvard Map Collection maintains a series of [tutorials, guides, and updates](https://gis-harvard.pubpub.org/) about mapmaking._
 
-![Screen grab of GIS Research Data Management workshop March of 2023](../../../media/rdm-workshop.png)
-_We offer workshops available via the [library events calendar](https://libcal.library.harvard.edu/calendar/main?cid=15049&t=d&d=0000-00-00&cal=15049&inc=0)._
+### Consultations
+
+![Harvard Map Collection website](../../../media/hmc-website.png)
+_The best way to find maps or data is to make an appointment on the [Harvard Map Collection website](https://library.harvard.edu/libraries/harvard-map-collection)._
 
 
-![Screenshot of event information for weekly GIS Office hours](../../../media/office-hours.png)
-_Join us for [GIS Office Hours](https://libcal.library.harvard.edu/calendar/main?t=d&q=GIS%20Office%20Hours&cid=15049&cal=15049&inc=0)._
-
-
-![Screen recording of using the Harvard Map Collection website to make a one-on-one appointment](../../../media/appointment-hmc.gif)
-_For in-depth one-on-one consultations make an appointment frome the [Harvard Map Colletion Website](https://library.harvard.edu/libraries/harvard-map-collection)._
-
+### Questions
+Or, you can follow up with any questions by emailing:
 ## maps@harvard.edu
 
-For any questions, you can contact us at [maps@harvard.edu](mailto:maps@harvard.edu).

@@ -8,11 +8,21 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 17 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/classes/programs/cga-institute/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>GIS @ Harvard Libraries</title>
-      <link>https://mapping.share.library.harvard.edu/classes/programs/cga-institute/spring-2023/</link>
+      <title>Open access practices for GIS</title>
+      <link>https://mapping.share.library.harvard.edu/classes/programs/cga-institute/data-management-workshop/</link>
+      <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/classes/programs/cga-institute/data-management-workshop/</guid>
+      <description>Pre-work to complete before class Homework #1: Set up your OSF.io account Instantiate your Harvard OSF (Open Science Framework) account. If you do not have a Harvard Key, you can make a free, non-affiliate account on osf.io. Select Create New Project. Name your new project Data Management Workshop. Homework #2: Framing ideas Read this article about balancing data safety and open science in an academic research context.
+In-class workshop 1. Saving in reusable formats Discussion Example from previous CGA GIS Institute participants.</description>
+    </item>
+    
+    <item>
+      <title>Harvard Map Collection</title>
+      <link>https://mapping.share.library.harvard.edu/classes/programs/cga-institute/intro-to-map-collection/</link>
       <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://mapping.share.library.harvard.edu/classes/programs/cga-institute/spring-2023/</guid>
+      <guid>https://mapping.share.library.harvard.edu/classes/programs/cga-institute/intro-to-map-collection/</guid>
       <description>Classes GSD: Spatial Analysis Fall 2021 presentation .
 Map created by GSD students Aeshna Prasad, Michael Lidwin, Megan Mcglinchey, and Mehvish Jamal working with the Map Collection.
 Data management OldNYC: Mapping Historic Photographs at the NYPL .
@@ -20,7 +30,7 @@ Data management OldNYC: Mapping Historic Photographs at the NYPL .
 ArcGIS Map comparing 1890 atlas to today.
 Global volcanoes dataset in the Harvard Geospatial Library (HGL).
 Research Record from Harvard Map Collection card catalog .
-Services and Resources The Harvard Map Collection maintains a series of tutorials, guides, and updates about mapmaking.</description>
+Services and Resources Tutorials The Harvard Map Collection maintains a series of tutorials, guides, and updates about mapmaking.</description>
     </item>
     
   </channel>

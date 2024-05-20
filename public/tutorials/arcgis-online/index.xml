@@ -8,12 +8,14 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 17 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/tutorials/arcgis-online/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Getting help with ArcGIS at Harvard</title>
+      <title>Where and How to Get ArcGIS Pro at Harvard</title>
       <link>https://mapping.share.library.harvard.edu/tutorials/arcgis-online/arcgis-pro/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://mapping.share.library.harvard.edu/tutorials/arcgis-online/arcgis-pro/</guid>
-      <description>One-on-one support For free, tailored, one-on-one help for your research project or GIS task, you can always make an appointment on the Harvard Map Collection&amp;rsquo;s website . Our librarians will work with you on the specifics of your project and deadlines to give you customized support at no cost. We specialize in a number of GIS software options, including ArcGIS, as well as open-source tools, and can help explain the differences, pros, and cons.</description>
+      <description>On your own computer If you have a PC and a Harvard Key, you can download and install ArcGIS Pro on your own computer using these instructions from the Harvard Center for Geographic Analysis (CGA).
+If you do not have a PC, consider using the open-source equivalent GIS desktop software, QGIS, which is OS-independent.
+QGIS download instructions QGIS is available on all of the workstations in Lamont 310 (directions ). Do I Need ArcGIS Pro?</description>
     </item>
     
     <item>

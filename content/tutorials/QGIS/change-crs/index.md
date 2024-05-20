@@ -6,7 +6,7 @@ image: 2.jpeg
 layout: single2
 ---
 
-test
+test 2
 
 ![Image of four human heads stretched in funny ways to mimic what commonly used projections do to flatten a round globe onto a flat surface](media/2.jpeg)
 

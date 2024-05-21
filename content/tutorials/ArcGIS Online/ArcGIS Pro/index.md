@@ -113,7 +113,7 @@ A list of eligible affiliates is available from the [HUIT request form](https://
 
 ### House computer labs for Harvard College students
 
-Here is a [list of availble computers](https://harvard.service-now.com/ithelp?id=kb_article&sys_id=dc44f1ea93ad82104cf93f9a7bba10e5) in the houses. 
+Here is a [list of available computers](https://harvard.service-now.com/ithelp?id=kb_article&sys_id=dc44f1ea93ad82104cf93f9a7bba10e5) in the houses. 
 
 
 ## GIS Technical Support

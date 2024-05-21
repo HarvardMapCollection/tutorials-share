@@ -65,6 +65,7 @@ _Example from previous CGA GIS Institute participants._
 
 2. Open the map package in ArcGIS Pro by either double-clicking on the file, or from ArcGIS Pro, selecting `Open → Computer → Open another project` and navigating to the file.
 
+3. Toolbox > Copy Raster
 
 1. Practice exporting `.geoJSON` and `shapefile` data using [Features to JSON (Conversion)](https://pro.arcgis.com/en/pro-app/latest/tool-reference/conversion/features-to-json.htm) and [Export data](https://pro.arcgis.com/en/pro-app/latest/help/data/geodatabases/overview/export-data.htm#:~:text=To%20export%20a%20shapefile%2C%20you,click%20the%20shapefile%2C%20select%20Export.) ArcGIS Pro documentation.
 

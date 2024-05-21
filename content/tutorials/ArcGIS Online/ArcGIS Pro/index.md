@@ -2,7 +2,7 @@
 title: Where and How to Get ArcGIS Pro at Harvard
 date: 2023-06-01
 tags: ["tutorials", "ArcGIS"]
-image: a-gradient8.png
+image: cabot-downstairs.jpg
 layout: single2
 description: Information about how to access and use ArcGIS Pro and other ESRI products, including how to download and install ArcGIS Pro, the location of computer labs at Harvard, technical support, workshops, and tutorials. 
 ---
@@ -18,9 +18,9 @@ If you do not have a PC, consider using the open-source equivalent GIS desktop s
 
 ## Do I Need ArcGIS Pro?
 
-Prioritizing gaining competency with core GIS methods over familiarity with any singular software will ensure that your spatial skills are always relevant and transferrable, even as programs deprecate or become obsolete.
+Prioritizing gaining competency with core GIS methods (here are some [workshops](https://libcal.library.harvard.edu/calendar/main?t=d&q=gis&cid=15049&cal=15049&inc=0)) over familiarity with any singular software will ensure that your spatial skills stay relevant and transferrable, as popular programs shift.
 
-Despite being able to accomplish most of the same methods in QGIS as you can with ArcGIS Pro, here are some reasons why you might want to choose ArcGIS Pro:
+Despite being able to accomplish most, if not all of the same methods in QGIS as you can with ArcGIS Pro, here are some reasons why you might be thinking about choosing ArcGIS Pro:
 
 - Many industries use ArcGIS Pro or the ESRI suite, so gaining familiarity might make you more competitve in your given field
 - Maybe you are in a class that is using ArcGIS Pro to teach GIS methodologies
@@ -78,7 +78,7 @@ Please find this list of places on campus where you can access ArcGIS Pro.
 
 ### Institute for Quantitative Social Science Lab
 
-The Institute for Quanitative Social Science (IQSS) has a [computer lab](https://www.iq.harvard.edu/computer-labs) located in the CGIS Knafel building ([directions](https://maps.app.goo.gl/SaiKxpSP8FrexV3x7)), which each have ArcGIS Pro, along with many other software and computing services.
+The Institute for Quanitative Social Science (IQSS) has a [computer lab](https://www.iq.harvard.edu/computer-labs) located in the CGIS Knafel building ([directions](https://maps.app.goo.gl/SaiKxpSP8FrexV3x7)). Each computer has ArcGIS Pro, along with many other software and computing services.
 
 ![IQSS lab](media/iqss-lab.jpg)
 
@@ -91,7 +91,7 @@ Please be advised that if you are a first-timer to the IQSS labs, you will need 
 
 #### Request a laptop
 
-Harvard University Information Technology (HUIT) will loan you a laptop for a capped-period of two weeks. You can initiate this process by [filling out this form](https://harvard.service-now.com/ithelp?id=sc_cat_item&sys_id=fc5cab849710ad509af6d804a253af0a), or by visiting the HUIT help desk in the Science Center ([directions](https://maps.app.goo.gl/ZotpFXbxFDd97dHS6)). 
+Harvard University Information Technology (HUIT) will loan you a laptop for a capped period of two weeks. You can initiate this process by [filling out this form](https://harvard.service-now.com/ithelp?id=sc_cat_item&sys_id=fc5cab849710ad509af6d804a253af0a), or by visiting the HUIT help desk in the Science Center ([directions](https://maps.app.goo.gl/ZotpFXbxFDd97dHS6)). 
 
 #### Download ArcGIS Pro
 HUIT laptop loanees will receive PCs with admin privileges, and can then access ArcGIS Pro by following the download instructions listed from the Harvard Center for Geographic Analysis [ArcGIS Pro for Harvard Key holders](https://gis.harvard.edu/arcgis-pro). 
@@ -99,6 +99,11 @@ HUIT laptop loanees will receive PCs with admin privileges, and can then access 
 #### Specifications
 
 A list of eligible affiliates is available from the [HUIT request form](https://harvard.service-now.com/ithelp?id=sc_cat_item&sys_id=fc5cab849710ad509af6d804a253af0a). Please allow up to three business days for your request to process.
+
+
+### House computer labs for Harvard College students
+
+Here is a [list of availble computers](https://harvard.service-now.com/ithelp?id=kb_article&sys_id=dc44f1ea93ad82104cf93f9a7bba10e5) in the houses. 
 
 
 ## GIS Technical Support
@@ -112,5 +117,10 @@ Our librarians advise on everything from help with the myriad available software
 ## ArcGIS Pro Tutorials
 
 If you are looking specifically for ArcGIS Pro tutorials, the Center for Geographic Analysis (CGA) manages the Harvard University Key Licenses for this software, and maintains a robust set of tutorials, FAQs, MOOCs, and in-person workshops specifically geared towards ArcGIS Pro. To get started, check out the [CGA Frequently Asked Questions](https://gis.harvard.edu/faq), which includes many how-to style tutorials for ArcGIS.
+
+
+## CGA GIS Institute
+
+If you are a Harvard graduate student, post-doctoral fellow, faculty, staff, or external researcher, and you want to get hands-on experience with ArcGIS Pro, you might consider signing up for the [CGA GIS Institute](https://gis.harvard.edu/gis-institute). The Institute covers many basic GIS literacies, and is a great opportunity if you have a research project where you'd like to incorporate more spatial thinking. The course happens twice a year, once in January and again in early June. It is a two-week course, and is available to Harvard affiliates for $100.
 
 

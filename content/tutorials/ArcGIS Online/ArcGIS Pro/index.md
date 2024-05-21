@@ -22,7 +22,7 @@ Prioritizing gaining competency with core GIS methods (here are some [workshops]
 
 Despite being able to accomplish most, if not all of the same methods in QGIS as you can with ArcGIS Pro, here are some reasons why you might be thinking about choosing ArcGIS Pro:
 
-- Many industries use ArcGIS Pro or the ESRI suite, so gaining familiarity might make you more competitve in your given field
+- Many industries use ArcGIS Pro or the ESRI suite, so gaining familiarity might make you more competitive in your given field
 - Maybe you are in a class that is using ArcGIS Pro to teach GIS methodologies
 - Maybe you have used ArcGIS Pro before, and want to keep working in that environment
 
@@ -88,7 +88,7 @@ Please find this list of places on campus where you can access ArcGIS Pro.
 
 ### Institute for Quantitative Social Science Lab
 
-The Institute for Quanitative Social Science (IQSS) has a [computer lab](https://www.iq.harvard.edu/computer-labs) located in the CGIS Knafel building ([directions](https://maps.app.goo.gl/SaiKxpSP8FrexV3x7)). Each computer has ArcGIS Pro, along with many other software and computing services.
+The Institute for Quantitative Social Science (IQSS) has a [computer lab](https://www.iq.harvard.edu/computer-labs) located in the CGIS Knafel building on the concourse level ([directions](https://maps.app.goo.gl/SaiKxpSP8FrexV3x7)). Each computer has ArcGIS Pro, along with many other software and computing services.
 
 ![IQSS lab](media/iqss-lab.jpg)
 

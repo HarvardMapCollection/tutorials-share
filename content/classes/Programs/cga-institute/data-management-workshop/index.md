@@ -50,7 +50,7 @@ _Example from previous CGA GIS Institute participants._
   Belle populate.
 </div>
 
-### 3. Collaborative project documentation
+### 3. Mockumentation
 
 <div class="alert-danger">
   Belle populate.

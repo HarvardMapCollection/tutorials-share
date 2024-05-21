@@ -74,6 +74,16 @@ Please find this list of places on campus where you can access ArcGIS Pro.
 </div>
 
 
+<div class="alert-success">
+<h3>Harvard Kennedy School (HKS) Library</h3>
+<h4>All Harvard affiliates</h4>
+<p>All Harvard affiliates can use ArcGIS Pro on the 5 PCs in the HKS Library, located on the ground floor of the Littauer Building on the HKS campus <a href='https://maps.app.goo.gl/fNmrJm3iwc14wLVJ7'>directions</a>). </p>
+<img src="media/hks.jpg" alt="HKS computers">
+<h4>Harvard Kennedy School students</h4>
+<p>There are also 3-hour loaner laptops available from the HKS Library Services Desk for Harvard Kennedy School students with a HUID. </p>
+</div>
+
+
 
 
 ### Institute for Quantitative Social Science Lab

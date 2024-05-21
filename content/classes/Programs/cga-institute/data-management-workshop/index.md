@@ -43,6 +43,8 @@ _Example from previous CGA GIS Institute participants._
 <div class="alert-success">
 <img src='../../../media/ppkg.png' alt="Tutorial materials in ArcGIS Online">
 <p><em>While ESRI map package formats are the default, they are not backwards-compatible.</em></p>
+<img src='../../../media/noppkg.png' alt="Map package fails in QGIS">
+<p><em>ESRI map packages are not recognized by open source GIS software.</em></p>
 </div>
 
 <div class="alert-success">
@@ -50,9 +52,19 @@ _Example from previous CGA GIS Institute participants._
 <p><em>ESRI map package file in a downloads folder</em></p>
 </div>
 
+<div class="alert-danger">
+<p>⚠️ If we want any of our data layers to be accessible, we need to export them to more persistent file formats. </p>
+</div>
+
+
 
 
 #### Activity 
+
+1. Download the data from the georeferencing and digitizing activity by navigating to the [ArcGIS Online map package page](https://www.arcgis.com/home/item.html?id=afdbbd419b2c4729ad37c9b5d95f4990), and selecting `Download`.
+
+2. Open the map package in ArcGIS Pro by either double-clicking on the file, or from ArcGIS Pro, selecting `Open → Computer → Open another project` and navigating to the file.
+
 
 1. Practice exporting `.geoJSON` and `shapefile` data using [Features to JSON (Conversion)](https://pro.arcgis.com/en/pro-app/latest/tool-reference/conversion/features-to-json.htm) and [Export data](https://pro.arcgis.com/en/pro-app/latest/help/data/geodatabases/overview/export-data.htm#:~:text=To%20export%20a%20shapefile%2C%20you,click%20the%20shapefile%2C%20select%20Export.) ArcGIS Pro documentation.
 

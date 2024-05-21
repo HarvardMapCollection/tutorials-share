@@ -39,6 +39,19 @@ Read this [article about balancing data safety and open science](https://mapping
 ![Keziah's project](../../../media/map-package.png)
 _Example from previous CGA GIS Institute participants._
 
+
+<div class="alert-success">
+<img src='../../../media/ppkg.png' alt="Tutorial materials in ArcGIS Online">
+<p><em>While ESRI map package formats are the default, they are not backwards-compatible.</em></p>
+</div>
+
+<div class="alert-success">
+<img src='../../../media/file-expl-arc.png' alt="Tutorial materials in file exporer">
+<p><em>ESRI map package file in a downloads folder</em></p>
+</div>
+
+
+
 #### Activity 
 
 1. Practice exporting `.geoJSON` and `shapefile` data using [Features to JSON (Conversion)](https://pro.arcgis.com/en/pro-app/latest/tool-reference/conversion/features-to-json.htm) and [Export data](https://pro.arcgis.com/en/pro-app/latest/help/data/geodatabases/overview/export-data.htm#:~:text=To%20export%20a%20shapefile%2C%20you,click%20the%20shapefile%2C%20select%20Export.) ArcGIS Pro documentation.

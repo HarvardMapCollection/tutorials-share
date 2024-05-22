@@ -37,7 +37,6 @@ Read this [article about balancing data safety and open science](https://mapping
 #### Discussion
 
 ![Keziah's project](../../../media/map-package.png)
-_Example from previous CGA GIS Institute participants._
 
 
 <div class="alert-success">
@@ -58,57 +57,112 @@ _Example from previous CGA GIS Institute participants._
 
 
 
-
 #### Activity 
 
-1. Download the data from the georeferencing and digitizing activity by navigating to the [ArcGIS Online map package page](https://www.arcgis.com/home/item.html?id=afdbbd419b2c4729ad37c9b5d95f4990), and selecting `Download`.
+We will start using an updated version of the original map package, which includes datasets at the stage of the completed tutorial, so instead of an ungeoreferenced map, we have a georeferenced map of 1891 NYC, and a new polygon file that starts to trace out historical boundaries. 
 
-2. Open the map package in ArcGIS Pro by either double-clicking on the file, or from ArcGIS Pro, selecting `Open → Computer → Open another project` and navigating to the file.
+##### Step 1: Open the source data
 
-3. Toolbox > Copy Raster
+1. Download `ESRI_FILES.zip` from the [OSF.io example repository](https://files.osf.io/v1/resources/5ywg7/providers/osfstorage/664e09be65e1de093e893b60/?zip=), and uncompress or extract the folder, so that you can double-click `GEOREF_DIGITIZE.ppkg` and open it in ArcGIS Pro.
+
+##### Discussion 
 
 <div class="alert-success">
-<h5>OSF Storage Caps</h5>
+<img src='../../../media/file-gdb.png' alt="file geodatabase instructions">
+<p><em>Defaults in ArcGIS Pro are problematic for data management.</em></p>
+</div>
+
+
+<div class="alert-success">
+<img src='../../../media/create-featureclass.png' alt="Creating feature class">
+<p><em>Creating feature class inside a file geodatabase.</em></p>
+<img src='../../../media/wards-esri.png' alt="wards feature class in ArcGIS layer pane">
+<p><em>Newly defined feature class in the ArcGIS Pro layer pane.</em></p>
+</div>
+
+
+<div class="alert-success">
+<img src='../../../media/whatthe.png' alt="file geodatabase file structure">
+<p><em>What the?</em></p>
+</div>
+
+
+![file format texts from belle (shapefile, geojson, geopackage)](../../../media/formats-texts.png)
+_Texts from Belle reminding you which formats to use 😸_
+
+##### Step 2: Export to Shapefile
+
+1. Navigate to `Analysis` → `Tools` 
+
+2. Search for `Export Features`
+
+3. Under `Input Features` select `Wards`
+
+4. Click the folder icon next to `Output Feature Class` and choose a regular folder (not an ESRI file geodatabase) on your computer where you'd like to save the shapefile. 
+
+5. Select `Run`
+
+![shapefile of wards](../../../media/feature-output.png)
+
+<div class="alert-danger">
+<h5>Step 3: Export to GeoJSON</h5>
+<ol>
+<li>Navigate to Analysis → Tools </li>
+<li>Search for Features to JSON (Conversion)</li>
+<li>Under Input Features select Wards: 1</li>
+<li>Click the folder icon next to Output Feature Class and choose a regular folder (not an ESRI file geodatabase) on your computer where you'd like to save the .geoJSON</li>
+<li>Check (select) Output to GeoJSON</li>
+<li>Select Run</li>
+</ol>
+</div>
+
+
+##### Discussion
+
+<div class="alert-success">
 <img src='../../../media/osf-cap.png' alt="Cap on OSF projects">
 <p><em>OSF.io has a cap on storage.</em></p>
 </div>
 
 
 <div class="alert-success">
-<h5>OSF Storage integrations</h5>
 <img src='../../../media/osf-addons.gif' alt="OSF-addons">
 <p><em>Storage integration options.</em></p>
 </div>
 
 
+##### Step 4: Export to GeoTIFF
 
+1. Navigate to `Analysis` → `Tools` 
 
+2. Search for `Copy Raster`
 
+3. Under `Input Raster` select `manhattan.sid`
 
-1. Practice exporting `.geoJSON` and `shapefile` data using [Features to JSON (Conversion)](https://pro.arcgis.com/en/pro-app/latest/tool-reference/conversion/features-to-json.htm) and [Export data](https://pro.arcgis.com/en/pro-app/latest/help/data/geodatabases/overview/export-data.htm#:~:text=To%20export%20a%20shapefile%2C%20you,click%20the%20shapefile%2C%20select%20Export.) ArcGIS Pro documentation.
+4. Choose an output location in a folder on your computer to save the output, and name the file. 
 
-
-<div class="alert-success">
-<h5>File geodatabase</h5>
-<img src='../../../media/file-gdb.png' alt="file geodatabase instructions">
-<p><em>Defaults in ArcGIS Pro are problematic for data management.</em></p>
-</div>
+5. Under `Format` select `TIFF format`. 
 
 
 ### 2. Upload data to OSF.io
 
-<div class="alert-danger">
-  Belle populate.
-</div>
+1. Zip up `shapefile` and `geoTIFF` files, separately
+
+2. Open [OSF.io](https://osf.io/dashboard) account and navigate to your `Data Management Workshop` project folder
+
+3. Organize project folders and discuss
+
+4. Upload the three datasets: zipped geoTIFF, zipped shapefile, and geoJSON
+
+5. Discuss file formats and relationships and segue into mockumentation exercise 
 
 ### 3. Mockumentation
 
-<div class="alert-danger">
-  Belle populate.
-  Use this project example: [Harvard CGA Georeferencing and Digitizing](https://storymaps.arcgis.com/stories/77c9dc5c82bc4392b061a4ba3d3a8efd).
-</div>
+Look at example README files, and collaboratively create documentation for this project. 
 
 ## Resources
+[Example OSF repository](https://osf.io/5ywg7/files/osfstorage#)
+
 [DIY documenatation guide](https://mapping.share.library.harvard.edu/resources/researchers-handbook/prompts/)
 
 [Make a consultation](https://library.harvard.edu/staff/belle-lipton)

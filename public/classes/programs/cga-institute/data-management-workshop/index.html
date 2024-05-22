@@ -47,7 +47,7 @@
 <meta itemprop="name" content="Open access practices for GIS">
 <meta itemprop="description" content="Hands-on workshop materials for practicing GIS project management consistent with open access publishing"><meta itemprop="datePublished" content="2024-05-17T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2024-05-17T00:00:00+00:00" />
-<meta itemprop="wordCount" content="236">
+<meta itemprop="wordCount" content="481">
 <meta itemprop="keywords" content="class," />
 
 
@@ -258,8 +258,7 @@
 <h2 id="in-class-workshop">In-class workshop</h2>
 <h3 id="1-saving-in-reusable-formats">1. Saving in reusable formats</h3>
 <h4 id="discussion">Discussion</h4>
-<p><img src="../../../media/map-package.png" alt="Keziah&amp;rsquo;s project">
-<em>Example from previous CGA GIS Institute participants.</em></p>
+<p><img src="../../../media/map-package.png" alt="Keziah&amp;rsquo;s project"></p>
 <div class="alert-success">
 <img src='../../../media/ppkg.png' alt="Tutorial materials in ArcGIS Online">
 <p><em>While ESRI map package formats are the default, they are not backwards-compatible.</em></p>
@@ -274,33 +273,110 @@
 <p>⚠️ If we want any of our data layers to be accessible, we need to export them to more persistent file formats. </p>
 </div>
 <h4 id="activity">Activity</h4>
+<p>We will start using an updated version of the original map package, which includes datasets at the stage of the completed tutorial, so instead of an ungeoreferenced map, we have a georeferenced map of 1891 NYC, and a new polygon file that starts to trace out historical boundaries.</p>
+<h5 id="step-1-open-the-source-data">Step 1: Open the source data</h5>
+<ol>
+<li>Download <code>ESRI_FILES.zip</code> from the <a href="https://files.osf.io/v1/resources/5ywg7/providers/osfstorage/664e09be65e1de093e893b60/?zip=" target="_blank">OSF.io example repository</a>
+, and uncompress or extract the folder, so that you can double-click <code>GEOREF_DIGITIZE.ppkg</code> and open it in ArcGIS Pro.</li>
+</ol>
+<h5 id="discussion-1">Discussion</h5>
+<div class="alert-success">
+<img src='../../../media/file-gdb.png' alt="file geodatabase instructions">
+<p><em>Defaults in ArcGIS Pro are problematic for data management.</em></p>
+</div>
+<div class="alert-success">
+<img src='../../../media/create-featureclass.png' alt="Creating feature class">
+<p><em>Creating feature class inside a file geodatabase.</em></p>
+<img src='../../../media/wards-esri.png' alt="wards feature class in ArcGIS layer pane">
+<p><em>Newly defined feature class in the ArcGIS Pro layer pane.</em></p>
+</div>
+<div class="alert-success">
+<img src='../../../media/whatthe.png' alt="file geodatabase file structure">
+<p><em>What the?</em></p>
+</div>
+<p><img src="../../../media/formats-texts.png" alt="file format texts from belle (shapefile, geojson, geopackage)">
+<em>Texts from Belle reminding you which formats to use 😸</em></p>
+<h5 id="step-2-export-to-shapefile">Step 2: Export to Shapefile</h5>
 <ol>
 <li>
-<p>Download the data from the georeferencing and digitizing activity by navigating to the <a href="https://www.arcgis.com/home/item.html?id=afdbbd419b2c4729ad37c9b5d95f4990" target="_blank">ArcGIS Online map package page</a>
-, and selecting <code>Download</code>.</p>
+<p>Navigate to <code>Analysis</code> → <code>Tools</code></p>
 </li>
 <li>
-<p>Open the map package in ArcGIS Pro by either double-clicking on the file, or from ArcGIS Pro, selecting <code>Open → Computer → Open another project</code> and navigating to the file.</p>
+<p>Search for <code>Export Features</code></p>
 </li>
 <li>
-<p>Toolbox &gt; Copy Raster</p>
+<p>Under <code>Input Features</code> select <code>Wards</code></p>
 </li>
 <li>
-<p>Practice exporting <code>.geoJSON</code> and <code>shapefile</code> data using <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/conversion/features-to-json.htm" target="_blank">Features to JSON (Conversion)</a>
- and <a href="https://pro.arcgis.com/en/pro-app/latest/help/data/geodatabases/overview/export-data.htm#:~:text=To%20export%20a%20shapefile%2C%20you,click%20the%20shapefile%2C%20select%20Export." target="_blank">Export data</a>
- ArcGIS Pro documentation.</p>
+<p>Click the folder icon next to <code>Output Feature Class</code> and choose a regular folder (not an ESRI file geodatabase) on your computer where you&rsquo;d like to save the shapefile.</p>
+</li>
+<li>
+<p>Select <code>Run</code></p>
+</li>
+</ol>
+<p><img src="../../../media/feature-output.png" alt="shapefile of wards"></p>
+<div class="alert-danger">
+<h5>Step 3: Export to GeoJSON</h5>
+<ol>
+<li>Navigate to Analysis → Tools </li>
+<li>Search for Features to JSON (Conversion)</li>
+<li>Under Input Features select Wards: 1</li>
+<li>Click the folder icon next to Output Feature Class and choose a regular folder (not an ESRI file geodatabase) on your computer where you'd like to save the .geoJSON</li>
+<li>Check (select) Output to GeoJSON</li>
+<li>Select Run</li>
+</ol>
+</div>
+<h5 id="discussion-2">Discussion</h5>
+<div class="alert-success">
+<img src='../../../media/osf-cap.png' alt="Cap on OSF projects">
+<p><em>OSF.io has a cap on storage.</em></p>
+</div>
+<div class="alert-success">
+<img src='../../../media/osf-addons.gif' alt="OSF-addons">
+<p><em>Storage integration options.</em></p>
+</div>
+<h5 id="step-4-export-to-geotiff">Step 4: Export to GeoTIFF</h5>
+<ol>
+<li>
+<p>Navigate to <code>Analysis</code> → <code>Tools</code></p>
+</li>
+<li>
+<p>Search for <code>Copy Raster</code></p>
+</li>
+<li>
+<p>Under <code>Input Raster</code> select <code>manhattan.sid</code></p>
+</li>
+<li>
+<p>Choose an output location in a folder on your computer to save the output, and name the file.</p>
+</li>
+<li>
+<p>Under <code>Format</code> select <code>TIFF format</code>.</p>
 </li>
 </ol>
 <h3 id="2-upload-data-to-osfio">2. Upload data to OSF.io</h3>
-<div class="alert-danger">
-  Belle populate.
-</div>
+<ol>
+<li>
+<p>Zip up <code>shapefile</code> and <code>geoTIFF</code> files, separately</p>
+</li>
+<li>
+<p>Open <a href="https://osf.io/dashboard" target="_blank">OSF.io</a>
+ account and navigate to your <code>Data Management Workshop</code> project folder</p>
+</li>
+<li>
+<p>Organize project folders and discuss</p>
+</li>
+<li>
+<p>Upload the three datasets: zipped geoTIFF, zipped shapefile, and geoJSON</p>
+</li>
+<li>
+<p>Discuss file formats and relationships and segue into mockumentation exercise</p>
+</li>
+</ol>
 <h3 id="3-mockumentation">3. Mockumentation</h3>
-<div class="alert-danger">
-  Belle populate.
-  Use this project example: [Harvard CGA Georeferencing and Digitizing](https://storymaps.arcgis.com/stories/77c9dc5c82bc4392b061a4ba3d3a8efd).
-</div>
+<p>Look at example README files, and collaboratively create documentation for this project.</p>
 <h2 id="resources">Resources</h2>
+<p><a href="https://osf.io/5ywg7/files/osfstorage#" target="_blank">Example OSF repository</a>
+</p>
 <p><a href="https://mapping.share.library.harvard.edu/resources/researchers-handbook/prompts/" target="_blank">DIY documenatation guide</a>
 </p>
 <p><a href="https://library.harvard.edu/staff/belle-lipton" target="_blank">Make a consultation</a>

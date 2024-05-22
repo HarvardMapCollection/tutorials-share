@@ -67,7 +67,32 @@ _Example from previous CGA GIS Institute participants._
 
 3. Toolbox > Copy Raster
 
+<div class="alert-success">
+<h5>OSF Storage Caps</h5>
+<img src='../../../media/osf-cap.png' alt="Cap on OSF projects">
+<p><em>OSF.io has a cap on storage.</em></p>
+</div>
+
+
+<div class="alert-success">
+<h5>OSF Storage integrations</h5>
+<img src='../../../media/osf-addons.gif' alt="OSF-addons">
+<p><em>Storage integration options.</em></p>
+</div>
+
+
+
+
+
+
 1. Practice exporting `.geoJSON` and `shapefile` data using [Features to JSON (Conversion)](https://pro.arcgis.com/en/pro-app/latest/tool-reference/conversion/features-to-json.htm) and [Export data](https://pro.arcgis.com/en/pro-app/latest/help/data/geodatabases/overview/export-data.htm#:~:text=To%20export%20a%20shapefile%2C%20you,click%20the%20shapefile%2C%20select%20Export.) ArcGIS Pro documentation.
+
+
+<div class="alert-success">
+<h5>File geodatabase</h5>
+<img src='../../../media/file-gdb.png' alt="file geodatabase instructions">
+<p><em>Defaults in ArcGIS Pro are problematic for data management.</em></p>
+</div>
 
 
 ### 2. Upload data to OSF.io

@@ -1,8 +1,9 @@
 ---
-title: New to GIS
+title: Harvard Library GIS Workshops 
 image: a-gradient1.png
 date: 2022-01-17
+description: Materials to either follow along, participate in, or sign up for GIS workshops held at Harvard Library
 
 ---
 
-Recommended materials for those just getting started with GIS.
+Harvard Map Collection workshop materials.

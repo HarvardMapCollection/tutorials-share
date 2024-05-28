@@ -4,6 +4,7 @@ date: 2023-01-20
 tags: ["tutorials","georeferencing", "qgis"]
 image: default-gradient.png
 layout: single2
+description: How to georeference maps in QGIS
 ---
 
 1. [Download QGIS](https://harvardmapcollection.github.io/tutorials/qgis/download/), if you haven't already.
@@ -101,3 +102,9 @@ If, for some reason, they did not export correctly, it is possible to export the
 
 20. To start georeferencing another map, in the QGIS georeferencer, select `File → Reset Georeferencer`. Repeat this process starting at step 5.
 
+
+
+<div class="alert-success">
+<h2>Give your feedback to improve our tutorials</h2>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe79XP92_ydLrD47-c2rts93a_vlAEYvbg7qqRdl0HxZ8E97Q/viewform?usp=sf_link" width="640" height="422" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>

@@ -4,6 +4,7 @@ date: 2023-01-18
 tags: ["tutorials", "qgis"]
 image: zoom.gif
 layout: single2
+description: add background layers to a QGIS project
 ---
 
 Basemaps can be helpful reference points when working with spatial data. 
@@ -25,3 +26,11 @@ Basemaps can be helpful reference points when working with spatial data.
 
 ## Tips
 - To add other styles of basemap not included by default in the QGIS install, you can run a Google search about the latest QGIS plugins for basemaps. Here is a [2018 article about using basemap plugin Quick Map Services](https://opengislab.com/blog/2018/4/15/add-basemaps-in-qgis-30) for additional basemap styles.
+
+
+
+
+<div class="alert-success">
+<h2>Give your feedback to improve our tutorials</h2>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdsMkWf4QU1NAXaWkjSc_2d9WLSSnV8uXYIfIsjduyQ2fFxsQ/viewform?usp=sf_link" width="640" height="422" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>

@@ -103,3 +103,8 @@ Here is the attribute table for the results of this query, showing that it has r
 
 To save the results as a new data layer, right-click the layer in the layer list and select `Export`. Choose `Save features as` and save the data someplace logical, naming the file and selecting `geoJSON` as the filetype. 
 
+
+<div class="alert-success">
+<h2>Give your feedback to improve our tutorials</h2>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdpcaghuUSunvAykWz8PD56RxuZMFOHn0vdBfWn8p43MUrY5Q/viewform?usp=sf_link" width="640" height="422" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>

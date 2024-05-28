@@ -4,6 +4,7 @@ date: 2023-01-17
 tags: ["tutorials", "census", "qgis"]
 image: 2.png
 layout: single2
+description: How to attach or merge boundaries to spreadsheet data (or perform a table join) in QGIS 
 
 ---
 
@@ -99,3 +100,8 @@ Refer to the tenure [codebook](https://github.com/HarvardMapCollection/tutorials
  <strong>Important!</strong> Joins in the QGIS document are ephemeral and will not save unless exported. Right-click the census tracts layer, select Export → Save Features As and save the new joined dataset to preserve the join.
 </div>
 
+
+<div class="alert-success">
+<h2>Give your feedback to improve our tutorials</h2>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfzy7TYqM9rRKI5TEUJVqCcIRVlPSHCktR3L_QxADrJLIPcag/viewform?usp=sf_link" width="640" height="422" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>

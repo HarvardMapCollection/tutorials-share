@@ -1,7 +1,7 @@
 ---
 title: Re-Wilding Harvard Student Projects 2024
-date: 2024-06-15
-tags: ["news"]
+date: 2024-06-28
+tags: ["news", "projects"]
 image: distance.png
 authors: ["Harvard Map Collection"]
 description: Re-Wilding Harvard 2024 GIS projects.

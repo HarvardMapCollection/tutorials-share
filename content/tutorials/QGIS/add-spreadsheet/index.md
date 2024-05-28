@@ -34,7 +34,7 @@ This tutorial will cover how to add tabular data to a QGIS project.
 
 8. Select `Close`.
 
-<div class="alert-danger">
+<div class="alert-warning">
 <h2>Example data</h2>
  <p>Please find an <a href="example_addresses.csv" download>example spreadsheet</a> saved as a .csv with the latitude and longitude formatted correctly so that it should import as points in QGIS. </p>
 </div>

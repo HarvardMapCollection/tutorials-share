@@ -294,6 +294,18 @@ figcaption.append {
     color: #e1d0c1;
 }
 
+.alert-danger a, .alert-info a, .alert-success table{
+    color: black;
+    width: 100%;
+    margin-bottom: 3em;
+    margin-top:1.7em;
+    background-color: #F3F3F3;;
+}
+
+.alert-danger a, .alert-info a, .alert-success table a{
+    color: #007ABA;
+}
+
 
 .alert-danger {
     background-color: #FD0314; /* Red */

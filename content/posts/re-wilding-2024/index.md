@@ -176,6 +176,8 @@ Hannah Adler '25 started to explore the relationship of built and undeveloped la
 " ></iframe>
 <figcaption class="append"><a href="https://iiif.lib.harvard.edu/manifests/view/ids:3043928$1i">New Boston and Charles River Basin, 1880</a></figcaption>
 
+> I also had seen this image in HOLLIS that conveys a certain set of aesthetic ideals with how people were imagining the riverside could be." - Hannah Adler
+
 <img src="media/hannah-parcels.png" style="width:150%;object-fit: cover;">
 <br>
 <figcaption class="append">Parcel data Hannah created for 1873.</figcaption>

@@ -3,16 +3,16 @@ title: Re-Wilding Harvard, Spring 2024
 date: 2024-06-13
 tags: ["news"]
 image: winter.png
-authors: ["Belle Lipton", "Boya Zhou", "Nikita Nair", "Hayden Teeter", "Alyssia Wiesenbauer", "Cody Vasquez", "Hannah Adler"]
+authors: ["Belle Lipton", "Hannah Adler", "Nikita Nair", "Hayden Teeter", "Cody Vasquez", "Alyssia Wiesenbauer", "Boya Zhou"  ]
 description: Re-Wilding Harvard 2024 GIS projects.
 ---
 
 During Spring 2024, the Harvard Map Collection embedded with history course Re-Wilding Harvard, taught by Professor Joyce Chaplin. From the syllabus, "re-wilding returns a place to an earlier form to promote biodiversity; urban re-wilding does this within urban spaces, including Harvard’s." 
 
 ![Planter at Harvard Museum of Natural History](media/re-wild.png)
-*[Re-wilded site](https://www.harvardmagazine.com/2022/08/re-wilding-harvard) from 2022, at the Harvard Museum of Natural History.*
+*[Re-wilded site](https://www.harvardmagazine.com/2022/08/re-wilding-harvard) from 2021, at the Harvard Museum of Natural History.*
 
-In past iterations of the course, students studied historic dimensions of pre-colonial landscapes and ecosystems at Harvard and their impact on what exists now. Students in 2022 even re-wilded a site. Throughout this learning, maps played a role in helping to understand places on campus, past and present. When Professor Chaplin and I met during a visit to the Map Collection in 2022, she was interested in the potential for beginning to introduce GIS in class, so students could engage more deeply with these topics. 
+In past iterations of the course, students studied historic dimensions of pre-colonial landscapes and ecosystems at Harvard and their impact on what exists now. Students have even re-wilded two sites, one at the Museum of Natural History, and another at the Business School. Throughout this learning, maps played a role in helping to understand places on campus, past and present. When Professor Chaplin and I met during a visit to the Map Collection in 2022, she was interested in the potential for beginning to introduce GIS in class, so students could engage more deeply with these topics. 
 
 
 In this article, we will focus on the ways our resulting partnership opened up outcomes previously inaccessible when we had to rely on drop-in models in the past, models where course librarians are limited by one or two course visits during the semester. We will also highlight the delightful geospatial findings of Re-Wilding students from Spring 2024.
@@ -34,8 +34,7 @@ Though it was not required, most students in the course opted to use GIS for the
 <div class="alert-success">
 <h3><a href="https://felt.com/embed/map/Old-Harvard-Yard-lxyv4F5eQ79Bz9AeXW1wcnoD?loc=42.374231%2C-71.116411%2C17.57z&legend=0&logo=1&link=1">Old Harvard Yard</a></h3>
 <iframe width="100%" height="450" frameborder="0" title="Felt Map" src="https://felt.com/embed/map/Old-Harvard-Yard-lxyv4F5eQ79Bz9AeXW1wcnoD?loc=42.374231%2C-71.116411%2C17.57z&legend=0&logo=1&link=1" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-<p><em>🖲️ Pan and click, or open in a new tab to explore <a href="https://felt.com/map/Old-Harvard-Yard-lxyv4F5eQ79Bz9AeXW1wcnoD?loc=42.375224,-71.116134,17.44z&share=1">Old Harvard Yard </a>, by Alyssia Wiesenbauer, Avery Britt, Emily Arbuiso,
-Mia DiLorenzo, Nikita Nair, Hayden Teeter, Cody Vasquez.</em></p>
+<p><em>🖲️ Pan and click, or open in a new tab to explore <a href="https://felt.com/map/Old-Harvard-Yard-lxyv4F5eQ79Bz9AeXW1wcnoD?loc=42.375224,-71.116134,17.44z&share=1">Old Harvard Yard </a>, by Emily Arbuiso, Avery Britt, Mia DiLorenzo,  Nikita Nair, Hayden Teeter, Cody Vasquez, Alyssia Wiesenbauer.</em></p>
 <br>
 <p style="text-indent:25px"><span>&#8220;</span>The idea behind our project is comparing photos of Harvard Yard today to that same exact place in the past. We did a big archival search of images of Harvard Yard throughout the years, which also included some drawings and sketches. We were able to capture that Harvard Yard might seem like this very historic, unchanging, traditional space. But in actuality, a lot of its key features have been changed and adapted over the years, for example, many of the trees weren’t even planted until the early twentieth century. So what does that mean for us when we’re envisioning a world where we might start to Re-Wild Harvard Yard? What does it say about other green spaces or seeming fixtures such as Widener Library, which was built in 1912? We were questioning the perception of static and integral elements of the yard, as they relate to green space.<span>&#8221;</span></p> 
 <p style="text-indent:25px">- Cody Vasquez <span>&#8216;</span>25</p>
@@ -82,7 +81,7 @@ Mia DiLorenzo, Nikita Nair, Hayden Teeter, Cody Vasquez.</em></p>
 
 <div class="alert-success">
 <h4>💡 Cody<span>&#8217;</span>s Highlights</h4>
-<p style="text-indent:25px"><span>&#8220;</span>There's a building in Harvard Yard called Phillips Brooks House, and it’s a student-run service organization built in the late 19th century. I learned its original door faced outwards towards the community, and its address was One Harvard Yard. In our project, we included images showing how the front door switched to the other side, so now it's Harvard yard facing. </p>
+<p style="text-indent:25px"><span>&#8220;</span>There's a building in Harvard Yard called Phillips Brooks House, and it’s a student-run service organization built in the late 19th century. I learned its original door faced outwards towards the community, and its address was One Harvard Yard. In our project, we included images showing how the front door switched to the other side, so now it's Harvard Yard facing. </p>
 
 <table>
   <tr>

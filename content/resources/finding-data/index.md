@@ -53,10 +53,10 @@ description: Hands-on tips for how to find or search for geospatial or GIS data 
 > - Specific feature types with tags (e.g. restaurants)
 > - "Basemap" style (e.g. roads, buildings)
 > ##### Wiki
-> - 
+> - Political geographies / maps to georeference
+> - Difficult to find coordinate data 
+> - Links to datasets in sources 
 > ##### GeoNames
-> - 
-> ##### Natural Earth
 > - 
 >### Making the most out of your consultation
 >
@@ -109,8 +109,6 @@ description: Hands-on tips for how to find or search for geospatial or GIS data 
 > - Difficult to find coordinate data e x a m p l e Adriatic?
 > - Links to datasets in sources e x a m p l e
 > ##### GeoNames
-> - 
-> ##### Natural Earth
 > - 
 >### Making the most out of your consultation
 > - key point 1 e x a m p l e

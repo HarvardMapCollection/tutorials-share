@@ -43,12 +43,20 @@ description: Hands-on tips for how to find or search for geospatial or GIS data 
 > ### Getting creative
 > #### Augmenting data
 > ##### Spreadsheets
-> - 
-> #### Crowdsourcing
+> - Importing coordinates, geocoding, or join
+> #### Creating data
+> - Georeffing
+> - Making spreadsheet with coordinates
+> - Creating vector data with Google MyMaps, geojson.io, or desktop software (QGIS, ArcGIS Pro)
+> #### Crowdsourcing -- massage this, general (not-content specific sources for 'getting creative')
 > ##### OSM
 > - Specific feature types with tags (e.g. restaurants)
 > - "Basemap" style (e.g. roads, buildings)
 > ##### Wiki
+> - 
+> ##### GeoNames
+> - 
+> ##### Natural Earth
 > - 
 >### Making the most out of your consultation
 >
@@ -83,14 +91,26 @@ description: Hands-on tips for how to find or search for geospatial or GIS data 
 > ### Getting creative
 > #### Augmenting data
 > ##### Spreadsheets
-> - 
-> #### Crowdsourcing
+> - Importing coordinates, geocoding, or join
+> #### Creating data
+> - Georeffing
+> - Making spreadsheet with coordinates
+> - Creating vector data with Google MyMaps, geojson.io, or desktop software (QGIS, ArcGIS Pro)
+> #### Crowdsourcing -- massage this, general (not-content specific sources for 'getting creative')
 > ##### OSM
 > example India restaurants
 > 
 > geographies e x a m p l e
 >
 > ##### Wiki
+> - Political geographies / maps to georeference
+>       - e x a m p l e 1 map in library
+>       - e x a m p l e 2 rendered map
+> - Difficult to find coordinate data e x a m p l e Adriatic?
+> - Links to datasets in sources e x a m p l e
+> ##### GeoNames
+> - 
+> ##### Natural Earth
 > - 
 >### Making the most out of your consultation
 > - key point 1 e x a m p l e

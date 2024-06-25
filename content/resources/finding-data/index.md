@@ -23,20 +23,33 @@ description: Hands-on tips for how to find or search for geospatial or GIS data 
 > 
 >### Low-hanging fruit
 > #### Search tips
-> - site:.gov
-> - "open data"
-> - "shapefile" 
-> - "download"
+> - `"site:.gov"`
+> - Or specifically search the site, instead of domain, e.g. `"site:usda.gov"`
+> - `"open data"`
+> - `"shapefile"`
+> - `"download"`
+> - Thought exercise: who cares about this data?
 >
 > #### Portals
-> - State clearinghouses
+> - [State clearinghouses](https://pitt.libguides.com/c.php?g=12667&p=2206252)
+> - Try other geographies, municipal, county
 > #### Spatial resolution 
 > - Starting small + scaling up
 > - If you scale up, you can filter or geographically clip after
+> #### Temporal resolution 
+> - Realistic expections -- some useful data isn't updated often
 > #### Use visualization tools to point back to source
-> - PolicyMap (including blog), SocialExplorer, ArcGIS Online
+> - PolicyMap (including [blog](https://www.policymap.com/resources/blog)), SocialExplorer ([blog](https://www.socialexplorer.com/blog/post)), ArcGIS Online
 > ### Getting creative
-> 
+> #### Augmenting data
+> ##### Spreadsheets
+> - 
+> #### Crowdsourcing
+> ##### OSM
+> - Specific feature types with tags (e.g. restaurants)
+> - "Basemap" style (e.g. roads, buildings)
+> ##### Wiki
+> - 
 >### Making the most out of your consultation
 >
 > - key point 1
@@ -62,10 +75,24 @@ description: Hands-on tips for how to find or search for geospatial or GIS data 
 > - Cali schools city, state, etc
 > - County e x a m p l e
 > - How 2 clip
+> #### Temporal resolution 
+> - Realistic expections -- some useful data isn't updated often - national wetlands example 1996
 > #### Use visualization tools to point back to source
 > - e x a m p l e
+> 
+> ### Getting creative
+> #### Augmenting data
+> ##### Spreadsheets
+> - 
+> #### Crowdsourcing
+> ##### OSM
+> example India restaurants
+> 
+> geographies e x a m p l e
+>
+> ##### Wiki
+> - 
 >### Making the most out of your consultation
 > - key point 1 e x a m p l e
 > - key point 2 e x a m p l e 
-
 

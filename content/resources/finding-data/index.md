@@ -17,7 +17,19 @@ description: Hands-on tips for how to find or search for geospatial or GIS data 
 > ## At a glance
 >
 >### Low-hanging fruit
+> #### Search tips
+> - site:.gov
+> - "open data"
+> - "shapefile" 
+> - "download"
 >
+> #### Portals
+> - State clearinghouses
+> #### Spatial resolution 
+> - Starting small + scaling up
+>       - Example w Cali schools
+> #### Use visualization tools to point back to source
+> - PolicyMap (including blog), SocialExplorer, ArcGIS Online
 > ### Getting creative
 > 
 >### Making the most out of your consultation

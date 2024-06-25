@@ -56,8 +56,6 @@ description: Hands-on tips for how to find or search for geospatial or GIS data 
 > - Political geographies / maps to georeference
 > - Difficult to find coordinate data 
 > - Links to datasets in sources 
-> ##### Natural Earth?
-> - Cartographic data? 
 > ##### GeoNames
 > - 
 >### Making the most out of your consultation
@@ -93,7 +91,7 @@ description: Hands-on tips for how to find or search for geospatial or GIS data 
 > ### Getting creative
 > #### Augmenting data
 > ##### Spreadsheets
-> - Importing coordinates, geocoding, or join
+> - Importing coordinates, geocoding, or join (use natural earth in hands-on activity)
 > #### Creating data
 > - Georeffing
 > - Making spreadsheet with coordinates
@@ -112,8 +110,6 @@ description: Hands-on tips for how to find or search for geospatial or GIS data 
 > - Links to datasets in sources e x a m p l e
 > ##### GeoNames
 > - 
-> ##### Natural Earth?
-> - Cartographic data? 
 >### Making the most out of your consultation
 > - key point 1 e x a m p l e
 > - key point 2 e x a m p l e 

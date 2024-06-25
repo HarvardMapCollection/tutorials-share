@@ -5,7 +5,7 @@ date: 2024-06-25
 description: 
 ---
 
-*We are actively developing this handbook. It will be available September 2025.*
+*We are actively developing this handbook. It will be available September 2024.*
 
 >
 > ## Action item

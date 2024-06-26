@@ -21,7 +21,7 @@ description: Skimmable list of the approaches in this guidebook for finding GIS 
 >2. Getting creative
 >3. Maximizing your research consultation
 >
->The rest of this page will give you a skimmable outline and list quick tips for what is expanded on in the rest of the sections. Find other pages that go into each theme wtih deeper explanation, real use cases, and example problems and datasets.
+>The rest of this page will give you a skimmable outline and list quick tips for what is expanded on in the rest of the sections. Find other pages that go into each theme with deeper explanation and example problems and datasets.
 >
 >## In-person workshops
 >This content is sometimes offered synchronously in workshop format. To check upcoming dates, check the [Harvard Library calendar](https://libcal.library.harvard.edu/calendar/main?t=d&q=gis&cid=15049&cal=15049&inc=0). If you teach a course, and would like us to teach these materials to your class, please contact the authors.

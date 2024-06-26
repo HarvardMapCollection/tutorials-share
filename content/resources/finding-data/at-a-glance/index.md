@@ -71,7 +71,7 @@ description: Skimmable list of the approaches in this guidebook for finding GIS 
 > - Political geographies / maps to georeference
 > - Difficult to find coordinate data 
 > - Links to datasets in sources 
-> ##### GeoNames
+> #### GeoNames
 > - 
 
 ## Making the most out of your consultation

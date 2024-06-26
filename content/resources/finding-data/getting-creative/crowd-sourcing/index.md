@@ -4,7 +4,8 @@ date: 2024-06-24
 image: a-gradient12.png
 ---
 
-[↵ Back to Finding Data Home](/resources/finding-data/)
+- [↵ Back to Getting Creative Home](/resources/finding-data/getting-creative/)
+- [↵ Back to Finding Data Home](/resources/finding-data/)
 
 ## OSM
 - example India restaurants

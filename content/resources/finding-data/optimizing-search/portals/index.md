@@ -4,7 +4,8 @@ date: 2024-06-25
 image: a-gradient12.png
 ---
 
-[↵ Back to Finding Data Home](/resources/finding-data/)
+- [↵ Back to Optimizing Search Home](/resources/finding-data/optimizing-search/)
+- [↵ Back to Finding Data Home](/resources/finding-data/)
 
 - example w DC food deserts
 ![Question about food](media/dc-request.png)

@@ -6,7 +6,103 @@
     <description>Recent content on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1. Search tips</title>
+      <link>https://mapping.share.library.harvard.edu/resources/finding-data/optimizing-search/search-tips/</link>
+      <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/finding-data/optimizing-search/search-tips/</guid>
+      <description> ↵ Back to Optimizing Search Home ↵ Back to Finding Data Home </description>
+    </item>
+    
+    <item>
+      <title>1. Working with spreadsheets</title>
+      <link>https://mapping.share.library.harvard.edu/resources/finding-data/getting-creative/working-with-spreadsheets/</link>
+      <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/finding-data/getting-creative/working-with-spreadsheets/</guid>
+      <description>↵ Back to Getting Creative Home ↵ Back to Finding Data Home So you have a spreadsheet?
+Importing coordinates Spreadsheets with coordinates can be imported to GIS software as points While this page is under construction, check out our importing coordinates from a table . Geocoding addresses to get coordinates Spreadsheets with addresses can be geocoded to create coordinates, which you can then import to GIS software as points While this page is under construction, check out this library guide on geocoding .</description>
+    </item>
+    
+    <item>
+      <title>1. Finding GIS data at a glance</title>
+      <link>https://mapping.share.library.harvard.edu/resources/finding-data/at-a-glance/</link>
+      <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/finding-data/at-a-glance/</guid>
+      <description>↵ Back to Finding Data Home We are actively developing this guidebook. It will be available September 2024.
+Introduction This guidebook was developed by a cohort of GIS librarians from different universities The materials are meant to be a companion to bolster your facility searching for GIS data Use the guide as a checklist to help decide where you&amp;rsquo;d like support from librarians Guide structure This guidebook is organized into three sections:</description>
+    </item>
+    
+    <item>
+      <title>2. Creating your own GIS data</title>
+      <link>https://mapping.share.library.harvard.edu/resources/finding-data/getting-creative/creating-data/</link>
+      <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/finding-data/getting-creative/creating-data/</guid>
+      <description> ↵ Back to Getting Creative Home ↵ Back to Finding Data Home Georeferencing Making spreadsheet with coordinates Creating vector data with Google MyMaps, geojson.io, or desktop software (QGIS, ArcGIS Pro) </description>
+    </item>
+    
+    <item>
+      <title>2. Portals</title>
+      <link>https://mapping.share.library.harvard.edu/resources/finding-data/optimizing-search/portals/</link>
+      <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/finding-data/optimizing-search/portals/</guid>
+      <description> ↵ Back to Optimizing Search Home ↵ Back to Finding Data Home example w DC food deserts Grocery store locations Healthy corner stores Farmer&amp;amp;rsquo;s markets </description>
+    </item>
+    
+    <item>
+      <title>3. Spatial resolution</title>
+      <link>https://mapping.share.library.harvard.edu/resources/finding-data/optimizing-search/spatial-resolution/</link>
+      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/finding-data/optimizing-search/spatial-resolution/</guid>
+      <description>↵ Back to Optimizing Search Home ↵ Back to Finding Data Home Cali schools city, state, etc
+County e x a m p l e
+How 2 clip</description>
+    </item>
+    
+    <item>
+      <title>3. Using crowd-sourced databases</title>
+      <link>https://mapping.share.library.harvard.edu/resources/finding-data/getting-creative/crowd-sourcing/</link>
+      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/finding-data/getting-creative/crowd-sourcing/</guid>
+      <description> ↵ Back to Getting Creative Home ↵ Back to Finding Data Home OSM example India restaurants geographies e x a m p l e Wiki Political geographies / maps to georeference e x a m p l e 1 map in library e x a m p l e 2 rendered map Difficult to find coordinate data e x a m p l e Adriatic? Links to datasets in sources e x a m p l e GeoNames Mapping Color example </description>
+    </item>
+    
+    <item>
+      <title>4. Temporal resolution</title>
+      <link>https://mapping.share.library.harvard.edu/resources/finding-data/optimizing-search/temporal-resolution/</link>
+      <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/finding-data/optimizing-search/temporal-resolution/</guid>
+      <description>↵ Back to Optimizing Search Home ↵ Back to Finding Data Home Realistic expections &amp;ndash; some useful data isn&amp;rsquo;t updated often - national wetlands example 1996</description>
+    </item>
+    
+    <item>
+      <title>5. Visualization tools</title>
+      <link>https://mapping.share.library.harvard.edu/resources/finding-data/optimizing-search/visualization-tools/</link>
+      <pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/resources/finding-data/optimizing-search/visualization-tools/</guid>
+      <description> ↵ Back to Optimizing Search Home ↵ Back to Finding Data Home </description>
+    </item>
+    
+    <item>
+      <title>Re-Wilding Harvard, Spring 2024</title>
+      <link>https://mapping.share.library.harvard.edu/posts/re-wilding-2024/</link>
+      <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mapping.share.library.harvard.edu/posts/re-wilding-2024/</guid>
+      <description>During Spring 2024, the Harvard Map Collection embedded with history course Re-Wilding Harvard, taught by Professor Joyce Chaplin. From the syllabus, &amp;ldquo;re-wilding returns a place to an earlier form to promote biodiversity; urban re-wilding does this within urban spaces, including Harvard’s.&amp;rdquo;
+Re-wilded site from 2021, at the Harvard Museum of Natural History.
+In past iterations of the course, students studied historic dimensions of pre-colonial landscapes and ecosystems at Harvard and their impact on what exists now.</description>
+    </item>
+    
     <item>
       <title>Open access practices for GIS</title>
       <link>https://mapping.share.library.harvard.edu/classes/programs/cga-institute/data-management-workshop/</link>
@@ -256,7 +352,7 @@ How to Download QGIS QGIS is a free and open source desktop GIS software used to
 How to Download Visit QGIS.org .
 Select Download Now.
 Select your desired platform.
-Tips If you have the option between many installer packages, choose Standalone Long Term Release To learn your way around the QGIS interface, you can check out these resources: Understanding the QGIS Interface QGIS Documentation Warning If you get an error message that Apple can&amp;rsquo;t check the app for malicious software, you can follow these instructions , by right-clicking the application and selecting Open.</description>
+Tips If you have the option between many installer packages, choose Standalone Long Term Release To learn your way around the QGIS interface, you can check out these resources: Understanding the QGIS Interface QGIS Documentation Warning If you get an error message that Apple can&amp;rsquo;t check the app for malicious software, instead of double-clicking the icon to open the program, instead try right-clicking, and select Open.</description>
     </item>
     
     <item>

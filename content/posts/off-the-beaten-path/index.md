@@ -8,6 +8,10 @@ description: This project was funded by a 2024 May Crane fellowship, and geared 
 
 ---
 
+<video width="100%"  controls>
+  <source src="media/Off the beaten path.mp4" type="video/mp4">
+</video>
+
 ## Introduction
 
 When I first arrived in Boston three years ago, only a few weeks away from starting college in the heart of Cambridge, I wanted to take in as much of the city as I could. Armed with a TripAdvisor list of "The 10 Best Things to Do in Boston" and a confusing MBTA map I found at the airport, I set off to the city's tourists hotspots, historical landmarks, and buzzing restaurants. As one often does, I walked the Freedom Trail, shopped at Newbury Street, ate at a nice Back Bay restaurant, and bought an overpriced Red Sox cap at the Commons. By the time I checked everything off my list and felt comfortable taking the T without a map, I thought I knew what I had to know about the city. Needless to say, I was wrong.

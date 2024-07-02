@@ -1,5 +1,5 @@
 ---
-title: 5. Visualization tools
+title: 5. Breadcrumb approach
 date: 2024-06-22
 image: a-gradient3.png
 ---

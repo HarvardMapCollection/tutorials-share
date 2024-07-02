@@ -6,3 +6,8 @@ image: gradient.png
 
 - [↵ Back to Optimizing Search Home](/resources/finding-data/optimizing-search/)
 - [↵ Back to Finding Data Home](/resources/finding-data/)
+
+![](media/apple2.png)
+
+
+![](media/apple1.png)

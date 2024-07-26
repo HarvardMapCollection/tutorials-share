@@ -22,6 +22,7 @@ All you will need for this workshop are two free accounts. (1) [Felt.com](https:
 | **Steps** | 
 | --- | 
 | [Registration](https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/registration/) | 
+| [What are we mapping?](https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/what-are-we-mapping/)|
 | Poverty rate mapping by census tract | 
 | Percent non-white mapping by census tract |
 | Working with spreadsheet data  | 

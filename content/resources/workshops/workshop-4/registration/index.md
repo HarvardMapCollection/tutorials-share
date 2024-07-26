@@ -45,15 +45,12 @@ We will be using NHGIS.org via the Minnesota Population Center to obtain census 
 <p>Today we will use Harvard Library's Felt educational license, which is available to workshop participants, and students at Harvard learning GIS. If you're following along at home, you can make a few free maps with a Felt public account, which will be enough to complete this workshop.</p>
 </div>
 
-### If you are a Harvard student or in-person workshop participant
 
 1. Make a free account on [Felt.com](https://felt.com/).
 
-1. Add your email to [this list](https://docs.google.com/forms/d/e/1FAIpQLSeTkBRUne9IyjZRcfzXKuezPrHWlCfe9efWteQYsU8lkdJgzA/viewform?usp=sf_link) and the instructor will add you to our workspace.
+2. If you are a Harvard student, or attending this workshop in-person, add your email to [this list](https://docs.google.com/forms/d/e/1FAIpQLSeTkBRUne9IyjZRcfzXKuezPrHWlCfe9efWteQYsU8lkdJgzA/viewform?usp=sf_link) and the instructor will add you to our education-tier workspace.
 
-### If you are following along at home
 
-1. Make a free account on [Felt.com](https://felt.com/).
 
 
 

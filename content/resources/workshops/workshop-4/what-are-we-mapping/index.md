@@ -43,6 +43,11 @@ We will learn how to compare a historic map against all of these modern data lay
 
 ## Data housekeeping
 
-The workshop data for this course is available from the [Harvard_Map_Collection_Workshop_Data](https://osf.io/nuwqs/files/osfstorage) folder. You can download the whole folder to your computer. The pace of in-person workshops varies group-by-group. Some folks want to spend lots of time really understanding each step, some folks want to fly and move ahead quickly. Both preferences are normal! For that reason, on the day of the workshop, we will try to establish a median pace. This means if you want to take more time on any given step than the tempo we have found as a group, the steps are all available to return to later. 
+### Where is the workshop data?
+The workshop data for this course is available from the [Harvard_Map_Collection_Workshop_Data](https://osf.io/nuwqs/files/osfstorage) folder. 
+You can download the whole folder to your computer. 
 
-To facilicate being able to keep up with the group as we move along in person, we have organized the data so that there are slices of data representing the beginning and end of each step. The instructor and online tutorial steps will cue you with instructions for which dataset to refer to at any given point in the workshop.
+### How is the workshop data organized?
+The pace of in-person workshops varies group-by-group. Some folks want to spend lots of time really understanding each step, some folks want to fly and move ahead quickly. We want to give you both options. 
+
+On the day of the workshop, we will establish a median pace. If you haven't personally moved on from any given step before we're ready to move on as a group, the tutorial instructions refer to pre-made datasets for each step increment. This way, you can follow along in person, and refer more deeply to previous steps using the tutorial instructions later.

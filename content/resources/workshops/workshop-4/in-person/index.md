@@ -28,6 +28,9 @@ All you will need for this workshop are two free accounts. (1) [Felt.com](https:
 | Buffers and spatial analysis  |
 | Historical maps | 
 
+## Data
+[You can download course data](https://osf.io/nuwqs/) from the Harvard Map Collection Open Science Framework site for Geospatial Research, Teaching and Learning. 
+
 
 ## Attribution
 

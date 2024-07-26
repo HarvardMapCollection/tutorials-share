@@ -53,3 +53,6 @@ You can achieve these steps using a number of software environments, including R
 
 12. Wait a moment or so for your extract to finish processing, and then download it by selecting `TABLES`.
 ![nhgis download tables button](media/tables.png)
+
+## Preparing the data for mapping
+

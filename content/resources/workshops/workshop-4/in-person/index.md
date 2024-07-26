@@ -16,7 +16,7 @@ Find out when we are offering this workshop by visiting the [library calendar](h
 
 
 ## Requirements
-All you will need for this workshop are two free accounts to [Felt.com](https://felt.com/), our mapping visualization site, and [NHGIS.org](https://nhgis.org/), the site we use to access census data. Instructions for registering are included in the workshop steps.
+All you will need for this workshop are two free accounts. (1) [Felt.com](https://felt.com/), our mapping visualization site, and (2) [NHGIS.org](https://nhgis.org/), the site we use to access census data. Instructions for registering are included in the workshop steps.
 
 
 | **Steps** | 

@@ -190,35 +190,45 @@ Poverty Rate= AMZME002 + AMZME003 / AMZME001 x 100
 <details>
 <summary>LibreOffice instructions</summary>
 
+1. Create a new column titled `POVERTY_RATE`.
+
+2. In the second cell of the new column, enter the equation 
+<br>
+`= IFERROR((AR2 + AS2)/AQ2 * 100, 0)`
+<br>
+*'IFERROR' catches null values in the source census data. We ask the function to return 0 instead of an error message if the function can't carry out.*
+
+3. Fill down to complete the column by double-clicking the plus sign on the cell with the formula.
+
+3. `File` → `Save`.
+
 
 </details>
 
 <details>
 <summary>Google Sheets instructions</summary>
 
-1. Make sure all of the columns `AMZME001`, `AMZME002`, and `AMZME003` are formatted as numbers, and not text. Do this by highlighting all three columns and selecting from the menu `Format` → `Number` → `Number`. 
+1. Add a new column with the header titled `POVERTY_RATE`.
 
-2. `Insert`→ `Column`→ `One Column Right`. In the first cell of the new column create a header titled `POVERTY_RATE`.
-
-3. In the second cell of the new column, enter the equation 
+2. In the second cell of the new column, enter the equation 
 <br>
 `= IFERROR((AR49735 + AS49735)/AQ49735 * 100, 0)`
 <br>
 *'IFERROR' catches null values in the source census data. We ask the function to return 0 instead of an error message if the function can't carry out.*
 
 
-4. Fill down to complete the column by double-clicking the blue dot on the cell with the formula.
+3. Fill down to complete the column by double-clicking the blue dot on the cell with the formula.
 
-5. Select all by clicking the cell directly under the formula bar.
+4. Select all by clicking the cell directly under the formula bar.
 ![select all button google sheets](media/select-all-google.png). 
 
-6. Copy the values.
+5. Copy the values.
 
-7. Create a new sheet.
+6. Create a new sheet.
 
-8. Paste the values into the new sheet.
+7. Paste the values into the new sheet.
 
-9. `File` → `Download` → `.CSV`.
+8. `File` → `Download` → `.CSV`.
 
 </details>
 <br>

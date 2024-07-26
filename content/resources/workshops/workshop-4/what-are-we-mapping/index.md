@@ -8,24 +8,24 @@ description: Background on the project
 ## Background
 In 2023, the Harvard Map Collection partnered with with Tara Menon's English class, City Fictions. In this course, students consider experiences of a place from many perspectives (written, lived, mapped, etc.). The mapping assignment prompts students to create two maps of the same place, which each tell a different story.
 
-Libby Wu had a stand-out project. She was looking at the intersection of fitness recreation with demographics and access by public transportation.
+Libby Wu's stand-out project looks at the intersection of fitness and recreation with demographics and access by public transportation.
 
 
 <iframe width="100%" height="450" frameborder="0" title="Felt Map" src="https://felt.com/embed/map/NYC-Basketball-Courts-copy-cokki9BgFSJuaJMiC765bZD?loc=40.72138%2C-74.00292%2C13.14z&legend=0&logo=1&link=1" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
-In her first map, she obtained the location of basketball courts from New York City open data, and updated the dataset with notable historic locations. She then overlaid this data with a demographic map of poverty rate, as well as subway lines.
+In her first map, she obtains the location of basketball courts from New York City open data, and augments the dataset with notable historic locations. She then overlays this data with a demographic map of poverty rate, as well as subway lines.
 
 
 <iframe width="100%" height="450" frameborder="0" title="Felt Map" src="https://felt.com/embed/map/NYC-Workout-Classes-W6K2khdPSmWiu8Eem9CDCjC?loc=40.71912%2C-73.99632%2C13.3z&legend=0&logo=1&link=1" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
-In Libby's second map, she collected locations for fitness courses such as cycling, pilates, yoga, boxing, etc. from fitness apps she uses and compared that against demographic data for non-white populations. She also continues to overlay transit access.
+In Libby's second map, she collects locations for fitness courses such as cycling, pilates, yoga, and boxing from fitness apps she uses and compares that against demographic data for non-white populations. She also continues to overlay transit access.
 
 Each of these maps on its own tell stories, but in conversation start a dialogue that is relevant to topics the class discussed and read about related to experiences of place.
 
 ## Concepts 🤝 data
-Libby's maps work because, **even before opening any mapping tool**, she had already workshopped ideas for what she wanted to say or explore with her maps, and spent time refining those ideas with searches for available data. 
+Libby's maps are successful because, **even before opening any mapping tool**, she had already workshopped ideas for what she wanted to say or explore with her maps, and spent time refining those ideas with searches for available data. 
 
-We find that spending time developing an idea or concept for a mapping project is an effective approach to having a good result. Part of that process, however, does require scoping the project idea against data availability. The purpose of this workshop is to practice using some commonly requested GIS datasets, to get a sense of what is possible.
+Part of scoping a mapping project requires understanding data availability. The purpose of this workshop is to practice using some commonly requested GIS datasets, to get a sense of what is possible.
 
 ## What will we map in this workshop?
 

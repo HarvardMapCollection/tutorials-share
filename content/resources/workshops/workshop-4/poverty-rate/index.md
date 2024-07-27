@@ -140,6 +140,15 @@ The data cleaning portion of this tutorial is written for three spreadsheet soft
 
 9. Scroll down to where it says `New York` and click `New York`. Select `OK`.
 
+10. Select all by clicking the cell directly under the formula bar.
+![select all button google sheets](media/select-all-google.png). 
+
+11. Copy the values.
+
+12. Create a new sheet.
+
+13. Paste the values into the new sheet.
+
 
 </details>
 
@@ -169,8 +178,6 @@ The data cleaning portion of this tutorial is written for three spreadsheet soft
 Poverty Rate= AMZME002 + AMZME003 / AMZME001 x 100
 </div>
 
-<details>
-<summary>Excel instructions</summary>
 
 1. Create a new column called `POVERTY_RATE`.
 
@@ -180,59 +187,11 @@ Poverty Rate= AMZME002 + AMZME003 / AMZME001 x 100
 <br>
 *'IFERROR' catches null values in the source census data. We ask the function to return 0 instead of an error message if the function can't carry out.*
 
-3. Fill down to complete the column by double-clicking the green plus sign on the cell with the formula.
-
-3. `File` → `Save`.
-
-
-</details>
-
-<details>
-<summary>LibreOffice instructions</summary>
-
-1. Create a new column titled `POVERTY_RATE`.
-
-2. In the second cell of the new column, enter the equation 
-<br>
-`= IFERROR((AR2 + AS2)/AQ2 * 100, 0)`
-<br>
-*'IFERROR' catches null values in the source census data. We ask the function to return 0 instead of an error message if the function can't carry out.*
-
 3. Fill down to complete the column by double-clicking the plus sign on the cell with the formula.
 
-3. `File` → `Save`.
+3. `File` → `Save`. Make sure to save as a `.CSV`.
 
-
-</details>
-
-<details>
-<summary>Google Sheets instructions</summary>
-
-1. Add a new column with the header titled `POVERTY_RATE`.
-
-2. In the second cell of the new column, enter the equation 
-<br>
-`= IFERROR((AR49735 + AS49735)/AQ49735 * 100, 0)`
-<br>
-*'IFERROR' catches null values in the source census data. We ask the function to return 0 instead of an error message if the function can't carry out.*
-
-
-3. Fill down to complete the column by double-clicking the blue dot on the cell with the formula.
-
-4. Select all by clicking the cell directly under the formula bar.
-![select all button google sheets](media/select-all-google.png). 
-
-5. Copy the values.
-
-6. Create a new sheet.
-
-7. Paste the values into the new sheet.
-
-8. `File` → `Download` → `.CSV`.
-
-</details>
-<br>
 
 You now have a dataset you can use to map poverty rate. Use the `GEOID` column to join this data with a census tract shapefile, and use the newly computed `POVERTY_RATE` field to power the visualization.
 
-Follow the next tutorial in [the workshop](https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/) to learn how to create a map.
+Follow the next tutorial in [the workshop](https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/) to learn how to create a map from this data.

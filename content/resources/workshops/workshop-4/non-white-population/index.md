@@ -1,6 +1,6 @@
 ---
 title: How to download percent non-white population data by census tract for GIS
-date: 2024-07-20
+date: 2024-08-20
 image: cover.png
 layout: single2
 description: We will download non-white population data for the United States and filter it to New York City for use with GIS mapping.

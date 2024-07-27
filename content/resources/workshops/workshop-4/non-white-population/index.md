@@ -1,6 +1,6 @@
 ---
 title: How to download percent non-white population data by census tract for GIS
-date: 2024-08-20
+date: 2024-07-20
 image: cover.png
 layout: single2
 description: We will download non-white population data for the United States and filter it to New York City for use with GIS mapping.
@@ -157,11 +157,15 @@ The data cleaning portion of this tutorial is written for three spreadsheet soft
 
 1. Open the NHGIS codebook. The file should read something like `nhgis00xx_ds262_20225_tract_codebook.txt`.
 
+![nhgis codebook](media/race-codebook.png)
+
 2. Observe that the variables are structured as follows:
 
 - `AQNGE001`: Total population
 - `AQNGE002`: White alone
-- `AQNGE003` to `AQNGE010`: Various categories of nonwhite populations
+- `AQNGE003` to `AQNGE008`: Various categories of nonwhite populations
+
+*`AQNGE009` and `AQNGE010` are explanations of how `AQNGE008` breaks down further; we will not include these last two categories in our sum, because they are duplicate values.*
 
 To create a mappable column which is a *percent* nonwhite, we have to sum all of the counts for each nonwhite category, and divide by the total population.
 

@@ -6,19 +6,47 @@ layout: single2
 description: How to upload a spreadsheet of census demographic data with a census FIPS code to mapping platform, Felt.
 ---
 
-To successfully upload a United States census data spreadsheet to Felt and have it display as polygons, check that these elements are present:
+The goal of this tutorial is to start with a spreadsheet of census information, and upload the information so that it displays as **polygons** on the map. As mentioned in the software [requirements](https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/registration/) section of this workhop, we are choosing Felt as a venue to get started working with census data because it faciliates the process of table joins for us.
 
-* Your dataset is organized by geography, meaning, each *row* in the dataset represents one census geography (census tract, county, block group, etc.)
-* Your dataset has a column you'd like to map. If the column contains numerical statistical values, ensure the column is formatted as a **number** type.
+<div class="alert-success">
+<h2>Jump ahead</h2>
+  <p>If you already have a background on the structure of GIS data, and want to learn how to use census data in Felt, you can jump to the bottom of this page labeled <a href="https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/upload-census-to-felt/#steps">"Steps"</a></p>
+</div>
+
+
+<div class="alert-info">
+<h2>Table joins</h2>
+  <p>Table joins are a common skill you will want to learn if you plan to use GIS. They usually require some data cleaning, which can occupy workshop time. This is why, today, we are choosing an online tool which performs this for us. If you want to practice table joins, follow the <a href="https://mapping.share.library.harvard.edu/tutorials/census-data-primer/perform-a-table-join/">table joins tutorial</a>, or inquire about our Data Cleaning for GIS workshop. </p>
+</div>
+
+Table joins work in Felt because Felt has already pre-uploaded vector geometry files of different census geometries. Felt includes these data layers because mapping census data is a common GIS task. An example would be a default layer of all of the county shapes in the United States. Another example would be a default layer of the shape of every census tract in the United States. To remind yourself of the different options for census geographies, you can refer to the [census geography hierarchy documentation](https://www.census.gov/programs-surveys/geography/guidance/hierarchy.html) on census.gov.
+
+![geoids for census tract polygons](media/geoid.png)
+
+For any of these data layers, for example, census tracts, each census polygon will have a unique ID associated with it. These ID codes are sometimes called `GEOIDs` or census `FIPS codes`. When we are uploading a spreadsheet with data we want to map, it is important to make sure the spreadsheet has a column with a corresponding unique ID. The column does not have to be called "GEOID", but it does have to contain the same unique strings indicating which census geography any given table row pertains to.
+
+
+![table with column GEOID](media/geoid-table.png)
+
+## To upload census data to Felt, make sure
+
+
+* Your dataset is organized by geography, meaning, each *row* in the dataset represents one census geography (either a county, a census tract, a block group, and so forth, depending on which geographic unit you've chosen to aggregate by).
 * Your dataset has a column containing the [census geography GEOID]((https://www.census.gov/programs-surveys/geography/guidance/geo-identifiers.html)) code. 
+* Your dataset has a column you'd like to map. If the column contains numerical statistical values, ensure the column is formatted as a **number** type.
 
 
 ![table formatted with only geoid and census value to map](media/felt-formatted.png)
-*This table is formatted so that it will display as polygons in Felt. The GEOID column will join with the pre-upload census tract shapes, which come as a default with Felt.*
+*This table is formatted so that it will display as polygons in Felt. The GEOID column will join with the pre-uploaded census tract shapes, which come as a default with Felt.*
 
 ## Upload instructions
 
-Because tables often contain many references to geography, Felt can get a little confused if there are many different types of geography references in the table you are trying to upload. For instance, if your table looks something like this...
+It's important to make sure Felt knows which column to use for geography. There are lots of different ways to turn a tabular spreadsheet into a map. For instance, you can
+* Transform a table of x,y coordinates into points
+* Locate the `centroid` of a place name and represent it as one singular dot on the map
+
+We don't want to choose either of those options. We want to map our data as *polygons*, because having the polygon shapes will allow us to shade each unique region with a different color to visualize population density. To play around with different graduated color schemes, check out the mapping website [Color Brewer](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3).
+
 
 | **GEOID** |  **County**  | **Pct_Nonwhite** | 
 | --- | --- | --- | 
@@ -26,9 +54,9 @@ Because tables often contain many references to geography, Felt can get a little
 |1400000US36001000201 | Bronx County | 84.2596348884381 |
 | 1400000US36001000401 | Kings County | 10.7779226423294 |
 
-... Felt may not know which column to treat as the geography column. There is a possibility it could import your dataset as a point layer representing the **county centroids**.
+Notice how in the table above, there is both a column for `GEOID` (the field we would use to join our data to matching polygons), *and* a column listing which county each census tract is contained by. If we uploaded a dataset like this to Felt, there is a chance Felt could trying to use the `County` field to treat as the spreadsheet geography, and instead of joining the `GEOID` field, it would place the data as dots on the map representing county centroids.
 
-GIS software sometimes let you specify upon upload which field to treat as geography. At the time this guide was written, this is not yet a feature in Felt, so it's best to pre-prepare your census data spreadsheets so that they *only* include the columns you know you want to map. 
+To avoid this and ensure your census spreadsheet data will join up with census polygons, it's best to do some pre-processing cleaning of your spreadsheet, and remove any redundant geography columns you don't need for your map.
 
 ### Steps
 

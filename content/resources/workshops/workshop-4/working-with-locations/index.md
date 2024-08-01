@@ -482,11 +482,9 @@ Each row in the table is one feature, or one point on the map. Each column is on
     <img alt ="polygons on a map" src="media/polygons.png">
     <p>Recall that when we were working with census tracts (polygons), in the corresponding data table, each census tract was represented by one row.</p>
     <img alt= "census table" src="media/geoid-table.png">
-    <h4>Railroad Lines</h4>
-    <p>This map shows a vector <em>line</em> dataset representing railroad lines in Massachusetts.</p>
-  <img alt="railroads of massachusetts map" src="media/railroads_ma.png">
-    <img alt="line segments with separate attributes" src="media/railroads.gif">
-    <p>Notice how clicking on different segments of the railroad line results in different attribute pop-ups. That is because, with lines as the organizing geometry in this dataset, each line segment is represented by one row in the data table.</p>
+    <h4>Subway Lines</h4>
+    <p>add NYC SUBWAY LINES</p>
+    <p>Notice how clicking on different segments of the subway line results in different attribute pop-ups. That is because, with lines as the organizing geometry in this dataset, each line segment is represented by one row in the data table.</p>
 </div>
 
 8. Upload the other .geoJSON, `nyc-fitness-classes.geojson` using the same steps. Open the data table by clicking on the data layer in the `Legend`, and clicking the `View Table` icon in the menu on the right-hand side of the page.

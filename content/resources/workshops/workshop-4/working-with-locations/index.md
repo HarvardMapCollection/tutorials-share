@@ -476,7 +476,17 @@ Each row in the table is one feature, or one point on the map. Each column is on
 ![data table in felt](media/data-table.png)
 
 <div class="alert-danger">
+  <h4>Vector data structure</h4>
   <p>Remember! Every row in a GIS table represents one geographical feature, in this case, one basketball court.</p>
+    <p>We happen to be working with a point dataset right now - the location of basketball courts - but the same principle applies to the structure of all GIS vector data: points, polygons, and lines.</p>
+    <img alt ="polygons on a map" src="media/polygons.png">
+    <p>Recall that when we were working with census tracts (polygons), in the corresponding data table, each census tract was represented by one row.</p>
+    <img alt= "census table" src="media/geoid-table.png">
+    <h4>Railroad Lines</h4>
+    <p>This map shows a vector <em>line</em> dataset representing railroad lines in Massachusetts.</p>
+  <img alt="railroads of massachusetts map" src="media/railroads_ma.png">
+    <img alt="line segments with separate attributes" src="media/railroads.gif">
+    <p>Notice how clicking on different segments of the railroad line results in different attribute pop-ups. That is because, with lines as the organizing geometry in this dataset, each line segment is represented by one row in the data table.</p>
 </div>
 
 8. Upload the other .geoJSON, `nyc-fitness-classes.geojson` using the same steps. Open the data table by clicking on the data layer in the `Legend`, and clicking the `View Table` icon in the menu on the right-hand side of the page.
@@ -494,6 +504,13 @@ Each row in the table is one feature, or one point on the map. Each column is on
 2. Scroll the page and get a sense of how the data is listed and structured, including the codebook. At the top of the page, select `Export`. Under export format, in the dropdown, note that downloads support `.geoJSON`, `shapefile` and `.CSV`. While we could download this data in spatial formats, we are going to choose `.CSV`, to demo how point tabular data is structured. Select `.CSV` and `Download`.
 
 3. Open the spreadsheet in Excel, LibreOffice, or some spreasheet software. Take note of the way the data is structured, and find the `Latitude` and `Longitude` fields with coordinates.
+
+<div class="alert-info">
+<h3>Latitudes and Longitudes</h3>
+<p>Most GIS software will accept spreadsheets with coordinates formatted like this.</p>
+<img alt="table with lat lon" src="media/latlon.png">
+<p>Make sure to split your Latitude and Longitude information into two separate columns. Use <a href="https://stackoverflow.com/questions/4536996/positive-negative-latitude-and-longitude-values-vs-cardinal-directions">the negative symbol</a> to denote South and West, but <strong>remove</strong> all other special characters such as degree symbols, or the characters 'N', 'S', 'E', 'W'.</p>
+</div>
 
 4. Click the `Upload Anything` button in Felt, and upload this spreadsheet. Note that Felt interprets the `Latitude` and `Longitude` fields, and places the records as point coordinates on the map. If you wanted to save this dataset as spatial data, you could click the three dots icon next to the subway data layer in the `Legend`.  
 

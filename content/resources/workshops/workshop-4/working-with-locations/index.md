@@ -482,16 +482,22 @@ Each row in the table is one feature, or one point on the map. Each column is on
     <img alt ="polygons on a map" src="media/polygons.png">
     <p>Recall that when we were working with census tracts (polygons), in the corresponding data table, each census tract was represented by one row.</p>
     <img alt= "census table" src="media/geoid-table.png">
-    <h4>Subway Lines</h4>
-    <p>add NYC SUBWAY LINES</p>
+    <h4>Line dataset example (subways)</h4>
+    <p>This is a map showing a vector <strong>line</strong> dataset of subways in NYC.</p>
+    <img src="media/subway.png" alt="subway map">
     <p>Notice how clicking on different segments of the subway line results in different attribute pop-ups. That is because, with lines as the organizing geometry in this dataset, each line segment is represented by one row in the data table.</p>
+    <img alt="clicking on different parts of the line results in different table values" src="media/subwaylines.gif">
 </div>
 
 8. Upload the other .geoJSON, `nyc-fitness-classes.geojson` using the same steps. Open the data table by clicking on the data layer in the `Legend`, and clicking the `View Table` icon in the menu on the right-hand side of the page.
 
 ![table](media/table-2.png)
 
-9. Notice how for the Fitness Classes dataset, there are two properties, or attribute columns, `Name` and fitness class `Category`. Each row or fitness class will have both a `Name` and a `Category`. Confirm this by clicking one of the fitness class points on the map and inspecting the pop-up.
+9. Notice how for the Fitness Classes dataset, there are two properties, or attribute columns, `Name` and fitness class `Category`. Each row or fitness class will have both a `Name` and a `Category`. Confirm this by clicking one of the fitness class points on the map and inspecting the pop-up. You can also change the symbolization from `Simple` to `Categories` under `General` → `Type`.
+<br>
+<br>
+![points shown as categories](media/categories.png)
+<br>
 
 10. Start experiementing with the symbology on the following four layers, and note any spatial observations: `Nyc Basketball Courts`, `Nyc Fitness Classes`, `Percent Nonwhite`, `Poverty Rate`.
 
@@ -522,6 +528,10 @@ We now have a web map containing many interesting layers:
 * locations of fitness classes and basketball courts
 * transit locations
 
-By eyeballing the maps, we can start to make some inferences. In the next tutorial, we will leverage some of Felt's built-in spatial analysis tools, to start to be able to leverage spatial science and improve our ability to interpret this data.
+By eyeballing the maps, we can start to make some inferences. In the next tutorial, we will use some of Felt's spatial analysis tools to start to leverage spatial science and improve our ability to interpret this data.
+
+
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdhtWzeLzaXCXuGFetQcTQSDGGAFCrmby7g8Fc1C7VVUHD_pQ/viewform?embedded=true" width="640" height="504" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 

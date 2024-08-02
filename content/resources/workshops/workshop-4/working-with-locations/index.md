@@ -450,7 +450,7 @@ Choosing to save your data in any of these formats will make sure you are encodi
 <p>You'll notice that besides the "geometry" for each point feature, which includes coordinates, this dataset only has one property, which is the name of the court.</p>
 </div>
 
-2. From Felt, click the `Upload Anything` button.
+2. From [Felt](https://felt.com/), click the `Upload Anything` button.
 
 ![upload anything button in Felt](media/upload-anything.png)
 
@@ -513,7 +513,8 @@ Each row in the table is one feature, or one point on the map. Each column is on
 <h3>Latitudes and Longitudes</h3>
 <p>Most GIS software will accept spreadsheets with coordinates formatted like this.</p>
 <img alt="table with lat lon" src="media/latlon.png">
-<p>Make sure to split your Latitude and Longitude information into two separate columns. Use <a href="https://stackoverflow.com/questions/4536996/positive-negative-latitude-and-longitude-values-vs-cardinal-directions">the negative symbol</a> to denote South and West, but <strong>remove</strong> all other special characters such as degree symbols, or the characters 'N', 'S', 'E', 'W'.</p>
+<p>If you are working with spreadsheet data you'd like to import into a GIS tool such as Felt, ArcGIS, or QGIS, make sure the Latitude and Longitude columns are split into two separate columns.</p><p>Use <a href="https://stackoverflow.com/questions/4536996/positive-negative-latitude-and-longitude-values-vs-cardinal-directions">the negative symbol</a> to denote South and West, but <strong>remove</strong> all other special characters such as degree symbols, or the characters 'N', 'S', 'E', 'W'.</p>
+<p>These workshop tutorial materials are written for the browser mapping tool <a href="https://felt.com/">Felt</a>, but if you'd like to practice bringing spreadsheet data into a desktop software, you can <a href="https://mapping.share.library.harvard.edu/tutorials/qgis/add-spreadsheet/">Add .XLSX or .CSV to QGIS.</a></p>
 </div>
 
 4. Click the `Upload Anything` button in Felt, and upload this spreadsheet. Note that Felt interprets the `Latitude` and `Longitude` fields, and places the records as point coordinates on the map. If you wanted to save this dataset as spatial data, you could click the three dots icon next to the subway data layer in the `Legend`.  

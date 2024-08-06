@@ -40,4 +40,10 @@ When we performed the buffer, the GIS tool created unique .5 mile buffers around
 
 4. When the process completes, you can delete the intermediate buffer layer, `Mta Subway Stations (Buffered)`. You can also turn off or delete the MTA stations layer, the original subway points. Removing these layers will give us some space on our map to make assessments. 
 
+## Observe and discuss
+
+Spend five minutes exploring this data. Visit Felt's [handbook for Spatial Analysis](https://gisfundamentals.felt.com/Module-5-Data-exploration-and-spatial-analysis-c549ac684dfb43799f9419fbf13ddabd) and read through some of the other options there are for working with these layers. Are there any you would like to try? Turn layers on and off and experiment with map symbology. Be ready to share out observations and suggestions for potential next steps, based on your reading.
+
+
+
 

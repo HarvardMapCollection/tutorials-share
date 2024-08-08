@@ -136,6 +136,8 @@ While the total area developed (parcels with structures on them) increases only 
 
 ## How to use this approach (a step-by-step guide)
 
+(coming soon!)
+
 This tutorial will guide you through the process of mapping historic land parcels using QGIS. Follow each step carefully and refer to the images provided for visual guidance.
 
 <!-- ### Step 1: Setup Project with EPSG: 26986

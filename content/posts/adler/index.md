@@ -139,10 +139,10 @@ While the total area developed (parcels with structures on them) increases only 
 (coming soon!)
 
 
-<!-- ### Step 1: Setup Project with EPSG: 26986
+### Step 1: Setup Project with EPSG: 26986
 
 1. Create a new QGIS project.
-2. Set the coordinate reference system to `EPSG: 26986 (Massachusetts Mainland)`.
+2. Set the coordinate reference system to `EPSG: 26986 (Massachusetts Mainland)`. -->
 
 [https://www.notion.sopath_to_image_1](https://www.notion.sopath_to_image_1)
 

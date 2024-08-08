@@ -26,10 +26,9 @@ All you will need for this workshop are two free accounts. (1) [Felt.com](https:
 | [Poverty rate mapping by census tract](https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/poverty-rate/) | 
 | [Percent non-white mapping by census tract](https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/non-white-population/) |
 | [Uploading census data to Felt ](https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/upload-census-to-felt/) |
-| [Working with spreadsheet data](https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/working-with-locations/)  | 
-| [Buffers and spatial analysis](https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/spatial-analysis/) |
-| [Historical maps](https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/archival-maps/) | 
-| [Exporting and saving project data](https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/exporting-data/) |
+| Working with spreadsheet data  | 
+| Buffers and spatial analysis  |
+| Historical maps | 
 
 ## Data
 [You can download course data](https://osf.io/nuwqs/) from the Harvard Map Collection Open Science Framework site for Geospatial Research, Teaching and Learning. 

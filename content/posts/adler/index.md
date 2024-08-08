@@ -59,7 +59,7 @@ After Adler selected the four temporal snapshots she wanted to study (1873, 1903
 
 After creating shape data for each parcel, Adler added columns to the GIS table which tracked the following attributes:
 - For each parcel, was it developed or not? This was a binary value. If the parcel had a structure on it in 1873, the `developed` field for the parcel was encoded as `true`, and if it did not have a structure, the parcel had a `false` value.
-- Who was the land owner in 1873? Adler created a column to encode the names of landowners, information which is found on the maps.
+- Who was the land owner in 1873? Adler created a column to encode the names of landowners, information which is found on the maps. 
 
 
 <img src="media/1873-2.png" style="width:100%; max-height:70em;" alt="vector polygons yellow">
@@ -137,6 +137,7 @@ While the total area developed (parcels with structures on them) increases only 
 ## How to use this approach (a step-by-step guide)
 
 (coming soon!)
+
 
 <!-- ### Step 1: Setup Project with EPSG: 26986
 

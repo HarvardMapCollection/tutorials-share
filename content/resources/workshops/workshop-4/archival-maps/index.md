@@ -6,9 +6,12 @@ layout: single2
 description: Adding a historic map from the Harvard Map Collection to a web map in Felt
 ---
 
-Depending on your project topic, it may be useful to be able to compare information from historic maps against the modern layers you are working with. 
+In this tutorial, which exists as part of the [GIS Mapping Quickstart](https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/), we will practice obtaining a georeferenced historical map from the [Harvard Geospatial Library (HGL)](https://library.harvard.edu/services-tools/harvard-geospatial-library), and uploading that map to a shareable map using the web mapping tool, [Felt.com](https://felt.com/) . You can read this guide to generally learn more about the Harvard Map Collection's georeferenced collections, or follow along step by step by [signing up for a Felt.com](https://felt.com/) and making a web map.
+
 
 ## Finding a historical map to use
+
+Depending on your project topic, it may be useful to be able to compare information from historic maps against the modern layers you are working with. 
 
 Many map library special collections allow you to download versions of their maps in formats that are already spatial data, and will be compatible with GIS mapping. 
 
@@ -68,7 +71,7 @@ If a map has already been scanned and is available to view from HOLLIS, you can 
 
 #### Harvard Geospatial Library
 
-In addition to a catalog of our our map holdings, the Harvard Map Collection also maintains an [online repository for spatial data](https://hgl.harvard.edu/). This includes point, line, and polygon data such as the census and infrastructure data we have been working with so far. It also includes, however, pre-georeferenced versions of many of the maps in our archival special collections.
+In addition to a catalog of our map holdings, the Harvard Map Collection also maintains an [online repository for spatial data](https://hgl.harvard.edu/). This includes point, line, and polygon data such as the census and infrastructure data we have been working with so far. It also includes, however, pre-georeferenced versions of many of the maps in our archival special collections.
 
 Before you decide to georeference a map on your own, you may want to check to see if we already have one that could work for your project!
 
@@ -91,7 +94,7 @@ Before you decide to georeference a map on your own, you may want to check to se
 
 8. From Felt, choose the `Upload Anything` button, and pick `From File`. Upload the file ending in `.tif`.
 
-> If you are having trouble with the HGL download, there is also a copy of the `.tif` file in the workshop downloads from OSF, in the folder titled `archival_maps`.
+> If you are having trouble with the HGL download, there is also a copy of the `.tif` file in the [workshop downloads from OSF](https://osf.io/nuwqs/files/osfstorage), in the folder titled `archival_maps`.
 
 9. It will likely take a few moments for the layer to upload and show up on the map. There will be a status bar indicating what percentage complete the process is.
 
@@ -142,6 +145,10 @@ Another popular type of raster data is land use data. Each pixel has a categoric
 ![map pixellated](media/pixellated.png)
 
 Georeferenced maps are raster data, because they are images organized as grids of pixels. In the case of georeferenced maps, however, the value represented by each pixel is usually just the RGB color code to tell the program which colors to display the map as.
+
+### Raster formats
+
+- The file format for a georeferenced map is typically a `.geoTIFF`.
 
 
 ## Tutorial steps resumed

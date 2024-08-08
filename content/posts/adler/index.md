@@ -58,8 +58,8 @@ After Adler selected the four temporal snapshots she wanted to study, and locate
 <br>
 
 After creating shape data for each parcel, Adler added columns to the GIS table which tracked the following attributes:
-- For each parcel, was it developed or not? This was a binary value. If the parcel had a structure on it in 1873, the `developed` field for the parcel was encoded as `true`, and if it did not have a structure, the parcel had a false value.
-- Who was the land owner in 1873? Adler created a column to encode the names of landowners, which is information found on the maps.
+- For each parcel, was it developed or not? This was a binary value. If the parcel had a structure on it in 1873, the `developed` field for the parcel was encoded as `true`, and if it did not have a structure, the parcel had a `false` value.
+- Who was the land owner in 1873? Adler created a column to encode the names of landowners, information which is found on the maps.
 
 
 <img src="media/1873-2.png" style="width:100%; max-height:70em;" alt="vector polygons yellow">

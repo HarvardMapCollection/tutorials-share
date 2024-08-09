@@ -22,29 +22,50 @@ theme = 'BlogRa'
         weight = 2
             [[menu.main]]
                 parent = "Tutorials"
-                name = "ArcGIS"
-                url = "/tags/ArcGIS/"
+                name = "Census"
+                url = "/tags/census/"
                 weight = 1
             [[menu.main]]
                 parent = "Tutorials"
-                name = "Census"
-                url = "/tutorials/census-data-primer/"
+                name = "OpenStreetMap"
+                url = "/tags/OpenStreetMap/"
                 weight = 2
+            [[menu.main]]
+                parent = "Tutorials"
+                name = "File Formats"
+                url = "/tags/file-formats/"
+                weight = 3
             [[menu.main]]
                 parent = "Tutorials"
                 name = "Georeferencing"
                 url = "/tags/georeferencing/"
-                weight = 3
+                weight = 4
             [[menu.main]]
                 parent = "Tutorials"
-                name = "OpenStreetMap (OSM)"
-                url = "/tags/OpenStreetMap/"
-                weight = 4
+                name = "Vectorization"
+                url = "/tags/vectorization/"
+                weight = 5
+            [[menu.main]]
+                parent = "Tutorials"
+                name = "Spatial Analysis"
+                url = "/tags/spatial-analysis/"
+                weight = 6
+            [[menu.main]]
+                parent = "Tutorials"
+                name = "ArcGIS"
+                url = "/tags/ArcGIS/"
+                weight = 7
+            [[menu.main]]
+                parent = "Tutorials"
+                name = "Felt"
+                url = "/tags/Felt/"
+                weight = 8
             [[menu.main]]
                 parent = "Tutorials"
                 name = "QGIS"
                 url = "/tags/QGIS/"
-                weight = 5
+                weight = 9
+
 
     [[menu.main]]
         name = "Resources"

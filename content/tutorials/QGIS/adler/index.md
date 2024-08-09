@@ -1,8 +1,8 @@
 ---
-title: Step-by-step approach to turning historic maps into data for analysis
+title: Vectorize maps into data; polygon area calculations for QGIS
 date: 2024-08-08
-tags: ["news"]
-image: adler.png
+tags: ["qgis", "vectorization", "spatial-analysis"]
+image: digi-parcel.gif
 authors: ["Hannah Adler", "Belle Lipton"]
 description: Step-by-step instructions for vectorizing data from historic maps, including an example using Atlascope and spatial analysis.
 ---

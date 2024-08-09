@@ -1,6 +1,7 @@
 ---
-title: 1. Introduction
+title: 1. Introduction to GIS
 date: 2023-01-06
+tags: ["file-formats"]
 image: a-gradient12.png
 layout: single2
 ---
@@ -9,7 +10,7 @@ layout: single2
 
 This course is for those wishing to develop a strong foundational understanding of how GIS works. After completing this course, you will be well-positioned to begin GIS projects of your own.
 
-The step-by-step materials here can be followed along asynchronously. The in-person version ([register](https://libcal.library.harvard.edu/calendar/main?t=d&q=gis%20intro&cid=15049&cal=15049&inc=0)) covers the same materials, but with live demonstrations and hands-on support from the instructor. We can schedule additional workshop sessions on demand, as well as in-class workshops.
+The step-by-step materials here can be [followed along asynchronously](https://mapping.share.library.harvard.edu/resources/workshops/workshop/introduction/). The in-person version ([register](https://libcal.library.harvard.edu/calendar/main?t=d&q=gis&cid=15049&cal=15049&inc=0)) covers the same materials, but with live demonstrations and hands-on support from the instructor. We can schedule additional workshop sessions on demand, as well as in-class workshops.
 
 <div class="alert-info">
   In-person workshop participants, please find <a href="https://harvardmapcollection.github.io/classes/workshops/introduction-to-GIS/">slides and data</a>.

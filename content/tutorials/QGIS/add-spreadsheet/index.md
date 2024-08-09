@@ -1,7 +1,7 @@
 ---
-title: Add a spreadsheet .XLSX or .CSV to a QGIS project
+title: Add a spreadsheet .XLSX or .CSV to a QGIS Project
 date: 2023-01-18
-tags: ["tutorials", "qgis"]
+tags: ["qgis", "file-formats"]
 image: add-csv.png
 layout: single2
 ---
@@ -34,9 +34,18 @@ This tutorial will cover how to add tabular data to a QGIS project.
 
 8. Select `Close`.
 
+<div class="alert-danger">
+<h2>Add button not highlighted?</h2>
+<p>If the "Add" button is greyed out, it is probably a sign that you have not selected a coordinate reference system. Maybe it says something like "invalid projection".</p>
+<img alt="add projection wizard" src="media/invalid-proj.png">
+<p>If you are unsure which projection to use, you can start with WGS 84. Open the dialog box by clicking where it says "invalid projection", and search for the WGS 84 code, "4326". Set this as the coordinate reference system, and then the "Add" button should re-appear.</p>
+<p>You can also <a href="https://mapping.share.library.harvard.edu/tutorials/qgis/change-crs/">Learn more about working with coordinate reference systems in QGIS</a>.</p>
+</div>
+
 <div class="alert-warning">
 <h2>Example data</h2>
  <p>Please find an <a href="https://drive.google.com/file/d/1dBbqzEm3vq7zANaTiqquekefiCJIWkqd/view?usp=sharing" target="_blank" download>example spreadsheet</a> saved as a .csv with the latitude and longitude formatted correctly so that it should import as points in QGIS. </p>
+ <p>You can also <a href="https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/working-with-locations/">practice working with location data</a>, and start to visualize it in a shareable web map.</p>
 </div>
 
 

@@ -50,25 +50,16 @@ To perform a join, you must have a column in each dataset which contains the sam
 When we joined the COVID spreadsheet to the Massachusetts municipalities shapefile, we used a column common to both datasets: `town name`. Column headers did not have to match, but the values inside the columns' cells do.
 
 
-## Step by step
-
-We wrote this tutorial as part of a course called the [census data primer](/tutorials/census-data-primer/). You don't have to be following the course to use it.
-You can:
-
-- reinforce your understanding of joins and download the course data below, so you can follow along step-by-step.
-
-- use your own data as you read through. If you are new to GIS, your data may need some additional cleaning for it to work. If that's the case, make an appointment for help via [maps@harvard.edu](mailto:maps@harvard.edu).
-
 ### Sample data
-  - [Census tracts in Cambridge, MA](https://downgit.github.io/#/home?url=https://github.com/HarvardMapCollection/tutorials/blob/main/sample-data/cambridge-tracts.geojson).
-  - [Tenure statistics .CSV](https://downgit.github.io/#/home?url=https://github.com/HarvardMapCollection/tutorials/blob/main/sample-data/tenure-2019.csv)
+  - [Census tracts in Cambridge, MA (obtained from nhgis.org)](https://downgit.github.io/#/home?url=https://github.com/HarvardMapCollection/tutorials/blob/main/sample-data/cambridge-tracts.geojson).
+  - [Tenure statistics .CSV (obtained from nhgis.org)](https://downgit.github.io/#/home?url=https://github.com/HarvardMapCollection/tutorials/blob/main/sample-data/tenure-2019.csv)
 Refer to the tenure [codebook](https://github.com/HarvardMapCollection/tutorials/blob/main/sample-data/tenure-2019-codebook.txt) to make sense of the statistical files' structure.
 
 ## Join steps
 
-1. Add the census tract shapes data to the QGIS document by following [these steps](https://harvardmapcollection.github.io/tutorials/qgis/open-vector/).
+1. Add the census tract shapes data to the QGIS document.
 
-2. Add the statistical tenure data to the map by following [these steps](https://harvardmapcollection.github.io/tutorials/qgis/add-csv/).
+2. Add the statistical tenure data to the map.
 
 3. Right-click the tracts layer in the layer list and select `Properties`.
 

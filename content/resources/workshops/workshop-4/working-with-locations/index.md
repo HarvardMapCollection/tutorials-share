@@ -1,13 +1,14 @@
 ---
 title: Understanding location data
 date: 2024-07-19
+tags: ["felt", "file-formats"]
 image: cover.png
 layout: single2
 description: Understanding how geospatial (GIS) data is structured
 ---
 
 
-In this tutorial, we will:
+In this tutorial, which is part of the [GIS Mapping Quickstart](http://localhost:1313/resources/workshops/workshop-4/) series, we will:
 
 - Work with point or coordinate data saved in **spatial data** format (`.geoJSON`)
 - Work with point or coordinate data saved in **non-spatial data** format (`.XLSX` or `.CSV`)

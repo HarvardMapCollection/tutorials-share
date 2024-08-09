@@ -1,9 +1,10 @@
 ---
 title: Spatial analysis in Felt
 date: 2024-07-18
+tags: ["felt", "spatial-analysis"]
 image: cover.png
 layout: single2
-description: Getting started with Felt's spatial analysis tools
+description: Create .5 mile distance buffers around sample MTA subway stop data in NYC. Visualize the results in a Felt web map. Consider other potential browser-based spatial analysis tools. 
 ---
 
 We are working with a lot of different layers! We can look at the maps and visually assess the information, but a better way to start understanding our data is using some GIS spatial analysis methods.

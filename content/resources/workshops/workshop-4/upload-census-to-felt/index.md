@@ -2,6 +2,7 @@
 title: Upload census data to Felt
 date: 2024-07-19
 image: cover.png
+tags: ["census", "felt"]
 layout: single2
 description: How to upload a spreadsheet of census demographic data with a census FIPS code to mapping platform, Felt.
 ---

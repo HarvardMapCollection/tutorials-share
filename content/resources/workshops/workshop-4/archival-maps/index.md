@@ -2,6 +2,7 @@
 title: Adding historic maps to a Felt map
 date: 2024-07-17
 image: cover.png
+tags: ["georeferencing", "vectorization", "felt"]
 layout: single2
 description: Adding a historic map from the Harvard Map Collection to a web map in Felt
 ---
@@ -159,6 +160,11 @@ Georeferenced maps are raster data, because they are images organized as grids o
 <h2>Georeferencing</h2>
   <p>Georeferencing historic maps is somewhat more of an art than a science, and the tools can be sensitive. Budget time for troubleshooting. You can use the resources linked in this guide to get started. If you run into hurdles, you can reach out to Harvard Maps for troubleshooting help. </p>
 </div>
+
+## Next steps
+
+If you've successfully georeferenced a map, and would like to learn how to extract data for analysis, check out our tutorial, [vectorize maps into data; polygon area calculations](https://mapping.share.library.harvard.edu/tutorials/qgis/adler/).
+
 
 
 

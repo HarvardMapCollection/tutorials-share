@@ -1,10 +1,19 @@
 ---
 title: Registration
 date: 2024-07-23
+tags: ["census", "felt"]
 image: cover.png
 layout: single2
 description: What you will need for this workshop.
 ---
+
+This tutorial is part of the [GIS Mapping Quickstart](https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/registration/) workshop, in which we:
+- download census data of nonwhite populations and poverty rate
+- practice symbolizing and displaying the data in an online web map
+
+In this guide we will set up for these activities by **registering** for:
+- the census extract site, [nhgis.org](nhgis.org)
+- the web mapping site, [felt.com](felt.com)
 
 ## NHGIS.org
 

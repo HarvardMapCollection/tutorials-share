@@ -1,6 +1,6 @@
 ---
 title: OpenStreetMap
-image: subregions.gif
+image: 3.png
 date: 2023-01-16
 ---
 

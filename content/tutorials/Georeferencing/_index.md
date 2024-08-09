@@ -1,6 +1,6 @@
 ---
 title: Georeferencing
-image: spyglass-arcgis.gif
+image: cover.png
 date: 2023-01-09
 ---
 

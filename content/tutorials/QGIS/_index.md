@@ -1,6 +1,6 @@
 ---
 title: QGIS
-image: zoom.gif
+image: add-csv.png
 date: 2023-06-01
 ---
 

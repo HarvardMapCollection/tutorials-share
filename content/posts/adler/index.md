@@ -4,7 +4,7 @@ date: 2024-08-08
 tags: ["news"]
 image: adler.png
 authors: ["Hannah Adler", "Belle Lipton"]
-description: Work with data from Atlascope to vectorize historic maps and apply spatial analysis approaches.
+description: Step-by-step instructions for vectorizing data from historic maps, including an example using Atlascope and spatial analysis.
 ---
 
 This is an example project modeling step-by-step instructions for generating geospatial data for analysis from historic maps. In June, we [shared out results](https://mapping.share.library.harvard.edu/posts/re-wilding-2024/) from partnering with Joyce Chaplin's course, Re-Wilding Harvard, where students were tasked with creating projects to investigate histories and changing natures of open space around Harvard's campus.
@@ -134,91 +134,117 @@ Adler exported the area calculations to tabular formats (`.csv`), so she could a
 
 While the total area developed (parcels with structures on them) increases only a small amount between 1873 and 1930, the area owned by Harvard increases dramatically during this period. Adler reported that there were many other variables included in the historic atlases one could choose to encode and then apply this same methodology to, whereby one calculates area based on a subsetted attribute filter of the traced parcels.
 
+Try out the project data by downloading it from the [Harvard Map Collection Teaching, Research, and Learning GIS Collections](https://osf.io/c9gv3/files/osfstorage). 
+
 ## How to use this approach (a step-by-step guide)
 
-(coming soon!)
+
+### Set a project coordinate reference system
+
+1. [Download QGIS](https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-software/).
+2. Create a new QGIS project.
+3. Add a basemap to the project by going to the `Browser` panel, expanding `XYZ Tiles` and double-clicking `OpenStreetMap`. 
+> If you do not see a browser panel, you can go to the program menu at the top of the screen and select `View` → `Panels` and turn on `Browser`.
+4. The project coordinate reference system should now reflect that of the basemap we just added. In the bottom-right hand corner of the QGIS window, find the button that says `EPSG: 3857`. Click that button to open the `Project Properties - CRS` window.
+
+![project properties crs window](media/projection.png)
+
+You can search for coordinate reference systems by name, place, or [epsg code](https://spatialreference.org/ref/epsg/?search=massachusetts). You will want to choose a projection that is suited for the area you are creating data for, and is measured in units such as meters or feet, if you want to do area calculations. You can find this information in the properties of each coordinate reference system. 
+
+5. Zoom in to the area of interest using the Zoom buttons. 
+![zoom controls](media/zoom.png)
+
+6. If the map disappears when you move it, or looks as though it is a strange shape, it could be due to the software attempting to reproject the basemap to the shape of a coordinate reference system built for the location you have chosen. Wait for the screen to re-load, or you can zoom to the extent of the basemap by right-clicking `OpenStreetMap` in the layer list, and choosing `Zoom to Layer`. Continue zooming until the area of interest is centered on the map. Any notifications about ballpark transformations you can click through or ignore.
 
 
-### Step 1: Setup Project with EPSG: 26986
+### Import georeferenced maps
 
-1. Create a new QGIS project.
-2. Set the coordinate reference system to `EPSG: 26986 (Massachusetts Mainland)`. -->
+Add the georeferenced map you'd like to use to trace data from.
+In this example, we used data from [Atlascope](https://www.atlascope.org/).
 
-[https://www.notion.sopath_to_image_1](https://www.notion.sopath_to_image_1)
+#### If you want to use an Atlascope layer
+1. Toggle on the layer you'd like to use and select `Bibliographic Information`. 
+2. Copy the link after `XYZ tiles`, e.g.:
 
-## Step 2: Import Georeferenced Maps
+<pre style="padding-left:30px;background-color:black;color:white;">
+<code>
+https://s3.us-east-2.wasabisys.com/urbanatlases/39999059011864/tiles/{z}/{x}/{y}.png
+</code>
+</pre>
 
-1. Import georeferenced maps from Atlascope into QGIS.
-2. Go to `Layer` > `Add Layer` > `Add XYZ Tile Connection`.
-3. Copy and paste the URL from the bibliographic information into the dialog box.
+3. Go to `Layer` > `Add Layer` > `Add XYZ Tile Connection`.
+4. Choose `New`, add a `Title`, and paste the URL into the dialog box. Be careful to ensure that there are no spaces at the beginning or end of the pasted URL, or it will not load.
+5. Make sure the layer you just created is selected in the dropdown, and choose `OK` to add it to the map.
+6. The layer should appear on the map. If not, make sure you are zoomed in enough.
 
-[https://www.notion.sopath_to_image_2](https://www.notion.sopath_to_image_2)
+#### If you want to use another georeferenced map
 
-## Step 3: Create New Shapefile Layer
+- If you have a `.geoTIFF`, you should be able to drag the file directly into the QGIS document and have it show up in the correct place. 
+
+- If you do not yet have a georeferenced map you'd like to work with, please refer to other guides on this pre-requisite step. A useful place to start is the tutorial [Adding a Historic Map to Felt](https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/archival-maps/), which discusses how to use the Harvard Map Collection catalog to find and georeference a map, and how to preview the georeferenced image in a web map.
+
+
+
+### Create New Shapefile Layer
 
 1. Click on `Layer` > `Create Layer` > `New Shapefile Layer`.
 2. Select `Polygon` as the geometry type.
-3. Add necessary fields for attributes (e.g., development status, owner name).
+3. Important! From the coordinate reference system menu in this interface, ensure you are creating the new shapefile in the coordinate reference system you selected.
+![select crs](media/crs.png)
 
-[https://www.notion.sopath_to_image_3](https://www.notion.sopath_to_image_3)
+4. Add necessary fields for the attributes you want to record (e.g., development status, owner name). These fields will become the column headers in the data table you will create. For every polygon you create, you will also fill out a value for each of these attributes.
+
+> These attributes are also what powers the map symbolization. In the orange and purple map, we were able to ask the software to turn every polygon with the value of `Developed=no` orange, and every polygon with the value of `Developed=yes` purple.
+
+5. Pay attention to field types. If you are recording categories or text data, make sure you select `Text` as the field's data type. If you are recording a number you'd like to be able to symbolize by density, make sure to select `Number` as the field type.
 
 ## Step 4: Draw Polygons on the Map
 
-1. Use the snapping tool to match corners of each polygon.
-2. Draw polygons to represent land parcels on the map.
+1. Start drawing polygons by clicking on the `Toggle Editing` button, which looks like a pencil.
+![start editing](media/toggle-editing.png)
+2. Select the `Create Polygon` button.
+![create polygon](media/create-polygon.png)
+3. Start drawing! 
 
-[https://www.notion.sopath_to_image_4](https://www.notion.sopath_to_image_4)
+![digitizing a parcel in QGIS](media/digi-parcel.gif)
 
-## Step 5: Add Metadata to Attribute Table
+This takes a little bit of practice to get used to. To make it easier, use the snapping tool to make sure your lines and vertices match up, and don't leave any holes between your polyons.
 
-1. Open the attribute table for the shapefile layer.
-2. Add fields `development` (binary: yes/no) and `owner_name`.
-3. Populate the fields accordingly.
-    - Mark `yes` if a plot has been developed (indicated by a building).
-    - Fill in `owner_name` with the name given or leave blank if illegible.
+4. In the main QGIS menu choose `Project` then `Snapping Options`. Toggle on the magnet icon on the far left of the wizard. Turn on `Vertex` and `Segment`. Turn on `Topological Editing` and `Snapping on Intersection` so that both buttons are engaged.
 
-[https://www.notion.sopath_to_image_5](https://www.notion.sopath_to_image_5)
+5. You can right-click your in-progress data layer in the `Layer` panel, and choose `View Attribute Table`. This will show you each polygon as a row in the table, and you can edit the values there.
 
-## Step 6: Calculate Area of Each Polygon
+6. Any changes you don't want to lose, make sure to `Save` by continuously clicking the `Pencil` or `Toggle Editing` icon.
+
+7. To really learn the true ins and outs of everything you can do with the editing toolbar, including moving or deleting points, check out the [QGIS Editing Documentation](https://docs.qgis.org/3.34/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html).
+
+
+### Calculate Area of Each Polygon
 
 1. Open the Attribute Table.
 2. Go to `Field Calculator`.
 3. Create a new field named `Area`.
 4. Use the `$area` expression to calculate the area of each polygon.
 
-[https://www.notion.sopath_to_image_6](https://www.notion.sopath_to_image_6)
 
-## Step 7: Edit Map Symbology
+### Edit Map Symbology
 
 1. Double-click the map layer to open its properties.
 2. Go to the `Symbology` tab.
 3. Change symbology from `single symbol` to `categorized`.
 4. Choose `developed` for Value and select distinct colors for `yes` and `no` (e.g., #cd782e and #8c5fed).
 
-[https://www.notion.sopath_to_image_7](https://www.notion.sopath_to_image_7)
 
-## Step 8: Identify Parcels Based on Variables of Interest
+### Identify Parcels Based on Variables of Interest
 
 1. Filter the attribute table to highlight specific parcels.
 2. For example, to identify parcels owned by Harvard College, apply the filter `owner_name = "Harvard College"`.
 
-[https://www.notion.sopath_to_image_8](https://www.notion.sopath_to_image_8)
 
-## Step 9: Export Data Table for Analysis
+### Export Data Table for Analysis
 
 1. Right-click on the map layer.
-2. Select `Export` and choose the file type (xlsx or csv) as needed for your analysis.
-
-[https://www.notion.sopath_to_image_9](https://www.notion.sopath_to_image_9)
-
----
-
-By following these steps, you will have effectively mapped and analyzed land parcels using QGIS. For any further analysis, you can export your data to software like R or Excel.
-
- -->
-
-
-
+2. Select `Export` and choose the file type (`.xlsx` or `.csv`) as needed for your analysis.
 
 
 

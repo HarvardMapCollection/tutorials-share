@@ -1,6 +1,6 @@
 ---
 title: A Geographical Cat in the Box
-date: 2024-08-14
+date: 2024-08-13
 tags: ["news"]
 image: cover.jpg
 authors: ["Ana Luiza Nicolae" ]
@@ -57,3 +57,17 @@ Lastly, I wish to thank for the time and resources to undertake this project eve
 ### Mystery and Criticism
 
 Several scholars have published crucial works unpacking the story of Geography’s demise at Harvard and its effects on the landscape of geographical education in the United States. [^2] Curiously, most thorough research on this topic only grazingly mentions the Institute of Geographical Exploration. Even stranger, nearly all mentions of the Institute are negative or disparaging in nature. Neil Smith’s 1987 seminal article, “Academic War Over the Field of Geography: The Elimination of Geography at Harvard, 1947-1951”, names Alexander Hamilton Rice, the Institute’s founder, “a scoundrel by various accounts”[^3], although “more a nuisance than the villain of the piece”[^4]. As for the Institute, it allegedly “was not respected, either within Harvard or outside, and relations were difficult between the Institute and the Division of Geological Sciences.”[^5] This impression was built from archives of correspondence between influent Harvard faculty members such as President James B. Conant or members of the broader Academic community, such as head of the American Geographical Society Isaiah Bowman.
+
+The influence of this piece has been long-lasting. In the more productive ways, it has opened a field of inquiry over the silencing of political dissidence and homosexuality at Harvard around the WWII period, most prominently taken up by the geographers Allison Mountz and Kira Williams.[^6] Yet this piece has fenced the Institute of Geographical Exploration in stagnation, as a stain over the reputation of Geography at Harvard. Smith’s image of a disreputable Rice remains common parlance, as a Harvard Crimson retrospective on the Institute from March 2023 still describes Rice as a “scoundrel” and a “nuisance”[^7]. The reasons for attaching these words to Rice are different today than they were in his own time, however. A short critical overview of Rice’s geographical exploits is presented in what follows, before returning to the reputation he had gathered in his own time. 
+
+[^2]: Martin J. Haigh and T. W. Freeman, “The Crisis in American Geography,” Area 14, no. 3 (1982): 185–90; Andrew F. Burghardt, “On ‘Academic War over the Field of Geography,’ The Elimination of Geography at Harvard, 1947-1951,” Annals of the Association of American Geographers 78, no. 1 (1988): 144–144; Neil Smith, “‘Academic War over the Field of Geography’: The Elimination of Geography at Harvard, 1947-1951,” Annals of the Association of American Geographers 77, no. 2 (1987): 155–72; Alison Mountz and Kira Williams, “Let Geography Die: The Rise, Fall, and ‘Unfinished Business’ of Geography at Harvard,” Annals of the American Association of Geographers ahead-of-print, no. ahead-of-print (2023): 1–26, https://doi.org/10.1080/24694452.2023.2208645; Alison Mountz and Kira Williams, “Derwent’s Ghost: The Haunting Silences of Geography at Harvard,” in A Place More Void (Nebraska, 2021), https://doi.org/10.2307/j.ctv1bd4n3v.12.
+
+[^3]: Smith, “Academic War over the Field of Geography,” 156.
+
+[^4]: Smith, 167.
+
+[^5]: Smith, 161.
+
+[^6]: See references in note 3, above.
+
+[^7]: Barry, Mila G., and Matthew A. Thompson. “From the Institute of Geographical Exploration to East Asian Studies: A Retrospective on 2 Divinity Ave.,” March 9, 2023. https://www.thecrimson.com/article/2023/3/9/divinity-ave-retrospection/.

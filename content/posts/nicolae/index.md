@@ -2,7 +2,7 @@
 title: A Geographical Cat in the Box
 date: 2024-08-14
 tags: ["news"]
-image: cover.png
+image: cover.jpg
 authors: ["Ana Luiza Nicolae" ]
 description: A remembered yet unknown Institute of Geographical Exploration at Harvard (1930-1951) 
 ---
@@ -53,3 +53,7 @@ At **Harvard University Archives,** truly every staff member from the Archive re
 **Schlesinger Library** *Research Librarian* Sarah Hutcheon has gone out of her way to uncover the stories of Radcliffe women taking to the air through courses in aerial photography.
 
 Lastly, I wish to thank for the time and resources to undertake this project every member organizing the **Pforzheimer Fellowship**, Hannah Hack, Professor Ann Blair, and especially Belle Lipton, who has taught me how to think about spatial data in an archival project, and how to tell a story that will be useful beyond my work.
+
+### Mystery and Criticism
+
+Several scholars have published crucial works unpacking the story of Geography’s demise at Harvard and its effects on the landscape of geographical education in the United States. [^2] Curiously, most thorough research on this topic only grazingly mentions the Institute of Geographical Exploration. Even stranger, nearly all mentions of the Institute are negative or disparaging in nature. Neil Smith’s 1987 seminal article, “Academic War Over the Field of Geography: The Elimination of Geography at Harvard, 1947-1951”, names Alexander Hamilton Rice, the Institute’s founder, “a scoundrel by various accounts”[^3], although “more a nuisance than the villain of the piece”[^4]. As for the Institute, it allegedly “was not respected, either within Harvard or outside, and relations were difficult between the Institute and the Division of Geological Sciences.”[^5] This impression was built from archives of correspondence between influent Harvard faculty members such as President James B. Conant or members of the broader Academic community, such as head of the American Geographical Society Isaiah Bowman.

@@ -1,6 +1,6 @@
 ---
 title: A Geographical Cat in the Box
-date: 2024-08-14
+date: 2024-08-13
 tags: ["news"]
 image: cover.jpg
 authors: ["Ana Luiza Nicolae" ]
@@ -87,6 +87,8 @@ The “climax” of Rice’s account, however, was an encounter with “savages�
 <embed src="media/NYT_96890007.pdf" style="width:100%; height:600px;"
  type="application/pdf" alt="NYT article">
 
+From the point of view of the explorer, the terrifying justification for taking indigenous lives easily coexists with gratitude for indigenous knowledge. Elsewhere, Rice praises the indigenous communities having helped him along the way as “very intelligent and hospitable people”[^14]. This single-minded geographical gaze, focused on the extraction of data needed to fill in the blanks left by Western predecessors on maps meant for European and American audiences, makes “mapping [itself] a form of colonisation”[^15]. This point of view stamps over the reality of interactions between different tribes and communities in the Amazon, rendering them into hostiles and friendlies with respect to the explorer’s mission. 
+
 
 [^3]: Smith, “Academic War over the Field of Geography,” 156.
 
@@ -109,3 +111,7 @@ The “climax” of Rice’s account, however, was an encounter with “savages�
 [^12]: “Presentation of the David Livingstone Centenary Medal to Dr. Alexander Hamilton Rice and Lecture by Dr. Rice.”
 
 [^13]: “EXPLORERS FIGHT AMAZON SAVAGES: Prof. A.H. Rice Arrives Home-- Tells of Thrilling Escape from Huge Cannibals. TRIBESMEN NEARLY WHITE Mrs. Rice Said to Have Gone Farther Into Jungles Than Any Other Woman. Attacked by 200 Savages. No Sleep for Four Days,” *The New York Times*, May 12, 1920.
+
+[^14]: Article from the Evening Sun quoted in: Luciana Martins, “Illusions of Power: Vision, Technology, and Geographical Exploration of the Amazon, 1924-1925,” *Journal of Latin American cultural studies : travesía* 16, no. 3 (2007): 298.
+
+[^15]: Luciana Martins, “Geographical Exploration and the Elusive Mapping of Amazonia,” *Geographical Review* 102, no. 2 (2012): 229, https://doi.org/10.1111/j.1931-0846.2012.00144.x.

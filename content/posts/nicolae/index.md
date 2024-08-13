@@ -1,6 +1,6 @@
 ---
 title: A Geographical Cat in the Box
-date: 2024-08-14
+date: 2024-08-13
 tags: ["news"]
 image: cover.jpg
 authors: ["Ana Luiza Nicolae" ]
@@ -73,6 +73,20 @@ This photo [^9] is included in a small collection of [17 photographs held at the
 
 For instance, another of the 17 photos, appears in Rice’s account of his 7th expedition (1924-25):
 
+<img src="media/26recto.png" style="width:100%; max-height:70em;" alt="image 26">
+<img src="media/26verso.jpg" style="width:100%; max-height:70em;" alt="image 26 back">
+
+<u>Above:</u> Photo inscribed on the back with the number “26” and described as “Rio Parima: Indian hut and clearings”, Harvard’s CHSI.[^10]
+
+<u>Below:</u> Plate found in Rice’s account: “The Rio Branco, Uraricuera and Parima : surveyed by the expedition to the Brazilian Guayana from August 1924 to June 1925 : a paper read at the meeting of the Society, 22 March 1926”. This expedition did not accomplish its goals, but brought much attention to Rice for his insistence on the use of aerial photography (by retrofitted aeroplane) and shortwave radio telecommunication. The picture is the same as CHSI’s but is titled alternatively: “Maku malloca and plantation, Tokixima-huaite”.[^11]
+
+<img src="media/maku-malloca.png" style="width:100%; max-height:70em;" alt="aerial photo with">
+
+The “climax” of Rice’s account, however, was an encounter with “savages” which resulted in an attack that Rice was “lucky enough to escape with his life”. [^12] The polite summary published by the AGS does not include the term used by Rice to describe the indigenous people he encountered… His own retelling involves “cannibals” of the “most ferocious” kind, armed with “bows and arrows” and “spears and blow guns” appearing on the other side of a river. When this indigenous group had started wading across the river, with bows above the water, Rice’s party had taken out their “revolver”, “shotgun, and a rifle” and “fired volley after volley, killing several of [the indigenous’ group’s] number”. There is little else to the account besides the disparaging final comment that, having no boats of their own, the indigenous people would most likely “not know how to use them if they did have canoes” [^13]. Allegedly followed along the shore by this group of men for four days, Rice extolls the survival of his party after much angst at the whole affair:
+
+<embed src="media/NYT_96890007.pdf" style="width:100%; height:600px;"
+ type="application/pdf" alt="NYT article">
+
 
 [^3]: Smith, “Academic War over the Field of Geography,” 156.
 
@@ -87,3 +101,11 @@ For instance, another of the 17 photos, appears in Rice’s account of his 7th e
 [^8]: “Presentation of the David Livingstone Centenary Medal to Dr. Alexander Hamilton Rice and Lecture by Dr. Rice,” Geographical Review 11, no. 1 (1921): 139–41.
 
 [^9]: Photo taken by author during consultation at the CHSI, can be found online as “1998-1-1074i” http://waywiser.fas.harvard.edu/objects/20918/photograph-of-scene-on-the-amazon-river?ctx=ed06e63b-01d5-4c5f-b64b-daf1fd20251a&idx=54
+
+[^10]: 1998-1-1074m http://waywiser.fas.harvard.edu/objects/20922/aerial-photograph-of-hut-and-clearings-in-rainforest-in-rio?ctx=5b3f2627-f80c-4d01-bba6-1c3e88812b97&idx=67
+
+[^11]: Alexander Hamilton Rice, *The Rio Branco, Uraricuera and Parima: Surveyed by the Expedition to the Brazilian Guayana from August 1924 to June 1925 : A Paper Read at the Meeting of the Society, 22 March 1926* (London: Royal Geographical Society, 1928).
+
+[^12]: “Presentation of the David Livingstone Centenary Medal to Dr. Alexander Hamilton Rice and Lecture by Dr. Rice.”
+
+[^13]: “EXPLORERS FIGHT AMAZON SAVAGES: Prof. A.H. Rice Arrives Home-- Tells of Thrilling Escape from Huge Cannibals. TRIBESMEN NEARLY WHITE Mrs. Rice Said to Have Gone Farther Into Jungles Than Any Other Woman. Attacked by 200 Savages. No Sleep for Four Days,” *The New York Times*, May 12, 1920.

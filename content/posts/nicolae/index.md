@@ -1,6 +1,6 @@
 ---
 title: A Geographical Cat in the Box
-date: 2024-08-14
+date: 2024-08-17
 tags: ["news"]
 image: cover.jpg
 authors: ["Ana Luiza Nicolae" ]
@@ -32,8 +32,6 @@ The Institute was founded by Alexander Hamilton Rice through a contract with Har
 
 The story of HUIGE is inseparable from that of its founder. Rice was an exploration geographer of the Northwest Amazon and one of the wealthiest socialites of Newport R.I., after marrying the then Eleanor Elkins Widener, famous donor of Widener Library to Harvard. Rice’s mapping trips down the Orinoco and Rio Negro pioneered new techniques for surveying in the 1920s (by airplane and with the help of radio-communication), but only at the cost of indigenous lives. His harmful exploration resulted in many deaths among indigenous peoples encountered. They intrinsically haunt this story, and I hope that their resurfacing in the account below may be a small step in remembrance and further recollection. Rice’s person and personality had become eponymous of the School of Geography itself, as many people in common parlance still refer to the old HUIGE as the “Rice Institute”. Yet the work undergone at HUIGE went beyond the man, even though it was only made possible by his and the new Mrs. Rice’s donations, as well as his selection of personnel for the Institute. This project hopes to expand on the real work done by the HUIGE throughout its two decades of operation.
 
-[^1]: [contract_UAV_5.168_Box 399].
-
 <span style="background-color:yellow;">Discovery map goes here.</span>
 
 ### Acknowledgements
@@ -60,7 +58,6 @@ Several scholars have published crucial works unpacking the story of Geography�
 
 The influence of this piece has been long-lasting. In the more productive ways, it has opened a field of inquiry over the silencing of political dissidence and homosexuality at Harvard around the WWII period, most prominently taken up by the geographers Allison Mountz and Kira Williams.[^6] Yet this piece has fenced the Institute of Geographical Exploration in stagnation, as a stain over the reputation of Geography at Harvard. Smith’s image of a disreputable Rice remains common parlance, as a Harvard Crimson retrospective on the Institute from March 2023 still describes Rice as a “scoundrel” and a “nuisance”[^7]. The reasons for attaching these words to Rice are different today than they were in his own time, however. A short critical overview of Rice’s geographical exploits is presented in what follows, before returning to the reputation he had gathered in his own time. 
 
-[^2]: Martin J. Haigh and T. W. Freeman, “The Crisis in American Geography,” Area 14, no. 3 (1982): 185–90; Andrew F. Burghardt, “On ‘Academic War over the Field of Geography,’ The Elimination of Geography at Harvard, 1947-1951,” Annals of the Association of American Geographers 78, no. 1 (1988): 144–144; Neil Smith, “‘Academic War over the Field of Geography’: The Elimination of Geography at Harvard, 1947-1951,” Annals of the Association of American Geographers 77, no. 2 (1987): 155–72; Alison Mountz and Kira Williams, “Let Geography Die: The Rise, Fall, and ‘Unfinished Business’ of Geography at Harvard,” Annals of the American Association of Geographers ahead-of-print, no. ahead-of-print (2023): 1–26, https://doi.org/10.1080/24694452.2023.2208645; Alison Mountz and Kira Williams, “Derwent’s Ghost: The Haunting Silences of Geography at Harvard,” in A Place More Void (Nebraska, 2021), https://doi.org/10.2307/j.ctv1bd4n3v.12.
 
 
 ### Rice in the Amazon
@@ -91,6 +88,37 @@ From the point of view of the explorer, the terrifying justification for taking 
 
 Such fraught relationships to the land and its people, and still not the reason why Rice was dubbed a “scoundrel” and a “nuisance” in his time! The criticism of his professional abilities came rather from the different approaches to academic geography adopted by professionals and academics at the time, something Luciana Martins summarizes as : “the fraught relationship between academic geography and exploration.”[^16] Without extending further on the critiques of “exploration” incipient in the early 20th century Geography, which have been better treated elsewhere [^17], I hope to make a case for HUIGE’s many successes, often independent of Rice’s direct action. 
 
+### Forgotten praise for the HUIGE
+
+In the early days of raising awareness about the new Institute and its most well-known course, Aerial Photography, Weld Arnold, previously field astronomer for Rice’s expeditions, organized a successful series of lectures given by some of the best experts in the field of aerial reconnaissance [^18]: 
+
+| Instructor | Role | Date of talks | Topic of talks |
+| --- | --- | --- | --- |
+| Capt. Albert W. Stevens | "U.S. Army Air Corps, Wright Field, Dayton, Ohio" | March 2nd and 3rd 1932 | "Operation of Aerial Cameras, Methods of Developing, Processes of Printing and Enlarging, Chemistry of Aerial Photographing” |
+| Capt. Dache M. Reeves | "U.S. Army Corps of Engineers, Wright Field, Dayton, Ohio” | March 8th and 9th 1932 | "Military Use of Aerial Photographs” |
+| Capt. Bruce C. Hill | "U.S. Army Corps of Engineers, Chief Technical Data Branch, Wright Field, Dayton, Ohio” | March 16th and 17th 1932 | "Stereoscopic Methods of Preparing Topographic Maps from Aerial Photographs” |
+| Lieut. J. F. Phillips | "U.S. Army Air Corps, Wright Field, Dayton, Ohio” | March 23rd and 24th 1932 | "Use of Aerial Photos in Map Making” |
+| Major James W. Bagley | "Lake Survey, Detroit, Michigan” | March 30th and 31st 1932 | "Use of Multiple Lens Cameras in Map Making” |
+| Lieut. Samuel P. Mills | "Dept. Military Science and Tactics, N.Y. University New York, N. Y.” | April 13th and 14th 1932 | "Airplane Navigation and Flight Problems” |
+| F.W. Lutz | "Vice-President, Fairchild Camera Corp.” | April 20th and 21st 1932 | "Commercial Uses of Aerial Photographs” |
+
+With time, most of these instructors were to teach courses at the HUIGE. 
+
+To take one example, James Warren Bagley had worked for the United States Geological Survey before distinguishing himself during the First World War by his hand in the creation of a “three-lens camera by which a much larger field could be photographed at a single flight than was possible with the single-lens camera.”[^19] The laudatory words come from Bagley’s obituary by the influential cartographer Erwin Raisz, himself a Lecturer at the HUIGE. More famously, Bagley contributed to aerial photography the “five-lens camera”, which can take simultaneous pictures vertically over the ground as well as obliquely at 45° in all four cardinal directions. During his tenure as Lecturer in Geography at the HUIGE, Bagley wrote a fundamental tome for the discipline of photogrammetry: “Aerophotography and Aerosurveying”[^20]. The cameras in use at the HUIGE and in the USA between the two Wars were all from the Fairchild Aerial Camera Corporation, which improved upon Bagley’s initial tri-lens camera. Helpful graphs as to their functioning have surfaced during my search among a box of miscellaneous files at the Frances Loeb library. [^21]
+
+<img src="media/photogram4.bmp" style="width:100%; max-height:70em;" alt="diagram">
+<img src="media/photogram3.bmp" style="width:100%; max-height:70em;" alt="diagram">
+<img src="media/photogram1.bmp" style="width:100%; max-height:70em;" alt="diagram">
+<img src="media/photogram2.bmp" style="width:100%; max-height:70em;" alt="diagram">
+
+
+
+
+
+
+[^1]: [contract_UAV_5.168_Box 399].
+
+[^2]: Martin J. Haigh and T. W. Freeman, “The Crisis in American Geography,” Area 14, no. 3 (1982): 185–90; Andrew F. Burghardt, “On ‘Academic War over the Field of Geography,’ The Elimination of Geography at Harvard, 1947-1951,” Annals of the Association of American Geographers 78, no. 1 (1988): 144–144; Neil Smith, “‘Academic War over the Field of Geography’: The Elimination of Geography at Harvard, 1947-1951,” Annals of the Association of American Geographers 77, no. 2 (1987): 155–72; Alison Mountz and Kira Williams, “Let Geography Die: The Rise, Fall, and ‘Unfinished Business’ of Geography at Harvard,” Annals of the American Association of Geographers ahead-of-print, no. ahead-of-print (2023): 1–26, https://doi.org/10.1080/24694452.2023.2208645; Alison Mountz and Kira Williams, “Derwent’s Ghost: The Haunting Silences of Geography at Harvard,” in A Place More Void (Nebraska, 2021), https://doi.org/10.2307/j.ctv1bd4n3v.12.
 
 [^3]: Smith, “Academic War over the Field of Geography,” 156.
 
@@ -121,3 +149,11 @@ Such fraught relationships to the land and its people, and still not the reason 
 [^16]: Martins, 235.
 
 [^17]: See note 2, above.
+
+[^18]: TN996714 UAV 461.214 Box 2, *1_Geog.36_1932-33_Early Correspondence.*
+
+[^19]: Raisz, Erwin. “James Warren Bagley, 1881–1947.” *Annals of the Association of American Geographers* 37, no. 2 (June 1947): 122–122. https://doi.org/10.1080/00045604709351949.  See also: Bagley, James Warren. “The Use of the Panoramic Camera in Topographic Surveying with Notes on the Application of Photogrammetry to Aerial Surveys.” Bulletin. Govt. Print. Off., 1917. https://doi.org/10.3133/b657.
+
+[^20]: Bagley, James Warren. Aerophotography and Aerosurveying. 1st ed. New York, London: McGraw-Hill Book Company, inc., 1941.
+
+[^21]: Frances Loeb Library Archives, VF (vertical files) NAC 1244, folder “Ahrens - Utilization of aerial photographs”.

@@ -1,6 +1,6 @@
 ---
 title: A Geographical Cat in the Box
-date: 2024-08-13
+date: 2024-08-14
 tags: ["news"]
 image: cover.jpg
 authors: ["Ana Luiza Nicolae" ]

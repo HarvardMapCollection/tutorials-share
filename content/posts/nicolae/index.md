@@ -33,3 +33,23 @@ The Institute was founded by Alexander Hamilton Rice through a contract with Har
 The story of HUIGE is inseparable from that of its founder. Rice was an exploration geographer of the Northwest Amazon and one of the wealthiest socialites of Newport R.I., after marrying the then Eleanor Elkins Widener, famous donor of Widener Library to Harvard. Rice’s mapping trips down the Orinoco and Rio Negro pioneered new techniques for surveying in the 1920s (by airplane and with the help of radio-communication), but only at the cost of indigenous lives. His harmful exploration resulted in many deaths among indigenous peoples encountered. They intrinsically haunt this story, and I hope that their resurfacing in the account below may be a small step in remembrance and further recollection. Rice’s person and personality had become eponymous of the School of Geography itself, as many people in common parlance still refer to the old HUIGE as the “Rice Institute”. Yet the work undergone at HUIGE went beyond the man, even though it was only made possible by his and the new Mrs. Rice’s donations, as well as his selection of personnel for the Institute. This project hopes to expand on the real work done by the HUIGE throughout its two decades of operation.
 
 [^1]: [contract_UAV_5.168_Box 399].
+
+<span style="background-color:yellow;">Discovery map goes here.</span>
+
+### Acknowledgements
+
+This is a story of archival discovery that was made possible only by the help of Librarians, Archivists and many more staff members of Harvard Libraries, past and present. I wish to acknowledge their help and that of all staff members of the following institutions:
+
+**Collection of Historical Scientific Instruments** (CHSI, or “ch-zee”) *Executive Director* Joshua Gorman and *Project Manager* Erik Lindahl, went out of their way to pull 6 boxes of heavy materials, find long buried digitizations, and make space for consultation in the midst of a move-out.
+
+**Frances Loeb Library** *Special Collections Curator* Ines Zalduendo, *GIS, Data, and Research Librarian* Bruce Boucek and *Research, Teaching, and Writing Services Librarian* Nicole D. Santiago helped me track down a document that was by all accounts missing: “Availability of Aerial Photographs”.
+
+At **Harvard University Archives,** truly every staff member from the Archive reference room in Pusey and especially Reference Archivist Edward Copenhagen, have helped and accommodated this research going on more than a year now.
+
+**Map Collection** *Map Librarian* Molly Taylor-Poleskey, *Head of Geospatial Resources* Bonnie Burns and *Cartographic Reference Assistant* Jonathan Rosenwasser have given me access to uncatalogued aerial photographs, personal papers of geographers at Harvard and most of all, have shared with me a wealth of institutional knowledge about the remnants of the HUIGE at Harvard. David Weimer, now Curator of Maps at the Newberry Library, shared key information about uncatalogued remnants of the HUIGE held at the Map Collection.
+
+**Massachusetts Department of Conservation & Recreation** (DCR) Archivist Sean Fischer, who scoured State and Harvard archives in 2020 for the first big project hosted at the HUIGE.
+
+**Schlesinger Library** *Research Librarian* Sarah Hutcheon has gone out of her way to uncover the stories of Radcliffe women taking to the air through courses in aerial photography.
+
+Lastly, I wish to thank for the time and resources to undertake this project every member organizing the **Pforzheimer Fellowship**, Hannah Hack, Professor Ann Blair, and especially Belle Lipton, who has taught me how to think about spatial data in an archival project, and how to tell a story that will be useful beyond my work.

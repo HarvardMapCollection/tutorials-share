@@ -89,6 +89,8 @@ The “climax” of Rice’s account, however, was an encounter with “savages�
 
 From the point of view of the explorer, the terrifying justification for taking indigenous lives easily coexists with gratitude for indigenous knowledge. Elsewhere, Rice praises the indigenous communities having helped him along the way as “very intelligent and hospitable people”[^14]. This single-minded geographical gaze, focused on the extraction of data needed to fill in the blanks left by Western predecessors on maps meant for European and American audiences, makes “mapping [itself] a form of colonisation”[^15]. This point of view stamps over the reality of interactions between different tribes and communities in the Amazon, rendering them into hostiles and friendlies with respect to the explorer’s mission. 
 
+Such fraught relationships to the land and its people, and still not the reason why Rice was dubbed a “scoundrel” and a “nuisance” in his time! The criticism of his professional abilities came rather from the different approaches to academic geography adopted by professionals and academics at the time, something Luciana Martins summarizes as : “the fraught relationship between academic geography and exploration.”[^16] Without extending further on the critiques of “exploration” incipient in the early 20th century Geography, which have been better treated elsewhere [^17], I hope to make a case for HUIGE’s many successes, often independent of Rice’s direct action. 
+
 
 [^3]: Smith, “Academic War over the Field of Geography,” 156.
 
@@ -115,3 +117,7 @@ From the point of view of the explorer, the terrifying justification for taking 
 [^14]: Article from the Evening Sun quoted in: Luciana Martins, “Illusions of Power: Vision, Technology, and Geographical Exploration of the Amazon, 1924-1925,” *Journal of Latin American cultural studies : travesía* 16, no. 3 (2007): 298.
 
 [^15]: Luciana Martins, “Geographical Exploration and the Elusive Mapping of Amazonia,” *Geographical Review* 102, no. 2 (2012): 229, https://doi.org/10.1111/j.1931-0846.2012.00144.x.
+
+[^16]: Martins, 235.
+
+[^17]: See note 2, above.

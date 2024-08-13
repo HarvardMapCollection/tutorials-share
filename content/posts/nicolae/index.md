@@ -62,6 +62,18 @@ The influence of this piece has been long-lasting. In the more productive ways, 
 
 [^2]: Martin J. Haigh and T. W. Freeman, “The Crisis in American Geography,” Area 14, no. 3 (1982): 185–90; Andrew F. Burghardt, “On ‘Academic War over the Field of Geography,’ The Elimination of Geography at Harvard, 1947-1951,” Annals of the Association of American Geographers 78, no. 1 (1988): 144–144; Neil Smith, “‘Academic War over the Field of Geography’: The Elimination of Geography at Harvard, 1947-1951,” Annals of the Association of American Geographers 77, no. 2 (1987): 155–72; Alison Mountz and Kira Williams, “Let Geography Die: The Rise, Fall, and ‘Unfinished Business’ of Geography at Harvard,” Annals of the American Association of Geographers ahead-of-print, no. ahead-of-print (2023): 1–26, https://doi.org/10.1080/24694452.2023.2208645; Alison Mountz and Kira Williams, “Derwent’s Ghost: The Haunting Silences of Geography at Harvard,” in A Place More Void (Nebraska, 2021), https://doi.org/10.2307/j.ctv1bd4n3v.12.
 
+
+### Rice in the Amazon
+
+In an account given to the American Geographical Society upon the receipt of the “David Livingstone Centenary Medal” in 1920, Rice presented the adventures of his latest expedition. The goal of the expedition was to map the river course of the Rio Negro, a tributary of the Amazon splaying off to the North around Manaus, as well as “the adjacent country, its topography, and its native population”. Charts and maps were not the only materials resulting from the expedition, but also Rice’s “many slides depicting the life of the natives”[^8]. Perhaps one such slide was a picture inscribed on the back with a number (24) and the quote: “Scene on the Amazon”: 
+
+<img src="media/cshi-24.jpg" style="width:100%; max-height:70em;" alt="image 24">
+
+This photo [^9] is included in a small collection of [17 photographs held at the Collection for Historical Scientific Instruments (CHSI)](https://mapping.share.library.harvard.edu/projects/huige/collection-for-historical-scientific-instruments/), perhaps a representative set of photographs about different subjects used as teaching materials at the HUIGE. There is slight evidence that many of these pictures may have come from A. H. Rice’s private collection.
+
+For instance, another of the 17 photos, appears in Rice’s account of his 7th expedition (1924-25):
+
+
 [^3]: Smith, “Academic War over the Field of Geography,” 156.
 
 [^4]: Smith, 167.
@@ -71,3 +83,7 @@ The influence of this piece has been long-lasting. In the more productive ways, 
 [^6]: See references in note 3, above.
 
 [^7]: Barry, Mila G., and Matthew A. Thompson. “From the Institute of Geographical Exploration to East Asian Studies: A Retrospective on 2 Divinity Ave.,” March 9, 2023. https://www.thecrimson.com/article/2023/3/9/divinity-ave-retrospection/.
+
+[^8]: “Presentation of the David Livingstone Centenary Medal to Dr. Alexander Hamilton Rice and Lecture by Dr. Rice,” Geographical Review 11, no. 1 (1921): 139–41.
+
+[^9]: Photo taken by author during consultation at the CHSI, can be found online as “1998-1-1074i” http://waywiser.fas.harvard.edu/objects/20918/photograph-of-scene-on-the-amazon-river?ctx=ed06e63b-01d5-4c5f-b64b-daf1fd20251a&idx=54

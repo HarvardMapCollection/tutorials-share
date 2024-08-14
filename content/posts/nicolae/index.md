@@ -1,6 +1,6 @@
 ---
 title: A Geographical Cat in the Box
-date: 2024-08-17
+date: 2024-08-14
 tags: ["news"]
 image: cover.jpg
 authors: ["Ana Luiza Nicolae" ]
@@ -132,13 +132,13 @@ Such photographs were the penultimate material result of the photographic flight
 
 Among some of the fascinating projects completed by the HUIGE is the 1933 “Massachusetts Project” conducted by Lt. James F. Phillips and Weld Arnold. Perhaps the first state survey completed in such a short time, its photographs amounted to a height of more than 8 feet when all their cardboards were stacked![^25]
 
-<div class="img-zoom">
+<div class="img-zoom-a-little">
 <img src="media/1933-ma-project.jpg" style="width:100%; max-height:70em;" alt="newspaper clipping">
 </div>
 
 The kind of picture rendered by the T-3A camera was best described to a lay audience as shaped like a “Maltese-cross”[^26]. For my own lay eyes, as someone even further removed from the context of this technology, understanding how the 5-lens camera rendered such a shape benefits greatly from accompanying manuals, such as T. P. Ahrens’ “The Utilization of Aerial Photographs in Mapping and Studying Land Features” (1936)[^27]: 
 
-<div class="image-container" id="two-image-container">
+<!-- <div class="image-container" id="two-image-container">
     <img src="media/photogram4.bmp" alt="diagram">
     <img src="media/photogram3.bmp" alt="diagram">
 </div>
@@ -146,6 +146,24 @@ The kind of picture rendered by the T-3A camera was best described to a lay audi
 <div class="image-container" id="two-image-container">
    <img src="media/photogram1.bmp"  alt="diagram">
     <img src="media/photogram2.bmp"  alt="diagram">
+</div> -->
+
+<div class="image-container" id="two-image-container">
+    <div class="img-zoom-a-lot">
+        <img src="media/photogram4.bmp" alt="diagram">
+    </div>
+    <div class="img-zoom-a-lot">
+        <img src="media/photogram3.bmp" alt="diagram">
+    </div>
+</div>
+
+<div class="image-container" id="two-image-container">
+    <div class="img-zoom-a-lot">
+        <img src="media/photogram1.bmp" alt="diagram">
+    </div>
+    <div class="img-zoom-a-lot">
+        <img src="media/photogram2.bmp" alt="diagram">
+    </div>
 </div>
 
 

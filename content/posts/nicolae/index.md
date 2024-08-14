@@ -24,7 +24,8 @@ Every good story starts with a spark and a helping hand to fan it. This one stem
 … all topics I will return to throughout this article, and last but not least, for the nerdy joy of research: 
 4. A stamp used at the HUIGE and which now graces my booklet!
 
-![IGE stamp](cover.png)
+<img src="cover.jpg" style="width:100%; max-height:70em;" alt="IGE Stamp">
+
 
 ### HUIGE
 
@@ -32,7 +33,10 @@ The Institute was founded by Alexander Hamilton Rice through a contract with Har
 
 The story of HUIGE is inseparable from that of its founder. Rice was an exploration geographer of the Northwest Amazon and one of the wealthiest socialites of Newport R.I., after marrying the then Eleanor Elkins Widener, famous donor of Widener Library to Harvard. Rice’s mapping trips down the Orinoco and Rio Negro pioneered new techniques for surveying in the 1920s (by airplane and with the help of radio-communication), but only at the cost of indigenous lives. His harmful exploration resulted in many deaths among indigenous peoples encountered. They intrinsically haunt this story, and I hope that their resurfacing in the account below may be a small step in remembrance and further recollection. Rice’s person and personality had become eponymous of the School of Geography itself, as many people in common parlance still refer to the old HUIGE as the “Rice Institute”. Yet the work undergone at HUIGE went beyond the man, even though it was only made possible by his and the new Mrs. Rice’s donations, as well as his selection of personnel for the Institute. This project hopes to expand on the real work done by the HUIGE throughout its two decades of operation.
 
-<span style="background-color:yellow;">Discovery map goes here.</span>
+The map below summarizes the respective holdings of different Harvard archives. Discover each of their holdings by clicking on the colorful buildings highlighted on Harvard’s campus:
+
+<iframe style="left:-3em;position:relative;" width="120%" height="700" src="https://mapping.share.library.harvard.edu/huige/" title="spatial finding aid" ></iframe>
+
 
 ### Acknowledgements
 
@@ -104,14 +108,45 @@ In the early days of raising awareness about the new Institute and its most well
 
 With time, most of these instructors were to teach courses at the HUIGE. 
 
-To take one example, James Warren Bagley had worked for the United States Geological Survey before distinguishing himself during the First World War by his hand in the creation of a “three-lens camera by which a much larger field could be photographed at a single flight than was possible with the single-lens camera.”[^19] The laudatory words come from Bagley’s obituary by the influential cartographer Erwin Raisz, himself a Lecturer at the HUIGE. More famously, Bagley contributed to aerial photography the “five-lens camera”, which can take simultaneous pictures vertically over the ground as well as obliquely at 45° in all four cardinal directions. During his tenure as Lecturer in Geography at the HUIGE, Bagley wrote a fundamental tome for the discipline of photogrammetry: “Aerophotography and Aerosurveying”[^20]. The cameras in use at the HUIGE and in the USA between the two Wars were all from the Fairchild Aerial Camera Corporation, which improved upon Bagley’s initial tri-lens camera. Helpful graphs as to their functioning have surfaced during my search among a box of miscellaneous files at the Frances Loeb library. [^21]
+To take one example, James Warren Bagley had worked for the United States Geological Survey before distinguishing himself during the First World War by his hand in the creation of a “three-lens camera by which a much larger field could be photographed at a single flight than was possible with the single-lens camera.”[^19] More famously, Bagley contributed to aerial photography the “five-lens camera”, which can take simultaneous pictures vertically over the ground as well as obliquely at 45° in all four cardinal directions. During his tenure as Lecturer in Geography at the HUIGE, Bagley wrote a fundamental tome for the discipline of photogrammetry: “Aerophotography and Aerosurveying”[^20]. Bagley was a 
 
-<img src="media/photogram4.bmp" style="width:100%; max-height:70em;" alt="diagram">
-<img src="media/photogram3.bmp" style="width:100%; max-height:70em;" alt="diagram">
-<img src="media/photogram1.bmp" style="width:100%; max-height:70em;" alt="diagram">
-<img src="media/photogram2.bmp" style="width:100%; max-height:70em;" alt="diagram">
+> “… gentleman by tradition, a scientist by education, and an inventor by nature. […] He was teaching in one of the first private institutions where aerial photography was offered, and many new techniques which became of importance during the war were developed in his laboratories. Many of his students occupy important posts, thousands of men have been trained by his books, and Colonel Bagley’s name is indelibly inscribed in the history of American photogrammetry.” [^21]
+> 
+
+The laudatory words come from Bagley’s obituary by the influential cartographer Erwin Raisz, himself a Lecturer at the HUIGE. The cameras in use at the HUIGE and by military aviation in the USA between the two Wars were developed by the Fairchild Aerial Camera Corporation after Bagley’s earlier models.  The cameras in use at HUIGE numbered many Fairchild models: K-3B, K-6, K-10, F-3A, and F-8. [^22] The most famous one, however, remains the F-3A, a 5-lens model, which is to this day in Harvard’s possession at CHSI:
+
+<div class="image-container" id="three-image-container">
+    <img src="media/camera-1.png" alt="Old camera">
+    <img src="media/camera-2.png" alt="Old camera">
+    <img src="media/camera-3.png" alt="Old camera">
+</div>
 
 
+Left (right under) and Middle (under, from a side): Photos of T-3A Fairchild camera used by the HUIGE, exhibited during the 2023-2024 CHSI exhibition: “Surveillance: From Vision to Data”. [^23] Right: case of the T-3A Fairchild camera, held at CHSI. [^24]
+
+This camera was fitted in a hole cut in the belly of an airplane and operated by students who oriented its lenses and precisely timed the taking of photographs with the speed of the plane. After the film was extracted from the camera and treated in the HUIGE laboratory, situated in the basement of 2 Div. Ave at the time, a photo from each of the lenses was printed. These aerial photographs were then glued together in their final shape according to a “Blueprint for alignment and trimming” and stapled or glued onto cardboard sheets for durability. For a set of materials involved throughout the process, see CHSI’s - <span style="background-color:yellow;">[List of HUIGE photography-related objects -- ADD page & LINK!](link).</span>
+
+Such photographs were the penultimate material result of the photographic flights undertaken by students and Faculty of the HUIGE all over Massachusetts and the Eastern seaboard. For concrete examples of flights completed by HUIGE affiliates, including students, see the - <span style="background-color:yellow;">[Flight reports -- ADD page & LINK!](link)</span> summarized from documents held at the Harvard University Archives. The ultimate result in this process was the compilation of several aerial photographs into an up-to-date map, a feat achieved faster by the aerial survey of a territory than by ground surveying techniques. A map representing the approximate flight paths and map extents covered in the Spring of 1935 may serve to give an idea of the scale of HUIGE’s teaching (see Flight Report data above for more details on each flight):
+
+<iframe width="100%" height="700" src="https://felt.com/embed/map/Untitled-Map-SiIWmgj0Sbe8QWPrvvAlzD?loc=42.748%2C-71.72%2C7.86z&legend=1&cooperativeGestures=1&link=1&geolocation=0&zoomControls=1&scaleBar=1" ></iframe>
+
+Among some of the fascinating projects completed by the HUIGE is the 1933 “Massachusetts Project” conducted by Lt. James F. Phillips and Weld Arnold. Perhaps the first state survey completed in such a short time, its photographs amounted to a height of more than 8 feet when all their cardboards were stacked![^25]
+
+<div class="img-zoom">
+<img src="media/1933-ma-project.jpg" style="width:100%; max-height:70em;" alt="newspaper clipping">
+</div>
+
+The kind of picture rendered by the T-3A camera was best described to a lay audience as shaped like a “Maltese-cross”[^26]. For my own lay eyes, as someone even further removed from the context of this technology, understanding how the 5-lens camera rendered such a shape benefits greatly from accompanying manuals, such as T. P. Ahrens’ “The Utilization of Aerial Photographs in Mapping and Studying Land Features” (1936)[^27]: 
+
+<div class="image-container" id="two-image-container">
+    <img src="media/photogram4.bmp" alt="diagram">
+    <img src="media/photogram3.bmp" alt="diagram">
+</div>
+
+<div class="image-container" id="two-image-container">
+   <img src="media/photogram1.bmp"  alt="diagram">
+    <img src="media/photogram2.bmp"  alt="diagram">
+</div>
 
 
 
@@ -156,4 +191,27 @@ To take one example, James Warren Bagley had worked for the United States Geolog
 
 [^20]: Bagley, James Warren. Aerophotography and Aerosurveying. 1st ed. New York, London: McGraw-Hill Book Company, inc., 1941.
 
-[^21]: Frances Loeb Library Archives, VF (vertical files) NAC 1244, folder “Ahrens - Utilization of aerial photographs”.
+[^21]: Se note 19, above.
+
+[^22]: Collected from the flight reports of the course Geography 36, given at the HUIGE. See [“Contents-UAV”](https://mapping.share.library.harvard.edu/projects/huige/harvard-university-archive/), UAV.461.214 Box 2 - Folders: 6, 11, 14, 17, 22, 24 and 28 and in UAV.461.214 Box 3 - Folders: 4 and 13.
+
+[^23]: Photograph taken by author. “Surveillance: From Vision to Data Poses Timely Questions about the History of Surveillance – Harvard Museums of Science & Culture,” August 28, 2023. https://hmsc.harvard.edu/2023/08/28/surveillance-from-vision-to-data-poses-timely-questions-about-the-history-of-surveillance/.
+
+[^24]: CHSI object “Fairchild K-3A and T-3A five-lens aerial camera systems” RS0385: http://waywiser.fas.harvard.edu/objects/18149/fairchild-k3a-and--t3a-fivelens-aerial-camera-systems?ctx=3095423c-c233-4cfc-93d7-d32cd84ecdc4&idx=0
+
+[^25]: Photograph taken by author, detail from RS1530, “mounted 3-lens Fairchild T-3A aerial photographs, Cambridge, Boston, MA”: http://waywiser.fas.harvard.edu/objects/20538/mounted-3lens-fairchild-t3a-aerial-photographs-cambridge?ctx=637ceba2-f451-413f-bfd8-fbb87d9d101b&idx=0 
+
+[^26]: The Harvard Crimson. “New Multi-Lens Camera Facilitates Map Plotting from Air, Bagley Says | Former Army Colonel Relates The Development of Camera at Geography Institute,” March 5, 1938. https://www.thecrimson.com/article/1938/3/5/new-multi-lens-camera-facilitates-map-plotting/.
+
+[^27]: Frances Loeb Library Archives, VF (vertical files) NAC 1244, folder “Ahrens - Utilization of aerial photographs”. This document was chosen in order to highlight the materials held within Harvard Archives, but a more specific refernce for the Camera used would be: Aerial Division, U. S. Army Air Corps (Wright Field, Dayton, Ohio), *Handbook of Instructions with Parts Catalog for the Fairchild Model T-3A Five Lens Aerial Camera and the B-7 Transforming Printer* (New York, Fairchild Aerial Camera Corporation, 1932).
+
+[^28]: Harvard Forest. “Institute of Geographical Exploration Aerial Photographs” Item 10772, HF-ID: HFVA-74 [[**https://harvardforest1.fas.harvard.edu/exist/apps/archives/views/view-item.xql?id=10772](https://harvardforest1.fas.harvard.edu/exist/apps/archives/views/view-item.xql?id=10772)] and** Harvard Forest. “Aerial Photographs Petersham/Deer Farm 1933” Item 8562, HF-ID: HFVA-03 [[**https://harvardforest1.fas.harvard.edu/exist/apps/archives/views/view-item.xql?id=8562](https://harvardforest1.fas.harvard.edu/exist/apps/archives/views/view-item.xql?id=8562)]** (consulted Aug. 6th 2024)
+
+[^29]: Digital Commonwealth, Massachusetts Collections Online. “A view of Cambridge, taken from a height of 15,000 feet by the Harvard Institute of Geographical Exploration as part of its aerial survey of Massachusetts, the first project of this type ever undertaken**”** [https://www.digitalcommonwealth.org/search/commonwealth:wd377892k] (consulted Aug. 6th 2024).
+
+[^30]: As members of Faculty most interested in collaborating with the Institute early on, Dache cites Dr. E.A. Hooton (Anthropology), Dr. A.M. Tozzer (Mexican Archaeology), Dr. R.B. Dixon (American Archaeology), Dr. D.S. Whittlesey (Geography), Dr. H.O Hencken, Mr. H.L. Movius Jr and Mr. Goddard (Irish Archaeology), Prof. W.L. Warner (Sociology), Dr. Macmillan (Plant Explorer for the Department of Agriculture), Mr. Guernsey (Curator of Archaeology, Peabody Museum), Mr. D. Scott (Director, Peabody Museum*). Letter addressed to the HUIGE, March 10th 1934, UAV_461.214_Box_; 1_Geog.36_1932-33_Early Correspondence.*
+
+[^31]: For more on Raisz’ cartographic input at the HUIGE, see VanHorn, Jason E. “The Erwin Raisz Plan to Advance Academic Cartography in the United States.” *International Journal of Cartography* 10, no. 1 (January 2, 2024): 4–20. https://doi.org/10.1080/23729333.2022.2074940. See also upcoming work by Professor Matthew W. Wilson, at University of Kentucky.
+
+[^32]: Melissa McCormick, “2 Divinity Avenue,” Department of East Asian Languages and Civilizations, March 6, 2023, https://ealc.fas.harvard.edu/2-divinity-avenue; McCormick importantly highlights the work of D.S. Wilson, which includes important biographical details about the life of Julian Abele, as well as a list of the buildings the architect designed, in Appendix. Dreck Spurlock Wilson, *Julian Abele: Architect and the Beaux Arts*, Minorities in Architecture (Abingdon, Oxon ; New York, NY: Routledge, 2019).
+

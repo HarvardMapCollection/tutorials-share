@@ -34,3 +34,16 @@ image: a-gradient1.png
   <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
   This is an alert box.
 </div>
+
+{/* pictures show up side by side */}
+<div class="image-container" id="three-image-container">
+    <img src="media/camera-1.png" alt="Old camera">
+    <img src="media/camera-2.png" alt="Old camera">
+    <img src="media/camera-3.png" alt="Old camera">
+</div>
+
+
+{/* Zoom in on an image */}
+<div class="img-zoom">
+  <img src="media/1933-ma-project.jpg" style="width:100%; max-height:70em;" alt="newspaper clipping">
+</div>

@@ -138,15 +138,6 @@ Among some of the fascinating projects completed by the HUIGE is the 1933 “Mas
 
 The kind of picture rendered by the T-3A camera was best described to a lay audience as shaped like a “Maltese-cross”[^26]. For my own lay eyes, as someone even further removed from the context of this technology, understanding how the 5-lens camera rendered such a shape benefits greatly from accompanying manuals, such as T. P. Ahrens’ “The Utilization of Aerial Photographs in Mapping and Studying Land Features” (1936)[^27]: 
 
-<!-- <div class="image-container" id="two-image-container">
-    <img src="media/photogram4.bmp" alt="diagram">
-    <img src="media/photogram3.bmp" alt="diagram">
-</div>
-
-<div class="image-container" id="two-image-container">
-   <img src="media/photogram1.bmp"  alt="diagram">
-    <img src="media/photogram2.bmp"  alt="diagram">
-</div> -->
 
 <div class="image-container" id="two-image-container">
     <div class="img-zoom-a-lot">
@@ -156,6 +147,7 @@ The kind of picture rendered by the T-3A camera was best described to a lay audi
         <img src="media/photogram3.bmp" alt="diagram">
     </div>
 </div>
+<br>
 
 <div class="image-container" id="two-image-container">
     <div class="img-zoom-a-lot">
@@ -166,7 +158,64 @@ The kind of picture rendered by the T-3A camera was best described to a lay audi
     </div>
 </div>
 
+<br>
+<br>
 
+Ahrens’ helpful graphs were a pure surprise and unexpected side-effect of archival research. I happened upon the folder containing them while searching for another document, which had given me grief, catalogued as it was on Hollis as “missing”:
+
+<img src="media/Missing_document.png" style="width:100%; max-height:70em;" alt="missing document in HOLLIS">
+
+
+This document, titled “Availability of aerial photographs” gave me great hope of finding a catalogue of all aerial photographs produced by the HUIGE up to 1946. After finding records of hundreds of flights since 1932, each with dozens of pictures taken of the ground, I was surprised when I discovered that the total holdings of large cardboard-backed-5-lens photographs at Harvard number… only 69 photographs, now in our CHSI’s collection. The discrepancy between expectation and reality is understandable, given that not all film from HUIGE’s flights may have been developed, and also that many projects were commissioned for actors outside the IGE. Nonetheless, the survey of Massachusetts from 1933 alone was supposed to amount to around 800 photographs stapled to cardboard (around 4,000 if counting the photos taken by each individual lens). This number may never be wholly reconstructed, but it is time now to recognize the valiant effort of the Massachusetts Department of Conservation & Recreation (DCR) Archivist Sean Fischer, who recovered over Covid the trace of around 150 photographs related to the survey. From Sean Fischer’s correspondence with Harvard Forest Archives (HFA) staff and then Deputy Director of the Harvard Forest Aaron M. Ellison, shared kindly by our Map Collections librarians, the sprawl and travel of this exemplar-survey is astonishing. In total, **10** “Maltese-cross” photos from the 1933 survey ended up at the Harvard Forest Archive, about **135**, at the Massachusetts Water Resources Authority (MWRA) Records Center in Marlborough, and at least **1** in the archive of the Cambridge Historical Commission. The below images are taken from Sean Fisher’s inestimable collection of resources in <span style="background-color:yellow;">[Power Point format -- ADD page & LINK!](link)</span>.
+
+Left: Sean Fischer’s overview of materials related to the HUIGE and held at the Harvard Forest Archives. According to the HFA’s archival record, these photographs were transferred to CHSI by A. Ellison at the Initiative of Sean Fischer on October 26th 2020, only 20 in total. [^28] The photos remain uncatalogued by CHSI. Right: The single readily available picture from the 1933 survey, a central-lens vertical shot over Cambridge and Allston Mass. [^29]
+
+
+<div class="image-container" id="two-image-container">
+    <div >
+        <img src="media/sean-fish.png" alt="Inventory of IGE photos at HFA">
+    </div>
+    <div >
+        <img src="media/camb.png" alt="image of Cambridge 1930s aerial in digital commonwealth">
+    </div>
+</div>
+<br>
+
+Above: Stack of photos found by Fischer at the Massachusetts Water Resources Authority (MWRA) Records Center in Marlborough and Below: their inventory, compiled by Sean Fischer.
+
+<div class="landscape">
+    <div>
+        <img src="media/mwra.png" alt="stack of photos">
+    </div>
+    <div>
+        <img src="media/fish2.png" alt="Fischer's MWRA inventory">
+    </div>
+</div>
+<br>
+
+After such tremendous effort and no doubt the help of countless archivists and staff members across these institutions, Sean Fischer’s mission was halted at less than 1/5 of the Massachusetts survey’s recovery. Of the number held at CHSI, only 4 are currently identifiable as part of this survey (RS1522a-d). The elusiveness of the large pictures, approximately 34 by 38 inches in size, and the painstaking approach to their recovery, made me all the more crushed at the disappearance of the “Availability of aerial photographs” document...
+
+Three kind Librarians from the Frances Loeb Library explained the unfortunate situation of the lost document. Leaflets, reports and fold-out maps which are too strangely shaped to fit with books on general circulation shelves are held apart. These so-called "Vertical Files", have been moved and removed from Gund Hall over time, until they were all boxed up for safe keeping.  In the turnover of storage places, the document could have disappeared. I was nonetheless encouraged by Ines Zaldueno and Bruce Boucek to go into the archives and consult the box which held the few Vertical Files related to the HUIGE. Lo and behold… among the hundreds of documents in the box, there was the slim folder I had been searching for! For this document as well as a summary of the other HUIGE-related files held at Gund Hall, see the Frances Loeb Library factsheet. My amazement was quickly sobered by the contents of the document however — a catalogue of repositories of aerial photography in the country, rather than at Harvard. There was nonetheless enough indication of the type of holdings at HUIGE. 
+
+<img src="media/gund-doc.png" style="margin-top:1em;" alt="Fischer's inventory of MWRA photos">
+<br>
+
+The pictures held at CHSI might be more precisely identified with any of the above geographical expanses if high-resolution digitizations existed. After going through the pains of grabbing old digitizations of HUIGE pictures from the depths of CHSI’s servers, Erik Lindahl supplied me with the original pictures visible on CHSI’s archival search platform, Waywiser. These provide invaluable information, as students often signed their work on the cardboard holding up their photographs or else instructors identified the site of the picture in crayon. Such was the case for picture RS1523b, over Columbus, Ohio:
+
+<div class="img-zoom-a-little">
+<img src="media/D004043.jpg" style="width:100%; max-height:70em;" alt="Ohio aerial with crayon marginalia/ signatures">
+</div>
+
+The trouble with this picture, beautiful as it is, comes from its lack of large-scale resolution. For example, here is a zoomed in picture of the digitization (left) next to a photo taken by me during the consultation hours Director of CHSI Joshua Gorman brilliantly organized so that I may view the photographs (right):
+
+<div class="landscape">
+    <div class="img-zoom-a-lot">
+        <img src="media/old-digi.png" alt="diagram">
+    </div>
+    <div class="img-zoom-a-lot">
+        <img src="media/new-digi.png" alt="diagram">
+    </div>
+</div>
 
 
 [^1]: [contract_UAV_5.168_Box 399].

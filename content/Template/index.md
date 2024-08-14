@@ -35,11 +35,23 @@ image: a-gradient1.png
   This is an alert box.
 </div>
 
-{/* pictures show up side by side */}
-<div class="image-container" id="three-image-container">
-    <img src="media/camera-1.png" alt="Old camera">
-    <img src="media/camera-2.png" alt="Old camera">
-    <img src="media/camera-3.png" alt="Old camera">
+{/* pictures show up side by side & zoom */}
+<div class="image-container" id="two-image-container">
+    <div class="img-zoom-a-lot">
+        <img src="media/photogram4.bmp" alt="diagram">
+    </div>
+    <div class="img-zoom-a-lot">
+        <img src="media/photogram3.bmp" alt="diagram">
+    </div>
+</div>
+
+<div class="image-container" id="two-image-container">
+    <div class="img-zoom-a-lot">
+        <img src="media/photogram1.bmp" alt="diagram">
+    </div>
+    <div class="img-zoom-a-lot">
+        <img src="media/photogram2.bmp" alt="diagram">
+    </div>
 </div>
 
 

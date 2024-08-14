@@ -375,6 +375,11 @@ td {
     vertical-align: bottom;
 }
 
+img{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+
 .img-zoom-a-lot img, .img-zoom-a-little img {
     width: 100%;
     transition: transform .225s ease-in-out;
@@ -387,7 +392,7 @@ td {
 }
 
 .img-zoom-a-little:hover img {
-    transform: scale(2.0); /* Zoom factor */
+    transform: scale(1.75); /* Zoom factor */
 }
 
 
@@ -406,15 +411,25 @@ td {
 }
 
 #two-image-container img {
-    // width: 48%; /* Use percentages to have them be side by side */
-    // // height: auto; /* Maintain aspect ratio */
+    width: 48%; /* Use percentages to have them be side by side */
+    // height: auto; /* Maintain aspect ratio */
     min-height: 100%;
+    width: 95%;
     margin: 1em;
-    min-width: 350px;
-    padding: .5em;
-
+    // min-width: 350px;
 }
 
+
+.landscape {
+    display: flex;       /* Use flexbox for the container */
+    gap: 20px;           /* Gap between images */
+    justify-content: center;
+}
+.landscape img {
+    width: 100%;         /* Let them take full width of their container */
+    max-width: 400px;    /* Adjust width as necessary */
+    height: auto;        /* Maintain aspect ratio */
+}
 
 @media (max-width: 768px) {
     #three-image-container img {

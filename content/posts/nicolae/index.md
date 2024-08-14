@@ -165,6 +165,7 @@ Ahrens’ helpful graphs were a pure surprise and unexpected side-effect of arch
 
 <img src="media/Missing_document.png" style="width:100%; max-height:70em;" alt="missing document in HOLLIS">
 
+<br>
 
 This document, titled “Availability of aerial photographs” gave me great hope of finding a catalogue of all aerial photographs produced by the HUIGE up to 1946. After finding records of hundreds of flights since 1932, each with dozens of pictures taken of the ground, I was surprised when I discovered that the total holdings of large cardboard-backed-5-lens photographs at Harvard number… only 69 photographs, now in our CHSI’s collection. The discrepancy between expectation and reality is understandable, given that not all film from HUIGE’s flights may have been developed, and also that many projects were commissioned for actors outside the IGE. Nonetheless, the survey of Massachusetts from 1933 alone was supposed to amount to around 800 photographs stapled to cardboard (around 4,000 if counting the photos taken by each individual lens). This number may never be wholly reconstructed, but it is time now to recognize the valiant effort of the Massachusetts Department of Conservation & Recreation (DCR) Archivist Sean Fischer, who recovered over Covid the trace of around 150 photographs related to the survey. From Sean Fischer’s correspondence with Harvard Forest Archives (HFA) staff and then Deputy Director of the Harvard Forest Aaron M. Ellison, shared kindly by our Map Collections librarians, the sprawl and travel of this exemplar-survey is astonishing. In total, **10** “Maltese-cross” photos from the 1933 survey ended up at the Harvard Forest Archive, about **135**, at the Massachusetts Water Resources Authority (MWRA) Records Center in Marlborough, and at least **1** in the archive of the Cambridge Historical Commission. The below images are taken from Sean Fisher’s inestimable collection of resources in <span style="background-color:yellow;">[Power Point format -- ADD page & LINK!](link)</span>.
 
@@ -216,7 +217,56 @@ The trouble with this picture, beautiful as it is, comes from its lack of large-
         <img src="media/new-digi.png" alt="diagram">
     </div>
 </div>
+<br>
 
+While higher resolution imaging may hold they key to identifying some of the landscapes captured by Harvard students, the digitizations collected by HUIGE remain of historical importance otherwise. Most aerial photographs of the collection have now had their printed photographs detached from their heavy cardboard frame, which was discarded. Many inscriptions have thus been lost, besides their digital record in the form of CHSI’s initial pictures. Another form of change may also be recorded between the initial digitizations and the current state of the HUIGE photographs. By seeing the pictures in their current state and contrasting them with earlier digitizations, many geographical arrangements become apparent and many questions emerge. The early photograph of Columbus, Ohio is actually two overlain 5-part photos of the city. These are catalogues as RS1523a and b. Currently, the two pictures are held in *separate boxes*, and they illustrate perfectly the different trajectories undertaken by these pictures at Harvard. 
+
+<p style="text-indent:50px;">The left-hand picture, RS1523a, is one of the remaining few cardboard-backed photographs, and its formerly overlain pair, RS1523b to the right, represents the current plastic-enclosed form of most pictures hosted at CHSI. The transformation between the above original digitization (whether stored with the pictures overlying each other or simply put up for the sake of digitization) and the current storage situation allows for the most geographical information to be gleaned from these pictures. For instance, it may not occur to a researcher today to juxtapose the two pictures out of phase, as per the original digitization. Additionally, the current form of the pictures allows for the middle picture of RS1523a to be seen, doubling the amount of exposure to that area of Columbus. Last but not least, the lack of cardboard-inscribed context is clearly noticed in the contrast between the pictures below, as the current format of the pictures allows for the full cardboard inscription to be read on RS1523a, but requires of the researcher much attention in gathering RS1523b together with its pair, given their storage in separate boxes of photographs.</p>
+
+<div class="image-container" id="two-image-container">
+    <div class="img-zoom-a-lot">
+        <img src="media/RS1523a_IMG_8821.jpg.png" alt="aerial">
+    </div>
+    <div class="img-zoom-a-lot">
+        <img src="media/RS1523b_IMG_8659.jpg.png" alt="aerial">
+    </div>
+</div>
+<br>
+<br>
+An additional discovery only made possible by in-person sighting of the HUIGE photographs is that: since the arms of the Maltese-cross are photographs taken at an oblique angle, then bringing a camera phone above an arm and tilting it back to about 45° will render a picture that appears less distorted. Indeed, by undoing the action of the original lens with a second viewing lens, the image becomes restored to what it might have appeared from the point of view of the plane:
+<br><br>
+
+<iframe src="https://player.vimeo.com/video/998344909?h=c2ef4d16b9" width="100%;" height="1138" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+Of the people who took these many photos, besides the Instructors, all of which had presented at the HUIGE early in 1932, the students maintained an interest in the HUIGE’s aerial photography courses from their first iteration to the end of WWII. The <span style="background-color:yellow;">— List of Students</span> collected from examination records and permission slips for flying held at the Harvard University Archives highlight the continued popularity of the courses given at the HUIGE. With diverse projects rolling in every year, students partaking in the work of the HUIGE were often participating in work that served Institutions outside of Harvard, such as the Massachusetts department of Public Works, for which the HUIGE participated in an aerial survey with the scope of improving the highway system. Among the students partaking in aerial photography, I was delighted to discover many Radcliffe students, often engaging in the “Advanced” version of Geography 36: “Aerial Photography”, which was alternately titled Geography 20d and starting 1935, Geography 38. Their stories are collected in the <span style="background-color:yellow;">— List of Women in Aerial Photography</span> . For their role in the teaching, learning and making of aerial photography, yet another project will be needed, and this serves as a hopeful call to action in this direction.
+
+### A “School of Geography” at Harvard
+
+In 1934, WWI-decorated aerial photographer Dache McClain Reeves gave the Institute a first stamp of approval in a report for the HUIGE: “There has been a gratifying interest shown in aerial photography by members of the Harvard Faculty. In addition to the work with the students, I have been busy constantly in conferences with various departments.” He mentioned the interest of several Faculty members and added that the “Institute of Geographical Exploration is recognized as an authority on aerial photography”. [^30] With the hiring of James W. Bagley in 1937 for almost a decade, the HUIGE remained a prolific center for Aerial Photography and Exploration, increasingly turned towards geological surveying and urban landscape management, under the influence of cartographer Erwin Raisz.[^31] Yet, in the post-war period, support for academic Geography declined at Harvard and, amidst financial troubles regarding his own estate and old age, Alexander H. Rice removed his financial support of the HUIGE. In its last few years, the Institute remained a bastion for Geographers, hosting the 23rd and 24th “Annual Meeting of the New England Geographical Conference” in 1948 and 1949 respectively. While the full rationale behind Rice’s withdrawal from the HUIGE remain cloaked… While President Conant’s decision not to continue funding the HUIGE remain confusingly tied to his opinion of the defunct Geography department at Harvard, although the two shared less than is usually stated… The opinion of the student body in response to the Institute’s closing remains vehement and rings true to this day. I urge you to read two Crimson articles from the very first days following the HUIGE’s closure: [“Busy in a deserted Building”](https://www.thecrimson.com/article/1951/10/3/busy-in-a-deserted-building-pthe/) and [“Geography Razed”](https://www.thecrimson.com/article/1951/10/9/geography-razed-pthree-years-ago-the/).
+
+### One last word on 2. Div. Ave.
+
+This building was made to specifications dictated by Alexander H. Rice following a plan approved in the Spring of 1930. Credited to the firm Trumbauer & Associates, the building’s design is Julian Abele’s, the designer of Harvard’s Widener Memorial Library and the Free Library in Pennsylvania and the first African American graduate in architecture in the USA. Abele’s work is rightfully inscribed in the history of the building at 2 Divinity Ave. by Professor of Japanese Art and Culture Melissa McCormick, whose article about the history of this building brings his story to the fore: “Abele’s work long went unacknowledged, a result of both explicit and implicit racial discrimination, as well as a Trumbauer office policy that forbade staff from signing any drawings leaving the office.”[^32] Indeed, the blueprints for the “School of Geography”, held at Harvard University Archives, signal Abele in no way, holding only the official name of Horace Trumbauer.
+
+After the demise of HUIGE, 2 Div. Ave. was restructured to accommodate a growing department. With the move-in of the Harvard-Yenching Institute in 1957, the last of the Institute’s Map Collection was moved out and into the Widener *Winsor Map Room* in 1958. Some of the rarer maps were carried out to Houghton Library. Importantly, of the Institute’s more than 100,000 maps inventoried on October 31, 1951 by R.H. Haynes, perhaps all initially make it into Harvard’s Map Collection in 1958. This extraordinary number, over 100,000, has since become mythical. Of Librarian’s memory, neither Bonnie Burns nor former Harvard Map Librarian David A. Cobb remember such a volume of maps with the same provenance ever being stored in the Map Collection’s new home in Pusey Library. The sudden disappearing of over 100,000 maps, as well as the odd addition of over 20,000 photographs in 1959 remain further mysteries which embalm the HUIGE.
+
+<div class="img-zoom-a-little">
+<img src="media/the-maps.png" style="width:100%; max-height:70em;" alt="Maps inventory 1951">
+</div>
+
+
+### Closing thoughts
+This summer’s Pforzheimer Fellowship-funded project has perhaps only cracked open the vault of Harvard University’s Institute of Geographical Exploration - related mysteries for me. There are many directions forward from this project. They include:
+
+- A re-digitization of the CHSI’s aerial photographs, in order to allow for maximal resolution to be useful in finding where the photographs were taken.
+- A deeper dive into the personal papers of instructors at HUIGE, such as Weld Arnold, James W. Bagley and Erwin Raisz, all of whom have papers in storage at Harvard University Archives.
+- A complete rendering of the “Flight Report” documents into digital format and cross-referencing flights with student lists in order to provide the year of activity of the student or Faculty member having signed the photograph. Such a record could boost the accuracy with which present and future HUIGE aerial photographs may be identified.
+- A closer study of the involvement of Radcliffe students in the activities of the HUIGE, especially those graduate students for which there is no Radcliffe Yearbook (the Yearbook being only for undergraduates) record.
+
+
+
+
+<style>.time-to-read{ display:none;}</style>
 
 [^1]: [contract_UAV_5.168_Box 399].
 

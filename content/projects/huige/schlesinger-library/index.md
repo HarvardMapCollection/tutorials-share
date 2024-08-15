@@ -9,8 +9,9 @@ authors: ["Ana Luiza Nicolae"]
 
 The Harvard University Archives, along with almost every other repository of HUIGE-related information at Harvard, holds only scant information about the Radcliffe women who took to the air through courses at the HUIGE. From brief mentions, signed releases, examination records and more, the names of all women enrolled in aerial photography classes throughout the HUIGE’s existence are:
 
-| Lottie Simes (Radcliffe) |
+| Name |
 | --- |
+| Lottie Simes (Radcliffe) |
 | Margaret Randall Smith (Radcliffe) |
 | Priscilla H. Webster (Graduate, Radcliffe) |
 | Olmstead Peet (Radcliffe) |
@@ -49,9 +50,8 @@ Sarah Hutcheon’s immensely helpful research through all these troves of inform
 | Name | Primary link to personal record | Additional information |
 | --- | --- | --- |
 | Lottie Simes (Radcliffe) | no listing |  |
-| Margaret Randall Smith (Radcliffe) | [GROVER, MRS FRANK N (MARGARET RANDALL SMITH) X 44 N39-40 40-41 3702 WEST 77th AVENUE WESTMINSTER COLORADO 80030](https://nrs.lib.harvard.edu/urn-3:rad.arch:5363532?n=173) | “The listing means she was affiliated with the class of 1944 and attended/took classes in 1939-40, and 1940-41 but did not receive a degree...Also, I am so excited to say I found this link to a newsletter which indicates she was a Ninety-Niner! Please see new members on [page 8 of the PDF](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.ninety-nines.org/pdf/newsmagazine/193301.pdf&ved=2ahUKEwjv2qGs3LuHAxVCkokEHW4SD-MQFnoECBgQAQ&usg=AOvVaw043BEz7QXmCdPZBUIzI_-P). The [Ninety-Nines](https://www.ninety-nines.org/are) an International Organization of Women Pilots! |
-| Priscilla H. Webster (Graduate, Radcliffe) | [ROSE, MRS JOHN K (PRISCILLA H WEBSTER) AB27 AM33 117 E STREET S E WASHINGTON D C 20003](https://nrs.lib.harvard.edu/urn-3:rad.arch:5363532?n=350) | “The listing indicates she received both a bachelor's degree in 1927 and a master’s degree in 1933 from Radcliffe.”
- |
+| Margaret Randall Smith (Radcliffe) | [GROVER, MRS FRANK N (MARGARET RANDALL SMITH) X 44 N39-40 40-41 3702 WEST 77th AVENUE WESTMINSTER COLORADO 80030](https://nrs.lib.harvard.edu/urn-3:rad.arch:5363532?n=173) | “The listing means she was affiliated with the class of 1944 and attended/took classes in 1939-40, and 1940-41 but did not receive a degree...Also, I am so excited to say I found this link to a newsletter which indicates she was a Ninety-Niner! Please see new members on [page 8 of the PDF](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.ninety-nines.org/pdf/newsmagazine/193301.pdf&ved=2ahUKEwjv2qGs3LuHAxVCkokEHW4SD-MQFnoECBgQAQ&usg=AOvVaw043BEz7QXmCdPZBUIzI_-P). "The [Ninety-Nines](https://www.ninety-nines.org/are) an International Organization of Women Pilots!" |
+| Priscilla H. Webster (Graduate, Radcliffe) | [ROSE, MRS JOHN K (PRISCILLA H WEBSTER) AB27 AM33 117 E STREET S E WASHINGTON D C 20003](https://nrs.lib.harvard.edu/urn-3:rad.arch:5363532?n=350) | “The listing indicates she received both a bachelor's degree in 1927 and a master’s degree in 1933 from Radcliffe.”| 
 | Olmstead Peet (Radcliffe) |  |  |
 | Mrs. Margaret Mace Curtis (Radcliffe) | (see above) |  |
 | Peet Olmstead (Radcliffe) |  |  |

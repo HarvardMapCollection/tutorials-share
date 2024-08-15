@@ -17,8 +17,7 @@ These call numbers can be used to access the digital records of these pictures t
 | 1998-1-1074f | “Photo, taken at a low altitude, probably less than 100 ft. shows Mount Vernon seen from the east.” |
 | 1998-1-1074g | “Archeological site of Serpent Mound in southern Ohio.”  |
 | 1998-1-1074h | “Photograph of two airplanes flying over agricultural fields. Picture was taken from the same height as the two airplanes.” |
-| 1998-1-1074i | “Print of a photograph showing a hut built on pylons by a large river, with a canoe
-  manned by one indigenous person passing in front.”  |
+| 1998-1-1074i | “Print of a photograph showing a hut built on pylons by a large river, with a canoe manned by one indigenous person passing in front.”  |
 | 1998-1-1074j | “Colored print of a photograph showing a hut by a large river with jungle in the background. Includes a tall tree to the left of the hut.”  |
 | 1998-1-1074k | “American Falls in Niagara Falls. The picture was taken from the north at a low altitude.” |
 | 1998-1-1074l | “Summit of Mont Blanc, the highest peak in the Alps.” |
@@ -26,8 +25,7 @@ These call numbers can be used to access the digital records of these pictures t
 | 1998-1-1074n | “Downtown Rio de Janeiro seen from the North over the bay.”  |
 | 1998-1-1074o | “Mount Vernon as seen from  the south at a low altitude.”  |
 | 1998-1-1074p | “Print of an aerial photograph taken  from elevation of 23,000 ft. over Monterrey, California, looking north at Santa Cruz.”  |
-| 1998-1-1074q | “Photograph of a sailboat taken at surface level probably from a hydroplane that landed
-  on the ocean.“ |
+| 1998-1-1074q | “Photograph of a sailboat taken at surface level probably from a hydroplane that landed on the ocean.“ |
 | uncatalogued | Vertical picture taken over Harvard campus, sometime in the 1930s. |
 | uncatalogued | Mosaic picture of  Boston Harbor, including the then Governor’s Island (now Logan Airport). |
 | uncatalogued | Same as above. |

@@ -136,6 +136,10 @@ While the total area developed (parcels with structures on them) increases only 
 
 Try out the project data by downloading it from the [Harvard Geospatial Library (HGL)](https://hgl.harvard.edu/catalog/harvard-rtl-rewilding-charles-river-land-ownership). 
 
+1. Select `https://doi.org/10.17605/OSF.IO/C9GV3`.
+2. `Files` across the top menu bar.
+3. `Download this folder`.
+
 ## How to use this approach (a step-by-step guide)
 
 

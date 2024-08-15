@@ -11,7 +11,7 @@ description: A remembered yet unknown Institute of Geographical Exploration at H
 
 This dataset and story open the past of Harvard University’s *Institute of Geographical Exploration* (HUIGE, 1932-1951). The HUIGE was a building, a branch of Harvard’s defunct Geography department, a home to many students, and still a mystery to this day.
 
-- The scope of this project is simple: making a guide to as many repositories of HUIGE-related artifacts across Harvard’s campus and other institutions across Massachusetts.
+- The scope of this project is simple: making [a guide](https://mapping.share.library.harvard.edu/projects/huige/) to as many repositories of HUIGE-related artifacts across Harvard’s campus and other institutions across Massachusetts.
 - This guide cannot be complete but will hopefully help launch further inquiries into the fate of Aerial Photography and Geography at Harvard and in the USA.
 - The hope of this project is to call to action anyone with further knowledge about the HUIGE, its activities, and the evolving role of Aerial Photography between WWI and the evolution of Satellite Imagery in order to complete the gaps hinted at in this story.
 - This project was supported by the [Pforzheimer Fellowship](https://library.harvard.edu/grants-fellowships/pforzheimer-fellowships) at Harvard, with a focus on Geospatial Data and Archival Research, and overseen by the Map Collections and especially Belle Lipton.

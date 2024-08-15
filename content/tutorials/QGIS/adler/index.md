@@ -134,7 +134,7 @@ Adler exported the area calculations to tabular formats (`.csv`), so she could a
 
 While the total area developed (parcels with structures on them) increases only a small amount between 1873 and 1930, the area owned by Harvard increases dramatically during this period. Adler reported that there were many other variables included in the historic atlases one could choose to encode and then apply this same methodology to, whereby one calculates area based on a subsetted attribute filter of the traced parcels.
 
-Try out the project data by downloading it from the [Harvard Map Collection Teaching, Research, and Learning GIS Collections](https://osf.io/c9gv3/files/osfstorage). 
+Try out the project data by downloading it from the [Harvard Geospatial Library (HGL)](https://hgl.harvard.edu/catalog/harvard-rtl-rewilding-charles-river-land-ownership). 
 
 ## How to use this approach (a step-by-step guide)
 

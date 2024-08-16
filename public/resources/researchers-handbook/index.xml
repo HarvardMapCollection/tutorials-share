@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Open Access Practices for GIS on GIS, maps &#43; data @ Harvard Library</title>
-    <link>http://localhost:1313/resources/researchers-handbook/</link>
+    <link>http://localhost:57203/resources/researchers-handbook/</link>
     <description>Recent content in Open Access Practices for GIS on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 08 Aug 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/resources/researchers-handbook/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57203/resources/researchers-handbook/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GIS data management services guide</title>
-      <link>http://localhost:1313/resources/researchers-handbook/long-term-preservation/</link>
+      <link>http://localhost:57203/resources/researchers-handbook/long-term-preservation/</link>
       <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/researchers-handbook/long-term-preservation/</guid>
+      <guid>http://localhost:57203/resources/researchers-handbook/long-term-preservation/</guid>
       <description>The Harvard Map Collection collects and preserves GIS data for long-term discovery and reuse in the Harvard Geospatial Library (HGL) . You might like to extend the long-term value of your research by making your data available in a tool like HGL or Dataverse , or perhaps you&amp;rsquo;d like some feedback on how you are communicating the GIS components of your project. Maybe this is the first time you are thinking about this topic, and it sounds intriguing to you.</description>
     </item>
     <item>
       <title>DIY documentation guide</title>
-      <link>http://localhost:1313/resources/researchers-handbook/prompts/</link>
+      <link>http://localhost:57203/resources/researchers-handbook/prompts/</link>
       <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/researchers-handbook/prompts/</guid>
+      <guid>http://localhost:57203/resources/researchers-handbook/prompts/</guid>
       <description>Works cited Guide to writing &#34;readme&#34; style metadata from Cornell Data Services Metadata Questionnaire Form from the United States Geological Survey (U.S.G.S.) This guide can be used on your own or together with a librarian during a guided interview .&#xA;Documentation elements Originator(s) The name(s) of the organization(s) or individual(s) who developed the dataset.&#xA;Publication Date The date when the dataset is published or otherwise made available for release.</description>
     </item>
   </channel>

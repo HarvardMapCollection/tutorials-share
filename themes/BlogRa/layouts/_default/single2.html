@@ -4,6 +4,25 @@
     <div class="container-md">
         <div class="row">
             <div class="col-lg-8 offset-lg-2 px-lg-4">
+                
+                <div class="breadcrumb-container">
+                    <nav aria-label="breadcrumb" class="breadcrumb">
+                        <ol>
+                          {{ range .Ancestors.Reverse }}
+                          ↵
+                            <li>
+                              <a href="{{ .RelPermalink }}"> {{.LinkTitle }}</a>
+                            </li>
+                          {{ end }}
+                          <li style="margin-right: 0;" class="active">
+                            👋
+                            <a aria-current="page" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                          </li>
+                        </ol>
+                      </nav>
+                      </div>
+
+
                 <h1 class="title">{{ .Title | title }}</h1>
 
                 {{ .Content }}

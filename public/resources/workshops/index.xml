@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Harvard Library GIS Workshops on GIS, maps &#43; data @ Harvard Library</title>
-    <link>http://localhost:1313/resources/workshops/</link>
+    <link>http://localhost:57203/resources/workshops/</link>
     <description>Recent content in Harvard Library GIS Workshops on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/resources/workshops/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57203/resources/workshops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Advanced Data Cleaning for GIS</title>
-      <link>http://localhost:1313/resources/workshops/workshop-3/</link>
+      <link>http://localhost:57203/resources/workshops/workshop-3/</link>
       <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop-3/</guid>
+      <guid>http://localhost:57203/resources/workshops/workshop-3/</guid>
       <description>Get to this page quick: https://bit.ly/49mV3c3 Sign up Find out when we are offering this workshop by visiting the library calendar .&#xA;Class materials Slides Post-workshop survey Help us design the programming you want by filling out the workshop survey .</description>
     </item>
   </channel>

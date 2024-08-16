@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1140 - Borders on GIS, maps &#43; data @ Harvard Library</title>
-    <link>http://localhost:1313/classes/general-education/1140/</link>
+    <link>http://localhost:57203/classes/general-education/1140/</link>
     <description>Recent content in 1140 - Borders on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 19 Dec 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/classes/general-education/1140/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57203/classes/general-education/1140/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fall 2022 Harvard Map Collection</title>
-      <link>http://localhost:1313/classes/general-education/1140/fall-2022/</link>
+      <link>http://localhost:57203/classes/general-education/1140/fall-2022/</link>
       <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/classes/general-education/1140/fall-2022/</guid>
+      <guid>http://localhost:57203/classes/general-education/1140/fall-2022/</guid>
       <description>GIS definitions.&#xA;John Snow cholera map, 1854.&#xA;John Snow cholera map, overlaid by a modern-day GIS heatmap layer.&#xA;Offical Olympic National Park map.&#xA;Graduated proportional symbol map showing 2020 population by state in the United States.&#xA;Louisiana and Mississippi roadmap from the Harvard Map Collection.&#xA;Louisiana and Mississippi roadmap from the Harvard Map Collection showing the New Orleans area.&#xA;Land cover map of Louisiana from 1909 in the Harvard Map Collection.</description>
     </item>
   </channel>

@@ -2,143 +2,143 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Class on GIS, maps &#43; data @ Harvard Library</title>
-    <link>http://localhost:1313/tags/class/</link>
+    <link>http://localhost:57203/tags/class/</link>
     <description>Recent content in Class on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 17 May 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/class/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57203/tags/class/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Open access practices for GIS</title>
-      <link>http://localhost:1313/classes/programs/cga-institute/data-management-workshop/</link>
+      <link>http://localhost:57203/classes/programs/cga-institute/data-management-workshop/</link>
       <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/classes/programs/cga-institute/data-management-workshop/</guid>
+      <guid>http://localhost:57203/classes/programs/cga-institute/data-management-workshop/</guid>
       <description>Pre-work to complete before class Homework #1: Set up your OSF.io account Instantiate your Harvard OSF (Open Science Framework) account. If you do not have a Harvard Key, you can make a free, non-affiliate account on osf.io. Select Create New Project. Name your new project Data Management Workshop. Homework #2: Framing ideas Read this article about balancing data safety and open science in an academic research context.&#xA;In-class workshop 1. Saving in reusable formats Discussion While ESRI map package formats are the default, they are not backwards-compatible.</description>
     </item>
     <item>
       <title>GIS Methods for Re-Wilding Spring 2024</title>
-      <link>http://localhost:1313/classes/history/re-wilding/spring-2024/</link>
+      <link>http://localhost:57203/classes/history/re-wilding/spring-2024/</link>
       <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/classes/history/re-wilding/spring-2024/</guid>
+      <guid>http://localhost:57203/classes/history/re-wilding/spring-2024/</guid>
       <description>Get to this page quickly: https://bit.ly/3HVp6vm Project datasets About Harvard University Planning and Design (HUPAD) has provided access to the following datasets, which you can use in your Re-Wilding projects:&#xA;Yard trees Hardscape (includes surface materials and pathways) Street blocks Greenspace Buildings Preview HUPAD data. Download instructions To download a copy of these datatsets to use in your project:&#xA;Visit this shared class map In the map legend, click the ellipsis next to the layer you want to download Select Export and to GeoPackage Map Collection Resources May Crane Fellowships - Apply by March 12 for stipended work with GIS in the Map Collection, Summer 2024.</description>
     </item>
     <item>
       <title>Supporting creative uses of our collections</title>
-      <link>http://localhost:1313/classes/programs/dcwg/summer-2023/</link>
+      <link>http://localhost:57203/classes/programs/dcwg/summer-2023/</link>
       <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/classes/programs/dcwg/summer-2023/</guid>
+      <guid>http://localhost:57203/classes/programs/dcwg/summer-2023/</guid>
       <description>Credit: Joan Brunetta and Eve Loftus.&#xA;Map of the city of Cambridge for 1865, Harvard Map Collection. Mapping Inequality, University of Richmond How does it work? Current set up Harvard Geospatial Library Why not GeoTIFF? Time consuming for researchers and library staff Hard to use, outdated format Completely different app - bad for discovery Incompatible with tools our students are using Credit: John Nelson&amp;rsquo;s Mapping Mount Everest Credit: Andria Olson&amp;rsquo;s Mapping the First Transcontinental Railroad IIIF Georeference Extension specification Picture of the IIIF conference hosted at Harvard in 2022 from the British Library Digital Scholarship blog .</description>
     </item>
     <item>
       <title>GIS Outreach with the Harvard Map Collection</title>
-      <link>http://localhost:1313/classes/programs/scdg/spring-2023/</link>
+      <link>http://localhost:57203/classes/programs/scdg/spring-2023/</link>
       <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/classes/programs/scdg/spring-2023/</guid>
+      <guid>http://localhost:57203/classes/programs/scdg/spring-2023/</guid>
       <description>GIS vector dataset showing historic old growth trees in Washington State loaded into QGIS, a map making software.&#xA;Historic old growth trees in Washington State dataset in QGIS table view.&#xA;Harvard Geospatial Library (HGL) Georeferenced map of Poland from 1919.&#xA;Russian Atlas, consisting of forty-four maps..., 1792. Example historical GIS data derived from library archives.&#xA;Playing card geodata translations codebook. Drawings and sketches by W.D. Peck, 1793-1807, Harvard University Archives.</description>
     </item>
     <item>
       <title>Fall 2022 Harvard Map Collection</title>
-      <link>http://localhost:1313/classes/emr/155/fall-2022/</link>
+      <link>http://localhost:57203/classes/emr/155/fall-2022/</link>
       <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/classes/emr/155/fall-2022/</guid>
+      <guid>http://localhost:57203/classes/emr/155/fall-2022/</guid>
       <description>GIS definitions.&#xA;John Snow cholera map, 1854.&#xA;John Snow cholera map, overlaid by a modern-day GIS heatmap layer.&#xA;Map of Boston from 1743 .&#xA;GIS heatmap of density of restaurants in Boston.&#xA;Analyze Boston , Boston&amp;rsquo;s open data portal.&#xA;Vision Zero dataset, open as a table.&#xA;Bike crash data displayed visually as individual points in GIS software.&#xA;OldNYC: Mapping Historic Photographs at the NYPL .&#xA;GIS data layers diagram.</description>
     </item>
     <item>
       <title>Fall 2022 Harvard Map Collection</title>
-      <link>http://localhost:1313/classes/english/90dr/fall-2022/</link>
+      <link>http://localhost:57203/classes/english/90dr/fall-2022/</link>
       <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/classes/english/90dr/fall-2022/</guid>
+      <guid>http://localhost:57203/classes/english/90dr/fall-2022/</guid>
       <description>Services Record from Harvard Map Collection card catalog .&#xA;Formats Tutorial for how to use Harvard Libraries digital collections items in Allmaps Working with 19th century map layers of Boston .&#xA;Concepts Ancestral characteristics of Modern Populations dataset.&#xA;Map by Leo Saenger, applied mathematics.&#xA;Landscape The Library of Missing Datasets by Mimi Ọnụọha.&#xA;Global volcanoes dataset in the Harvard Geospatial Library (HGL).</description>
     </item>
     <item>
       <title>Fall 2022 Harvard Map Collection</title>
-      <link>http://localhost:1313/classes/english/90ln/fall-2022/</link>
+      <link>http://localhost:57203/classes/english/90ln/fall-2022/</link>
       <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/classes/english/90ln/fall-2022/</guid>
+      <guid>http://localhost:57203/classes/english/90ln/fall-2022/</guid>
       <description>GIS definitions What is GIS used for? John Snow cholera map, 1854.&#xA;John Snow cholera map, overlaid by a modern-day GIS heatmap layer.&#xA;GIS data layers GIS data layers diagram.&#xA;OldNYC: Mapping Historic Photographs at the NYPL .&#xA;Property research with GIS Belle&amp;rsquo;s house in college.&#xA;City of Boston Archives Reading Room.&#xA;19th century insurance atlas, open to a plate of downtown Boston.&#xA;Microfilm reader.&#xA;Milwaukee probate records on mircofilm.</description>
     </item>
     <item>
       <title>Fall 2022 Harvard Map Collection</title>
-      <link>http://localhost:1313/classes/general-education/1140/fall-2022/</link>
+      <link>http://localhost:57203/classes/general-education/1140/fall-2022/</link>
       <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/classes/general-education/1140/fall-2022/</guid>
+      <guid>http://localhost:57203/classes/general-education/1140/fall-2022/</guid>
       <description>GIS definitions.&#xA;John Snow cholera map, 1854.&#xA;John Snow cholera map, overlaid by a modern-day GIS heatmap layer.&#xA;Offical Olympic National Park map.&#xA;Graduated proportional symbol map showing 2020 population by state in the United States.&#xA;Louisiana and Mississippi roadmap from the Harvard Map Collection.&#xA;Louisiana and Mississippi roadmap from the Harvard Map Collection showing the New Orleans area.&#xA;Land cover map of Louisiana from 1909 in the Harvard Map Collection.</description>
     </item>
     <item>
       <title>Fall 2022 Harvard Map Collection</title>
-      <link>http://localhost:1313/classes/government/1008/fall-2022/</link>
+      <link>http://localhost:57203/classes/government/1008/fall-2022/</link>
       <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/classes/government/1008/fall-2022/</guid>
+      <guid>http://localhost:57203/classes/government/1008/fall-2022/</guid>
       <description></description>
     </item>
     <item>
       <title>Fall 2022 Harvard Map Collection</title>
-      <link>http://localhost:1313/classes/hks/dpi-851m/fall-2022/</link>
+      <link>http://localhost:57203/classes/hks/dpi-851m/fall-2022/</link>
       <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/classes/hks/dpi-851m/fall-2022/</guid>
+      <guid>http://localhost:57203/classes/hks/dpi-851m/fall-2022/</guid>
       <description></description>
     </item>
     <item>
       <title>Fall 2022 Harvard Map Collection</title>
-      <link>http://localhost:1313/classes/hunap/naiswg/fall-2022/</link>
+      <link>http://localhost:57203/classes/hunap/naiswg/fall-2022/</link>
       <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/classes/hunap/naiswg/fall-2022/</guid>
+      <guid>http://localhost:57203/classes/hunap/naiswg/fall-2022/</guid>
       <description>Our slides .</description>
     </item>
     <item>
       <title>Harvard Map Collection</title>
-      <link>http://localhost:1313/classes/programs/cga-institute/intro-to-map-collection/</link>
+      <link>http://localhost:57203/classes/programs/cga-institute/intro-to-map-collection/</link>
       <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/classes/programs/cga-institute/intro-to-map-collection/</guid>
+      <guid>http://localhost:57203/classes/programs/cga-institute/intro-to-map-collection/</guid>
       <description>Classes GSD: Spatial Analysis Fall 2021 presentation .&#xA;Map created by GSD students Aeshna Prasad, Michael Lidwin, Megan Mcglinchey, and Mehvish Jamal working with the Map Collection.&#xA;Data management OldNYC: Mapping Historic Photographs at the NYPL .&#xA;1880 census from Archive.org .&#xA;ArcGIS Map comparing 1890 atlas to today.&#xA;Global volcanoes dataset in the Harvard Geospatial Library (HGL).&#xA;Research Record from Harvard Map Collection card catalog .&#xA;Services and Resources Tutorials The Harvard Map Collection maintains a series of tutorials, guides, and updates about mapmaking.</description>
     </item>
     <item>
       <title>Spring 2023 Harvard Map Collection</title>
-      <link>http://localhost:1313/classes/anthropology/2030/spring-2023/</link>
+      <link>http://localhost:57203/classes/anthropology/2030/spring-2023/</link>
       <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/classes/anthropology/2030/spring-2023/</guid>
+      <guid>http://localhost:57203/classes/anthropology/2030/spring-2023/</guid>
       <description>Collections and support services Historic maps of Havana in the Harvard Map Collection&#xA;Land cover map of Louisiana from 1909 in the Harvard Map Collection.&#xA;The legend of the 1909 land cover map of Louisiana.&#xA;USGS data download tool, showing land cover data from 2016.&#xA;Global volcanoes dataset in the Harvard Geospatial Library (HGL).&#xA;Workshops Mapping Inequality project via the University of Richmond&amp;rsquo;s Digital Scholarship Lab.&#xA;Land-Grab Univerisities interactive digital project.</description>
     </item>
     <item>
       <title>Spring 2023 Harvard Map Collection</title>
-      <link>http://localhost:1313/classes/english/195bd/spring-2023/</link>
+      <link>http://localhost:57203/classes/english/195bd/spring-2023/</link>
       <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/classes/english/195bd/spring-2023/</guid>
+      <guid>http://localhost:57203/classes/english/195bd/spring-2023/</guid>
       <description>Trying to understand things encodes them sometimes Descriptive map of London poverty, 1889 in the Harvard Map Collection. Predictive policing hotspot maps. New technologies and ethical grey space Data-Smart City Solutions from Harvard Kennedy Schools&#39; Ash Center. Being up front in your maps/data about your motivations Spaces of Avoidance project by Alie Kilts. Letting people in to allow critique Land-Grab Univerisities interactive digital project. Mapping Inequality project via the University of Richmond&#39;s Digital Scholarship Lab.</description>
     </item>
     <item>
       <title>Spring 2023 Harvard Map Collection</title>
-      <link>http://localhost:1313/classes/government/94dn/spring-2023/</link>
+      <link>http://localhost:57203/classes/government/94dn/spring-2023/</link>
       <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/classes/government/94dn/spring-2023/</guid>
+      <guid>http://localhost:57203/classes/government/94dn/spring-2023/</guid>
       <description>Trying to understand things encodes them sometimes Descriptive map of London poverty, 1889 in the Harvard Map Collection. New technologies and ethical grey space Data-Smart City Solutions from Harvard Kennedy Schools&#39; Ash Center. Being up front in your maps/data about your motivations Spaces of Avoidance project by Alie Kilts. Letting people in to allow critique Land-Grab Univerisities interactive digital project. Mapping Inequality project via the University of Richmond&#39;s Digital Scholarship Lab.</description>
     </item>
     <item>
       <title>Spring 2023 Harvard Map Collection</title>
-      <link>http://localhost:1313/classes/history/3920/spring-2023/</link>
+      <link>http://localhost:57203/classes/history/3920/spring-2023/</link>
       <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/classes/history/3920/spring-2023/</guid>
+      <guid>http://localhost:57203/classes/history/3920/spring-2023/</guid>
       <description>OldNYC: Mapping Historic Photographs at the NYPL. 1880 census from Archive.org .&#xA;ArcGIS Map comparing 1890 atlas to today.&#xA;Belle&amp;rsquo;s house in college.&#xA;City of Boston Archives Reading Room.&#xA;19th century insurance atlas, open to a plate of downtown Boston.&#xA;Analyze Boston , Boston&amp;rsquo;s open data portal.&#xA;Vision Zero dataset, open as a table.&#xA;Bike crash data displayed visually as individual points in GIS software.&#xA;Introduction to GIS workshop in the library calendar.</description>
     </item>
     <item>
       <title>Spring 2023 Harvard Map Collection</title>
-      <link>http://localhost:1313/classes/hks/dpi-852m/spring-2023/</link>
+      <link>http://localhost:57203/classes/hks/dpi-852m/spring-2023/</link>
       <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/classes/hks/dpi-852m/spring-2023/</guid>
+      <guid>http://localhost:57203/classes/hks/dpi-852m/spring-2023/</guid>
       <description>Collections and support services Historic maps of Havana in the Harvard Map Collection&#xA;Global volcanoes dataset in the Harvard Geospatial Library (HGL).&#xA;Workshops Mapping Inequality project via the University of Richmond&amp;rsquo;s Digital Scholarship Lab.&#xA;Land-Grab Univerisities interactive digital project.&#xA;Spring 2023 workshop offerings. Registration via the Harvard Library Events calendar .&#xA;Office hours Map created by Luisa Shido.&#xA;Tutorials and project examples Tutorials and blog .&#xA;maps@harvard.edu https://library.harvard.edu/libraries/harvard-map-collection </description>
     </item>
     <item>
       <title>Spring 2023 Harvard Map Collection</title>
-      <link>http://localhost:1313/classes/history/97p/spring-2023/</link>
+      <link>http://localhost:57203/classes/history/97p/spring-2023/</link>
       <pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/classes/history/97p/spring-2023/</guid>
+      <guid>http://localhost:57203/classes/history/97p/spring-2023/</guid>
       <description>Analyze Boston , Boston&amp;rsquo;s open data portal.&#xA;Vision Zero dataset, open as a table.&#xA;Bike crash data displayed visually as individual points in GIS software.&#xA;OldNYC: Mapping Historic Photographs at the NYPL. Belle&amp;rsquo;s house in college.&#xA;City of Boston Archives Reading Room.&#xA;19th century insurance atlas, open to a plate of downtown Boston.&#xA;GIS heatmap of density of restaurants in Boston.&#xA;Mapping Inequality project via the University of Richmond&#39;s Digital Scholarship Lab.</description>
     </item>
     <item>
       <title>Spring 2023 Harvard Map Collection</title>
-      <link>http://localhost:1313/classes/womgen/1274/spring-2023/</link>
+      <link>http://localhost:57203/classes/womgen/1274/spring-2023/</link>
       <pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/classes/womgen/1274/spring-2023/</guid>
+      <guid>http://localhost:57203/classes/womgen/1274/spring-2023/</guid>
       <description>&#xA;Analyze Boston , Boston&amp;rsquo;s open data portal.&#xA;Vision Zero dataset, open as a table.&#xA;Bike crash data displayed visually as individual points in GIS software.&#xA;GIS heatmap of density of restaurants in Boston.&#xA;Mapping Inequality project via the University of Richmond&#39;s Digital Scholarship Lab. Mapping project by student Luisa Shido, created in QGIS. Next Steps Email maps@harvard.edu Workshop signups on the library calendar GIS Office hours Tuesdays, 10-noon </description>
     </item>
   </channel>

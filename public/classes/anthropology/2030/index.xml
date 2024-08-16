@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2030 - Quantitative Archaeology on GIS, maps &#43; data @ Harvard Library</title>
-    <link>http://localhost:1313/classes/anthropology/2030/</link>
+    <link>http://localhost:57203/classes/anthropology/2030/</link>
     <description>Recent content in 2030 - Quantitative Archaeology on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 19 Dec 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/classes/anthropology/2030/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57203/classes/anthropology/2030/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spring 2023 Harvard Map Collection</title>
-      <link>http://localhost:1313/classes/anthropology/2030/spring-2023/</link>
+      <link>http://localhost:57203/classes/anthropology/2030/spring-2023/</link>
       <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/classes/anthropology/2030/spring-2023/</guid>
+      <guid>http://localhost:57203/classes/anthropology/2030/spring-2023/</guid>
       <description>Collections and support services Historic maps of Havana in the Harvard Map Collection&#xA;Land cover map of Louisiana from 1909 in the Harvard Map Collection.&#xA;The legend of the 1909 land cover map of Louisiana.&#xA;USGS data download tool, showing land cover data from 2016.&#xA;Global volcanoes dataset in the Harvard Geospatial Library (HGL).&#xA;Workshops Mapping Inequality project via the University of Richmond&amp;rsquo;s Digital Scholarship Lab.&#xA;Land-Grab Univerisities interactive digital project.</description>
     </item>
   </channel>

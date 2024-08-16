@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Census on GIS, maps &#43; data @ Harvard Library</title>
-    <link>http://localhost:1313/tags/census/</link>
+    <link>http://localhost:57203/tags/census/</link>
     <description>Recent content in Census on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 23 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/census/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57203/tags/census/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Registration</title>
-      <link>http://localhost:1313/resources/workshops/workshop-4/registration/</link>
+      <link>http://localhost:57203/resources/workshops/workshop-4/registration/</link>
       <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop-4/registration/</guid>
+      <guid>http://localhost:57203/resources/workshops/workshop-4/registration/</guid>
       <description>This tutorial is part of the GIS Mapping Quickstart workshop, in which we:&#xA;download census data of nonwhite populations and poverty rate practice symbolizing and displaying the data in an online web map In this guide we will set up for these activities by registering for:&#xA;the census extract site, nhgis.org the web mapping site, felt.com NHGIS.org We will be using NHGIS.org via the Minnesota Population Center to obtain census data in this workshop.</description>
     </item>
     <item>
       <title>How to download poverty rate data by census tract for GIS</title>
-      <link>http://localhost:1313/resources/workshops/workshop-4/poverty-rate/</link>
+      <link>http://localhost:57203/resources/workshops/workshop-4/poverty-rate/</link>
       <pubDate>Sun, 21 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop-4/poverty-rate/</guid>
+      <guid>http://localhost:57203/resources/workshops/workshop-4/poverty-rate/</guid>
       <description>In order to map poverty rate per census tract, you must first perform some steps to prepare the data. In this tutorial, we will practice:&#xA;Downloading high-quality data Cleaning the data to prepare it for mapping Downloading the data Visit NHGIS.org . Create a free academic use account, if you haven&amp;rsquo;t already, and log in.&#xA;From the NHGIS.org home screen, choose START HERE: Get Data in the middle of the page, or SELECT DATA in the navigation bar menu at the top of the page.</description>
     </item>
     <item>
       <title>How to download percent non-white population data by census tract for GIS</title>
-      <link>http://localhost:1313/resources/workshops/workshop-4/non-white-population/</link>
+      <link>http://localhost:57203/resources/workshops/workshop-4/non-white-population/</link>
       <pubDate>Sat, 20 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop-4/non-white-population/</guid>
+      <guid>http://localhost:57203/resources/workshops/workshop-4/non-white-population/</guid>
       <description>In order to map non-white population per census tract, you must first perform some steps to prepare the data. In this tutorial, we will practice:&#xA;Downloading high-quality data Cleaning the data to prepare it for mapping Downloading the data You can achieve these steps using a number of software environments, including R and Python. In this tutorial we will download the data manually from NHGIS.org, and show how to clean the data using 3 different spreadsheet tools: Excel, LibreOffice, and Google Sheets.</description>
     </item>
     <item>
       <title>Upload census data to Felt</title>
-      <link>http://localhost:1313/resources/workshops/workshop-4/upload-census-to-felt/</link>
+      <link>http://localhost:57203/resources/workshops/workshop-4/upload-census-to-felt/</link>
       <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop-4/upload-census-to-felt/</guid>
+      <guid>http://localhost:57203/resources/workshops/workshop-4/upload-census-to-felt/</guid>
       <description>The goal of this tutorial is to start with a spreadsheet of census information, and upload the information so that it displays as polygons on the map. As mentioned in the software requirements section of this workhop, we are choosing Felt as a venue to get started working with census data because it faciliates the process of table joins for us.&#xA;Jump ahead If you already have a background on the structure of GIS data, and want to learn how to use census data in Felt, you can jump to the bottom of this page labeled &#34;</description>
     </item>
     <item>
       <title>Perform a table join in QGIS</title>
-      <link>http://localhost:1313/tutorials/census-data-primer/perform-a-table-join/</link>
+      <link>http://localhost:57203/tutorials/census-data-primer/perform-a-table-join/</link>
       <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/census-data-primer/perform-a-table-join/</guid>
+      <guid>http://localhost:57203/tutorials/census-data-primer/perform-a-table-join/</guid>
       <description>Need help turning your spreadsheet data into a map? In this tutorial you will learn how to join tables to GIS shapefiles to create a new, mappable dataset with both geographic boundaries and statistical or attribute information.&#xA;Why do we join? Often, spreadsheets contain useful information we want to map. GIS software, however, does not know how to translate a spreadsheet without any inherent spatial information (such as point coordinates) into a visual map.</description>
     </item>
   </channel>

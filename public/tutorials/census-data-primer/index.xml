@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Census data primer on GIS, maps &#43; data @ Harvard Library</title>
-    <link>http://localhost:1313/tutorials/census-data-primer/</link>
+    <link>http://localhost:57203/tutorials/census-data-primer/</link>
     <description>Recent content in Census data primer on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 19 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tutorials/census-data-primer/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57203/tutorials/census-data-primer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Download QGIS software</title>
-      <link>http://localhost:1313/tutorials/census-data-primer/download-software/</link>
+      <link>http://localhost:57203/tutorials/census-data-primer/download-software/</link>
       <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/census-data-primer/download-software/</guid>
+      <guid>http://localhost:57203/tutorials/census-data-primer/download-software/</guid>
       <description>Desktop GIS software is helpful when trying to make sense of census data. We will use free, open-source QGIS.&#xA;How to Download QGIS QGIS is a free and open source desktop GIS software used to create, edit, visualize, analyze, and publish geospatial information on Windows, Mac, Linux, BSD and mobile devices.&#xA;How to Download Visit QGIS.org .&#xA;Select Download Now.&#xA;Select your desired platform.&#xA;Tips If you have the option between many installer packages, choose Standalone Long Term Release To learn your way around the QGIS interface, you can check out these resources: Understanding the QGIS Interface QGIS Documentation Warning If you get an error message that Apple can&amp;rsquo;t check the app for malicious software, instead of double-clicking the icon to open the program, instead try right-clicking, and select Open.</description>
     </item>
     <item>
       <title>Perform a table join in QGIS</title>
-      <link>http://localhost:1313/tutorials/census-data-primer/perform-a-table-join/</link>
+      <link>http://localhost:57203/tutorials/census-data-primer/perform-a-table-join/</link>
       <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/census-data-primer/perform-a-table-join/</guid>
+      <guid>http://localhost:57203/tutorials/census-data-primer/perform-a-table-join/</guid>
       <description>Need help turning your spreadsheet data into a map? In this tutorial you will learn how to join tables to GIS shapefiles to create a new, mappable dataset with both geographic boundaries and statistical or attribute information.&#xA;Why do we join? Often, spreadsheets contain useful information we want to map. GIS software, however, does not know how to translate a spreadsheet without any inherent spatial information (such as point coordinates) into a visual map.</description>
     </item>
   </channel>

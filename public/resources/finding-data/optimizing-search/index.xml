@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2. Optimizing search for GIS data on GIS, maps &#43; data @ Harvard Library</title>
-    <link>http://localhost:1313/resources/finding-data/optimizing-search/</link>
+    <link>http://localhost:57203/resources/finding-data/optimizing-search/</link>
     <description>Recent content in 2. Optimizing search for GIS data on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 26 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/resources/finding-data/optimizing-search/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57203/resources/finding-data/optimizing-search/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1. Search tips</title>
-      <link>http://localhost:1313/resources/finding-data/optimizing-search/search-tips/</link>
+      <link>http://localhost:57203/resources/finding-data/optimizing-search/search-tips/</link>
       <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/optimizing-search/search-tips/</guid>
+      <guid>http://localhost:57203/resources/finding-data/optimizing-search/search-tips/</guid>
       <description> ↵ Back to Optimizing Search Home ↵ Back to Finding Data Home </description>
     </item>
     <item>
       <title>2. Portals</title>
-      <link>http://localhost:1313/resources/finding-data/optimizing-search/portals/</link>
+      <link>http://localhost:57203/resources/finding-data/optimizing-search/portals/</link>
       <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/optimizing-search/portals/</guid>
+      <guid>http://localhost:57203/resources/finding-data/optimizing-search/portals/</guid>
       <description> ↵ Back to Optimizing Search Home ↵ Back to Finding Data Home example w DC food deserts Grocery store locations Healthy corner stores Farmer&amp;amp;rsquo;s markets </description>
     </item>
     <item>
       <title>3. Spatial resolution</title>
-      <link>http://localhost:1313/resources/finding-data/optimizing-search/spatial-resolution/</link>
+      <link>http://localhost:57203/resources/finding-data/optimizing-search/spatial-resolution/</link>
       <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/optimizing-search/spatial-resolution/</guid>
+      <guid>http://localhost:57203/resources/finding-data/optimizing-search/spatial-resolution/</guid>
       <description>↵ Back to Optimizing Search Home ↵ Back to Finding Data Home Cali schools city, state, etc&#xA;County e x a m p l e&#xA;How 2 clip&#xA;Census hierarchies&#xA;Spatial scale of raster data&#xA;e.g. Off-gassing from oil and gas wells can be measured with general formulas that estimate particulates over a certain distance. However, the data is often very rough. For example, in Weld County CO, there are about 10,000 wells.</description>
     </item>
     <item>
       <title>4. Temporal resolution</title>
-      <link>http://localhost:1313/resources/finding-data/optimizing-search/temporal-resolution/</link>
+      <link>http://localhost:57203/resources/finding-data/optimizing-search/temporal-resolution/</link>
       <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/optimizing-search/temporal-resolution/</guid>
+      <guid>http://localhost:57203/resources/finding-data/optimizing-search/temporal-resolution/</guid>
       <description>↵ Back to Optimizing Search Home ↵ Back to Finding Data Home Realistic expections &amp;ndash; some useful data isn&amp;rsquo;t updated often - national wetlands example 1996</description>
     </item>
     <item>
       <title>5. Breadcrumb approach</title>
-      <link>http://localhost:1313/resources/finding-data/optimizing-search/breadcrumbs/</link>
+      <link>http://localhost:57203/resources/finding-data/optimizing-search/breadcrumbs/</link>
       <pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/optimizing-search/breadcrumbs/</guid>
+      <guid>http://localhost:57203/resources/finding-data/optimizing-search/breadcrumbs/</guid>
       <description> ↵ Back to Optimizing Search Home ↵ Back to Finding Data Home Social Explorer and Policy Map blogs How to use these tools Provide teaching tips Modules Why is the dataset important Breadcrumbs BLS data &amp;ndash; discovery on PolicyMap, follow back to source Monographs &amp;ndash; monographs have maps may have to georeference lot of other info in the monograph, notes, OCLC, ILL, get it and look at the maps </description>
     </item>
   </channel>

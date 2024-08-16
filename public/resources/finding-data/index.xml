@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>How to Search for GIS Data on GIS, maps &#43; data @ Harvard Library</title>
-    <link>http://localhost:1313/resources/finding-data/</link>
+    <link>http://localhost:57203/resources/finding-data/</link>
     <description>Recent content in How to Search for GIS Data on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 25 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/resources/finding-data/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57203/resources/finding-data/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1. Finding GIS data at a glance</title>
-      <link>http://localhost:1313/resources/finding-data/at-a-glance/</link>
+      <link>http://localhost:57203/resources/finding-data/at-a-glance/</link>
       <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/at-a-glance/</guid>
+      <guid>http://localhost:57203/resources/finding-data/at-a-glance/</guid>
       <description>↵ Back to Finding Data Home We are actively developing this guidebook. It will be available September 2024.&#xA;Introduction This guidebook was developed by a cohort of GIS librarians from different universities The materials are meant to be a companion to bolster your facility searching for GIS data Use the guide as a checklist to help decide where you&amp;rsquo;d like support from librarians Guide structure This guidebook is organized into three sections:</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Arcgis-Pro on GIS, maps &#43; data @ Harvard Library</title>
-    <link>http://localhost:1313/tags/arcgis-pro/</link>
+    <link>http://localhost:57203/tags/arcgis-pro/</link>
     <description>Recent content in Arcgis-Pro on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 18 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/arcgis-pro/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57203/tags/arcgis-pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Georeference in ArcGIS Pro</title>
-      <link>http://localhost:1313/tutorials/georeferencing/arcgis-pro/</link>
+      <link>http://localhost:57203/tutorials/georeferencing/arcgis-pro/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/georeferencing/arcgis-pro/</guid>
+      <guid>http://localhost:57203/tutorials/georeferencing/arcgis-pro/</guid>
       <description>Open a new map in ArcGIS Pro and select the basemap of your choice Map → Basemap → Open Street Map Set the projection by right clicking the basemap in the Contents pane and select Properties Properties → Coordinate Systems&#xA;Open the image which needs to be georeferenced Catalog → Folders → Add Folder Connection Right click on &amp;lsquo;Folders&amp;rsquo; and navigate to the folder containing the map that needs to be georeferenced.</description>
     </item>
   </channel>

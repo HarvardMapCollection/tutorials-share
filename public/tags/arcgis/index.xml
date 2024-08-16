@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ArcGIS on GIS, maps &#43; data @ Harvard Library</title>
-    <link>https://mapping.share.library.harvard.edu/tags/arcgis/</link>
+    <link>http://localhost:1313/tags/arcgis/</link>
     <description>Recent content in ArcGIS on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://mapping.share.library.harvard.edu/tags/arcgis/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/arcgis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Where and How to Get ArcGIS Pro at Harvard</title>
-      <link>https://mapping.share.library.harvard.edu/tutorials/arcgis-online/arcgis-pro/</link>
+      <link>http://localhost:1313/tutorials/arcgis-online/arcgis-pro/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://mapping.share.library.harvard.edu/tutorials/arcgis-online/arcgis-pro/</guid>
+      <guid>http://localhost:1313/tutorials/arcgis-online/arcgis-pro/</guid>
       <description>On your own computer If you have a PC and a Harvard Key, you can download and install ArcGIS Pro on your own computer using these instructions from the Harvard Center for Geographic Analysis (CGA).&#xA;If you do not have a PC, consider using the open-source equivalent GIS desktop software, QGIS, which is OS-independent.&#xA;QGIS download instructions QGIS is available on all of the workstations in Lamont 310 (directions ). Do I Need ArcGIS Pro?</description>
     </item>
     <item>
       <title>Uploading georeferenced maps to ArcGIS Online</title>
-      <link>https://mapping.share.library.harvard.edu/tutorials/arcgis-online/arcgis-imagery/</link>
+      <link>http://localhost:1313/tutorials/arcgis-online/arcgis-imagery/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://mapping.share.library.harvard.edu/tutorials/arcgis-online/arcgis-imagery/</guid>
+      <guid>http://localhost:1313/tutorials/arcgis-online/arcgis-imagery/</guid>
       <description>Do you want to be able to use a historic map for comparison in one of your ArcGIS Online projects, such as StoryMaps or ArcGIS Experience Builder ?&#xA;Georeferenced map from 1880 compared to a modern map in ArcGIS Online. There are a number of pathways or workflows for accomplishing this. Which one you pick will depend on a. the format your map data is in and b. the software environment you prefer to work in.</description>
     </item>
   </channel>

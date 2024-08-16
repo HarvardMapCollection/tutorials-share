@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DPI 852M - Advanced Data Visualization on GIS, maps &#43; data @ Harvard Library</title>
-    <link>https://mapping.share.library.harvard.edu/classes/hks/dpi-852m/</link>
+    <link>http://localhost:1313/classes/hks/dpi-852m/</link>
     <description>Recent content in DPI 852M - Advanced Data Visualization on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 19 Dec 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://mapping.share.library.harvard.edu/classes/hks/dpi-852m/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/classes/hks/dpi-852m/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spring 2023 Harvard Map Collection</title>
-      <link>https://mapping.share.library.harvard.edu/classes/hks/dpi-852m/spring-2023/</link>
+      <link>http://localhost:1313/classes/hks/dpi-852m/spring-2023/</link>
       <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://mapping.share.library.harvard.edu/classes/hks/dpi-852m/spring-2023/</guid>
+      <guid>http://localhost:1313/classes/hks/dpi-852m/spring-2023/</guid>
       <description>Collections and support services Historic maps of Havana in the Harvard Map Collection&#xA;Global volcanoes dataset in the Harvard Geospatial Library (HGL).&#xA;Workshops Mapping Inequality project via the University of Richmond&amp;rsquo;s Digital Scholarship Lab.&#xA;Land-Grab Univerisities interactive digital project.&#xA;Spring 2023 workshop offerings. Registration via the Harvard Library Events calendar .&#xA;Office hours Map created by Luisa Shido.&#xA;Tutorials and project examples Tutorials and blog .&#xA;maps@harvard.edu https://library.harvard.edu/libraries/harvard-map-collection </description>
     </item>
   </channel>

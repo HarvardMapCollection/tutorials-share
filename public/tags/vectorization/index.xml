@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vectorization on GIS, maps &#43; data @ Harvard Library</title>
-    <link>https://mapping.share.library.harvard.edu/tags/vectorization/</link>
+    <link>http://localhost:1313/tags/vectorization/</link>
     <description>Recent content in Vectorization on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 08 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://mapping.share.library.harvard.edu/tags/vectorization/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/vectorization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vectorize maps into data; polygon area calculations for QGIS</title>
-      <link>https://mapping.share.library.harvard.edu/tutorials/qgis/adler/</link>
+      <link>http://localhost:1313/tutorials/qgis/adler/</link>
       <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://mapping.share.library.harvard.edu/tutorials/qgis/adler/</guid>
+      <guid>http://localhost:1313/tutorials/qgis/adler/</guid>
       <description>This is an example project modeling step-by-step instructions for generating geospatial data for analysis from historic maps. In June, we shared out results from partnering with Joyce Chaplin&amp;rsquo;s course, Re-Wilding Harvard, where students were tasked with creating projects to investigate histories and changing natures of open space around Harvard&amp;rsquo;s campus.&#xA;Hannah Adler &amp;lsquo;25 chose to study the Charles River region of Harvard&amp;rsquo;s campus, on the Cambridge side near Memorial Drive.</description>
     </item>
     <item>
       <title>Adding historic maps to a Felt map</title>
-      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/archival-maps/</link>
+      <link>http://localhost:1313/resources/workshops/workshop-4/archival-maps/</link>
       <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/archival-maps/</guid>
+      <guid>http://localhost:1313/resources/workshops/workshop-4/archival-maps/</guid>
       <description>In this tutorial, which exists as part of the GIS Mapping Quickstart , we will practice obtaining a georeferenced historical map from the Harvard Geospatial Library (HGL) , and uploading that map to a shareable map using the web mapping tool, Felt.com . You can read this guide to generally learn more about the Harvard Map Collection&amp;rsquo;s georeferenced collections, or follow along step by step by signing up for a Felt.</description>
     </item>
   </channel>

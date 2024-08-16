@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on GIS, maps &#43; data @ Harvard Library</title>
-    <link>https://mapping.share.library.harvard.edu/projects/</link>
+    <link>http://localhost:1313/projects/</link>
     <description>Recent content in Projects on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 22 Nov 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://mapping.share.library.harvard.edu/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A GIS database and webmap of historic Black life on Boston&#39;s Beacon Hill</title>
-      <link>https://mapping.share.library.harvard.edu/projects/mapping-black-boston/</link>
+      <link>http://localhost:1313/projects/mapping-black-boston/</link>
       <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://mapping.share.library.harvard.edu/projects/mapping-black-boston/</guid>
+      <guid>http://localhost:1313/projects/mapping-black-boston/</guid>
       <description>This is a prototype for Mapping Black Boston, a research project by David Weimer. Dave, our former Map Librarian, is now Curator of Maps and Director of the Center for the History of Cartography at the Newberry Library. For information on the project, or to collaborate, you can get in touch with Dave .&#xA;Check out the interactive Mapping Black Boston prototype .&#xA;To access the underlying project data, visit the project Github .</description>
     </item>
   </channel>

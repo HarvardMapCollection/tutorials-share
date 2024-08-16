@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>3. Getting creative on GIS, maps &#43; data @ Harvard Library</title>
-    <link>https://mapping.share.library.harvard.edu/resources/finding-data/getting-creative/</link>
+    <link>http://localhost:1313/resources/finding-data/getting-creative/</link>
     <description>Recent content in 3. Getting creative on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 26 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://mapping.share.library.harvard.edu/resources/finding-data/getting-creative/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/resources/finding-data/getting-creative/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1. Working with spreadsheets</title>
-      <link>https://mapping.share.library.harvard.edu/resources/finding-data/getting-creative/working-with-spreadsheets/</link>
+      <link>http://localhost:1313/resources/finding-data/getting-creative/working-with-spreadsheets/</link>
       <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://mapping.share.library.harvard.edu/resources/finding-data/getting-creative/working-with-spreadsheets/</guid>
+      <guid>http://localhost:1313/resources/finding-data/getting-creative/working-with-spreadsheets/</guid>
       <description>↵ Back to Getting Creative Home ↵ Back to Finding Data Home So you have a spreadsheet?&#xA;Importing coordinates Spreadsheets with coordinates can be imported to GIS software as points While this page is under construction, check out our importing coordinates from a table . Geocoding addresses to get coordinates Spreadsheets with addresses can be geocoded to create coordinates, which you can then import to GIS software as points While this page is under construction, check out this library guide on geocoding .</description>
     </item>
     <item>
       <title>2. Creating your own GIS data</title>
-      <link>https://mapping.share.library.harvard.edu/resources/finding-data/getting-creative/creating-data/</link>
+      <link>http://localhost:1313/resources/finding-data/getting-creative/creating-data/</link>
       <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://mapping.share.library.harvard.edu/resources/finding-data/getting-creative/creating-data/</guid>
+      <guid>http://localhost:1313/resources/finding-data/getting-creative/creating-data/</guid>
       <description> ↵ Back to Getting Creative Home ↵ Back to Finding Data Home Georeferencing Making spreadsheet with coordinates What is a CSV Make headers w lat, lon Upload it somewhere to visualize e.g. cotton seed crushing mills in the south using late 19th century business directories Right-clicking Google Maps to get coordinates Creating vector data with Google MyMaps, geojson.io, or desktop software (QGIS, ArcGIS Pro) Drawing KML </description>
     </item>
     <item>
       <title>3. Using crowd-sourced databases</title>
-      <link>https://mapping.share.library.harvard.edu/resources/finding-data/getting-creative/crowd-sourcing/</link>
+      <link>http://localhost:1313/resources/finding-data/getting-creative/crowd-sourcing/</link>
       <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://mapping.share.library.harvard.edu/resources/finding-data/getting-creative/crowd-sourcing/</guid>
+      <guid>http://localhost:1313/resources/finding-data/getting-creative/crowd-sourcing/</guid>
       <description> ↵ Back to Getting Creative Home ↵ Back to Finding Data Home OSM example India restaurants geographies e x a m p l e Wiki Political geographies / maps to georeference e x a m p l e 1 map in library e x a m p l e 2 rendered map Difficult to find coordinate data e x a m p l e Adriatic? Links to datasets in sources e x a m p l e GeoNames Mapping Color example </description>
     </item>
   </channel>

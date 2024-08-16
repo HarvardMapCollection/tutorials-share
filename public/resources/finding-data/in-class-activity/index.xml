@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>In-class Activity on GIS, maps &#43; data @ Harvard Library</title>
+    <link>http://localhost:1313/resources/finding-data/in-class-activity/</link>
+    <description>Recent content in In-class Activity on GIS, maps &#43; data @ Harvard Library</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/resources/finding-data/in-class-activity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome</title>
+      <link>http://localhost:1313/resources/finding-data/in-class-activity/welcome/</link>
+      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/finding-data/in-class-activity/welcome/</guid>
+      <description> Bit.ly Materials Orientation Map collection info </description>
+    </item>
+    <item>
+      <title>Group 1 [Spatial Resolution]</title>
+      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-1/</link>
+      <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-1/</guid>
+      <description>Cali schools city, state, etc County e x a m p l e How 2 clip Census hierarchies Spatial scale of raster data e.g. Off-gassing from oil and gas wells can be measured with general formulas that estimate particulates over a certain distance. However, the data is often very rough. For example, in Weld County CO, there are about 10,000 wells. Some might say the entire county is a toxic waste dump, but in reality, the impact is only within 100 feet of each well, which is about 1% of the county.</description>
+    </item>
+    <item>
+      <title>Group 2 [Portals]</title>
+      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-2/</link>
+      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-2/</guid>
+      <description> example w DC food deserts Grocery store locations Healthy corner stores Farmer&amp;amp;rsquo;s markets </description>
+    </item>
+    <item>
+      <title>Group 3 [Joining Spreadsheets]</title>
+      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-3/</link>
+      <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Group 4 [Georeferencing]</title>
+      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-4/</link>
+      <pubDate>Sun, 11 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Group 5 [OpenStreetMaps]</title>
+      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-5/</link>
+      <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Group 6 [Creating Coordinates]</title>
+      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-6/</link>
+      <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-6/</guid>
+      <description>Georeferencing Making spreadsheet with coordinates What is a CSV Make headers w lat, lon Upload it somewhere to visualize e.g. cotton seed crushing mills in the south using late 19th century business directories Right-clicking Google Maps to get coordinates Creating vector data with Google MyMaps, geojson.io, or desktop software (QGIS, ArcGIS Pro) Drawing KML </description>
+    </item>
+  </channel>
+</rss>

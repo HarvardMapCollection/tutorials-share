@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Georeferencing on GIS, maps &#43; data @ Harvard Library</title>
-    <link>https://mapping.share.library.harvard.edu/tags/georeferencing/</link>
+    <link>http://localhost:1313/tags/georeferencing/</link>
     <description>Recent content in Georeferencing on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 17 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://mapping.share.library.harvard.edu/tags/georeferencing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/georeferencing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Adding historic maps to a Felt map</title>
-      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/archival-maps/</link>
+      <link>http://localhost:1313/resources/workshops/workshop-4/archival-maps/</link>
       <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/archival-maps/</guid>
+      <guid>http://localhost:1313/resources/workshops/workshop-4/archival-maps/</guid>
       <description>In this tutorial, which exists as part of the GIS Mapping Quickstart , we will practice obtaining a georeferenced historical map from the Harvard Geospatial Library (HGL) , and uploading that map to a shareable map using the web mapping tool, Felt.com . You can read this guide to generally learn more about the Harvard Map Collection&amp;rsquo;s georeferenced collections, or follow along step by step by signing up for a Felt.</description>
     </item>
     <item>
       <title>Georeference in QGIS</title>
-      <link>https://mapping.share.library.harvard.edu/tutorials/georeferencing/qgis/</link>
+      <link>http://localhost:1313/tutorials/georeferencing/qgis/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://mapping.share.library.harvard.edu/tutorials/georeferencing/qgis/</guid>
+      <guid>http://localhost:1313/tutorials/georeferencing/qgis/</guid>
       <description>Download QGIS , if you haven&amp;rsquo;t already.&#xA;Add a basemap Browser → XYZ Tiles → Open Street Map.&#xA;Set the project coordinate reference system to WGS 84. At all times in the bottom right of the QGIS document, EPSG should read 4326.&#xA;Optional context on coordinate reference systems Every dataset and every QGIS project each has a coordinate reference system (CRS). Coordinate reference systems allow the GIS software to know where on the world to place the dataset, how to line it up spatially.</description>
     </item>
     <item>
       <title>Uploading georeferenced maps to ArcGIS Online</title>
-      <link>https://mapping.share.library.harvard.edu/tutorials/arcgis-online/arcgis-imagery/</link>
+      <link>http://localhost:1313/tutorials/arcgis-online/arcgis-imagery/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://mapping.share.library.harvard.edu/tutorials/arcgis-online/arcgis-imagery/</guid>
+      <guid>http://localhost:1313/tutorials/arcgis-online/arcgis-imagery/</guid>
       <description>Do you want to be able to use a historic map for comparison in one of your ArcGIS Online projects, such as StoryMaps or ArcGIS Experience Builder ?&#xA;Georeferenced map from 1880 compared to a modern map in ArcGIS Online. There are a number of pathways or workflows for accomplishing this. Which one you pick will depend on a. the format your map data is in and b. the software environment you prefer to work in.</description>
     </item>
     <item>
       <title>Georeference library digital collections using Allmaps</title>
-      <link>https://mapping.share.library.harvard.edu/tutorials/georeferencing/allmaps/</link>
+      <link>http://localhost:1313/tutorials/georeferencing/allmaps/</link>
       <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://mapping.share.library.harvard.edu/tutorials/georeferencing/allmaps/</guid>
+      <guid>http://localhost:1313/tutorials/georeferencing/allmaps/</guid>
       <description>Topics covered by this guide Select a map to georeference from the Harvard Libraries&amp;rsquo; digital collections Repeat the process for maps in any library digital collection Learn how to georeference with free browser tool, AllMaps How to use the georeferenced map with the rest of your project Select a map to georeference from the Harvard Libraries&amp;rsquo; digital collections Find the map you would like to work with in the Harvard Libraries Digital Collections Filter results by selecting Type: Map or Repository: Map Coll (Pusey) In the top-right corner of the image viewer, select the metadata Tooltip by clicking the i icon.</description>
     </item>
     <item>
       <title>Georeference in ArcGIS Pro</title>
-      <link>https://mapping.share.library.harvard.edu/tutorials/georeferencing/arcgis-pro/</link>
+      <link>http://localhost:1313/tutorials/georeferencing/arcgis-pro/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://mapping.share.library.harvard.edu/tutorials/georeferencing/arcgis-pro/</guid>
+      <guid>http://localhost:1313/tutorials/georeferencing/arcgis-pro/</guid>
       <description>Open a new map in ArcGIS Pro and select the basemap of your choice Map → Basemap → Open Street Map Set the projection by right clicking the basemap in the Contents pane and select Properties Properties → Coordinate Systems&#xA;Open the image which needs to be georeferenced Catalog → Folders → Add Folder Connection Right click on &amp;lsquo;Folders&amp;rsquo; and navigate to the folder containing the map that needs to be georeferenced.</description>
     </item>
   </channel>

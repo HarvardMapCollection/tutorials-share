@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Exploratory data visualization of Harvard Geospatial Library data on GIS, maps &#43; data @ Harvard Library</title>
-    <link>http://localhost:57203/projects/hgl-explore/</link>
+    <link>https://mapping.share.library.harvard.edu/projects/hgl-explore/</link>
     <description>Recent content in Exploratory data visualization of Harvard Geospatial Library data on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 11 Aug 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:57203/projects/hgl-explore/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mapping.share.library.harvard.edu/projects/hgl-explore/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction</title>
-      <link>http://localhost:57203/projects/hgl-explore/overview/</link>
+      <link>https://mapping.share.library.harvard.edu/projects/hgl-explore/overview/</link>
       <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57203/projects/hgl-explore/overview/</guid>
+      <guid>https://mapping.share.library.harvard.edu/projects/hgl-explore/overview/</guid>
       <description>This guide is a result of a 2023 summer project funded by the Harvard Libraries May Crane Fellowship program. The goals of this project were twofold:&#xA;To give undergraduate students an opportunity to apply coursework methods for data cleaning, analysis and visualization to a real-world corpus of data, useful to our library work.&#xA;To create a website that helps users of the Harvard Geospatial Library (HGL) make better sense of what types of data they might find in the portal.</description>
     </item>
     <item>
       <title>Places and &#34;spatial&#34;</title>
-      <link>http://localhost:57203/projects/hgl-explore/places/</link>
+      <link>https://mapping.share.library.harvard.edu/projects/hgl-explore/places/</link>
       <pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57203/projects/hgl-explore/places/</guid>
+      <guid>https://mapping.share.library.harvard.edu/projects/hgl-explore/places/</guid>
       <description>Motivation One of the most immediate features of a geospatial dataset is the region it covers. That&amp;rsquo;s why early on in this project, a burning question for me was “what region(s) &amp;ndash; cities, states, countries, continents &amp;ndash; does the Harvard Geospatial Library (HGL) have data to describe?”&#xA;Diving into the metadata To acquire insights into the library&amp;rsquo;s vast collection of geospatial datasets, totaling over 11,000 to date, I worked with the metadata records for every dataset in the Harvard Geospatial Library, which are available publicly from the Harvard Library Github .</description>
     </item>
     <item>
       <title>Subjects</title>
-      <link>http://localhost:57203/projects/hgl-explore/subjects/</link>
+      <link>https://mapping.share.library.harvard.edu/projects/hgl-explore/subjects/</link>
       <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57203/projects/hgl-explore/subjects/</guid>
+      <guid>https://mapping.share.library.harvard.edu/projects/hgl-explore/subjects/</guid>
       <description>Top twenty subject tags in the original, uncleaned metadata for all Harvard Geospatial Library datasets.&#xA;My approach and methods I wanted to condense this messy subjects list into more comprehensible buckets. Within the over 11,000 metadata records representing the datasets in the Harvard Geospatial Library (HGL) , I noticed that there are only 256 unique subject values. Subject tags are meant to give users a sense of what the dataset is about.</description>
     </item>
     <item>
       <title>Descriptions</title>
-      <link>http://localhost:57203/projects/hgl-explore/descriptions/</link>
+      <link>https://mapping.share.library.harvard.edu/projects/hgl-explore/descriptions/</link>
       <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57203/projects/hgl-explore/descriptions/</guid>
+      <guid>https://mapping.share.library.harvard.edu/projects/hgl-explore/descriptions/</guid>
       <description>Motivations Over the course of the summer, Belle and I discussed possible ways to approach understanding the shape of the 11,000+ datasets the Map Collection curates. One of our shared questions about the metadata was focused on the descriptions, housed in the dc_description_s metadata column. We pondered what the differences were between the many descriptions we had of datasets – their tone, their descriptive power, their focuses.&#xA;Exploratory analysis I was able to get started on some exploratory analysis.</description>
     </item>
   </channel>

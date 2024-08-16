@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1973 - Re-Wilding Harvard on GIS, maps &#43; data @ Harvard Library</title>
-    <link>http://localhost:57203/classes/history/re-wilding/</link>
+    <link>https://mapping.share.library.harvard.edu/classes/history/re-wilding/</link>
     <description>Recent content in 1973 - Re-Wilding Harvard on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 12 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:57203/classes/history/re-wilding/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mapping.share.library.harvard.edu/classes/history/re-wilding/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GIS Methods for Re-Wilding Spring 2024</title>
-      <link>http://localhost:57203/classes/history/re-wilding/spring-2024/</link>
+      <link>https://mapping.share.library.harvard.edu/classes/history/re-wilding/spring-2024/</link>
       <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57203/classes/history/re-wilding/spring-2024/</guid>
+      <guid>https://mapping.share.library.harvard.edu/classes/history/re-wilding/spring-2024/</guid>
       <description>Get to this page quickly: https://bit.ly/3HVp6vm Project datasets About Harvard University Planning and Design (HUPAD) has provided access to the following datasets, which you can use in your Re-Wilding projects:&#xA;Yard trees Hardscape (includes surface materials and pathways) Street blocks Greenspace Buildings Preview HUPAD data. Download instructions To download a copy of these datatsets to use in your project:&#xA;Visit this shared class map In the map legend, click the ellipsis next to the layer you want to download Select Export and to GeoPackage Map Collection Resources May Crane Fellowships - Apply by March 12 for stipended work with GIS in the Map Collection, Summer 2024.</description>
     </item>
   </channel>

@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Anthropology on GIS, maps &#43; data @ Harvard Library</title>
-    <link>http://localhost:57203/classes/anthropology/</link>
+    <link>https://mapping.share.library.harvard.edu/classes/anthropology/</link>
     <description>Recent content in Anthropology on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:57203/classes/anthropology/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mapping.share.library.harvard.edu/classes/anthropology/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

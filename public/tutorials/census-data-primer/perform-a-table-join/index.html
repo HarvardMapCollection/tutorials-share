@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head><title>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>
     
     Perform a Table Join in QGIS | 
     
@@ -10,8 +10,8 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<link rel="canonical" href="https://mapping.share.library.harvard.edu/tutorials/census-data-primer/perform-a-table-join/" />
-<link rel="icon" type="image/png" href="https://mapping.share.library.harvard.edu/image/favicon.ico">
+<link rel="canonical" href="http://localhost:1313/tutorials/census-data-primer/perform-a-table-join/" />
+<link rel="icon" type="image/png" href="http://localhost:1313/image/favicon.ico">
 
 
 <meta name="description" content="
@@ -24,7 +24,7 @@
 />
 
 
-<meta property="og:image" content="https://mapping.share.library.harvard.edu/tutorials/census-data-primer/perform-a-table-join/2.png" />
+<meta property="og:image" content="http://localhost:1313/tutorials/census-data-primer/perform-a-table-join/2.png" />
 
 
 
@@ -33,22 +33,25 @@
 
 <meta property="og:title" content="Perform a table join in QGIS" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://mapping.share.library.harvard.edu/tutorials/census-data-primer/perform-a-table-join/" /><meta property="article:section" content="tutorials" />
+<meta property="og:url" content="http://localhost:1313/tutorials/census-data-primer/perform-a-table-join/" /><meta property="article:section" content="tutorials" />
 <meta property="article:published_time" content="2023-01-17T00:00:00+00:00" />
 <meta property="article:modified_time" content="2023-01-17T00:00:00+00:00" />
 
 
 
 
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Perform a table join in QGIS"/>
-<meta name="twitter:description" content="How to attach or merge boundaries to spreadsheet data (or perform a table join) in QGIS"/>
 
-<meta itemprop="name" content="Perform a table join in QGIS">
-<meta itemprop="description" content="How to attach or merge boundaries to spreadsheet data (or perform a table join) in QGIS"><meta itemprop="datePublished" content="2023-01-17T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2023-01-17T00:00:00+00:00" />
-<meta itemprop="wordCount" content="749">
-<meta itemprop="keywords" content="tutorials,census,qgis," />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Perform a table join in QGIS">
+  <meta name="twitter:description" content="How to attach or merge boundaries to spreadsheet data (or perform a table join) in QGIS">
+
+
+  <meta itemprop="name" content="Perform a table join in QGIS">
+  <meta itemprop="description" content="How to attach or merge boundaries to spreadsheet data (or perform a table join) in QGIS">
+  <meta itemprop="datePublished" content="2023-01-17T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2023-01-17T00:00:00+00:00">
+  <meta itemprop="wordCount" content="660">
+  <meta itemprop="keywords" content="Tutorials,Census,Qgis">
 
 
 
@@ -74,24 +77,9 @@
 
 
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XCNRPXZNVM"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-XCNRPXZNVM');
-</script>
 
 
 
-<link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
-  <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-55D9M4Z');</script>
 
 
 
@@ -147,11 +135,15 @@
             <div class="dropdown-menu">
               
               
-                <a class="dropdown-item" href="/tags/arcgis/">ArcGIS</a>
+                <a class="dropdown-item" href="/tags/census/">Census</a>
               
               
               
-                <a class="dropdown-item" href="/tutorials/census-data-primer/">Census</a>
+                <a class="dropdown-item" href="/tags/openstreetmap/">OpenStreetMap</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/file-formats/">File Formats</a>
               
               
               
@@ -159,7 +151,19 @@
               
               
               
-                <a class="dropdown-item" href="/tags/openstreetmap/">OpenStreetMap (OSM)</a>
+                <a class="dropdown-item" href="/tags/vectorization/">Vectorization</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/spatial-analysis/">Spatial Analysis</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/arcgis/">ArcGIS</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/felt/">Felt</a>
               
               
               
@@ -238,6 +242,7 @@
         <div class="row">
             <div class="col-lg-8 offset-lg-2 px-lg-4">
                 <h1 class="title">Perform a Table Join in QGIS</h1>
+
                 <p>Need help turning your spreadsheet data into a map? In this tutorial you will learn how to join <strong>tables</strong> to <strong>GIS shapefiles</strong> to create a new, mappable dataset with both geographic boundaries and statistical or attribute information.</p>
 <h2 id="why-do-we-join">Why do we join?</h2>
 <p>Often, spreadsheets contain useful information we want to map. GIS software, however, does not know how to translate a spreadsheet without any <em>inherent spatial information</em> (such as point coordinates) into a visual map.</p>
@@ -249,7 +254,7 @@
 <p><img src="media/1.png" alt="Screenshot of a QGIS mapping project open with a map of Massachusetts towns"></p>
 <p>Because this data is spatial, GIS software can recognize it, and automatically make a map out of it.</p>
 <p>The image above shows how mapping software <em>displays</em> GIS data, but what does the &ldquo;data&rdquo; actually look like? Let&rsquo;s look at the data&rsquo;s underlying <code>attribute table</code>.</p>
-<p><img src="media/5.png" alt="Screenshot of the town GIS data&amp;rsquo;s underlying data table"></p>
+<p><img src="media/5.png" alt="Screenshot of the town GIS data&rsquo;s underlying data table"></p>
 <p>Here, we can see that for each row, which represents a single GIS <code>feature</code> (in this case, a town), there are some basic facts (each column) about that town. Included here are town name, town ID, population count, etc.</p>
 <p>Besides this basic information and the geospatial polygon shapes of the towns, this dataset is not entirely useful for mapping, when it comes to showing any meaningful statistics.</p>
 <p>Most of the time, the information we <em>want</em> to map, such as our example COVID rates, are not made available as shapefiles. People publish data in spreadsheets, and in order to make a map, we have to join the spreadsheets together with GIS shapefiles, using a GIS software like <a href="https://harvardmapcollection.github.io/tutorials/qgis/download/" target="_blank">QGIS</a>
@@ -260,24 +265,11 @@
 <h2 id="how-do-joins-work">How do joins work?</h2>
 <p>To perform a join, you must have a column in each dataset which contains the same literal values. Factors such as case sensitivity matter. The values must be exactly the same in both tables for the join to work.</p>
 <p>When we joined the COVID spreadsheet to the Massachusetts municipalities shapefile, we used a column common to both datasets: <code>town name</code>. Column headers did not have to match, but the values inside the columns&rsquo; cells do.</p>
-<h2 id="step-by-step">Step by step</h2>
-<p>We wrote this tutorial as part of a course called the <a href="/tutorials/census-data-primer/">census data primer</a>
-. You don&rsquo;t have to be following the course to use it.
-You can:</p>
-<ul>
-<li>
-<p>reinforce your understanding of joins and download the course data below, so you can follow along step-by-step.</p>
-</li>
-<li>
-<p>use your own data as you read through. If you are new to GIS, your data may need some additional cleaning for it to work. If that&rsquo;s the case, make an appointment for help via <a href="mailto:maps@harvard.edu">maps@harvard.edu</a>
-.</p>
-</li>
-</ul>
 <h3 id="sample-data">Sample data</h3>
 <ul>
-<li><a href="https://downgit.github.io/#/home?url=https://github.com/HarvardMapCollection/tutorials/blob/main/sample-data/cambridge-tracts.geojson" target="_blank">Census tracts in Cambridge, MA</a>
+<li><a href="https://downgit.github.io/#/home?url=https://github.com/HarvardMapCollection/tutorials/blob/main/sample-data/cambridge-tracts.geojson" target="_blank">Census tracts in Cambridge, MA (obtained from nhgis.org)</a>
 .</li>
-<li><a href="https://downgit.github.io/#/home?url=https://github.com/HarvardMapCollection/tutorials/blob/main/sample-data/tenure-2019.csv" target="_blank">Tenure statistics .CSV</a>
+<li><a href="https://downgit.github.io/#/home?url=https://github.com/HarvardMapCollection/tutorials/blob/main/sample-data/tenure-2019.csv" target="_blank">Tenure statistics .CSV (obtained from nhgis.org)</a>
 
 Refer to the tenure <a href="https://github.com/HarvardMapCollection/tutorials/blob/main/sample-data/tenure-2019-codebook.txt" target="_blank">codebook</a>
  to make sense of the statistical files&rsquo; structure.</li>
@@ -285,12 +277,10 @@ Refer to the tenure <a href="https://github.com/HarvardMapCollection/tutorials/b
 <h2 id="join-steps">Join steps</h2>
 <ol>
 <li>
-<p>Add the census tract shapes data to the QGIS document by following <a href="https://harvardmapcollection.github.io/tutorials/qgis/open-vector/" target="_blank">these steps</a>
-.</p>
+<p>Add the census tract shapes data to the QGIS document.</p>
 </li>
 <li>
-<p>Add the statistical tenure data to the map by following <a href="https://harvardmapcollection.github.io/tutorials/qgis/add-csv/" target="_blank">these steps</a>
-.</p>
+<p>Add the statistical tenure data to the map.</p>
 </li>
 <li>
 <p>Right-click the tracts layer in the layer list and select <code>Properties</code>.</p>

@@ -2,23 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scholarly Communications Discussion Group on GIS, maps &#43; data @ Harvard Library</title>
-    <link>https://mapping.share.library.harvard.edu/classes/programs/scdg/</link>
+    <link>http://localhost:1313/classes/programs/scdg/</link>
     <description>Recent content in Scholarly Communications Discussion Group on GIS, maps &#43; data @ Harvard Library</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/classes/programs/scdg/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/classes/programs/scdg/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GIS Outreach with the Harvard Map Collection</title>
-      <link>https://mapping.share.library.harvard.edu/classes/programs/scdg/spring-2023/</link>
+      <link>http://localhost:1313/classes/programs/scdg/spring-2023/</link>
       <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://mapping.share.library.harvard.edu/classes/programs/scdg/spring-2023/</guid>
-      <description>GIS vector dataset showing historic old growth trees in Washington State loaded into QGIS, a map making software.
-Historic old growth trees in Washington State dataset in QGIS table view.
-Harvard Geospatial Library (HGL) Georeferenced map of Poland from 1919.
-Russian Atlas, consisting of forty-four maps..., 1792. Example historical GIS data derived from library archives.
-Playing card geodata translations codebook. Drawings and sketches by W.D. Peck, 1793-1807, Harvard University Archives.</description>
+      <guid>http://localhost:1313/classes/programs/scdg/spring-2023/</guid>
+      <description>GIS vector dataset showing historic old growth trees in Washington State loaded into QGIS, a map making software.&#xA;Historic old growth trees in Washington State dataset in QGIS table view.&#xA;Harvard Geospatial Library (HGL) Georeferenced map of Poland from 1919.&#xA;Russian Atlas, consisting of forty-four maps..., 1792. Example historical GIS data derived from library archives.&#xA;Playing card geodata translations codebook. Drawings and sketches by W.D. Peck, 1793-1807, Harvard University Archives.</description>
     </item>
-    
   </channel>
 </rss>

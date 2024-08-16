@@ -34,7 +34,7 @@
 {{ end }}
 
 <!-- Google Analytics -->
-{{ if not .Site.IsServer }}
+{{ if not hugo.IsServer }}
     {{ partial "googleAnalytics.html" . }}
 {{ end }}
 

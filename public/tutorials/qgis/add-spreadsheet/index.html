@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head><title>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>
     
     Add a Spreadsheet .XLSX or .CSV to a QGIS Project | 
     
@@ -10,8 +10,8 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<link rel="canonical" href="https://mapping.share.library.harvard.edu/tutorials/qgis/add-spreadsheet/" />
-<link rel="icon" type="image/png" href="https://mapping.share.library.harvard.edu/image/favicon.ico">
+<link rel="canonical" href="http://localhost:1313/tutorials/qgis/add-spreadsheet/" />
+<link rel="icon" type="image/png" href="http://localhost:1313/image/favicon.ico">
 
 
 <meta name="description" content="
@@ -26,33 +26,36 @@ If your spreadsheet is saved in .XLSX format, export it as a .CSV before bringin
 />
 
 
-<meta property="og:image" content="https://mapping.share.library.harvard.edu/tutorials/qgis/add-spreadsheet/add-csv.png" />
+<meta property="og:image" content="http://localhost:1313/tutorials/qgis/add-spreadsheet/add-csv.png" />
 
 
 
 
 
 
-<meta property="og:title" content="Add a spreadsheet .XLSX or .CSV to a QGIS project" />
+<meta property="og:title" content="Add a spreadsheet .XLSX or .CSV to a QGIS Project" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://mapping.share.library.harvard.edu/tutorials/qgis/add-spreadsheet/" /><meta property="article:section" content="tutorials" />
+<meta property="og:url" content="http://localhost:1313/tutorials/qgis/add-spreadsheet/" /><meta property="article:section" content="tutorials" />
 <meta property="article:published_time" content="2023-01-18T00:00:00+00:00" />
 <meta property="article:modified_time" content="2023-01-18T00:00:00+00:00" />
 
 
 
 
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Add a spreadsheet .XLSX or .CSV to a QGIS project"/>
-<meta name="twitter:description" content="This tutorial will cover how to add tabular data to a QGIS project.
-If your spreadsheet is saved in .XLSX format, export it as a .CSV before bringing it into QGIS. QGIS will not be able to read .XLSX. To ensure interoperability, it&#39;s best to err on the side of encoding data in open data formats, such as .csv, .geoJSON or geopackage. Once you have spreadsheet data saved in .CSV format, open QGIS ."/>
 
-<meta itemprop="name" content="Add a spreadsheet .XLSX or .CSV to a QGIS project">
-<meta itemprop="description" content="This tutorial will cover how to add tabular data to a QGIS project.
-If your spreadsheet is saved in .XLSX format, export it as a .CSV before bringing it into QGIS. QGIS will not be able to read .XLSX. To ensure interoperability, it&#39;s best to err on the side of encoding data in open data formats, such as .csv, .geoJSON or geopackage. Once you have spreadsheet data saved in .CSV format, open QGIS ."><meta itemprop="datePublished" content="2023-01-18T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2023-01-18T00:00:00+00:00" />
-<meta itemprop="wordCount" content="242">
-<meta itemprop="keywords" content="tutorials,qgis," />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Add a spreadsheet .XLSX or .CSV to a QGIS Project">
+  <meta name="twitter:description" content="This tutorial will cover how to add tabular data to a QGIS project.
+If your spreadsheet is saved in .XLSX format, export it as a .CSV before bringing it into QGIS. QGIS will not be able to read .XLSX. To ensure interoperability, it&#39;s best to err on the side of encoding data in open data formats, such as .csv, .geoJSON or geopackage. Once you have spreadsheet data saved in .CSV format, open QGIS .">
+
+
+  <meta itemprop="name" content="Add a spreadsheet .XLSX or .CSV to a QGIS Project">
+  <meta itemprop="description" content="This tutorial will cover how to add tabular data to a QGIS project.
+If your spreadsheet is saved in .XLSX format, export it as a .CSV before bringing it into QGIS. QGIS will not be able to read .XLSX. To ensure interoperability, it&#39;s best to err on the side of encoding data in open data formats, such as .csv, .geoJSON or geopackage. Once you have spreadsheet data saved in .CSV format, open QGIS .">
+  <meta itemprop="datePublished" content="2023-01-18T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2023-01-18T00:00:00+00:00">
+  <meta itemprop="wordCount" content="352">
+  <meta itemprop="keywords" content="Qgis,File-Formats">
 
 
 
@@ -78,24 +81,9 @@ If your spreadsheet is saved in .XLSX format, export it as a .CSV before bringin
 
 
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XCNRPXZNVM"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-XCNRPXZNVM');
-</script>
 
 
 
-<link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
-  <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-55D9M4Z');</script>
 
 
 
@@ -151,11 +139,15 @@ If your spreadsheet is saved in .XLSX format, export it as a .CSV before bringin
             <div class="dropdown-menu">
               
               
-                <a class="dropdown-item" href="/tags/arcgis/">ArcGIS</a>
+                <a class="dropdown-item" href="/tags/census/">Census</a>
               
               
               
-                <a class="dropdown-item" href="/tutorials/census-data-primer/">Census</a>
+                <a class="dropdown-item" href="/tags/openstreetmap/">OpenStreetMap</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/file-formats/">File Formats</a>
               
               
               
@@ -163,7 +155,19 @@ If your spreadsheet is saved in .XLSX format, export it as a .CSV before bringin
               
               
               
-                <a class="dropdown-item" href="/tags/openstreetmap/">OpenStreetMap (OSM)</a>
+                <a class="dropdown-item" href="/tags/vectorization/">Vectorization</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/spatial-analysis/">Spatial Analysis</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/arcgis/">ArcGIS</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/felt/">Felt</a>
               
               
               
@@ -242,6 +246,7 @@ If your spreadsheet is saved in .XLSX format, export it as a .CSV before bringin
         <div class="row">
             <div class="col-lg-8 offset-lg-2 px-lg-4">
                 <h1 class="title">Add a Spreadsheet .XLSX or .CSV to a QGIS Project</h1>
+
                 <p>This tutorial will cover how to add tabular data to a QGIS project.</p>
 <ol>
 <li>If your spreadsheet is saved in <code>.XLSX</code> format, export it as a <code>.CSV</code> before bringing it into QGIS. QGIS <strong>will not</strong> be able to read <code>.XLSX</code>.</li>
@@ -291,9 +296,17 @@ If your spreadsheet is saved in .XLSX format, export it as a .CSV before bringin
 <p>Select <code>Close</code>.</p>
 </li>
 </ol>
+<div class="alert-danger">
+<h2>Add button not highlighted?</h2>
+<p>If the "Add" button is greyed out, it is probably a sign that you have not selected a coordinate reference system. Maybe it says something like "invalid projection".</p>
+<img alt="add projection wizard" src="media/invalid-proj.png">
+<p>If you are unsure which projection to use, you can start with WGS 84. Open the dialog box by clicking where it says "invalid projection", and search for the WGS 84 code, "4326". Set this as the coordinate reference system, and then the "Add" button should re-appear.</p>
+<p>You can also <a href="https://mapping.share.library.harvard.edu/tutorials/qgis/change-crs/">Learn more about working with coordinate reference systems in QGIS</a>.</p>
+</div>
 <div class="alert-warning">
 <h2>Example data</h2>
  <p>Please find an <a href="https://drive.google.com/file/d/1dBbqzEm3vq7zANaTiqquekefiCJIWkqd/view?usp=sharing" target="_blank" download>example spreadsheet</a> saved as a .csv with the latitude and longitude formatted correctly so that it should import as points in QGIS. </p>
+ <p>You can also <a href="https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/working-with-locations/">practice working with location data</a>, and start to visualize it in a shareable web map.</p>
 </div>
 <div class="alert-success">
 <h2>Give your feedback to improve our tutorials</h2>

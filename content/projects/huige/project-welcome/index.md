@@ -1,5 +1,5 @@
 ---
-title: Project welcome and discovery map
+title: Welcome and discovery map
 description: Welcome to the Harvard University Institute of Geographical Exploration Archives Factsheets repository.
 date: 2024-08-14
 image: cover.png

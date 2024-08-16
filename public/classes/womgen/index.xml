@@ -2,10 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Studies of Women, Gender, and Sexuality on GIS, maps &#43; data @ Harvard Library</title>
-    <link>https://mapping.share.library.harvard.edu/classes/womgen/</link>
+    <link>http://localhost:1313/classes/womgen/</link>
     <description>Recent content in Studies of Women, Gender, and Sexuality on GIS, maps &#43; data @ Harvard Library</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/classes/womgen/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:1313/classes/womgen/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

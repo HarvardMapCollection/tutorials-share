@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>
+    
+    Vectorize Maps Into Data; Polygon Area Calculations for QGIS | 
+    
+    GIS, maps &#43; data @ Harvard Library
+</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="http://localhost:1313/tutorials/qgis/adler/" />
+<link rel="icon" type="image/png" href="http://localhost:1313/image/favicon.ico">
+
+
+<meta name="description" content="
+    Step-by-step instructions for vectorizing data from historic maps, including an example using Atlascope and spatial analysis.
+    "
+/>
+<meta property="og:description" content="
+    Step-by-step instructions for vectorizing data from historic maps, including an example using Atlascope and spatial analysis.
+    " 
+/>
+
+
+<meta property="og:image" content="http://localhost:1313/tutorials/qgis/adler/digi-parcel.gif" />
+
+
+
+
+
+
+<meta property="og:title" content="Vectorize maps into data; polygon area calculations for QGIS" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/tutorials/qgis/adler/" /><meta property="article:section" content="tutorials" />
+<meta property="article:published_time" content="2024-08-08T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-08-08T00:00:00+00:00" />
+
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Vectorize maps into data; polygon area calculations for QGIS">
+  <meta name="twitter:description" content="Step-by-step instructions for vectorizing data from historic maps, including an example using Atlascope and spatial analysis.">
+
+
+  <meta itemprop="name" content="Vectorize maps into data; polygon area calculations for QGIS">
+  <meta itemprop="description" content="Step-by-step instructions for vectorizing data from historic maps, including an example using Atlascope and spatial analysis.">
+  <meta itemprop="datePublished" content="2024-08-08T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-08-08T00:00:00+00:00">
+  <meta itemprop="wordCount" content="1777">
+  <meta itemprop="keywords" content="Qgis,Vectorization,Spatial-Analysis">
+
+
+
+
+<link rel="stylesheet" href="/main.min.css">
+<link rel="stylesheet" href="https://use.typekit.net/yiq3yrx.css">
+<link rel="stylesheet" href="/typekit/stylesheet.css">
+
+
+
+
+
+<script src="/bundle.js"></script>
+
+
+
+
+
+
+
+<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body><header id="header">
+  <div class="top-bar">
+    <div class="container-md">
+
+      <div class="row align-items-center">
+
+        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
+          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <i class="fas fa-bars"></i> Menu
+          </button>
+        </div>
+
+        <div class="col-12 col-sm-12">
+          <h2 class="title"><a href="/">GIS, maps &#43; data @ Harvard Library</a></h2>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-md">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+
+
+
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/">
+              Home
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Tutorials
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/tags/census/">Census</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/openstreetmap/">OpenStreetMap</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/file-formats/">File Formats</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/georeferencing/">Georeferencing</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/vectorization/">Vectorization</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/spatial-analysis/">Spatial Analysis</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/arcgis/">ArcGIS</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/felt/">Felt</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/qgis/">QGIS</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Resources
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/resources/workshops">Workshops</a>
+              
+              
+              
+                <a class="dropdown-item" href="/resources/researchers-handbook">Data management</a>
+              
+              
+              
+                <a class="dropdown-item" href="/resources/finding-data">Finding data</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/tags/news">
+              Blog
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/projects/">
+              Projects
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/connect/">
+              Connect
+            </a>
+          </li>
+          
+          
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="blog-content">
+    <div class="container-md">
+        <div class="row">
+            
+            <div class="col-lg-2 d-none d-xl-block">
+                <div class="ad-left-offset"></div>
+                
+            </div>
+
+            
+
+            <div class="col-md-12 col-lg-8 px-lg-4">
+                
+
+
+                <div class="breadcrumb-container">
+                    <nav aria-label="breadcrumb" class="breadcrumb">
+                        <ol>
+                          
+                          ↵
+                            <li>
+                              <a href="/"> GIS, maps &#43; data @ Harvard Library</a>
+                            </li>
+                          
+                          ↵
+                            <li>
+                              <a href="/tutorials/"> Tutorials</a>
+                            </li>
+                          
+                          ↵
+                            <li>
+                              <a href="/tutorials/qgis/"> QGIS</a>
+                            </li>
+                          
+                          <li style="margin-right: 0;" class="active">
+                            👋
+                            <a aria-current="page" href="/tutorials/qgis/adler/">Vectorize maps into data; polygon area calculations for QGIS</a>
+                          </li>
+                        </ol>
+                      </nav>
+                      </div>
+
+                      <h1 class="title">Vectorize maps into data; polygon area calculations for QGIS</h1>
+
+                <div class="container-fluid px-0 mb-4">
+                    <div class="row align-items-end">
+                        <div class="col-md-8 date-time">
+                            
+                                Hannah Adler
+                                &centerdot;
+                            
+                                Belle Lipton
+                                &centerdot;
+                            
+                            <span class="date">
+    Aug 8, 2024
+</span>
+                            &centerdot;
+                            <span class="time-to-read">
+    10 mins read</span>
+                        </div>
+
+                        <div class="col-md-4 tags ">
+                            
+                            <a href="/tags/qgis"><span
+                                    class="tag bg-dark">qgis</span></a>
+                            
+                            <a href="/tags/vectorization"><span
+                                    class="tag bg-dark">vectorization</span></a>
+                            
+                            <a href="/tags/spatial-analysis"><span
+                                    class="tag bg-dark">spatial-analysis</span></a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <p>This is an example project modeling step-by-step instructions for generating geospatial data for analysis from historic maps. In June, we <a href="https://mapping.share.library.harvard.edu/posts/re-wilding-2024/" target="_blank">shared out results</a>
+ from partnering with Joyce Chaplin&rsquo;s course, Re-Wilding Harvard, where students were tasked with creating projects to investigate histories and changing natures of open space around Harvard&rsquo;s campus.</p>
+<p>Hannah Adler &lsquo;25 chose to study the Charles River region of Harvard&rsquo;s campus, on the Cambridge side near Memorial Drive.</p>
+<blockquote>
+<p>&ldquo;I was  interested in the Harvard Square adjacent area near the river, because today we think of the river walkways and Memorial Drive, especially when it’s closed as a really valuable open space. I also had seen an image in HOLLIS that conveys a certain set of aesthetic ideals with how people were imagining the riverside could be.</p>
+</blockquote>
+<iframe width="100%" height="700" src="https://iiif.lib.harvard.edu/manifests/view/ids:3043928$1i" title="New Boston and Charles River Basin, 1880
+" ></iframe>
+<figcaption class="append"><a href="https://iiif.lib.harvard.edu/manifests/view/ids:3043928$1i">New Boston and Charles River Basin, 1880</a></figcaption>
+<p>Adler, who had some GIS coursework under her belt from past semesters, visited the Harvard Map Collection, knowing she wanted to incorporate spatial analysis techniques in her project. She sought to understand:</p>
+<ol>
+<li>What did the development process look like in this area? How rapidly did this region change?</li>
+<li>What was Harvard&rsquo;s role in developing this area?</li>
+</ol>
+<p>Hannah met with GIS Librarian Belle Lipton, and discussed approaches to modeling the data to tease out these questions.</p>
+<h2 id="finding-map-sources">Finding map sources</h2>
+<p>Lipton recommended a tool she worked to create at the Boston Public Library, called <a href="https://www.atlascope.org/" target="_blank">Atlascope</a>
+. This tool incorporates over 100 different atlases from Boston and Cambridge, and assembles them into a GIS viewer so that researchers can easily compare different years and layers. Not only do these maps show the exact changes Adler was investigating, but the map are hosted as GIS layers anyone can use in their own projects.</p>
+<h3 id="1873">1873</h3>
+<iframe width="100%" height="700" src="https://atlascope.org/#/view:share$mode:swipe-x$center:-71.11890,42.36865$zoom:16.58$base:massgis-2023-orthos$overlay:ark:/76611/al88ruzla" title="Hannah" ></iframe>
+<figcaption class="append">You can swipe and zoom to see how the shape of the river has changed between 1873 and 2024.</figcaption>
+<h3 id="1903">1903</h3>
+<iframe width="100%" height="700" src="https://atlascope.org/#/view:share$mode:swipe-x$center:-71.11894,42.36967$zoom:17.76$base:massgis-2023-orthos$overlay:ark:/76611/al8c0zee3" title="Hannah" ></iframe>
+<h3 id="1916">1916</h3>
+<iframe width="100%" height="700" src="https://atlascope.org/#/view:share$mode:swipe-x$center:-71.11894,42.36967$zoom:17.76$base:massgis-2023-orthos$overlay:ark:/76611/al8c3wda3" title="Hannah" ></iframe>
+<h3 id="1930">1930</h3>
+<iframe width="100%" height="700" src="https://atlascope.org/#/view:share$mode:swipe-x$center:-71.11894,42.36967$zoom:17.76$base:massgis-2023-orthos$overlay:ark:/76611/al88ugbpx" title="Hannah" ></iframe>
+<h2 id="vectorizing">Vectorizing</h2>
+<p>After Adler selected the four temporal snapshots she wanted to study (1873, 1903, 1916, and 1930), and located GIS layers for each of the atlas years, the next step was to create polygon data for the parcels on the maps. Tracing the boundaries of each parcel and annotating those boundaries with important information allowed her to measure the scale of changes.</p>
+<h2 id="attribute-information">Attribute Information</h2>
+<img src="media/1873-1.png" style="width:100%; max-height:70em;" alt="vector polygons">
+<p><em><span style="color:orange;">Orange</span> indicates parcels that are undeveloped in 1873, meaning they have <span style="color:orange;">no structures</span> on them. <span style="color:purple;">Purple</span> are developed parcels, or parcels <span style="color:purple;">with structures</span> on them.</em>
+<br></p>
+<p>After creating shape data for each parcel, Adler added columns to the GIS table which tracked the following attributes:</p>
+<ul>
+<li>For each parcel, was it developed or not? This was a binary value. If the parcel had a structure on it in 1873, the <code>developed</code> field for the parcel was encoded as <code>true</code>, and if it did not have a structure, the parcel had a <code>false</code> value.</li>
+<li>Who was the land owner in 1873? Adler created a column to encode the names of landowners, information which is found on the maps.</li>
+</ul>
+<img src="media/1873-2.png" style="width:100%; max-height:70em;" alt="vector polygons yellow">
+<p><em>The maps <span style="background-color:yellow;">highlighted in yellow</span> indicate parcels <span style="background-color:yellow;">owned by Harvard</span> in 1873.</em></p>
+<p>Adler repeated this process, vectorizing and encoding the same variables for each temporal snapshot she was interested in studying.</p>
+<h3 id="1873-1">1873</h3>
+<table>
+  <tr>
+    <th>Development</th>
+    <th>Harvard-ownership</th>
+  </tr>
+  <tr>
+    <td><img alt="Vectorized parcels" src="media/1873-1.png"></td>
+    <td><img alt="Vectorized parcels with Harvard highlighted" src="media/1873-2.png"></td>
+  </tr>
+</table>
+<h3 id="1903-1">1903</h3>
+<table>
+  <tr>
+    <th>Development</th>
+    <th>Harvard-ownership</th>
+  </tr>
+  <tr>
+    <td><img alt="Vectorized parcels" src="media/1903-dev.png"></td>
+    <td><img alt="Vectorized parcels with Harvard highlighted" src="media/1903-h.png"></td>
+  </tr>
+</table>
+<h3 id="1916-1">1916</h3>
+<table>
+  <tr>
+    <th>Development</th>
+    <th>Harvard-ownership</th>
+  </tr>
+  <tr>
+    <td><img alt="Vectorized parcels" src="media/1916-dev.png"></td>
+    <td><img alt="Vectorized parcels with Harvard highlighted" src="media/1916-h.png"></td>
+  </tr>
+</table>
+<h3 id="1930-1">1930</h3>
+<table>
+  <tr>
+    <th>Development</th>
+    <th>Harvard-ownership</th>
+  </tr>
+  <tr>
+    <td><img alt="Vectorized parcels" src="media/1930-d.png"></td>
+    <td><img alt="Vectorized parcels with Harvard highlighted" src="media/1930-h.png"></td>
+  </tr>
+</table>
+<h2 id="area-analysis">Area analysis</h2>
+<p>Next, Adler was able to leverage GIS tools to generate area calculations tallying up how many square meters exist for each parcel type. Because these vectorized shapes correspond to real locations, GIS tools are able to report the amount of area each shape represents in reality. This works because the datasets are projected into specific coordinate reference systems that link the shape drawings with real places, using specific units of measurement.</p>
+<p>Adler used the coordinate reference system <code>Massachusetts State Plane</code> or <code>EPSG: 26986</code>, which is the same coordinate reference system Massachusetts uses to store GIS data in <a href="https://www.mass.gov/info-details/learn-about-massgis-data" target="_blank">MassGIS</a>
+, the state&rsquo;s open geodata portal. This generates area calculations in the unit of <code>square meters</code>.</p>
+<p>Adler exported the area calculations to tabular formats (<code>.csv</code>), so she could analyze them further using other software, such as <code>R</code>. Her findings are presented in the following table.</p>
+<p><img src="media/table.png" alt="table"></p>
+<p>While the total area developed (parcels with structures on them) increases only a small amount between 1873 and 1930, the area owned by Harvard increases dramatically during this period. Adler reported that there were many other variables included in the historic atlases one could choose to encode and then apply this same methodology to, whereby one calculates area based on a subsetted attribute filter of the traced parcels.</p>
+<p>Try out the project data by downloading it from the <a href="https://hgl.harvard.edu/catalog/harvard-rtl-rewilding-charles-river-land-ownership" target="_blank">Harvard Geospatial Library (HGL)</a>
+.</p>
+<ol>
+<li>Select <code>https://doi.org/10.17605/OSF.IO/C9GV3</code>.</li>
+<li><code>Files</code> across the top menu bar.</li>
+<li><code>Download this folder</code>.</li>
+</ol>
+<h2 id="how-to-use-this-approach-a-step-by-step-guide">How to use this approach (a step-by-step guide)</h2>
+<h3 id="set-a-project-coordinate-reference-system">Set a project coordinate reference system</h3>
+<ol>
+<li><a href="https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-software/" target="_blank">Download QGIS</a>
+.</li>
+<li>Create a new QGIS project.</li>
+<li>Add a basemap to the project by going to the <code>Browser</code> panel, expanding <code>XYZ Tiles</code> and double-clicking <code>OpenStreetMap</code>.</li>
+</ol>
+<blockquote>
+<p>If you do not see a browser panel, you can go to the program menu at the top of the screen and select <code>View</code> → <code>Panels</code> and turn on <code>Browser</code>.</p>
+</blockquote>
+<ol start="4">
+<li>The project coordinate reference system should now reflect that of the basemap we just added. In the bottom-right hand corner of the QGIS window, find the button that says <code>EPSG: 3857</code>. Click that button to open the <code>Project Properties - CRS</code> window.</li>
+</ol>
+<p><img src="media/projection.png" alt="project properties crs window"></p>
+<p>You can search for coordinate reference systems by name, place, or <a href="https://spatialreference.org/ref/epsg/?search=massachusetts" target="_blank">epsg code</a>
+. You will want to choose a projection that is suited for the area you are creating data for, and is measured in units such as meters or feet, if you want to do area calculations. You can find this information in the properties of each coordinate reference system.</p>
+<ol start="5">
+<li>
+<p>Zoom in to the area of interest using the Zoom buttons.
+<img src="media/zoom.png" alt="zoom controls"></p>
+</li>
+<li>
+<p>If the map disappears when you move it, or looks as though it is a strange shape, it could be due to the software attempting to reproject the basemap to the shape of a coordinate reference system built for the location you have chosen. Wait for the screen to re-load, or you can zoom to the extent of the basemap by right-clicking <code>OpenStreetMap</code> in the layer list, and choosing <code>Zoom to Layer</code>. Continue zooming until the area of interest is centered on the map. Any notifications about ballpark transformations you can click through or ignore.</p>
+</li>
+</ol>
+<h3 id="import-georeferenced-maps">Import georeferenced maps</h3>
+<p>Add the georeferenced map you&rsquo;d like to use to trace data from.
+In this example, we used data from <a href="https://www.atlascope.org/" target="_blank">Atlascope</a>
+.</p>
+<h4 id="if-you-want-to-use-an-atlascope-layer">If you want to use an Atlascope layer</h4>
+<ol>
+<li>Toggle on the layer you&rsquo;d like to use and select <code>Bibliographic Information</code>.</li>
+<li>Copy the link after <code>XYZ tiles</code>, e.g.:</li>
+</ol>
+<pre style="padding-left:30px;background-color:black;color:white;">
+<code>
+https://s3.us-east-2.wasabisys.com/urbanatlases/39999059011864/tiles/{z}/{x}/{y}.png
+</code>
+</pre>
+<ol start="3">
+<li>Go to <code>Layer</code> &gt; <code>Add Layer</code> &gt; <code>Add XYZ Tile Connection</code>.</li>
+<li>Choose <code>New</code>, add a <code>Title</code>, and paste the URL into the dialog box. Be careful to ensure that there are no spaces at the beginning or end of the pasted URL, or it will not load.</li>
+<li>Make sure the layer you just created is selected in the dropdown, and choose <code>OK</code> to add it to the map.</li>
+<li>The layer should appear on the map. If not, make sure you are zoomed in enough.</li>
+</ol>
+<h4 id="if-you-want-to-use-another-georeferenced-map">If you want to use another georeferenced map</h4>
+<ul>
+<li>
+<p>If you have a <code>.geoTIFF</code>, you should be able to drag the file directly into the QGIS document and have it show up in the correct place.</p>
+</li>
+<li>
+<p>If you do not yet have a georeferenced map you&rsquo;d like to work with, please refer to other guides on this pre-requisite step. A useful place to start is the tutorial <a href="https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/archival-maps/" target="_blank">Adding a Historic Map to Felt</a>
+, which discusses how to use the Harvard Map Collection catalog to find and georeference a map, and how to preview the georeferenced image in a web map.</p>
+</li>
+</ul>
+<h3 id="create-new-shapefile-layer">Create New Shapefile Layer</h3>
+<ol>
+<li>
+<p>Click on <code>Layer</code> &gt; <code>Create Layer</code> &gt; <code>New Shapefile Layer</code>.</p>
+</li>
+<li>
+<p>Select <code>Polygon</code> as the geometry type.</p>
+</li>
+<li>
+<p>Important! From the coordinate reference system menu in this interface, ensure you are creating the new shapefile in the coordinate reference system you selected.
+<img src="media/crs.png" alt="select crs"></p>
+</li>
+<li>
+<p>Add necessary fields for the attributes you want to record (e.g., development status, owner name). These fields will become the column headers in the data table you will create. For every polygon you create, you will also fill out a value for each of these attributes.</p>
+</li>
+</ol>
+<blockquote>
+<p>These attributes are also what powers the map symbolization. In the orange and purple map, we were able to ask the software to turn every polygon with the value of <code>Developed=no</code> orange, and every polygon with the value of <code>Developed=yes</code> purple.</p>
+</blockquote>
+<ol start="5">
+<li>Pay attention to field types. If you are recording categories or text data, make sure you select <code>Text</code> as the field&rsquo;s data type. If you are recording a number you&rsquo;d like to be able to symbolize by density, make sure to select <code>Number</code> as the field type.</li>
+</ol>
+<h2 id="step-4-draw-polygons-on-the-map">Step 4: Draw Polygons on the Map</h2>
+<ol>
+<li>Start drawing polygons by clicking on the <code>Toggle Editing</code> button, which looks like a pencil.
+<img src="media/toggle-editing.png" alt="start editing"></li>
+<li>Select the <code>Create Polygon</code> button.
+<img src="media/create-polygon.png" alt="create polygon"></li>
+<li>Start drawing!</li>
+</ol>
+<p><img src="media/digi-parcel.gif" alt="digitizing a parcel in QGIS"></p>
+<p>This takes a little bit of practice to get used to. To make it easier, use the snapping tool to make sure your lines and vertices match up, and don&rsquo;t leave any holes between your polyons.</p>
+<ol start="4">
+<li>
+<p>In the main QGIS menu choose <code>Project</code> then <code>Snapping Options</code>. Toggle on the magnet icon on the far left of the wizard. Turn on <code>Vertex</code> and <code>Segment</code>. Turn on <code>Topological Editing</code> and <code>Snapping on Intersection</code> so that both buttons are engaged.</p>
+</li>
+<li>
+<p>You can right-click your in-progress data layer in the <code>Layer</code> panel, and choose <code>View Attribute Table</code>. This will show you each polygon as a row in the table, and you can edit the values there.</p>
+</li>
+<li>
+<p>Any changes you don&rsquo;t want to lose, make sure to <code>Save</code> by continuously clicking the <code>Pencil</code> or <code>Toggle Editing</code> icon.</p>
+</li>
+<li>
+<p>To really learn the true ins and outs of everything you can do with the editing toolbar, including moving or deleting points, check out the <a href="https://docs.qgis.org/3.34/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html" target="_blank">QGIS Editing Documentation</a>
+.</p>
+</li>
+</ol>
+<h3 id="calculate-area-of-each-polygon">Calculate Area of Each Polygon</h3>
+<ol>
+<li>Open the Attribute Table.</li>
+<li>Go to <code>Field Calculator</code>.</li>
+<li>Create a new field named <code>Area</code>.</li>
+<li>Use the <code>$area</code> expression to calculate the area of each polygon.</li>
+</ol>
+<h3 id="edit-map-symbology">Edit Map Symbology</h3>
+<ol>
+<li>Double-click the map layer to open its properties.</li>
+<li>Go to the <code>Symbology</code> tab.</li>
+<li>Change symbology from <code>single symbol</code> to <code>categorized</code>.</li>
+<li>Choose <code>developed</code> for Value and select distinct colors for <code>yes</code> and <code>no</code> (e.g., #cd782e and #8c5fed).</li>
+</ol>
+<h3 id="identify-parcels-based-on-variables-of-interest">Identify Parcels Based on Variables of Interest</h3>
+<ol>
+<li>Filter the attribute table to highlight specific parcels.</li>
+<li>For example, to identify parcels owned by Harvard College, apply the filter <code>owner_name = &quot;Harvard College&quot;</code>.</li>
+</ol>
+<h3 id="export-data-table-for-analysis">Export Data Table for Analysis</h3>
+<ol>
+<li>Right-click on the map layer.</li>
+<li>Select <code>Export</code> and choose the file type (<code>.xlsx</code> or <code>.csv</code>) as needed for your analysis.</li>
+</ol>
+
+
+
+                
+                <br>
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    (function () {
+        
+        
+        if (window.location.hostname == "localhost")
+            return;
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = '';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>
+
+            <div class="col-lg-2 d-none d-xl-block">
+                <div class="ad-right-offset"></div>
+                
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+</body>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-55D9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+</html>

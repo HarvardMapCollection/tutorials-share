@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Felt on GIS, maps &#43; data @ Harvard Library</title>
+    <link>http://localhost:1313/tags/felt/</link>
+    <description>Recent content in Felt on GIS, maps &#43; data @ Harvard Library</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/felt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Registration</title>
+      <link>http://localhost:1313/resources/workshops/workshop-4/registration/</link>
+      <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/workshops/workshop-4/registration/</guid>
+      <description>This tutorial is part of the GIS Mapping Quickstart workshop, in which we:&#xA;download census data of nonwhite populations and poverty rate practice symbolizing and displaying the data in an online web map In this guide we will set up for these activities by registering for:&#xA;the census extract site, nhgis.org the web mapping site, felt.com NHGIS.org We will be using NHGIS.org via the Minnesota Population Center to obtain census data in this workshop.</description>
+    </item>
+    <item>
+      <title>How to download poverty rate data by census tract for GIS</title>
+      <link>http://localhost:1313/resources/workshops/workshop-4/poverty-rate/</link>
+      <pubDate>Sun, 21 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/workshops/workshop-4/poverty-rate/</guid>
+      <description>In order to map poverty rate per census tract, you must first perform some steps to prepare the data. In this tutorial, we will practice:&#xA;Downloading high-quality data Cleaning the data to prepare it for mapping Downloading the data Visit NHGIS.org . Create a free academic use account, if you haven&amp;rsquo;t already, and log in.&#xA;From the NHGIS.org home screen, choose START HERE: Get Data in the middle of the page, or SELECT DATA in the navigation bar menu at the top of the page.</description>
+    </item>
+    <item>
+      <title>How to download percent non-white population data by census tract for GIS</title>
+      <link>http://localhost:1313/resources/workshops/workshop-4/non-white-population/</link>
+      <pubDate>Sat, 20 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/workshops/workshop-4/non-white-population/</guid>
+      <description>In order to map non-white population per census tract, you must first perform some steps to prepare the data. In this tutorial, we will practice:&#xA;Downloading high-quality data Cleaning the data to prepare it for mapping Downloading the data You can achieve these steps using a number of software environments, including R and Python. In this tutorial we will download the data manually from NHGIS.org, and show how to clean the data using 3 different spreadsheet tools: Excel, LibreOffice, and Google Sheets.</description>
+    </item>
+    <item>
+      <title>Understanding location data</title>
+      <link>http://localhost:1313/resources/workshops/workshop-4/working-with-locations/</link>
+      <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/workshops/workshop-4/working-with-locations/</guid>
+      <description>In this tutorial, which is part of the GIS Mapping Quickstart series, we will:&#xA;Work with point or coordinate data saved in spatial data format (.geoJSON) Work with point or coordinate data saved in non-spatial data format (.XLSX or .CSV) Solidify our understanding of how vector GIS data is structured Working with geoJSONs If you haven&amp;rsquo;t already, download the files from Libby_Wu_Source_Project_Data . This data is already in geospatial format, .</description>
+    </item>
+    <item>
+      <title>Upload census data to Felt</title>
+      <link>http://localhost:1313/resources/workshops/workshop-4/upload-census-to-felt/</link>
+      <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/workshops/workshop-4/upload-census-to-felt/</guid>
+      <description>The goal of this tutorial is to start with a spreadsheet of census information, and upload the information so that it displays as polygons on the map. As mentioned in the software requirements section of this workhop, we are choosing Felt as a venue to get started working with census data because it faciliates the process of table joins for us.&#xA;Jump ahead If you already have a background on the structure of GIS data, and want to learn how to use census data in Felt, you can jump to the bottom of this page labeled &#34;</description>
+    </item>
+    <item>
+      <title>Spatial analysis in Felt</title>
+      <link>http://localhost:1313/resources/workshops/workshop-4/spatial-analysis/</link>
+      <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/workshops/workshop-4/spatial-analysis/</guid>
+      <description>We are working with a lot of different layers! We can look at the maps and visually assess the information, but a better way to start understanding our data is using some GIS spatial analysis methods.&#xA;Buffer First, let&amp;rsquo;s explore the relationship between the fitness classes and basketball courts to public transportation. We&amp;rsquo;re going to create a ten-minute walking buffer around all subway stops to try to identify locations which are not within a 10-minute walk to transit.</description>
+    </item>
+    <item>
+      <title>Adding historic maps to a Felt map</title>
+      <link>http://localhost:1313/resources/workshops/workshop-4/archival-maps/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/workshops/workshop-4/archival-maps/</guid>
+      <description>In this tutorial, which exists as part of the GIS Mapping Quickstart , we will practice obtaining a georeferenced historical map from the Harvard Geospatial Library (HGL) , and uploading that map to a shareable map using the web mapping tool, Felt.com . You can read this guide to generally learn more about the Harvard Map Collection&amp;rsquo;s georeferenced collections, or follow along step by step by signing up for a Felt.</description>
+    </item>
+    <item>
+      <title>Exporting Geospatial Data from Felt</title>
+      <link>http://localhost:1313/resources/workshops/workshop-4/exporting-data/</link>
+      <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/workshops/workshop-4/exporting-data/</guid>
+      <description>If you have created data in Felt, either by manually drawing features, or by uploading a spreadsheet and converting the spreadsheet data to features using geocoding or joins, you may be wondering how to share the geospatial data you have created. What formats should you use to make sure the data you&amp;rsquo;ve created will work in other GIS software?&#xA;Luckily, Felt allows you to export data in geopackage format .gpkg, which is an open format for encoding point, line, or polygon data.</description>
+    </item>
+  </channel>
+</rss>

@@ -2,19 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>94DN - Mapping Social and Environmental Space on GIS, maps &#43; data @ Harvard Library</title>
-    <link>https://mapping.share.library.harvard.edu/classes/government/94dn/</link>
+    <link>http://localhost:1313/classes/government/94dn/</link>
     <description>Recent content in 94DN - Mapping Social and Environmental Space on GIS, maps &#43; data @ Harvard Library</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mapping.share.library.harvard.edu/classes/government/94dn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/classes/government/94dn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spring 2023 Harvard Map Collection</title>
-      <link>https://mapping.share.library.harvard.edu/classes/government/94dn/spring-2023/</link>
+      <link>http://localhost:1313/classes/government/94dn/spring-2023/</link>
       <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://mapping.share.library.harvard.edu/classes/government/94dn/spring-2023/</guid>
+      <guid>http://localhost:1313/classes/government/94dn/spring-2023/</guid>
       <description>Trying to understand things encodes them sometimes Descriptive map of London poverty, 1889 in the Harvard Map Collection. New technologies and ethical grey space Data-Smart City Solutions from Harvard Kennedy Schools&#39; Ash Center. Being up front in your maps/data about your motivations Spaces of Avoidance project by Alie Kilts. Letting people in to allow critique Land-Grab Univerisities interactive digital project. Mapping Inequality project via the University of Richmond&#39;s Digital Scholarship Lab.</description>
     </item>
-    
   </channel>
 </rss>

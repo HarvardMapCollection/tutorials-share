@@ -9,10 +9,30 @@
                 {{ partial "ads.html" "ads/vertical-ad.js"}}
             </div>
 
+            
+
             <div class="col-md-12 col-lg-8 px-lg-4">
                 {{ partial "ads.html" "ads/horizontal-ad.js" }}
 
-                <h1 class="title">{{ .Title }}</h1>
+
+                <div class="breadcrumb-container">
+                    <nav aria-label="breadcrumb" class="breadcrumb">
+                        <ol>
+                          {{ range .Ancestors.Reverse }}
+                          ↵
+                            <li>
+                              <a href="{{ .RelPermalink }}"> {{.LinkTitle }}</a>
+                            </li>
+                          {{ end }}
+                          <li style="margin-right: 0;" class="active">
+                            👋
+                            <a aria-current="page" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                          </li>
+                        </ol>
+                      </nav>
+                      </div>
+
+                      <h1 class="title">{{ .Title }}</h1>
 
                 <div class="container-fluid px-0 mb-4">
                     <div class="row align-items-end">
@@ -58,4 +78,7 @@
     </div>
 </main>
 
+
 {{ end }}
+
+

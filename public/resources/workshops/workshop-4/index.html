@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>
+    
+    GIS Mapping Quickstart | 
+    
+    GIS, maps &#43; data @ Harvard Library
+</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="http://localhost:1313/resources/workshops/workshop-4/" />
+<link rel="icon" type="image/png" href="http://localhost:1313/image/favicon.ico">
+
+
+    <meta name="description" content="All articles in &quot;GIS Mapping Quickstart&quot;">
+    <meta property="og:description" content="All articles in &quot;GIS Mapping Quickstart&quot;" />
+
+    
+    
+    <meta property="og:image" content="http://localhost:1313/resources/workshops/workshop-4/cover.png" />
+    
+
+
+
+
+
+
+<meta property="og:title" content="GIS Mapping Quickstart" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://localhost:1313/resources/workshops/workshop-4/" />
+
+
+
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/resources/workshops/workshop-4/cover.png">
+  <meta name="twitter:title" content="GIS Mapping Quickstart">
+  <meta name="twitter:description" content="In this workshop we will learn how to download poverty rate GIS data by census tract, non-white population GIS data by census tract, and make a map of basketball courts and fitness classes in NYC.">
+
+
+  <meta itemprop="name" content="GIS Mapping Quickstart">
+  <meta itemprop="description" content="In this workshop we will learn how to download poverty rate GIS data by census tract, non-white population GIS data by census tract, and make a map of basketball courts and fitness classes in NYC.">
+  <meta itemprop="datePublished" content="2024-07-26T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-07-26T00:00:00+00:00">
+  <meta itemprop="image" content="http://localhost:1313/resources/workshops/workshop-4/cover.png">
+
+
+
+
+<link rel="stylesheet" href="/main.min.css">
+<link rel="stylesheet" href="https://use.typekit.net/yiq3yrx.css">
+<link rel="stylesheet" href="/typekit/stylesheet.css">
+
+
+
+
+
+<script src="/bundle.js"></script>
+
+
+
+
+
+
+
+<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body><header id="header">
+  <div class="top-bar">
+    <div class="container-md">
+
+      <div class="row align-items-center">
+
+        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
+          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <i class="fas fa-bars"></i> Menu
+          </button>
+        </div>
+
+        <div class="col-12 col-sm-12">
+          <h2 class="title"><a href="/">GIS, maps &#43; data @ Harvard Library</a></h2>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-md">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+
+
+
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/">
+              Home
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Tutorials
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/tags/census/">Census</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/openstreetmap/">OpenStreetMap</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/file-formats/">File Formats</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/georeferencing/">Georeferencing</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/vectorization/">Vectorization</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/spatial-analysis/">Spatial Analysis</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/arcgis/">ArcGIS</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/felt/">Felt</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/qgis/">QGIS</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Resources
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/resources/workshops">Workshops</a>
+              
+              
+              
+                <a class="dropdown-item" href="/resources/researchers-handbook">Data management</a>
+              
+              
+              
+                <a class="dropdown-item" href="/resources/finding-data">Finding data</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/tags/news">
+              Blog
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/projects/">
+              Projects
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/connect/">
+              Connect
+            </a>
+          </li>
+          
+          
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="bg-offwhite">
+    <div class="container-md">
+        <div class="row">
+            
+
+            <h1 class="section-title">
+                GIS Mapping Quickstart - (Page 1/2)
+            </h1>
+
+            
+            <div class="suggestion col-sm-12 col-md-6 col-lg-4">
+    
+    <a href="/resources/workshops/workshop-4/in-person/">
+        
+        
+        
+        
+        <img src=/resources/workshops/workshop-4/in-person/cover.png alt="Course materials" loading="lazy">
+    </a>
+    
+
+    <div class="content">
+        <h2><a href="/resources/workshops/workshop-4/in-person/">Course materials</a></h2>
+
+        <div class="date-time">
+            <span class="date">
+    Jul 24, 2024
+</span>
+            &centerdot;
+            <span class="authors">
+            
+        </span>
+            <span class="time-to-read">
+    1 min read</span>
+
+        </div>
+
+        <p class="summary">
+            <a href="/resources/workshops/workshop-4/in-person/">
+                
+                    Start here.
+                
+            </a>
+        </p>
+
+        <div class="tags">
+            
+        </div>
+    </div>
+</div>
+            
+            <div class="suggestion col-sm-12 col-md-6 col-lg-4">
+    
+    <a href="/resources/workshops/workshop-4/registration/">
+        
+        
+        
+        
+        <img src=/resources/workshops/workshop-4/registration/cover.png alt="Registration" loading="lazy">
+    </a>
+    
+
+    <div class="content">
+        <h2><a href="/resources/workshops/workshop-4/registration/">Registration</a></h2>
+
+        <div class="date-time">
+            <span class="date">
+    Jul 23, 2024
+</span>
+            &centerdot;
+            <span class="authors">
+            
+        </span>
+            <span class="time-to-read">
+    3 mins read</span>
+
+        </div>
+
+        <p class="summary">
+            <a href="/resources/workshops/workshop-4/registration/">
+                
+                    What you will need for this workshop.
+                
+            </a>
+        </p>
+
+        <div class="tags">
+            
+            <a href="/tags/census"><span class="tag bg-dark">census</span></a>
+            
+            <a href="/tags/felt"><span class="tag bg-dark">felt</span></a>
+            
+        </div>
+    </div>
+</div>
+            
+            <div class="suggestion col-sm-12 col-md-6 col-lg-4">
+    
+    <a href="/resources/workshops/workshop-4/what-are-we-mapping/">
+        
+        
+        
+        
+        <img src=/resources/workshops/workshop-4/what-are-we-mapping/cover.png alt="What are we mapping?" loading="lazy">
+    </a>
+    
+
+    <div class="content">
+        <h2><a href="/resources/workshops/workshop-4/what-are-we-mapping/">What are we mapping?</a></h2>
+
+        <div class="date-time">
+            <span class="date">
+    Jul 22, 2024
+</span>
+            &centerdot;
+            <span class="authors">
+            
+        </span>
+            <span class="time-to-read">
+    3 mins read</span>
+
+        </div>
+
+        <p class="summary">
+            <a href="/resources/workshops/workshop-4/what-are-we-mapping/">
+                
+                    Background on the project
+                
+            </a>
+        </p>
+
+        <div class="tags">
+            
+        </div>
+    </div>
+</div>
+            
+            <div class="suggestion col-sm-12 col-md-6 col-lg-4">
+    
+    <a href="/resources/workshops/workshop-4/poverty-rate/">
+        
+        
+        
+        
+        <img src=/resources/workshops/workshop-4/poverty-rate/cover.png alt="How to download poverty rate data by census tract for GIS" loading="lazy">
+    </a>
+    
+
+    <div class="content">
+        <h2><a href="/resources/workshops/workshop-4/poverty-rate/">How to download poverty rate data by census tract for GIS</a></h2>
+
+        <div class="date-time">
+            <span class="date">
+    Jul 21, 2024
+</span>
+            &centerdot;
+            <span class="authors">
+            
+        </span>
+            <span class="time-to-read">
+    6 mins read</span>
+
+        </div>
+
+        <p class="summary">
+            <a href="/resources/workshops/workshop-4/poverty-rate/">
+                
+                    We will download poverty rate data for the United States and filter it to New York City for use with GIS mapping.
+                
+            </a>
+        </p>
+
+        <div class="tags">
+            
+            <a href="/tags/census"><span class="tag bg-dark">census</span></a>
+            
+            <a href="/tags/felt"><span class="tag bg-dark">felt</span></a>
+            
+        </div>
+    </div>
+</div>
+            
+            <div class="suggestion col-sm-12 col-md-6 col-lg-4">
+    
+    <a href="/resources/workshops/workshop-4/non-white-population/">
+        
+        
+        
+        
+        <img src=/resources/workshops/workshop-4/non-white-population/cover.png alt="How to download percent non-white population data by census tract for GIS" loading="lazy">
+    </a>
+    
+
+    <div class="content">
+        <h2><a href="/resources/workshops/workshop-4/non-white-population/">How to download percent non-white population data by census tract for GIS</a></h2>
+
+        <div class="date-time">
+            <span class="date">
+    Jul 20, 2024
+</span>
+            &centerdot;
+            <span class="authors">
+            
+        </span>
+            <span class="time-to-read">
+    6 mins read</span>
+
+        </div>
+
+        <p class="summary">
+            <a href="/resources/workshops/workshop-4/non-white-population/">
+                
+                    We will download non-white population data for the United States and filter it to New York City for use with GIS mapping.
+                
+            </a>
+        </p>
+
+        <div class="tags">
+            
+            <a href="/tags/census"><span class="tag bg-dark">census</span></a>
+            
+            <a href="/tags/felt"><span class="tag bg-dark">felt</span></a>
+            
+        </div>
+    </div>
+</div>
+            
+            <div class="suggestion col-sm-12 col-md-6 col-lg-4">
+    
+    <a href="/resources/workshops/workshop-4/upload-census-to-felt/">
+        
+        
+        
+        
+        <img src=/resources/workshops/workshop-4/upload-census-to-felt/cover.png alt="Upload census data to Felt" loading="lazy">
+    </a>
+    
+
+    <div class="content">
+        <h2><a href="/resources/workshops/workshop-4/upload-census-to-felt/">Upload census data to Felt</a></h2>
+
+        <div class="date-time">
+            <span class="date">
+    Jul 19, 2024
+</span>
+            &centerdot;
+            <span class="authors">
+            
+        </span>
+            <span class="time-to-read">
+    6 mins read</span>
+
+        </div>
+
+        <p class="summary">
+            <a href="/resources/workshops/workshop-4/upload-census-to-felt/">
+                
+                    How to upload a spreadsheet of census demographic data with a census FIPS code to mapping platform, Felt.
+                
+            </a>
+        </p>
+
+        <div class="tags">
+            
+            <a href="/tags/census"><span class="tag bg-dark">census</span></a>
+            
+            <a href="/tags/felt"><span class="tag bg-dark">felt</span></a>
+            
+        </div>
+    </div>
+</div>
+            
+            <div class="suggestion col-sm-12 col-md-6 col-lg-4">
+    
+    <a href="/resources/workshops/workshop-4/working-with-locations/">
+        
+        
+        
+        
+        <img src=/resources/workshops/workshop-4/working-with-locations/cover.png alt="Understanding location data" loading="lazy">
+    </a>
+    
+
+    <div class="content">
+        <h2><a href="/resources/workshops/workshop-4/working-with-locations/">Understanding location data</a></h2>
+
+        <div class="date-time">
+            <span class="date">
+    Jul 19, 2024
+</span>
+            &centerdot;
+            <span class="authors">
+            
+        </span>
+            <span class="time-to-read">
+    10 mins read</span>
+
+        </div>
+
+        <p class="summary">
+            <a href="/resources/workshops/workshop-4/working-with-locations/">
+                
+                    Understanding how geospatial (GIS) data is structured
+                
+            </a>
+        </p>
+
+        <div class="tags">
+            
+            <a href="/tags/felt"><span class="tag bg-dark">felt</span></a>
+            
+            <a href="/tags/file-formats"><span class="tag bg-dark">file-formats</span></a>
+            
+        </div>
+    </div>
+</div>
+            
+            <div class="suggestion col-sm-12 col-md-6 col-lg-4">
+    
+    <a href="/resources/workshops/workshop-4/spatial-analysis/">
+        
+        
+        
+        
+        <img src=/resources/workshops/workshop-4/spatial-analysis/cover.png alt="Spatial analysis in Felt" loading="lazy">
+    </a>
+    
+
+    <div class="content">
+        <h2><a href="/resources/workshops/workshop-4/spatial-analysis/">Spatial analysis in Felt</a></h2>
+
+        <div class="date-time">
+            <span class="date">
+    Jul 18, 2024
+</span>
+            &centerdot;
+            <span class="authors">
+            
+        </span>
+            <span class="time-to-read">
+    2 mins read</span>
+
+        </div>
+
+        <p class="summary">
+            <a href="/resources/workshops/workshop-4/spatial-analysis/">
+                
+                    Create .5 mile distance buffers around sample MTA subway stop data in NYC. Visualize the results in a Felt web map. Consider other potential browser-based spatial analysis tools.
+                
+            </a>
+        </p>
+
+        <div class="tags">
+            
+            <a href="/tags/felt"><span class="tag bg-dark">felt</span></a>
+            
+            <a href="/tags/spatial-analysis"><span class="tag bg-dark">spatial-analysis</span></a>
+            
+        </div>
+    </div>
+</div>
+            
+            <div class="suggestion col-sm-12 col-md-6 col-lg-4">
+    
+    <a href="/resources/workshops/workshop-4/archival-maps/">
+        
+        
+        
+        
+        <img src=/resources/workshops/workshop-4/archival-maps/cover.png alt="Adding historic maps to a Felt map" loading="lazy">
+    </a>
+    
+
+    <div class="content">
+        <h2><a href="/resources/workshops/workshop-4/archival-maps/">Adding historic maps to a Felt map</a></h2>
+
+        <div class="date-time">
+            <span class="date">
+    Jul 17, 2024
+</span>
+            &centerdot;
+            <span class="authors">
+            
+        </span>
+            <span class="time-to-read">
+    8 mins read</span>
+
+        </div>
+
+        <p class="summary">
+            <a href="/resources/workshops/workshop-4/archival-maps/">
+                
+                    Adding a historic map from the Harvard Map Collection to a web map in Felt
+                
+            </a>
+        </p>
+
+        <div class="tags">
+            
+            <a href="/tags/georeferencing"><span class="tag bg-dark">georeferencing</span></a>
+            
+            <a href="/tags/vectorization"><span class="tag bg-dark">vectorization</span></a>
+            
+            <a href="/tags/felt"><span class="tag bg-dark">felt</span></a>
+            
+        </div>
+    </div>
+</div>
+            
+
+            <div class="text-center">
+    <ul class="pagination pagination-default">
+      <li class="page-item disabled">
+        <a aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
+      </li>
+      <li class="page-item disabled">
+        <a aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
+      </li>
+      <li class="page-item active">
+        <a aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
+      </li>
+      <li class="page-item">
+        <a href="/resources/workshops/workshop-4/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
+      </li>
+      <li class="page-item">
+        <a href="/resources/workshops/workshop-4/page/2/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/resources/workshops/workshop-4/page/2/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      </li>
+    </ul></div>
+        </div>
+    </div>
+</main>
+
+
+</body>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-55D9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+</html>

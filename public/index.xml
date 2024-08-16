@@ -13,49 +13,7 @@
       <link>http://localhost:1313/resources/finding-data/checklist/</link>
       <pubDate>Fri, 16 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/resources/finding-data/checklist/</guid>
-      <description>This checklist was designed by GIS Librarians Belle Lipton and Scott Walker (Harvard University), Tara Anthony (Penn State), Jessica Benner (Carnegie Mellon), John Clark (Lafayette College), Meagan Duever (Georgia State), Todd Quinn (University of New Mexico), Chris Thiry (Colorado School of Mines), and Amy Work (UC San Diego).&#xA;How to use the checklist Please find a checklist template, useful for connecting with GIS research librarians. Tell us what you have tried, and where you are getting stuck.</description>
-    </item>
-    <item>
-      <title>Group 1 [Spatial Resolution]</title>
-      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-1/</link>
-      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-1/</guid>
-      <description>Cali schools city, state, etc County e x a m p l e How 2 clip Census hierarchies Spatial scale of raster data e.g. Off-gassing from oil and gas wells can be measured with general formulas that estimate particulates over a certain distance. However, the data is often very rough. For example, in Weld County CO, there are about 10,000 wells. Some might say the entire county is a toxic waste dump, but in reality, the impact is only within 100 feet of each well, which is about 1% of the county.</description>
-    </item>
-    <item>
-      <title>In-class Activity</title>
-      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-2/</link>
-      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-2/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>In-class Activity</title>
-      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-3/</link>
-      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-3/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>In-class Activity</title>
-      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-4/</link>
-      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-4/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>In-class Activity</title>
-      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-5/</link>
-      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-5/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>In-class Activity</title>
-      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-6/</link>
-      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-6/</guid>
-      <description></description>
+      <description>This checklist was designed by GIS Librarians Belle Lipton and Scott Walker (Harvard University), Tara Anthony (Penn State), Jessica Benner (Carnegie Mellon), John Clark (Lafayette College), Meagan Duever (Georgia State), Todd Quinn (University of New Mexico), Chris Thiry (Colorado School of Mines), and Amy Work (UC San Diego).&#xA;How to use the checklist Please use this checklist template tp provide GIS reference staff with information about what you have already tried in your GIS data search, and where you are getting stuck.</description>
     </item>
     <item>
       <title>Welcome</title>
@@ -72,11 +30,53 @@
       <description>A remembered yet unknown Institute of Geographical Exploration at Harvard (1930-1951) This dataset and story open the past of Harvard University’s Institute of Geographical Exploration (HUIGE, 1930-1951). The HUIGE was a building, a branch of Harvard’s defunct Geography department, a home to many students, and still a mystery to this day.&#xA;The scope of this project is simple: making a guide to as many repositories of HUIGE-related artifacts across Harvard’s campus and other institutions across Massachusetts.</description>
     </item>
     <item>
+      <title>Group 1 [Spatial Resolution]</title>
+      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-1/</link>
+      <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-1/</guid>
+      <description>Cali schools city, state, etc County e x a m p l e How 2 clip Census hierarchies Spatial scale of raster data e.g. Off-gassing from oil and gas wells can be measured with general formulas that estimate particulates over a certain distance. However, the data is often very rough. For example, in Weld County CO, there are about 10,000 wells. Some might say the entire county is a toxic waste dump, but in reality, the impact is only within 100 feet of each well, which is about 1% of the county.</description>
+    </item>
+    <item>
       <title>Welcome and discovery map</title>
       <link>http://localhost:1313/projects/huige/project-welcome/</link>
       <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/huige/project-welcome/</guid>
       <description>Included in this collection are supplementary materials related to Ana Luiza Nicolae&amp;rsquo;s 2024 Pforzheimer fellowship with the Harvard Map Collection.&#xA;To get started, you can read the article , or check out the discovery map .</description>
+    </item>
+    <item>
+      <title>Group 2 [Portals]</title>
+      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-2/</link>
+      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-2/</guid>
+      <description> example w DC food deserts Grocery store locations Healthy corner stores Farmer&amp;amp;rsquo;s markets </description>
+    </item>
+    <item>
+      <title>Group 3 [Joining Spreadsheets]</title>
+      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-3/</link>
+      <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Group 4 [Georeferencing]</title>
+      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-4/</link>
+      <pubDate>Sun, 11 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Group 5 [OpenStreetMaps]</title>
+      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-5/</link>
+      <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Group 6 [Creating Coordinates]</title>
+      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-6/</link>
+      <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-6/</guid>
+      <description>Georeferencing Making spreadsheet with coordinates What is a CSV Make headers w lat, lon Upload it somewhere to visualize e.g. cotton seed crushing mills in the south using late 19th century business directories Right-clicking Google Maps to get coordinates Creating vector data with Google MyMaps, geojson.io, or desktop software (QGIS, ArcGIS Pro) Drawing KML </description>
     </item>
     <item>
       <title>Collection for Historical Scientific Instruments [Science Center]</title>
@@ -252,62 +252,6 @@
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/off-the-beaten-path/</guid>
       <description>Introduction When I first arrived in Boston three years ago, only a few weeks away from starting college in the heart of Cambridge, I wanted to take in as much of the city as I could. Armed with a TripAdvisor list of &amp;ldquo;The 10 Best Things to Do in Boston&amp;rdquo; and a confusing MBTA map I found at the airport, I set off to the city&amp;rsquo;s tourists hotspots, historical landmarks, and buzzing restaurants.</description>
-    </item>
-    <item>
-      <title>1. Search tips</title>
-      <link>http://localhost:1313/resources/finding-data/archive/optimizing-search/search-tips/</link>
-      <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/archive/optimizing-search/search-tips/</guid>
-      <description> ↵ Back to Optimizing Search Home ↵ Back to Finding Data Home </description>
-    </item>
-    <item>
-      <title>1. Working with spreadsheets</title>
-      <link>http://localhost:1313/resources/finding-data/archive/getting-creative/working-with-spreadsheets/</link>
-      <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/archive/getting-creative/working-with-spreadsheets/</guid>
-      <description>↵ Back to Getting Creative Home ↵ Back to Finding Data Home So you have a spreadsheet?&#xA;Importing coordinates Spreadsheets with coordinates can be imported to GIS software as points While this page is under construction, check out our importing coordinates from a table . Geocoding addresses to get coordinates Spreadsheets with addresses can be geocoded to create coordinates, which you can then import to GIS software as points While this page is under construction, check out this library guide on geocoding .</description>
-    </item>
-    <item>
-      <title>2. Creating your own GIS data</title>
-      <link>http://localhost:1313/resources/finding-data/archive/getting-creative/creating-data/</link>
-      <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/archive/getting-creative/creating-data/</guid>
-      <description> ↵ Back to Getting Creative Home ↵ Back to Finding Data Home Georeferencing Making spreadsheet with coordinates What is a CSV Make headers w lat, lon Upload it somewhere to visualize e.g. cotton seed crushing mills in the south using late 19th century business directories Right-clicking Google Maps to get coordinates Creating vector data with Google MyMaps, geojson.io, or desktop software (QGIS, ArcGIS Pro) Drawing KML </description>
-    </item>
-    <item>
-      <title>2. Portals</title>
-      <link>http://localhost:1313/resources/finding-data/archive/optimizing-search/portals/</link>
-      <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/archive/optimizing-search/portals/</guid>
-      <description> ↵ Back to Optimizing Search Home ↵ Back to Finding Data Home example w DC food deserts Grocery store locations Healthy corner stores Farmer&amp;amp;rsquo;s markets </description>
-    </item>
-    <item>
-      <title>3. Spatial resolution</title>
-      <link>http://localhost:1313/resources/finding-data/archive/optimizing-search/spatial-resolution/</link>
-      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/archive/optimizing-search/spatial-resolution/</guid>
-      <description>↵ Back to Optimizing Search Home ↵ Back to Finding Data Home Cali schools city, state, etc&#xA;County e x a m p l e&#xA;How 2 clip&#xA;Census hierarchies&#xA;Spatial scale of raster data&#xA;e.g. Off-gassing from oil and gas wells can be measured with general formulas that estimate particulates over a certain distance. However, the data is often very rough. For example, in Weld County CO, there are about 10,000 wells.</description>
-    </item>
-    <item>
-      <title>3. Using crowd-sourced databases</title>
-      <link>http://localhost:1313/resources/finding-data/archive/getting-creative/crowd-sourcing/</link>
-      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/archive/getting-creative/crowd-sourcing/</guid>
-      <description> ↵ Back to Getting Creative Home ↵ Back to Finding Data Home OSM example India restaurants geographies e x a m p l e Wiki Political geographies / maps to georeference e x a m p l e 1 map in library e x a m p l e 2 rendered map Difficult to find coordinate data e x a m p l e Adriatic? Links to datasets in sources e x a m p l e GeoNames Mapping Color example </description>
-    </item>
-    <item>
-      <title>4. Temporal resolution</title>
-      <link>http://localhost:1313/resources/finding-data/archive/optimizing-search/temporal-resolution/</link>
-      <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/archive/optimizing-search/temporal-resolution/</guid>
-      <description>↵ Back to Optimizing Search Home ↵ Back to Finding Data Home Realistic expections &amp;ndash; some useful data isn&amp;rsquo;t updated often - national wetlands example 1996</description>
-    </item>
-    <item>
-      <title>5. Breadcrumb approach</title>
-      <link>http://localhost:1313/resources/finding-data/archive/optimizing-search/breadcrumbs/</link>
-      <pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/archive/optimizing-search/breadcrumbs/</guid>
-      <description> ↵ Back to Optimizing Search Home ↵ Back to Finding Data Home Social Explorer and Policy Map blogs How to use these tools Provide teaching tips Modules Why is the dataset important Breadcrumbs BLS data &amp;ndash; discovery on PolicyMap, follow back to source Monographs &amp;ndash; monographs have maps may have to georeference lot of other info in the monograph, notes, OCLC, ILL, get it and look at the maps </description>
     </item>
     <item>
       <title>Re-Wilding Harvard, Spring 2024</title>

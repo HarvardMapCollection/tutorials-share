@@ -10,7 +10,7 @@ description: Skimmable list of the approaches in this guidebook for finding GIS 
 
 ## How to use the checklist
 
-Please find a checklist template, useful for connecting with GIS research librarians. Tell us what you have tried, and where you are getting stuck. 
+Please use this checklist template tp provide GIS reference staff with information about what you have already tried in your GIS data search, and where you are getting stuck. 
 
 ## Checklist
 
@@ -35,7 +35,7 @@ Please find a checklist template, useful for connecting with GIS research librar
  - [Georeferencing historical maps](https://mapping.share.library.harvard.edu/tutorials/georeferencing/qgis/) and using them to [create digital vector data](https://mapping.share.library.harvard.edu/tutorials/qgis/adler/)
 
  - Creating a table with columns for X, and Y coordinates
-
+ 
 [ ] Checking crowdsourced databases, such as:
  
  - OpenStreetMap, extracting by [common layer types](https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbylayer/) or [specific features](https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbyfeature/)

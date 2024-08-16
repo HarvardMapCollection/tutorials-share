@@ -5,6 +5,6 @@ date: 2024-08-14
 image: cover.png
 ---
 
-Included in this collection are supplementary materials related to Ana Luiza Nicolae's 2024 Pforzheimer fellowship with the Harvard Map Collection. 
+Included in this collection are supplementary materials related to Ana Luiza Nicolae's 2024 [Pforzheimer fellowship](https://library.harvard.edu/grants-fellowships/pforzheimer-fellowships) with the Harvard Map Collection. 
 
 To get started, you can [read the article](https://mapping.share.library.harvard.edu/posts/nicolae), or check out the [discovery map](https://mapping.share.library.harvard.edu/huige/). 

@@ -3,6 +3,7 @@ title: — List of small oblique photos
 description: These call numbers can be used to access the digital records of these pictures through Waywiser, CHSI’s archive user platform.
 date: 2024-08-07
 image: cover.png
+authors: ["Ana Luiza Nicolae"]
 ---
 
 These call numbers can be used to access the digital records of these pictures through Waywiser, CHSI’s archive user platform.

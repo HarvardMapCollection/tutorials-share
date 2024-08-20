@@ -2,129 +2,129 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on GIS, maps &#43; data @ Harvard Library</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://mapping.share.library.harvard.edu/tags/</link>
     <description>Recent content in Tags on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 14 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mapping.share.library.harvard.edu/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>News</title>
-      <link>http://localhost:1313/tags/news/</link>
+      <link>https://mapping.share.library.harvard.edu/tags/news/</link>
       <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/news/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tags/news/</guid>
       <description></description>
     </item>
     <item>
       <title>Qgis</title>
-      <link>http://localhost:1313/tags/qgis/</link>
+      <link>https://mapping.share.library.harvard.edu/tags/qgis/</link>
       <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/qgis/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tags/qgis/</guid>
       <description></description>
     </item>
     <item>
       <title>Spatial-Analysis</title>
-      <link>http://localhost:1313/tags/spatial-analysis/</link>
+      <link>https://mapping.share.library.harvard.edu/tags/spatial-analysis/</link>
       <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/spatial-analysis/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tags/spatial-analysis/</guid>
       <description></description>
     </item>
     <item>
       <title>Vectorization</title>
-      <link>http://localhost:1313/tags/vectorization/</link>
+      <link>https://mapping.share.library.harvard.edu/tags/vectorization/</link>
       <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/vectorization/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tags/vectorization/</guid>
       <description></description>
     </item>
     <item>
       <title>Census</title>
-      <link>http://localhost:1313/tags/census/</link>
+      <link>https://mapping.share.library.harvard.edu/tags/census/</link>
       <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/census/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tags/census/</guid>
       <description></description>
     </item>
     <item>
       <title>Felt</title>
-      <link>http://localhost:1313/tags/felt/</link>
+      <link>https://mapping.share.library.harvard.edu/tags/felt/</link>
       <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/felt/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tags/felt/</guid>
       <description></description>
     </item>
     <item>
       <title>File-Formats</title>
-      <link>http://localhost:1313/tags/file-formats/</link>
+      <link>https://mapping.share.library.harvard.edu/tags/file-formats/</link>
       <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/file-formats/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tags/file-formats/</guid>
       <description></description>
     </item>
     <item>
       <title>Georeferencing</title>
-      <link>http://localhost:1313/tags/georeferencing/</link>
+      <link>https://mapping.share.library.harvard.edu/tags/georeferencing/</link>
       <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/georeferencing/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tags/georeferencing/</guid>
       <description></description>
     </item>
     <item>
       <title>Class</title>
-      <link>http://localhost:1313/tags/class/</link>
+      <link>https://mapping.share.library.harvard.edu/tags/class/</link>
       <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/class/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tags/class/</guid>
       <description></description>
     </item>
     <item>
       <title>Test-Template</title>
-      <link>http://localhost:1313/tags/test-template/</link>
+      <link>https://mapping.share.library.harvard.edu/tags/test-template/</link>
       <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/test-template/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tags/test-template/</guid>
       <description></description>
     </item>
     <item>
       <title>Research</title>
-      <link>http://localhost:1313/tags/research/</link>
+      <link>https://mapping.share.library.harvard.edu/tags/research/</link>
       <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/research/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tags/research/</guid>
       <description></description>
     </item>
     <item>
       <title>Resources</title>
-      <link>http://localhost:1313/tags/resources/</link>
+      <link>https://mapping.share.library.harvard.edu/tags/resources/</link>
       <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/resources/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tags/resources/</guid>
       <description></description>
     </item>
     <item>
       <title>ArcGIS</title>
-      <link>http://localhost:1313/tags/arcgis/</link>
+      <link>https://mapping.share.library.harvard.edu/tags/arcgis/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/arcgis/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tags/arcgis/</guid>
       <description></description>
     </item>
     <item>
       <title>Tutorials</title>
-      <link>http://localhost:1313/tags/tutorials/</link>
+      <link>https://mapping.share.library.harvard.edu/tags/tutorials/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tutorials/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tags/tutorials/</guid>
       <description></description>
     </item>
     <item>
       <title>Allmaps</title>
-      <link>http://localhost:1313/tags/allmaps/</link>
+      <link>https://mapping.share.library.harvard.edu/tags/allmaps/</link>
       <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/allmaps/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tags/allmaps/</guid>
       <description></description>
     </item>
     <item>
       <title>OpenStreetMap</title>
-      <link>http://localhost:1313/tags/openstreetmap/</link>
+      <link>https://mapping.share.library.harvard.edu/tags/openstreetmap/</link>
       <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/openstreetmap/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tags/openstreetmap/</guid>
       <description></description>
     </item>
     <item>
       <title>Arcgis-Pro</title>
-      <link>http://localhost:1313/tags/arcgis-pro/</link>
+      <link>https://mapping.share.library.harvard.edu/tags/arcgis-pro/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/arcgis-pro/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tags/arcgis-pro/</guid>
       <description></description>
     </item>
   </channel>

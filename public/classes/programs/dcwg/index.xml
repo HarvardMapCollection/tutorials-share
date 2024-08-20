@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Digital Collections Working Group on GIS, maps &#43; data @ Harvard Library</title>
-    <link>http://localhost:1313/classes/programs/dcwg/</link>
+    <link>https://mapping.share.library.harvard.edu/classes/programs/dcwg/</link>
     <description>Recent content in Digital Collections Working Group on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 05 Jun 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/classes/programs/dcwg/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mapping.share.library.harvard.edu/classes/programs/dcwg/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Supporting creative uses of our collections</title>
-      <link>http://localhost:1313/classes/programs/dcwg/summer-2023/</link>
+      <link>https://mapping.share.library.harvard.edu/classes/programs/dcwg/summer-2023/</link>
       <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/classes/programs/dcwg/summer-2023/</guid>
+      <guid>https://mapping.share.library.harvard.edu/classes/programs/dcwg/summer-2023/</guid>
       <description>Credit: Joan Brunetta and Eve Loftus.&#xA;Map of the city of Cambridge for 1865, Harvard Map Collection. Mapping Inequality, University of Richmond How does it work? Current set up Harvard Geospatial Library Why not GeoTIFF? Time consuming for researchers and library staff Hard to use, outdated format Completely different app - bad for discovery Incompatible with tools our students are using Credit: John Nelson&amp;rsquo;s Mapping Mount Everest Credit: Andria Olson&amp;rsquo;s Mapping the First Transcontinental Railroad IIIF Georeference Extension specification Picture of the IIIF conference hosted at Harvard in 2022 from the British Library Digital Scholarship blog .</description>
     </item>
   </channel>

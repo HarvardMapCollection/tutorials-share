@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>File-Formats on GIS, maps &#43; data @ Harvard Library</title>
-    <link>http://localhost:1313/tags/file-formats/</link>
+    <link>https://mapping.share.library.harvard.edu/tags/file-formats/</link>
     <description>Recent content in File-Formats on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 19 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/file-formats/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mapping.share.library.harvard.edu/tags/file-formats/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Understanding location data</title>
-      <link>http://localhost:1313/resources/workshops/workshop-4/working-with-locations/</link>
+      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/working-with-locations/</link>
       <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop-4/working-with-locations/</guid>
+      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/working-with-locations/</guid>
       <description>In this tutorial, which is part of the GIS Mapping Quickstart series, we will:&#xA;Work with point or coordinate data saved in spatial data format (.geoJSON) Work with point or coordinate data saved in non-spatial data format (.XLSX or .CSV) Solidify our understanding of how vector GIS data is structured Working with geoJSONs If you haven&amp;rsquo;t already, download the files from Libby_Wu_Source_Project_Data . This data is already in geospatial format, .</description>
     </item>
     <item>
       <title>Exporting Geospatial Data from Felt</title>
-      <link>http://localhost:1313/resources/workshops/workshop-4/exporting-data/</link>
+      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/exporting-data/</link>
       <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop-4/exporting-data/</guid>
+      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/exporting-data/</guid>
       <description>If you have created data in Felt, either by manually drawing features, or by uploading a spreadsheet and converting the spreadsheet data to features using geocoding or joins, you may be wondering how to share the geospatial data you have created. What formats should you use to make sure the data you&amp;rsquo;ve created will work in other GIS software?&#xA;Luckily, Felt allows you to export data in geopackage format .gpkg, which is an open format for encoding point, line, or polygon data.</description>
     </item>
     <item>
       <title>Add a spreadsheet .XLSX or .CSV to a QGIS Project</title>
-      <link>http://localhost:1313/tutorials/qgis/add-spreadsheet/</link>
+      <link>https://mapping.share.library.harvard.edu/tutorials/qgis/add-spreadsheet/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/qgis/add-spreadsheet/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tutorials/qgis/add-spreadsheet/</guid>
       <description>This tutorial will cover how to add tabular data to a QGIS project.&#xA;If your spreadsheet is saved in .XLSX format, export it as a .CSV before bringing it into QGIS. QGIS will not be able to read .XLSX. To ensure interoperability, it&#39;s best to err on the side of encoding data in open data formats, such as .csv, .geoJSON or geopackage. Once you have spreadsheet data saved in .CSV format, open QGIS .</description>
     </item>
     <item>
       <title>1. Introduction to GIS</title>
-      <link>http://localhost:1313/resources/workshops/workshop/introduction/</link>
+      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop/introduction/</link>
       <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop/introduction/</guid>
+      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop/introduction/</guid>
       <description>About this workshop This course is for those wishing to develop a strong foundational understanding of how GIS works. After completing this course, you will be well-positioned to begin GIS projects of your own.&#xA;The step-by-step materials here can be followed along asynchronously . The in-person version (register ) covers the same materials, but with live demonstrations and hands-on support from the instructor. We can schedule additional workshop sessions on demand, as well as in-class workshops.</description>
     </item>
   </channel>

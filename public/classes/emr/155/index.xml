@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>155 - &#34;A Place Called Home&#34; - Histories of Spatial Discrimination and Ethnic Migration in the United States on GIS, maps &#43; data @ Harvard Library</title>
-    <link>http://localhost:1313/classes/emr/155/</link>
+    <link>https://mapping.share.library.harvard.edu/classes/emr/155/</link>
     <description>Recent content in 155 - &#34;A Place Called Home&#34; - Histories of Spatial Discrimination and Ethnic Migration in the United States on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 19 Dec 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/classes/emr/155/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mapping.share.library.harvard.edu/classes/emr/155/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fall 2022 Harvard Map Collection</title>
-      <link>http://localhost:1313/classes/emr/155/fall-2022/</link>
+      <link>https://mapping.share.library.harvard.edu/classes/emr/155/fall-2022/</link>
       <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/classes/emr/155/fall-2022/</guid>
+      <guid>https://mapping.share.library.harvard.edu/classes/emr/155/fall-2022/</guid>
       <description>GIS definitions.&#xA;John Snow cholera map, 1854.&#xA;John Snow cholera map, overlaid by a modern-day GIS heatmap layer.&#xA;Map of Boston from 1743 .&#xA;GIS heatmap of density of restaurants in Boston.&#xA;Analyze Boston , Boston&amp;rsquo;s open data portal.&#xA;Vision Zero dataset, open as a table.&#xA;Bike crash data displayed visually as individual points in GIS software.&#xA;OldNYC: Mapping Historic Photographs at the NYPL .&#xA;GIS data layers diagram.</description>
     </item>
   </channel>

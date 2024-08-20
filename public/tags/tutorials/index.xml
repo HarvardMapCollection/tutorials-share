@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tutorials on GIS, maps &#43; data @ Harvard Library</title>
-    <link>http://localhost:1313/tags/tutorials/</link>
+    <link>https://mapping.share.library.harvard.edu/tags/tutorials/</link>
     <description>Recent content in Tutorials on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mapping.share.library.harvard.edu/tags/tutorials/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Where and How to Get ArcGIS Pro at Harvard</title>
-      <link>http://localhost:1313/tutorials/arcgis-online/arcgis-pro/</link>
+      <link>https://mapping.share.library.harvard.edu/tutorials/arcgis-online/arcgis-pro/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/arcgis-online/arcgis-pro/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tutorials/arcgis-online/arcgis-pro/</guid>
       <description>On your own computer If you have a PC and a Harvard Key, you can download and install ArcGIS Pro on your own computer using these instructions from the Harvard Center for Geographic Analysis (CGA).&#xA;If you do not have a PC, consider using the open-source equivalent GIS desktop software, QGIS, which is OS-independent.&#xA;QGIS download instructions QGIS is available on all of the workstations in Lamont 310 (directions ). Do I Need ArcGIS Pro?</description>
     </item>
     <item>
       <title>Georeference in QGIS</title>
-      <link>http://localhost:1313/tutorials/georeferencing/qgis/</link>
+      <link>https://mapping.share.library.harvard.edu/tutorials/georeferencing/qgis/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/georeferencing/qgis/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tutorials/georeferencing/qgis/</guid>
       <description>Download QGIS , if you haven&amp;rsquo;t already.&#xA;Add a basemap Browser → XYZ Tiles → Open Street Map.&#xA;Set the project coordinate reference system to WGS 84. At all times in the bottom right of the QGIS document, EPSG should read 4326.&#xA;Optional context on coordinate reference systems Every dataset and every QGIS project each has a coordinate reference system (CRS). Coordinate reference systems allow the GIS software to know where on the world to place the dataset, how to line it up spatially.</description>
     </item>
     <item>
       <title>Uploading georeferenced maps to ArcGIS Online</title>
-      <link>http://localhost:1313/tutorials/arcgis-online/arcgis-imagery/</link>
+      <link>https://mapping.share.library.harvard.edu/tutorials/arcgis-online/arcgis-imagery/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/arcgis-online/arcgis-imagery/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tutorials/arcgis-online/arcgis-imagery/</guid>
       <description>Do you want to be able to use a historic map for comparison in one of your ArcGIS Online projects, such as StoryMaps or ArcGIS Experience Builder ?&#xA;Georeferenced map from 1880 compared to a modern map in ArcGIS Online. There are a number of pathways or workflows for accomplishing this. Which one you pick will depend on a. the format your map data is in and b. the software environment you prefer to work in.</description>
     </item>
     <item>
       <title>Download QGIS software</title>
-      <link>http://localhost:1313/tutorials/census-data-primer/download-software/</link>
+      <link>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-software/</link>
       <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/census-data-primer/download-software/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-software/</guid>
       <description>Desktop GIS software is helpful when trying to make sense of census data. We will use free, open-source QGIS.&#xA;How to Download QGIS QGIS is a free and open source desktop GIS software used to create, edit, visualize, analyze, and publish geospatial information on Windows, Mac, Linux, BSD and mobile devices.&#xA;How to Download Visit QGIS.org .&#xA;Select Download Now.&#xA;Select your desired platform.&#xA;Tips If you have the option between many installer packages, choose Standalone Long Term Release To learn your way around the QGIS interface, you can check out these resources: Understanding the QGIS Interface QGIS Documentation Warning If you get an error message that Apple can&amp;rsquo;t check the app for malicious software, instead of double-clicking the icon to open the program, instead try right-clicking, and select Open.</description>
     </item>
     <item>
       <title>Extract OpenStreetMap features</title>
-      <link>http://localhost:1313/tutorials/openstreetmap/extractbyfeature/</link>
+      <link>https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbyfeature/</link>
       <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/openstreetmap/extractbyfeature/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbyfeature/</guid>
       <description>In the previous OpenStreetMap (OSM) tutorial , we learned how to extract a standard set of map features from OpenStreetMap including waterways, buildings, general points of interest, and roads.&#xA;In this tutorial, we will learn how to specify by type of feature, and extract data within a particular extent for only that type of feature.&#xA;No programming is required for this tutorial; we will use only a QGIS plugin called QuickOSM.</description>
     </item>
     <item>
       <title>Georeference library digital collections using Allmaps</title>
-      <link>http://localhost:1313/tutorials/georeferencing/allmaps/</link>
+      <link>https://mapping.share.library.harvard.edu/tutorials/georeferencing/allmaps/</link>
       <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/georeferencing/allmaps/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tutorials/georeferencing/allmaps/</guid>
       <description>Topics covered by this guide Select a map to georeference from the Harvard Libraries&amp;rsquo; digital collections Repeat the process for maps in any library digital collection Learn how to georeference with free browser tool, AllMaps How to use the georeferenced map with the rest of your project Select a map to georeference from the Harvard Libraries&amp;rsquo; digital collections Find the map you would like to work with in the Harvard Libraries Digital Collections Filter results by selecting Type: Map or Repository: Map Coll (Pusey) In the top-right corner of the image viewer, select the metadata Tooltip by clicking the i icon.</description>
     </item>
     <item>
       <title>Add a basemap in QGIS</title>
-      <link>http://localhost:1313/tutorials/qgis/add-basemap/</link>
+      <link>https://mapping.share.library.harvard.edu/tutorials/qgis/add-basemap/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/qgis/add-basemap/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tutorials/qgis/add-basemap/</guid>
       <description>Basemaps can be helpful reference points when working with spatial data.&#xA;How to add a basemap to your project Open a new QGIS project. In the left-hand browser menu, locate XYZ Tiles → OpenStreetMap&#xA;OpenStreetMap base tiles are built in to QGIS. Drag OpenStreetMap into the Map Canvas Zoom in to the desired location by selecting the Zoom In menu item, and clicking and dragging on the Map Canvas Tips To add other styles of basemap not included by default in the QGIS install, you can run a Google search about the latest QGIS plugins for basemaps.</description>
     </item>
     <item>
       <title>Adjust layer opacity in QGIS</title>
-      <link>http://localhost:1313/tutorials/qgis/adjust-layer-opacity/</link>
+      <link>https://mapping.share.library.harvard.edu/tutorials/qgis/adjust-layer-opacity/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/qgis/adjust-layer-opacity/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tutorials/qgis/adjust-layer-opacity/</guid>
       <description>In this tutorial you will learn how to adjust a layer&amp;rsquo;s opacity in QGIS so that you can &amp;ldquo;see underneath&amp;rdquo; or through the layer to the map data below.&#xA;In the QGIS layer list, right-click the layer you would like to adjust the opacity for.&#xA;Select Properties.&#xA;In the properties menu, select Legend. Move Opacity slider from Available widgets to Used widgets by selecting Opacity slider and clicking the right-hand arrow Add selected widgets.</description>
     </item>
     <item>
       <title>Change QGIS coordinate reference system</title>
-      <link>http://localhost:1313/tutorials/qgis/change-crs/</link>
+      <link>https://mapping.share.library.harvard.edu/tutorials/qgis/change-crs/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/qgis/change-crs/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tutorials/qgis/change-crs/</guid>
       <description>Concepts &amp;ldquo;Map projections try to portray the surface of the earth, or a portion of the earth, on a flat piece of paper or computer screen. In layman’s term, map projections try to transform the earth from its spherical shape (3D) to a planar shape (2D).&#xA;A coordinate reference system (CRS) then defines how the two-dimensional, projected map in your GIS relates to real places on the earth. The decision of which map projection and CRS to use depends on the regional extent of the area you want to work in, on the analysis you want to do, and often on the availability of data.</description>
     </item>
     <item>
       <title>Extract OpenStreetMap Layers</title>
-      <link>http://localhost:1313/tutorials/openstreetmap/extractbylayer/</link>
+      <link>https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbylayer/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/openstreetmap/extractbylayer/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbylayer/</guid>
       <description>In this tutorial, you will learn how to extract waterways, buildings, transport, places, and land use data from OpenStreetMap.&#xA;As a GIS user, you may encounter scenarios where data about a place&amp;rsquo;s built and natural environment is challenging to find.&#xA;Depending on the administrative resources of the place you are studying, GIS data may be more or less available for that place.&#xA;OpenStreetMap (OSM) can sometimes be a solution to that problem &amp;ndash; with some important caveats.</description>
     </item>
     <item>
       <title>Georeference in ArcGIS Pro</title>
-      <link>http://localhost:1313/tutorials/georeferencing/arcgis-pro/</link>
+      <link>https://mapping.share.library.harvard.edu/tutorials/georeferencing/arcgis-pro/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/georeferencing/arcgis-pro/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tutorials/georeferencing/arcgis-pro/</guid>
       <description>Open a new map in ArcGIS Pro and select the basemap of your choice Map → Basemap → Open Street Map Set the projection by right clicking the basemap in the Contents pane and select Properties Properties → Coordinate Systems&#xA;Open the image which needs to be georeferenced Catalog → Folders → Add Folder Connection Right click on &amp;lsquo;Folders&amp;rsquo; and navigate to the folder containing the map that needs to be georeferenced.</description>
     </item>
     <item>
       <title>Perform a table join in QGIS</title>
-      <link>http://localhost:1313/tutorials/census-data-primer/perform-a-table-join/</link>
+      <link>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/perform-a-table-join/</link>
       <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/census-data-primer/perform-a-table-join/</guid>
+      <guid>https://mapping.share.library.harvard.edu/tutorials/census-data-primer/perform-a-table-join/</guid>
       <description>Need help turning your spreadsheet data into a map? In this tutorial you will learn how to join tables to GIS shapefiles to create a new, mappable dataset with both geographic boundaries and statistical or attribute information.&#xA;Why do we join? Often, spreadsheets contain useful information we want to map. GIS software, however, does not know how to translate a spreadsheet without any inherent spatial information (such as point coordinates) into a visual map.</description>
     </item>
   </channel>

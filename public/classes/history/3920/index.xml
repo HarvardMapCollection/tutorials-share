@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>3920 - Colloquium on Teaching and Professional Practices on GIS, maps &#43; data @ Harvard Library</title>
-    <link>http://localhost:1313/classes/history/3920/</link>
+    <link>https://mapping.share.library.harvard.edu/classes/history/3920/</link>
     <description>Recent content in 3920 - Colloquium on Teaching and Professional Practices on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 19 Dec 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/classes/history/3920/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mapping.share.library.harvard.edu/classes/history/3920/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spring 2023 Harvard Map Collection</title>
-      <link>http://localhost:1313/classes/history/3920/spring-2023/</link>
+      <link>https://mapping.share.library.harvard.edu/classes/history/3920/spring-2023/</link>
       <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/classes/history/3920/spring-2023/</guid>
+      <guid>https://mapping.share.library.harvard.edu/classes/history/3920/spring-2023/</guid>
       <description>OldNYC: Mapping Historic Photographs at the NYPL. 1880 census from Archive.org .&#xA;ArcGIS Map comparing 1890 atlas to today.&#xA;Belle&amp;rsquo;s house in college.&#xA;City of Boston Archives Reading Room.&#xA;19th century insurance atlas, open to a plate of downtown Boston.&#xA;Analyze Boston , Boston&amp;rsquo;s open data portal.&#xA;Vision Zero dataset, open as a table.&#xA;Bike crash data displayed visually as individual points in GIS software.&#xA;Introduction to GIS workshop in the library calendar.</description>
     </item>
   </channel>

@@ -119,6 +119,7 @@ theme = 'BlogRa'
 [module]
   [module.hugoVersion]
     extended = true
-    min = "0.102.3"
+    min = "0.132.1"
+
 
 

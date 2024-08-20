@@ -34,9 +34,9 @@
 {{ end }}
 
 <!-- Google Analytics -->
-{{ if not hugo.IsServer }}
+<!-- {{ if not hugo.IsServer }}
     {{ partial "googleAnalytics.html" . }}
-{{ end }}
+{{ end }} -->
 
 <!-- Google Tag Manager -->
 {{ if .Site.Params.gtm_id}}{{- partial "gtm.html" . }}{{ end }}

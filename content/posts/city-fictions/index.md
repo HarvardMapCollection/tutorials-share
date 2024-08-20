@@ -4,7 +4,7 @@ date: 2021-12-16
 tags: ["news"]
 image: 3.png
 authors: ["Harvard Map Collection"]
-description: We talked with data visualization specialist Jessica Cohen-Tanugi and History professor Gabe Pizzorno about different approaches to using data in your research.
+
 ---
 
 ## The project

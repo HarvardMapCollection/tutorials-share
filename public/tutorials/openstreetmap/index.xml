@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>OpenStreetMap on GIS, maps &#43; data @ Harvard Library</title>
-    <link>https://mapping.share.library.harvard.edu/tutorials/openstreetmap/</link>
+    <link>http://localhost:1313/tutorials/openstreetmap/</link>
     <description>Recent content in OpenStreetMap on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 19 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://mapping.share.library.harvard.edu/tutorials/openstreetmap/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tutorials/openstreetmap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Extract OpenStreetMap features</title>
-      <link>https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbyfeature/</link>
+      <link>http://localhost:1313/tutorials/openstreetmap/extractbyfeature/</link>
       <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbyfeature/</guid>
+      <guid>http://localhost:1313/tutorials/openstreetmap/extractbyfeature/</guid>
       <description>In the previous OpenStreetMap (OSM) tutorial , we learned how to extract a standard set of map features from OpenStreetMap including waterways, buildings, general points of interest, and roads.&#xA;In this tutorial, we will learn how to specify by type of feature, and extract data within a particular extent for only that type of feature.&#xA;No programming is required for this tutorial; we will use only a QGIS plugin called QuickOSM.</description>
     </item>
     <item>
       <title>Extract OpenStreetMap Layers</title>
-      <link>https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbylayer/</link>
+      <link>http://localhost:1313/tutorials/openstreetmap/extractbylayer/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbylayer/</guid>
+      <guid>http://localhost:1313/tutorials/openstreetmap/extractbylayer/</guid>
       <description>In this tutorial, you will learn how to extract waterways, buildings, transport, places, and land use data from OpenStreetMap.&#xA;As a GIS user, you may encounter scenarios where data about a place&amp;rsquo;s built and natural environment is challenging to find.&#xA;Depending on the administrative resources of the place you are studying, GIS data may be more or less available for that place.&#xA;OpenStreetMap (OSM) can sometimes be a solution to that problem &amp;ndash; with some important caveats.</description>
     </item>
   </channel>

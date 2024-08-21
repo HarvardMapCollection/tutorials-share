@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Intro to GIS on GIS, maps &#43; data @ Harvard Library</title>
-    <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/</link>
+    <link>http://localhost:1313/resources/workshops/workshop-2/</link>
     <description>Recent content in Intro to GIS on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/resources/workshops/workshop-2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Class materials</title>
-      <link>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/class-materials/</link>
+      <link>http://localhost:1313/resources/workshops/workshop-2/class-materials/</link>
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://mapping.share.library.harvard.edu/resources/workshops/workshop-2/class-materials/</guid>
+      <guid>http://localhost:1313/resources/workshops/workshop-2/class-materials/</guid>
       <description>Get to this page quick: https://bit.ly/3IaHnot Schedule Time Topic 0:00 - 0:20 Welcome, software and housekeeping 0:20 - 0:40 Introducing spatial data structures 0:40 - 1:00 Turning spreadsheet data into spatial data 1:00 - 1:15 Leveraging attributes to make maps 1:15 - 1:30 Wrap-up, demo, brainstorm, questions Slides Workshop slides Next steps Survey Help us design the programming you want by filling out the workshop survey.&#xA;More GIS programs Sign up for this and other GIS programs in the library calendar.</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>90LN - Harvard and Native Lands on GIS, maps &#43; data @ Harvard Library</title>
-    <link>https://mapping.share.library.harvard.edu/classes/english/90ln/</link>
+    <link>http://localhost:1313/classes/english/90ln/</link>
     <description>Recent content in 90LN - Harvard and Native Lands on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 19 Dec 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://mapping.share.library.harvard.edu/classes/english/90ln/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/classes/english/90ln/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fall 2022 Harvard Map Collection</title>
-      <link>https://mapping.share.library.harvard.edu/classes/english/90ln/fall-2022/</link>
+      <link>http://localhost:1313/classes/english/90ln/fall-2022/</link>
       <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://mapping.share.library.harvard.edu/classes/english/90ln/fall-2022/</guid>
+      <guid>http://localhost:1313/classes/english/90ln/fall-2022/</guid>
       <description>GIS definitions What is GIS used for? John Snow cholera map, 1854.&#xA;John Snow cholera map, overlaid by a modern-day GIS heatmap layer.&#xA;GIS data layers GIS data layers diagram.&#xA;OldNYC: Mapping Historic Photographs at the NYPL .&#xA;Property research with GIS Belle&amp;rsquo;s house in college.&#xA;City of Boston Archives Reading Room.&#xA;19th century insurance atlas, open to a plate of downtown Boston.&#xA;Microfilm reader.&#xA;Milwaukee probate records on mircofilm.</description>
     </item>
   </channel>

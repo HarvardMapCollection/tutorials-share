@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>How to Search for GIS Data on GIS, maps &#43; data @ Harvard Library</title>
-    <link>https://mapping.share.library.harvard.edu/resources/finding-data/</link>
+    <link>http://localhost:1313/resources/finding-data/</link>
     <description>Recent content in How to Search for GIS Data on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 16 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://mapping.share.library.harvard.edu/resources/finding-data/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/resources/finding-data/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Finding GIS Data Checklist</title>
-      <link>https://mapping.share.library.harvard.edu/resources/finding-data/checklist/</link>
+      <link>http://localhost:1313/resources/finding-data/checklist/</link>
       <pubDate>Fri, 16 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://mapping.share.library.harvard.edu/resources/finding-data/checklist/</guid>
+      <guid>http://localhost:1313/resources/finding-data/checklist/</guid>
       <description>This checklist was designed by GIS Librarians Belle Lipton and Scott Walker (Harvard University), Tara Anthony (Penn State), Jessica Benner (Carnegie Mellon), John Clark (Lafayette College), Meagan Duever (Georgia State), Todd Quinn (University of New Mexico), Chris Thiry (Colorado School of Mines), and Amy Work (UC San Diego).&#xA;How to use the checklist Please use this checklist template tp provide GIS reference staff with information about what you have already tried in your GIS data search, and where you are getting stuck.</description>
     </item>
   </channel>

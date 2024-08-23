@@ -13,7 +13,7 @@ layout: single2
 >- Is this data available in a GIS format, or is it a table with geographic information?
 >- If it is GIS data, which kind of layer is it? Point, line, or polygon? 
 
->3. In a web browser, search for "bike path Somerville gis data download".
+>3. In a web browser, search for "bike path **Somerville** gis data download".
 
 >4. Visit any relevant results. Make observations.
 >- Which file types are available for access? How would you get this into a GIS?

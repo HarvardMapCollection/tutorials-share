@@ -15,8 +15,8 @@ Get here quick:
 ## Map Collection Quick Facts
 
 - [Appointments available](https://outlook.office365.com/book/HarvardMapCollection1@HU.onmicrosoft.com/) to look at maps or get help with GIS data.
-- Monday - Friday 10:30 - 4
-- Drop-in weekly office hours for GIS help (no appointment needed)
+- Monday - Friday 10:30 - 4.
+- Drop-in weekly office hours for GIS help (no appointment needed).
 - Visit [Harvard Library](https://library.harvard.edu/) website, go to events, search `GIS`. 
 - For general inquiries, email maps@harvard.edu.
 
@@ -30,7 +30,7 @@ Get here quick:
 
 3. Each group will have ten minutes to work through their assigned activity. [10 minutes]
 
-4. Upon completion, each group will have 3-5 minutes to present their findings. A group spokesperson will demo activity materials on the instructor's computer, or by screencasting their own laptops. 
+4. Upon completion, each group will have 3-5 minutes to present their findings. A group spokesperson will demo activity materials on the instructor's computer, or by screencasting their own laptops. [20 minutes]
 
 
 

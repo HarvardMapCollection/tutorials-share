@@ -1,9 +1,9 @@
 ---
-title: Finding GIS Data Checklist
-image: gis.png
+title: Searching for GIS data [checklist]
+image: layers.jpeg
 date: 2024-08-16
 layout: single2
-description: Skimmable list of the approaches in this guidebook for finding GIS data. 
+description: Quick reference to approaches for finding, augmenting or creating geospatial data. To be used in tandem with librarian consultations. 
 ---
 
 *This checklist was designed by GIS Librarians Belle Lipton and Scott Walker (Harvard University), Tara Anthony (Penn State), Jessica Benner (Carnegie Mellon), John Clark (Lafayette College), Meagan Duever (Georgia State), Todd Quinn (University of New Mexico), Chris Thiry (Colorado School of Mines), and Amy Work (UC San Diego).*

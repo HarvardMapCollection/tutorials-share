@@ -1,6 +1,6 @@
 ---
 title: Group 2 [Portals]
-image: a-gradient1.png
+image: dc-question.png
 date: 2024-08-13
 layout: single2
 ---

@@ -1,6 +1,6 @@
 ---
 title: Welcome
-image: a-gradient1.png
+image: globe.gif
 date: 2024-08-15
 layout: single2
 ---

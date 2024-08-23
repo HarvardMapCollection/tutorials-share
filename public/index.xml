@@ -55,7 +55,7 @@
       <link>http://localhost:1313/resources/finding-data/in-class-activity/group-3/</link>
       <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-3/</guid>
-      <description>Visit the documentation page for data about Boston 311 service requests , to get a sense of what this dataset shows. Observe the data categories in the PDF codebook. Now glance at the actual 311 requests dataset for 2024 from Analyze Boston. Observe a few records to get a sense of how this table is filled out. There are two different ways to turn this dataset into spatial data. If you want the data to show up as individual occurrences (each 311 request is one dot on the map), you can use the latitude and longitude coordinate fields to import the data table to a GIS software, effectively turning it into a shapefile, geojson or geopackage.</description>
+      <description>Visit the documentation page for data about Boston 311 service requests , to get a sense of what this dataset shows. Observe the data categories in the PDF codebook. Now glance at the actual 311 requests dataset for 2024 from Analyze Boston. Observe a few records to get a sense of how this table is filled out. 311 data table There are two different ways to turn this table into spatial data.</description>
     </item>
     <item>
       <title>Group 4 [Georeferencing]</title>

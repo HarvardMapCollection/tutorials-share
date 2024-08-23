@@ -1,6 +1,6 @@
 ---
 title: Group 3 [Turning Spreadsheets into Spatial Data]
-image: a-gradient1.png
+image: cover.png
 date: 2024-08-12
 layout: single2
 ---
@@ -9,7 +9,12 @@ layout: single2
 
 > 2. Now glance at the actual [311 requests dataset](https://data.boston.gov/dataset/311-service-requests/resource/dff4d804-5031-443a-8409-8344efd0e5c8) for 2024 from Analyze Boston. Observe a few records to get a sense of how this table is filled out.
 
-There are two different ways to turn this dataset into spatial data. If you want the data to show up as individual occurrences (each 311 request is one dot on the map), you can use the `latitude` and `longitude` coordinate fields to import the data table to a GIS software, effectively turning it into a `shapefile`, `geojson` or `geopackage`. 
+## 311 data table
+
+<img src="cover.png" style="width:100%; max-height:70em;" alt="table">
+
+
+There are two different ways to turn this table into spatial data. If you want the data to show up as individual occurrences (each 311 request is one dot on the map), you can use the `latitude` and `longitude` coordinate fields to import the data table to a GIS software, effectively turning it into a `shapefile`, `geojson` or `geopackage`. 
 
 If you want to aggregate the occurrences and represent them as a density count by neighborhood, you can use the `neighborhood` column in the dataset. It's likely you would have to perform some data cleaning first, using data cleaning tools such as Excel, Google Sheets, R, or OpenRefine. You would have to make sure the values in the `Neighborhood` field are standardized, and then use a pivot table to count all the occurrences per neighborhood. Then you would **join the neighborhood counts to a Boston neighborhoods shapefile**. 
 

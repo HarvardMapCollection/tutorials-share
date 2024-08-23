@@ -1,8 +1,8 @@
 ---
 title: Group 4 [Georeferencing]
-image: a-gradient1.png
 date: 2024-08-11
 layout: single2
+image: cover.png
 ---
 
 > 1. Visit [Atlascope.org](https://www.atlascope.org/), search for a place in Boston or Cambridge you are interested in exploring on a historical map, and experiment with toggling between different georeferenced map layers.

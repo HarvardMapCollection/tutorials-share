@@ -1,6 +1,6 @@
 ---
 title: Group 1 [Spatial Resolution]
-image: a-gradient1.png
+image: cover.png
 date: 2024-08-14
 layout: single2
 ---

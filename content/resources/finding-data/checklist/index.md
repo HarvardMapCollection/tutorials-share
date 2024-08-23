@@ -10,7 +10,7 @@ description: Quick reference to approaches for finding, augmenting or creating g
 
 ## How to use the checklist
 
-Please use this checklist template tp provide GIS reference staff with information about what you have already tried in your GIS data search, and where you are getting stuck. 
+Please use this checklist template to provide GIS reference staff with information about what you have already tried in your GIS data search, and where you are getting stuck. 
 
 ## Checklist
 

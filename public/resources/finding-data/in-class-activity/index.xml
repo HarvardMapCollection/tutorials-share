@@ -44,11 +44,11 @@
       <description>Visit Atlascope.org , search for a place in Boston or Cambridge you are interested in exploring on a historical map, and experiment with toggling between different georeferenced map layers. Visit the Harvard Geospatial Library (HGL) . Click the Search button. In the left-hand side facets, under Format choose GeoTIFF. Under Access, choose Public. You can further filter results by the Institution which holds the source, the Place it depicts, or you can use the Search Bar to further refine results.</description>
     </item>
     <item>
-      <title>Group 5 [OpenStreetMaps]</title>
+      <title>Group 5 [OpenStreetMap]</title>
       <link>http://localhost:1313/resources/finding-data/in-class-activity/group-5/</link>
       <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-5/</guid>
-      <description></description>
+      <description>Sometimes &amp;ldquo;official&amp;rdquo; data is not available for particular data topics or places in the world. Leveraging data extracts from crowd-contributed projects, such as OpenStreetMap (OSM) can help fill in the gaps.&#xA;Consider Jess Eng&amp;rsquo;s 2021 project which looks at the location of Indian cuisine in London, using data extracted from OSM.&#xA;Visit the list of available Map Features you can extract as data layers from OSM. Identify a feature layer you might be interested in downloading.</description>
     </item>
     <item>
       <title>Group 6 [Creating Coordinates]</title>

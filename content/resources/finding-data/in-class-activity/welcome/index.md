@@ -1,6 +1,6 @@
 ---
 title: Welcome
-image: globe.gif
+image: cover.png
 date: 2024-08-15
 layout: single2
 ---

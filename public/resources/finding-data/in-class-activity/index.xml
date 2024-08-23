@@ -55,7 +55,7 @@
       <link>http://localhost:1313/resources/finding-data/in-class-activity/group-6/</link>
       <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-6/</guid>
-      <description>Georeferencing Making spreadsheet with coordinates What is a CSV Make headers w lat, lon Upload it somewhere to visualize e.g. cotton seed crushing mills in the south using late 19th century business directories Right-clicking Google Maps to get coordinates Creating vector data with Google MyMaps, geojson.io, or desktop software (QGIS, ArcGIS Pro) Drawing KML </description>
+      <description>⚠️ Requirements At least one group member will need to be logged into their Google account to complete this activity.&#xA;The group member logged in should be ready by the end to share their screen on the class projector and lead a group discussion about their Google Sheets table and Google My Maps map. Create a new Google Sheets by typing sheets.new into a browser. Create three header columns, name, latitude, and longitude.</description>
     </item>
   </channel>
 </rss>

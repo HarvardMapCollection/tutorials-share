@@ -50,7 +50,7 @@
   <meta itemprop="description" content="Learn how to use AllMaps to georeference Harvard Library Digital Collections items in the browser, to use in GIS and map making projects.">
   <meta itemprop="datePublished" content="2023-01-19T00:00:00+00:00">
   <meta itemprop="dateModified" content="2023-01-19T00:00:00+00:00">
-  <meta itemprop="wordCount" content="925">
+  <meta itemprop="wordCount" content="995">
   <meta itemprop="keywords" content="Tutorials,Georeferencing,Allmaps">
 
 
@@ -282,15 +282,21 @@
 </ul>
 <h2 id="select-a-map-to-georeference-from-the-harvard-libraries-digital-collections">Select a map to georeference from the Harvard Libraries&rsquo; digital collections</h2>
 <ol>
-<li>Find the map you would like to work with in the <a href="https://library.harvard.edu/digital-collections" target="_blank">Harvard Libraries Digital Collections</a>
-</li>
+<li>If you visit the Harvard Library catalog, <a href="https://hollis.harvard.edu/primo-explore/search?query=any,contains,map%20cambridge&amp;tab=books&amp;search_scope=default_scope&amp;vid=HVD2&amp;facet=library,include,map&amp;lang=en_US&amp;offset=0" target="_blank">HOLLIS</a>
+, you can:</li>
 </ol>
-<div class="alert-success">
-Filter results by selecting <code>Type: Map</code> or <code>Repository: Map Coll (Pusey)</code>
-</div>
+<ul>
+<li>Change the initial search drop-down from <code>Catalog &amp; Articles</code> to <code>Library Catalog</code> to show only items held by the library, and exclude journal articles.</li>
+<li>Scroll down to the <code>Location</code> filter on the right, and filter by <code>Harvard Map Collection</code></li>
+</ul>
+<p>You&rsquo;ll notice that some of the maps from the Harvard Map Collection have been scanned and added to the catalog record, so that you can view the map in high-resolution online from a link in the catalog that says <code>ONLINE ACCESS</code>.</p>
+<p><img src="media/hollis2.png" alt="map listings in HOLLIS"></p>
 <ol start="2">
 <li>
-<p>In the top-right corner of the image viewer, select the metadata Tooltip by clicking the <code>i</code> icon.
+<p>Select <code>ONLINE ACCESS</code>.</p>
+</li>
+<li>
+<p>In the top-right corner of the Harvard Library image viewer, select the metadata Tooltip by clicking the <code>i</code> icon.
 <img src="media/1.png" alt="Digital collections image viewer with a red box around the metadata Tooltip represented by an i icon in the upper-right corner"></p>
 </li>
 <li>
@@ -305,12 +311,12 @@ Filter results by selecting <code>Type: Map</code> or <code>Repository: Map Coll
 </ul>
 <img src="media/2.png" alt="Digital colletions image viewer with metadata tooltip open, showing a highlighted manifest URL">
 </div>
-<ol start="4">
+<ol start="5">
 <li>Navigate to the <a href="https://editor.allmaps.org/#/" target="_blank">AllMaps.org Editor</a>
 </li>
 </ol>
 <div class="alert-success">AllMaps is a free, open-source software for georeferencing maps in the browser.</div>
-<ol start="5">
+<ol start="6">
 <li>Paste the map&rsquo;s IIIF manifest URL into the input box and select <code>Load</code>.
 <img src="media/3.png" alt="Screenshot of the AllMaps.org editor input box with the map manifest URL pasted in."></li>
 </ol>

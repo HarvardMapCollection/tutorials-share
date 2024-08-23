@@ -15,16 +15,22 @@ description: Learn how to use AllMaps to georeference Harvard Library Digital Co
  - How to use the georeferenced map with the rest of your project
 
 ## Select a map to georeference from the Harvard Libraries' digital collections
-1. Find the map you would like to work with in the [Harvard Libraries Digital Collections](https://library.harvard.edu/digital-collections)
 
-<div class="alert-success">
-Filter results by selecting <code>Type: Map</code> or <code>Repository: Map Coll (Pusey)</code>
-</div>
+1. If you visit the Harvard Library catalog, [HOLLIS](https://hollis.harvard.edu/primo-explore/search?query=any,contains,map%20cambridge&tab=books&search_scope=default_scope&vid=HVD2&facet=library,include,map&lang=en_US&offset=0), you can:
 
-2. In the top-right corner of the image viewer, select the metadata Tooltip by clicking the `i` icon.
+- Change the initial search drop-down from `Catalog & Articles` to `Library Catalog` to show only items held by the library, and exclude journal articles.
+- Scroll down to the `Location` filter on the right, and filter by `Harvard Map Collection`
+
+You'll notice that some of the maps from the Harvard Map Collection have been scanned and added to the catalog record, so that you can view the map in high-resolution online from a link in the catalog that says `ONLINE ACCESS`.
+
+![map listings in HOLLIS](media/hollis2.png)
+
+2. Select `ONLINE ACCESS`. 
+
+3. In the top-right corner of the Harvard Library image viewer, select the metadata Tooltip by clicking the `i` icon.
 ![Digital collections image viewer with a red box around the metadata Tooltip represented by an i icon in the upper-right corner](media/1.png)
 
-3. Scroll to the bottom of the popup window and under `Links → Manifest`, copy the manifest URL.
+4. Scroll to the bottom of the popup window and under `Links → Manifest`, copy the manifest URL.
 
 <div class="alert-success">
 <h3>Example IIIF Manifest</h3>
@@ -35,10 +41,10 @@ Filter results by selecting <code>Type: Map</code> or <code>Repository: Map Coll
 <img src="media/2.png" alt="Digital colletions image viewer with metadata tooltip open, showing a highlighted manifest URL">
 </div>
 
-4. Navigate to the [AllMaps.org Editor](https://editor.allmaps.org/#/)
+5. Navigate to the [AllMaps.org Editor](https://editor.allmaps.org/#/)
 <div class="alert-success">AllMaps is a free, open-source software for georeferencing maps in the browser.</div>
 
-5. Paste the map's IIIF manifest URL into the input box and select `Load`. 
+6. Paste the map's IIIF manifest URL into the input box and select `Load`. 
 ![Screenshot of the AllMaps.org editor input box with the map manifest URL pasted in.](media/3.png)
 
 ## Repeat the process for maps in any library digital collection

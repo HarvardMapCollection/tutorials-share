@@ -34,8 +34,8 @@ Please use this checklist template tp provide GIS reference staff with informati
 ☐ If I suspect the data I need does not exist, I can create it myself.
  - I have thought about using historic maps to see if they contain the information I need.
     - Make a [map review and consult](https://outlook.office365.com/book/HarvardMapCollection1@HU.onmicrosoft.com/) with the Harvard Map Collection to view maps.
-    - [Georeferenced the digital map files]((https://mapping.share.library.harvard.edu/tutorials/georeferencing/qgis/)) I find in the Harvard Map Collection, so they line up with actual geography
-    - [Create digital data](https://mapping.share.library.harvard.edu/tutorials/qgis/adler/) by tracing the georeferenced maps.
+    - [Georeferenced the digital map files]((https://mapping.share.library.harvard.edu/tutorials/georeferencing/qgis/)) I find in the Harvard Map Collection, so they line up with actual geography.
+    - [Create digital shapes data](https://mapping.share.library.harvard.edu/tutorials/qgis/adler/) by tracing the georeferenced maps.
 
  - I have considered assembling the phenomena I am studying into a table with X,Y coordinates.
  

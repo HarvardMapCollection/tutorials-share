@@ -12,8 +12,8 @@ This tutorial is part of the [GIS Mapping Quickstart](https://mapping.share.libr
 - practice symbolizing and displaying the data in an online web map
 
 In this guide we will set up for these activities by **registering** for:
-- the census extract site, [nhgis.org](nhgis.org)
-- the web mapping site, [felt.com](felt.com)
+- the census extract site, [https://www.nhgis.org/](nhgis.org)
+- the web mapping site, [https://felt.com/](felt.com)
 
 ## NHGIS.org
 
@@ -21,7 +21,7 @@ We will be using NHGIS.org via the Minnesota Population Center to obtain census 
 
 ![homepage of NHGIS.org](cover.png)
 
-1. Visit [NHGIS.org](NHGIS.org).
+1. Visit [https://www.nhgis.org/](NHGIS.org).
 
 2. In the upper-right hand corner, select `REGISTER`.
 

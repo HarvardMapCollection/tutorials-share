@@ -4,7 +4,7 @@ date: 2023-08-25
 tags: ["news"]
 image: cover.png
 authors: ["Harvard Map Collection", "Vivian Nha Nguyen", "Dhruv Chugh"]
-description: Project scoping advice from a graphics journalist working on a  story about the history of urban renewal.
+description: This summer, we were pleased to host two rising seniors, Vivian Nha Nguyen and Dhruv Chugh as May-Crane fellows . Vivian and Dhruv worked on a project to apply data analysis methodology from their coursework to a real-world corpus of data – the over 11,000 metadata records for GIS datasets hosted in the Harvard Geospatial Library (HGL)
 ---
 
 This summer, we were pleased to host two rising seniors, Vivian Nha Nguyen and Dhruv Chugh as [May-Crane fellows](https://library.harvard.edu/may-crane-fellowships). Vivian and Dhruv worked on a project to apply data analysis methodology from their coursework to a real-world corpus of data -- the over 11,000 metadata records for GIS datasets hosted in the [Harvard Geospatial Library (HGL)](https://library.harvard.edu/services-tools/harvard-geospatial-library). 

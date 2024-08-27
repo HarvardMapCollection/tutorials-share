@@ -1,5 +1,5 @@
 ---
-title: A Geographical Cat in the Box, A remembered yet unknown Institute of Geographical Exploration at Harvard (1930-1951) 
+title: A Geographical Cat in the Box, a remembered yet unknown Institute of Geographical Exploration at Harvard (1930-1951) 
 date: 2024-08-14
 tags: ["news"]
 image: cover.jpg

@@ -4,7 +4,51 @@
       
 	  <url>
 	    <loc>http://localhost:1313/</loc>
-	    <lastmod>2024-08-16</lastmod>
+	    <lastmod>2024-08-27</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/posts/adler-delta/</loc>
+	    <lastmod>2024-08-27</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/tags/news/</loc>
+	    <lastmod>2024-08-27</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/posts/</loc>
+	    <lastmod>2024-08-27</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/tags/</loc>
+	    <lastmod>2024-08-27</lastmod>
         
 
         
@@ -70,39 +114,6 @@
       
 	  <url>
 	    <loc>http://localhost:1313/resources/finding-data/in-class-activity/group-1/</loc>
-	    <lastmod>2024-08-14</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/news/</loc>
-	    <lastmod>2024-08-14</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/posts/</loc>
-	    <lastmod>2024-08-14</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/</loc>
 	    <lastmod>2024-08-14</lastmod>
         
 
@@ -707,17 +718,6 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/posts/exploratory-hgl/</loc>
-	    <lastmod>2023-08-25</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
 	    <loc>http://localhost:1313/projects/hgl-explore/</loc>
 	    <lastmod>2023-08-11</lastmod>
         
@@ -808,17 +808,6 @@
 	  <url>
 	    <loc>http://localhost:1313/resources/workshops/workshop-3/</loc>
 	    <lastmod>2023-07-27</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/posts/data-disciplines/</loc>
-	    <lastmod>2023-07-11</lastmod>
         
 
         
@@ -1224,17 +1213,6 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/posts/office-hours/</loc>
-	    <lastmod>2022-12-20</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
 	    <loc>http://localhost:1313/classes/emr/155/fall-2022/</loc>
 	    <lastmod>2022-12-19</lastmod>
         
@@ -1391,17 +1369,6 @@
 	  <url>
 	    <loc>http://localhost:1313/resources/workshops/workshop/in-person/</loc>
 	    <lastmod>2022-11-11</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/posts/mapping-cultural-difference/</loc>
-	    <lastmod>2022-07-07</lastmod>
         
 
         
@@ -1754,17 +1721,6 @@
 	  <url>
 	    <loc>http://localhost:1313/classes/programs/</loc>
 	    <lastmod>2021-12-11</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/posts/voulgaris/</loc>
-	    <lastmod>2021-10-12</lastmod>
         
 
         

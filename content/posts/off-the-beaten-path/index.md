@@ -1,10 +1,10 @@
 ---
-title: Off the Beaten Path? A Spatial Analysis of Boston Tourism
+title: Off the Beaten Path? 
 date: 2024-07-01
 tags: ["news"]
-image: image.png
+image: a-gradient12.png
 authors: ["Luisa Shida"]
-description: This project was funded by a 2024 May Crane fellowship, and geared at generating new undergraduate research to amplify information embedded in historic maps and archives.
+
 
 ---
 
@@ -12,7 +12,6 @@ description: This project was funded by a 2024 May Crane fellowship, and geared 
   <source src="media/Off the beaten path.mp4" type="video/mp4">
 </video>
 
-## Introduction
 
 When I first arrived in Boston three years ago, only a few weeks away from starting college in the heart of Cambridge, I wanted to take in as much of the city as I could. Armed with a TripAdvisor list of "The 10 Best Things to Do in Boston" and a confusing MBTA map I found at the airport, I set off to the city's tourists hotspots, historical landmarks, and buzzing restaurants. As one often does, I walked the Freedom Trail, shopped at Newbury Street, ate at a nice Back Bay restaurant, and bought an overpriced Red Sox cap at the Commons. By the time I checked everything off my list and felt comfortable taking the T without a map, I thought I knew what I had to know about the city. Needless to say, I was wrong.
 
@@ -136,7 +135,7 @@ Overall, this analysis gives way to a deeper questioning on the importance of ge
 
 With the data from each map, as well as demographic information for different census tracts in Boston, it is possible to explore the many other relationships implicit in the maps, looking at factors such as whether an attraction's ownership is private or public, whether it is religious or secular, how it relates to different conceptions of history (American History? Civil Rights? Women's Rights?), and much more. While this project chose to focus specifically on a demographic-geographic perspective of Boston tourism trends, the data that was created for this analysis includes information on all these other factors. Therefore, you are invited to further interact with this data by exploring the interactive maps below, accessing the data files on from the Harvard Map Collection's [Open Science Framework page for researcher-created GIS data](https://osf.io/9jg2u/), or even heading off to the Harvard Map Collection Map Room ([or website](https://library.harvard.edu/libraries/harvard-map-collection)!) to develop a project of your own, bringing physical and digital information together through GIS methods. After all, this is precisely what GIS allows us to do: *stray off the beaten path and interact with data in a deeper, more meaningful way.*
 
-<iframe width="100%" height="600" frameborder="0" title="Felt Map" src="https://felt.com/embed/map/Final-map-copy-1t2OZZKkQcSHct9A149AWrfD?loc=42.35639%2C-71.07667%2C14.25z&legend=1&logo=1&link=1" referrerpolicy="strict-origin-when-cross-origin"></iframe> 
+<iframe width="100%" height="488" frameborder="0" title="Felt Map" src="https://felt.com/embed/map/Final-map-u9C2GAbqMQrG2WHEIvlMJrD?loc=42.35718%2C-71.07506%2C14.61z&legend=1&cooperativeGestures=1&link=1&geolocation=0&zoomControls=1&scaleBar=1" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
 
 >[Luisa Shida](https://history.fas.harvard.edu/people/luisa-shida)'s project was funded by a 2024 [May Crane fellowship](https://library.harvard.edu/may-crane-fellowships), which was geared towards supporting undergraduate research exploring information embedded in historic maps and archives.

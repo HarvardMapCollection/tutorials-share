@@ -1,10 +1,10 @@
 ---
-title: Preserving GIS research data for long-term discovery and access
+title: Undoing Empire, One Plant at a Time
 date: 2023-10-03
 tags: ["news"]
-image: network.png
-authors: ["Kelly O'Neill", "Harvard Map Collection"]
-description: Read about how the Harvard Map Collection partners with researchers to assist in creating meaningful geospatial metadata to facilitate long-term discovery and access of geospatial resources. 
+image: a-gradient12.png
+authors: ["Harvard Map Collection", "Kelly O'Neill"]
+description: Quote, 'If a book needs great footnotes, a dataset needs great metadata. Most researchers will tell you that composing either one is anticlimactic at best and tedious at worst. But what if we... found a way to streamline the production of metadata? ...What if we built real — possibly entertaining — human conversation into the process?' Read about the Harvard Map Collection's 2023 partnership with Dr. Kelly O'Neill. 
 ---
 
 ![Old picture of flowers](media/picture.jpeg)

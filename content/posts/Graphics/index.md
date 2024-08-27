@@ -1,10 +1,9 @@
 ---
-title: GIS storytelling tips from a professional graphics journalist
+title: Interview with graphics journalist, Rachael Dottle
 date: 2021-08-16
 tags: ["news"]
-image: digital-humanities-harvard.png
+image: dottle.png
 authors: ["Belle Lipton", "Rachael Dottle"]
-description: Project scoping advice from a graphics journalist working on a  story about the history of urban renewal.
 ---
 
 <p class="callout">Skills to create beautiful and engaging maps can be strengthened in a semester, says Bloomberg graphics journalist.</p>

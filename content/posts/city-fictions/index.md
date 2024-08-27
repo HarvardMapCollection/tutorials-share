@@ -1,13 +1,11 @@
 ---
-title: City Fictions, 2021
+title: City Fictions
 date: 2021-12-16
 tags: ["news"]
-image: 3.png
+image: 8.png
 authors: ["Harvard Map Collection"]
 
 ---
-
-## The project
 
 This semester, we worked with <a href="https://news.harvard.edu/gazette/story/2021/10/harvard-scholar-elucidates-the-power-of-literary-voices/">Tara K. Menon's</a> English class, titled City Fictions. In this class, undergraduates explored the various ways writers capture the constituent features of life in urban environments, reading books set in London, Bombay, New York, and Tokyo.
 

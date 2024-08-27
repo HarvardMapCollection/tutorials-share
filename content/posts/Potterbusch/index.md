@@ -2,9 +2,9 @@
 title: Publishing tips from a data safety expert
 date: 2023-06-06
 tags: ["news"]
-image: lab.png
+image: mpb.jpg
 authors: ["Belle Lipton", "Megan Potterbusch"]
-description: We interviewed Megan Potterbusch from the Harvard Kennedy School Libraries about the balance between reproducibility and data security measures.
+description: Quote, 'To me, by having a data safety process, we’re facilitating open science, the ability to push boundaries and do research we weren’t able to do before by setting up these relationships that ensure that we’re respecting privacy, confidentiality, intellectual property from the data provider. We’re able to move forward with the research... How do we then balance that with open science?' In this article Harvard Map Collection GIS Librarian Belle Lipton interviews Harvard Kennedy School Data Safety Librarian Megan Potterbusch. 
 ---
 
 In this interview with [Megan Potterbusch](https://library.harvard.edu/staff/megan-potterbusch), the Harvard Kennedy School's Research Data Steward, you will learn:
@@ -13,8 +13,6 @@ In this interview with [Megan Potterbusch](https://library.harvard.edu/staff/meg
 - How to get started with support for your research
 
 ## The interview
-
-
 
 <span style="font-family:lorabold;color:#5f0217;">BELLE LIPTON:</span> Megan, can you introduce us to your role?
 

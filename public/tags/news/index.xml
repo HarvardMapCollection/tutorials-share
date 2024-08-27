@@ -6,21 +6,28 @@
     <description>Recent content in News on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A Geographical Cat in the Box</title>
+      <title>Mapping Land Use Change in the Sacramento San-Joaquin River Delta</title>
+      <link>http://localhost:1313/posts/adler-delta/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/adler-delta/</guid>
+      <description>Early one August morning, I found myself donning borrowed fishing waders on the banks of a restored tidal wetland in Northern California. Thanks to a Salata Institute grant, I spent a week studying the Sacramento San-Joaquin River Delta alongside biometeorology experts. After exploring maps of the region through my assistantship with the Harvard Map Collection, I was incredibly grateful for the opportunity to traverse the landscape on foot, and prepare for my senior thesis on the science of these special ecosystems.</description>
+    </item>
+    <item>
+      <title>A Geographical Cat in the Box, A remembered yet unknown Institute of Geographical Exploration at Harvard (1930-1951)</title>
       <link>http://localhost:1313/posts/nicolae/</link>
       <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/nicolae/</guid>
-      <description>A remembered yet unknown Institute of Geographical Exploration at Harvard (1930-1951) This dataset and story open the past of Harvard University’s Institute of Geographical Exploration (HUIGE, 1930-1951). The HUIGE was a building, a branch of Harvard’s defunct Geography department, a home to many students, and still a mystery to this day.&#xA;The scope of this project is simple: making a guide to as many repositories of HUIGE-related artifacts across Harvard’s campus and other institutions across Massachusetts.</description>
+      <description>This dataset and story open the past of Harvard University’s Institute of Geographical Exploration (HUIGE, 1930-1951). The HUIGE was a building, a branch of Harvard’s defunct Geography department, a home to many students, and still a mystery to this day.&#xA;The scope of this project is simple: making a guide to as many repositories of HUIGE-related artifacts across Harvard’s campus and other institutions across Massachusetts. This guide cannot be complete but will hopefully help launch further inquiries into the fate of Aerial Photography and Geography at Harvard and in the USA.</description>
     </item>
     <item>
-      <title>Off the Beaten Path? A Spatial Analysis of Boston Tourism</title>
+      <title>Off the Beaten Path?</title>
       <link>http://localhost:1313/posts/off-the-beaten-path/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/off-the-beaten-path/</guid>
-      <description>Introduction When I first arrived in Boston three years ago, only a few weeks away from starting college in the heart of Cambridge, I wanted to take in as much of the city as I could. Armed with a TripAdvisor list of &amp;ldquo;The 10 Best Things to Do in Boston&amp;rdquo; and a confusing MBTA map I found at the airport, I set off to the city&amp;rsquo;s tourists hotspots, historical landmarks, and buzzing restaurants.</description>
+      <description>When I first arrived in Boston three years ago, only a few weeks away from starting college in the heart of Cambridge, I wanted to take in as much of the city as I could. Armed with a TripAdvisor list of &amp;ldquo;The 10 Best Things to Do in Boston&amp;rdquo; and a confusing MBTA map I found at the airport, I set off to the city&amp;rsquo;s tourists hotspots, historical landmarks, and buzzing restaurants.</description>
     </item>
     <item>
       <title>Re-Wilding Harvard, Spring 2024</title>
@@ -37,32 +44,18 @@
       <description>The Harvard Map Collection recently partnered with the Leventhal Map and Education Center at the Boston Public Library to support a digital mapping project by scholars Joan Brunetta and Eve Loftus. Joan and Eve&amp;rsquo;s project, titled Mapping Black Cambridge , contributes to an evolving landscape of available data used to discern historic dimensions of Black life in Boston and Cambridge.&#xA;Leveraging historic maps and records from local libraries and archives, along with GIS training services , Joan and Eve have created a dataset from their meticulous research about Black life in Cambridge in the 19th century.</description>
     </item>
     <item>
-      <title>Introduction to Harvard&#39;s data landscape</title>
+      <title>Introduction to Harvard&#39;s research data landscape</title>
       <link>http://localhost:1313/posts/boyd/</link>
       <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/boyd/</guid>
       <description>In this interview, we are lucky to speak with Ceilyn Boyd , the Dataverse Development Project Manager at Harvard’s Institute for Quantitative Social Science (IQSS). Prior to her role with IQSS, Ceilyn served as the Manager of the Harvard Library Research Data Management Program. In this interview, she provides an invaluable tour around the complex research data ecosystem of Harvard University.&#xA;BELLE LIPTON: Hi Ceilyn. Thank you for speaking with us.</description>
     </item>
     <item>
-      <title>Preserving GIS research data for long-term discovery and access</title>
+      <title>Undoing Empire, One Plant at a Time</title>
       <link>http://localhost:1313/posts/odessa-biodiversity/</link>
       <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/odessa-biodiversity/</guid>
       <description>Floral motif from Ukrainian textile produced in 1902.&#xA;This year, the Harvard Map Collection partnered with Kelly O&amp;rsquo;Neill from the Davis Center on a project to demonstrate the value of our GIS data curation services . Dr. O&amp;rsquo;Neill&amp;rsquo;s project aims to capture data about historic biodiversity in the Ukraine. The Harvard Map Collection worked with her team to co-develop robust and useful metadata, so that the sources can be archived for long-term discovery and reuse.</description>
-    </item>
-    <item>
-      <title>Exploratory data visualization of Harvard Geospatial Library collections</title>
-      <link>http://localhost:1313/posts/exploratory-hgl/</link>
-      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/exploratory-hgl/</guid>
-      <description>This summer, we were pleased to host two rising seniors, Vivian Nha Nguyen and Dhruv Chugh as May-Crane fellows . Vivian and Dhruv worked on a project to apply data analysis methodology from their coursework to a real-world corpus of data &amp;ndash; the over 11,000 metadata records for GIS datasets hosted in the Harvard Geospatial Library (HGL) .&#xA;We framed this project as a way to get a better sense of both the data hosted in HGL, as well as the way we collect and describe GIS data at Harvard Libraries.</description>
-    </item>
-    <item>
-      <title>Disciplinary frames to working with data</title>
-      <link>http://localhost:1313/posts/data-disciplines/</link>
-      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/data-disciplines/</guid>
-      <description>One of the goals of this blog is to help you become better positioned in understanding the networks of research data services happening across the Harvard community. There is a lot of data research happening at Harvard. There are also lot of places to get help. In our GIS support services, we encounter a wide range of disciplinary backgrounds when we are helping researchers with their data. The software, methods, and conceptual approaches to working with data can vary greatly, depending on which school you are coming from.</description>
     </item>
     <item>
       <title>Publishing tips from a data safety expert</title>
@@ -72,42 +65,21 @@
       <description>In this interview with Megan Potterbusch , the Harvard Kennedy School&amp;rsquo;s Research Data Steward, you will learn:&#xA;How to balance open science and data safety How to get started with support for your research The interview BELLE LIPTON: Megan, can you introduce us to your role?&#xA;MEGAN POTTERBUSCH: I work within the Kennedy School’s Libraries and Research Services. I’m the primary reviewer for data safety plans. A data safety plan is required for anyone who is working with regulated or contracted data, especially data that is considered sensitive.</description>
     </item>
     <item>
-      <title>Approaching language data mapping with GIS and D3.js</title>
+      <title>Mapping the Russian Language</title>
       <link>http://localhost:1313/posts/russian-language/</link>
       <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/russian-language/</guid>
       <description>We met undergraduate Paige Lee while working with her general education class about how borders are constructed. In the class, students were asked to complete a project, choosing from a variety of format options, including making a map. The Harvard Map Collection supported students by advising on searching for data, using mapping software, and scoping out project ideas.&#xA;In this interview, we look at Paige’s custom-coded interactive mapping visualization, and learn more about her thought process and workflow.</description>
     </item>
     <item>
-      <title>Introducing GIS Office Hours</title>
-      <link>http://localhost:1313/posts/office-hours/</link>
-      <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/office-hours/</guid>
-      <description>Join us Spring 2023 for weekly GIS office hours. We will meet in the Lamont media lab annex every Tuesday from 10am-12pm.&#xA;What to expect Chat about GIS tools and datasets Meet others using GIS in their work Share projects and get feedback What office hours are not You don’t need to have a specific question! Just an interest. Depending on how many people we have, you may still need to book a personal consultation for more in-depth advice.</description>
-    </item>
-    <item>
-      <title>Learning GIS while working in the map archives</title>
-      <link>http://localhost:1313/posts/mapping-cultural-difference/</link>
-      <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/mapping-cultural-difference/</guid>
-      <description>This project was made possible through a May Crane fellowship .&#xA;Mapping Cultural Difference The goal of this webpage is to allow others to follow the progress of this mapping project and understand the immediate and long-term goals and uses of the mapping project.&#xA;About this mapping project At its inception, this project&amp;rsquo;s main goal is to demonstrate cultural distance and difference as they pertain to staged representations of Latinx (or Latine) Americans living in the United States.</description>
-    </item>
-    <item>
-      <title>City Fictions, 2021</title>
+      <title>City Fictions</title>
       <link>http://localhost:1313/posts/city-fictions/</link>
       <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/city-fictions/</guid>
-      <description>The project This semester, we worked with Tara K. Menon&amp;rsquo;s English class, titled City Fictions. In this class, undergraduates explored the various ways writers capture the constituent features of life in urban environments, reading books set in London, Bombay, New York, and Tokyo.&#xA;Wonderground map of the London town, 1914. We were happy to learn that one of the course assignments involved mapmaking; in order to get at different ways the experience of city might be represented, students were tasked with creating two distinct maps of the same place.</description>
+      <description>This semester, we worked with Tara K. Menon&amp;rsquo;s English class, titled City Fictions. In this class, undergraduates explored the various ways writers capture the constituent features of life in urban environments, reading books set in London, Bombay, New York, and Tokyo.&#xA;Wonderground map of the London town, 1914. We were happy to learn that one of the course assignments involved mapmaking; in order to get at different ways the experience of city might be represented, students were tasked with creating two distinct maps of the same place.</description>
     </item>
     <item>
-      <title>Faculty designing GIS projects around map archives</title>
-      <link>http://localhost:1313/posts/voulgaris/</link>
-      <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/voulgaris/</guid>
-      <description>Earlier this Fall, we visited with Carole Voulgaris&amp;rsquo;s Spatial Analysis class from the Graduate School of Design.&#xA;Example georeferencing assignment submitted by GSD student Ellie Shield.&#xA;The assignments in Spatial Analysis are tailored to introduce fundamental geospatial competencies, as well as center group collaboration, creativity, and iterative design.&#xA;THE VISIT In early September 2021, The Harvard Map Collection facilitated a class visit with Spatial Analysis, where we discussed shifts in cartographic theory, introduced the map collection, and foreshadowed the concept of georeferencing .</description>
-    </item>
-    <item>
-      <title>GIS storytelling tips from a professional graphics journalist</title>
+      <title>Interview with graphics journalist, Rachael Dottle</title>
       <link>http://localhost:1313/posts/graphics/</link>
       <pubDate>Mon, 16 Aug 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/graphics/</guid>

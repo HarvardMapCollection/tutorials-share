@@ -1,10 +1,10 @@
 ---
-title: Approaching language data mapping with GIS and D3.js
+title: Mapping the Russian Language
 date: 2023-01-13
 tags: ["news"]
-image: a-gradient12.png
-authors: ["Belle Lipton", "Paige Lee"]
-description: Project demo of an interactive map made with D3.js data visualization library and GIS tools, supported by the Harvard Map Collection.
+image: lee.png
+authors: ["Harvard Map Collection", "Paige Lee"]
+description: Quote, 'Don’t be afraid of going outside of your comfort zone or doing something no one else has done before!' In this article, Paige Lee shares how she sourced and wrangled data for her D3.js mapping project, and tips for other students getting started.
 ---
 
 We met undergraduate Paige Lee while working with her general education class about how borders are constructed. In the class, students were asked to complete a project, choosing from a variety of format options, including making a map. The Harvard Map Collection supported students by advising on searching for data, using mapping software, and scoping out project ideas.

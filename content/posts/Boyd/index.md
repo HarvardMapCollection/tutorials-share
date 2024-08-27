@@ -1,11 +1,12 @@
 ---
-title: Introduction to Harvard's data landscape
+title: Introduction to Harvard's research data landscape
 date: 2023-12-08
 tags: ["news"]
-image: bank-comp.png
-authors: ["Harvard Map Collection", "Ceilyn Boyd"]
-description: Ceilyn Boyd, now the Dataverse Development Project Manager, illuminates us with her over twelve years of experience in research data management at Harvard Libraries.
+image: a-gradient12.png
+authors: ["Belle Lipton", "Ceilyn Boyd"]
+description: Quote, 'like a piano keyboard with 88 keys, Harvard's research data landscape may not be considered a simple user interface, but it allows users to create amazing music once they have learned it...There is help available in the Harvard environment.' In this article Harvard Map Collection GIS Librarian Belle Lipton interviews Dataverse Development Project Manager Ceilyn Boyd. 
 ---
+
 
 In this interview, we are lucky to speak with [Ceilyn Boyd](https://www.iq.harvard.edu/people/ceilyn-boyd), the Dataverse Development Project Manager at Harvard’s Institute for Quantitative Social Science (IQSS). Prior to her role with IQSS, Ceilyn served as the Manager of the Harvard Library Research Data Management Program. In this interview, she provides an invaluable tour around the complex research data ecosystem of Harvard University.
 

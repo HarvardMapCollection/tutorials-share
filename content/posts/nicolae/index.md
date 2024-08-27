@@ -1,13 +1,10 @@
 ---
-title: A Geographical Cat in the Box
+title: A Geographical Cat in the Box, A remembered yet unknown Institute of Geographical Exploration at Harvard (1930-1951) 
 date: 2024-08-14
 tags: ["news"]
 image: cover.jpg
 authors: ["Ana Luiza Nicolae" ]
-description: A remembered yet unknown Institute of Geographical Exploration at Harvard (1930-1951) 
 ---
-
-## A remembered yet unknown Institute of Geographical Exploration at Harvard (1930-1951) 
 
 This dataset and story open the past of Harvard University’s *Institute of Geographical Exploration* (HUIGE, 1930-1951). The HUIGE was a building, a branch of Harvard’s defunct Geography department, a home to many students, and still a mystery to this day.
 

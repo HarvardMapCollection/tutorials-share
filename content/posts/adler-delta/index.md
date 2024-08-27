@@ -28,7 +28,7 @@ GIS allowed me to create usable data from historic maps of the delta. I worked w
 
 <img src="image5.jpg" style="width:100%; max-height:70em;" alt="map of the sacramento river valley">
 
-After [georeferencing the Delta map from 1911](https://felt.com/map/California-wetlands-0y39AwKOPQKe5Z4f7csGjcC?loc=38.3744,-121.7539,9.49z&share=1), I created a polygon layer for all the wetland areas, and recorded information about wetland type. I used the “calculate field” QGIS tool to extract the area of each historic wetland region. Then, I downloaded crop data from the California Natural Resources Agency from 2017. This shapefile includes metadata about crop type and land use for each agricultural parcel in California. I clipped the agricultural data to match the historic wetland area so I could see how the historic wetlands have been developed and exactly which crops are grown there now. 
+After [georeferencing the Delta map from 1911](https://felt.com/map/California-wetlands-0y39AwKOPQKe5Z4f7csGjcC?loc=38.3744,-121.7539,9.49z&share=1), I created a polygon layer for all the wetland areas, and recorded information about wetland type. I used the “calculate field” QGIS tool to extract the area of each historic wetland region. Then, I downloaded current crop data (2017) from the California Natural Resources Agency. This shapefile includes information about crop type and land use for each agricultural parcel in California. I clipped the agricultural data to match the historic wetland area so I could see how the historic wetlands have been developed and exactly which crops are grown there now. 
 
 ### Historic wetland type
 

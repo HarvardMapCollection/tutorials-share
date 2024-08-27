@@ -48,7 +48,7 @@
       <link>http://localhost:1313/tutorials/georeferencing/allmaps/</link>
       <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/georeferencing/allmaps/</guid>
-      <description>Topics covered by this guide Select a map to georeference from the Harvard Libraries&amp;rsquo; digital collections Repeat the process for maps in any library digital collection Learn how to georeference with free browser tool, AllMaps How to use the georeferenced map with the rest of your project Select a map to georeference from the Harvard Libraries&amp;rsquo; digital collections Find the map you would like to work with in the Harvard Libraries Digital Collections Filter results by selecting Type: Map or Repository: Map Coll (Pusey) In the top-right corner of the image viewer, select the metadata Tooltip by clicking the i icon.</description>
+      <description>Topics covered by this guide Select a map to georeference from the Harvard Libraries&amp;rsquo; digital collections Repeat the process for maps in any library digital collection Learn how to georeference with free browser tool, AllMaps How to use the georeferenced map with the rest of your project Select a map to georeference from the Harvard Libraries&amp;rsquo; digital collections If you visit the Harvard Library catalog, HOLLIS , you can: Change the initial search drop-down from Catalog &amp;amp; Articles to Library Catalog to show only items held by the library, and exclude journal articles.</description>
     </item>
     <item>
       <title>Add a basemap in QGIS</title>

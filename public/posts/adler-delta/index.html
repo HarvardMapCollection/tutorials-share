@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>
+    
+    Mapping Land Use Change in the Sacramento San-Joaquin River Delta | 
+    
+    GIS, maps &#43; data @ Harvard Library
+</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="http://localhost:1313/posts/adler-delta/" />
+<link rel="icon" type="image/png" href="http://localhost:1313/image/favicon.ico">
+
+
+<meta name="description" content="
+    This article explores how wetlands are related to global warming, the relationship between land-use and greenhouse gasses, and what a century-old map can teach us about climate change.
+    "
+/>
+<meta property="og:description" content="
+    This article explores how wetlands are related to global warming, the relationship between land-use and greenhouse gasses, and what a century-old map can teach us about climate change.
+    " 
+/>
+
+
+<meta property="og:image" content="http://localhost:1313/posts/adler-delta/image3.jpg" />
+
+
+
+
+
+
+<meta property="og:title" content="Mapping Land Use Change in the Sacramento San-Joaquin River Delta" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/posts/adler-delta/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-08-27T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-08-27T00:00:00+00:00" />
+
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Mapping Land Use Change in the Sacramento San-Joaquin River Delta">
+  <meta name="twitter:description" content="This article explores how wetlands are related to global warming, the relationship between land-use and greenhouse gasses, and what a century-old map can teach us about climate change.">
+
+
+  <meta itemprop="name" content="Mapping Land Use Change in the Sacramento San-Joaquin River Delta">
+  <meta itemprop="description" content="This article explores how wetlands are related to global warming, the relationship between land-use and greenhouse gasses, and what a century-old map can teach us about climate change.">
+  <meta itemprop="datePublished" content="2024-08-27T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-08-27T00:00:00+00:00">
+  <meta itemprop="wordCount" content="718">
+  <meta itemprop="keywords" content="News">
+
+
+
+
+<link rel="stylesheet" href="/main.min.css">
+<link rel="stylesheet" href="https://use.typekit.net/yiq3yrx.css">
+<link rel="stylesheet" href="/typekit/stylesheet.css">
+
+
+
+
+
+<script src="/bundle.js"></script>
+
+
+
+
+
+
+
+<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body><header id="header">
+  <div class="top-bar">
+    <div class="container-md">
+
+      <div class="row align-items-center">
+
+        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
+          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <i class="fas fa-bars"></i> Menu
+          </button>
+        </div>
+
+        <div class="col-12 col-sm-12">
+          <h2 class="title"><a href="/">GIS, maps &#43; data @ Harvard Library</a></h2>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-md">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+
+
+
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/">
+              Home
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Tutorials
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/tags/census/">Census</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/openstreetmap/">OpenStreetMap</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/file-formats/">File Formats</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/georeferencing/">Georeferencing</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/vectorization/">Vectorization</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/spatial-analysis/">Spatial Analysis</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/arcgis/">ArcGIS</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/felt/">Felt</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/qgis/">QGIS</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Resources
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/resources/workshops">Workshops</a>
+              
+              
+              
+                <a class="dropdown-item" href="/resources/researchers-handbook">Data management</a>
+              
+              
+              
+                <a class="dropdown-item" href="/resources/finding-data">Finding data</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/tags/news">
+              Blog
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/projects/">
+              Projects
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/connect/">
+              Connect
+            </a>
+          </li>
+          
+          
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="blog-content">
+    <div class="container-md">
+        <div class="row">
+            
+            <div class="col-lg-2 d-none d-xl-block">
+                <div class="ad-left-offset"></div>
+                
+            </div>
+
+            
+
+            <div class="col-md-12 col-lg-8 px-lg-4">
+                
+
+
+                <div class="breadcrumb-container">
+                    <nav aria-label="breadcrumb" class="breadcrumb">
+                        <ol>
+                          
+                          ↵
+                            <li>
+                              <a href="/"> GIS, maps &#43; data @ Harvard Library</a>
+                            </li>
+                          
+                          ↵
+                            <li>
+                              <a href="/posts/"> Posts</a>
+                            </li>
+                          
+                          <li style="margin-right: 0;" class="active">
+                            👋
+                            <a aria-current="page" href="/posts/adler-delta/">Mapping Land Use Change in the Sacramento San-Joaquin River Delta</a>
+                          </li>
+                        </ol>
+                      </nav>
+                      </div>
+
+                      <h1 class="title">Mapping Land Use Change in the Sacramento San-Joaquin River Delta</h1>
+
+                <div class="container-fluid px-0 mb-4">
+                    <div class="row align-items-end">
+                        <div class="col-md-8 date-time">
+                            
+                                Hannah Adler
+                                &centerdot;
+                            
+                            <span class="date">
+    Aug 27, 2024
+</span>
+                            &centerdot;
+                            <span class="time-to-read">
+    4 mins read</span>
+                        </div>
+
+                        <div class="col-md-4 tags ">
+                            
+                            <a href="/tags/news"><span
+                                    class="tag bg-dark">news</span></a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <h2 id="introduction">Introduction</h2>
+<p>Early one August morning, I found myself donning borrowed fishing waders on the banks of a restored tidal wetland in Northern California. Thanks to a Salata Institute grant, I spent a week studying the Sacramento San-Joaquin River Delta alongside biometeorology experts. After exploring maps of the region through my assistantship with the Harvard Map Collection, I was incredibly grateful for the opportunity to traverse the landscape on foot, and prepare for my senior thesis on the science of these special ecosystems. In broad terms, I&rsquo;m interested in wetlands — swamps, marshes, sloughs, estuaries — and how they exchange carbon dioxide and methane with the atmosphere. GIS and historic maps allow me to track wetlands over time and estimate historic data related to this gas exchange. The following article explores how wetlands are related to global warming, the relationship between land-use and greenhouse gasses, and what a century-old map can teach us about climate change.</p>
+  <img src="image1.jpg" style="width:100%; max-height:70em;" alt="person in wetlands">
+  <img src="image3.jpg" style="width:100%; max-height:70em;" alt="three people in wetlands">
+<h2 id="background">Background</h2>
+<p>The Sacramento San-Joaquin Delta ecosystem supports 6 million acres of farmland and supplies water to 30 million California residents. Additionally, healthy wetland ecosystems play an increasingly important role in global climate change due to their ability to store carbon dioxide, an important driver of climate change. In the past century, the majority of the Delta’s wetlands have been developed for agriculture through levee infrastructure, effectively redirecting water flow to drain submerged landscapes. Although this process revealed nutrient-rich soil well-suited for crops, the process damaged the ecosystem and released large quantities of carbon dioxide to the atmosphere. Essentially, the CO2 naturally stored in the wetland soil is released when wetlands are converted for agriculture. This means the wetlands are now an additional source of greenhouse gas, and they contribute to climate change.</p>
+<p>Using long-term ecological monitoring, scientists are now trying to discover how restoration techniques could repair wetlands that have been drained for agriculture, potentially increasing carbon storage and creating biodiverse habitats.</p>
+<h2 id="the-project">The project</h2>
+<p>GIS allowed me to create usable data from historic maps of the delta. I worked with Harvard Map Collection to identify maps of the region from the twentieth century, looking carefully at land use markers, land-owner parcels, and small changes in the many winding branches of the Delta’s waterways. I sought to understand key changes in land use over time. <a href="https://id.lib.harvard.edu/alma/990091411270203941/catalog" target="_blank">The map</a>
+ I focused on is from 1911, and clearly marks different wetland types, waterways, and tidal flats.</p>
+<img src="image5.jpg" style="width:100%; max-height:70em;" alt="map of the sacramento river valley">
+<p>After georeferencing the Delta map from 1911, I created a polygon layer for all the wetland areas, and included wetland type in the metadata. I used the “calculate field” tool to extract the area of each wetland. Then, I downloaded crop data from the California Natural Resources Agency from 2017. This shapefile includes metadata about crop type and land use for each agricultural parcel in California. I clipped the agricultural data to match the historic wetland area so I could see how the historic wetlands have been developed and exactly which crops are grown there now.</p>
+<h3 id="historic-wetland-type">Historic wetland type</h3>
+<img src="image2.png" style="width:100%; max-height:70em;" alt="map of wetland types">
+<h3 id="todays-crops-in-the-historic-wetlands-footprint">Today&rsquo;s crops in the historic wetlands footprint</h3>
+<img src="image4.png" style="width:100%; max-height:70em;" alt="map of land use types">
+<p><em>GIS maps by Hannah Adler.</em></p>
+<p>After exporting the attribute table (wetland types and area) to Excel, I looked at which crops were most prominent within the historic wetland footprint. This GIS data provides the opportunity to use contemporary greenhouse gas calculations to estimate historic quantities of greenhouse gas exchange using land cover. Using data collected from the wetlands in recent decades, scientists are able to estimate the carbon dioxide stored per square meter of wetland. Now that I have identified the area of specific wetlands in 1911, I can estimate the carbon that was stored there before agricultural development. I plan to expand on these calculations during my senior thesis as I work on modeling greenhouse gas flux.</p>
+<h2 id="methodology">Methodology</h2>
+<ol>
+<li>Georeference historic map in QGIS.</li>
+<li>Create a polygon layer for wetlands, and include wetland type for each digitized shape.</li>
+<li>Use the QGIS field calculator to calculate the area for each polygon.</li>
+<li>Download California crop data (shapefile), add to map.</li>
+<li>Clip California crop data to overlay wetland polygons.</li>
+<li>Export attribute tables to R or Excel for further analysis.</li>
+</ol>
+<h2 id="explore-the-data">Explore the data</h2>
+<p>Toggle between the historic georeferenced map, historic wetlands data, and modern crop data in this <a href="https://felt.com/map/California-wetlands-0y39AwKOPQKe5Z4f7csGjcC?loc=38.3744,-121.7539,9.49z&amp;share=1" target="_blank">exploratory web map</a>
+.</p>
+<iframe width="100%" height="488" frameborder="0" title="Felt Map" src="https://felt.com/embed/map/California-wetlands-0y39AwKOPQKe5Z4f7csGjcC?loc=38.2875%2C-121.7981%2C9.42z&legend=1&cooperativeGestures=1&link=1&geolocation=0&zoomControls=1&scaleBar=1" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<p>Download <a href="https://osf.io/3s4dq/" target="_blank">the project data</a>
+ from the Harvard Map Collection&rsquo;s site for Research, Teaching, and Learning GIS materials.</p>
+
+
+
+                
+                <br>
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    (function () {
+        
+        
+        if (window.location.hostname == "localhost")
+            return;
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = '';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>
+
+            <div class="col-lg-2 d-none d-xl-block">
+                <div class="ad-right-offset"></div>
+                
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+</body>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-55D9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+</html>

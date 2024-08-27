@@ -6,21 +6,28 @@
     <description>Recent content on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Finding GIS Data Checklist</title>
+      <title>Mapping Land Use Change in the Sacramento San-Joaquin River Delta</title>
+      <link>http://localhost:1313/posts/adler-delta/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/adler-delta/</guid>
+      <description>Introduction Early one August morning, I found myself donning borrowed fishing waders on the banks of a restored tidal wetland in Northern California. Thanks to a Salata Institute grant, I spent a week studying the Sacramento San-Joaquin River Delta alongside biometeorology experts. After exploring maps of the region through my assistantship with the Harvard Map Collection, I was incredibly grateful for the opportunity to traverse the landscape on foot, and prepare for my senior thesis on the science of these special ecosystems.</description>
+    </item>
+    <item>
+      <title>Searching for GIS data [checklist]</title>
       <link>http://localhost:1313/resources/finding-data/checklist/</link>
       <pubDate>Fri, 16 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/resources/finding-data/checklist/</guid>
-      <description>This checklist was designed by GIS Librarians Belle Lipton and Scott Walker (Harvard University), Tara Anthony (Penn State), Jessica Benner (Carnegie Mellon), John Clark (Lafayette College), Meagan Duever (Georgia State), Todd Quinn (University of New Mexico), Chris Thiry (Colorado School of Mines), and Amy Work (UC San Diego).&#xA;How to use the checklist Please use this checklist template tp provide GIS reference staff with information about what you have already tried in your GIS data search, and where you are getting stuck.</description>
+      <description>This checklist was designed by GIS Librarians Belle Lipton and Scott Walker (Harvard University), Tara Anthony (Penn State), Jessica Benner (Carnegie Mellon), John Clark (Lafayette College), Meagan Duever (Georgia State), Todd Quinn (University of New Mexico), Chris Thiry (Colorado School of Mines), and Amy Work (UC San Diego).&#xA;How to use the checklist Please use this checklist template to provide GIS reference staff with information about what you have already tried in your GIS data search, and where you are getting stuck.</description>
     </item>
     <item>
       <title>Welcome</title>
       <link>http://localhost:1313/resources/finding-data/in-class-activity/welcome/</link>
       <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/resources/finding-data/in-class-activity/welcome/</guid>
-      <description> Bit.ly Materials Orientation Map collection info </description>
+      <description>Get here quick: https://bit.ly/find-gis-data&#xA;Harvard Map Collection Map Collection Quick Facts Appointments available to look at maps or get help with GIS data. Monday - Friday 10:30 - 4. Drop-in weekly office hours for GIS help (no appointment needed). Visit Harvard Library website, go to events, search GIS. For general inquiries, email maps@harvard.edu . Today&amp;rsquo;s activity Duration: 30 minutes.&#xA;Visit the activity homepage .&#xA;Receive your group assignment from the instructor.</description>
     </item>
     <item>
       <title>A Geographical Cat in the Box</title>
@@ -65,18 +72,18 @@
       <description>Visit Atlascope.org , search for a place in Boston or Cambridge you are interested in exploring on a historical map, and experiment with toggling between different georeferenced map layers. Visit the Harvard Geospatial Library (HGL) . Click the Search button. In the left-hand side facets, under Format choose GeoTIFF. Under Access, choose Public. You can further filter results by the Institution which holds the source, the Place it depicts, or you can use the Search Bar to further refine results.</description>
     </item>
     <item>
-      <title>Group 5 [OpenStreetMaps]</title>
+      <title>Group 5 [OpenStreetMap]</title>
       <link>http://localhost:1313/resources/finding-data/in-class-activity/group-5/</link>
       <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-5/</guid>
-      <description></description>
+      <description>Sometimes &amp;ldquo;official&amp;rdquo; data is not available for particular data topics or places in the world. Leveraging data extracts from crowd-contributed projects, such as OpenStreetMap (OSM) can help fill in the gaps.&#xA;Consider Jess Eng&amp;rsquo;s 2021 project which looks at the location of Indian cuisine in London, using data extracted from OSM.&#xA;Visit the list of available Map Features you can extract as data layers from OSM. Identify a feature layer you might be interested in downloading.</description>
     </item>
     <item>
       <title>Group 6 [Creating Coordinates]</title>
       <link>http://localhost:1313/resources/finding-data/in-class-activity/group-6/</link>
       <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-6/</guid>
-      <description>Georeferencing Making spreadsheet with coordinates What is a CSV Make headers w lat, lon Upload it somewhere to visualize e.g. cotton seed crushing mills in the south using late 19th century business directories Right-clicking Google Maps to get coordinates Creating vector data with Google MyMaps, geojson.io, or desktop software (QGIS, ArcGIS Pro) Drawing KML </description>
+      <description>⚠️ Requirements At least one group member will need to be logged into their Google account to complete this activity.&#xA;The group member logged in should be ready by the end to share their screen on the class projector and lead a group discussion about their Google Sheets table and Google My Maps map. Create a new Google Sheets by typing sheets.new into a browser. Create three header columns, name, latitude, and longitude.</description>
     </item>
     <item>
       <title>Collection for Historical Scientific Instruments [Science Center]</title>
@@ -188,7 +195,7 @@
       <link>http://localhost:1313/resources/workshops/workshop-4/registration/</link>
       <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/resources/workshops/workshop-4/registration/</guid>
-      <description>This tutorial is part of the GIS Mapping Quickstart workshop, in which we:&#xA;download census data of nonwhite populations and poverty rate practice symbolizing and displaying the data in an online web map In this guide we will set up for these activities by registering for:&#xA;the census extract site, nhgis.org the web mapping site, felt.com NHGIS.org We will be using NHGIS.org via the Minnesota Population Center to obtain census data in this workshop.</description>
+      <description>This tutorial is part of the GIS Mapping Quickstart workshop, in which we:&#xA;download census data of nonwhite populations and poverty rate practice symbolizing and displaying the data in an online web map In this guide we will set up for these activities by registering for:&#xA;the census extract site, https://www.nhgis.org/ the web mapping site, https://felt.com/ NHGIS.org We will be using NHGIS.org via the Minnesota Population Center to obtain census data in this workshop.</description>
     </item>
     <item>
       <title>What are we mapping?</title>

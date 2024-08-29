@@ -12,6 +12,7 @@ layout: class
 - finding map sources
 - finding GIS data sources
 - GIS methods and software
+- [Harvard Geospatial Library](https://hgl.harvard.edu/)
 - [1:1 appointments](https://library.harvard.edu/libraries/harvard-map-collection)
 - [drop-in office hours](https://libcal.library.harvard.edu/calendar/main?t=d&q=gis&cid=15049&cal=15049&inc=0)
 - [workshops](https://libcal.library.harvard.edu/calendar/main?t=d&q=gis&cid=15049&cal=15049&inc=0)

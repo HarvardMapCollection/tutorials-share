@@ -8,7 +8,7 @@ layout: class
 
 ![text](../../../media/map-collection-directions.png)
 
-
+## Harvard Map Collection
 - finding map sources
 - finding GIS data sources
 - GIS methods and software

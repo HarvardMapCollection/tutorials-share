@@ -1,7 +1,7 @@
 ---
 title: Mapping Land Use Change in the Sacramento San-Joaquin River Delta
 date: 2024-08-27
-tags: ["news"]
+tags: ["news", "case study"]
 image: image3.jpg
 authors: ["Hannah Adler"]
 ---

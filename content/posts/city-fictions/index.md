@@ -1,7 +1,7 @@
 ---
 title: City Fictions
 date: 2021-12-16
-tags: ["news"]
+tags: ["news", "case study"]
 image: 8.png
 authors: ["Harvard Map Collection"]
 

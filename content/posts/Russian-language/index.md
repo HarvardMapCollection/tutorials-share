@@ -1,7 +1,7 @@
 ---
 title: Mapping the Russian Language
 date: 2023-01-13
-tags: ["news"]
+tags: ["news", "case study"]
 image: lee.png
 authors: ["Harvard Map Collection", "Paige Lee"]
 description: Quote, 'Don’t be afraid of going outside of your comfort zone or doing something no one else has done before!' In this article, Paige Lee shares how she sourced and wrangled data for her D3.js mapping project, and tips for other students getting started.

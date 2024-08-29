@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>News on GIS, maps &#43; data @ Harvard Library</title>
-    <link>http://localhost:1313/tags/news/</link>
-    <description>Recent content in News on GIS, maps &#43; data @ Harvard Library</description>
+    <title>Case Study on GIS, maps &#43; data @ Harvard Library</title>
+    <link>http://localhost:1313/tags/case-study/</link>
+    <description>Recent content in Case Study on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 27 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/case-study/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mapping Land Use Change in the Sacramento San-Joaquin River Delta</title>
       <link>http://localhost:1313/posts/adler-delta/</link>
       <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/adler-delta/</guid>
       <description>Early one August morning, I found myself donning borrowed fishing waders on the banks of a restored tidal wetland in Northern California. Thanks to a Salata Institute grant, I spent a week studying the Sacramento San-Joaquin River Delta alongside biometeorology experts. After exploring maps of the region through my assistantship with the Harvard Map Collection, I was incredibly grateful for the opportunity to traverse the landscape on foot, and prepare for my senior thesis on the science of these special ecosystems.</description>
-    </item>
-    <item>
-      <title>A Geographical Cat in the Box, a remembered yet unknown Institute of Geographical Exploration at Harvard (1930-1951)</title>
-      <link>http://localhost:1313/posts/nicolae/</link>
-      <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/nicolae/</guid>
-      <description>This dataset and story open the past of Harvard University’s Institute of Geographical Exploration (HUIGE, 1930-1951). The HUIGE was a building, a branch of Harvard’s defunct Geography department, a home to many students, and still a mystery to this day.&#xA;The scope of this project is simple: making a guide to as many repositories of HUIGE-related artifacts across Harvard’s campus and other institutions across Massachusetts. This guide cannot be complete but will hopefully help launch further inquiries into the fate of Aerial Photography and Geography at Harvard and in the USA.</description>
     </item>
     <item>
       <title>Off the Beaten Path?</title>
@@ -37,32 +30,11 @@
       <description>During Spring 2024, the Harvard Map Collection embedded with history course Re-Wilding Harvard, taught by Professor Joyce Chaplin. From the syllabus, &amp;ldquo;re-wilding returns a place to an earlier form to promote biodiversity; urban re-wilding does this within urban spaces, including Harvard’s.&amp;rdquo;&#xA;Re-wilded site from 2021, at the Harvard Museum of Natural History.&#xA;In past iterations of the course, students studied historic dimensions of pre-colonial landscapes and ecosystems at Harvard and their impact on what exists now.</description>
     </item>
     <item>
-      <title>Mapping Black Cambridge</title>
-      <link>http://localhost:1313/posts/mapping-black-cambridge/</link>
-      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/mapping-black-cambridge/</guid>
-      <description>The Harvard Map Collection recently partnered with the Leventhal Map and Education Center at the Boston Public Library to support a digital mapping project by scholars Joan Brunetta and Eve Loftus. Joan and Eve&amp;rsquo;s project, titled Mapping Black Cambridge , contributes to an evolving landscape of available data used to discern historic dimensions of Black life in Boston and Cambridge.&#xA;Leveraging historic maps and records from local libraries and archives, along with GIS training services , Joan and Eve have created a dataset from their meticulous research about Black life in Cambridge in the 19th century.</description>
-    </item>
-    <item>
-      <title>Introduction to Harvard&#39;s research data landscape</title>
-      <link>http://localhost:1313/posts/boyd/</link>
-      <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/boyd/</guid>
-      <description>In this interview, we are lucky to speak with Ceilyn Boyd , the Dataverse Development Project Manager at Harvard’s Institute for Quantitative Social Science (IQSS). Prior to her role with IQSS, Ceilyn served as the Manager of the Harvard Library Research Data Management Program. In this interview, she provides an invaluable tour around the complex research data ecosystem of Harvard University.&#xA;BELLE LIPTON: Hi Ceilyn. Thank you for speaking with us.</description>
-    </item>
-    <item>
       <title>Undoing Empire, One Plant at a Time</title>
       <link>http://localhost:1313/posts/odessa-biodiversity/</link>
       <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/odessa-biodiversity/</guid>
       <description>Floral motif from Ukrainian textile produced in 1902.&#xA;This year, the Harvard Map Collection partnered with Kelly O&amp;rsquo;Neill from the Davis Center on a project to demonstrate the value of our GIS data curation services . Dr. O&amp;rsquo;Neill&amp;rsquo;s project aims to capture data about historic biodiversity in the Ukraine. The Harvard Map Collection worked with her team to co-develop robust and useful metadata, so that the sources can be archived for long-term discovery and reuse.</description>
-    </item>
-    <item>
-      <title>Publishing tips from a data safety expert</title>
-      <link>http://localhost:1313/posts/potterbusch/</link>
-      <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/potterbusch/</guid>
-      <description>In this interview with Megan Potterbusch , the Harvard Kennedy School&amp;rsquo;s Research Data Steward, you will learn:&#xA;How to balance open science and data safety How to get started with support for your research The interview BELLE LIPTON: Megan, can you introduce us to your role?&#xA;MEGAN POTTERBUSCH: I work within the Kennedy School’s Libraries and Research Services. I’m the primary reviewer for data safety plans. A data safety plan is required for anyone who is working with regulated or contracted data, especially data that is considered sensitive.</description>
     </item>
     <item>
       <title>Mapping the Russian Language</title>
@@ -77,13 +49,6 @@
       <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/city-fictions/</guid>
       <description>This semester, we worked with Tara K. Menon&amp;rsquo;s English class, titled City Fictions. In this class, undergraduates explored the various ways writers capture the constituent features of life in urban environments, reading books set in London, Bombay, New York, and Tokyo.&#xA;Wonderground map of the London town, 1914. We were happy to learn that one of the course assignments involved mapmaking; in order to get at different ways the experience of city might be represented, students were tasked with creating two distinct maps of the same place.</description>
-    </item>
-    <item>
-      <title>Interview with graphics journalist, Rachael Dottle</title>
-      <link>http://localhost:1313/posts/graphics/</link>
-      <pubDate>Mon, 16 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/graphics/</guid>
-      <description>Skills to create beautiful and engaging maps can be strengthened in a semester, says Bloomberg graphics journalist.&#xA;The type of narrative, map-based digital projects we see in the news, like the recent CityLab project documenting racist urban infrastructure in St. Paul, Minnesota require many research and technical skills to pull off.&#xA;The Harvard Map Collection asked Bloomberg graphics journalist, Rachael Dottle about her methodology in scoping, researching, and creating maps for this story.</description>
     </item>
   </channel>
 </rss>

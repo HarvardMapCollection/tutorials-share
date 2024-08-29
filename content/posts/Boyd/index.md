@@ -1,7 +1,7 @@
 ---
 title: Introduction to Harvard's research data landscape
 date: 2023-12-08
-tags: ["news"]
+tags: ["news", "interview"]
 image: a-gradient12.png
 authors: ["Belle Lipton", "Ceilyn Boyd"]
 description: Quote, 'like a piano keyboard with 88 keys, Harvard's research data landscape may not be considered a simple user interface, but it allows users to create amazing music once they have learned it...There is help available in the Harvard environment.' In this article Harvard Map Collection GIS Librarian Belle Lipton interviews Dataverse Development Project Manager Ceilyn Boyd. 

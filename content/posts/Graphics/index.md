@@ -1,7 +1,7 @@
 ---
 title: Interview with graphics journalist, Rachael Dottle
 date: 2021-08-16
-tags: ["news"]
+tags: ["news", "interview"]
 image: dottle.png
 authors: ["Belle Lipton", "Rachael Dottle"]
 ---

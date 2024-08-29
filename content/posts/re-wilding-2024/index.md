@@ -1,7 +1,7 @@
 ---
 title: Re-Wilding Harvard, Spring 2024
 date: 2024-06-13
-tags: ["news"]
+tags: ["news", "case study"]
 image: winter.png
 authors: ["Belle Lipton", "Hannah Adler", "Nikita Nair", "Hayden Teeter", "Cody Vasquez", "Alyssia Wiesenbauer", "Boya Zhou"  ]
 description: Re-Wilding Harvard 2024 GIS projects.

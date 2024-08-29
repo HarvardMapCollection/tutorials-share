@@ -3,8 +3,19 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/tags/case-study/</loc>
-	    <lastmod>2024-08-27</lastmod>
+	    <loc>http://localhost:1313/tags/class/</loc>
+	    <lastmod>2024-08-29</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/classes/government/1008/fall-2024/</loc>
+	    <lastmod>2024-08-29</lastmod>
         
 
         
@@ -15,6 +26,39 @@
       
 	  <url>
 	    <loc>http://localhost:1313/</loc>
+	    <lastmod>2024-08-29</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/classes/sociology/</loc>
+	    <lastmod>2024-08-29</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/tags/</loc>
+	    <lastmod>2024-08-29</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/tags/case-study/</loc>
 	    <lastmod>2024-08-27</lastmod>
         
 
@@ -58,8 +102,8 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/tags/</loc>
-	    <lastmod>2024-08-27</lastmod>
+	    <loc>http://localhost:1313/classes/sociology/sociol-90gis/fall-2024/</loc>
+	    <lastmod>2024-08-24</lastmod>
         
 
         
@@ -610,17 +654,6 @@
 	  <url>
 	    <loc>http://localhost:1313/posts/re-wilding-2024/</loc>
 	    <lastmod>2024-06-13</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/class/</loc>
-	    <lastmod>2024-05-17</lastmod>
         
 
         

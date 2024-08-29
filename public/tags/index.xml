@@ -9,10 +9,24 @@
     <lastBuildDate>Tue, 27 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Case Study</title>
+      <link>http://localhost:1313/tags/case-study/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/case-study/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>News</title>
       <link>http://localhost:1313/tags/news/</link>
       <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/news/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Research Story</title>
+      <link>http://localhost:1313/tags/research-story/</link>
+      <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/research-story/</guid>
       <description></description>
     </item>
     <item>
@@ -76,6 +90,13 @@
       <link>http://localhost:1313/tags/test-template/</link>
       <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/test-template/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Interview</title>
+      <link>http://localhost:1313/tags/interview/</link>
+      <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/interview/</guid>
       <description></description>
     </item>
     <item>

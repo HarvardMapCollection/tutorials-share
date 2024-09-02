@@ -11,9 +11,11 @@ description: Information about how to access and use ArcGIS Pro and other ESRI p
 
 If you have a PC and a Harvard Key, you can download and install ArcGIS Pro on your own computer using [these instructions](https://gis.harvard.edu/arcgis-pro) from the Harvard Center for Geographic Analysis (CGA).
 
-If you do not have a PC, consider using the open-source equivalent GIS desktop software, QGIS, which is OS-independent.
+If you do not have a PC, you can:
+1. Use this guide from the Harvard Center for Geographic Analysis (CGA) on [How to install ArcGIS Desktop or Pro on a Mac](https://gis.harvard.edu/faq/how-installing-arcgis-desktop-or-pro-mac-computer).
+2. Consider using the open-source equivalent GIS desktop software, QGIS, which is OS-independent.
 - [QGIS download instructions](https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-software/)
-- QGIS is available on all of the workstations in Lamont 310 ([directions](https://maps.app.goo.gl/Hzb4UFgFNbetQ3xa6)). 
+- QGIS is available on all of the workstations included in this guide, as well as on all of the computers in Lamont 310 ([directions](https://maps.app.goo.gl/Hzb4UFgFNbetQ3xa6)). 
 
 
 ## Do I Need ArcGIS Pro?

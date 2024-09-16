@@ -1,7 +1,7 @@
 ---
 title: Extract OpenStreetMap features
 date: 2023-01-19
-tags: ["tutorials", "OpenStreetMap"]
+tags: ["tutorials", "OpenStreetMap", "data topics"]
 image: gradient10.png
 description: Learn how to extract OpenStreetMap features by feature type, using the QuickOSM plugin for QGIS.
 ---

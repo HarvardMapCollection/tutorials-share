@@ -65,6 +65,11 @@ theme = 'BlogRa'
                 name = "QGIS"
                 url = "/tags/QGIS/"
                 weight = 9
+            [[menu.main]]
+                parent = "Tutorials"
+                name = "Data Topics"
+                url = "/tags/data-topics/"
+                weight = 10
 
 
     [[menu.main]]

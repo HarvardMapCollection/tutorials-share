@@ -6,8 +6,22 @@
     <description>Recent content in Qgis on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/qgis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Download 3-1-1 data</title>
+      <link>http://localhost:1313/resources/workshops/workshop-5/data/</link>
+      <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/workshops/workshop-5/data/</guid>
+      <description> Search for 3-1-1 data Look @ metadata Download processed version Open in QGIS + inspect </description>
+    </item>
+    <item>
+      <title>Create hexbins</title>
+      <link>http://localhost:1313/resources/workshops/workshop-5/create-hexbins/</link>
+      <pubDate>Sat, 14 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/workshops/workshop-5/create-hexbins/</guid>
+      <description> Search for 3-1-1 data Look @ metadata Download processed version Open in QGIS + inspect </description>
+    </item>
     <item>
       <title>Vectorize maps into data; polygon area calculations for QGIS</title>
       <link>http://localhost:1313/tutorials/qgis/adler/</link>

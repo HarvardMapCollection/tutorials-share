@@ -2,7 +2,7 @@
 title: Intro to GIS 
 date: 2024-02-23
 image: map.png
-description: In this introduction to our GIS workshop series, you will learn the foundations of GIS, including common formats, software, and ways to get support on campus.
+description: No step-by-step instructions; In-class workshop materials only. Investigate point data structure (Washington Tree Data exercise); Practice table joins (U.S. arms exports exercise); Leverage attributes to power categorical symbolization (Massachusetts bike path exercise).
 ---
 
 ## Sign up

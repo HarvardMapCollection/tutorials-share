@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>GIS Mapping Quickstart Part 2 on GIS, maps &#43; data @ Harvard Library</title>
+    <title>GIS Mapping Quickstart - Part 2 on GIS, maps &#43; data @ Harvard Library</title>
     <link>http://localhost:1313/resources/workshops/workshop-5/</link>
-    <description>Recent content in GIS Mapping Quickstart Part 2 on GIS, maps &#43; data @ Harvard Library</description>
+    <description>Recent content in GIS Mapping Quickstart - Part 2 on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 16 Sep 2024 00:00:00 +0000</lastBuildDate>
@@ -16,7 +16,7 @@
       <description>Get to this page quick: https://bit.ly/quickstart-2 Sign up Find out when we are offering this workshop by visiting the library calendar , or request a custom instance for your course by emailing maps@harvard.edu .&#xA;Requirements This workshop requires downloading QGIS , a free and open-source desktop GIS that works with PCs and Macs.&#xA;Steps Download 3-1-1 data Poverty rate mapping by census tract Percent non-white mapping by census tract Uploading census data to Felt Working with spreadsheet data Buffers and spatial analysis Historical maps Exporting and saving project data Data You can download course data from the Harvard Map Collection Open Science Framework site for Geospatial Research, Teaching and Learning.</description>
     </item>
     <item>
-      <title>Download 3-1-1 data</title>
+      <title>Boston 3-1-1 data</title>
       <link>http://localhost:1313/resources/workshops/workshop-5/data/</link>
       <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/resources/workshops/workshop-5/data/</guid>

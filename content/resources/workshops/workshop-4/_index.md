@@ -1,8 +1,8 @@
 ---
-title: GIS Mapping Quickstart
-date: 2024-07-26
+title: GIS Mapping Quickstart - Part 1
+date: 2024-09-16
 image: cover.png
-description: In this workshop we will learn how to download poverty rate GIS data by census tract, non-white population GIS data by census tract, and make a map of basketball courts and fitness classes in NYC.
+description: Step-by-step follow-along instructions covering core introductory GIS concepts. What is GIS data and how is it structured? What are some of the most common GIS datasets people struggle with and why? How do we turn tabular spreadsheets into spatial formats? How do we analyze spatial patterns? 
 ---
 
 

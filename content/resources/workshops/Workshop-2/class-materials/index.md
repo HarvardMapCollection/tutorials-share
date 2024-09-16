@@ -39,6 +39,7 @@ Get to this page quick:
 <div class="alert-success">
 <h3>More GIS programs</h3>
 <p>Sign up for this and other GIS programs in the <a href="https://libcal.library.harvard.edu/calendar/main?t=d&q=gis&cid=15049&cal=15049&inc=0">library calendar.</a></p>
+<p>Email <a href="https://library.harvard.edu/staff/belle-lipton">belle_lipton@harvard.edu</a> to request new dates for this workshop.</p>
 </div>
 
 

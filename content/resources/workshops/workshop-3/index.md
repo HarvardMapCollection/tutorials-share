@@ -3,7 +3,7 @@ title: Advanced Data Cleaning for GIS
 date: 2023-07-27
 image: addresses.png
 layout: single2
-description: In this workshop, we will practice working through common problems that arise when preparing mapping data for spatial analysis. You will leave with strengthened foundational GIS skills. We will also provide example approaches to especially challenging GIS data problems.
+description: No step-by-step instructions; In-class workshop materials only. Deconstruct Harvard mapping use cases (Displaced Ukrainian scholars in Russia; Incarcerated women in Mexico); Practice table joins (COVID rates and Massachusetts Municipalities; Census tracts and percent stayed in tract from Opportunity Atlas); Pivot tables; Normalization; Geocoding; Point-in-polygon aggregation; R/Python; Open Refine. 
 ---
 
 Get to this page quick: 
@@ -11,6 +11,8 @@ Get to this page quick:
 
 ## Sign up
 Find out when we are offering this workshop by visiting the [library calendar](https://libcal.library.harvard.edu/calendar/main?t=d&q=gis&cid=15049&cal=15049&inc=0).
+
+Email [belle_lipton@harvard.edu](https://library.harvard.edu/staff/belle-lipton) to request new dates for this workshop.
 
 
 ## Class materials

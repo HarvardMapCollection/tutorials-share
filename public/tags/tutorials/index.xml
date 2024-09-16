@@ -6,14 +6,28 @@
     <description>Recent content in Tutorials on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Download 3-1-1 data</title>
+      <link>http://localhost:1313/resources/workshops/workshop-5/data/</link>
+      <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/workshops/workshop-5/data/</guid>
+      <description> Search for 3-1-1 data Look @ metadata Download processed version Open in QGIS + inspect </description>
+    </item>
+    <item>
+      <title>Create hexbins</title>
+      <link>http://localhost:1313/resources/workshops/workshop-5/create-hexbins/</link>
+      <pubDate>Sat, 14 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/workshops/workshop-5/create-hexbins/</guid>
+      <description> Search for 3-1-1 data Look @ metadata Download processed version Open in QGIS + inspect </description>
+    </item>
     <item>
       <title>Where and How to Get ArcGIS Pro at Harvard</title>
       <link>http://localhost:1313/tutorials/arcgis-online/arcgis-pro/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/arcgis-online/arcgis-pro/</guid>
-      <description>On your own computer If you have a PC and a Harvard Key, you can download and install ArcGIS Pro on your own computer using these instructions from the Harvard Center for Geographic Analysis (CGA).&#xA;If you do not have a PC, consider using the open-source equivalent GIS desktop software, QGIS, which is OS-independent.&#xA;QGIS download instructions QGIS is available on all of the workstations in Lamont 310 (directions ). Do I Need ArcGIS Pro?</description>
+      <description>On your own computer If you have a PC and a Harvard Key, you can download and install ArcGIS Pro on your own computer using these instructions from the Harvard Center for Geographic Analysis (CGA).&#xA;If you do not have a PC, you can:&#xA;Use the Harvard Center for Geographic Analysis (CGA) guide on How to install ArcGIS Desktop or Pro on a Mac . Consider using the open-source equivalent GIS desktop software, QGIS, which is OS-independent.</description>
     </item>
     <item>
       <title>Georeference in QGIS</title>

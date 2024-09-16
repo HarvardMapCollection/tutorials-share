@@ -3,8 +3,140 @@
       
       
 	  <url>
+	    <loc>http://localhost:1313/resources/workshops/workshop-5/in-person/</loc>
+	    <lastmod>2024-09-16</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/resources/workshops/workshop-5/</loc>
+	    <lastmod>2024-09-16</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/</loc>
+	    <lastmod>2024-09-16</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/resources/</loc>
+	    <lastmod>2024-09-16</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/tags/data-topics/</loc>
+	    <lastmod>2024-09-15</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/resources/workshops/workshop-5/data/</loc>
+	    <lastmod>2024-09-15</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/tags/qgis/</loc>
+	    <lastmod>2024-09-15</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/tags/</loc>
+	    <lastmod>2024-09-15</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/tags/tutorials/</loc>
+	    <lastmod>2024-09-15</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/resources/workshops/workshop-5/create-hexbins/</loc>
+	    <lastmod>2024-09-14</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
 	    <loc>http://localhost:1313/tags/class/</loc>
-	    <lastmod>2024-08-29</lastmod>
+	    <lastmod>2024-09-12</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/classes/haa/174p/</loc>
+	    <lastmod>2024-09-12</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/classes/haa/</loc>
+	    <lastmod>2024-09-12</lastmod>
         
 
         
@@ -25,29 +157,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/</loc>
-	    <lastmod>2024-08-29</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
 	    <loc>http://localhost:1313/classes/sociology/</loc>
-	    <lastmod>2024-08-29</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/</loc>
 	    <lastmod>2024-08-29</lastmod>
         
 
@@ -104,17 +214,6 @@
 	  <url>
 	    <loc>http://localhost:1313/classes/sociology/sociol-90gis/fall-2024/</loc>
 	    <lastmod>2024-08-24</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/resources/</loc>
-	    <lastmod>2024-08-16</lastmod>
         
 
         
@@ -301,17 +400,6 @@
       
 	  <url>
 	    <loc>http://localhost:1313/projects/huige/map-collection/</loc>
-	    <lastmod>2024-08-08</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/qgis/</loc>
 	    <lastmod>2024-08-08</lastmod>
         
 
@@ -928,17 +1016,6 @@
       
 	  <url>
 	    <loc>http://localhost:1313/tutorials/qgis/</loc>
-	    <lastmod>2023-06-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/tutorials/</loc>
 	    <lastmod>2023-06-01</lastmod>
         
 

@@ -6,8 +6,36 @@
     <description>Recent content on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Course materials</title>
+      <link>http://localhost:1313/resources/workshops/workshop-5/in-person/</link>
+      <pubDate>Mon, 16 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/workshops/workshop-5/in-person/</guid>
+      <description>Get to this page quick: https://bit.ly/quickstart-2 Sign up Find out when we are offering this workshop by visiting the library calendar , or request a custom instance for your course by emailing maps@harvard.edu .&#xA;Requirements This workshop requires downloading QGIS , a free and open-source desktop GIS that works with PCs and Macs.&#xA;Steps Download 3-1-1 data Poverty rate mapping by census tract Percent non-white mapping by census tract Uploading census data to Felt Working with spreadsheet data Buffers and spatial analysis Historical maps Exporting and saving project data Data You can download course data from the Harvard Map Collection Open Science Framework site for Geospatial Research, Teaching and Learning.</description>
+    </item>
+    <item>
+      <title>Download 3-1-1 data</title>
+      <link>http://localhost:1313/resources/workshops/workshop-5/data/</link>
+      <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/workshops/workshop-5/data/</guid>
+      <description> Search for 3-1-1 data Look @ metadata Download processed version Open in QGIS + inspect </description>
+    </item>
+    <item>
+      <title>Create hexbins</title>
+      <link>http://localhost:1313/resources/workshops/workshop-5/create-hexbins/</link>
+      <pubDate>Sat, 14 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/workshops/workshop-5/create-hexbins/</guid>
+      <description> Search for 3-1-1 data Look @ metadata Download processed version Open in QGIS + inspect </description>
+    </item>
+    <item>
+      <title>HAA 174P</title>
+      <link>http://localhost:1313/classes/haa/174p/</link>
+      <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/classes/haa/174p/</guid>
+      <description>Get here quick https://bit.ly/haa-174p Prof. Jordan recommended datasets Castles and Forts in Ghana Mapping the historical European castles and forts built along the coast of West Africa shows the density of occupation of European control and manipulation of trade on the African continent. The castles and fortresses were eventually used to hold captured Africans for chattel slavery and sent abroad.&#xA;Favellas in Brazil Favelas or slums are generally located on the edge of urban populations.</description>
+    </item>
     <item>
       <title>Fall 2024 Harvard Map Collection</title>
       <link>http://localhost:1313/classes/government/1008/fall-2024/</link>
@@ -391,7 +419,7 @@
       <link>http://localhost:1313/tutorials/arcgis-online/arcgis-pro/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/arcgis-online/arcgis-pro/</guid>
-      <description>On your own computer If you have a PC and a Harvard Key, you can download and install ArcGIS Pro on your own computer using these instructions from the Harvard Center for Geographic Analysis (CGA).&#xA;If you do not have a PC, you can:&#xA;Use this guide from the Harvard Center for Geographic Analysis (CGA) on How to install ArcGIS Desktop or Pro on a Mac . Consider using the open-source equivalent GIS desktop software, QGIS, which is OS-independent.</description>
+      <description>On your own computer If you have a PC and a Harvard Key, you can download and install ArcGIS Pro on your own computer using these instructions from the Harvard Center for Geographic Analysis (CGA).&#xA;If you do not have a PC, you can:&#xA;Use the Harvard Center for Geographic Analysis (CGA) guide on How to install ArcGIS Desktop or Pro on a Mac . Consider using the open-source equivalent GIS desktop software, QGIS, which is OS-independent.</description>
     </item>
     <item>
       <title>GIS Outreach with the Harvard Map Collection</title>

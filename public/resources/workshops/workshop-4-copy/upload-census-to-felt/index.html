@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>
+    
+    Upload Census Data to Felt | 
+    
+    GIS, maps &#43; data @ Harvard Library
+</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="http://localhost:1313/resources/workshops/workshop-4-copy/upload-census-to-felt/" />
+<link rel="icon" type="image/png" href="http://localhost:1313/image/favicon.ico">
+
+
+<meta name="description" content="
+    How to upload a spreadsheet of census demographic data with a census FIPS code to mapping platform, Felt.
+    "
+/>
+<meta property="og:description" content="
+    How to upload a spreadsheet of census demographic data with a census FIPS code to mapping platform, Felt.
+    " 
+/>
+
+
+<meta property="og:image" content="http://localhost:1313/resources/workshops/workshop-4-copy/upload-census-to-felt/cover.png" />
+
+
+
+
+
+
+<meta property="og:title" content="Upload census data to Felt" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/resources/workshops/workshop-4-copy/upload-census-to-felt/" /><meta property="article:section" content="resources" />
+<meta property="article:published_time" content="2024-07-19T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-07-19T00:00:00+00:00" />
+
+
+
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/resources/workshops/workshop-4-copy/upload-census-to-felt/cover.png">
+  <meta name="twitter:title" content="Upload census data to Felt">
+  <meta name="twitter:description" content="How to upload a spreadsheet of census demographic data with a census FIPS code to mapping platform, Felt.">
+
+
+  <meta itemprop="name" content="Upload census data to Felt">
+  <meta itemprop="description" content="How to upload a spreadsheet of census demographic data with a census FIPS code to mapping platform, Felt.">
+  <meta itemprop="datePublished" content="2024-07-19T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-07-19T00:00:00+00:00">
+  <meta itemprop="wordCount" content="1090">
+  <meta itemprop="image" content="http://localhost:1313/resources/workshops/workshop-4-copy/upload-census-to-felt/cover.png">
+  <meta itemprop="keywords" content="Census,Felt">
+
+
+
+
+<link rel="stylesheet" href="/main.min.css">
+<link rel="stylesheet" href="https://use.typekit.net/yiq3yrx.css">
+<link rel="stylesheet" href="/typekit/stylesheet.css">
+
+
+
+
+
+<script src="/bundle.js"></script>
+
+
+
+
+
+
+
+<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body><header id="header">
+  <div class="top-bar">
+    <div class="container-md">
+
+      <div class="row align-items-center">
+
+        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
+          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <i class="fas fa-bars"></i> Menu
+          </button>
+        </div>
+
+        <div class="col-12 col-sm-12">
+          <h2 class="title"><a href="/">GIS, maps &#43; data @ Harvard Library</a></h2>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-md">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+
+
+
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/">
+              Home
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Tutorials
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/tags/census/">Census</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/openstreetmap/">OpenStreetMap</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/file-formats/">File Formats</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/georeferencing/">Georeferencing</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/vectorization/">Vectorization</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/spatial-analysis/">Spatial Analysis</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/arcgis/">ArcGIS</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/felt/">Felt</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/qgis/">QGIS</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Resources
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/resources/workshops">Workshops</a>
+              
+              
+              
+                <a class="dropdown-item" href="/resources/researchers-handbook">Data management</a>
+              
+              
+              
+                <a class="dropdown-item" href="/resources/finding-data">Finding data</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/tags/news">
+              Blog
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/projects/">
+              Projects
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/connect/">
+              Connect
+            </a>
+          </li>
+          
+          
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="blog-content">
+    <div class="container-md">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 px-lg-4">
+                
+                <div class="breadcrumb-container">
+                    <nav aria-label="breadcrumb" class="breadcrumb">
+                        <ol>
+                          
+                          ↵
+                            <li>
+                              <a href="/"> GIS, maps &#43; data @ Harvard Library</a>
+                            </li>
+                          
+                          ↵
+                            <li>
+                              <a href="/resources/"> Resources</a>
+                            </li>
+                          
+                          ↵
+                            <li>
+                              <a href="/resources/workshops/"> Harvard Library GIS Workshops</a>
+                            </li>
+                          
+                          ↵
+                            <li>
+                              <a href="/resources/workshops/workshop-4-copy/"> GIS Mapping Quickstart</a>
+                            </li>
+                          
+                          <li style="margin-right: 0;" class="active">
+                            👋
+                            <a aria-current="page" href="/resources/workshops/workshop-4-copy/upload-census-to-felt/">Upload census data to Felt</a>
+                          </li>
+                        </ol>
+                      </nav>
+                      </div>
+
+
+                <h1 class="title">Upload Census Data to Felt</h1>
+
+                <p>The goal of this tutorial is to start with a spreadsheet of census information, and upload the information so that it displays as <strong>polygons</strong> on the map. As mentioned in the software <a href="https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/registration/" target="_blank">requirements</a>
+ section of this workhop, we are choosing Felt as a venue to get started working with census data because it faciliates the process of table joins for us.</p>
+<div class="alert-success">
+<h2>Jump ahead</h2>
+  <p>If you already have a background on the structure of GIS data, and want to learn how to use census data in Felt, you can jump to the bottom of this page labeled <a href="https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/upload-census-to-felt/#steps">"Steps"</a></p>
+</div>
+<div class="alert-info">
+<h2>Table joins</h2>
+  <p>Table joins are a common skill you will want to learn if you plan to use GIS. They usually require some data cleaning, which can occupy workshop time. This is why, today, we are choosing an online tool which performs this for us. If you want to practice table joins, follow the <a href="https://mapping.share.library.harvard.edu/tutorials/census-data-primer/perform-a-table-join/">table joins tutorial</a>, or inquire about our Data Cleaning for GIS workshop. </p>
+</div>
+<p>Table joins work in Felt because Felt has already pre-uploaded vector geometry files of different census geometries. Felt includes these data layers because mapping census data is a common GIS task. An example would be a default layer of all of the county shapes in the United States. Another example would be a default layer of the shape of every census tract in the United States. To remind yourself of the different options for census geographies, you can refer to the <a href="https://www.census.gov/programs-surveys/geography/guidance/hierarchy.html" target="_blank">census geography hierarchy documentation</a>
+ on census.gov.</p>
+<p><img src="media/geoid.png" alt="geoids for census tract polygons"></p>
+<p>For any of these data layers, for example, census tracts, each census polygon will have a unique ID associated with it. These ID codes are sometimes called <code>GEOIDs</code> or census <code>FIPS codes</code>. When we are uploading a spreadsheet with data we want to map, it is important to make sure the spreadsheet has a column with a corresponding unique ID. The column does not have to be called &ldquo;GEOID&rdquo;, but it does have to contain the same unique strings indicating which census geography any given table row pertains to.</p>
+<p><img src="media/geoid-table.png" alt="table with column GEOID"></p>
+<h2 id="to-upload-census-data-to-felt-make-sure">To upload census data to Felt, make sure</h2>
+<ul>
+<li>Your dataset is organized by geography, meaning, each <em>row</em> in the dataset represents one census geography (either a county, a census tract, a block group, and so forth, depending on which geographic unit you&rsquo;ve chosen to aggregate by).</li>
+<li>Your dataset has a column containing the <a href="%28https://www.census.gov/programs-surveys/geography/guidance/geo-identifiers.html%29">census geography GEOID</a>
+ code.</li>
+<li>Your dataset has a column you&rsquo;d like to map. If the column contains numerical statistical values, ensure the column is formatted as a <strong>number</strong> type.</li>
+</ul>
+<p><img src="media/felt-formatted.png" alt="table formatted with only geoid and census value to map">
+<em>This table is formatted so that it will display as polygons in Felt. The GEOID column will join with the pre-uploaded census tract shapes, which come as a default with Felt.</em></p>
+<h2 id="upload-instructions">Upload instructions</h2>
+<p>It&rsquo;s important to make sure Felt knows which column to use for geography. There are lots of different ways to turn a tabular spreadsheet into a map. For instance, you can</p>
+<ul>
+<li>Transform a table of x,y coordinates into points</li>
+<li>Locate the <code>centroid</code> of a place name and represent it as one singular dot on the map</li>
+</ul>
+<p>We don&rsquo;t want to choose either of those options. We want to map our data as <em>polygons</em>, because having the polygon shapes will allow us to shade each unique region with a different color to visualize population density. To play around with different graduated color schemes, check out the mapping website <a href="https://colorbrewer2.org/#type=sequential&amp;scheme=BuGn&amp;n=3" target="_blank">Color Brewer</a>
+.</p>
+<table>
+<thead>
+<tr>
+<th><strong>GEOID</strong></th>
+<th><strong>County</strong></th>
+<th><strong>Pct_Nonwhite</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1400000US36001000100</td>
+<td>Albany County</td>
+<td>66.7994687915007</td>
+</tr>
+<tr>
+<td>1400000US36001000201</td>
+<td>Bronx County</td>
+<td>84.2596348884381</td>
+</tr>
+<tr>
+<td>1400000US36001000401</td>
+<td>Kings County</td>
+<td>10.7779226423294</td>
+</tr>
+</tbody>
+</table>
+<p>Notice how in the table above, there is both a column for <code>GEOID</code> (the field we would use to join our data to matching polygons), <em>and</em> a column listing which county each census tract is contained by. If we uploaded a dataset like this to Felt, there is a chance Felt could trying to use the <code>County</code> field to treat as the spreadsheet geography, and instead of joining the <code>GEOID</code> field, it would place the data as dots on the map representing county centroids.</p>
+<p>To avoid this and ensure your census spreadsheet data will join up with census polygons, it&rsquo;s best to do some pre-processing cleaning of your spreadsheet, and remove any redundant geography columns you don&rsquo;t need for your map.</p>
+<h3 id="steps">Steps</h3>
+<h4 id="upload">Upload</h4>
+<ol>
+<li>
+<p>Remove all columns from the table besides the <code>GEOID</code> and the field you want to map. You can also leave in any information you want to show up in a pop-up window, for instance the fields you used to derive your mapped columns. This might help you explore the data in more detail later.</p>
+</li>
+<li>
+<p>In a Felt map, from the top-menu, select <code>Upload Anything</code>.
+<img src="media/upload-anything.png" alt="Felt upload button"></p>
+</li>
+<li>
+<p>Choose <code>Upload file</code>.</p>
+</li>
+<li>
+<p>Select the spreadsheet you have prepared.</p>
+</li>
+<li>
+<p>To the prompt &ldquo;How do you want to add this data?&rdquo; Choose <code>Data Layer</code> and <code>Create</code>.</p>
+</li>
+<li>
+<p>Wait for the data to upload. There is a progress bar in the <code>Legend</code>.</p>
+</li>
+<li>
+<p>When the data finishes uploading, you will know it was successful if you can see polygon features on the map.</p>
+</li>
+</ol>
+<h4 id="symbolize">Symbolize</h4>
+<ol>
+<li>
+<p>Right now the polygons are all showing up the same. To use graduated symbology, click the layer in the <code>Legend</code>.</p>
+</li>
+<li>
+<p>This will bring up a sidebar on the right. The first item in the sidebar will be the title of the layer, which is created from the filename. If you are happy with this title, proceed to the next step, but if you&rsquo;d like to change it, you can click on the title text in the sidebar.</p>
+</li>
+<li>
+<p>Under <code>Style</code> → <code>General</code> → <code>Type</code>, change <code>Simple</code> to <code>Color Range</code>.</p>
+</li>
+<li>
+<p>Under <code>Color by</code>, ensure Felt is identifying the correct variable to map, if not change the name of the field using the dropdown.</p>
+</li>
+<li>
+<p>Under <code>Polygons</code> → <code>Fill</code> you can change which color ramp to use.</p>
+</li>
+<li>
+<p>Click <code>General</code> → <code>Steps</code>. This will open a menu that lets you control how your data are grouped into categories. Click the value next to <code>Method</code> and explore how you want to bin your data.</p>
+</li>
+</ol>
+<p><img src="media/method.png" alt="Felt binning method options"></p>
+<p>If you choose <code>Jenks</code> or <code>Equal Interval</code>, for instance, you can define how many binning categories to use. If you choose <code>Manual</code>, you can set the ranges yourself.</p>
+<h4 id="configure-popups">Configure popups</h4>
+<ol>
+<li>
+<p>Under <code>Popups</code> → <code>Contents</code>, click <code>Table</code>.</p>
+</li>
+<li>
+<p>You can remove attributes from showing up in the popup window, or change the field alias for how field names display.</p>
+</li>
+</ol>
+<h4 id="add-a-histogram">Add a histogram</h4>
+<ol>
+<li>
+<p>To add a histogram to your <code>Legend</code>, from the menu bar, select <code>Components</code>.
+<img src="media/Components.png" alt="Felt components button"></p>
+</li>
+<li>
+<p>In the configuration menu that pops up on the right, ensure the correct <code>Attribute</code> is selected. These histograms are interactive; you can use them to change which polygons are displayed on the map.</p>
+</li>
+</ol>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+
+</body>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-55D9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+</html>

@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>
+    
+    How to Download Percent Non-White Population Data by Census Tract for GIS | 
+    
+    GIS, maps &#43; data @ Harvard Library
+</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="http://localhost:1313/resources/workshops/workshop-4-copy/non-white-population/" />
+<link rel="icon" type="image/png" href="http://localhost:1313/image/favicon.ico">
+
+
+<meta name="description" content="
+    We will download non-white population data for the United States and filter it to New York City for use with GIS mapping.
+    "
+/>
+<meta property="og:description" content="
+    We will download non-white population data for the United States and filter it to New York City for use with GIS mapping.
+    " 
+/>
+
+
+<meta property="og:image" content="http://localhost:1313/resources/workshops/workshop-4-copy/non-white-population/cover.png" />
+
+
+
+
+
+
+<meta property="og:title" content="How to download percent non-white population data by census tract for GIS" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/resources/workshops/workshop-4-copy/non-white-population/" /><meta property="article:section" content="resources" />
+<meta property="article:published_time" content="2024-07-20T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-07-20T00:00:00+00:00" />
+
+
+
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/resources/workshops/workshop-4-copy/non-white-population/cover.png">
+  <meta name="twitter:title" content="How to download percent non-white population data by census tract for GIS">
+  <meta name="twitter:description" content="We will download non-white population data for the United States and filter it to New York City for use with GIS mapping.">
+
+
+  <meta itemprop="name" content="How to download percent non-white population data by census tract for GIS">
+  <meta itemprop="description" content="We will download non-white population data for the United States and filter it to New York City for use with GIS mapping.">
+  <meta itemprop="datePublished" content="2024-07-20T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-07-20T00:00:00+00:00">
+  <meta itemprop="wordCount" content="1152">
+  <meta itemprop="image" content="http://localhost:1313/resources/workshops/workshop-4-copy/non-white-population/cover.png">
+  <meta itemprop="keywords" content="Census,Felt">
+
+
+
+
+<link rel="stylesheet" href="/main.min.css">
+<link rel="stylesheet" href="https://use.typekit.net/yiq3yrx.css">
+<link rel="stylesheet" href="/typekit/stylesheet.css">
+
+
+
+
+
+<script src="/bundle.js"></script>
+
+
+
+
+
+
+
+<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body><header id="header">
+  <div class="top-bar">
+    <div class="container-md">
+
+      <div class="row align-items-center">
+
+        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
+          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <i class="fas fa-bars"></i> Menu
+          </button>
+        </div>
+
+        <div class="col-12 col-sm-12">
+          <h2 class="title"><a href="/">GIS, maps &#43; data @ Harvard Library</a></h2>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-md">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+
+
+
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/">
+              Home
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Tutorials
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/tags/census/">Census</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/openstreetmap/">OpenStreetMap</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/file-formats/">File Formats</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/georeferencing/">Georeferencing</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/vectorization/">Vectorization</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/spatial-analysis/">Spatial Analysis</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/arcgis/">ArcGIS</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/felt/">Felt</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/qgis/">QGIS</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Resources
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/resources/workshops">Workshops</a>
+              
+              
+              
+                <a class="dropdown-item" href="/resources/researchers-handbook">Data management</a>
+              
+              
+              
+                <a class="dropdown-item" href="/resources/finding-data">Finding data</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/tags/news">
+              Blog
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/projects/">
+              Projects
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/connect/">
+              Connect
+            </a>
+          </li>
+          
+          
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="blog-content">
+    <div class="container-md">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 px-lg-4">
+                
+                <div class="breadcrumb-container">
+                    <nav aria-label="breadcrumb" class="breadcrumb">
+                        <ol>
+                          
+                          ↵
+                            <li>
+                              <a href="/"> GIS, maps &#43; data @ Harvard Library</a>
+                            </li>
+                          
+                          ↵
+                            <li>
+                              <a href="/resources/"> Resources</a>
+                            </li>
+                          
+                          ↵
+                            <li>
+                              <a href="/resources/workshops/"> Harvard Library GIS Workshops</a>
+                            </li>
+                          
+                          ↵
+                            <li>
+                              <a href="/resources/workshops/workshop-4-copy/"> GIS Mapping Quickstart</a>
+                            </li>
+                          
+                          <li style="margin-right: 0;" class="active">
+                            👋
+                            <a aria-current="page" href="/resources/workshops/workshop-4-copy/non-white-population/">How to download percent non-white population data by census tract for GIS</a>
+                          </li>
+                        </ol>
+                      </nav>
+                      </div>
+
+
+                <h1 class="title">How to Download Percent Non-White Population Data by Census Tract for GIS</h1>
+
+                <p>In order to  map non-white population per census tract, you must first perform some steps to prepare the data. In this tutorial, we will practice:</p>
+<ul>
+<li>Downloading high-quality data</li>
+<li>Cleaning the data to prepare it for mapping</li>
+</ul>
+<h2 id="downloading-the-data">Downloading the data</h2>
+<p>You can achieve these steps using a number of software environments, including R and Python. In this tutorial we will download the data manually from NHGIS.org, and show how to clean the data using 3 different spreadsheet tools: Excel, LibreOffice, and Google Sheets.</p>
+<ol>
+<li>
+<p>Visit <a href="https://www.nhgis.org" target="_blank">NHGIS.org</a>
+. Create a free academic use account, if you haven&rsquo;t already, and log in.</p>
+</li>
+<li>
+<p>From the <a href="https://www.nhgis.org" target="_blank">NHGIS.org</a>
+ home screen, choose <code>START HERE: Get Data</code> in the middle of the page, or <code>SELECT DATA</code> in the navigation bar menu at the top of the page.
+<img src="media/get-data.png" alt="Get data in NHGIS.org"></p>
+</li>
+<li>
+<p>Click <code>TOPICS</code>.
+<img src="media/topics.png" alt="topics filter on nhgis.org"></p>
+</li>
+<li>
+<p>Scroll down and choose <code>Race</code> from the <code>RACE, ETHNICITY, AND ORIGINS</code> tab. Check off this item using the check-box furthest to the left.
+<img src="media/race.png" alt="poverty topic in nhgis.org"></p>
+</li>
+<li>
+<p>Click <code>SUBMIT</code>.</p>
+</li>
+<li>
+<p>Under <code>YEARS</code> select whichever American Community Survey 5-year range is most applicable to your project.
+<img src="media/acs-years.png" alt="nhgis years tab"></p>
+</li>
+<li>
+<p>Under <code>GEOGRAPHIC LEVELS</code> choose <code>CENSUS TRACT</code>
+<img src="media/geographic-levels.png" alt="nhgis geography filter"></p>
+</li>
+</ol>
+<div class="alert-info">
+  <h3>Why are we using census tracts?</h3>
+  <p>Censuses are collected at the individual level. When you fill out a census form, you fill it out for yourself, or for your household. Survey results for each household are generally not released to the public, as a way of protecting people's privacy. Instead, individual results are <strong>aggregated</strong> to specific units of geography. These units have been pre-drawn by the United States Census Bureau. You can learn more about the hierarchical census geographies on <a href="https://www.census.gov/programs-surveys/geography/guidance/hierarchy.html">census.gov</a>.</p>
+  <p>Census tracts are a popular unit for geospatial analysis, because counties, the level above, can be too vague to show spatial specificity, whereas more granual geographies, such as block groups or blocks can have a higher likelihood for sampling errors.</p>
+</div>
+<ol start="9">
+<li>
+<p>In the <code>SELECT DATA</code> table, click the table heading <code>POPULARITY</code>. This will sort the resulting datasets from most to least commonly downloaded.
+<img src="media/select-popularity.png" alt="toggle by popularity in nhgis.org"></p>
+</li>
+<li>
+<p>Select the first result, &ldquo;Race&rdquo; by clicking the green check-box to the left of the result. You will see the source table reflected in your your <code>DATA CART: 1 SOURCE TABLE</code>.
+<img src="media/select-race.png" alt="nhgis select dataset"></p>
+</li>
+<li>
+<p>From your <code>DATA CART</code> choose <code>CONTINUE</code> and <code>CONTINUE</code> and <code>SUBMIT</code> to begin the download. If you are not logged in you will be prompted to do so now.</p>
+</li>
+<li>
+<p>Wait a moment or so for your extract to finish processing, and then download it by selecting <code>TABLES</code>.
+<img src="media/tables.png" alt="nhgis download tables button"></p>
+</li>
+</ol>
+<h2 id="preparing-the-data-for-mapping">Preparing the data for mapping</h2>
+<h3 id="editing-the-scale-of-the-data">Editing the scale of the data</h3>
+<p>We have downloaded rows for every census tract in the entire United States. This is not ideal because we are planning to upload this data to visualization software. Reducing our data at the outset will save us time and space.</p>
+<p>The data cleaning portion of this tutorial is written for three spreadsheet software options: Microsoft Excel, an open (free) desktop spredsheet tool called <a href="https://www.libreoffice.org/download/download-libreoffice/" target="_blank">LibreOffice</a>
+, or Google Sheets.</p>
+<details>
+<summary> Excel instructions </summary>
+<ol>
+<li>
+<p>Open the <code>.CSV</code> in Microsoft Excel. If you are prompted to remove leading zeroes, choose <code>Don't Convert</code>.</p>
+</li>
+<li>
+<p>Highlight the column titled <code>STATE</code>.
+<img src="media/state-excel.png" alt="highlighting a row in excel"></p>
+</li>
+<li>
+<p>From the menu ribbon choose <code>Sort and Filter</code>.</p>
+</li>
+<li>
+<p>Choose <code>Filter</code>. Click the drop-down arrow at the top of the column titled <code>STATE</code>.
+<img src="media/arrow-excel.png" alt="dropdown arrow excel"></p>
+</li>
+<li>
+<p>Uncheck <code>Select All</code>.</p>
+</li>
+<li>
+<p>Check off <code>New York</code> and close the filter window by clicking the small red x in the upper left-hand corner.</p>
+</li>
+<li>
+<p><code>CTRL + A</code> on a Windows, <code>Command + A</code> on a Mac, or from the menu <code>Edit</code> → <code>Select All</code> to highlight all the records.</p>
+</li>
+<li>
+<p>Copy the records. <code>CTRL + C</code>; <code>Command + C</code>; <code>Edit</code>→ <code>Copy</code>.</p>
+</li>
+<li>
+<p>Open a new sheet <code>File</code> → <code>New</code>.</p>
+</li>
+<li>
+<p>Paste the records into the new sheet. Save this sheet with your other datasets as <code>new-york-percent-nonwhite.csv</code></p>
+</li>
+</ol>
+<div class="alert-danger">
+  <h4>Do not use .XLSX</h4>
+  <p></p>Make sure to always save your spreadsheet data for mapping in .CSV format. .CSV is an open-data format, and has a higher likelihood of being interoperable with most GIS software.</p>
+</div>
+</details>
+<details>
+<summary>LibreOffice instructions</summary>
+<ol>
+<li>
+<p>Open the dataset in LibreOffice.</p>
+</li>
+<li>
+<p>Click the <code>AutoFilter</code> button in the menu ribbon.
+<img src="media/autofilter.png" alt="autofilter in libreoffice"></p>
+</li>
+<li>
+<p>This will add drop-down arrows to the tops of the column headers. Choose the drop-down arrow next to the column titled <code>STATE</code>.</p>
+</li>
+<li>
+<p>Uncheck <code>All</code>. Scroll down and check off <code>New York</code>.</p>
+</li>
+<li>
+<p><code>CTRL + A</code> on a Windows, <code>Command + A</code> on a Mac, or from the menu <code>Edit</code> then <code>Select All</code> to highlight all the records.</p>
+</li>
+<li>
+<p>Copy the records. <code>CTRL + C</code>; <code>Command + C</code>; <code>Edit</code>, <code>Copy</code>.</p>
+</li>
+<li>
+<p>Open a new sheet <code>File</code> → <code>New</code> → <code>Spreadsheet</code>.</p>
+</li>
+<li>
+<p>Paste the records into the new sheet. Save this sheet with your other datasets as <code>new-york-percent-nonwhite.csv</code></p>
+</li>
+</ol>
+</details>
+<details>
+<summary>Google Sheets instructions</summary>
+<ol>
+<li>
+<p>Type <code>sheets.new</code> into a browser to open a new Google sheet.</p>
+</li>
+<li>
+<p>Choose <code>File</code>→ <code>Open</code>→ <code>Upload</code>→ <code>Browse</code> to bring in the census data <code>.csv</code>.</p>
+</li>
+<li>
+<p>For the <code>STATE</code> column, click or hover over the column header until a drop-down arrow appears.
+<img src="media/column.png" alt="google sheets columns"></p>
+</li>
+<li>
+<p>Click the drop-down arrow to open a column menu.</p>
+</li>
+<li>
+<p>Choose <code>Create a Filter</code>.</p>
+</li>
+<li>
+<p>Now, next to the header name for the column, there will be a button with three horizontal lines.
+<img src="media/field-filter-gs.png" alt="field filter button in google sheets"></p>
+</li>
+<li>
+<p>Click the button next to the header name with the horizontal lines to open a filtering wizard.</p>
+</li>
+<li>
+<p>Under <code>Filter by Values</code>, next to <code>Select All</code>, click the text that says <code>Clear</code>.</p>
+</li>
+<li>
+<p>Scroll down to where it says <code>New York</code> and click <code>New York</code>. Select <code>OK</code>.</p>
+</li>
+</ol>
+</details>
+<div class="alert-info">
+  <h3>Scaling data more granularly by using the table</h3>
+  <p>We have reduced our records to only represent census tracts in New York State. If we wanted to further scale down our data, we could filter the records by a particular county. For instance, we could include only the counties associated with New York City.</p>
+</div>
+<h3 id="creating-a-mappable-percent-column">Creating a mappable percent column</h3>
+<ol>
+<li>Open the NHGIS codebook. The file should read something like <code>nhgis00xx_ds262_20225_tract_codebook.txt</code>.</li>
+</ol>
+<p><img src="media/race-codebook.png" alt="nhgis codebook"></p>
+<ol start="2">
+<li>Observe that the variables are structured as follows:</li>
+</ol>
+<ul>
+<li><code>AQNGE001</code>: Total population</li>
+<li><code>AQNGE002</code>: White alone</li>
+<li><code>AQNGE003</code> to <code>AQNGE008</code>: Various categories of nonwhite populations</li>
+</ul>
+<p><em><code>AQNGE009</code> and <code>AQNGE010</code> are explanations of how <code>AQNGE008</code> breaks down further; we will not include these last two categories in our sum, because they are duplicate values.</em></p>
+<p>To create a mappable column which is a <em>percent</em> nonwhite, we have to sum all of the counts for each nonwhite category, and divide by the total population.</p>
+<div class="alert-success">
+<h4>Percent Nonwhite Equation</h4>
+Percent Nonwhite= Sum of categories AQNGE003 to AQNGE010 / AQNGE001 x 100
+</div>
+<ol>
+<li>
+<p>Create a new column called <code>PCT_NONWHITE</code>.</p>
+</li>
+<li>
+<p>In the second cell of the new column, enter the equation
+<br>
+<code>= IFERROR((AS2+AT2+AU2+AV2+AW2+AX2+AY2+AZ2)/ AQ2* 100, 0)</code>
+<br>
+<em>&lsquo;IFERROR&rsquo; catches null values in the source census data. We ask the function to return 0 instead of an error message if the function can&rsquo;t carry out.</em></p>
+</li>
+<li>
+<p>Fill down to complete the column by double-clicking the plus sign on the cell with the formula.</p>
+</li>
+<li>
+<p><code>File</code> → <code>Save</code>. Make sure to save as a <code>.CSV</code>.</p>
+</li>
+</ol>
+<p>You now have a dataset you can use to map percent nonwhite. Use the <code>GEOID</code> column to join this data with a census tract shapefile, and use the newly computed <code>PCT_NONWHITE</code> field to power the visualization.</p>
+<p>Follow the next tutorial in <a href="https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/" target="_blank">the workshop</a>
+ to learn how to create a map from this data.</p>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+
+</body>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-55D9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+</html>

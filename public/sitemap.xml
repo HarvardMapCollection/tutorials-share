@@ -3,18 +3,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/workshops/workshop-5/in-person/</loc>
-	    <lastmod>2024-09-16</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/resources/workshops/workshop-5/</loc>
+	    <loc>http://localhost:1313/resources/workshops/workshop-4/</loc>
 	    <lastmod>2024-09-16</lastmod>
         
 
@@ -47,72 +36,6 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/tags/data-topics/</loc>
-	    <lastmod>2024-09-15</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/resources/workshops/workshop-5/data/</loc>
-	    <lastmod>2024-09-15</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/qgis/</loc>
-	    <lastmod>2024-09-15</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/</loc>
-	    <lastmod>2024-09-15</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/tutorials/</loc>
-	    <lastmod>2024-09-15</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/resources/workshops/workshop-5/create-hexbins/</loc>
-	    <lastmod>2024-09-14</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
 	    <loc>http://localhost:1313/tags/class/</loc>
 	    <lastmod>2024-09-12</lastmod>
         
@@ -136,6 +59,17 @@
       
 	  <url>
 	    <loc>http://localhost:1313/classes/haa/</loc>
+	    <lastmod>2024-09-12</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/tags/</loc>
 	    <lastmod>2024-09-12</lastmod>
         
 
@@ -410,6 +344,17 @@
       
       
 	  <url>
+	    <loc>http://localhost:1313/tags/qgis/</loc>
+	    <lastmod>2024-08-08</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
 	    <loc>http://localhost:1313/tags/spatial-analysis/</loc>
 	    <lastmod>2024-08-08</lastmod>
         
@@ -553,17 +498,6 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/workshops/workshop-4/</loc>
-	    <lastmod>2024-07-26</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
 	    <loc>http://localhost:1313/resources/workshops/workshop-4/in-person/</loc>
 	    <lastmod>2024-07-24</lastmod>
         
@@ -610,6 +544,17 @@
 	  <url>
 	    <loc>http://localhost:1313/resources/workshops/workshop-4/what-are-we-mapping/</loc>
 	    <lastmod>2024-07-22</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/tags/data-topics/</loc>
+	    <lastmod>2024-07-21</lastmod>
         
 
         
@@ -1026,6 +971,17 @@
       
       
 	  <url>
+	    <loc>http://localhost:1313/tags/tutorials/</loc>
+	    <lastmod>2023-06-01</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
 	    <loc>http://localhost:1313/tutorials/arcgis-online/arcgis-pro/</loc>
 	    <lastmod>2023-06-01</lastmod>
         
@@ -1411,17 +1367,6 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/classes/hks/dpi-851m/fall-2022/</loc>
-	    <lastmod>2022-12-19</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
 	    <loc>http://localhost:1313/classes/hunap/naiswg/fall-2022/</loc>
 	    <lastmod>2022-12-19</lastmod>
         
@@ -1478,17 +1423,6 @@
       
 	  <url>
 	    <loc>http://localhost:1313/classes/history/3920/spring-2023/</loc>
-	    <lastmod>2022-12-19</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/hks/dpi-852m/spring-2023/</loc>
 	    <lastmod>2022-12-19</lastmod>
         
 
@@ -1719,28 +1653,6 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/classes/hks/dpi-851m/</loc>
-	    <lastmod>2022-01-17</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/hks/dpi-852m/</loc>
-	    <lastmod>2022-01-17</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
 	    <loc>http://localhost:1313/classes/english/</loc>
 	    <lastmod>2022-01-17</lastmod>
         
@@ -1907,6 +1819,28 @@
       
 	  <url>
 	    <loc>http://localhost:1313/connect/</loc>
+	    <lastmod>0001-01-01</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/classes/hks/dpi-852m/</loc>
+	    <lastmod>0001-01-01</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/classes/hks/dpi-852m/spring-2024/</loc>
 	    <lastmod>0001-01-01</lastmod>
         
 

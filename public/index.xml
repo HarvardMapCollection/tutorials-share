@@ -6,28 +6,14 @@
     <description>Recent content on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Course materials</title>
-      <link>http://localhost:1313/resources/workshops/workshop-5/in-person/</link>
-      <pubDate>Mon, 16 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop-5/in-person/</guid>
-      <description>Get to this page quick: https://bit.ly/quickstart-2 Sign up Find out when we are offering this workshop by visiting the library calendar , or request a custom instance for your course by emailing maps@harvard.edu .&#xA;Requirements This workshop requires downloading QGIS , a free and open-source desktop GIS that works with PCs and Macs.&#xA;Steps Download 3-1-1 data Poverty rate mapping by census tract Percent non-white mapping by census tract Uploading census data to Felt Working with spreadsheet data Buffers and spatial analysis Historical maps Exporting and saving project data Data You can download course data from the Harvard Map Collection Open Science Framework site for Geospatial Research, Teaching and Learning.</description>
-    </item>
-    <item>
-      <title>Boston 3-1-1 data</title>
-      <link>http://localhost:1313/resources/workshops/workshop-5/data/</link>
-      <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop-5/data/</guid>
-      <description> Search for 3-1-1 data Look @ metadata Download processed version Open in QGIS + inspect </description>
-    </item>
-    <item>
-      <title>Create hexbins</title>
-      <link>http://localhost:1313/resources/workshops/workshop-5/create-hexbins/</link>
-      <pubDate>Sat, 14 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop-5/create-hexbins/</guid>
-      <description> Why hexbins How hexbins </description>
+      <title>Fall 2024 Harvard Map Collection</title>
+      <link>http://localhost:1313/classes/hks/dpi-852m/spring-2024/</link>
+      <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/classes/hks/dpi-852m/spring-2024/</guid>
+      <description>Collections and support services Historic maps of Havana in the Harvard Map Collection&#xA;Global volcanoes dataset in the Harvard Geospatial Library (HGL).&#xA;Workshops Spring 2023 workshop offerings. Registration via the Harvard Library Events calendar .&#xA;Office hours Programming &amp;amp; GIS Office Hours HKS Library Instruction Room Wednesdays, 3-4pm Map Collection GIS Office Hours In the Harvard Map Collection Fridays 3-5pm Tutorials and project examples Tutorials and blog .&#xA;maps@harvard.edu https://library.harvard.edu/libraries/harvard-map-collection </description>
     </item>
     <item>
       <title>HAA 174P</title>
@@ -612,13 +598,6 @@
     </item>
     <item>
       <title>Fall 2022 Harvard Map Collection</title>
-      <link>http://localhost:1313/classes/hks/dpi-851m/fall-2022/</link>
-      <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/classes/hks/dpi-851m/fall-2022/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Fall 2022 Harvard Map Collection</title>
       <link>http://localhost:1313/classes/hunap/naiswg/fall-2022/</link>
       <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/classes/hunap/naiswg/fall-2022/</guid>
@@ -658,13 +637,6 @@
       <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/classes/history/3920/spring-2023/</guid>
       <description>OldNYC: Mapping Historic Photographs at the NYPL. 1880 census from Archive.org .&#xA;ArcGIS Map comparing 1890 atlas to today.&#xA;Belle&amp;rsquo;s house in college.&#xA;City of Boston Archives Reading Room.&#xA;19th century insurance atlas, open to a plate of downtown Boston.&#xA;Analyze Boston , Boston&amp;rsquo;s open data portal.&#xA;Vision Zero dataset, open as a table.&#xA;Bike crash data displayed visually as individual points in GIS software.&#xA;Introduction to GIS workshop in the library calendar.</description>
-    </item>
-    <item>
-      <title>Spring 2023 Harvard Map Collection</title>
-      <link>http://localhost:1313/classes/hks/dpi-852m/spring-2023/</link>
-      <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/classes/hks/dpi-852m/spring-2023/</guid>
-      <description>Collections and support services Historic maps of Havana in the Harvard Map Collection&#xA;Global volcanoes dataset in the Harvard Geospatial Library (HGL).&#xA;Workshops Mapping Inequality project via the University of Richmond&amp;rsquo;s Digital Scholarship Lab.&#xA;Land-Grab Univerisities interactive digital project.&#xA;Spring 2023 workshop offerings. Registration via the Harvard Library Events calendar .&#xA;Office hours Map created by Luisa Shido.&#xA;Tutorials and project examples Tutorials and blog .&#xA;maps@harvard.edu https://library.harvard.edu/libraries/harvard-map-collection </description>
     </item>
     <item>
       <title>A GIS database and webmap of historic Black life on Boston&#39;s Beacon Hill</title>

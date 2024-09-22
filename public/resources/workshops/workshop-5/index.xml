@@ -13,21 +13,70 @@
       <link>http://localhost:1313/resources/workshops/workshop-5/in-person/</link>
       <pubDate>Mon, 16 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/resources/workshops/workshop-5/in-person/</guid>
-      <description>Get to this page quick: https://bit.ly/quickstart-2 Sign up Find out when we are offering this workshop by visiting the library calendar , or request a custom instance for your course by emailing maps@harvard.edu .&#xA;Requirements This workshop requires downloading QGIS , a free and open-source desktop GIS that works with PCs and Macs.&#xA;Steps Download 3-1-1 data Poverty rate mapping by census tract Percent non-white mapping by census tract Uploading census data to Felt Working with spreadsheet data Buffers and spatial analysis Historical maps Exporting and saving project data Data You can download course data from the Harvard Map Collection Open Science Framework site for Geospatial Research, Teaching and Learning.</description>
+      <description>Get to this page quick: https://bit.ly/quickstart-2 Sign up Find out when we are offering this workshop by visiting the library calendar , or request a custom instance for your course by emailing maps@harvard.edu .&#xA;Requirements This workshop requires downloading QGIS , a free and open-source desktop GIS that works with PCs and Macs.&#xA;Steps Boston 3-1-1 data Poverty rate mapping by census tract Percent non-white mapping by census tract Uploading census data to Felt Working with spreadsheet data Buffers and spatial analysis Historical maps Exporting and saving project data Data You can download course data from the Harvard Map Collection Open Science Framework site for Geospatial Research, Teaching and Learning.</description>
     </item>
     <item>
-      <title>Boston 3-1-1 data</title>
+      <title>Investigate Boston 3-1-1 data in QGIS</title>
       <link>http://localhost:1313/resources/workshops/workshop-5/data/</link>
       <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/resources/workshops/workshop-5/data/</guid>
-      <description> Search for 3-1-1 data Look @ metadata Download processed version Open in QGIS + inspect </description>
+      <description>In a web browser search &amp;ldquo;Boston 311 data&amp;rdquo;. Navigate to the 311 SERVICE REQUESTS webpage . Click CRM VALUE CODEX and observe the data documentation telling you which values are encoded into the table. Click &amp;ldquo;311 SERVICE REQUESTS - 2024&amp;rdquo; and observe the spreadsheet. Discuss observations as a group. Download a pre-processed version of the data from DATA LINK. This spreadsheet contains only 311 service requests reporting potholes. Search for 3-1-1 data Look @ metadata Download processed version Open in QGIS + inspect Set coordinate reference system.</description>
     </item>
     <item>
-      <title>Create hexbins</title>
+      <title>Create hexbins in QGIS</title>
       <link>http://localhost:1313/resources/workshops/workshop-5/create-hexbins/</link>
       <pubDate>Sat, 14 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/resources/workshops/workshop-5/create-hexbins/</guid>
-      <description> Why hexbins How hexbins </description>
+      <description>Why hexbins How hexbins Make sure you have the MMQGIS plugin by going to Plugins → Manage and Install Plugins. Search &amp;ldquo;MMQGIS&amp;rdquo; and install the plugin. Open the plugin in the main QGIS menu across the top of the screen and select Create → Create Grid Layers. Under Geography Type select Hexagons. Under Extent choose Layer Extent. Change the location of the file output by selecting the button with three dots, and navigating to the place you&amp;rsquo;d like to store the data output.</description>
+    </item>
+    <item>
+      <title>Point in polygon analysis in QGIS</title>
+      <link>http://localhost:1313/resources/workshops/workshop-5/point-in-polygon/</link>
+      <pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/workshops/workshop-5/point-in-polygon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Style a map by density [choropleth mapping] in QGIS</title>
+      <link>http://localhost:1313/resources/workshops/workshop-5/colors-by-density/</link>
+      <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/workshops/workshop-5/colors-by-density/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Add neighborhood labels to a map in QGIS</title>
+      <link>http://localhost:1313/resources/workshops/workshop-5/add-labels/</link>
+      <pubDate>Wed, 11 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/workshops/workshop-5/add-labels/</guid>
+      <description>Other Reference Map Tips Add hydrography Provides additional visual cues to where the map depicts.&#xA;In a web browser, search &amp;ldquo;Boston hydrography gis data download&amp;rdquo;. Download the correct layer (polygons) as a shapefile or geojson and add it to your QGIS document. Double-click or right-click the layer in the QGIS layer list to open the Layer Properties. Select Symbology from the side menu. Click Simple Fill. Click the color blocks next to Fill color and Stroke color and change the HTML notation to E6E6E6.</description>
+    </item>
+    <item>
+      <title>Create a new print layout in QGIS</title>
+      <link>http://localhost:1313/resources/workshops/workshop-5/create-print-layout/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/workshops/workshop-5/create-print-layout/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Add a legend to a map in the QGIS print layout</title>
+      <link>http://localhost:1313/resources/workshops/workshop-5/add-legend/</link>
+      <pubDate>Mon, 09 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/workshops/workshop-5/add-legend/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Add a textbox [title and data citation] to a map in the QGIS print layout</title>
+      <link>http://localhost:1313/resources/workshops/workshop-5/add-text/</link>
+      <pubDate>Sun, 08 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/workshops/workshop-5/add-text/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Save QGIS print layout results as a .PNG map</title>
+      <link>http://localhost:1313/resources/workshops/workshop-5/export-as-png/</link>
+      <pubDate>Sat, 07 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/workshops/workshop-5/export-as-png/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

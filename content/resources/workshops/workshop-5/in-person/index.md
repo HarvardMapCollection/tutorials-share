@@ -3,6 +3,7 @@ title: Course materials
 date: 2024-09-16
 image: cover.png
 layout: single2
+draft: true
 description: Start here.
 ---
 
@@ -21,7 +22,7 @@ This workshop requires [downloading QGIS](https://mapping.share.library.harvard.
 
 | **Steps** | 
 | --- | 
-| [Download 3-1-1 data](https://mapping.share.library.harvard.edu/resources/workshops/workshop-5/data/) | 
+| [Boston 3-1-1 data](https://mapping.share.library.harvard.edu/resources/workshops/workshop-5/data/) | 
 | [Poverty rate mapping by census tract](https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/poverty-rate/) | 
 | [Percent non-white mapping by census tract](https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/non-white-population/) |
 | [Uploading census data to Felt ](https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/upload-census-to-felt/) |

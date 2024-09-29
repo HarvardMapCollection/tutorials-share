@@ -8,7 +8,7 @@ layout: class
 
 ## GIS layer example
 
-[Rivers by fenway](https://www.atlascope.org/)
+[Rivers by Fenway](https://www.atlascope.org/)
 
 ## Project topics layers ideas
 - land ownership

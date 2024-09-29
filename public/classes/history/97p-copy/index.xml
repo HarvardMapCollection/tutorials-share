@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>97P - &#34;What is Indigenous History?&#34; on GIS, maps &#43; data @ Harvard Library</title>
+    <link>http://localhost:1313/classes/history/97p-copy/</link>
+    <description>Recent content in 97P - &#34;What is Indigenous History?&#34; on GIS, maps &#43; data @ Harvard Library</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/classes/history/97p-copy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring 2023 Harvard Map Collection</title>
+      <link>http://localhost:1313/classes/history/97p-copy/spring-2023/</link>
+      <pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/classes/history/97p-copy/spring-2023/</guid>
+      <description>Analyze Boston , Boston&amp;rsquo;s open data portal.&#xA;Vision Zero dataset, open as a table.&#xA;Bike crash data displayed visually as individual points in GIS software.&#xA;OldNYC: Mapping Historic Photographs at the NYPL. Belle&amp;rsquo;s house in college.&#xA;City of Boston Archives Reading Room.&#xA;19th century insurance atlas, open to a plate of downtown Boston.&#xA;GIS heatmap of density of restaurants in Boston.&#xA;Mapping Inequality project via the University of Richmond&#39;s Digital Scholarship Lab.</description>
+    </item>
+  </channel>
+</rss>

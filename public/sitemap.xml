@@ -3,8 +3,30 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/workshops/workshop-4/</loc>
-	    <lastmod>2024-09-16</lastmod>
+	    <loc>http://localhost:1313/tags/class/</loc>
+	    <lastmod>2024-09-22</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/classes/hks/dpi-852m/</loc>
+	    <lastmod>2024-09-22</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/classes/hks/dpi-852m/fall-2024/</loc>
+	    <lastmod>2024-09-22</lastmod>
         
 
         
@@ -15,6 +37,39 @@
       
 	  <url>
 	    <loc>http://localhost:1313/</loc>
+	    <lastmod>2024-09-22</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/classes/hks/</loc>
+	    <lastmod>2024-09-22</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/tags/</loc>
+	    <lastmod>2024-09-22</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/resources/workshops/workshop-4/</loc>
 	    <lastmod>2024-09-16</lastmod>
         
 
@@ -36,17 +91,6 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/tags/class/</loc>
-	    <lastmod>2024-09-12</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
 	    <loc>http://localhost:1313/classes/haa/174p/</loc>
 	    <lastmod>2024-09-12</lastmod>
         
@@ -59,17 +103,6 @@
       
 	  <url>
 	    <loc>http://localhost:1313/classes/haa/</loc>
-	    <lastmod>2024-09-12</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/</loc>
 	    <lastmod>2024-09-12</lastmod>
         
 
@@ -1697,17 +1730,6 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/classes/hks/</loc>
-	    <lastmod>2022-01-17</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
 	    <loc>http://localhost:1313/resources/workshops/</loc>
 	    <lastmod>2022-01-17</lastmod>
         
@@ -1819,28 +1841,6 @@
       
 	  <url>
 	    <loc>http://localhost:1313/connect/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/hks/dpi-852m/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/hks/dpi-852m/spring-2024/</loc>
 	    <lastmod>0001-01-01</lastmod>
         
 

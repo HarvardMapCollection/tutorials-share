@@ -10,9 +10,8 @@ description: Learn how to use AllMaps to georeference Harvard Library Digital Co
 ## Topics covered by this guide
 
  - Select a map to georeference from the Harvard Libraries' digital collections
- - Repeat the process for maps in any library digital collection
- - Learn how to georeference with free browser tool, [AllMaps](https://allmaps.org/)
- - How to use the georeferenced map with the rest of your project
+ - Georeference with free browser tool, [AllMaps](https://allmaps.org/)
+ - Add the georeferenced map to a GIS project in QGIS
 
 ## Select a map to georeference from the Harvard Libraries' digital collections
 

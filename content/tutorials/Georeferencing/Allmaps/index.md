@@ -23,8 +23,6 @@ description: Learn how to use AllMaps to georeference Harvard Library Digital Co
 
 You'll notice that some of the maps from the Harvard Map Collection have been scanned and added to the catalog record, so that you can view the map in high-resolution online from a link in the catalog that says `ONLINE ACCESS`.
 
-![map listings in HOLLIS](media/hollis2.png)
-
 2. Select `ONLINE ACCESS`. 
 
 3. In the top-right corner of the Harvard Library image viewer, select the metadata Tooltip by clicking the `i` icon.

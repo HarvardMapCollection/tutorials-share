@@ -1,5 +1,5 @@
 ---
-title: Georeference library digital collections using Allmaps
+title: Georeference Harvard Library digital collections using Allmaps
 date: 2023-01-19
 tags: ["tutorials","georeferencing", "allmaps"]
 image: 4.png

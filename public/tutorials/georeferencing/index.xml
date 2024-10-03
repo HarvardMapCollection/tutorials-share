@@ -16,11 +16,11 @@
       <description>Download QGIS , if you haven&amp;rsquo;t already.&#xA;Add a basemap Browser → XYZ Tiles → Open Street Map.&#xA;Set the project coordinate reference system to WGS 84. At all times in the bottom right of the QGIS document, EPSG should read 4326.&#xA;Optional context on coordinate reference systems Every dataset and every QGIS project each has a coordinate reference system (CRS). Coordinate reference systems allow the GIS software to know where on the world to place the dataset, how to line it up spatially.</description>
     </item>
     <item>
-      <title>Georeference library digital collections using Allmaps</title>
+      <title>Georeference Harvard Library digital collections using Allmaps</title>
       <link>http://localhost:1313/tutorials/georeferencing/allmaps/</link>
       <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/georeferencing/allmaps/</guid>
-      <description>Topics covered by this guide Select a map to georeference from the Harvard Libraries&amp;rsquo; digital collections Repeat the process for maps in any library digital collection Learn how to georeference with free browser tool, AllMaps How to use the georeferenced map with the rest of your project Select a map to georeference from the Harvard Libraries&amp;rsquo; digital collections If you visit the Harvard Library catalog, HOLLIS , you can: Change the initial search drop-down from Catalog &amp;amp; Articles to Library Catalog to show only items held by the library, and exclude journal articles.</description>
+      <description>Topics covered by this guide Select a map to georeference from the Harvard Libraries&amp;rsquo; digital collections Georeference with free browser tool, AllMaps Add the georeferenced map to a GIS project in QGIS Select a map to georeference from the Harvard Libraries&amp;rsquo; digital collections If you visit the Harvard Library catalog, HOLLIS , you can: Change the initial search drop-down from Catalog &amp;amp; Articles to Library Catalog to show only items held by the library, and exclude journal articles.</description>
     </item>
     <item>
       <title>Georeference in ArcGIS Pro</title>

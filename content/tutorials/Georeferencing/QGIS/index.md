@@ -73,6 +73,7 @@ Resampling method: **Cubic** <br>
 Target SRS: **EPSG: 4326 - WGS 84** <br>
 Output Raster: **Save somewhere you will remember with a unique ID** <br>
 Compression: **LZW** <br>
+Use 0 for transparency when needed: **Checked** <br>
 Save GCP points: **Checked** <br>
 Load in QGIS when done: **Checked** <br>
 **Everything else unchecked** <br>

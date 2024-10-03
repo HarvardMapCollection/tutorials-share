@@ -13,7 +13,7 @@
       <link>http://localhost:1313/classes/history/1473/fall-2024/</link>
       <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/classes/history/1473/fall-2024/</guid>
-      <description>GIS layer example Rivers by fenway Project topics layers ideas land ownership rivers and coastal ecology monuments and forts administrative boundaries transportation fishing locations prisons and farms geologic features mining locations natural disasters / flood management tourism speculative land planning GIS workshop - indicate interest 👇 </description>
+      <description>GIS layer example Rivers by Fenway Project topics layers ideas land ownership rivers and coastal ecology monuments and forts administrative boundaries transportation fishing locations prisons and farms geologic features mining locations natural disasters / flood management tourism speculative land planning GIS workshop - indicate interest 👇 </description>
     </item>
     <item>
       <title>Fall 2024 Harvard Map Collection</title>
@@ -457,11 +457,11 @@
       <description>In the previous OpenStreetMap (OSM) tutorial , we learned how to extract a standard set of map features from OpenStreetMap including waterways, buildings, general points of interest, and roads.&#xA;In this tutorial, we will learn how to specify by type of feature, and extract data within a particular extent for only that type of feature.&#xA;No programming is required for this tutorial; we will use only a QGIS plugin called QuickOSM.</description>
     </item>
     <item>
-      <title>Georeference library digital collections using Allmaps</title>
+      <title>Georeference Harvard Library digital collections using Allmaps</title>
       <link>http://localhost:1313/tutorials/georeferencing/allmaps/</link>
       <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/georeferencing/allmaps/</guid>
-      <description>Topics covered by this guide Select a map to georeference from the Harvard Libraries&amp;rsquo; digital collections Repeat the process for maps in any library digital collection Learn how to georeference with free browser tool, AllMaps How to use the georeferenced map with the rest of your project Select a map to georeference from the Harvard Libraries&amp;rsquo; digital collections If you visit the Harvard Library catalog, HOLLIS , you can: Change the initial search drop-down from Catalog &amp;amp; Articles to Library Catalog to show only items held by the library, and exclude journal articles.</description>
+      <description>Topics covered by this guide Select a map to georeference from the Harvard Libraries&amp;rsquo; digital collections Georeference with free browser tool, AllMaps Add the georeferenced map to a GIS project in QGIS Select a map to georeference from the Harvard Libraries&amp;rsquo; digital collections If you visit the Harvard Library catalog, HOLLIS , you can: Change the initial search drop-down from Catalog &amp;amp; Articles to Library Catalog to show only items held by the library, and exclude journal articles.</description>
     </item>
     <item>
       <title>Add a basemap in QGIS</title>
@@ -657,7 +657,7 @@
       <link>http://localhost:1313/resources/workshops/workshop/in-person/</link>
       <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/resources/workshops/workshop/in-person/</guid>
-      <description>https://bit.ly/3YeQ2MZ&#xA;Slides Data Raster data service https://allmaps.xyz/maps/8d5cc5d1fec615d6/{z}/{x}/{y}.png&#xA;Vector data download Google drive link Hex codes #e0f3db&#xA;Follow-along workshop steps Tutorial version Survey Post-workshop survey </description>
+      <description>https://bit.ly/intro-1919&#xA;Slides Data Raster data service https://allmaps.xyz/maps/8d5cc5d1fec615d6/{z}/{x}/{y}.png&#xA;Vector data download Google drive link Hex codes #e0f3db&#xA;Follow-along workshop steps Tutorial version Survey Post-workshop survey </description>
     </item>
     <item>
       <title>Spring 2023 Harvard Map Collection</title>

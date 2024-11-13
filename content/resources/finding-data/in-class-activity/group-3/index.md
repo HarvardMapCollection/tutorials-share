@@ -30,9 +30,6 @@ image: cover.png
 
 > 6. Notice on the page where to download the `.geoTIFF`, so that you could bring the file into your GIS project.
 
-> 7. If you have more time, you can choose to explore: 
-> - the [process](https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/archival-maps/#finding-a-historical-map-to-use) for finding a historic map in the hundreds of thousands of maps in the Harvard Map Collection which have not already been georeferenced.  
-> - how to [turn georeferenced maps into digital vector data](https://mapping.share.library.harvard.edu/tutorials/qgis/adler/), and use that data to perform spatial analysis.
 
 ## Follow-up resources (next steps)
 

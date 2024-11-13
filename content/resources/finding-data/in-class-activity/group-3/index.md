@@ -1,29 +1,35 @@
 ---
-title: Group 3 [Turning Spreadsheets into Spatial Data]
-image: cover.png
-date: 2024-08-12
+title: Group 3 [Georeferencing]
+date: 2024-08-11
 layout: single2
+image: cover.png
 ---
 
-> 1. Visit the [documentation page](https://data.boston.gov/dataset/311-service-requests/resource/b237f352-49d1-4423-804f-b478e4f24e61) for data about [Boston 311 service requests](https://www.boston.gov/departments/boston-311), to get a sense of what this dataset shows. Observe the data categories in the PDF codebook.
+## Objectives
 
-> 2. Now glance at the actual [311 requests dataset](https://data.boston.gov/dataset/311-service-requests/resource/dff4d804-5031-443a-8409-8344efd0e5c8) for 2024 from Analyze Boston. Observe a few records to get a sense of how this table is filled out.
+## 10 minutes to get started
 
-## 311 data table
+> 1. Visit [Atlascope.org](https://www.atlascope.org/), search for a place in Boston or Cambridge you are interested in exploring on a historical map, and experiment with toggling between different georeferenced map layers.
 
-<img src="cover.png" style="width:100%; max-height:70em;" alt="table">
+> 2. Visit the [Harvard Geospatial Library (HGL)](https://hgl.harvard.edu/?_gl=1*1y0xlw4*_ga*NTcxOTEzNDcyLjE3MjE4NTI2NzQ.*_ga_3CXC97RWEK*MTcyNDQzNTUyMC4yNy4wLjE3MjQ0MzU1MjAuNjAuMC4w).
+
+![HGL Search](hgl-search.png)
+
+> 3. Click the `Search` button.
+
+> 4. In the left-hand side facets, under `Format` choose `GeoTIFF`. Under `Access`, choose `Public`. You can further filter results by the `Institution` which holds the source, the `Place` it depicts, or you can use the `Search Bar` to further refine results. 
+
+> 5. Choose a result, and click `Click to Wake` on the map, to see a preview of the georeferenced image.
+
+> 6. Notice on the page where to download the `.geoTIFF`, so that you could bring the file into your GIS project.
+
+> 7. If you have more time, you can choose to explore: 
+> - the [process](https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/archival-maps/#finding-a-historical-map-to-use) for finding a historic map in the hundreds of thousands of maps in the Harvard Map Collection which have not already been georeferenced.  
+> - how to [turn georeferenced maps into digital vector data](https://mapping.share.library.harvard.edu/tutorials/qgis/adler/), and use that data to perform spatial analysis.
+
+## Follow-up resources (next steps)
+
+## Discussion questions
 
 
-There are two different ways to turn this table into spatial data. If you want the data to show up as individual occurrences (each 311 request is one dot on the map), you can use the `latitude` and `longitude` coordinate fields to import the data table to a GIS software, effectively turning it into a `shapefile`, `geojson` or `geopackage`. 
 
-If you want to aggregate the occurrences and represent them as a density count by neighborhood, you can use the `neighborhood` column in the dataset. It's likely you would have to perform some data cleaning first, using data cleaning tools such as Excel, Google Sheets, R, or OpenRefine. You would have to make sure the values in the `Neighborhood` field are standardized, and then use a pivot table to count all the occurrences per neighborhood. Then you would **join the neighborhood counts to a Boston neighborhoods shapefile**. 
-
-> 1. In a web browser, search for "GIS neighborhoods Boston shapefile download". 
-
-![Analyze Boston result for neighborhood boundaries](neighborhoods.png)
-
-> 2. Click [Census 2020 Block Group Neighborhoods Shapefile](https://data.boston.gov/dataset/census-2020-block-group-neighborhoods/resource/ed89fab7-aa21-42ce-874b-1b4971ab50fb) until it appears as a map preview (pictured above).
-
-> 3. In a search engine or chatbot, search "How to do a table join in GIS".
-
-Be ready to teach what you've learned to the group, and open up a discussion about any outstanding questions your team is still pondering.

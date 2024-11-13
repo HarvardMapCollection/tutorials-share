@@ -6,8 +6,15 @@
     <description>Recent content in Georeferencing on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tutorials/georeferencing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Selecting a Map to Georeference</title>
+      <link>http://localhost:1313/tutorials/georeferencing/selecting-a-map/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/georeferencing/selecting-a-map/</guid>
+      <description>There are many ways to georeference, but if you&amp;rsquo;re learning by following the How to Georeference in QGIS tutorial, all you will need is an image file of a map, downloaded to your computer.&#xA;This tutorial will cover how to use HOLLIS to find a map to practice georeferencing with.&#xA;Finding maps in HOLLIS If you visit the Harvard Library catalog, HOLLIS , you can: Change the initial search drop-down from Catalog &amp;amp; Articles to Library Catalog to show only items held by the library, and exclude journal articles.</description>
+    </item>
     <item>
       <title>Georeference in QGIS</title>
       <link>http://localhost:1313/tutorials/georeferencing/qgis/</link>

@@ -1,27 +1,33 @@
 ---
-title: Group 4 [Georeferencing]
-date: 2024-08-11
-layout: single2
+title: Group 4 [OpenStreetMap]
 image: cover.png
+date: 2024-08-10
+layout: single2
 ---
 
-> 1. Visit [Atlascope.org](https://www.atlascope.org/), search for a place in Boston or Cambridge you are interested in exploring on a historical map, and experiment with toggling between different georeferenced map layers.
+## Objectives
 
-> 2. Visit the [Harvard Geospatial Library (HGL)](https://hgl.harvard.edu/?_gl=1*1y0xlw4*_ga*NTcxOTEzNDcyLjE3MjE4NTI2NzQ.*_ga_3CXC97RWEK*MTcyNDQzNTUyMC4yNy4wLjE3MjQ0MzU1MjAuNjAuMC4w).
+## 10 minutes to get started
 
-![HGL Search](hgl-search.png)
+Sometimes "official" data is not available for particular data topics or places in the world. Leveraging data extracts from crowd-contributed projects, such as [OpenStreetMap (OSM)](https://www.openstreetmap.org/about) can help fill in the gaps.
 
-> 3. Click the `Search` button.
+Consider Jess Eng's 2021 project which looks at the location of Indian cuisine in London, using data extracted from OSM. 
 
-> 4. In the left-hand side facets, under `Format` choose `GeoTIFF`. Under `Access`, choose `Public`. You can further filter results by the `Institution` which holds the source, the `Place` it depicts, or you can use the `Search Bar` to further refine results. 
+<img src="jess-map.png" style="width:100%; max-height:70em;" alt="boroughs and restaurants map">
 
-> 5. Choose a result, and click `Click to Wake` on the map, to see a preview of the georeferenced image.
+> 1. Visit the list of available [Map Features](https://wiki.openstreetmap.org/wiki/Map_features) you can extract as data layers from OSM. Identify a feature layer you might be interested in downloading. 
 
-> 6. Notice on the page where to download the `.geoTIFF`, so that you could bring the file into your GIS project.
+> 2. OSM makes its crowd-contributed database available via a queryable API. To understand how this works, in a search engine or chatbox, prompt "How do i use the openstreetmap api?".
 
-> 7. If you have more time, you can choose to explore: 
-> - the [process](https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/archival-maps/#finding-a-historical-map-to-use) for finding a historic map in the hundreds of thousands of maps in the Harvard Map Collection which have not already been georeferenced.  
-> - how to [turn georeferenced maps into digital vector data](https://mapping.share.library.harvard.edu/tutorials/qgis/adler/), and use that data to perform spatial analysis.
+> 3. The results discuss how to script API calls using programming languages, such as Python. If you are not a programmer, there is a plugin for extracting OSM layers in QGIS. Skim through the Harvard Map Collection's [step-by-step tutorial](https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbyfeature/) on how to use this plugin. 
 
 
-Be ready to share what you've learned with the group. 
+
+
+
+
+
+## Follow-up resources (next steps)
+
+## Discussion questions
+

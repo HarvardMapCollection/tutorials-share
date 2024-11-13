@@ -1,31 +1,39 @@
 ---
-title: Group 2 [Portals]
-image: dc-question.png
-date: 2024-08-13
+title: Group 2 [Turning Spreadsheets into Spatial Data]
+image: cover.png
+date: 2024-08-12
 layout: single2
 ---
 
-![Screenshot of question about studying food deserts in DC](dc-question.png)
+## Objectives
 
-Consider this request a student made to the Harvard Map Collection for help with finding GIS data in 2024:
+## 10 minutes to get started
 
-> "I would like to create a GIS map of food deserts in DC by layering maps of grocery store locations, corner store locations, and other options found on Open Data DC with census data to identify areas where large populations do not have access to healthy foods."
+> 1. Visit the [documentation page](https://data.boston.gov/dataset/311-service-requests/resource/b237f352-49d1-4423-804f-b478e4f24e61) for data about [Boston 311 service requests](https://www.boston.gov/departments/boston-311), to get a sense of what this dataset shows. Observe the data categories in the PDF codebook.
 
-Where is a good place to **get started** searching for food desert data in DC?
+> 2. Now glance at the actual [311 requests dataset](https://data.boston.gov/dataset/311-service-requests/resource/dff4d804-5031-443a-8409-8344efd0e5c8) for 2024 from Analyze Boston. Observe a few records to get a sense of how this table is filled out.
 
-> 1. In a web browser, search for "GIS open data portal DC".
+## 311 data table
 
-> 2. Visit `opendata.dc.gov`.
-
-![Homepage with search bar](search.png)
-
-> 3. Scroll down and find the search bar that says "Search for apps, maps, documents, data and stories...". Place your cursor in the search bar and click `Enter`. This will bring you to a results page with all items, and filters you can use to refine your search.
-
-> 4. Under `Type` select `Feature Service`. It is a trend that many open data portals host GIS data layers as streaming "feature services", which are displayed in web maps. From these feature service landing pages, you can often download the data in various common geospatial formats, such as `shapefile` or `geoJSON`. Using `type` facets and filtering data by `shapefile`, `geojsons`, `point, line, or polygon` or `feature service` are a good way to tell the search portal you are looking for **geospatial data**, as opposed to spreadsheets, PDFs, or other kinds of information. 
-
-> 5. Click a random result, and observe how the feature service landing page is structured. What are your observations? How would you download this data, in order to bring it into a GIS?
-
-> 6. Return to the results list, filtered by `Feature Service`. Search for relevant terms `food`, `grocery`, `corner stores`, and observe which datasets are available which could be useful to the project. 
+<img src="cover.png" style="width:100%; max-height:70em;" alt="table">
 
 
-Be ready to demo this process to the group.
+There are two different ways to turn this table into spatial data. If you want the data to show up as individual occurrences (each 311 request is one dot on the map), you can use the `latitude` and `longitude` coordinate fields to import the data table to a GIS software, effectively turning it into a `shapefile`, `geojson` or `geopackage`. 
+
+If you want to aggregate the occurrences and represent them as a density count by neighborhood, you can use the `neighborhood` column in the dataset. It's likely you would have to perform some data cleaning first, using data cleaning tools such as Excel, Google Sheets, R, or OpenRefine. You would have to make sure the values in the `Neighborhood` field are standardized, and then use a pivot table to count all the occurrences per neighborhood. Then you would **join the neighborhood counts to a Boston neighborhoods shapefile**. 
+
+> 1. In a web browser, search for "GIS neighborhoods Boston shapefile download". 
+
+![Analyze Boston result for neighborhood boundaries](neighborhoods.png)
+
+> 2. Click [Census 2020 Block Group Neighborhoods Shapefile](https://data.boston.gov/dataset/census-2020-block-group-neighborhoods/resource/ed89fab7-aa21-42ce-874b-1b4971ab50fb) until it appears as a map preview (pictured above).
+
+> 3. In a search engine or chatbot, search "How to do a table join in GIS".
+
+## Follow-up resources (next steps)
+
+## Discussion questions
+
+
+
+

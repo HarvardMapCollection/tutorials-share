@@ -16,46 +16,39 @@
       <description>Get here quick: https://bit.ly/find-gis-data&#xA;Harvard Map Collection Map Collection Quick Facts Appointments available to look at maps or get help with GIS data. Monday - Friday 10:30 - 4. Drop-in weekly office hours for GIS help (no appointment needed). Visit Harvard Library website, go to events, search GIS. For general inquiries, email maps@harvard.edu . Today&amp;rsquo;s activity Duration: 30 minutes.&#xA;Visit the activity homepage .&#xA;Receive your group assignment from the instructor.</description>
     </item>
     <item>
-      <title>Group 1 [Spatial Resolution]</title>
+      <title>Group 1 [Portals]</title>
       <link>http://localhost:1313/resources/finding-data/in-class-activity/group-1/</link>
-      <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-1/</guid>
-      <description>In a web browser, search for &amp;ldquo;bike path Cambridge gis data download&amp;rdquo;. Visit any relevant results. Make observations. Which file types are available for access? How would you get this into a GIS? What are the categories or attribute information? Is this data available in a GIS format, or is it a table with geographic information? If it is GIS data, which kind of layer is it? Point, line, or polygon?</description>
-    </item>
-    <item>
-      <title>Group 2 [Portals]</title>
-      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-2/</link>
       <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-2/</guid>
-      <description>Consider this request a student made to the Harvard Map Collection for help with finding GIS data in 2024:&#xA;&amp;ldquo;I would like to create a GIS map of food deserts in DC by layering maps of grocery store locations, corner store locations, and other options found on Open Data DC with census data to identify areas where large populations do not have access to healthy foods.&amp;rdquo;&#xA;Where is a good place to get started searching for food desert data in DC?</description>
+      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-1/</guid>
+      <description>Objectives Explore open data portals and learn how to use them to find GIS data Explore how content may be organized and how to refine searching 10 minutes to get started Consider this request a student made to the Harvard Map Collection for help with finding GIS data in 2024:&#xA;&amp;ldquo;I would like to create a GIS map of food deserts in DC by layering maps of grocery store locations, corner store locations, and other options found on Open Data DC with census data to identify areas where large populations do not have access to healthy foods.</description>
     </item>
     <item>
-      <title>Group 3 [Turning Spreadsheets into Spatial Data]</title>
-      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-3/</link>
+      <title>Group 2 [Turning Spreadsheets into Spatial Data]</title>
+      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-2/</link>
       <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-3/</guid>
-      <description>Visit the documentation page for data about Boston 311 service requests , to get a sense of what this dataset shows. Observe the data categories in the PDF codebook. Now glance at the actual 311 requests dataset for 2024 from Analyze Boston. Observe a few records to get a sense of how this table is filled out. 311 data table There are two different ways to turn this table into spatial data.</description>
+      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-2/</guid>
+      <description>Objectives 10 minutes to get started Visit the documentation page for data about Boston 311 service requests , to get a sense of what this dataset shows. Observe the data categories in the PDF codebook. Now glance at the actual 311 requests dataset for 2024 from Analyze Boston. Observe a few records to get a sense of how this table is filled out. 311 data table There are two different ways to turn this table into spatial data.</description>
     </item>
     <item>
-      <title>Group 4 [Georeferencing]</title>
-      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-4/</link>
+      <title>Group 3 [Georeferencing]</title>
+      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-3/</link>
       <pubDate>Sun, 11 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-4/</guid>
-      <description>Visit Atlascope.org , search for a place in Boston or Cambridge you are interested in exploring on a historical map, and experiment with toggling between different georeferenced map layers. Visit the Harvard Geospatial Library (HGL) . Click the Search button. In the left-hand side facets, under Format choose GeoTIFF. Under Access, choose Public. You can further filter results by the Institution which holds the source, the Place it depicts, or you can use the Search Bar to further refine results.</description>
+      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-3/</guid>
+      <description>Objectives 10 minutes to get started Visit Atlascope.org , search for a place in Boston or Cambridge you are interested in exploring on a historical map, and experiment with toggling between different georeferenced map layers. Visit the Harvard Geospatial Library (HGL) . Click the Search button. In the left-hand side facets, under Format choose GeoTIFF. Under Access, choose Public. You can further filter results by the Institution which holds the source, the Place it depicts, or you can use the Search Bar to further refine results.</description>
     </item>
     <item>
-      <title>Group 5 [OpenStreetMap]</title>
-      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-5/</link>
+      <title>Group 4 [OpenStreetMap]</title>
+      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-4/</link>
       <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-5/</guid>
-      <description>Sometimes &amp;ldquo;official&amp;rdquo; data is not available for particular data topics or places in the world. Leveraging data extracts from crowd-contributed projects, such as OpenStreetMap (OSM) can help fill in the gaps.&#xA;Consider Jess Eng&amp;rsquo;s 2021 project which looks at the location of Indian cuisine in London, using data extracted from OSM.&#xA;Visit the list of available Map Features you can extract as data layers from OSM. Identify a feature layer you might be interested in downloading.</description>
+      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-4/</guid>
+      <description>Objectives 10 minutes to get started Sometimes &amp;ldquo;official&amp;rdquo; data is not available for particular data topics or places in the world. Leveraging data extracts from crowd-contributed projects, such as OpenStreetMap (OSM) can help fill in the gaps.&#xA;Consider Jess Eng&amp;rsquo;s 2021 project which looks at the location of Indian cuisine in London, using data extracted from OSM.&#xA;Visit the list of available Map Features you can extract as data layers from OSM.</description>
     </item>
     <item>
-      <title>Group 6 [Creating Coordinates]</title>
-      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-6/</link>
+      <title>Group 5 [Creating Coordinates]</title>
+      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-5/</link>
       <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-6/</guid>
-      <description>⚠️ Requirements At least one group member will need to be logged into their Google account to complete this activity.&#xA;The group member logged in should be ready by the end to share their screen on the class projector and lead a group discussion about their Google Sheets table and Google My Maps map. Create a new Google Sheets by typing sheets.new into a browser. Create three header columns, name, latitude, and longitude.</description>
+      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-5/</guid>
+      <description>Objectives 10 minutes to get started ⚠️ Requirements At least one group member will need to be logged into their Google account to complete this activity.&#xA;The group member logged in should be ready by the end to share their screen on the class projector and lead a group discussion about their Google Sheets table and Google My Maps map. Create a new Google Sheets by typing sheets.new into a browser.</description>
     </item>
   </channel>
 </rss>

@@ -40,11 +40,13 @@ If you have additional time, or would like to get started working with informati
 
 ## Discussion questions
 
+
 1. How do you think using georeferenced maps such as the ones overlaid in the Atlascope tool can help us ask and answer spatial questions?
 2. What are some other examples of information one might be able to find in paper maps that could be useful in a project, if georeferenced?
 3. What are some ways to get started finding georeferened maps to use in a GIS project?
 4. Prepare to present any demos which could help communicate these takeaways.
+
 5. Did you find anything suprising or interesting in the follow-up resources?
-6. *Extra credit:* When faceting by `FORMAT`, why do you think we select `GeoTIFF` instead of `Shapefile`? How might working with raster vs. vector data impact how we approach looking for datasets?
+6. When faceting by `FORMAT`, why do you think we select `GeoTIFF` instead of `Shapefile`? How might working with raster vs. vector data impact how we approach looking for datasets?
 
 

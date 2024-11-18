@@ -1,5 +1,5 @@
 ---
-title: Group 4 [OpenStreetMap]
+title: Group 4 [OpenStreetMap] and Crowd-Contributed Data
 image: cover.png
 date: 2024-08-10
 layout: single2
@@ -27,7 +27,7 @@ layout: single2
     - [Natural Earth](https://www.naturalearthdata.com/)
 
 ## Discussion questions
-1. What are some reasons why one might rely on crowd-sourced information for a GIS project?
+1. What are some reasons why one might rely on crowd-contributed data for a GIS project?
 2. What are some benefits and downsides to using crowd-contributed data?
 3. What else did you learn about that you think would be valuable to share with your group?
 4. Prepare to present any demos which could help communicate these takeaways.

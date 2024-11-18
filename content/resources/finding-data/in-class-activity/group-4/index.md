@@ -6,28 +6,30 @@ layout: single2
 ---
 
 ## Objectives
+- Understand what OpenStreetMap (OSM) is, and how it can be helpful for finding data
+- Learn how to use tools built around the OSM API to extract datasets of your choosing
 
 ## 10 minutes to get started
 
-Sometimes "official" data is not available for particular data topics or places in the world. Leveraging data extracts from crowd-contributed projects, such as [OpenStreetMap (OSM)](https://www.openstreetmap.org/about) can help fill in the gaps.
+1. Read through the [OpenStreetMap tutorial](https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbyfeature/). Be sure to open up the OpenStreetMap features Wiki and observe all of the mappable data layers one can extract.
 
-Consider Jess Eng's 2021 project which looks at the location of Indian cuisine in London, using data extracted from OSM. 
+2. Read this [blog post](https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbyfeature/) on what the definition of an API is.
 
-<img src="jess-map.png" style="width:100%; max-height:70em;" alt="boroughs and restaurants map">
-
-> 1. Visit the list of available [Map Features](https://wiki.openstreetmap.org/wiki/Map_features) you can extract as data layers from OSM. Identify a feature layer you might be interested in downloading. 
-
-> 2. OSM makes its crowd-contributed database available via a queryable API. To understand how this works, in a search engine or chatbox, prompt "How do i use the openstreetmap api?".
-
-> 3. The results discuss how to script API calls using programming languages, such as Python. If you are not a programmer, there is a plugin for extracting OSM layers in QGIS. Skim through the Harvard Map Collection's [step-by-step tutorial](https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbyfeature/) on how to use this plugin. 
-
-
-
-
-
+> OpenStreetMaps contains a massive amount of information. Rather than directly download the whole database, OSM makes data available via an API. That way, one can write queries that download data based on one's exact parameters of interest. For instance, in the tutorial example, we specify that we are looking for only *shopping malls*, and only in *Jakarta*. This helps pare down the data we are downloading.
+>
+> Normally, when we write **queries** using an API, we have to use some kind of coding language. Because not everyone codes, there are a number of click-and-point tools people have built, which are actually just using the API behind the scenes. The one we showcased (the QGIS plugin) is one of these tools (one we have used at the Map Collection a great deal, and can vouch for!), but you can find lots of others on the web.
 
 
 ## Follow-up resources (next steps)
+- Here is an [inexhaustive list](https://github.com/osmlab/awesome-openstreetmap) of projects using OpenStreetMap data
+- Here are some other crowd-contributed mapping data projects:
+    - [Geonames](https://www.geonames.org/)
+    - [Natural Earth](https://www.naturalearthdata.com/)
 
 ## Discussion questions
+1. What are some reasons why one might rely on crowd-sourced information for a GIS project?
+2. What are some benefits and downsides to using crowd-contributed data?
+3. What else did you learn about that you think would be valuable to share with your group?
+4. Prepare to present any demos which could help communicate these takeaways.
+5. Did you find anything surprising or interesting in the follow-up resources?
 

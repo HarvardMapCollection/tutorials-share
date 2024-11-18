@@ -20,17 +20,24 @@ Get here quick:
 - Visit [Harvard Library](https://library.harvard.edu/) website, go to events, search `GIS`. 
 - For general inquiries, email maps@harvard.edu.
 
-## Today's activity
+## Slides
 
-*Duration: 30 minutes.*
+[Activity introduction slides](https://docs.google.com/presentation/d/1lcln6eBZO-ozw-JEC-Id8a56K-ByLzED7Pvdm5Cybys/edit?usp=sharing). [10 minutes]
+
+## Today's activity
 
 1. Visit the [activity homepage](https://mapping.share.library.harvard.edu/resources/finding-data/in-class-activity/). 
 
 2. Receive your group assignment from the instructor. 
 
-3. Each group will have ten minutes to work through their assigned activity. [10 minutes]
+3. Work independently for 10-15 minutes (time permitting) on the activity for the group to which you were assigned. The instructor will provide a 5 minute warning. Read the activity with an eye towards the discussion questions at the bottom of the page. You will be presenting based on these prompts.[10-15 minutes]
 
-4. Upon completion, each group will have 3-5 minutes to present their findings. A group spokesperson will demo activity materials on the instructor's computer, or by screencasting their own laptops. [20 minutes]
+4. Spend 5 minutes as a group discussing what you learned and what you would like to present as a group. [5 minutes]
+
+5. Upon completion, each group will have a few minutes to present their findings. A group spokesperson will demo activity materials on the instructor's computer, or by screencasting their own laptops. [25 minutes]
+
+6. Wrapping up and debrief. [5 minutes]
+
 
 
 

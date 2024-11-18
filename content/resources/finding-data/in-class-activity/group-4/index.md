@@ -21,7 +21,7 @@ layout: single2
 
 
 ## Follow-up resources (next steps)
-- Here is an [inexhaustive list](https://github.com/osmlab/awesome-openstreetmap) of projects using OpenStreetMap data
+- Here is a [list of projects using OpenStreetMap data](https://github.com/osmlab/awesome-openstreetmap) 
 - Here are some other crowd-contributed mapping data projects:
     - [Geonames](https://www.geonames.org/)
     - [Natural Earth](https://www.naturalearthdata.com/)

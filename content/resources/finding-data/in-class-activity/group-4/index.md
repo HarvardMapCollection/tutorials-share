@@ -1,5 +1,5 @@
 ---
-title: Group 4 [OpenStreetMap] and Crowd-Contributed Data
+title: Group 4 [OpenStreetMap and Crowd-Contributed Data]
 image: cover.png
 date: 2024-08-10
 layout: single2

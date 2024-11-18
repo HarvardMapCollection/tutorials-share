@@ -35,7 +35,7 @@ layout: single2
 
 > 2. Click [Census 2020 Block Group Neighborhoods Shapefile](https://data.boston.gov/dataset/census-2020-block-group-neighborhoods/resource/ed89fab7-aa21-42ce-874b-1b4971ab50fb) until it appears as a map preview (pictured above).
 
-> 3. Select one of the polygons and observe how the attribute information is structured. Which attribute value is collected in both tables that could be used to facilitate a join?
+> 3. Select one of the polygons and observe how the attribute information is structured. Which attribute value is collected in both this neighborhoods shapefile, as well as the 3-1-1 spreadsheet that could be used to facilitate a join?
 
 ![screenshot of clicking on the polygons to show a table with the column "neighborhood", and neighborhood name](neighborhood-attributes.png)
 
@@ -57,7 +57,7 @@ layout: single2
 
 ## Discussion questions
 1. How could using table joins open up the possibilities for finding data for a GIS project?
-2. How do you think the 3-1-1 request data could be an example of a dataset that was collected for one purpose, but could be used for mapping? Were there any values in the 3-1-1 data codebook you think might be interesting for a GIS project?
+2. How do you think the 3-1-1 request data could be an example of a dataset that was collected for one purpose, but could be repurposed? Were there any values in the 3-1-1 data codebook you think might be interesting for a GIS project?
 4. Prepare to present any demos which could help communicate these takeaways.
 5. Did you find anything surprising or interesting in the follow-up resources?
 

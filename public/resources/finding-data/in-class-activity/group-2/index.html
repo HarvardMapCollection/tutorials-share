@@ -15,11 +15,11 @@
 
 
 <meta name="description" content="
-    Objectives 10 minutes to get started Visit the documentation page for data about Boston 311 service requests , to get a sense of what this dataset shows. Observe the data categories in the PDF codebook. Now glance at the actual 311 requests dataset for 2024 from Analyze Boston. Observe a few records to get a sense of how this table is filled out. 311 data table There are two different ways to turn this table into spatial data.
+    Objectives Understand how to use table joins to connect a spreadsheet of data to mapping data Practice thinking outside of the box with datasets 10 minutes to get started Imagine you are working on a project where you can find data for your project in spreadsheet format, but there are no shapes associated with the table. Maybe the data references towns, countries, or other units of geography. In this activity, we will explore how to evaluate a dataset&rsquo;s GIS viability based on our ability to join it with spatial data.
     "
 />
 <meta property="og:description" content="
-    Objectives 10 minutes to get started Visit the documentation page for data about Boston 311 service requests , to get a sense of what this dataset shows. Observe the data categories in the PDF codebook. Now glance at the actual 311 requests dataset for 2024 from Analyze Boston. Observe a few records to get a sense of how this table is filled out. 311 data table There are two different ways to turn this table into spatial data.
+    Objectives Understand how to use table joins to connect a spreadsheet of data to mapping data Practice thinking outside of the box with datasets 10 minutes to get started Imagine you are working on a project where you can find data for your project in spreadsheet format, but there are no shapes associated with the table. Maybe the data references towns, countries, or other units of geography. In this activity, we will explore how to evaluate a dataset&rsquo;s GIS viability based on our ability to join it with spatial data.
     " 
 />
 
@@ -44,14 +44,14 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/resources/finding-data/in-class-activity/group-2/cover.png">
   <meta name="twitter:title" content="Group 2 [Turning Spreadsheets into Spatial Data]">
-  <meta name="twitter:description" content="Objectives 10 minutes to get started Visit the documentation page for data about Boston 311 service requests , to get a sense of what this dataset shows. Observe the data categories in the PDF codebook. Now glance at the actual 311 requests dataset for 2024 from Analyze Boston. Observe a few records to get a sense of how this table is filled out. 311 data table There are two different ways to turn this table into spatial data.">
+  <meta name="twitter:description" content="Objectives Understand how to use table joins to connect a spreadsheet of data to mapping data Practice thinking outside of the box with datasets 10 minutes to get started Imagine you are working on a project where you can find data for your project in spreadsheet format, but there are no shapes associated with the table. Maybe the data references towns, countries, or other units of geography. In this activity, we will explore how to evaluate a dataset’s GIS viability based on our ability to join it with spatial data.">
 
 
   <meta itemprop="name" content="Group 2 [Turning Spreadsheets into Spatial Data]">
-  <meta itemprop="description" content="Objectives 10 minutes to get started Visit the documentation page for data about Boston 311 service requests , to get a sense of what this dataset shows. Observe the data categories in the PDF codebook. Now glance at the actual 311 requests dataset for 2024 from Analyze Boston. Observe a few records to get a sense of how this table is filled out. 311 data table There are two different ways to turn this table into spatial data.">
+  <meta itemprop="description" content="Objectives Understand how to use table joins to connect a spreadsheet of data to mapping data Practice thinking outside of the box with datasets 10 minutes to get started Imagine you are working on a project where you can find data for your project in spreadsheet format, but there are no shapes associated with the table. Maybe the data references towns, countries, or other units of geography. In this activity, we will explore how to evaluate a dataset’s GIS viability based on our ability to join it with spatial data.">
   <meta itemprop="datePublished" content="2024-08-12T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-08-12T00:00:00+00:00">
-  <meta itemprop="wordCount" content="260">
+  <meta itemprop="wordCount" content="443">
   <meta itemprop="image" content="http://localhost:1313/resources/finding-data/in-class-activity/group-2/cover.png">
 
 
@@ -283,24 +283,38 @@
                 <h1 class="title">Group 2 [Turning Spreadsheets Into Spatial Data]</h1>
 
                 <h2 id="objectives">Objectives</h2>
+<ul>
+<li>Understand how to use table joins to connect a spreadsheet of data to mapping data</li>
+<li>Practice thinking outside of the box with datasets</li>
+</ul>
 <h2 id="10-minutes-to-get-started">10 minutes to get started</h2>
+<p><em>Imagine you are working on a project where you can find data for your project in spreadsheet format, but there are no shapes associated with the table. Maybe the data references towns, countries, or other units of geography. In this activity, we will explore how to evaluate a dataset&rsquo;s GIS viability based on our ability to join it with spatial data.</em></p>
 <blockquote>
 <ol>
 <li>Visit the <a href="https://data.boston.gov/dataset/311-service-requests/resource/b237f352-49d1-4423-804f-b478e4f24e61" target="_blank">documentation page</a>
  for data about <a href="https://www.boston.gov/departments/boston-311" target="_blank">Boston 311 service requests</a>
-, to get a sense of what this dataset shows. Observe the data categories in the PDF codebook.</li>
+, to get a sense of what this dataset shows.</li>
 </ol>
 </blockquote>
 <blockquote>
 <ol start="2">
+<li>Look at the category codes in the PDF. What is this dataset representing? What do the codes in the table mean?</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="3">
+<li>Consider how mapping these codes might provide insight. What questions could you ask and maybe answer using this information about a city?</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="4">
 <li>Now glance at the actual <a href="https://data.boston.gov/dataset/311-service-requests/resource/dff4d804-5031-443a-8409-8344efd0e5c8" target="_blank">311 requests dataset</a>
  for 2024 from Analyze Boston. Observe a few records to get a sense of how this table is filled out.</li>
 </ol>
 </blockquote>
 <h2 id="311-data-table">311 data table</h2>
 <img src="cover.png" style="width:100%; max-height:70em;" alt="table">
-<p>There are two different ways to turn this table into spatial data. If you want the data to show up as individual occurrences (each 311 request is one dot on the map), you can use the <code>latitude</code> and <code>longitude</code> coordinate fields to import the data table to a GIS software, effectively turning it into a <code>shapefile</code>, <code>geojson</code> or <code>geopackage</code>.</p>
-<p>If you want to aggregate the occurrences and represent them as a density count by neighborhood, you can use the <code>neighborhood</code> column in the dataset. It&rsquo;s likely you would have to perform some data cleaning first, using data cleaning tools such as Excel, Google Sheets, R, or OpenRefine. You would have to make sure the values in the <code>Neighborhood</code> field are standardized, and then use a pivot table to count all the occurrences per neighborhood. Then you would <strong>join the neighborhood counts to a Boston neighborhoods shapefile</strong>.</p>
+<h2 id="neighborhoods-data-table">Neighborhoods data table</h2>
 <blockquote>
 <ol>
 <li>In a web browser, search for &ldquo;GIS neighborhoods Boston shapefile download&rdquo;.</li>
@@ -315,11 +329,35 @@
 </blockquote>
 <blockquote>
 <ol start="3">
-<li>In a search engine or chatbot, search &ldquo;How to do a table join in GIS&rdquo;.</li>
+<li>Select one of the polygons and observe how the attribute information is structured. Which attribute value is collected in both tables that could be used to facilitate a join?</li>
 </ol>
 </blockquote>
+<p><img src="neighborhood-attributes.png" alt="screenshot of clicking on the polygons to show a table with the column &ldquo;neighborhood&rdquo;, and neighborhood name"></p>
+<div class="alert-success">
+<details>
+    <summary>Show me the answer</summary>
+    You would use the field containing values for the neighborhood name, which is present in both datasets to join the data. In the 3-1-1 requests table, the attribute field is titled "neighborhood"; in the neighborhood GIS data, it is titled "BlockGr202".
+</details>
+</div>
 <h2 id="follow-up-resources-next-steps">Follow-up resources (next steps)</h2>
+<ul>
+<li><a href="https://mapping.share.library.harvard.edu/tutorials/census-data-primer/perform-a-table-join/" target="_blank">How and why we perform table joins (step-by-step instructions for QGIS)</a>
+</li>
+</ul>
+<blockquote>
+<p>Note: to join the dataset in this example, one would likely need to perform substantial data cleaning. This could include tidying up the records, and using a pivot table to aggregate individual requests by neighborhood prior to join.</p>
+</blockquote>
+<ul>
+<li>An alternative to using a table join could be doing a <a href="https://maps.cga.harvard.edu/qgis_2/wkshop/pt_in_pgn.php" target="_blank">count point in polygon analysis</a>
+</li>
+</ul>
 <h2 id="discussion-questions">Discussion questions</h2>
+<ol>
+<li>How could using table joins open up the possibilities for finding data for a GIS project?</li>
+<li>How do you think the 3-1-1 request data could be an example of a dataset that was collected for one purpose, but could be used for mapping? Were there any values in the 3-1-1 data codebook you think might be interesting for a GIS project?</li>
+<li>Prepare to present any demos which could help communicate these takeaways.</li>
+<li>Did you find anything surprising or interesting in the follow-up resources?</li>
+</ol>
 
             </div>
         </div>

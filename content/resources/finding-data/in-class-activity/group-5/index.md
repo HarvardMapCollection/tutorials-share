@@ -72,5 +72,5 @@ layout: single2
 1. Why might someone need to create location data of their own?
 2. How does importing the data into Google MyMaps exemplify what you can do with tabular coordinate data? What do the Google MyMaps activity and the follow-up resource, [Add a Spreadsheet .XLSX or .CSV to a QGIS project](https://mapping.share.library.harvard.edu/tutorials/qgis/add-spreadsheet/) have in common?
 3. Prepare to present any demos which could help communicate these takeaways.
-4. Did you find anything else suprising or interesting in the follow-up resources?
+4. Did you find anything else surprising or interesting in the follow-up resources?
 

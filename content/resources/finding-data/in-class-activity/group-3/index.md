@@ -46,7 +46,7 @@ If you have additional time, or would like to get started working with informati
 3. What are some ways to get started finding georeferened maps to use in a GIS project?
 4. Prepare to present any demos which could help communicate these takeaways.
 
-5. Did you find anything suprising or interesting in the follow-up resources?
+5. Did you find anything surprising or interesting in the follow-up resources?
 6. When faceting by `FORMAT`, why do you think we select `GeoTIFF` instead of `Shapefile`? How might working with raster vs. vector data impact how we approach looking for datasets?
 
 

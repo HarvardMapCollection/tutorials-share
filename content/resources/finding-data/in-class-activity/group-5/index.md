@@ -5,17 +5,22 @@ date: 2024-08-09
 layout: single2
 ---
 
-## Objectives
-
-## 10 minutes to get started
-
 <div class="alert-warning">
 <h2>⚠️ Requirements</h2>
 <p><em>At least one group member will need to be logged into their Google account to complete this activity.</em></p>
   <p>The group member logged in should be ready by the end to share their screen on the class projector and lead a group discussion about their Google Sheets table and Google My Maps map. </p>
 </div>
 
+## Objectives
 
+- Learn where to find coordinate information for locations
+- Learn how to format coordinates in a table so they can be opened in a map
+- Learn how to import a table of coordinates into a GIS mapping interface
+
+
+## 10 minutes to get started
+
+*Imagine you want to make a map of all the places referenced in Chekhov's plays. Where would you get that data? In many cases, you may need to assemble location data yourself into a spreadsheet. This is just one example of the type of project where creating a spreadsheet of coordinates may be necessary. For this activity, you can choose to create data points from any location of your choice.*
 
 > 1. Create a new Google Sheets by typing `sheets.new` into a browser. 
 
@@ -60,6 +65,13 @@ layout: single2
 
 
 ## Follow-up resources (next steps)
+- [Add a Spreadsheet .XLSX or .CSV to a QGIS project](https://mapping.share.library.harvard.edu/tutorials/qgis/add-spreadsheet/) 
+- Follow an ArcGIS Pro [geocoding tutorial](https://storymaps.arcgis.com/stories/4c42eb942db4454f80dcaffb41c81c11) by clicking  `Your ArcGIS Organization's URL`, typing in `harvard-cga`, and authenticating with your Harvard Key
+- Here's a [blog post](https://musingsaboutlibrarianship.blogspot.com/2017/03/openrefine-reconciliation-services.html) about how to extend records you have in a spreadsheet by "reconciling" them with matches in Wikidata, using a tool called OpenRefine. One of the data points you can pull into your spreadsheet are coordinates.
 
 ## Discussion questions
+1. Why might someone need to create location data of their own?
+2. How does importing the data into Google MyMaps exemplify what you can do with tabular coordinate data? What do the Google MyMaps activity and the follow-up resource, [Add a Spreadsheet .XLSX or .CSV to a QGIS project](https://mapping.share.library.harvard.edu/tutorials/qgis/add-spreadsheet/) have in common?
+3. Prepare to present any demos which could help communicate these takeaways.
+4. Did you find anything else suprising or interesting in the follow-up resources?
 

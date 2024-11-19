@@ -13,7 +13,7 @@ layout: single2
 
 1. Read through the [OpenStreetMap tutorial](https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbyfeature/). Be sure to open up the OpenStreetMap features Wiki and observe all of the mappable data layers one can extract.
 
-2. Read this [blog post](https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbyfeature/) on what the definition of an API is.
+2. Read this [blog post](https://blog.hubspot.com/blog/tabid/6307/bid/8341/a-marketer-s-guide-to-apis.aspx) on what the definition of an API is.
 
 > OpenStreetMaps contains a massive amount of information. Rather than directly download the whole database, OSM makes data available via an API. That way, one can write queries that download data based on one's exact parameters of interest. For instance, in the tutorial example, we specify that we are looking for only *shopping malls*, and only in *Jakarta*. This helps pare down the data we are downloading.
 >

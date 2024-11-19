@@ -47,7 +47,7 @@ If you have additional time, or would like to explore data portals in more detai
 ## Discussion questions
 1. What did you learn about searching in open data portals that you think would be valuable to share with your group?
 2. Prepare to present any demos which could help communicate these takeaways
-3. Did you find anything suprising or interesting in the follow-up resources? 
+3. Did you find anything surprising or interesting in the follow-up resources? 
 
 
 

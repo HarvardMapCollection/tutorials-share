@@ -38,7 +38,7 @@ You'll notice that some of the maps from the Harvard Map Collection have been sc
 <img src="media/2.png" alt="Digital colletions image viewer with metadata tooltip open, showing a highlighted manifest URL">
 </div>
 
-5. Navigate to the [AllMaps.org Editor](https://editor.allmaps.org/#/)
+5. Navigate to the [AllMaps.org Editor](https://dev.editor.allmaps.org/#/)
 <div class="alert-success">AllMaps is a free, open-source software for georeferencing maps in the browser.</div>
 
 6. Paste the map's IIIF manifest URL into the input box and select `Load`. 

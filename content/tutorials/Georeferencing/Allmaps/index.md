@@ -38,7 +38,7 @@ You'll notice that some of the maps from the Harvard Map Collection have been sc
 <img src="media/2.png" alt="Digital colletions image viewer with metadata tooltip open, showing a highlighted manifest URL">
 </div>
 
-5. Navigate to the [AllMaps.org Editor](https://dev.editor.allmaps.org/#/)
+5. Navigate to the [AllMaps.org Editor](https://editor.allmaps.org/#/)
 <div class="alert-success">AllMaps is a free, open-source software for georeferencing maps in the browser.</div>
 
 6. Paste the map's IIIF manifest URL into the input box and select `Load`. 
@@ -50,9 +50,36 @@ You'll notice that some of the maps from the Harvard Map Collection have been sc
 Use the `georeference` tab to assign control points between the map on the left, and the baselayer on the right. Start with at least three control points, evenly distributed at equidistant spots around the map. You can add a few more, for more specificity. Click the `results` tab to check the results. 
 ![Screenshot of a map being georeferenced in the AllMaps editor.](media/4.png)
 
-<div class="alert-danger">
-Right now, AllMaps works best for larger-scale maps, or maps that show a smaller area, in more detail. If you need more robust transformations for small-scale maps, you might try one of our <a href="https://mapping.share.library.harvard.edu/tags/georeferencing/">other georeferencing guides</a>. <a href="http://www.geo.hunter.cuny.edu/~jochen/gtech361/lectures/lecture02/concepts/04%20Understanding%20map%20scale.html#:~:text=You%20will%20commonly%20see%20references,large%20area%20in%20less%20detail.">Learn the difference between small and large scale maps.</a>
-</div>
+## View the results
+
+1. Select the `Results` tab.
+2. Select `View current image`.
+3. Use the two buttons at the bottom of the screen to adjust the opacity.
+
+## Get a link to use the map layer in other GIS software
+
+1. Return back to the `Results` page. 
+> Use the back button in your browser, if necessary, to return to the `Results` page.
+
+![Allmaps layer link](media/allmaps-tiles-link.png)
+
+2. Highlight the `XYZ tile URL` and copy it to your clipboard. This is a link you can use to bring the georeferenced map in as a layer to many GIS tools such as ArcGIS Pro or Online, including StoryMaps, QGIS, or Felt.
+
+
+## Add the layer to a Felt map
+
+1. From a Felt map, select the `Upload anything` button.
+![upload anything](media/upload-anything-felt.png)
+
+2. Choose `From URL`.
+
+3. Paste in the `XYZ tile URL` from AllMaps.
+
+4. Select `Add to map`. 
+
+> Allow a moment or two for the map to render.
+
+5. In the `Legend`, click where it says `{Y}`. A window should open on the right-hand side of the map. In the window, you can change the title of the map in the legend by clicking `{Y}` and editing the name. There should also be a slider to adjust the map `{Opacity}`.
 
 
 ## Add the layer to a QGIS project

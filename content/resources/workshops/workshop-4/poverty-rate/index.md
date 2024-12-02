@@ -196,3 +196,11 @@ Poverty Rate= AMZME002 + AMZME003 / AMZME001 x 100
 You now have a dataset you can use to map poverty rate. Use the `GEOID` column to join this data with a census tract shapefile, and use the newly computed `POVERTY_RATE` field to power the visualization.
 
 Follow the next tutorial in [the workshop](https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/) to learn how to create a map from this data.
+
+
+<div class="alert-success">
+<h2>Give your feedback to improve our tutorials</h2>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfmrd8Dqp4MAEC8ObeY9qMq1FWDNdsubTM5OszGEqVPwmw7DQ/viewform?embedded=true" width="640" height="422" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+
+

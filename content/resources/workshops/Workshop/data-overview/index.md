@@ -11,7 +11,7 @@ As an example project, we are going study Poland at the end of WWI. By the end o
 We are going to be working with three datasets.
 
 ## GIS dataset #1 
-A [map showing nationalities in Poland](https://digitalcollections.library.harvard.edu/catalog/990152910700203941) in 1919. We have already georeferenced the map, so it lines up nicely with our other data.
+A [map showing nationalities in Poland](https://iiif.lib.harvard.edu/manifests/view/ids:445002895) in 1919. We have already georeferenced the map, so it lines up nicely with our other data.
 ![GIF showing the 1919 map superimposed over a modern map of Europe](media/poland-opacity.gif)
 ![Map key of the historic map showing the different ethnicities breakdown](media/legend.gif)
 *Here is the map legend showing what we can learn from the map -- the breakdown of nationalities in Poland at the time the map was made, in 1919.*

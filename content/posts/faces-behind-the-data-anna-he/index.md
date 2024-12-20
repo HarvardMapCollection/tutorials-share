@@ -4,7 +4,7 @@ date: 2024-12-20
 tags: ["news", "interview"]
 image: he.jpg
 authors: ["Anna He", "Belle Lipton"]
-description: Get to know the newest member of the Harvard Map Collection, Anna He, as they discuss the future of the Harvard Geospatial Library.
+description: Get to know the newest member of the Harvard Map Collection, Anna He, in a discussion about the future of the Harvard Geospatial Library.
 ---
 
 In this interview, we get to know Anna He, the newest member in the Map Collection. Anna’s role is the Geospatial Data Technician for the Harvard Geospatial Library (HGL).

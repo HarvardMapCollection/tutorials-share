@@ -6,8 +6,15 @@
     <description>Recent content in QGIS on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tutorials/qgis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use attribute table field filters in QGIS to subset data</title>
+      <link>http://localhost:1313/tutorials/qgis/use-field-filters/</link>
+      <pubDate>Mon, 16 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/qgis/use-field-filters/</guid>
+      <description>This tutorial will cover how to add tabular data to a QGIS project.</description>
+    </item>
     <item>
       <title>Vectorize maps into data; polygon area calculations for QGIS</title>
       <link>http://localhost:1313/tutorials/qgis/adler/</link>

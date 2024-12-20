@@ -3,6 +3,61 @@
       
       
 	  <url>
+	    <loc>http://localhost:1313/</loc>
+	    <lastmod>2024-12-16</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/tags/qgis/</loc>
+	    <lastmod>2024-12-16</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/tags/</loc>
+	    <lastmod>2024-12-16</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/tutorials/</loc>
+	    <lastmod>2024-12-16</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/tutorials/qgis/use-field-filters/</loc>
+	    <lastmod>2024-12-16</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
 	    <loc>http://localhost:1313/tags/georeferencing/</loc>
 	    <lastmod>2024-10-30</lastmod>
         
@@ -14,40 +69,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/</loc>
-	    <lastmod>2024-10-30</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
 	    <loc>http://localhost:1313/tutorials/georeferencing/selecting-a-map/</loc>
-	    <lastmod>2024-10-30</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/</loc>
-	    <lastmod>2024-10-30</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tutorials/</loc>
 	    <lastmod>2024-10-30</lastmod>
         
 
@@ -433,17 +455,6 @@
       
 	  <url>
 	    <loc>http://localhost:1313/projects/huige/map-collection/</loc>
-	    <lastmod>2024-08-08</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/qgis/</loc>
 	    <lastmod>2024-08-08</lastmod>
         
 

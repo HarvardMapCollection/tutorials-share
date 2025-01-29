@@ -5,7 +5,24 @@ image: cover.png
 layout: single2
 description: Background on the project
 ---
-## Background
+
+## Workshop goals
+
+![location of Harvard Map Collection to the left of Widener steps in the yard in between Quincy St + Mass Ave](map.png)
+
+- Today we are going to be reverse engineering an example mapping project supported by the Harvard Map Collection
+- The materials today, rather than leaving you feeling like an expert on GIS are meant to provide a sense or a sample of what's possible with GIS, and typify the kind of subject expertise and support resources available to you through the library
+- As we work through the materials together, don't worry about memorizing the technical specifics presented
+- "The only thing that you absolutely have to know, is the location of the library." - Albert Einstein
+
+## How to follow up
+- We will refrain this information again at the end, so don't worry if you miss it
+- The [Harvard Map Collection website](https://library.harvard.edu/libraries/harvard-map-collection) is where you can make appointments to see maps and get help with geospatial data
+- The [GIS Outreach Librarian](https://library.harvard.edu/staff/belle-lipton) is a resource to point you to services, if you're not exactly sure what your next step is
+- If today's workshop has sufficiently piqued your interest, we do offer other in-depth workshops with an even more hands-on focus on foundational GIS software. You can search and register for these in the library website, or request them for your group
+- Also available in the library calendar are listings for our weekly office hours. You can either drop into office hours with no appointment, or use the Harvard Map Collection website to schedule an appointment for in-person or remote
+
+## Project Background
 In 2023, the Harvard Map Collection partnered with with Tara Menon's English class, City Fictions. In this course, students consider experiences of a place from many perspectives (written, lived, mapped, etc.). The mapping assignment prompts students to create two maps of the same place, which each tell a different story.
 
 Libby Wu's stand-out project looks at the intersection of fitness and recreation with demographics and access by public transportation.

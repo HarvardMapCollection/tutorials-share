@@ -3,8 +3,8 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/</loc>
-	    <lastmod>2024-12-16</lastmod>
+	    <loc>http://localhost:1313/posts/faces-behind-the-data-anna-he/</loc>
+	    <lastmod>2024-12-20</lastmod>
         
 
         
@@ -14,8 +14,41 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/tags/qgis/</loc>
-	    <lastmod>2024-12-16</lastmod>
+	    <loc>http://localhost:1313/</loc>
+	    <lastmod>2024-12-20</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/tags/interview/</loc>
+	    <lastmod>2024-12-20</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/tags/news/</loc>
+	    <lastmod>2024-12-20</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/posts/</loc>
+	    <lastmod>2024-12-20</lastmod>
         
 
         
@@ -26,6 +59,17 @@
       
 	  <url>
 	    <loc>http://localhost:1313/tags/</loc>
+	    <lastmod>2024-12-20</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/tags/qgis/</loc>
 	    <lastmod>2024-12-16</lastmod>
         
 
@@ -246,28 +290,6 @@
       
 	  <url>
 	    <loc>http://localhost:1313/posts/adler-delta/</loc>
-	    <lastmod>2024-08-27</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/news/</loc>
-	    <lastmod>2024-08-27</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/posts/</loc>
 	    <lastmod>2024-08-27</lastmod>
         
 
@@ -863,17 +885,6 @@
 	  <url>
 	    <loc>http://localhost:1313/tags/test-template/</loc>
 	    <lastmod>2023-12-19</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/interview/</loc>
-	    <lastmod>2023-12-08</lastmod>
         
 
         

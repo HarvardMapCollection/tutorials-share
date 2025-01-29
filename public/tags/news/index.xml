@@ -6,8 +6,15 @@
     <description>Recent content in News on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Faces Behind the Data, Anna He and the Harvard Geospatial Library</title>
+      <link>http://localhost:1313/posts/faces-behind-the-data-anna-he/</link>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/faces-behind-the-data-anna-he/</guid>
+      <description>In this interview, we get to know Anna He, the newest member in the Map Collection. Anna’s role is the Geospatial Data Technician for the Harvard Geospatial Library (HGL).&#xA;BELLE LIPTON: What will your role be, related to the Harvard Geospatial Library (HGL)?&#xA;ANNA HE: As a geospatial data technician for HGL, I help manage geospatial data and metadata production for the Harvard Geospatial Library, primarily on the back end. My day-to-day involves tasks like doing quality control of geospatial datasets to ensure accuracy and troubleshooting any metadata-related errors.</description>
+    </item>
     <item>
       <title>Mapping Land Use Change in the Sacramento San-Joaquin River Delta</title>
       <link>http://localhost:1313/posts/adler-delta/</link>

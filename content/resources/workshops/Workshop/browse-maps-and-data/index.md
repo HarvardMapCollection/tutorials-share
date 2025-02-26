@@ -31,6 +31,6 @@ _The source of this dataset is a table found in `The American Political Science 
 ## Polish cities data symbolized and compared against nationalities map
 
 ![The finished map, showing a base layer of demographic makeup in Poland in 1919, and pie chart symbols for each Polish city, depicting the comparative percentage of votes for Poland versus East Prussia, or Germany, in the Allenstein plebiscite vote. There is also a border around the Allenstein plebiscite region.](media/MAP.png)
-*In the GIS tutorial, we learn how to make this map, using the above datasets to compare the percent of plebiscite vote results for East Prussia (Germany) and Poland, respectively. This data is overlaid onto a [map from 1919](https://id.lib.harvard.edu/alma/990152910700203941/catalog), showing nationality demographics of Poland at the time -- red for Polish, and blue for German.*
+*In the GIS tutorial, we learn how to make this map, using the above datasets to compare the percent of plebiscite vote results for East Prussia (Germany) and Poland, respectively. The data is scaled by number of votes per city. This data is overlaid onto a [map from 1919](https://id.lib.harvard.edu/alma/990152910700203941/catalog), showing nationality demographics of Poland at the time -- red for Polish, and blue for German.*
 
 [← Previous lesson: 6. Share results](/resources/new-to-gis/workshop/share-results/)

@@ -12,8 +12,8 @@ This tutorial is part of the [GIS Mapping Quickstart](https://mapping.share.libr
 - practice symbolizing and displaying the data in an online web map
 
 In this guide we will set up for these activities by **registering** for:
-- the census extract site, [https://www.nhgis.org/](https://www.nhgis.org/)
-- the web mapping site, [https://felt.com/](https://felt.com/)
+- the [census extract site, nhgis.org](https://www.nhgis.org/)
+- the [web mapping site, felt.com](https://felt.com/)
 
 > Note: If you register with a Harvard email address, it may take the email filters about 10-15 minutes to release the Felt confirmation email to your inbox. 
 

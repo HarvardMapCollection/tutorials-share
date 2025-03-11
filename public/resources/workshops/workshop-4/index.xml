@@ -20,7 +20,7 @@
       <link>http://localhost:1313/resources/workshops/workshop-4/registration/</link>
       <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/resources/workshops/workshop-4/registration/</guid>
-      <description>This tutorial is part of the GIS Mapping Quickstart workshop, in which we:&#xA;download census data of nonwhite populations and poverty rate practice symbolizing and displaying the data in an online web map In this guide we will set up for these activities by registering for:&#xA;the census extract site, https://www.nhgis.org/ the web mapping site, https://felt.com/ NHGIS.org We will be using NHGIS.org via the Minnesota Population Center to obtain census data in this workshop.</description>
+      <description>This tutorial is part of the GIS Mapping Quickstart workshop, in which we:&#xA;download census data of nonwhite populations and poverty rate practice symbolizing and displaying the data in an online web map In this guide we will set up for these activities by registering for:&#xA;the census extract site, nhgis.org the web mapping site, felt.com Note: If you register with a Harvard email address, it may take the email filters about 10-15 minutes to release the Felt confirmation email to your inbox.</description>
     </item>
     <item>
       <title>What are we mapping?</title>

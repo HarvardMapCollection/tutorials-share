@@ -12,40 +12,47 @@ Get here quick:
 
 <img src="map-collection-directions.png" style="width:100%; max-height:70em;" alt="map to maps">
 
-## Map Collection Quick Facts
+[Map Collection website](https://library.harvard.edu/libraries/harvard-map-collection). 
 
-- [Appointments available](https://outlook.office365.com/book/HarvardMapCollection1@HU.onmicrosoft.com/) to look at maps or get help with GIS data.
-- Monday - Friday 10:30 - 4.
-- Drop-in weekly office hours for GIS help (no appointment needed).
-- Visit [Harvard Library](https://library.harvard.edu/) website, go to events, search `GIS`. 
-- For general inquiries, email maps@harvard.edu.
 
-## Slides
+<div class="alert-success">
+<h2>Scope</h2>
 
-[Activity introduction slides](https://docs.google.com/presentation/d/1lcln6eBZO-ozw-JEC-Id8a56K-ByLzED7Pvdm5Cybys/edit?usp=sharing). [10 minutes]
+<p> 🚨 This is not a workshop on how to use GIS mapping software. Please consider referring to our other in-person <a href="https://libcal.library.harvard.edu/calendar/main?t=d&q=gis&cid=15049&cal=15049&inc=0">learning opportunities</a> or <a href = "https://mapping.share.library.harvard.edu/resources/workshops/workshop/">follow-along materials</a> from previous events. </p>
 
-## Today's activity
+<p>🚨 Today will focus on how to find relevant <em>source data</em> for a GIS project. </p>
 
-1. Visit the [activity homepage](https://mapping.share.library.harvard.edu/resources/finding-data/in-class-activity/). 
+</div>
 
-2. Receive your group assignment from the instructor. 
+## Goals
 
-3. Work independently for 10-15 minutes (time permitting) on the activity for the group to which you were assigned. The instructor will provide a 5 minute warning. Read the activity with an eye towards the discussion questions at the bottom of the page. You will be presenting based on these prompts.[10-15 minutes]
+1. Understand why you might use GIS data for your mapping project.
+2. Get a feel for the flow and pace of what it's like to work with GIS data.
+3. Leave with a sense of which resources you can rely on for next steps in your project.
 
-4. Spend 5 minutes as a group discussing what you learned and what you would like to present as a group. [5 minutes]
 
-5. Upon completion, each group will have a few minutes to present their findings. A group spokesperson will demo activity materials on the instructor's computer, or by screencasting their own laptops. [25 minutes]
+## Today's format
 
-6. Wrapping up and debrief. [5 minutes]
+1. Topic category overview
+2. Democracy - vote which one we do together
+3. Group exploration and demo
+4. Pick another category to explore with your group
+5. Record takeaways in your GIS journal
+6. Discussion and more demos
 
+## Next steps
+- each activity has data you can explore more at home
+- download qgis link
+- something about follow-up tutorials
 
 
 
 ## Wrapping up
 
+[Map Collection website reprise](https://library.harvard.edu/libraries/harvard-map-collection).
 
 Give us feedback on what worked and what didn't using this [quick survey](https://harvard.az1.qualtrics.com/jfe/form/SV_7aK1ea31ufbdR4O).
 
 ## Credits
 
-*Many thanks to our cross-institutional colleagues for providing feedback and expertise on search strategies: Tara Anthony (Penn State), Jessica Benner (Carnegie Mellon), John Clark (Lafayette College), Meagan Duever (Georgia State), Todd Quinn (University of New Mexico), Chris Thiry (Colorado School of Mines), and Amy Work (UC San Diego).*
+*Many thanks to our cross-institutional colleagues for providing feedback and expertise on search strategies: Tara Anthony (Penn State), Jessica Benner (Carnegie Mellon), John Clark (Lafayette College), Meagan Duever (Georgia State), Todd Quinn (University of New Mexico), Chris Thiry (Colorado School of Mines), Amy Work (UC San Diego). Thanks to Kevin Holden and Christine D'Auria from the Harvard Bok Center Learning Lab for workshop support.*

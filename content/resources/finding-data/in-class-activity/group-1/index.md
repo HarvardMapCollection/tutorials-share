@@ -52,3 +52,9 @@ If you have additional time, or would like to explore data portals in more detai
 
 
 
+--- 
+
+## Group exploration 
+
+## Demo and data
+

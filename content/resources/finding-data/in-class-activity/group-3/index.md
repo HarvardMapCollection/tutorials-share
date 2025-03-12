@@ -50,3 +50,9 @@ If you have additional time, or would like to get started working with informati
 6. When faceting by `FORMAT`, why do you think we select `GeoTIFF` instead of `Shapefile`? How might working with raster vs. vector data impact how we approach looking for datasets?
 
 
+--- 
+
+## Group exploration 
+
+## Demo and data
+

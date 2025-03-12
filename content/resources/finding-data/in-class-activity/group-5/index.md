@@ -74,3 +74,10 @@ layout: single2
 3. Prepare to present any demos which could help communicate these takeaways.
 4. Did you find anything else surprising or interesting in the follow-up resources?
 
+--- 
+
+## Group exploration 
+
+## Demo and data
+
+

@@ -86,11 +86,6 @@ theme = 'BlogRa'
                 name = "Data management"
                 url = "/resources/researchers-handbook"
                 weight = 2
-            [[menu.main]]
-                parent = "Resources"
-                name = "Finding data"
-                url = "/resources/finding-data"
-                weight = 3
 
         [[menu.main]]
         name = "Projects"

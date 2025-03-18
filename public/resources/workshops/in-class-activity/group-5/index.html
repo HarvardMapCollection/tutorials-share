@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>
+    
+    Group 5 [Creating Coordinates] | 
+    
+    GIS, maps &#43; data @ Harvard Library
+</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="http://localhost:1313/resources/workshops/in-class-activity/group-5/" />
+<link rel="icon" type="image/png" href="http://localhost:1313/image/favicon.ico">
+
+
+<meta name="description" content="
+    ⚠️ Requirements At least one group member will need to be logged into their Google account to complete this activity.
+The group member logged in should be ready by the end to share their screen on the class projector and lead a group discussion about their Google Sheets table and Google My Maps map. Objectives Learn where to find coordinate information for locations Learn how to format coordinates in a table so they can be opened in a map Learn how to import a table of coordinates into a GIS mapping interface 10 minutes to get started Imagine you want to make a map of all the places referenced in Chekhov&rsquo;s plays.
+    "
+/>
+<meta property="og:description" content="
+    ⚠️ Requirements At least one group member will need to be logged into their Google account to complete this activity.
+The group member logged in should be ready by the end to share their screen on the class projector and lead a group discussion about their Google Sheets table and Google My Maps map. Objectives Learn where to find coordinate information for locations Learn how to format coordinates in a table so they can be opened in a map Learn how to import a table of coordinates into a GIS mapping interface 10 minutes to get started Imagine you want to make a map of all the places referenced in Chekhov&rsquo;s plays.
+    " 
+/>
+
+
+<meta property="og:image" content="http://localhost:1313/resources/workshops/in-class-activity/group-5/cover.png" />
+
+
+
+
+
+
+<meta property="og:title" content="Group 5 [Creating Coordinates]" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/resources/workshops/in-class-activity/group-5/" /><meta property="article:section" content="resources" />
+<meta property="article:published_time" content="2024-08-09T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-08-09T00:00:00+00:00" />
+
+
+
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/resources/workshops/in-class-activity/group-5/cover.png">
+  <meta name="twitter:title" content="Group 5 [Creating Coordinates]">
+  <meta name="twitter:description" content="⚠️ Requirements At least one group member will need to be logged into their Google account to complete this activity.
+The group member logged in should be ready by the end to share their screen on the class projector and lead a group discussion about their Google Sheets table and Google My Maps map. Objectives Learn where to find coordinate information for locations Learn how to format coordinates in a table so they can be opened in a map Learn how to import a table of coordinates into a GIS mapping interface 10 minutes to get started Imagine you want to make a map of all the places referenced in Chekhov’s plays.">
+
+
+  <meta itemprop="name" content="Group 5 [Creating Coordinates]">
+  <meta itemprop="description" content="⚠️ Requirements At least one group member will need to be logged into their Google account to complete this activity.
+The group member logged in should be ready by the end to share their screen on the class projector and lead a group discussion about their Google Sheets table and Google My Maps map. Objectives Learn where to find coordinate information for locations Learn how to format coordinates in a table so they can be opened in a map Learn how to import a table of coordinates into a GIS mapping interface 10 minutes to get started Imagine you want to make a map of all the places referenced in Chekhov’s plays.">
+  <meta itemprop="datePublished" content="2024-08-09T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-08-09T00:00:00+00:00">
+  <meta itemprop="wordCount" content="566">
+  <meta itemprop="image" content="http://localhost:1313/resources/workshops/in-class-activity/group-5/cover.png">
+
+
+
+
+<link rel="stylesheet" href="/main.min.css">
+<link rel="stylesheet" href="https://use.typekit.net/yiq3yrx.css">
+<link rel="stylesheet" href="/typekit/stylesheet.css">
+
+
+
+
+
+<script src="/bundle.js"></script>
+
+
+
+
+
+
+
+<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body><header id="header">
+  <div class="top-bar">
+    <div class="container-md">
+
+      <div class="row align-items-center">
+
+        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
+          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <i class="fas fa-bars"></i> Menu
+          </button>
+        </div>
+
+        <div class="col-12 col-sm-12">
+          <h2 class="title"><a href="/">GIS, maps &#43; data @ Harvard Library</a></h2>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-md">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+
+
+
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/">
+              Home
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Tutorials
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/tags/census/">Census</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/openstreetmap/">OpenStreetMap</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/file-formats/">File Formats</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/georeferencing/">Georeferencing</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/vectorization/">Vectorization</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/spatial-analysis/">Spatial Analysis</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/arcgis/">ArcGIS</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/felt/">Felt</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/qgis/">QGIS</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/data-topics/">Data Topics</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Resources
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/resources/workshops">Workshops</a>
+              
+              
+              
+                <a class="dropdown-item" href="/resources/researchers-handbook">Data management</a>
+              
+              
+              
+                <a class="dropdown-item" href="/resources/finding-data">Finding data</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/tags/news">
+              Blog
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/projects/">
+              Projects
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/connect/">
+              Connect
+            </a>
+          </li>
+          
+          
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="blog-content">
+    <div class="container-md">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 px-lg-4">
+                
+                <div class="breadcrumb-container">
+                    <nav aria-label="breadcrumb" class="breadcrumb">
+                        <ol>
+                          
+                          ↵
+                            <li>
+                              <a href="/"> GIS, maps &#43; data @ Harvard Library</a>
+                            </li>
+                          
+                          ↵
+                            <li>
+                              <a href="/resources/"> Resources</a>
+                            </li>
+                          
+                          ↵
+                            <li>
+                              <a href="/resources/workshops/"> Harvard Library GIS Workshops</a>
+                            </li>
+                          
+                          ↵
+                            <li>
+                              <a href="/resources/workshops/in-class-activity/"> How to Find Geospatial Data</a>
+                            </li>
+                          
+                          <li style="margin-right: 0;" class="active">
+                            👋
+                            <a aria-current="page" href="/resources/workshops/in-class-activity/group-5/">Group 5 [Creating Coordinates]</a>
+                          </li>
+                        </ol>
+                      </nav>
+                      </div>
+
+
+                <h1 class="title">Group 5 [Creating Coordinates]</h1>
+
+                <div class="alert-warning">
+<h2>⚠️ Requirements</h2>
+<p><em>At least one group member will need to be logged into their Google account to complete this activity.</em></p>
+  <p>The group member logged in should be ready by the end to share their screen on the class projector and lead a group discussion about their Google Sheets table and Google My Maps map. </p>
+</div>
+<h2 id="objectives">Objectives</h2>
+<ul>
+<li>Learn where to find coordinate information for locations</li>
+<li>Learn how to format coordinates in a table so they can be opened in a map</li>
+<li>Learn how to import a table of coordinates into a GIS mapping interface</li>
+</ul>
+<h2 id="10-minutes-to-get-started">10 minutes to get started</h2>
+<p><em>Imagine you want to make a map of all the places referenced in Chekhov&rsquo;s plays. Where would you get that data? In many cases, you may need to assemble location data yourself into a spreadsheet. This is just one example of the type of project where creating a spreadsheet of coordinates may be necessary. For this activity, you can choose to create data points from any location of your choice.</em></p>
+<blockquote>
+<ol>
+<li>Create a new Google Sheets by typing <code>sheets.new</code> into a browser.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="2">
+<li>Create three header columns, <code>name</code>, <code>latitude</code>, and <code>longitude</code>.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="3">
+<li>In a new tab, navigate to <a href="https://www.google.com/maps/" target="_blank">Google Maps</a>
+.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="4">
+<li>Find a location you are interested in mapping.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="5">
+<li>In your spreadsheet, under the <code>name</code> column, give the location a name.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="6">
+<li><code>Right click</code> on the map in Google maps in the area you are interested in. A window with coordinates should pop up. Click on the coordinates, and they will copy to your clipboard.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="7">
+<li>Paste the value into the spreadsheet, under the <code>latitude</code> column.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="8">
+<li>You will need to edit the values so that the first number in the set of coordinates is under the <code>latitude</code> column, and the second number is in <code>longitude</code> column. Make sure to include the negative <code>-</code> symbol, if it exists, and remove the separating comma.</li>
+</ol>
+</blockquote>
+<img src="table.png" style="width:100%; max-height:70em;" alt="table">
+<p><em>Properly formatted table.</em></p>
+<blockquote>
+<ol start="9">
+<li>Repeat this process and add two more points, so you have three altogether.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="10">
+<li>When you are finished entering your data, name your spreadsheet, and export it to a <code>.csv</code> format by clicking <code>File</code> → <code>Download</code> → <code>Comma Separated Values (.csv)</code>.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="11">
+<li>In a search engine, search for <code>Google My Maps</code>.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="12">
+<li>From Google My Maps, choose <code>CREATE A NEW MAP</code>.</li>
+</ol>
+</blockquote>
+<p><img src="new.png" alt="Create new map button on Google My Maps"></p>
+<blockquote>
+<ol start="13">
+<li>Next to <code>Untitled Layer</code>, select the three dots (<code>Layer options</code>), and choose <code>Import</code>.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="14">
+<li>Choose <code>Browse</code> and upload the <code>.csv</code> you exported from Google Sheets.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="15">
+<li>Make sure all columns are checked off, and choose <code>Continue</code>.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="16">
+<li>Under <code>Choose a column to title your markers</code>, select <code>name</code>. Choose <code>Finish</code>.</li>
+</ol>
+</blockquote>
+<h2 id="follow-up-resources-next-steps">Follow-up resources (next steps)</h2>
+<ul>
+<li><a href="https://mapping.share.library.harvard.edu/tutorials/qgis/add-spreadsheet/" target="_blank">Add a Spreadsheet .XLSX or .CSV to a QGIS project</a>
+</li>
+<li>Follow an ArcGIS Pro <a href="https://storymaps.arcgis.com/stories/4c42eb942db4454f80dcaffb41c81c11" target="_blank">geocoding tutorial</a>
+ by clicking  <code>Your ArcGIS Organization's URL</code>, typing in <code>harvard-cga</code>, and authenticating with your Harvard Key</li>
+<li>Here&rsquo;s a <a href="https://musingsaboutlibrarianship.blogspot.com/2017/03/openrefine-reconciliation-services.html" target="_blank">blog post</a>
+ about how to extend records you have in a spreadsheet by &ldquo;reconciling&rdquo; them with matches in Wikidata, using a tool called OpenRefine. One of the data points you can pull into your spreadsheet are coordinates</li>
+</ul>
+<h2 id="discussion-questions">Discussion questions</h2>
+<ol>
+<li>Why might someone need to create location data of their own?</li>
+<li>How does importing the data into Google MyMaps exemplify what you can do with tabular coordinate data? What do the Google MyMaps activity and the follow-up resource, <a href="https://mapping.share.library.harvard.edu/tutorials/qgis/add-spreadsheet/" target="_blank">Add a Spreadsheet .XLSX or .CSV to a QGIS project</a>
+ have in common?</li>
+<li>Prepare to present any demos which could help communicate these takeaways.</li>
+<li>Did you find anything else surprising or interesting in the follow-up resources?</li>
+</ol>
+<hr>
+<h2 id="group-exploration">Group exploration</h2>
+<h2 id="demo-and-data">Demo and data</h2>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+
+</body>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-55D9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+</html>

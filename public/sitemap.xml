@@ -25,6 +25,28 @@
       
       
 	  <url>
+	    <loc>http://localhost:1313/resources/workshops/find-gis-data/</loc>
+	    <lastmod>2025-03-18</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/resources/</loc>
+	    <lastmod>2025-03-18</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
 	    <loc>http://localhost:1313/posts/faces-behind-the-data-anna-he/</loc>
 	    <lastmod>2024-12-20</lastmod>
         
@@ -223,17 +245,6 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/</loc>
-	    <lastmod>2024-09-16</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
 	    <loc>http://localhost:1313/classes/haa/174p/</loc>
 	    <lastmod>2024-09-12</lastmod>
         
@@ -311,29 +322,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/finding-data/checklist/</loc>
-	    <lastmod>2024-08-16</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/resources/finding-data/in-class-activity/</loc>
-	    <lastmod>2024-08-15</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/resources/finding-data/in-class-activity/welcome/</loc>
+	    <loc>http://localhost:1313/resources/workshops/find-gis-data/welcome/</loc>
 	    <lastmod>2024-08-15</lastmod>
         
 
@@ -377,7 +366,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/finding-data/in-class-activity/group-1/</loc>
+	    <loc>http://localhost:1313/resources/workshops/find-gis-data/group-1/</loc>
 	    <lastmod>2024-08-13</lastmod>
         
 
@@ -399,7 +388,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/finding-data/in-class-activity/group-2/</loc>
+	    <loc>http://localhost:1313/resources/workshops/find-gis-data/group-2/</loc>
 	    <lastmod>2024-08-12</lastmod>
         
 
@@ -410,7 +399,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/finding-data/in-class-activity/group-3/</loc>
+	    <loc>http://localhost:1313/resources/workshops/find-gis-data/group-3/</loc>
 	    <lastmod>2024-08-11</lastmod>
         
 
@@ -421,7 +410,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/finding-data/in-class-activity/group-4/</loc>
+	    <loc>http://localhost:1313/resources/workshops/find-gis-data/group-4/</loc>
 	    <lastmod>2024-08-10</lastmod>
         
 
@@ -432,7 +421,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/finding-data/in-class-activity/group-5/</loc>
+	    <loc>http://localhost:1313/resources/workshops/find-gis-data/group-5/</loc>
 	    <lastmod>2024-08-09</lastmod>
         
 
@@ -784,17 +773,6 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/finding-data/</loc>
-	    <lastmod>2024-06-25</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
 	    <loc>http://localhost:1313/posts/re-wilding-2024/</loc>
 	    <lastmod>2024-06-13</lastmod>
         
@@ -808,28 +786,6 @@
 	  <url>
 	    <loc>http://localhost:1313/classes/programs/cga-institute/data-management-workshop/</loc>
 	    <lastmod>2024-05-17</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/resources/workshops/workshop-2/class-materials/</loc>
-	    <lastmod>2024-02-23</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/resources/workshops/workshop-2/</loc>
-	    <lastmod>2024-02-23</lastmod>
         
 
         
@@ -995,17 +951,6 @@
 	  <url>
 	    <loc>http://localhost:1313/tags/resources/</loc>
 	    <lastmod>2023-08-08</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/resources/workshops/workshop-3/</loc>
-	    <lastmod>2023-07-27</lastmod>
         
 
         

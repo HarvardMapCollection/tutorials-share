@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>How to Search for GIS Data on GIS, maps &#43; data @ Harvard Library</title>
+    <title>How to Find Geospatial Data on GIS, maps &#43; data @ Harvard Library</title>
     <link>http://localhost:1313/resources/finding-data/</link>
-    <description>Recent content in How to Search for GIS Data on GIS, maps &#43; data @ Harvard Library</description>
+    <description>Recent content in How to Find Geospatial Data on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate></lastBuildDate>
     <atom:link href="http://localhost:1313/resources/finding-data/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Searching for GIS data [checklist]</title>
-      <link>http://localhost:1313/resources/finding-data/checklist/</link>
-      <pubDate>Fri, 16 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/checklist/</guid>
-      <description>This checklist was designed by GIS Librarians Belle Lipton and Scott Walker (Harvard University), Tara Anthony (Penn State), Jessica Benner (Carnegie Mellon), John Clark (Lafayette College), Meagan Duever (Georgia State), Todd Quinn (University of New Mexico), Chris Thiry (Colorado School of Mines), and Amy Work (UC San Diego).&#xA;How to use the checklist Please use this checklist template to provide GIS reference staff with information about what you have already tried in your GIS data search, and where you are getting stuck.</description>
-    </item>
   </channel>
 </rss>

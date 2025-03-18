@@ -6,7 +6,7 @@ layout: single2
 ---
 
 Get here quick: 
-`https://bit.ly/find-gis-data`
+`https://bit.ly/gis-find-data`
 
 ## Harvard Map Collection
 

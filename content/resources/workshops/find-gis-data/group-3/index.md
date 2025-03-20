@@ -52,7 +52,24 @@ If you have additional time, or would like to get started working with informati
 
 --- 
 
-## Group exploration 
+## In class
+- Get a feel for what georeferencing is and why it’s useful (layering old maps on new maps) by searching for a few Boston/Cambridge addresses in Atlascope
+- Search HGL on `Institution = Harvard` and `Format = GeoTIFF` to see which maps are already GIS layers. Click on some results, choose `click to wake` to see the georeferenced map layer. Notice the `Download GeoTIFF` button which gives a file that will work in QGIS.
 
-## Demo and data
+## Demo/@ home
+
+### Data
+- `G7625_1897_W2.tif` Afganistan-Pakistan Border Region, 1897
+
+### Steps
+
+- Search HOLLIS for MA maps filtering `In Library` and `Harvard Map Collection`
+- Page 4 or [**`Map of Massachusetts : exhibiting the Representative, Senatorial and Councillor districts`](https://hollis.harvard.edu/primo-explore/fulldisplay?docid=01HVD_ALMA212094551850003941&context=L&vid=HVD2&lang=en_US&search_scope=default_scope&adaptor=Local%20Search%20Engine&tab=books&query=any%2Ccontains%2Cmassachusetts&facet=library%2Cinclude%2Cmap&facet=searchcreationdate%2Cinclude%2C1800%7C%2C%7C1950&offset=30)** noting `ONLINE ACCESS`
+- Georeference in AllMaps and show as a layer in QGIS
+- All of the steps in the demo can be replicated using two guides:
+    - How to find a map in HMC ; How to georeference collections with Allmaps
+- If the scanned image of the map is not streaming online via HOLLIS, you will need to obtain a hard copy of the image on your computer and use QGIS to georeference it:
+    - Make an appointment ; Georeference with QGIS
+
+
 

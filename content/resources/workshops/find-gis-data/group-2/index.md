@@ -1,73 +1,99 @@
 ---
-title: Group 2 [Turning Spreadsheets into Spatial Data]
-image: cover.png
+title: Group 2 [Coordinates]
+image: coordinates.png
 date: 2024-08-12
 layout: single2
 ---
 
+
 ## Objectives
-- Understand how to use table joins to connect a spreadsheet of data to mapping data
-- Practice thinking outside of the box with datasets
+
+- Learn where to find coordinate information for locations
+- Learn how to format coordinates in a table so they can be opened in a map
+- Learn how to import a table of coordinates into a GIS mapping interface
+
 
 ## 10 minutes to get started
 
-*Imagine you are working on a project where you can find data for your project in spreadsheet format, but there are no shapes associated with the table. Maybe the data references towns, countries, or other units of geography. In this activity, we will explore how to evaluate a dataset's GIS viability based on our ability to join it with spatial data.*
+*Imagine you want to make a map of all the places referenced in Chekhov's plays. Where would you get that data? In many cases, you may need to assemble location data yourself into a spreadsheet. This is just one example of the type of project where creating a spreadsheet of coordinates may be necessary. For this activity, you can choose to create data points from any location of your choice.*
 
-> 1. Visit the [documentation page](https://data.boston.gov/dataset/311-service-requests/resource/b237f352-49d1-4423-804f-b478e4f24e61) for data about [Boston 311 service requests](https://www.boston.gov/departments/boston-311), to get a sense of what this dataset shows. 
+> 1. Create a new Google Sheets by typing `sheets.new` into a browser. 
 
-> 2. Look at the category codes in the PDF. What is this dataset representing? What do the codes in the table mean?
+> 2. Create three header columns, `name`, `latitude`, and `longitude`. 
 
-> 3. Consider how mapping these codes might provide insight. What questions could you ask and maybe answer using this information about a city?
+> 3. In a new tab, navigate to [Google Maps](https://www.google.com/maps/).
 
-> 4. Now glance at the actual [311 requests dataset](https://data.boston.gov/dataset/311-service-requests/resource/dff4d804-5031-443a-8409-8344efd0e5c8) for 2024 from Analyze Boston. Observe a few records to get a sense of how this table is filled out.
+> 4. Find a location you are interested in mapping.
 
+> 5. In your spreadsheet, under the `name` column, give the location a name. 
 
+> 6. `Right click` on the map in Google maps in the area you are interested in. A window with coordinates should pop up. Click on the coordinates, and they will copy to your clipboard. 
 
-## 311 data table
+> 7. Paste the value into the spreadsheet, under the `latitude` column.
 
-<img src="cover.png" style="width:100%; max-height:70em;" alt="table">
+> 8. You will need to edit the values so that the first number in the set of coordinates is under the `latitude` column, and the second number is in `longitude` column. Make sure to include the negative `-` symbol, if it exists, and remove the separating comma. 
 
-## Neighborhoods data table
+<img src="table.png" style="width:100%; max-height:70em;" alt="table">
 
-> 1. In a web browser, search for "GIS neighborhoods Boston shapefile download". 
+*Properly formatted table.*
 
-![Analyze Boston result for neighborhood boundaries](neighborhoods.png)
+> 9. Repeat this process and add two more points, so you have three altogether.
 
-> 2. Click [Census 2020 Block Group Neighborhoods Shapefile](https://data.boston.gov/dataset/census-2020-block-group-neighborhoods/resource/ed89fab7-aa21-42ce-874b-1b4971ab50fb) until it appears as a map preview (pictured above).
+> 10. When you are finished entering your data, name your spreadsheet, and export it to a `.csv` format by clicking `File` → `Download` → `Comma Separated Values (.csv)`.
 
-> 3. Select one of the polygons and observe how the attribute information is structured. Which attribute value is collected in both this neighborhoods shapefile, as well as the 3-1-1 spreadsheet that could be used to facilitate a join?
+> 11. In a search engine, search for `Google My Maps`. 
 
-![screenshot of clicking on the polygons to show a table with the column "neighborhood", and neighborhood name](neighborhood-attributes.png)
+> 12. From Google My Maps, choose `CREATE A NEW MAP`.
 
+![Create new map button on Google My Maps](new.png)
 
-<div class="alert-success">
-<details>
-    <summary>Show me the answer</summary>
-    You would use the field containing values for the neighborhood name, which is present in both datasets to join the data. In the 3-1-1 requests table, the attribute field is titled "neighborhood"; in the neighborhood GIS data, it is titled "BlockGr202".
-</details>
+> 13. Next to `Untitled Layer`, select the three dots (`Layer options`), and choose `Import`. 
 
-</div>
+> 14. Choose `Browse` and upload the `.csv` you exported from Google Sheets. 
+
+> 15. Make sure all columns are checked off, and choose `Continue`. 
+
+> 16. Under `Choose a column to title your markers`, select `name`. Choose `Finish`. 
+
 
 
 
 ## Follow-up resources (next steps)
-- [How and why we perform table joins (step-by-step instructions for QGIS)](https://mapping.share.library.harvard.edu/tutorials/census-data-primer/perform-a-table-join/)
-> Note: to join the dataset in this example, one would likely need to perform substantial data cleaning. This could include tidying up the records, and using a pivot table to aggregate individual requests by neighborhood prior to join.
-- An alternative to using a table join could be doing a [count point in polygon analysis](https://maps.cga.harvard.edu/qgis_2/wkshop/pt_in_pgn.php)
+- [Add a Spreadsheet .XLSX or .CSV to a QGIS project](https://mapping.share.library.harvard.edu/tutorials/qgis/add-spreadsheet/) 
+- Follow an ArcGIS Pro [geocoding tutorial](https://storymaps.arcgis.com/stories/4c42eb942db4454f80dcaffb41c81c11) by clicking  `Your ArcGIS Organization's URL`, typing in `harvard-cga`, and authenticating with your Harvard Key
+- Here's a [blog post](https://musingsaboutlibrarianship.blogspot.com/2017/03/openrefine-reconciliation-services.html) about how to extend records you have in a spreadsheet by "reconciling" them with matches in Wikidata, using a tool called OpenRefine. One of the data points you can pull into your spreadsheet are coordinates
 
 ## Discussion questions
-1. How could using table joins open up the possibilities for finding data for a GIS project?
-2. How do you think the 3-1-1 request data could be an example of a dataset that was collected for one purpose, but could be repurposed? Were there any values in the 3-1-1 data codebook you think might be interesting for a GIS project?
-4. Prepare to present any demos which could help communicate these takeaways.
-5. Did you find anything surprising or interesting in the follow-up resources?
-
-
-
+1. Why might someone need to create location data of their own?
+2. How does importing the data into Google MyMaps exemplify what you can do with tabular coordinate data? What do the Google MyMaps activity and the follow-up resource, [Add a Spreadsheet .XLSX or .CSV to a QGIS project](https://mapping.share.library.harvard.edu/tutorials/qgis/add-spreadsheet/) have in common?
+3. Prepare to present any demos which could help communicate these takeaways.
+4. Did you find anything else surprising or interesting in the follow-up resources?
 
 --- 
 
-## Group exploration 
+## In class
 
-## Demo and data
+- Create a Google sheets spreadsheet
+- Make headers
+- Open Google MyMaps
+- Right-click
+- Copy in coordinates
+- Format them correctly
 
+## Demo/@ home
+
+### Data
+- `example-coordinates.csv`
+- `example-coordinates.geojson`
+
+### Steps
+
+- Open QGIS
+- Add a basemap
+- Import the coordinates
+- Right-click `example-coordinates` in the Layers pane → `Zoom to layer` to see the points better
+- Right-click `example-coordinates` in the Layers pane → `Open attribute table` to view the data attributes
+- Right-click `example-coordinates` in the Layers pane → `Properties` → `Symbology` → Change `Single Symbol` to `Categorized` → Under `Value` choose `type` → `Classify` → `OK` to change the color symbols of the map. Click the dot icon next to `Symbol` (underneath `Value`) to change the size of the points.
+- Save as spatial data by right-clicking `example-coordinates` in the Layers pane → `Export` → `Format = GeoJSON` → Click `...` icon next to `Filename` to choose where to save
+- Notice how you can drag the `.geoJSON` file directly into the QGIS window to display the geometry now (rather than use the table import window). This is because it is stored as spatial data.
 

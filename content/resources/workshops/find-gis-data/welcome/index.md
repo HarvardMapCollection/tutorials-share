@@ -1,6 +1,6 @@
 ---
-title: Welcome
-image: cover.png
+title: Welcome [Homepage]
+image: map-collection-directions.png
 date: 2024-08-15
 layout: single2
 ---
@@ -24,6 +24,12 @@ Get here quick:
 
 </div>
 
+## Housekeeping
+
+![](format.png)
+- ^ little bit about how the session will work
+- ^ orientation to resources, where to find stuff, how we will pace 
+
 ## Goals
 
 1. Understand why you might use GIS data for your mapping project.
@@ -31,20 +37,34 @@ Get here quick:
 3. Leave with a sense of which resources you can rely on for next steps in your project.
 
 
-## Today's format
+<table>
+  <tr>
+    <th>Hand-drawn</th>
+    <th>Canva-style</th>
+    <th>GIS layers</th>
+  </tr>
+  <tr>
+    <td><img alt="" src="1.png"></td>
+    <td><img alt="" src="2.png"></td>
+    <td><img alt="" src="3.png"></td>
+  </tr>
+</table>
 
-1. Topic category overview
-2. Democracy - vote which one we do together
-3. Group exploration and demo
-4. Pick another category to explore with your group
-5. Record takeaways in your GIS journal
-6. Discussion and more demos
+![](1.png)
 
-## Next steps
-- each activity has data you can explore more at home
-- download qgis link
-- something about follow-up tutorials
+![](2.png)
 
+![](3.png)
+
+![](4.png)
+
+![](5.png)
+
+![](6.png)
+
+![](7.png)
+ 
+![](8.png)
 
 
 ## Wrapping up

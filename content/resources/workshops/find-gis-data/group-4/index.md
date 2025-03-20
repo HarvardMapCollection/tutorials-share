@@ -1,6 +1,6 @@
 ---
-title: Group 4 [OpenStreetMap and Crowd-Contributed Data]
-image: cover.png
+title: Group 4 [OpenStreetMap]
+image: osm-denom.png
 date: 2024-08-10
 layout: single2
 ---
@@ -37,7 +37,25 @@ layout: single2
 
 --- 
 
-## Group exploration 
+## In class
+- Explore the OSM interface, reverse search (click a feature, look at attributes)
+- Read the wiki to see all of the features you could extract as GIS data
 
-## Demo and data
+
+## Demo/@ home
+
+### Data
+- `places_of_worship_polygons_ma.geojson`
+- `places_of_worship_points_ma.geojson`
+
+
+### Steps
+- Install the QuickOSM plugin using the [steps in this guide](https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbyfeature/)
+- `Vector` → `QuickOSM` → `QuickOSM`
+- key = `amenity` ; value = `place_of_worship` ; in = `Massachusetts`
+- `Run query`
+- The data returns in two formats: point locations and polygons of buildings
+- Explore the layers. You could try
+    - Right-click the layer in the Layers pane → `Open attribute table` → Sort the fields by value by clicking the column header. Try the `religion` column to show religious affiliation for each place of worship.
+    - Try symbolizing the values by right-clicking the layer in the Layers pane → `Properties` → `Symbology` → Changing `Single symbol` to `Categories` → Select a column or `Value` to map → `Classify` → `OK`
 

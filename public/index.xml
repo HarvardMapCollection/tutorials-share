@@ -76,7 +76,7 @@
       <link>http://localhost:1313/resources/workshops/find-gis-data/welcome/</link>
       <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/resources/workshops/find-gis-data/welcome/</guid>
-      <description>Get here quick: https://bit.ly/gis-find-data&#xA;Harvard Map Collection Map Collection website .&#xA;Scope 🚨 This is not a workshop on how to use GIS mapping software. Please consider referring to our other in-person learning opportunities or follow-along materials from previous events. 🚨 Today will focus on how to find relevant source data for a GIS project. Goals Understand why you might use GIS data for your mapping project. Get a feel for the flow and pace of what it&amp;rsquo;s like to work with GIS data.</description>
+      <description>Get here quick: https://bit.ly/gis-find-data&#xA;Harvard Map Collection Map Collection website .&#xA;Scope 🚨 This is not a workshop on how to use GIS mapping software. Please consider referring to our other in-person learning opportunities or follow-along materials from previous events. 🚨 Today will focus on how to find relevant source data for a GIS project. Housekeeping ^ little bit about how the session will work ^ orientation to resources, where to find stuff, how we will pace Goals Understand why you might use GIS data for your mapping project.</description>
     </item>
     <item>
       <title>A Geographical Cat in the Box, a remembered yet unknown Institute of Geographical Exploration at Harvard (1930-1951)</title>
@@ -100,17 +100,17 @@
       <description>Objectives Explore open data portals and learn how to use them to find GIS data Explore how content may be organized and how to refine searching 10 minutes to get started Consider this request a student made to the Harvard Map Collection for help with finding GIS data in 2024:&#xA;&amp;ldquo;I would like to create a GIS map of food deserts in DC by layering maps of grocery store locations, corner store locations, and other options found on Open Data DC with census data to identify areas where large populations do not have access to healthy foods.</description>
     </item>
     <item>
-      <title>Group 2 [Turning Spreadsheets into Spatial Data]</title>
+      <title>Group 2 [Creating Coordinates]</title>
       <link>http://localhost:1313/resources/workshops/find-gis-data/group-2/</link>
       <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/resources/workshops/find-gis-data/group-2/</guid>
-      <description>Objectives Understand how to use table joins to connect a spreadsheet of data to mapping data Practice thinking outside of the box with datasets 10 minutes to get started Imagine you are working on a project where you can find data for your project in spreadsheet format, but there are no shapes associated with the table. Maybe the data references towns, countries, or other units of geography. In this activity, we will explore how to evaluate a dataset&amp;rsquo;s GIS viability based on our ability to join it with spatial data.</description>
+      <description>⚠️ Requirements At least one group member will need to be logged into their Google account to complete this activity.&#xA;The group member logged in should be ready by the end to share their screen on the class projector and lead a group discussion about their Google Sheets table and Google My Maps map. Objectives Learn where to find coordinate information for locations Learn how to format coordinates in a table so they can be opened in a map Learn how to import a table of coordinates into a GIS mapping interface 10 minutes to get started Imagine you want to make a map of all the places referenced in Chekhov&amp;rsquo;s plays.</description>
     </item>
     <item>
       <title>Group 3 [Georeferencing]</title>
-      <link>http://localhost:1313/resources/workshops/find-gis-data/group-3/</link>
+      <link>http://localhost:1313/resources/workshops/find-gis-data/group-2no/</link>
       <pubDate>Sun, 11 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/find-gis-data/group-3/</guid>
+      <guid>http://localhost:1313/resources/workshops/find-gis-data/group-2no/</guid>
       <description>Objectives Understand why georeferenced maps can be useful when asking and answering spatial questions Understand how to find georeferenced maps to use in a GIS project Find out how to take next steps in using information from paper maps in a GIS project 10 minutes to get started Example of using georeferenced maps Visit Atlascope.org , search for a place in Boston or Cambridge you are interested in exploring on a historical map, and experiment with toggling between different georeferenced map layers.</description>
     </item>
     <item>
@@ -119,13 +119,6 @@
       <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/resources/workshops/find-gis-data/group-4/</guid>
       <description>Objectives Understand what OpenStreetMap (OSM) is, and how it can be helpful for finding data Learn how to use tools built around the OSM API to extract datasets of your choosing 10 minutes to get started Read through the OpenStreetMap tutorial . Be sure to open up the OpenStreetMap features Wiki and observe all of the mappable data layers one can extract.&#xA;Read this blog post on what the definition of an API is.</description>
-    </item>
-    <item>
-      <title>Group 5 [Creating Coordinates]</title>
-      <link>http://localhost:1313/resources/workshops/find-gis-data/group-5/</link>
-      <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/find-gis-data/group-5/</guid>
-      <description>⚠️ Requirements At least one group member will need to be logged into their Google account to complete this activity.&#xA;The group member logged in should be ready by the end to share their screen on the class projector and lead a group discussion about their Google Sheets table and Google My Maps map. Objectives Learn where to find coordinate information for locations Learn how to format coordinates in a table so they can be opened in a map Learn how to import a table of coordinates into a GIS mapping interface 10 minutes to get started Imagine you want to make a map of all the places referenced in Chekhov&amp;rsquo;s plays.</description>
     </item>
     <item>
       <title>Collection for Historical Scientific Instruments [Science Center]</title>
@@ -679,13 +672,6 @@
       <pubDate>Mon, 16 Aug 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/graphics/</guid>
       <description>Skills to create beautiful and engaging maps can be strengthened in a semester, says Bloomberg graphics journalist.&#xA;The type of narrative, map-based digital projects we see in the news, like the recent CityLab project documenting racist urban infrastructure in St. Paul, Minnesota require many research and technical skills to pull off.&#xA;The Harvard Map Collection asked Bloomberg graphics journalist, Rachael Dottle about her methodology in scoping, researching, and creating maps for this story.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/resources/workshops/find-gis-data/osf_upload_staging_temp/activity1_portals/readme/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/find-gis-data/osf_upload_staging_temp/activity1_portals/readme/</guid>
-      <description>&amp;hellip;</description>
     </item>
     <item>
       <title>Connect</title>

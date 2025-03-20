@@ -1,6 +1,6 @@
 ---
 title: Group 1 [Portals]
-image: dc-question.png
+image: flood.png
 date: 2024-08-13
 layout: single2
 ---
@@ -43,14 +43,24 @@ If you have additional time, or would like to explore data portals in more detai
 - [Geographic Informmation Systems (GIS): Geospatial Data, Brown University Library](https://libguides.brown.edu/gis/data)
 
 
-
 --- 
 
-## Group exploration 
+## In class
 
 - keep the same
 
-## Demo and data
+## Demo/@ home
 
-- have one of the DC resources in a few different formats & look at the shapes + attributes
+### Data
+- `Low_Food_Access_Areas.zip` → zipped shapefile
+- `Low_Food_Access_Areas.geojson` → geoJSON
 
+### Steps
+
+- Search for 'food' and filter by feature service
+- To understand the data and how it is structured, click "View Full Details"
+Brings us to this page: https://opendata.dc.gov/datasets/DCGIS::low-food-access-areas/about
+- To download as GIS data, select the "Download" button and choose "GeoJSON" or "Shapefile"
+- To use in QGIS `extract` or unzip the shapefile, and drag the file ending in `.shp` into the QGIS document (or use the `.geojson`)
+- Right-click `Low_Food_Access_Areas` in the Layers pane → `Open Attribute Table` to see how the table matches up with the “View Full Details” documentation from the portal
+- Right-click `Low_Food_Access_Areas` in the Layers pane → `Properties` → `Symbology` → Click `Single symbol` to change it to `Graduated` → Value = `PRTUND185` → `Classify` (notice under `Mode` there are many classification options. Be aware of which you’re choosing by [reading about each method](https://pro.arcgis.com/en/pro-app/latest/help/mapping/layer-properties/data-classification-methods.htm)) → `OK`

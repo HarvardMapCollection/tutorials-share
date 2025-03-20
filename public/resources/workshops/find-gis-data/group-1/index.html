@@ -26,7 +26,7 @@
 />
 
 
-<meta property="og:image" content="http://localhost:1313/resources/workshops/find-gis-data/group-1/dc-question.png" />
+<meta property="og:image" content="http://localhost:1313/resources/workshops/find-gis-data/group-1/flood.png" />
 
 
 
@@ -54,7 +54,7 @@
 “I would like to create a GIS map of food deserts in DC by layering maps of grocery store locations, corner store locations, and other options found on Open Data DC with census data to identify areas where large populations do not have access to healthy foods.">
   <meta itemprop="datePublished" content="2024-08-13T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-08-13T00:00:00+00:00">
-  <meta itemprop="wordCount" content="400">
+  <meta itemprop="wordCount" content="528">
 
 
 
@@ -334,13 +334,27 @@
 </li>
 </ul>
 <hr>
-<h2 id="group-exploration">Group exploration</h2>
+<h2 id="in-class">In class</h2>
 <ul>
 <li>keep the same</li>
 </ul>
-<h2 id="demo-and-data">Demo and data</h2>
+<h2 id="demo-home">Demo/@ home</h2>
+<h3 id="data">Data</h3>
 <ul>
-<li>have one of the DC resources in a few different formats &amp; look at the shapes + attributes</li>
+<li><code>Low_Food_Access_Areas.zip</code> → zipped shapefile</li>
+<li><code>Low_Food_Access_Areas.geojson</code> → geoJSON</li>
+</ul>
+<h3 id="steps">Steps</h3>
+<ul>
+<li>Search for &lsquo;food&rsquo; and filter by feature service</li>
+<li>To understand the data and how it is structured, click &ldquo;View Full Details&rdquo;
+Brings us to this page: <a href="https://opendata.dc.gov/datasets/DCGIS::low-food-access-areas/about" target="_blank">https://opendata.dc.gov/datasets/DCGIS::low-food-access-areas/about</a>
+</li>
+<li>To download as GIS data, select the &ldquo;Download&rdquo; button and choose &ldquo;GeoJSON&rdquo; or &ldquo;Shapefile&rdquo;</li>
+<li>To use in QGIS <code>extract</code> or unzip the shapefile, and drag the file ending in <code>.shp</code> into the QGIS document (or use the <code>.geojson</code>)</li>
+<li>Right-click <code>Low_Food_Access_Areas</code> in the Layers pane → <code>Open Attribute Table</code> to see how the table matches up with the “View Full Details” documentation from the portal</li>
+<li>Right-click <code>Low_Food_Access_Areas</code> in the Layers pane → <code>Properties</code> → <code>Symbology</code> → Click <code>Single symbol</code> to change it to <code>Graduated</code> → Value = <code>PRTUND185</code> → <code>Classify</code> (notice under <code>Mode</code> there are many classification options. Be aware of which you’re choosing by <a href="https://pro.arcgis.com/en/pro-app/latest/help/mapping/layer-properties/data-classification-methods.htm" target="_blank">reading about each method</a>
+) → <code>OK</code></li>
 </ul>
 
             </div>

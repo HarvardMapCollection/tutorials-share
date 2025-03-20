@@ -3,7 +3,7 @@
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>
     
-    Group 2 [Turning Spreadsheets Into Spatial Data] | 
+    Group 2 [Coordinates] | 
     
     GIS, maps &#43; data @ Harvard Library
 </title>
@@ -15,23 +15,23 @@
 
 
 <meta name="description" content="
-    Objectives Understand how to use table joins to connect a spreadsheet of data to mapping data Practice thinking outside of the box with datasets 10 minutes to get started Imagine you are working on a project where you can find data for your project in spreadsheet format, but there are no shapes associated with the table. Maybe the data references towns, countries, or other units of geography. In this activity, we will explore how to evaluate a dataset&rsquo;s GIS viability based on our ability to join it with spatial data.
+    Objectives Learn where to find coordinate information for locations Learn how to format coordinates in a table so they can be opened in a map Learn how to import a table of coordinates into a GIS mapping interface 10 minutes to get started Imagine you want to make a map of all the places referenced in Chekhov&rsquo;s plays. Where would you get that data? In many cases, you may need to assemble location data yourself into a spreadsheet.
     "
 />
 <meta property="og:description" content="
-    Objectives Understand how to use table joins to connect a spreadsheet of data to mapping data Practice thinking outside of the box with datasets 10 minutes to get started Imagine you are working on a project where you can find data for your project in spreadsheet format, but there are no shapes associated with the table. Maybe the data references towns, countries, or other units of geography. In this activity, we will explore how to evaluate a dataset&rsquo;s GIS viability based on our ability to join it with spatial data.
+    Objectives Learn where to find coordinate information for locations Learn how to format coordinates in a table so they can be opened in a map Learn how to import a table of coordinates into a GIS mapping interface 10 minutes to get started Imagine you want to make a map of all the places referenced in Chekhov&rsquo;s plays. Where would you get that data? In many cases, you may need to assemble location data yourself into a spreadsheet.
     " 
 />
 
 
-<meta property="og:image" content="http://localhost:1313/resources/workshops/find-gis-data/group-2/cover.png" />
+<meta property="og:image" content="http://localhost:1313/resources/workshops/find-gis-data/group-2/coordinates.png" />
 
 
 
 
 
 
-<meta property="og:title" content="Group 2 [Turning Spreadsheets into Spatial Data]" />
+<meta property="og:title" content="Group 2 [Coordinates]" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/resources/workshops/find-gis-data/group-2/" /><meta property="article:section" content="resources" />
 <meta property="article:published_time" content="2024-08-12T00:00:00+00:00" />
@@ -41,18 +41,16 @@
 
 
 
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="http://localhost:1313/resources/workshops/find-gis-data/group-2/cover.png">
-  <meta name="twitter:title" content="Group 2 [Turning Spreadsheets into Spatial Data]">
-  <meta name="twitter:description" content="Objectives Understand how to use table joins to connect a spreadsheet of data to mapping data Practice thinking outside of the box with datasets 10 minutes to get started Imagine you are working on a project where you can find data for your project in spreadsheet format, but there are no shapes associated with the table. Maybe the data references towns, countries, or other units of geography. In this activity, we will explore how to evaluate a dataset’s GIS viability based on our ability to join it with spatial data.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Group 2 [Coordinates]">
+  <meta name="twitter:description" content="Objectives Learn where to find coordinate information for locations Learn how to format coordinates in a table so they can be opened in a map Learn how to import a table of coordinates into a GIS mapping interface 10 minutes to get started Imagine you want to make a map of all the places referenced in Chekhov’s plays. Where would you get that data? In many cases, you may need to assemble location data yourself into a spreadsheet.">
 
 
-  <meta itemprop="name" content="Group 2 [Turning Spreadsheets into Spatial Data]">
-  <meta itemprop="description" content="Objectives Understand how to use table joins to connect a spreadsheet of data to mapping data Practice thinking outside of the box with datasets 10 minutes to get started Imagine you are working on a project where you can find data for your project in spreadsheet format, but there are no shapes associated with the table. Maybe the data references towns, countries, or other units of geography. In this activity, we will explore how to evaluate a dataset’s GIS viability based on our ability to join it with spatial data.">
+  <meta itemprop="name" content="Group 2 [Coordinates]">
+  <meta itemprop="description" content="Objectives Learn where to find coordinate information for locations Learn how to format coordinates in a table so they can be opened in a map Learn how to import a table of coordinates into a GIS mapping interface 10 minutes to get started Imagine you want to make a map of all the places referenced in Chekhov’s plays. Where would you get that data? In many cases, you may need to assemble location data yourself into a spreadsheet.">
   <meta itemprop="datePublished" content="2024-08-12T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-08-12T00:00:00+00:00">
-  <meta itemprop="wordCount" content="454">
-  <meta itemprop="image" content="http://localhost:1313/resources/workshops/find-gis-data/group-2/cover.png">
+  <meta itemprop="wordCount" content="682">
 
 
 
@@ -269,94 +267,151 @@
                           
                           <li style="margin-right: 0;" class="active">
                             👋
-                            <a aria-current="page" href="/resources/workshops/find-gis-data/group-2/">Group 2 [Turning Spreadsheets into Spatial Data]</a>
+                            <a aria-current="page" href="/resources/workshops/find-gis-data/group-2/">Group 2 [Coordinates]</a>
                           </li>
                         </ol>
                       </nav>
                       </div>
 
 
-                <h1 class="title">Group 2 [Turning Spreadsheets Into Spatial Data]</h1>
+                <h1 class="title">Group 2 [Coordinates]</h1>
 
                 <h2 id="objectives">Objectives</h2>
 <ul>
-<li>Understand how to use table joins to connect a spreadsheet of data to mapping data</li>
-<li>Practice thinking outside of the box with datasets</li>
+<li>Learn where to find coordinate information for locations</li>
+<li>Learn how to format coordinates in a table so they can be opened in a map</li>
+<li>Learn how to import a table of coordinates into a GIS mapping interface</li>
 </ul>
 <h2 id="10-minutes-to-get-started">10 minutes to get started</h2>
-<p><em>Imagine you are working on a project where you can find data for your project in spreadsheet format, but there are no shapes associated with the table. Maybe the data references towns, countries, or other units of geography. In this activity, we will explore how to evaluate a dataset&rsquo;s GIS viability based on our ability to join it with spatial data.</em></p>
+<p><em>Imagine you want to make a map of all the places referenced in Chekhov&rsquo;s plays. Where would you get that data? In many cases, you may need to assemble location data yourself into a spreadsheet. This is just one example of the type of project where creating a spreadsheet of coordinates may be necessary. For this activity, you can choose to create data points from any location of your choice.</em></p>
 <blockquote>
 <ol>
-<li>Visit the <a href="https://data.boston.gov/dataset/311-service-requests/resource/b237f352-49d1-4423-804f-b478e4f24e61" target="_blank">documentation page</a>
- for data about <a href="https://www.boston.gov/departments/boston-311" target="_blank">Boston 311 service requests</a>
-, to get a sense of what this dataset shows.</li>
+<li>Create a new Google Sheets by typing <code>sheets.new</code> into a browser.</li>
 </ol>
 </blockquote>
 <blockquote>
 <ol start="2">
-<li>Look at the category codes in the PDF. What is this dataset representing? What do the codes in the table mean?</li>
+<li>Create three header columns, <code>name</code>, <code>latitude</code>, and <code>longitude</code>.</li>
 </ol>
 </blockquote>
 <blockquote>
 <ol start="3">
-<li>Consider how mapping these codes might provide insight. What questions could you ask and maybe answer using this information about a city?</li>
+<li>In a new tab, navigate to <a href="https://www.google.com/maps/" target="_blank">Google Maps</a>
+.</li>
 </ol>
 </blockquote>
 <blockquote>
 <ol start="4">
-<li>Now glance at the actual <a href="https://data.boston.gov/dataset/311-service-requests/resource/dff4d804-5031-443a-8409-8344efd0e5c8" target="_blank">311 requests dataset</a>
- for 2024 from Analyze Boston. Observe a few records to get a sense of how this table is filled out.</li>
-</ol>
-</blockquote>
-<h2 id="311-data-table">311 data table</h2>
-<img src="cover.png" style="width:100%; max-height:70em;" alt="table">
-<h2 id="neighborhoods-data-table">Neighborhoods data table</h2>
-<blockquote>
-<ol>
-<li>In a web browser, search for &ldquo;GIS neighborhoods Boston shapefile download&rdquo;.</li>
-</ol>
-</blockquote>
-<p><img src="neighborhoods.png" alt="Analyze Boston result for neighborhood boundaries"></p>
-<blockquote>
-<ol start="2">
-<li>Click <a href="https://data.boston.gov/dataset/census-2020-block-group-neighborhoods/resource/ed89fab7-aa21-42ce-874b-1b4971ab50fb" target="_blank">Census 2020 Block Group Neighborhoods Shapefile</a>
- until it appears as a map preview (pictured above).</li>
+<li>Find a location you are interested in mapping.</li>
 </ol>
 </blockquote>
 <blockquote>
-<ol start="3">
-<li>Select one of the polygons and observe how the attribute information is structured. Which attribute value is collected in both this neighborhoods shapefile, as well as the 3-1-1 spreadsheet that could be used to facilitate a join?</li>
+<ol start="5">
+<li>In your spreadsheet, under the <code>name</code> column, give the location a name.</li>
 </ol>
 </blockquote>
-<p><img src="neighborhood-attributes.png" alt="screenshot of clicking on the polygons to show a table with the column &ldquo;neighborhood&rdquo;, and neighborhood name"></p>
-<div class="alert-success">
-<details>
-    <summary>Show me the answer</summary>
-    You would use the field containing values for the neighborhood name, which is present in both datasets to join the data. In the 3-1-1 requests table, the attribute field is titled "neighborhood"; in the neighborhood GIS data, it is titled "BlockGr202".
-</details>
-</div>
+<blockquote>
+<ol start="6">
+<li><code>Right click</code> on the map in Google maps in the area you are interested in. A window with coordinates should pop up. Click on the coordinates, and they will copy to your clipboard.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="7">
+<li>Paste the value into the spreadsheet, under the <code>latitude</code> column.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="8">
+<li>You will need to edit the values so that the first number in the set of coordinates is under the <code>latitude</code> column, and the second number is in <code>longitude</code> column. Make sure to include the negative <code>-</code> symbol, if it exists, and remove the separating comma.</li>
+</ol>
+</blockquote>
+<img src="table.png" style="width:100%; max-height:70em;" alt="table">
+<p><em>Properly formatted table.</em></p>
+<blockquote>
+<ol start="9">
+<li>Repeat this process and add two more points, so you have three altogether.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="10">
+<li>When you are finished entering your data, name your spreadsheet, and export it to a <code>.csv</code> format by clicking <code>File</code> → <code>Download</code> → <code>Comma Separated Values (.csv)</code>.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="11">
+<li>In a search engine, search for <code>Google My Maps</code>.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="12">
+<li>From Google My Maps, choose <code>CREATE A NEW MAP</code>.</li>
+</ol>
+</blockquote>
+<p><img src="new.png" alt="Create new map button on Google My Maps"></p>
+<blockquote>
+<ol start="13">
+<li>Next to <code>Untitled Layer</code>, select the three dots (<code>Layer options</code>), and choose <code>Import</code>.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="14">
+<li>Choose <code>Browse</code> and upload the <code>.csv</code> you exported from Google Sheets.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="15">
+<li>Make sure all columns are checked off, and choose <code>Continue</code>.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="16">
+<li>Under <code>Choose a column to title your markers</code>, select <code>name</code>. Choose <code>Finish</code>.</li>
+</ol>
+</blockquote>
 <h2 id="follow-up-resources-next-steps">Follow-up resources (next steps)</h2>
 <ul>
-<li><a href="https://mapping.share.library.harvard.edu/tutorials/census-data-primer/perform-a-table-join/" target="_blank">How and why we perform table joins (step-by-step instructions for QGIS)</a>
+<li><a href="https://mapping.share.library.harvard.edu/tutorials/qgis/add-spreadsheet/" target="_blank">Add a Spreadsheet .XLSX or .CSV to a QGIS project</a>
 </li>
-</ul>
-<blockquote>
-<p>Note: to join the dataset in this example, one would likely need to perform substantial data cleaning. This could include tidying up the records, and using a pivot table to aggregate individual requests by neighborhood prior to join.</p>
-</blockquote>
-<ul>
-<li>An alternative to using a table join could be doing a <a href="https://maps.cga.harvard.edu/qgis_2/wkshop/pt_in_pgn.php" target="_blank">count point in polygon analysis</a>
-</li>
+<li>Follow an ArcGIS Pro <a href="https://storymaps.arcgis.com/stories/4c42eb942db4454f80dcaffb41c81c11" target="_blank">geocoding tutorial</a>
+ by clicking  <code>Your ArcGIS Organization's URL</code>, typing in <code>harvard-cga</code>, and authenticating with your Harvard Key</li>
+<li>Here&rsquo;s a <a href="https://musingsaboutlibrarianship.blogspot.com/2017/03/openrefine-reconciliation-services.html" target="_blank">blog post</a>
+ about how to extend records you have in a spreadsheet by &ldquo;reconciling&rdquo; them with matches in Wikidata, using a tool called OpenRefine. One of the data points you can pull into your spreadsheet are coordinates</li>
 </ul>
 <h2 id="discussion-questions">Discussion questions</h2>
 <ol>
-<li>How could using table joins open up the possibilities for finding data for a GIS project?</li>
-<li>How do you think the 3-1-1 request data could be an example of a dataset that was collected for one purpose, but could be repurposed? Were there any values in the 3-1-1 data codebook you think might be interesting for a GIS project?</li>
+<li>Why might someone need to create location data of their own?</li>
+<li>How does importing the data into Google MyMaps exemplify what you can do with tabular coordinate data? What do the Google MyMaps activity and the follow-up resource, <a href="https://mapping.share.library.harvard.edu/tutorials/qgis/add-spreadsheet/" target="_blank">Add a Spreadsheet .XLSX or .CSV to a QGIS project</a>
+ have in common?</li>
 <li>Prepare to present any demos which could help communicate these takeaways.</li>
-<li>Did you find anything surprising or interesting in the follow-up resources?</li>
+<li>Did you find anything else surprising or interesting in the follow-up resources?</li>
 </ol>
 <hr>
-<h2 id="group-exploration">Group exploration</h2>
-<h2 id="demo-and-data">Demo and data</h2>
+<h2 id="in-class">In class</h2>
+<ul>
+<li>Create a Google sheets spreadsheet</li>
+<li>Make headers</li>
+<li>Open Google MyMaps</li>
+<li>Right-click</li>
+<li>Copy in coordinates</li>
+<li>Format them correctly</li>
+</ul>
+<h2 id="demo-home">Demo/@ home</h2>
+<h3 id="data">Data</h3>
+<ul>
+<li><code>example-coordinates.csv</code></li>
+<li><code>example-coordinates.geojson</code></li>
+</ul>
+<h3 id="steps">Steps</h3>
+<ul>
+<li>Open QGIS</li>
+<li>Add a basemap</li>
+<li>Import the coordinates</li>
+<li>Right-click <code>example-coordinates</code> in the Layers pane → <code>Zoom to layer</code> to see the points better</li>
+<li>Right-click <code>example-coordinates</code> in the Layers pane → <code>Open attribute table</code> to view the data attributes</li>
+<li>Right-click <code>example-coordinates</code> in the Layers pane → <code>Properties</code> → <code>Symbology</code> → Change <code>Single Symbol</code> to <code>Categorized</code> → Under <code>Value</code> choose <code>type</code> → <code>Classify</code> → <code>OK</code> to change the color symbols of the map. Click the dot icon next to <code>Symbol</code> (underneath <code>Value</code>) to change the size of the points.</li>
+<li>Save as spatial data by right-clicking <code>example-coordinates</code> in the Layers pane → <code>Export</code> → <code>Format = GeoJSON</code> → Click <code>...</code> icon next to <code>Filename</code> to choose where to save</li>
+<li>Notice how you can drag the <code>.geoJSON</code> file directly into the QGIS window to display the geometry now (rather than use the table import window). This is because it is stored as spatial data.</li>
+</ul>
 
             </div>
         </div>

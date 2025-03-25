@@ -50,7 +50,7 @@
   <meta itemprop="description" content="Learn how to find and interpret materials in open GIS data portals.">
   <meta itemprop="datePublished" content="2024-08-13T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-08-13T00:00:00+00:00">
-  <meta itemprop="wordCount" content="581">
+  <meta itemprop="wordCount" content="667">
 
 
 
@@ -337,18 +337,37 @@
 <li><code>Low_Food_Access_Areas.geojson</code>, a .geoJSON file</li>
 </ul>
 </div>
-<h3 id="steps">Steps</h3>
-<ul>
-<li>Search for &lsquo;food&rsquo; and filter by feature service</li>
-<li>To understand the data and how it is structured, click &ldquo;View Full Details&rdquo;
-Brings us to this page: <a href="https://opendata.dc.gov/datasets/DCGIS::low-food-access-areas/about" target="_blank">https://opendata.dc.gov/datasets/DCGIS::low-food-access-areas/about</a>
+<h3 id="follow-along-steps">Follow-along steps</h3>
+<p>How did we access the sample data, and how do we learn to understand and use it?</p>
+<ol>
+<li>
+<p>From Open Data DC, search for <code>food</code> and filter by <code>feature service</code>.</p>
 </li>
-<li>To download as GIS data, select the &ldquo;Download&rdquo; button and choose &ldquo;GeoJSON&rdquo; or &ldquo;Shapefile&rdquo;</li>
-<li>To use in QGIS <code>extract</code> or unzip the shapefile, and drag the file ending in <code>.shp</code> into the QGIS document (or use the <code>.geojson</code>)</li>
-<li>Right-click <code>Low_Food_Access_Areas</code> in the Layers pane → <code>Open Attribute Table</code> to see how the table matches up with the “View Full Details” documentation from the portal</li>
-<li>Right-click <code>Low_Food_Access_Areas</code> in the Layers pane → <code>Properties</code> → <code>Symbology</code> → Click <code>Single symbol</code> to change it to <code>Graduated</code> → Value = <code>PRTUND185</code> → <code>Classify</code> (notice under <code>Mode</code> there are many classification options. Be aware of which you’re choosing by <a href="https://pro.arcgis.com/en/pro-app/latest/help/mapping/layer-properties/data-classification-methods.htm" target="_blank">reading about each method</a>
-) → <code>OK</code></li>
-</ul>
+<li>
+<p>To understand the data and how it is structured, click <code>View Full Details</code>, which brings us to this <a href="https://opendata.dc.gov/datasets/DCGIS::low-food-access-areas/about" target="_blank">documentation page</a>
+.</p>
+</li>
+<li>
+<p>To download as GIS data, select the <code>Download</code> button in the left-hand sidebar, and choose <code>GeoJSON</code> or <code>Shapefile</code>.
+<img src="../media/download-dc.png" alt="Download button on Open DC"></p>
+</li>
+<li>
+<p>To use the data in QGIS, <code>extract</code> or unzip the shapefile, and drag the file ending in <code>.shp</code> into the QGIS document. Alternatively, you can drag the <code>.geoJSON</code> file into the QGIS document. Another way to add vector data to a QGIS project is use the menu on the top bar <code>Layers</code> → <code>Add Layers</code> → <code>Add Vector Layers</code> and select the file ending in <code>.shp</code>.</p>
+</li>
+</ol>
+<blockquote>
+<p>Why are there so many files associated with a shapefile? You can <a href="https://gisgeography.com/arcgis-shapefile-files-types-extensions/" target="_blank">learn more</a>
+.</p>
+</blockquote>
+<ol start="5">
+<li>
+<p>Right-click <code>Low_Food_Access_Areas</code> in the Layers pane and click <code>Open Attribute Table</code> to see how the table matches up with the &ldquo;View Full Details&rdquo; documentation from the portal.</p>
+</li>
+<li>
+<p>Right-click <code>Low_Food_Access_Areas</code> in the Layers pane → <code>Properties</code> → <code>Symbology</code> → Click <code>Single symbol</code> to change it to <code>Graduated</code> → Value = <code>PRTUND185</code> → <code>Classify</code> (notice under <code>Mode</code> there are many classification options. Be aware of which you’re choosing by <a href="https://pro.arcgis.com/en/pro-app/latest/help/mapping/layer-properties/data-classification-methods.htm" target="_blank">reading about each method</a>
+) → <code>OK</code>.</p>
+</li>
+</ol>
 
             </div>
         </div>

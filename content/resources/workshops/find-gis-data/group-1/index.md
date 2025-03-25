@@ -55,12 +55,19 @@ You can download and explore sample datasets related to this activity from the w
 </div>
 
 
-### Steps
+### Follow-along steps
 
-- Search for 'food' and filter by feature service
-- To understand the data and how it is structured, click "View Full Details"
-Brings us to this page: https://opendata.dc.gov/datasets/DCGIS::low-food-access-areas/about
-- To download as GIS data, select the "Download" button and choose "GeoJSON" or "Shapefile"
-- To use in QGIS `extract` or unzip the shapefile, and drag the file ending in `.shp` into the QGIS document (or use the `.geojson`)
-- Right-click `Low_Food_Access_Areas` in the Layers pane → `Open Attribute Table` to see how the table matches up with the “View Full Details” documentation from the portal
-- Right-click `Low_Food_Access_Areas` in the Layers pane → `Properties` → `Symbology` → Click `Single symbol` to change it to `Graduated` → Value = `PRTUND185` → `Classify` (notice under `Mode` there are many classification options. Be aware of which you’re choosing by [reading about each method](https://pro.arcgis.com/en/pro-app/latest/help/mapping/layer-properties/data-classification-methods.htm)) → `OK`
+How did we access the sample data, and how do we learn to understand and use it?
+
+1. From Open Data DC, search for `food` and filter by `feature service`.
+2. To understand the data and how it is structured, click `View Full Details`, which brings us to this [documentation page](https://opendata.dc.gov/datasets/DCGIS::low-food-access-areas/about).
+3. To download as GIS data, select the `Download` button in the left-hand sidebar, and choose `GeoJSON` or `Shapefile`.
+![Download button on Open DC](../media/download-dc.png)
+
+4. To use the data in QGIS, `extract` or unzip the shapefile, and drag the file ending in `.shp` into the QGIS document. Alternatively, you can drag the `.geoJSON` file into the QGIS document. Another way to add vector data to a QGIS project is use the menu on the top bar `Layers` → `Add Layers` → `Add Vector Layers` and select the file ending in `.shp`.
+
+> Why are there so many files associated with a shapefile? You can [learn more](https://gisgeography.com/arcgis-shapefile-files-types-extensions/). 
+
+5. Right-click `Low_Food_Access_Areas` in the Layers pane and click `Open Attribute Table` to see how the table matches up with the "View Full Details" documentation from the portal. 
+
+6. Right-click `Low_Food_Access_Areas` in the Layers pane → `Properties` → `Symbology` → Click `Single symbol` to change it to `Graduated` → Value = `PRTUND185` → `Classify` (notice under `Mode` there are many classification options. Be aware of which you’re choosing by [reading about each method](https://pro.arcgis.com/en/pro-app/latest/help/mapping/layer-properties/data-classification-methods.htm)) → `OK`.

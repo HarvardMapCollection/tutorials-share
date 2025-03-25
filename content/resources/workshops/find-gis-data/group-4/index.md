@@ -63,7 +63,7 @@ You can download and explore sample datasets related to this activity from the w
 
 
 
-### Steps
+### Follow-along steps
 - Install the QuickOSM plugin using the [steps in this guide](https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbyfeature/)
 - `Vector` → `QuickOSM` → `QuickOSM`
 - key = `amenity` ; value = `place_of_worship` ; in = `Massachusetts`

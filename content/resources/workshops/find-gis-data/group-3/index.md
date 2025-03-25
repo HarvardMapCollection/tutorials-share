@@ -76,7 +76,7 @@ You can download and explore sample datasets related to this activity from the w
 </div>
 
 
-### Steps
+### Follow-along steps
 
 - Search HOLLIS for MA maps filtering `In Library` and `Harvard Map Collection`
 - Page 4 or [**`Map of Massachusetts : exhibiting the Representative, Senatorial and Councillor districts`](https://hollis.harvard.edu/primo-explore/fulldisplay?docid=01HVD_ALMA212094551850003941&context=L&vid=HVD2&lang=en_US&search_scope=default_scope&adaptor=Local%20Search%20Engine&tab=books&query=any%2Ccontains%2Cmassachusetts&facet=library%2Cinclude%2Cmap&facet=searchcreationdate%2Cinclude%2C1800%7C%2C%7C1950&offset=30)** noting `ONLINE ACCESS`

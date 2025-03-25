@@ -100,7 +100,7 @@ You can download and explore sample datasets related to this activity from the w
 </div>
 
 
-### Steps
+### Follow-along steps
 
 - Open QGIS
 - Add a basemap

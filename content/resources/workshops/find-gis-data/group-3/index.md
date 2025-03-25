@@ -3,6 +3,7 @@ title: Group 3 [Georeferencing]
 date: 2024-08-11
 layout: single2
 image: cover.png
+description: Understand the value of georeferenced maps and how to start using them in a GIS project. 
 ---
 
 ## Objectives
@@ -56,10 +57,24 @@ If you have additional time, or would like to get started working with informati
 - Get a feel for what georeferencing is and why it’s useful (layering old maps on new maps) by searching for a few Boston/Cambridge addresses in Atlascope
 - Search HGL on `Institution = Harvard` and `Format = GeoTIFF` to see which maps are already GIS layers. Click on some results, choose `click to wake` to see the georeferenced map layer. Notice the `Download GeoTIFF` button which gives a file that will work in QGIS.
 
-## Demo/@ home
 
-### Data
-- `G7625_1897_W2.tif` Afganistan-Pakistan Border Region, 1897
+## Demo and explore more
+
+### Sample data
+You can download and explore sample datasets related to this activity from the workshop data homepage, hosted on the Open Science Framework (OSF.io)
+1. Visit the [workshop data homepage](https://osf.io/exnyg). 
+2. Click the three vertical dots icon and select `Download`.
+![OSF data download page](../media/download.png)
+3. The folder that downloads to your computer contains sample data from *all* activities in this workshop. It is a zipped or compressed file. In order to use it, you will have to `double-click` it on Mac or `right-click` → `Extract` or `Uncompress` on a PC. 
+
+<div class="alert-success">
+<p>4. The sample data for this activity, <strong>Activity 3</strong> is in the folder <code>activity3_georeferencing</code>. In this folder you will find the following files:
+</p>
+<ul>
+<li><code>G7625_1897_W2.tif</code>, a georeferenced TIFF image of the <a href="https://id.lib.harvard.edu/alma/990126040650203941/catalog">Afghanistan-Pakistan Border Region, 1897</a>.</li>
+</ul>
+</div>
+
 
 ### Steps
 

@@ -3,6 +3,7 @@ title: Group 4 [OpenStreetMap]
 image: osm-denom.png
 date: 2024-08-10
 layout: single2
+description: Learn how to access crowdsourced GIS data for situations where data is difficult to find.
 ---
 
 ## Objectives
@@ -42,11 +43,24 @@ layout: single2
 - Read the wiki to see all of the features you could extract as GIS data
 
 
-## Demo/@ home
+## Demo and explore more
 
-### Data
-- `places_of_worship_polygons_ma.geojson`
-- `places_of_worship_points_ma.geojson`
+### Sample data
+You can download and explore sample datasets related to this activity from the workshop data homepage, hosted on the Open Science Framework (OSF.io)
+1. Visit the [workshop data homepage](https://osf.io/exnyg). 
+2. Click the three vertical dots icon and select `Download`.
+![OSF data download page](../media/download.png)
+3. The folder that downloads to your computer contains sample data from *all* activities in this workshop. It is a zipped or compressed file. In order to use it, you will have to `double-click` it on Mac or `right-click` → `Extract` or `Uncompress` on a PC. 
+
+<div class="alert-success">
+<p>4. The sample data for this activity, <strong>Activity 4</strong> is in the folder <code>activity4_crowdsourced</code>. In this folder you will find the following files:
+</p>
+<ul>
+<li><code>places_of_worship_polygons_ma.geojson</code></li>
+<li><code>places_of_worship_points_ma.geojson</code></li>
+</ul>
+</div>
+
 
 
 ### Steps

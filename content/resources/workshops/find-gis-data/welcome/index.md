@@ -3,6 +3,7 @@ title: Welcome [Homepage]
 image: map-collection-directions.png
 date: 2024-08-15
 layout: single2
+description: Homepage including slides, data, and workshop objectives.
 ---
 
 Get here quick: 
@@ -29,6 +30,13 @@ Get here quick:
 ![](format.png)
 - ^ little bit about how the session will work
 - ^ orientation to resources, where to find stuff, how we will pace 
+
+### Sample data
+You can download and explore sample datasets related to this activity from the workshop data homepage, hosted on the Open Science Framework (OSF.io)
+1. Visit the [workshop data homepage](https://osf.io/exnyg). 
+2. Click the three vertical dots icon and select `Download`.
+![OSF data download page](../media/download.png)
+3. The folder that downloads to your computer contains sample data from *all* activities in this workshop. It is a zipped or compressed file. In order to use it, you will have to `double-click` it on Mac or `right-click` → `Extract` or `Uncompress` on a PC. 
 
 ## Goals
 

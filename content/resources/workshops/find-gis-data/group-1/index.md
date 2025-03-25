@@ -3,14 +3,13 @@ title: Group 1 [Portals]
 image: flood.png
 date: 2024-08-13
 layout: single2
+description: Learn how to find and interpret materials in open GIS data portals. 
 ---
 
-## Objectives
 - Explore open data portals and learn how to use them to find GIS data
 - Explore how content may be organized and how to refine searching
 
-
-## 10 minutes to get started
+## In class activity
 
 ![Screenshot of question about studying food deserts in DC](dc-question.png)
 
@@ -34,26 +33,27 @@ Where is a good place to **get started** searching for food desert data in DC?
 
 > 6. Return to the results list, filtered by `Feature Service`. Search for relevant terms `food`, `grocery`, `corner stores`, and observe which datasets are available which could be useful to the project. 
 
-## Follow-up resources (next steps)
-
-If you have additional time, or would like to explore data portals in more detail, you can get started with these resources:
-
-- [Open Data: Introduction, New York Institute of Technology Library](https://libguides.nyit.edu/opendata)
-- [Open Data, Brown University Library](https://libguides.brown.edu/opendata)
-- [Geographic Informmation Systems (GIS): Geospatial Data, Brown University Library](https://libguides.brown.edu/gis/data)
+---
 
 
---- 
+## Demo and explore more
 
-## In class
+### Sample data
+You can download and explore sample datasets related to this activity from the workshop data homepage, hosted on the Open Science Framework (OSF.io)
+1. Visit the [workshop data homepage](https://osf.io/exnyg). 
+2. Click the three vertical dots icon and select `Download`.
+![OSF data download page](../media/download.png)
+3. The folder that downloads to your computer contains sample data from *all* activities in this workshop. It is a zipped or compressed file. In order to use it, you will have to `double-click` it on Mac or `right-click` → `Extract` or `Uncompress` on a PC. 
 
-- keep the same
+<div class="alert-success">
+<p>4. The sample data for this activity, <strong>Activity 1</strong> is in the folder <code>activity1_portals</code>. In this folder you will find the following files:
+</p>
+<ul>
+<li><code>Low_Food_Access_Areas.zip</code>, a zipped shapefile</li>
+<li><code>Low_Food_Access_Areas.geojson</code>, a .geoJSON file</li>
+</ul>
+</div>
 
-## Demo/@ home
-
-### Data
-- `Low_Food_Access_Areas.zip` → zipped shapefile
-- `Low_Food_Access_Areas.geojson` → geoJSON
 
 ### Steps
 

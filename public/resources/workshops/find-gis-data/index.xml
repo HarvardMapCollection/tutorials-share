@@ -27,7 +27,7 @@
       <link>http://localhost:1313/resources/workshops/find-gis-data/group-2/</link>
       <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/resources/workshops/find-gis-data/group-2/</guid>
-      <description>Objectives Learn where to find coordinate information for locations Learn how to format coordinates in a table so they can be opened in a map Learn how to import a table of coordinates into a GIS mapping interface 10 minutes to get started Imagine you want to make a map of all the places referenced in Chekhov&amp;rsquo;s plays. Where would you get that data? In many cases, you may need to assemble location data yourself into a spreadsheet.</description>
+      <description>Learn where to find coordinate information for locations Learn how to format coordinates in a table so they can be opened in a map Learn how to import a table of coordinates into a GIS mapping interface In class activity Open a new spreadsheet, for example in Excel, or quickly make a new Google Sheets by typing sheets.new into a browser. Create three header columns, name, latitude, and longitude. In a new tab, navigate to Google Maps .</description>
     </item>
     <item>
       <title>Group 3 [Georeferencing]</title>

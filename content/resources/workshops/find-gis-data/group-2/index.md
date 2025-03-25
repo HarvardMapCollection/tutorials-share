@@ -6,19 +6,13 @@ layout: single2
 description: Learn how to create coordinate data compatible with GIS software.
 ---
 
-
-## Objectives
-
 - Learn where to find coordinate information for locations
 - Learn how to format coordinates in a table so they can be opened in a map
 - Learn how to import a table of coordinates into a GIS mapping interface
 
+## In class activity
 
-## 10 minutes to get started
-
-*Imagine you want to make a map of all the places referenced in Chekhov's plays. Where would you get that data? In many cases, you may need to assemble location data yourself into a spreadsheet. This is just one example of the type of project where creating a spreadsheet of coordinates may be necessary. For this activity, you can choose to create data points from any location of your choice.*
-
-> 1. Create a new Google Sheets by typing `sheets.new` into a browser. 
+> 1. Open a new spreadsheet, for example in Excel, or quickly make a new Google Sheets by typing `sheets.new` into a browser. 
 
 > 2. Create three header columns, `name`, `latitude`, and `longitude`. 
 
@@ -42,53 +36,18 @@ description: Learn how to create coordinate data compatible with GIS software.
 
 > 10. When you are finished entering your data, name your spreadsheet, and export it to a `.csv` format by clicking `File` → `Download` → `Comma Separated Values (.csv)`.
 
-> 11. In a search engine, search for `Google My Maps`. 
-
-> 12. From Google My Maps, choose `CREATE A NEW MAP`.
-
-![Create new map button on Google My Maps](new.png)
-
-> 13. Next to `Untitled Layer`, select the three dots (`Layer options`), and choose `Import`. 
-
-> 14. Choose `Browse` and upload the `.csv` you exported from Google Sheets. 
-
-> 15. Make sure all columns are checked off, and choose `Continue`. 
-
-> 16. Under `Choose a column to title your markers`, select `name`. Choose `Finish`. 
-
-
-
-
-## Follow-up resources (next steps)
-- [Add a Spreadsheet .XLSX or .CSV to a QGIS project](https://mapping.share.library.harvard.edu/tutorials/qgis/add-spreadsheet/) 
-- Follow an ArcGIS Pro [geocoding tutorial](https://storymaps.arcgis.com/stories/4c42eb942db4454f80dcaffb41c81c11) by clicking  `Your ArcGIS Organization's URL`, typing in `harvard-cga`, and authenticating with your Harvard Key
-- Here's a [blog post](https://musingsaboutlibrarianship.blogspot.com/2017/03/openrefine-reconciliation-services.html) about how to extend records you have in a spreadsheet by "reconciling" them with matches in Wikidata, using a tool called OpenRefine. One of the data points you can pull into your spreadsheet are coordinates
-
-## Discussion questions
-1. Why might someone need to create location data of their own?
-2. How does importing the data into Google MyMaps exemplify what you can do with tabular coordinate data? What do the Google MyMaps activity and the follow-up resource, [Add a Spreadsheet .XLSX or .CSV to a QGIS project](https://mapping.share.library.harvard.edu/tutorials/qgis/add-spreadsheet/) have in common?
-3. Prepare to present any demos which could help communicate these takeaways.
-4. Did you find anything else surprising or interesting in the follow-up resources?
-
 --- 
-
-## In class
-
-- Create a Google sheets spreadsheet
-- Make headers
-- Open Google MyMaps
-- Right-click
-- Copy in coordinates
-- Format them correctly
 
 ## Demo and explore more
 
 ### Sample data
 You can download and explore sample datasets related to this activity from the workshop data homepage, hosted on the Open Science Framework (OSF.io)
-1. Visit the [workshop data homepage](https://osf.io/exnyg). 
-2. Click the three vertical dots icon and select `Download`.
+> 1. Visit the [workshop data homepage](https://osf.io/exnyg). 
+
+> 2. Click the three vertical dots icon and select `Download`.
 ![OSF data download page](../media/download.png)
-3. The folder that downloads to your computer contains sample data from *all* activities in this workshop. It is a zipped or compressed file. In order to use it, you will have to `double-click` it on Mac or `right-click` → `Extract` or `Uncompress` on a PC. 
+
+> 3. The folder that downloads to your computer contains sample data from all the workshop activities. It is a zipped or compressed file. In order to use it, you will have to `double-click` it on Mac or `right-click` → `Extract` or `Uncompress` on a PC. 
 
 <div class="alert-success">
 <p>4. The sample data for this activity, <strong>Activity 2</strong> is in the folder <code>activity2_coordinates</code>. In this folder you will find the following files:
@@ -102,12 +61,12 @@ You can download and explore sample datasets related to this activity from the w
 
 ### Follow-along steps
 
-- Open QGIS
-- Add a basemap
-- Import the coordinates
-- Right-click `example-coordinates` in the Layers pane → `Zoom to layer` to see the points better
-- Right-click `example-coordinates` in the Layers pane → `Open attribute table` to view the data attributes
-- Right-click `example-coordinates` in the Layers pane → `Properties` → `Symbology` → Change `Single Symbol` to `Categorized` → Under `Value` choose `type` → `Classify` → `OK` to change the color symbols of the map. Click the dot icon next to `Symbol` (underneath `Value`) to change the size of the points.
-- Save as spatial data by right-clicking `example-coordinates` in the Layers pane → `Export` → `Format = GeoJSON` → Click `...` icon next to `Filename` to choose where to save
-- Notice how you can drag the `.geoJSON` file directly into the QGIS window to display the geometry now (rather than use the table import window). This is because it is stored as spatial data.
+1. Open QGIS ([download instructions](https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-software/)).
+2. Add a basemap ([instructions](https://mapping.share.library.harvard.edu/tutorials/qgis/add-basemap/)).
+3. Import the coordinates ([instructions](https://mapping.share.library.harvard.edu/tutorials/qgis/add-spreadsheet/)).
+4. Right-click `example-coordinates` in the Layers pane → `Zoom to layer` to see the points better.
+5. Right-click `example-coordinates` in the Layers pane → `Open attribute table` to view the data attributes.
+6. Right-click `example-coordinates` in the Layers pane → `Properties` → `Symbology` → Change `Single Symbol` to `Categorized` → Under `Value` choose `type` → `Classify` → `OK` to change the color symbols of the map. Click the dot icon next to `Symbol` (underneath `Value`) to change the size of the points.
+7. Save as spatial data by right-clicking `example-coordinates` in the Layers pane → `Export` → `Format = GeoJSON` → Click `...` icon next to `Filename` to choose where to save.
+8. Notice how you can drag the `.geoJSON` file directly into the QGIS window to display the geometry now (rather than use the table import window). This is because it is stored as spatial data.
 

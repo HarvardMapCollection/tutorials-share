@@ -62,10 +62,12 @@ If you have additional time, or would like to get started working with informati
 
 ### Sample data
 You can download and explore sample datasets related to this activity from the workshop data homepage, hosted on the Open Science Framework (OSF.io)
-1. Visit the [workshop data homepage](https://osf.io/exnyg). 
-2. Click the three vertical dots icon and select `Download`.
+> 1. Visit the [workshop data homepage](https://osf.io/exnyg). 
+
+> 2. Click the three vertical dots icon and select `Download`.
 ![OSF data download page](../media/download.png)
-3. The folder that downloads to your computer contains sample data from *all* activities in this workshop. It is a zipped or compressed file. In order to use it, you will have to `double-click` it on Mac or `right-click` → `Extract` or `Uncompress` on a PC. 
+
+> 3. The folder that downloads to your computer contains sample data from all the workshop activities. It is a zipped or compressed file. In order to use it, you will have to `double-click` it on Mac or `right-click` → `Extract` or `Uncompress` on a PC. 
 
 <div class="alert-success">
 <p>4. The sample data for this activity, <strong>Activity 3</strong> is in the folder <code>activity3_georeferencing</code>. In this folder you will find the following files:

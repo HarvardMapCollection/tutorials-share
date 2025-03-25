@@ -6,42 +6,30 @@ layout: single2
 description: Learn how to access crowdsourced GIS data for situations where data is difficult to find.
 ---
 
-## Objectives
 - Understand what OpenStreetMap (OSM) is, and how it can be helpful for finding data
-- Learn how to use tools built around the OSM API to extract datasets of your choosing
 
-## 10 minutes to get started
+## In class activity
 
-1. Read through the [OpenStreetMap tutorial](https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbyfeature/). Be sure to open up the OpenStreetMap features Wiki and observe all of the mappable data layers one can extract.
+> 1. Visit [OpenStreetMap.org](https://www.openstreetmap.org/), which we can think of as the Wikipedia of GIS. It is free, crowd-contributed geospatial data. 
 
-2. Read this [blog post](https://blog.hubspot.com/blog/tabid/6307/bid/8341/a-marketer-s-guide-to-apis.aspx) on what the definition of an API is.
+> 2. Navigate to anywhere in the world you are interested in.
 
-> OpenStreetMaps contains a massive amount of information. Rather than directly download the whole database, OSM makes data available via an API. That way, one can write queries that download data based on one's exact parameters of interest. For instance, in the tutorial example, we specify that we are looking for only *shopping malls*, and only in *Jakarta*. This helps pare down the data we are downloading.
->
-> Normally, when we write **queries** using an API, we have to use some kind of coding language. Because not everyone codes, there are a number of click-and-point tools people have built, which are actually just using the API behind the scenes. The one we showcased (the QGIS plugin) is one of these tools (one we have used at the Map Collection a great deal, and can vouch for!), but you can find lots of others on the web.
+> 3. Zoom super close in so that you can see individual features, such as buildings, roads, or bike lanes. 
 
+> 4. Right-click a feature and select `Query features`. 
 
-## Follow-up resources (next steps)
-- Here is a [list of projects using OpenStreetMap data](https://github.com/osmlab/awesome-openstreetmap) 
-- Here are some other crowd-contributed mapping data projects:
-    - [Geonames](https://www.geonames.org/)
-    - [Natural Earth](https://www.naturalearthdata.com/)
+> 5. Select one of the features, whether it's a `Building`, `Residential Road`, `Footpath`, or another kind of feature. 
 
-## Discussion questions
-1. What are some reasons why one might rely on crowd-contributed data for a GIS project?
-2. What are some benefits and downsides to using crowd-contributed data?
-3. What else did you learn about that you think would be valuable to share with your group?
-4. Prepare to present any demos which could help communicate these takeaways.
-5. Did you find anything surprising or interesting in the follow-up resources?
+> 6. Inspect the way that the attributes about this kind of feature are encoded. For instance, notice how the Harvard Film Archive in the Carpenter Center is tagged as `amentiy` = `arts_centre`: <br><br>
+![Carpenter center shown in HMC ](../media/arts_centre.png)
+
+> 6. Try the same exercise for another type of environment. For example, if you picked a city initially, inspect features typical to a desert, or somewhere with lots of bodies of water.
+
+> 7. Later we will explore how to download layers of feature types, for instance, all of the places tagged as `arts_centre` for a certain place. For now, look through the OpenStreetMap wiki page of [Map Features](https://wiki.openstreetmap.org/wiki/Map_features) to get a sense of all the different kinds of feature layers are available to extract. 
 
 
 
 --- 
-
-## In class
-- Explore the OSM interface, reverse search (click a feature, look at attributes)
-- Read the wiki to see all of the features you could extract as GIS data
-
 
 ## Demo and explore more
 
@@ -66,12 +54,12 @@ You can download and explore sample datasets related to this activity from the w
 
 
 ### Follow-along steps
-- Install the QuickOSM plugin using the [steps in this guide](https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbyfeature/)
-- `Vector` → `QuickOSM` → `QuickOSM`
-- key = `amenity` ; value = `place_of_worship` ; in = `Massachusetts`
-- `Run query`
-- The data returns in two formats: point locations and polygons of buildings
-- Explore the layers. You could try
+1. Install the QuickOSM plugin using the [steps in this guide](https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbyfeature/).
+2. Select `Vector` → `QuickOSM` → `QuickOSM`.
+3. Choose `key` = `amenity` ; `value` = `place_of_worship` ; `in` = `Massachusetts`.
+4. `Run query`.
+5. The data returns in two formats: point locations and polygons of buildings.
+6. Explore the layers. You could try to:
     - Right-click the layer in the Layers pane → `Open attribute table` → Sort the fields by value by clicking the column header. Try the `religion` column to show religious affiliation for each place of worship.
-    - Try symbolizing the values by right-clicking the layer in the Layers pane → `Properties` → `Symbology` → Changing `Single symbol` to `Categories` → Select a column or `Value` to map → `Classify` → `OK`
+    - Symbolize the values by right-clicking the layer in the Layers pane → `Properties` → `Symbology` → Changing `Single symbol` to `Categories` → Select a column or `Value` to map → `Classify` → `OK`.
 

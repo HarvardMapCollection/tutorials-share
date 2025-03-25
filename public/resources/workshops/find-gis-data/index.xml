@@ -41,7 +41,7 @@
       <link>http://localhost:1313/resources/workshops/find-gis-data/group-4/</link>
       <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/resources/workshops/find-gis-data/group-4/</guid>
-      <description>Objectives Understand what OpenStreetMap (OSM) is, and how it can be helpful for finding data Learn how to use tools built around the OSM API to extract datasets of your choosing 10 minutes to get started Read through the OpenStreetMap tutorial . Be sure to open up the OpenStreetMap features Wiki and observe all of the mappable data layers one can extract.&#xA;Read this blog post on what the definition of an API is.</description>
+      <description>Understand what OpenStreetMap (OSM) is, and how it can be helpful for finding data In class activity Visit OpenStreetMap.org , which we can think of as the Wikipedia of GIS. It is free, crowd-contributed geospatial data. Navigate to anywhere in the world you are interested in. Zoom super close in so that you can see individual features, such as buildings, roads, or bike lanes. Right-click a feature and select Query features.</description>
     </item>
   </channel>
 </rss>

@@ -50,7 +50,7 @@
   <meta itemprop="description" content="Learn how to access crowdsourced GIS data for situations where data is difficult to find.">
   <meta itemprop="datePublished" content="2024-08-10T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-08-10T00:00:00+00:00">
-  <meta itemprop="wordCount" content="567">
+  <meta itemprop="wordCount" content="434">
 
 
 
@@ -276,53 +276,54 @@
 
                 <h1 class="title">Group 4 [OpenStreetMap]</h1>
 
-                <h2 id="objectives">Objectives</h2>
-<ul>
+                <ul>
 <li>Understand what OpenStreetMap (OSM) is, and how it can be helpful for finding data</li>
-<li>Learn how to use tools built around the OSM API to extract datasets of your choosing</li>
 </ul>
-<h2 id="10-minutes-to-get-started">10 minutes to get started</h2>
-<ol>
-<li>
-<p>Read through the <a href="https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbyfeature/" target="_blank">OpenStreetMap tutorial</a>
-. Be sure to open up the OpenStreetMap features Wiki and observe all of the mappable data layers one can extract.</p>
-</li>
-<li>
-<p>Read this <a href="https://blog.hubspot.com/blog/tabid/6307/bid/8341/a-marketer-s-guide-to-apis.aspx" target="_blank">blog post</a>
- on what the definition of an API is.</p>
-</li>
-</ol>
+<h2 id="in-class-activity">In class activity</h2>
 <blockquote>
-<p>OpenStreetMaps contains a massive amount of information. Rather than directly download the whole database, OSM makes data available via an API. That way, one can write queries that download data based on one&rsquo;s exact parameters of interest. For instance, in the tutorial example, we specify that we are looking for only <em>shopping malls</em>, and only in <em>Jakarta</em>. This helps pare down the data we are downloading.</p>
-<p>Normally, when we write <strong>queries</strong> using an API, we have to use some kind of coding language. Because not everyone codes, there are a number of click-and-point tools people have built, which are actually just using the API behind the scenes. The one we showcased (the QGIS plugin) is one of these tools (one we have used at the Map Collection a great deal, and can vouch for!), but you can find lots of others on the web.</p>
-</blockquote>
-<h2 id="follow-up-resources-next-steps">Follow-up resources (next steps)</h2>
-<ul>
-<li>Here is a <a href="https://github.com/osmlab/awesome-openstreetmap" target="_blank">list of projects using OpenStreetMap data</a>
-</li>
-<li>Here are some other crowd-contributed mapping data projects:
-<ul>
-<li><a href="https://www.geonames.org/" target="_blank">Geonames</a>
-</li>
-<li><a href="https://www.naturalearthdata.com/" target="_blank">Natural Earth</a>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="discussion-questions">Discussion questions</h2>
 <ol>
-<li>What are some reasons why one might rely on crowd-contributed data for a GIS project?</li>
-<li>What are some benefits and downsides to using crowd-contributed data?</li>
-<li>What else did you learn about that you think would be valuable to share with your group?</li>
-<li>Prepare to present any demos which could help communicate these takeaways.</li>
-<li>Did you find anything surprising or interesting in the follow-up resources?</li>
+<li>Visit <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap.org</a>
+, which we can think of as the Wikipedia of GIS. It is free, crowd-contributed geospatial data.</li>
 </ol>
+</blockquote>
+<blockquote>
+<ol start="2">
+<li>Navigate to anywhere in the world you are interested in.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="3">
+<li>Zoom super close in so that you can see individual features, such as buildings, roads, or bike lanes.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="4">
+<li>Right-click a feature and select <code>Query features</code>.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="5">
+<li>Select one of the features, whether it&rsquo;s a <code>Building</code>, <code>Residential Road</code>, <code>Footpath</code>, or another kind of feature.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="6">
+<li>Inspect the way that the attributes about this kind of feature are encoded. For instance, notice how the Harvard Film Archive in the Carpenter Center is tagged as <code>amentiy</code> = <code>arts_centre</code>: <br><br>
+<img src="../media/arts_centre.png" alt="Carpenter center shown in HMC "></li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="6">
+<li>Try the same exercise for another type of environment. For example, if you picked a city initially, inspect features typical to a desert, or somewhere with lots of bodies of water.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="7">
+<li>Later we will explore how to download layers of feature types, for instance, all of the places tagged as <code>arts_centre</code> for a certain place. For now, look through the OpenStreetMap wiki page of <a href="https://wiki.openstreetmap.org/wiki/Map_features" target="_blank">Map Features</a>
+ to get a sense of all the different kinds of feature layers are available to extract.</li>
+</ol>
+</blockquote>
 <hr>
-<h2 id="in-class">In class</h2>
-<ul>
-<li>Explore the OSM interface, reverse search (click a feature, look at attributes)</li>
-<li>Read the wiki to see all of the features you could extract as GIS data</li>
-</ul>
 <h2 id="demo-and-explore-more">Demo and explore more</h2>
 <h3 id="sample-data">Sample data</h3>
 <p>You can download and explore sample datasets related to this activity from the workshop data homepage, hosted on the Open Science Framework (OSF.io)</p>
@@ -352,20 +353,20 @@
 </ul>
 </div>
 <h3 id="follow-along-steps">Follow-along steps</h3>
-<ul>
+<ol>
 <li>Install the QuickOSM plugin using the <a href="https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbyfeature/" target="_blank">steps in this guide</a>
-</li>
-<li><code>Vector</code> → <code>QuickOSM</code> → <code>QuickOSM</code></li>
-<li>key = <code>amenity</code> ; value = <code>place_of_worship</code> ; in = <code>Massachusetts</code></li>
-<li><code>Run query</code></li>
-<li>The data returns in two formats: point locations and polygons of buildings</li>
-<li>Explore the layers. You could try
+.</li>
+<li>Select <code>Vector</code> → <code>QuickOSM</code> → <code>QuickOSM</code>.</li>
+<li>Choose <code>key</code> = <code>amenity</code> ; <code>value</code> = <code>place_of_worship</code> ; <code>in</code> = <code>Massachusetts</code>.</li>
+<li><code>Run query</code>.</li>
+<li>The data returns in two formats: point locations and polygons of buildings.</li>
+<li>Explore the layers. You could try to:
 <ul>
 <li>Right-click the layer in the Layers pane → <code>Open attribute table</code> → Sort the fields by value by clicking the column header. Try the <code>religion</code> column to show religious affiliation for each place of worship.</li>
-<li>Try symbolizing the values by right-clicking the layer in the Layers pane → <code>Properties</code> → <code>Symbology</code> → Changing <code>Single symbol</code> to <code>Categories</code> → Select a column or <code>Value</code> to map → <code>Classify</code> → <code>OK</code></li>
+<li>Symbolize the values by right-clicking the layer in the Layers pane → <code>Properties</code> → <code>Symbology</code> → Changing <code>Single symbol</code> to <code>Categories</code> → Select a column or <code>Value</code> to map → <code>Classify</code> → <code>OK</code>.</li>
 </ul>
 </li>
-</ul>
+</ol>
 
             </div>
         </div>

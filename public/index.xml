@@ -72,18 +72,11 @@
       <description>Harvard Map Collection finding map sources finding GIS data sources GIS methods and software Harvard Geospatial Library 1:1 appointments drop-in office hours workshops in-class activities technical tutorials example student projects/case studies Case studies Mapping the Russian Language Paige&#39;s project. Hover for interactivity. Mapping Color Search by color Search by color results Artwork metadata with location Geonames database Black Teacher Archive Paid research assistantships in the Map Collections In the field Creating spatial data Spatial overlay for climate studies Ways to connect Know you need help with your data right away?</description>
     </item>
     <item>
-      <title>Searching for GIS data [checklist]</title>
-      <link>http://localhost:1313/resources/finding-data/checklist/</link>
-      <pubDate>Fri, 16 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/checklist/</guid>
-      <description>This checklist was designed by GIS Librarians Belle Lipton and Scott Walker (Harvard University), Tara Anthony (Penn State), Jessica Benner (Carnegie Mellon), John Clark (Lafayette College), Meagan Duever (Georgia State), Todd Quinn (University of New Mexico), Chris Thiry (Colorado School of Mines), and Amy Work (UC San Diego).&#xA;How to use the checklist Please use this checklist template to provide GIS reference staff with information about what you have already tried in your GIS data search, and where you are getting stuck.</description>
-    </item>
-    <item>
       <title>Welcome</title>
-      <link>http://localhost:1313/resources/finding-data/in-class-activity/welcome/</link>
+      <link>http://localhost:1313/resources/workshops/find-gis-data/welcome/</link>
       <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/in-class-activity/welcome/</guid>
-      <description>Get here quick: https://bit.ly/find-gis-data&#xA;Harvard Map Collection Map Collection Quick Facts Appointments available to look at maps or get help with GIS data. Monday - Friday 10:30 - 4. Drop-in weekly office hours for GIS help (no appointment needed). Visit Harvard Library website, go to events, search GIS. For general inquiries, email maps@harvard.edu . Slides Activity introduction slides . [10 minutes]&#xA;Today&amp;rsquo;s activity Visit the activity homepage .&#xA;Receive your group assignment from the instructor.</description>
+      <guid>http://localhost:1313/resources/workshops/find-gis-data/welcome/</guid>
+      <description>Get here quickly: https://bit.ly/gis-find-data&#xA;Harvard Map Collection Map Collection website .&#xA;Scope 🚨 This is not a workshop on how to use GIS mapping software. Please consider referring to our other in-person learning opportunities or follow-along materials from previous events. 🚨 Today will focus on how to find relevant source data for a GIS project. Goals Understand the value of a few common GIS data approaches. Get a feel for the flow and pace of working with GIS data.</description>
     </item>
     <item>
       <title>A Geographical Cat in the Box, a remembered yet unknown Institute of Geographical Exploration at Harvard (1930-1951)</title>
@@ -100,39 +93,32 @@
       <description>Included in this collection are supplementary materials related to Ana Luiza Nicolae&amp;rsquo;s 2024 Pforzheimer fellowship with the Harvard Map Collection.&#xA;To get started, you can read the article , or check out the discovery map .</description>
     </item>
     <item>
-      <title>Group 1 [Portals]</title>
-      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-1/</link>
+      <title>1. Portals</title>
+      <link>http://localhost:1313/resources/workshops/find-gis-data/activity-1/</link>
       <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-1/</guid>
-      <description>Objectives Explore open data portals and learn how to use them to find GIS data Explore how content may be organized and how to refine searching 10 minutes to get started Consider this request a student made to the Harvard Map Collection for help with finding GIS data in 2024:&#xA;&amp;ldquo;I would like to create a GIS map of food deserts in DC by layering maps of grocery store locations, corner store locations, and other options found on Open Data DC with census data to identify areas where large populations do not have access to healthy foods.</description>
+      <guid>http://localhost:1313/resources/workshops/find-gis-data/activity-1/</guid>
+      <description>Explore open data portals and learn how to use them to find GIS data Explore how content may be organized and how to refine searching In class activity Consider this request a student made to the Harvard Map Collection for help with finding GIS data in 2024:&#xA;&amp;ldquo;I would like to create a GIS map of food deserts in DC by layering maps of grocery store locations, corner store locations, and other options found on Open Data DC with census data to identify areas where large populations do not have access to healthy foods.</description>
     </item>
     <item>
-      <title>Group 2 [Turning Spreadsheets into Spatial Data]</title>
-      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-2/</link>
+      <title>2. Coordinates</title>
+      <link>http://localhost:1313/resources/workshops/find-gis-data/activity-2/</link>
       <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-2/</guid>
-      <description>Objectives Understand how to use table joins to connect a spreadsheet of data to mapping data Practice thinking outside of the box with datasets 10 minutes to get started Imagine you are working on a project where you can find data for your project in spreadsheet format, but there are no shapes associated with the table. Maybe the data references towns, countries, or other units of geography. In this activity, we will explore how to evaluate a dataset&amp;rsquo;s GIS viability based on our ability to join it with spatial data.</description>
+      <guid>http://localhost:1313/resources/workshops/find-gis-data/activity-2/</guid>
+      <description>Learn where to find coordinate information for locations Learn how to format coordinates in a table so they can be opened in a map Learn how to import a table of coordinates into a GIS mapping interface In class activity Open a new spreadsheet, for example in Excel, or quickly make a new Google Sheets by typing sheets.new into a browser. Create three header columns, name, latitude, and longitude. In a new tab, navigate to Google Maps .</description>
     </item>
     <item>
-      <title>Group 3 [Georeferencing]</title>
-      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-3/</link>
+      <title>3. Georeferencing</title>
+      <link>http://localhost:1313/resources/workshops/find-gis-data/activity-3/</link>
       <pubDate>Sun, 11 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-3/</guid>
-      <description>Objectives Understand why georeferenced maps can be useful when asking and answering spatial questions Understand how to find georeferenced maps to use in a GIS project Find out how to take next steps in using information from paper maps in a GIS project 10 minutes to get started Example of using georeferenced maps Visit Atlascope.org , search for a place in Boston or Cambridge you are interested in exploring on a historical map, and experiment with toggling between different georeferenced map layers.</description>
+      <guid>http://localhost:1313/resources/workshops/find-gis-data/activity-3/</guid>
+      <description>Understand why georeferenced maps can be useful when asking and answering spatial questions Understand how to find georeferenced maps to use in a GIS project Find out how to take next steps in using information from paper maps in a GIS project In class activity What is georeferencing? Visit Atlascope.org , search for a place in Boston or Cambridge you are interested in exploring on a historical map, and get a sense of the value of georeferencing historical maps by toggling between different georeferenced map layers.</description>
     </item>
     <item>
-      <title>Group 4 [OpenStreetMap and Crowd-Contributed Data]</title>
-      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-4/</link>
+      <title>4. OpenStreetMap</title>
+      <link>http://localhost:1313/resources/workshops/find-gis-data/activity-4/</link>
       <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-4/</guid>
-      <description>Objectives Understand what OpenStreetMap (OSM) is, and how it can be helpful for finding data Learn how to use tools built around the OSM API to extract datasets of your choosing 10 minutes to get started Read through the OpenStreetMap tutorial . Be sure to open up the OpenStreetMap features Wiki and observe all of the mappable data layers one can extract.&#xA;Read this blog post on what the definition of an API is.</description>
-    </item>
-    <item>
-      <title>Group 5 [Creating Coordinates]</title>
-      <link>http://localhost:1313/resources/finding-data/in-class-activity/group-5/</link>
-      <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/finding-data/in-class-activity/group-5/</guid>
-      <description>⚠️ Requirements At least one group member will need to be logged into their Google account to complete this activity.&#xA;The group member logged in should be ready by the end to share their screen on the class projector and lead a group discussion about their Google Sheets table and Google My Maps map. Objectives Learn where to find coordinate information for locations Learn how to format coordinates in a table so they can be opened in a map Learn how to import a table of coordinates into a GIS mapping interface 10 minutes to get started Imagine you want to make a map of all the places referenced in Chekhov&amp;rsquo;s plays.</description>
+      <guid>http://localhost:1313/resources/workshops/find-gis-data/activity-4/</guid>
+      <description>Understand what OpenStreetMap (OSM) is, and how it can be helpful for finding data In class activity Visit OpenStreetMap.org , which we can think of as the Wikipedia of GIS. It is free, crowd-contributed geospatial data. Navigate to anywhere in the world you are interested in. Zoom super close in so that you can see individual features, such as buildings, roads, or bike lanes. Right-click a feature and select Query features.</description>
     </item>
     <item>
       <title>Collection for Historical Scientific Instruments [Science Center]</title>
@@ -324,13 +310,6 @@
       <description>Pre-work to complete before class Homework #1: Set up your OSF.io account Instantiate your Harvard OSF (Open Science Framework) account. If you do not have a Harvard Key, you can make a free, non-affiliate account on osf.io. Select Create New Project. Name your new project Data Management Workshop. Homework #2: Framing ideas Read this article about balancing data safety and open science in an academic research context.&#xA;In-class workshop 1. Saving in reusable formats Discussion While ESRI map package formats are the default, they are not backwards-compatible.</description>
     </item>
     <item>
-      <title>Class materials</title>
-      <link>http://localhost:1313/resources/workshops/workshop-2/class-materials/</link>
-      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop-2/class-materials/</guid>
-      <description>Get to this page quick: https://bit.ly/3IaHnot Schedule Time Topic 0:00 - 0:20 Welcome, software and housekeeping 0:20 - 0:40 Introducing spatial data structures 0:40 - 1:00 Turning spreadsheet data into spatial data 1:00 - 1:15 Leveraging attributes to make maps 1:15 - 1:30 Wrap-up, demo, brainstorm, questions Slides Workshop slides Next steps Survey Help us design the programming you want by filling out the workshop survey.&#xA;More GIS programs Sign up for this and other GIS programs in the library calendar.</description>
-    </item>
-    <item>
       <title>GIS Methods for Re-Wilding Spring 2024</title>
       <link>http://localhost:1313/classes/history/re-wilding/spring-2024/</link>
       <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
@@ -399,13 +378,6 @@
       <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/resources/researchers-handbook/long-term-preservation/</guid>
       <description>The Harvard Map Collection collects and preserves GIS data for long-term discovery and reuse in the Harvard Geospatial Library (HGL) . You might like to extend the long-term value of your research by making your data available in a tool like HGL or Dataverse , or perhaps you&amp;rsquo;d like some feedback on how you are communicating the GIS components of your project. Maybe this is the first time you are thinking about this topic, and it sounds intriguing to you.</description>
-    </item>
-    <item>
-      <title>Advanced Data Cleaning for GIS</title>
-      <link>http://localhost:1313/resources/workshops/workshop-3/</link>
-      <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop-3/</guid>
-      <description>Get to this page quick: https://bit.ly/49mV3c3 Sign up Find out when we are offering this workshop by visiting the library calendar .&#xA;Email belle_lipton@harvard.edu to request new dates for this workshop.&#xA;Class materials Slides Post-workshop survey Help us design the programming you want by filling out the workshop survey .</description>
     </item>
     <item>
       <title>Publishing tips from a data safety expert</title>

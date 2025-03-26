@@ -59,13 +59,6 @@ Get here quickly:
 
 
 
-![](6.png)
-
-![](7.png)
- 
-![](8.png)
-
-
 ## How we will approach learning how to search for GIS layers
 
 ![website menu with Tutorials and nav bar for Finding GIS data for your project button highlighted](../media/wayfinding.png)

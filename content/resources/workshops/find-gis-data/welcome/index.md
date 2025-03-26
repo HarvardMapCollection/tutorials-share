@@ -1,12 +1,12 @@
 ---
-title: Welcome [Homepage]
+title: Welcome
 image: map-collection-directions.png
 date: 2024-08-15
 layout: single2
 description: Homepage including slides, data, and workshop objectives.
 ---
 
-Get here quick: 
+Get here quickly: 
 `https://bit.ly/gis-find-data`
 
 ## Harvard Map Collection
@@ -25,29 +25,13 @@ Get here quick:
 
 </div>
 
-## Housekeeping
+> ## Goals
+>
+> 1. Understand the value of a few common GIS data approaches.
+> 2. Get a feel for the flow and pace of working with GIS data.
+> 3. Leave knowing which resources you can rely on for your project.
 
-![](format.png)
-- ^ little bit about how the session will work
-- ^ orientation to resources, where to find stuff, how we will pace 
-
-### Sample data
-You can download and explore sample datasets related to this activity from the workshop data homepage, hosted on the Open Science Framework (OSF.io)
-> 1. Visit the [workshop data homepage](https://osf.io/exnyg). 
-
-> 2. Click the three vertical dots icon and select `Download`.
-![OSF data download page](../media/download.png)
-
-> 3. The folder that downloads to your computer contains sample data from all the workshop activities. It is a zipped or compressed file. In order to use it, you will have to `double-click` it on Mac or `right-click` → `Extract` or `Uncompress` on a PC. 
-
-> To follow-along in class, or explore the sample data at home, [download QGIS](https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-software/), a free tool. Note, if you have a Mac, you will have to `right-click` the green Q desktop icon and select `Open` the first time you use it, since is not available from the App Store.
-
-## Goals
-
-1. Understand why you might use GIS data for your mapping project.
-2. Get a feel for the flow and pace of what it's like to work with GIS data.
-3. Leave with a sense of which resources you can rely on for next steps in your project.
-
+## What is the benefit of using GIS layers?
 
 <table>
   <tr>
@@ -56,15 +40,20 @@ You can download and explore sample datasets related to this activity from the w
     <th>GIS layers</th>
   </tr>
   <tr>
-    <td><img alt="" src="1.png"></td>
-    <td><img alt="" src="2.png"></td>
+    <td><img alt="" src="../media/hand-drawn.png"></td>
+    <td><img alt="" src="../media/canva.png"></td>
     <td><img alt="" src="3.png"></td>
   </tr>
 </table>
 
-![](1.png)
 
-![](2.png)
+![](../media/hand-drawn.png)
+*Credit: Hannah Ahn '24*
+
+
+![](../media/canva.png)
+*Credit: Amisha Kambath '22*
+
 
 ![](3.png)
 
@@ -79,11 +68,44 @@ You can download and explore sample datasets related to this activity from the w
 ![](8.png)
 
 
+## How we will approach learning how to search for GIS layers
+
+![website menu with Tutorials and nav bar for Finding GIS data for your project button highlighted](../media/wayfinding.png)
+
+![slide showing four modules with the title "four common approaches"](../media/materials.png)
+
+<table>
+  <tr>
+    <th>In class activity</th>
+    <th>Demo and explore more</th>
+  </tr>
+  <tr>
+    <td><img alt="instructions for an in-class activity" src="../media/in-class.png"></td>
+    <td><img alt="instructions for at-home activity with sample data" src="../media/demo.gif"></td>
+  </tr>
+</table>
+
+
+### Sample data
+You can download and explore sample datasets related to this activity from the workshop data homepage, hosted on the Open Science Framework (OSF.io)
+> 1. Visit the [workshop data homepage](https://osf.io/exnyg). 
+
+> 2. Click the three vertical dots icon and select `Download`.
+![OSF data download page](../media/download.png)
+
+> 3. The folder that downloads to your computer contains sample data from all the workshop activities. It is a zipped or compressed file. In order to use it, you will have to `double-click` it on Mac or `right-click` → `Extract` or `Uncompress` on a PC. 
+
+> To follow-along in class, or explore the sample data at home, [download QGIS](https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-software/), a free tool. Note, if you have a Mac, you will have to `right-click` the green Q desktop icon and select `Open` the first time you use it, since is not available from the App Store.
+
+![slide with four modules with title "Overviews + vote"](../media/vote.png)
+
+
 ## Wrapping up
 
-[Map Collection website reprise](https://library.harvard.edu/libraries/harvard-map-collection).
+- [Map Collection website reprise](https://library.harvard.edu/libraries/harvard-map-collection).
+- [Belle Lipton staff page](https://library.harvard.edu/staff/belle-lipton)
 
-Give us feedback on what worked and what didn't using this [quick survey](https://harvard.az1.qualtrics.com/jfe/form/SV_7aK1ea31ufbdR4O).
+Help improve this workshop by giving us suggestions in the [survey](https://harvard.az1.qualtrics.com/jfe/form/SV_7aK1ea31ufbdR4O).
 
 ## Credits
 

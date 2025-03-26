@@ -91,10 +91,10 @@ You can download and explore sample datasets related to this activity from the w
 ![slide with four modules with title "Overviews + vote"](../media/vote.png)
 
 ## Outline
-- Work through an activity together
-- Pick another one to go through just the `In class activity` section
+- Work through an activity all together
+- Pick another activity and work through just the `In class activity` section
 - Record your findings and any questions you have in your GIS journals
-- Go through the activities together with more in-depth demos
+- Go through the activities all together with more in-depth demos
 
 
 ## Wrapping up

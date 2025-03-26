@@ -42,7 +42,7 @@ Get here quickly:
   <tr>
     <td><img alt="" src="../media/hand-drawn.png"></td>
     <td><img alt="" src="../media/canva.png"></td>
-    <td><img alt="" src="3.png"></td>
+    <td><img alt="" src="../media/GIS.png"></td>
   </tr>
 </table>
 
@@ -54,12 +54,10 @@ Get here quickly:
 ![](../media/canva.png)
 *Credit: Amisha Kambath '22*
 
+![](../media/GIS.png)
+*Credit: Luisa Shida '25*
 
-![](3.png)
 
-![](4.png)
-
-![](5.png)
 
 ![](6.png)
 

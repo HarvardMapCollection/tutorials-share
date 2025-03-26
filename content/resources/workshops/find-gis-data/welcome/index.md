@@ -90,10 +90,11 @@ You can download and explore sample datasets related to this activity from the w
 
 ![slide with four modules with title "Overviews + vote"](../media/vote.png)
 
-- Vote
-- Group work 
-- GIS journals
-- Share + overview with demos
+## Outline
+- Work through an activity together
+- Pick another one to go through just the `In class activity` sectino
+- Record your findings and any questions you have in your GIS journals
+- Go through the activities together with more in-depth demos
 
 
 ## Wrapping up

@@ -90,6 +90,11 @@ You can download and explore sample datasets related to this activity from the w
 
 ![slide with four modules with title "Overviews + vote"](../media/vote.png)
 
+- vote
+- group work
+- gis journals
+- share + overview w demos
+
 
 ## Wrapping up
 

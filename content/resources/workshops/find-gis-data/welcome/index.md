@@ -92,7 +92,7 @@ You can download and explore sample datasets related to this activity from the w
 
 ## Outline
 - Work through an activity together
-- Pick another one to go through just the `In class activity` sectino
+- Pick another one to go through just the `In class activity` section
 - Record your findings and any questions you have in your GIS journals
 - Go through the activities together with more in-depth demos
 

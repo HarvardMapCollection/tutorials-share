@@ -7,6 +7,9 @@ layout: class
 description: Informational slides about Harvard Map Collection services and how to make use of them
 ---
 
+![Aerial image of how to get to the map collection in the yard](../../../media/map-collection-directions.png)
+
+
 ![Screenshot from an article about the Map Collection](../../../media/intro.png)
 
 
@@ -34,9 +37,11 @@ description: Informational slides about Harvard Map Collection services and how 
 ![Comparison of 1890 atlas to today](../../../media/spyglass-arcgis.gif)
 *[ArcGIS Map](https://harvard-cga.maps.arcgis.com/apps/webappviewer/index.html?id=4f084606c3f64df8a32ce2ad938a43f6) comparing 1890 atlas to today.* 
 
+### Harvard Geospatial Library (HGL) - demo
+<a href="https://hgl.harvard.edu/?_gl=1*1baydol*_ga*MjAzMTA2OTU0Mi4xNjY3NTAwMTIx*_ga_3CXC97RWEK*czE3NDg4ODUzNTAkbzkxJGcwJHQxNzQ4ODg1MzUwJGo2MCRsMCRoMA.."><img src="../../../media/live-hgl.png" alt="Harvard Geospatial Library showing global volcanoes dataset"></img></a>
 
-![Screenshot from Harvard Geospatial Library](../../../media/volcanoes.png)
-*[Global volcanoes dataset](https://hgl.harvard.edu/catalog/harvard-glb-volc) in the Harvard Geospatial Library (HGL).* 
+
+![List of top 15 downloaded datasets from HGL](../../../media/top-hgl.png)
 
 
 

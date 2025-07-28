@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+    {{- partial "head-metadata.html" . -}}
+</head>
+
+<body>
+         {{ partial "site-wide-banner.html" . }}
+    {{- partial "page-header.html" . -}}
+    {{- block "main" . }}{{- end }}
+</body>
+
+{{ if .Site.Params.gtm_id}}<noscript><iframe src="//www.googletagmanager.com/ns.html?id={{ .Site.Params.gtm_id }}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>{{ end }}
+
+</html>

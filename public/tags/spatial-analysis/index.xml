@@ -6,20 +6,13 @@
     <description>Recent content in Spatial-Analysis on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/spatial-analysis/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Vectorize maps into data; polygon area calculations for QGIS</title>
-      <link>http://localhost:1313/tutorials/qgis/adler/</link>
-      <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/qgis/adler/</guid>
-      <description>This is an example project modeling step-by-step instructions for generating geospatial data for analysis from historic maps. In June, we shared out results from partnering with Joyce Chaplin&amp;rsquo;s course, Re-Wilding Harvard, where students were tasked with creating projects to investigate histories and changing natures of open space around Harvard&amp;rsquo;s campus.&#xA;Hannah Adler &amp;lsquo;25 chose to study the Charles River region of Harvard&amp;rsquo;s campus, on the Cambridge side near Memorial Drive.</description>
-    </item>
-    <item>
       <title>Spatial analysis in Felt</title>
-      <link>http://localhost:1313/resources/workshops/workshop-4/spatial-analysis/</link>
+      <link>http://localhost:1313/workshops/workshop-4/spatial-analysis/</link>
       <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop-4/spatial-analysis/</guid>
+      <guid>http://localhost:1313/workshops/workshop-4/spatial-analysis/</guid>
       <description>We are working with a lot of different layers! We can look at the maps and visually assess the information, but a better way to start understanding our data is using some GIS spatial analysis methods.&#xA;Buffer First, let&amp;rsquo;s explore the relationship between the fitness classes and basketball courts to public transportation. We&amp;rsquo;re going to create a ten-minute walking buffer around all subway stops to try to identify locations which are not within a 10-minute walk to transit.</description>
     </item>
   </channel>

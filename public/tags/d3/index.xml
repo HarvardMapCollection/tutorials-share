@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>D3 on GIS, maps &#43; data @ Harvard Library</title>
+    <link>http://localhost:1313/tags/d3/</link>
+    <description>Recent content in D3 on GIS, maps &#43; data @ Harvard Library</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/d3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mapping the Russian Language</title>
+      <link>http://localhost:1313/posts/russian-language/</link>
+      <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/russian-language/</guid>
+      <description>We met undergraduate Paige Lee while working with her general education class about how borders are constructed. In the class, students were asked to complete a project, choosing from a variety of format options, including making a map. The Harvard Map Collection supported students by advising on searching for data, using mapping software, and scoping out project ideas.&#xA;In this interview, we look at Paige’s custom-coded interactive mapping visualization, and learn more about her thought process and workflow.</description>
+    </item>
+  </channel>
+</rss>

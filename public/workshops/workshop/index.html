@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>
+    
+    Using GIS With Archival Sources | 
+    
+    GIS, maps &#43; data @ Harvard Library
+</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="http://localhost:1313/workshops/workshop/" />
+<link rel="icon" type="image/png" href="http://localhost:1313/image/favicon.ico">
+
+
+    <meta name="description" content="All articles in &quot;Using GIS with archival sources&quot;">
+    <meta property="og:description" content="All articles in &quot;Using GIS with archival sources&quot;" />
+
+    
+    
+    <meta property="og:image" content="http://localhost:1313/workshops/workshop/map.png" />
+    
+
+
+
+
+
+
+<meta property="og:title" content="Using GIS with archival sources" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://localhost:1313/workshops/workshop/" />
+
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Using GIS with archival sources">
+  <meta name="twitter:description" content="Follow-along instructions for creating a static map of post-WWI Poland using a georeferenced map and historic demographic data in QGIS. No GIS experience is required.">
+
+
+  <meta itemprop="name" content="Using GIS with archival sources">
+  <meta itemprop="description" content="Follow-along instructions for creating a static map of post-WWI Poland using a georeferenced map and historic demographic data in QGIS. No GIS experience is required.">
+  <meta itemprop="datePublished" content="2023-01-19T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2023-01-19T00:00:00+00:00">
+  <meta itemprop="wordCount" content="15">
+
+
+
+
+<link rel="stylesheet" href="/main.min.css">
+<link rel="stylesheet" href="https://use.typekit.net/yiq3yrx.css">
+<link rel="stylesheet" href="/typekit/stylesheet.css">
+
+
+
+
+
+<script src="/bundle.js"></script>
+
+
+
+
+
+
+
+<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body><header id="header">
+  <div class="top-bar">
+    <div class="container-md">
+
+      <div class="row align-items-center">
+
+        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
+          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <i class="fas fa-bars"></i> Menu
+          </button>
+        </div>
+
+        <div class="col-12 col-sm-12">
+          <h2 class="title"><a href="/">GIS, maps &#43; data @ Harvard Library</a></h2>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-md">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+
+
+
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/">
+              Home
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Guides and Tutorials
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/tags/software-access/">Software access</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/qgis-hub/">QGIS Hub</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/data-curation/">Data curation</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/workshops/">
+              Workshops
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/tags/applied-projects/">
+              Applied projects
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/tags/news">
+              News
+            </a>
+          </li>
+          
+          
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="bg-offwhite">
+    <div class="container-md">
+        <div class="row">
+            
+
+            <h1 class="section-title">
+                Using GIS with archival sources - (Page 1/1)
+            </h1>
+
+            
+            <div class="suggestion col-sm-12 col-md-6 col-lg-4">
+    
+    <a href="/workshops/workshop/introduction/">
+        
+        
+        
+        
+        <img src=/workshops/workshop/introduction/a-gradient12.png alt="1. Introduction to GIS" loading="lazy">
+    </a>
+    
+
+    <div class="content">
+        <h2><a href="/workshops/workshop/introduction/">1. Introduction to GIS</a></h2>
+
+        <div class="date-time">
+            <span class="date">
+    Jan 6, 2023
+</span>
+            &centerdot;
+            <span class="authors">
+            
+        </span>
+            <span class="time-to-read">
+    4 mins read</span>
+
+        </div>
+
+        <p class="summary">
+            <a href="/workshops/workshop/introduction/">
+                
+                    
+                    
+                        About this workshop This course is for those wishing to develop a strong foundational understanding of how GIS works. Af...
+                    
+                
+            </a>
+        </p>
+
+        <div class="tags">
+            
+            <a href="/tags/file-formats"><span class="tag bg-dark">file-formats</span></a>
+            
+        </div>
+    </div>
+</div>
+            
+            <div class="suggestion col-sm-12 col-md-6 col-lg-4">
+    
+    <a href="/workshops/workshop/tutorial-requirements/">
+        
+        
+        
+        
+        <img src=/workshops/workshop/tutorial-requirements/gradient.png alt="2. Tutorial requirements" loading="lazy">
+    </a>
+    
+
+    <div class="content">
+        <h2><a href="/workshops/workshop/tutorial-requirements/">2. Tutorial requirements</a></h2>
+
+        <div class="date-time">
+            <span class="date">
+    Jan 5, 2023
+</span>
+            &centerdot;
+            <span class="authors">
+            
+        </span>
+            <span class="time-to-read">
+    1 min read</span>
+
+        </div>
+
+        <p class="summary">
+            <a href="/workshops/workshop/tutorial-requirements/">
+                
+                    
+                    
+                        In order to follow this workshop, you will need the free, open-source desktop software QGIS. This tutorial will teach yo...
+                    
+                
+            </a>
+        </p>
+
+        <div class="tags">
+            
+        </div>
+    </div>
+</div>
+            
+            <div class="suggestion col-sm-12 col-md-6 col-lg-4">
+    
+    <a href="/workshops/workshop/data-overview/">
+        
+        
+        
+        
+        <img src=/workshops/workshop/data-overview/a-gradient13.png alt="3. Data overview" loading="lazy">
+    </a>
+    
+
+    <div class="content">
+        <h2><a href="/workshops/workshop/data-overview/">3. Data overview</a></h2>
+
+        <div class="date-time">
+            <span class="date">
+    Jan 4, 2023
+</span>
+            &centerdot;
+            <span class="authors">
+            
+        </span>
+            <span class="time-to-read">
+    2 mins read</span>
+
+        </div>
+
+        <p class="summary">
+            <a href="/workshops/workshop/data-overview/">
+                
+                    
+                    
+                        As an example project, we are going study Poland at the end of WWI. By the end of the course, we will have made maps tha...
+                    
+                
+            </a>
+        </p>
+
+        <div class="tags">
+            
+        </div>
+    </div>
+</div>
+            
+            <div class="suggestion col-sm-12 col-md-6 col-lg-4">
+    
+    <a href="/workshops/workshop/import-datasets/">
+        
+        
+        
+        
+        <img src=/workshops/workshop/import-datasets/gradient2.png alt="4. Import datasets" loading="lazy">
+    </a>
+    
+
+    <div class="content">
+        <h2><a href="/workshops/workshop/import-datasets/">4. Import datasets</a></h2>
+
+        <div class="date-time">
+            <span class="date">
+    Jan 3, 2023
+</span>
+            &centerdot;
+            <span class="authors">
+            
+        </span>
+            <span class="time-to-read">
+    5 mins read</span>
+
+        </div>
+
+        <p class="summary">
+            <a href="/workshops/workshop/import-datasets/">
+                
+                    
+                    
+                        To review the difference between raster and vector data, visit the Introduction .
+Raster data If you haven’t already, do...
+                    
+                
+            </a>
+        </p>
+
+        <div class="tags">
+            
+        </div>
+    </div>
+</div>
+            
+            <div class="suggestion col-sm-12 col-md-6 col-lg-4">
+    
+    <a href="/workshops/workshop/visualize-statistics/">
+        
+        
+        
+        
+        <img src=/workshops/workshop/visualize-statistics/a-gradient1.png alt="5. Visualize statistics" loading="lazy">
+    </a>
+    
+
+    <div class="content">
+        <h2><a href="/workshops/workshop/visualize-statistics/">5. Visualize statistics</a></h2>
+
+        <div class="date-time">
+            <span class="date">
+    Jan 2, 2023
+</span>
+            &centerdot;
+            <span class="authors">
+            
+        </span>
+            <span class="time-to-read">
+    4 mins read</span>
+
+        </div>
+
+        <p class="summary">
+            <a href="/workshops/workshop/visualize-statistics/">
+                
+                    
+                    
+                        Exploring the Polish cities dataset Now, let’s familiarize ourselves with the Polish cities statistical data. Right-clic...
+                    
+                
+            </a>
+        </p>
+
+        <div class="tags">
+            
+        </div>
+    </div>
+</div>
+            
+            <div class="suggestion col-sm-12 col-md-6 col-lg-4">
+    
+    <a href="/workshops/workshop/share-results/">
+        
+        
+        
+        
+        <img src=/workshops/workshop/share-results/a-gradient12.png alt="6. Share results" loading="lazy">
+    </a>
+    
+
+    <div class="content">
+        <h2><a href="/workshops/workshop/share-results/">6. Share results</a></h2>
+
+        <div class="date-time">
+            <span class="date">
+    Jan 1, 2023
+</span>
+            &centerdot;
+            <span class="authors">
+            
+        </span>
+            <span class="time-to-read">
+    4 mins read</span>
+
+        </div>
+
+        <p class="summary">
+            <a href="/workshops/workshop/share-results/">
+                
+                    
+                    
+                        Now we are ready to learn how to style a “finished product” version of the map. So far, we have been using GIS to overla...
+                    
+                
+            </a>
+        </p>
+
+        <div class="tags">
+            
+        </div>
+    </div>
+</div>
+            
+            <div class="suggestion col-sm-12 col-md-6 col-lg-4">
+    
+    <a href="/workshops/workshop/browse-maps-and-data/">
+        
+        
+        
+        
+        <img src=/workshops/workshop/browse-maps-and-data/gradient.png alt="7. Browse maps and data" loading="lazy">
+    </a>
+    
+
+    <div class="content">
+        <h2><a href="/workshops/workshop/browse-maps-and-data/">7. Browse maps and data</a></h2>
+
+        <div class="date-time">
+            <span class="date">
+    Dec 31, 2022
+</span>
+            &centerdot;
+            <span class="authors">
+            
+        </span>
+            <span class="time-to-read">
+    2 mins read</span>
+
+        </div>
+
+        <p class="summary">
+            <a href="/workshops/workshop/browse-maps-and-data/">
+                
+                    
+                    
+                        Polish cities data: interactive map view Hover over each Polish city to engage with statistics about the city from aroun...
+                    
+                
+            </a>
+        </p>
+
+        <div class="tags">
+            
+        </div>
+    </div>
+</div>
+            
+            <div class="suggestion col-sm-12 col-md-6 col-lg-4">
+    
+    <a href="/workshops/workshop/in-person/">
+        
+        
+        
+        
+        <img src=/workshops/workshop/in-person/a-gradient1.png alt="In-person materials" loading="lazy">
+    </a>
+    
+
+    <div class="content">
+        <h2><a href="/workshops/workshop/in-person/">In-person materials</a></h2>
+
+        <div class="date-time">
+            <span class="date">
+    Nov 11, 2022
+</span>
+            &centerdot;
+            <span class="authors">
+            
+        </span>
+            <span class="time-to-read">
+    1 min read</span>
+
+        </div>
+
+        <p class="summary">
+            <a href="/workshops/workshop/in-person/">
+                
+                    Links to data and slides for the in-person version of Introduction to GIS from the Harvard Map Collection.
+                
+            </a>
+        </p>
+
+        <div class="tags">
+            
+        </div>
+    </div>
+</div>
+            
+
+            <div class="text-center"></div>
+        </div>
+    </div>
+</main>
+
+
+    <div class="site-wide-banner" style="background-color: black; font-size: 22px; color: white; padding: 10px; text-align: center; font-weight: bold; border-bottom: 2px solid #f5c6cb;">
+    This site is a project of the Harvard Map Collection. Visit <a style ="color:#81b3d7; font-family: 'truenoregular';"href="https://library.harvard.edu/libraries/harvard-map-collection" target = "_blank">our website</a> to learn more. 
+</div>
+</body>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-55D9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+</html>

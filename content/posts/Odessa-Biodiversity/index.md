@@ -1,7 +1,7 @@
 ---
 title: Undoing Empire, One Plant at a Time
 date: 2023-10-03
-tags: ["news", "case study"]
+tags: ["news", "applied-projects"]
 image: a-gradient12.png
 authors: ["Harvard Map Collection", "Kelly O'Neill"]
 description: Quote, 'If a book needs great footnotes, a dataset needs great metadata. Most researchers will tell you that composing either one is anticlimactic at best and tedious at worst. But what if we... found a way to streamline the production of metadata? ...What if we built real — possibly entertaining — human conversation into the process?' Read about the Harvard Map Collection's 2023 partnership with Dr. Kelly O'Neill. 

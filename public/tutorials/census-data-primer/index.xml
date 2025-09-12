@@ -6,15 +6,8 @@
     <description>Recent content in Census data primer on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Jan 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tutorials/census-data-primer/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Download QGIS software</title>
-      <link>http://localhost:1313/tutorials/census-data-primer/download-software/</link>
-      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/census-data-primer/download-software/</guid>
-      <description>Desktop GIS software is helpful when trying to make sense of census data. We will use free, open-source QGIS.&#xA;How to Download QGIS QGIS is a free and open source desktop GIS software used to create, edit, visualize, analyze, and publish geospatial information on Windows, Mac, Linux, BSD and mobile devices.&#xA;How to Download Visit QGIS.org .&#xA;Select Download Now.&#xA;Select your desired platform.&#xA;Tips If you have the option between many installer packages, choose Standalone Long Term Release To learn your way around the QGIS interface, you can check out these resources: Understanding the QGIS Interface QGIS Documentation Warning If you get an error message that Apple can&amp;rsquo;t check the app for malicious software, instead of double-clicking the icon to open the program, instead try right-clicking, and select Open.</description>
-    </item>
     <item>
       <title>Perform a table join in QGIS</title>
       <link>http://localhost:1313/tutorials/census-data-primer/perform-a-table-join/</link>

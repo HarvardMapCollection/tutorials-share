@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data-Curation on GIS, maps &#43; data @ Harvard Library</title>
+    <link>http://localhost:1313/tags/data-curation/</link>
+    <description>Recent content in Data-Curation on GIS, maps &#43; data @ Harvard Library</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/data-curation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accessing Maps for Georeferencing</title>
+      <link>http://localhost:1313/tutorials/data-curation/accessing-maps-for-georeferencing/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/data-curation/accessing-maps-for-georeferencing/</guid>
+      <description>This guide will walk you through finding georeferenced historic maps from the Harvard Map Collection and understanding the difference between raster and vector data.&#xA;Finding a historical map to use Depending on your project topic, it may be useful to be able to compare information from historic maps against the modern layers you are working with.&#xA;Many map library special collections allow you to download versions of their maps in formats that are already spatial data, and will be compatible with GIS mapping.</description>
+    </item>
+    <item>
+      <title>Accessing OpenStreetMap Data Guide</title>
+      <link>http://localhost:1313/tutorials/data-curation/openstreetmap/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/data-curation/openstreetmap/</guid>
+      <description>OpenStreetMap (OSM) offers a rich and dynamic source of geospatial data, often filling gaps where traditional datasets are unavailable. This guide explores two methods for extracting OSM data, allowing you to choose the approach that best suits your project&amp;#39;s requirements: a general extraction of common features, and a more specific extraction based on feature type.&#xA;Before diving into the extraction methods, it&amp;#39;s helpful to understand the nature of OpenStreetMap data. OSM is a collaborative, crowd-contributed project, akin to Wikipedia for maps.</description>
+    </item>
+    <item>
+      <title>GIS Data Management Consultation Service Guide</title>
+      <link>http://localhost:1313/tutorials/data-curation/metadata-services/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/data-curation/metadata-services/</guid>
+      <description>The Harvard Map Collection actively collects and preserves GIS data for long-term discovery and reuse in the Harvard Geospatial Library (HGL) and other platforms like Dataverse and the Open Science Framework (OSF). Whether you&amp;#39;re considering depositing your data in tools like HGL or Dataverse, seeking feedback on communicating your project&amp;#39;s GIS components, or simply beginning to explore this topic, we&amp;#39;re here to help you ensure your GIS components are well-communicated and discoverable.</description>
+    </item>
+    <item>
+      <title>Guide to Creating README-Style Metadata for GIS Data</title>
+      <link>http://localhost:1313/tutorials/data-curation/readme/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/data-curation/readme/</guid>
+      <description>Effective data documentation (metadata) is crucial for the long-term usability and understanding of your GIS data, whether you&amp;#39;re sharing it publicly or revisiting it years later. While creating formal metadata can seem daunting, this guide offers a flexible, prompt-based approach to help you document the context of your data.&#xA;The goal is to provide a free-form, permissive way to begin documenting the flow of ideas around your data, without the pressure of strict templates or getting it &amp;quot;wrong.</description>
+    </item>
+    <item>
+      <title>How to Download and Prepare Census Data for GIS Analysis</title>
+      <link>http://localhost:1313/tutorials/data-curation/census-data/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/data-curation/census-data/</guid>
+      <description>To effectively map and analyze social, economic, or demographic patterns using Census data in a GIS interface, this tutorial will walk you through the process of downloading and preparing data manually.&#xA;This tutorial focuses on manual data preparation using spreadsheet software. While every step in this guide details manual processes, most of these tasks &amp;ndash; including downloading, filtering, and calculating derived variables &amp;ndash; could also be efficiently performed using programming languages like Python or R, especially for larger datasets or automated workflows.</description>
+    </item>
+  </channel>
+</rss>

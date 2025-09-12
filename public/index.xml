@@ -6,28 +6,28 @@
     <description>Recent content on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accessing Maps for Georeferencing</title>
+      <link>http://localhost:1313/tutorials/data-curation/accessing-maps-for-georeferencing/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/data-curation/accessing-maps-for-georeferencing/</guid>
+      <description>This guide will walk you through finding georeferenced historic maps from the Harvard Map Collection and understanding the difference between raster and vector data.&#xA;Finding a historical map to use Depending on your project topic, it may be useful to be able to compare information from historic maps against the modern layers you are working with.&#xA;Many map library special collections allow you to download versions of their maps in formats that are already spatial data, and will be compatible with GIS mapping.</description>
+    </item>
+    <item>
+      <title>Vectorizing Historic Maps for Spatial Analysis</title>
+      <link>http://localhost:1313/projects/adler/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/adler/</guid>
+      <description>Generating Geospatial Data from Historic Maps: A Step-by-Step Guide This project illustrates a core methodology supported by the Harvard Map Collection: transforming static historic maps into analyzable geospatial data. Through our partnership with Joyce Chaplin&amp;#39;s &amp;#39;Re-Wilding Harvard&amp;#39; course, this initiative empowered students to investigate the evolving histories and changing natures of open space within Harvard&amp;#39;s campus and its surroundings, showcasing the library&amp;#39;s critical role in digital scholarship.&#xA;Hannah Adler &amp;#39;25, a student from the course, undertook an ambitious project focusing on the Charles River region of Harvard&amp;#39;s campus, particularly the area near Memorial Drive in Cambridge.</description>
+    </item>
     <item>
       <title>Faces Behind the Data, Anna He and the Harvard Geospatial Library</title>
       <link>http://localhost:1313/posts/faces-behind-the-data-anna-he/</link>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/faces-behind-the-data-anna-he/</guid>
       <description>In this interview, we get to know Anna He, the newest member in the Map Collection. Anna’s role is the Geospatial Data Technician for the Harvard Geospatial Library (HGL).&#xA;BELLE LIPTON: What will your role be, related to the Harvard Geospatial Library (HGL)?&#xA;ANNA HE: As a geospatial data technician for HGL, I help manage geospatial data and metadata production for the Harvard Geospatial Library, primarily on the back end. My day-to-day involves tasks like doing quality control of geospatial datasets to ensure accuracy and troubleshooting any metadata-related errors.</description>
-    </item>
-    <item>
-      <title>Use attribute table field filters in QGIS to subset data</title>
-      <link>http://localhost:1313/tutorials/qgis/use-field-filters/</link>
-      <pubDate>Mon, 16 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/qgis/use-field-filters/</guid>
-      <description>This tutorial will cover how to add tabular data to a QGIS project.</description>
-    </item>
-    <item>
-      <title>Selecting a Map to Georeference</title>
-      <link>http://localhost:1313/tutorials/georeferencing/selecting-a-map/</link>
-      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/georeferencing/selecting-a-map/</guid>
-      <description>There are many ways to georeference, but if you&amp;rsquo;re learning by following the How to Georeference in QGIS tutorial, all you will need is an image file of a map, downloaded to your computer.&#xA;This tutorial will cover how to use HOLLIS to find a map to practice georeferencing with.&#xA;Finding maps in HOLLIS If you visit the Harvard Library catalog, HOLLIS , you can: Change the initial search drop-down from Catalog &amp;amp; Articles to Library Catalog to show only items held by the library, and exclude journal articles.</description>
     </item>
     <item>
       <title>Geographic Information Systems (GIS) - project support from the Harvard Map Collection</title>
@@ -73,9 +73,9 @@
     </item>
     <item>
       <title>Welcome</title>
-      <link>http://localhost:1313/resources/workshops/find-gis-data/welcome/</link>
+      <link>http://localhost:1313/workshops/find-gis-data/welcome/</link>
       <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/find-gis-data/welcome/</guid>
+      <guid>http://localhost:1313/workshops/find-gis-data/welcome/</guid>
       <description>Get here quickly: https://bit.ly/gis-find-data&#xA;Harvard Map Collection Map Collection website .&#xA;Scope 🚨 This is not a workshop on how to use GIS mapping software. Please consider referring to our other in-person learning opportunities or follow-along materials from previous events. 🚨 Today will focus on how to find relevant source data for a GIS project. Goals Understand the value of a few common GIS data approaches. Get a feel for the flow and pace of working with GIS data.</description>
     </item>
     <item>
@@ -94,30 +94,30 @@
     </item>
     <item>
       <title>1. Portals</title>
-      <link>http://localhost:1313/resources/workshops/find-gis-data/activity-1/</link>
+      <link>http://localhost:1313/workshops/find-gis-data/activity-1/</link>
       <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/find-gis-data/activity-1/</guid>
+      <guid>http://localhost:1313/workshops/find-gis-data/activity-1/</guid>
       <description>Explore open data portals and learn how to use them to find GIS data Explore how content may be organized and how to refine searching In class activity Consider this request a student made to the Harvard Map Collection for help with finding GIS data in 2024:&#xA;&amp;ldquo;I would like to create a GIS map of food deserts in DC by layering maps of grocery store locations, corner store locations, and other options found on Open Data DC with census data to identify areas where large populations do not have access to healthy foods.</description>
     </item>
     <item>
       <title>2. Coordinates</title>
-      <link>http://localhost:1313/resources/workshops/find-gis-data/activity-2/</link>
+      <link>http://localhost:1313/workshops/find-gis-data/activity-2/</link>
       <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/find-gis-data/activity-2/</guid>
+      <guid>http://localhost:1313/workshops/find-gis-data/activity-2/</guid>
       <description>Learn where to find coordinate information for locations Learn how to format coordinates in a table so they can be opened in a map Learn how to import a table of coordinates into a GIS mapping interface In class activity Open a new spreadsheet, for example in Excel, or quickly make a new Google Sheets by typing sheets.new into a browser. Create three header columns, name, latitude, and longitude. In a new tab, navigate to Google Maps .</description>
     </item>
     <item>
       <title>3. Georeferencing</title>
-      <link>http://localhost:1313/resources/workshops/find-gis-data/activity-3/</link>
+      <link>http://localhost:1313/workshops/find-gis-data/activity-3/</link>
       <pubDate>Sun, 11 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/find-gis-data/activity-3/</guid>
+      <guid>http://localhost:1313/workshops/find-gis-data/activity-3/</guid>
       <description>Understand why georeferenced maps can be useful when asking and answering spatial questions Understand how to find georeferenced maps to use in a GIS project Find out how to take next steps in using information from paper maps in a GIS project In class activity What is georeferencing? Visit Atlascope.org , search for a place in Boston or Cambridge you are interested in exploring on a historical map, and get a sense of the value of georeferencing historical maps by toggling between different georeferenced map layers.</description>
     </item>
     <item>
       <title>4. OpenStreetMap</title>
-      <link>http://localhost:1313/resources/workshops/find-gis-data/activity-4/</link>
+      <link>http://localhost:1313/workshops/find-gis-data/activity-4/</link>
       <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/find-gis-data/activity-4/</guid>
+      <guid>http://localhost:1313/workshops/find-gis-data/activity-4/</guid>
       <description>Understand what OpenStreetMap (OSM) is, and how it can be helpful for finding data In class activity Visit OpenStreetMap.org , which we can think of as the Wikipedia of GIS. It is free, crowd-contributed geospatial data. Navigate to anywhere in the world you are interested in. Zoom super close in so that you can see individual features, such as buildings, roads, or bike lanes. Right-click a feature and select Query features.</description>
     </item>
     <item>
@@ -149,11 +149,11 @@
       <description>Content Quantity of materials Description Aerial photographs 2 boxes totaling 142 pictures, uncatalogued. Survey of Cape Cod, film #AC31-77-A-B-C. Serial numbers start with CC-#. Series of articles about the transfer of maps from HUIGE to the Winsor Map Room in Widener Library, in 1957. Selected articles and typed-documents Articles relevant to the HUIGE include: A volume of The Harvard Librarian (issued from the Office of the Director of Harvard University Library Cambridge 38, Massachusetts): “The Map Collection”, Vol.</description>
     </item>
     <item>
-      <title>Vectorize maps into data; polygon area calculations for QGIS</title>
-      <link>http://localhost:1313/tutorials/qgis/adler/</link>
+      <title>Vectorizing from Historic Maps in QGIS</title>
+      <link>http://localhost:1313/tutorials/qgis-hub/vectorization/</link>
       <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/qgis/adler/</guid>
-      <description>This is an example project modeling step-by-step instructions for generating geospatial data for analysis from historic maps. In June, we shared out results from partnering with Joyce Chaplin&amp;rsquo;s course, Re-Wilding Harvard, where students were tasked with creating projects to investigate histories and changing natures of open space around Harvard&amp;rsquo;s campus.&#xA;Hannah Adler &amp;lsquo;25 chose to study the Charles River region of Harvard&amp;rsquo;s campus, on the Cambridge side near Memorial Drive.</description>
+      <guid>http://localhost:1313/tutorials/qgis-hub/vectorization/</guid>
+      <description>This tutorial provides detailed, step-by-step instructions for digitizing features from raster (image) maps to create new vector data in QGIS. This process is essential for transforming historical maps or scanned images into analyzable geospatial datasets, enabling you to conduct spatial analyses like area calculations and attribute queries.&#xA;Set a Project Coordinate Reference System Download QGIS. Create a new QGIS project. Add a basemap to the project by going to the Browser panel, expanding XYZ Tiles and double-clicking OpenStreetMap.</description>
     </item>
     <item>
       <title>— Aerials at Harvard Forest Archives</title>
@@ -220,72 +220,72 @@
     </item>
     <item>
       <title>Course materials</title>
-      <link>http://localhost:1313/resources/workshops/workshop-4/in-person/</link>
+      <link>http://localhost:1313/workshops/workshop-4/in-person/</link>
       <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop-4/in-person/</guid>
+      <guid>http://localhost:1313/workshops/workshop-4/in-person/</guid>
       <description>Get to this page quick: https://bit.ly/gis-mapping-quickstart Sign up Find out when we are offering this workshop by visiting the library calendar , or request a custom instance for your course by emailing maps@harvard.edu .&#xA;Requirements All you will need for this workshop are two free accounts. (1) Felt.com , our mapping visualization site, and (2) NHGIS.org , the site we use to access census data. Instructions for registering are included in the workshop steps.</description>
     </item>
     <item>
       <title>Registration</title>
-      <link>http://localhost:1313/resources/workshops/workshop-4/registration/</link>
+      <link>http://localhost:1313/workshops/workshop-4/registration/</link>
       <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop-4/registration/</guid>
+      <guid>http://localhost:1313/workshops/workshop-4/registration/</guid>
       <description>This tutorial is part of the GIS Mapping Quickstart workshop, in which we:&#xA;download census data of nonwhite populations and poverty rate practice symbolizing and displaying the data in an online web map In this guide we will set up for these activities by registering for:&#xA;the census extract site, nhgis.org the web mapping site, felt.com Note: If you register with a Harvard email address, it may take the email filters about 10-15 minutes to release the Felt confirmation email to your inbox.</description>
     </item>
     <item>
       <title>What are we mapping?</title>
-      <link>http://localhost:1313/resources/workshops/workshop-4/what-are-we-mapping/</link>
+      <link>http://localhost:1313/workshops/workshop-4/what-are-we-mapping/</link>
       <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop-4/what-are-we-mapping/</guid>
+      <guid>http://localhost:1313/workshops/workshop-4/what-are-we-mapping/</guid>
       <description>Workshop goals Today we are going to be reverse engineering an example mapping project supported by the Harvard Map Collection The materials today, rather than leaving you feeling like an expert on GIS are meant to provide a sense or a sample of what&amp;rsquo;s possible with GIS, and typify the kind of subject expertise and support resources available to you through the library As we work through the materials together, don&amp;rsquo;t worry about memorizing the technical specifics presented &amp;ldquo;The only thing that you absolutely have to know, is the location of the library.</description>
     </item>
     <item>
       <title>How to download poverty rate data by census tract for GIS</title>
-      <link>http://localhost:1313/resources/workshops/workshop-4/poverty-rate/</link>
+      <link>http://localhost:1313/workshops/workshop-4/poverty-rate/</link>
       <pubDate>Sun, 21 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop-4/poverty-rate/</guid>
+      <guid>http://localhost:1313/workshops/workshop-4/poverty-rate/</guid>
       <description>In order to map poverty rate per census tract, you must first perform some steps to prepare the data. In this tutorial, we will practice:&#xA;Downloading high-quality data Cleaning the data to prepare it for mapping Downloading the data Visit NHGIS.org . Create a free academic use account, if you haven&amp;rsquo;t already, and log in.&#xA;From the NHGIS.org home screen, choose START HERE: Get Data in the middle of the page, or SELECT DATA in the navigation bar menu at the top of the page.</description>
     </item>
     <item>
       <title>How to download percent non-white population data by census tract for GIS</title>
-      <link>http://localhost:1313/resources/workshops/workshop-4/non-white-population/</link>
+      <link>http://localhost:1313/workshops/workshop-4/non-white-population/</link>
       <pubDate>Sat, 20 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop-4/non-white-population/</guid>
+      <guid>http://localhost:1313/workshops/workshop-4/non-white-population/</guid>
       <description>In order to map non-white population per census tract, you must first perform some steps to prepare the data. In this tutorial, we will practice:&#xA;Downloading high-quality data Cleaning the data to prepare it for mapping Downloading the data You can achieve these steps using a number of software environments, including R and Python. In this tutorial we will download the data manually from NHGIS.org, and show how to clean the data using 3 different spreadsheet tools: Excel, LibreOffice, and Google Sheets.</description>
     </item>
     <item>
       <title>Understanding location data</title>
-      <link>http://localhost:1313/resources/workshops/workshop-4/working-with-locations/</link>
+      <link>http://localhost:1313/workshops/workshop-4/working-with-locations/</link>
       <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop-4/working-with-locations/</guid>
+      <guid>http://localhost:1313/workshops/workshop-4/working-with-locations/</guid>
       <description>In this tutorial, which is part of the GIS Mapping Quickstart series, we will:&#xA;Work with point or coordinate data saved in spatial data format (.geoJSON) Work with point or coordinate data saved in non-spatial data format (.XLSX or .CSV) Solidify our understanding of how vector GIS data is structured Working with geoJSONs If you haven&amp;rsquo;t already, download the files from Libby_Wu_Source_Project_Data . This data is already in geospatial format, .</description>
     </item>
     <item>
       <title>Upload census data to Felt</title>
-      <link>http://localhost:1313/resources/workshops/workshop-4/upload-census-to-felt/</link>
+      <link>http://localhost:1313/workshops/workshop-4/upload-census-to-felt/</link>
       <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop-4/upload-census-to-felt/</guid>
+      <guid>http://localhost:1313/workshops/workshop-4/upload-census-to-felt/</guid>
       <description>The goal of this tutorial is to start with a spreadsheet of census information, and upload the information so that it displays as polygons on the map. As mentioned in the software requirements section of this workhop, we are choosing Felt as a venue to get started working with census data because it faciliates the process of table joins for us.&#xA;Jump ahead If you already have a background on the structure of GIS data, and want to learn how to use census data in Felt, you can jump to the bottom of this page labeled &#34;</description>
     </item>
     <item>
       <title>Spatial analysis in Felt</title>
-      <link>http://localhost:1313/resources/workshops/workshop-4/spatial-analysis/</link>
+      <link>http://localhost:1313/workshops/workshop-4/spatial-analysis/</link>
       <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop-4/spatial-analysis/</guid>
+      <guid>http://localhost:1313/workshops/workshop-4/spatial-analysis/</guid>
       <description>We are working with a lot of different layers! We can look at the maps and visually assess the information, but a better way to start understanding our data is using some GIS spatial analysis methods.&#xA;Buffer First, let&amp;rsquo;s explore the relationship between the fitness classes and basketball courts to public transportation. We&amp;rsquo;re going to create a ten-minute walking buffer around all subway stops to try to identify locations which are not within a 10-minute walk to transit.</description>
     </item>
     <item>
       <title>Adding historic maps to a Felt map</title>
-      <link>http://localhost:1313/resources/workshops/workshop-4/archival-maps/</link>
+      <link>http://localhost:1313/workshops/workshop-4/archival-maps/</link>
       <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop-4/archival-maps/</guid>
+      <guid>http://localhost:1313/workshops/workshop-4/archival-maps/</guid>
       <description>In this tutorial, which exists as part of the GIS Mapping Quickstart , we will practice obtaining a georeferenced historical map from the Harvard Geospatial Library (HGL) , and uploading that map to a shareable map using the web mapping tool, Felt.com . You can read this guide to generally learn more about the Harvard Map Collection&amp;rsquo;s georeferenced collections, or follow along step by step by signing up for a Felt.</description>
     </item>
     <item>
       <title>Exporting Geospatial Data from Felt</title>
-      <link>http://localhost:1313/resources/workshops/workshop-4/exporting-data/</link>
+      <link>http://localhost:1313/workshops/workshop-4/exporting-data/</link>
       <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop-4/exporting-data/</guid>
+      <guid>http://localhost:1313/workshops/workshop-4/exporting-data/</guid>
       <description>If you have created data in Felt, either by manually drawing features, or by uploading a spreadsheet and converting the spreadsheet data to features using geocoding or joins, you may be wondering how to share the geospatial data you have created. What formats should you use to make sure the data you&amp;rsquo;ve created will work in other GIS software?&#xA;Luckily, Felt allows you to export data in geopackage format .gpkg, which is an open format for encoding point, line, or polygon data.</description>
     </item>
     <item>
@@ -345,41 +345,6 @@
       <description>Floral motif from Ukrainian textile produced in 1902.&#xA;This year, the Harvard Map Collection partnered with Kelly O&amp;rsquo;Neill from the Davis Center on a project to demonstrate the value of our GIS data curation services . Dr. O&amp;rsquo;Neill&amp;rsquo;s project aims to capture data about historic biodiversity in the Ukraine. The Harvard Map Collection worked with her team to co-develop robust and useful metadata, so that the sources can be archived for long-term discovery and reuse.</description>
     </item>
     <item>
-      <title>Introduction</title>
-      <link>http://localhost:1313/projects/hgl-explore/overview/</link>
-      <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/hgl-explore/overview/</guid>
-      <description>This guide is a result of a 2023 summer project funded by the Harvard Libraries May Crane Fellowship program. The goals of this project were twofold:&#xA;To give undergraduate students an opportunity to apply coursework methods for data cleaning, analysis and visualization to a real-world corpus of data, useful to our library work.&#xA;To create a website that helps users of the Harvard Geospatial Library (HGL) make better sense of what types of data they might find in the portal.</description>
-    </item>
-    <item>
-      <title>Places and &#34;spatial&#34;</title>
-      <link>http://localhost:1313/projects/hgl-explore/places/</link>
-      <pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/hgl-explore/places/</guid>
-      <description>Motivation One of the most immediate features of a geospatial dataset is the region it covers. That&amp;rsquo;s why early on in this project, a burning question for me was “what region(s) &amp;ndash; cities, states, countries, continents &amp;ndash; does the Harvard Geospatial Library (HGL) have data to describe?”&#xA;Diving into the metadata To acquire insights into the library&amp;rsquo;s vast collection of geospatial datasets, totaling over 11,000 to date, I worked with the metadata records for every dataset in the Harvard Geospatial Library, which are available publicly from the Harvard Library Github .</description>
-    </item>
-    <item>
-      <title>Subjects</title>
-      <link>http://localhost:1313/projects/hgl-explore/subjects/</link>
-      <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/hgl-explore/subjects/</guid>
-      <description>Top twenty subject tags in the original, uncleaned metadata for all Harvard Geospatial Library datasets.&#xA;My approach and methods I wanted to condense this messy subjects list into more comprehensible buckets. Within the over 11,000 metadata records representing the datasets in the Harvard Geospatial Library (HGL) , I noticed that there are only 256 unique subject values. Subject tags are meant to give users a sense of what the dataset is about.</description>
-    </item>
-    <item>
-      <title>Descriptions</title>
-      <link>http://localhost:1313/projects/hgl-explore/descriptions/</link>
-      <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/hgl-explore/descriptions/</guid>
-      <description>Motivations Over the course of the summer, Belle and I discussed possible ways to approach understanding the shape of the 11,000+ datasets the Map Collection curates. One of our shared questions about the metadata was focused on the descriptions, housed in the dc_description_s metadata column. We pondered what the differences were between the many descriptions we had of datasets – their tone, their descriptive power, their focuses.&#xA;Exploratory analysis I was able to get started on some exploratory analysis.</description>
-    </item>
-    <item>
-      <title>GIS data management services guide</title>
-      <link>http://localhost:1313/resources/researchers-handbook/long-term-preservation/</link>
-      <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/researchers-handbook/long-term-preservation/</guid>
-      <description>The Harvard Map Collection collects and preserves GIS data for long-term discovery and reuse in the Harvard Geospatial Library (HGL) . You might like to extend the long-term value of your research by making your data available in a tool like HGL or Dataverse , or perhaps you&amp;rsquo;d like some feedback on how you are communicating the GIS components of your project. Maybe this is the first time you are thinking about this topic, and it sounds intriguing to you.</description>
-    </item>
-    <item>
       <title>Publishing tips from a data safety expert</title>
       <link>http://localhost:1313/posts/potterbusch/</link>
       <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
@@ -394,11 +359,11 @@
       <description>Credit: Joan Brunetta and Eve Loftus.&#xA;Map of the city of Cambridge for 1865, Harvard Map Collection. Mapping Inequality, University of Richmond How does it work? Current set up Harvard Geospatial Library Why not GeoTIFF? Time consuming for researchers and library staff Hard to use, outdated format Completely different app - bad for discovery Incompatible with tools our students are using Credit: John Nelson&amp;rsquo;s Mapping Mount Everest Credit: Andria Olson&amp;rsquo;s Mapping the First Transcontinental Railroad IIIF Georeference Extension specification Picture of the IIIF conference hosted at Harvard in 2022 from the British Library Digital Scholarship blog .</description>
     </item>
     <item>
-      <title>Where and How to Get ArcGIS Pro at Harvard</title>
-      <link>http://localhost:1313/tutorials/arcgis-online/arcgis-pro/</link>
+      <title>ArcGIS Pro Access &amp; Support at Harvard</title>
+      <link>http://localhost:1313/tutorials/software-access/arcgis-pro/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/arcgis-online/arcgis-pro/</guid>
-      <description>On your own computer If you have a PC and a Harvard Key, you can download and install ArcGIS Pro on your own computer using these instructions from the Harvard Center for Geographic Analysis (CGA).&#xA;If you do not have a PC, you can:&#xA;Use the Harvard Center for Geographic Analysis (CGA) guide on How to install ArcGIS Desktop or Pro on a Mac . Consider using the open-source equivalent GIS desktop software, QGIS, which is OS-independent.</description>
+      <guid>http://localhost:1313/tutorials/software-access/arcgis-pro/</guid>
+      <description>Access ArcGIS Pro On Your Own Computer Use ArcGIS Pro at the Library Lamont Media Lab Widener Atkins Reading Room Cabot Science Library Graduate School of Design (GSD) Frances Loeb Library Harvard Kennedy School (HKS) Library Access ArcGIS From Institute for Quantitative Social Science Lab Access ArcGIS from a HUIT laptop Access ArcGIS from House Commuter Labs ArcGIS Pro Tutorials and Support GIS Technical Support from the Harvard Map Collection ArcGIS Pro is a powerful, proprietary desktop GIS software developed by Esri.</description>
     </item>
     <item>
       <title>GIS Outreach with the Harvard Map Collection</title>
@@ -409,94 +374,73 @@
     </item>
     <item>
       <title>Georeference in QGIS</title>
-      <link>http://localhost:1313/tutorials/georeferencing/qgis/</link>
+      <link>http://localhost:1313/tutorials/qgis-hub/georeference/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/georeferencing/qgis/</guid>
-      <description>Download QGIS , if you haven&amp;rsquo;t already.&#xA;Add a basemap Browser → XYZ Tiles → Open Street Map.&#xA;Set the project coordinate reference system to WGS 84. At all times in the bottom right of the QGIS document, EPSG should read 4326.&#xA;Optional context on coordinate reference systems Every dataset and every QGIS project each has a coordinate reference system (CRS). Coordinate reference systems allow the GIS software to know where on the world to place the dataset, how to line it up spatially.</description>
+      <guid>http://localhost:1313/tutorials/qgis-hub/georeference/</guid>
+      <description>This tutorial provides step-by-step instructions for aligning historical maps with modern geographic locations in QGIS, a process known as georeferencing.&#xA;Download QGIS, if you haven&amp;#39;t already. Add a basemap Browser &amp;rarr; XYZ Tiles &amp;rarr; Open Street Map. Set the project coordinate reference system to WGS 84. At all times in the bottom right of the QGIS document, EPSG should read 4326. Adjusting Your Project CRS Following Basemap Import Every dataset and every QGIS project each has a coordinate reference system (CRS).</description>
     </item>
     <item>
-      <title>Uploading georeferenced maps to ArcGIS Online</title>
-      <link>http://localhost:1313/tutorials/arcgis-online/arcgis-imagery/</link>
-      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/arcgis-online/arcgis-imagery/</guid>
-      <description>Do you want to be able to use a historic map for comparison in one of your ArcGIS Online projects, such as StoryMaps or ArcGIS Experience Builder ?&#xA;Georeferenced map from 1880 compared to a modern map in ArcGIS Online. There are a number of pathways or workflows for accomplishing this. Which one you pick will depend on a. the format your map data is in and b. the software environment you prefer to work in.</description>
-    </item>
-    <item>
-      <title>DIY documentation guide</title>
-      <link>http://localhost:1313/resources/researchers-handbook/prompts/</link>
+      <title>Download QGIS Software</title>
+      <link>http://localhost:1313/tutorials/software-access/qgis/</link>
       <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/researchers-handbook/prompts/</guid>
-      <description>Works cited Guide to writing &#34;readme&#34; style metadata from Cornell Data Services Metadata Questionnaire Form from the United States Geological Survey (U.S.G.S.) This guide can be used on your own or together with a librarian during a guided interview .&#xA;Documentation elements Originator(s) The name(s) of the organization(s) or individual(s) who developed the dataset.&#xA;Publication Date The date when the dataset is published or otherwise made available for release.</description>
+      <guid>http://localhost:1313/tutorials/software-access/qgis/</guid>
+      <description>QGIS is a free and open-source desktop GIS software used to create, edit, visualize, analyze, and publish geospatial information on Windows, Mac, Linux, BSD and mobile devices.&#xA;How to Download Visit QGIS.org . Select Download Now. Select your desired platform. Tips If you have the option between many installer packages, choose Standalone Long Term Release. To learn your way around the QGIS interface, you can check out these resources: Understanding the QGIS Interface QGIS Documentation Installation Troubleshooting on Mac If you get an error message that Apple can&amp;rsquo;t check the app for malicious software, instead of double-clicking the icon to open the program, instead try right-clicking, and select Open.</description>
     </item>
     <item>
-      <title>Download QGIS software</title>
-      <link>http://localhost:1313/tutorials/census-data-primer/download-software/</link>
-      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/census-data-primer/download-software/</guid>
-      <description>Desktop GIS software is helpful when trying to make sense of census data. We will use free, open-source QGIS.&#xA;How to Download QGIS QGIS is a free and open source desktop GIS software used to create, edit, visualize, analyze, and publish geospatial information on Windows, Mac, Linux, BSD and mobile devices.&#xA;How to Download Visit QGIS.org .&#xA;Select Download Now.&#xA;Select your desired platform.&#xA;Tips If you have the option between many installer packages, choose Standalone Long Term Release To learn your way around the QGIS interface, you can check out these resources: Understanding the QGIS Interface QGIS Documentation Warning If you get an error message that Apple can&amp;rsquo;t check the app for malicious software, instead of double-clicking the icon to open the program, instead try right-clicking, and select Open.</description>
-    </item>
-    <item>
-      <title>Extract OpenStreetMap features</title>
-      <link>http://localhost:1313/tutorials/openstreetmap/extractbyfeature/</link>
-      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/openstreetmap/extractbyfeature/</guid>
-      <description>In the previous OpenStreetMap (OSM) tutorial , we learned how to extract a standard set of map features from OpenStreetMap including waterways, buildings, general points of interest, and roads.&#xA;In this tutorial, we will learn how to specify by type of feature, and extract data within a particular extent for only that type of feature.&#xA;No programming is required for this tutorial; we will use only a QGIS plugin called QuickOSM.</description>
-    </item>
-    <item>
-      <title>Georeference Harvard Library digital collections using Allmaps</title>
-      <link>http://localhost:1313/tutorials/georeferencing/allmaps/</link>
-      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/georeferencing/allmaps/</guid>
-      <description>Topics covered by this guide Select a map to georeference from the Harvard Libraries&amp;rsquo; digital collections Georeference with free browser tool, AllMaps Add the georeferenced map to a GIS project in QGIS Select a map to georeference from the Harvard Libraries&amp;rsquo; digital collections If you visit the Harvard Library catalog, HOLLIS , you can: Change the initial search drop-down from Catalog &amp;amp; Articles to Library Catalog to show only items held by the library, and exclude journal articles.</description>
+      <title>Accessing OpenStreetMap Data Guide</title>
+      <link>http://localhost:1313/tutorials/data-curation/openstreetmap/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/data-curation/openstreetmap/</guid>
+      <description>OpenStreetMap (OSM) offers a rich and dynamic source of geospatial data, often filling gaps where traditional datasets are unavailable. This guide explores two methods for extracting OSM data, allowing you to choose the approach that best suits your project&amp;#39;s requirements: a general extraction of common features, and a more specific extraction based on feature type.&#xA;Before diving into the extraction methods, it&amp;#39;s helpful to understand the nature of OpenStreetMap data. OSM is a collaborative, crowd-contributed project, akin to Wikipedia for maps.</description>
     </item>
     <item>
       <title>Add a basemap in QGIS</title>
-      <link>http://localhost:1313/tutorials/qgis/add-basemap/</link>
+      <link>http://localhost:1313/tutorials/qgis-hub/basemap/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/qgis/add-basemap/</guid>
-      <description>Basemaps can be helpful reference points when working with spatial data.&#xA;How to add a basemap to your project Open a new QGIS project. In the left-hand browser menu, locate XYZ Tiles → OpenStreetMap&#xA;OpenStreetMap base tiles are built in to QGIS. Drag OpenStreetMap into the Map Canvas Zoom in to the desired location by selecting the Zoom In menu item, and clicking and dragging on the Map Canvas Tips To add other styles of basemap not included by default in the QGIS install, you can run a Google search about the latest QGIS plugins for basemaps.</description>
+      <guid>http://localhost:1313/tutorials/qgis-hub/basemap/</guid>
+      <description>Basemaps can be helpful reference points when working with spatial data.&#xA;How to add a basemap to your project Open a new QGIS project. In the left-hand browser menu, locate XYZ Tiles &amp;rarr; OpenStreetMap. OpenStreetMap base tiles are built in to QGIS. Drag OpenStreetMap into the Map Canvas. Zoom in to the desired location by selecting the Zoom In menu item, and clicking and dragging on the Map Canvas. Tips To add other styles of basemap not included by default in the QGIS install, you can run a Google search about the latest QGIS plugins for basemaps.</description>
     </item>
     <item>
-      <title>Add a spreadsheet .XLSX or .CSV to a QGIS Project</title>
-      <link>http://localhost:1313/tutorials/qgis/add-spreadsheet/</link>
+      <title>Add Spreadsheet Data (CSV/XLSX) Tutorial</title>
+      <link>http://localhost:1313/tutorials/qgis-hub/add-spreadsheet/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/qgis/add-spreadsheet/</guid>
+      <guid>http://localhost:1313/tutorials/qgis-hub/add-spreadsheet/</guid>
       <description>This tutorial will cover how to add tabular data to a QGIS project.&#xA;If your spreadsheet is saved in .XLSX format, export it as a .CSV before bringing it into QGIS. QGIS will not be able to read .XLSX. To ensure interoperability, it&#39;s best to err on the side of encoding data in open data formats, such as .csv, .geoJSON or geopackage. Once you have spreadsheet data saved in .CSV format, open QGIS .</description>
     </item>
     <item>
-      <title>Adjust layer opacity in QGIS</title>
-      <link>http://localhost:1313/tutorials/qgis/adjust-layer-opacity/</link>
+      <title>GIS Data Management Consultation Service Guide</title>
+      <link>http://localhost:1313/tutorials/data-curation/metadata-services/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/qgis/adjust-layer-opacity/</guid>
-      <description>In this tutorial you will learn how to adjust a layer&amp;rsquo;s opacity in QGIS so that you can &amp;ldquo;see underneath&amp;rdquo; or through the layer to the map data below.&#xA;In the QGIS layer list, right-click the layer you would like to adjust the opacity for.&#xA;Select Properties.&#xA;In the properties menu, select Legend. Move Opacity slider from Available widgets to Used widgets by selecting Opacity slider and clicking the right-hand arrow Add selected widgets.</description>
+      <guid>http://localhost:1313/tutorials/data-curation/metadata-services/</guid>
+      <description>The Harvard Map Collection actively collects and preserves GIS data for long-term discovery and reuse in the Harvard Geospatial Library (HGL) and other platforms like Dataverse and the Open Science Framework (OSF). Whether you&amp;#39;re considering depositing your data in tools like HGL or Dataverse, seeking feedback on communicating your project&amp;#39;s GIS components, or simply beginning to explore this topic, we&amp;#39;re here to help you ensure your GIS components are well-communicated and discoverable.</description>
     </item>
     <item>
-      <title>Change QGIS coordinate reference system</title>
-      <link>http://localhost:1313/tutorials/qgis/change-crs/</link>
+      <title>Guide to Creating README-Style Metadata for GIS Data</title>
+      <link>http://localhost:1313/tutorials/data-curation/readme/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/qgis/change-crs/</guid>
-      <description>Concepts &amp;ldquo;Map projections try to portray the surface of the earth, or a portion of the earth, on a flat piece of paper or computer screen. In layman’s term, map projections try to transform the earth from its spherical shape (3D) to a planar shape (2D).&#xA;A coordinate reference system (CRS) then defines how the two-dimensional, projected map in your GIS relates to real places on the earth. The decision of which map projection and CRS to use depends on the regional extent of the area you want to work in, on the analysis you want to do, and often on the availability of data.</description>
+      <guid>http://localhost:1313/tutorials/data-curation/readme/</guid>
+      <description>Effective data documentation (metadata) is crucial for the long-term usability and understanding of your GIS data, whether you&amp;#39;re sharing it publicly or revisiting it years later. While creating formal metadata can seem daunting, this guide offers a flexible, prompt-based approach to help you document the context of your data.&#xA;The goal is to provide a free-form, permissive way to begin documenting the flow of ideas around your data, without the pressure of strict templates or getting it &amp;quot;wrong.</description>
     </item>
     <item>
-      <title>Extract OpenStreetMap Layers</title>
-      <link>http://localhost:1313/tutorials/openstreetmap/extractbylayer/</link>
+      <title>How to Download and Prepare Census Data for GIS Analysis</title>
+      <link>http://localhost:1313/tutorials/data-curation/census-data/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/openstreetmap/extractbylayer/</guid>
-      <description>In this tutorial, you will learn how to extract waterways, buildings, transport, places, and land use data from OpenStreetMap.&#xA;As a GIS user, you may encounter scenarios where data about a place&amp;rsquo;s built and natural environment is challenging to find.&#xA;Depending on the administrative resources of the place you are studying, GIS data may be more or less available for that place.&#xA;OpenStreetMap (OSM) can sometimes be a solution to that problem &amp;ndash; with some important caveats.</description>
+      <guid>http://localhost:1313/tutorials/data-curation/census-data/</guid>
+      <description>To effectively map and analyze social, economic, or demographic patterns using Census data in a GIS interface, this tutorial will walk you through the process of downloading and preparing data manually.&#xA;This tutorial focuses on manual data preparation using spreadsheet software. While every step in this guide details manual processes, most of these tasks &amp;ndash; including downloading, filtering, and calculating derived variables &amp;ndash; could also be efficiently performed using programming languages like Python or R, especially for larger datasets or automated workflows.</description>
     </item>
     <item>
-      <title>Georeference in ArcGIS Pro</title>
-      <link>http://localhost:1313/tutorials/georeferencing/arcgis-pro/</link>
+      <title>Manage Coordinate Reference Systems (CRS) Tutorial in QGIS</title>
+      <link>http://localhost:1313/tutorials/qgis-hub/crs/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/georeferencing/arcgis-pro/</guid>
-      <description>Open a new map in ArcGIS Pro and select the basemap of your choice Map → Basemap → Open Street Map Set the projection by right clicking the basemap in the Contents pane and select Properties Properties → Coordinate Systems&#xA;Open the image which needs to be georeferenced Catalog → Folders → Add Folder Connection Right click on &amp;lsquo;Folders&amp;rsquo; and navigate to the folder containing the map that needs to be georeferenced.</description>
+      <guid>http://localhost:1313/tutorials/qgis-hub/crs/</guid>
+      <description>This tutorial will guide you through a straightforward, practical method to ensure all your datasets share the same coordinate reference system (CRS), allowing you to begin mapping effectively.&#xA;Understanding Coordinate Reference Systems &amp;ldquo;Map projections attempt to represent the Earth&amp;rsquo;s surface, or a portion of it, on a flat piece of paper or a computer screen. In simpler terms, map projections transform the Earth from its spherical (3D) shape to a planar (2D) one.</description>
     </item>
     <item>
       <title>Perform a table join in QGIS</title>
-      <link>http://localhost:1313/tutorials/census-data-primer/perform-a-table-join/</link>
+      <link>http://localhost:1313/tutorials/qgis-hub/perform-a-table-join/</link>
       <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/census-data-primer/perform-a-table-join/</guid>
-      <description>Need help turning your spreadsheet data into a map? In this tutorial you will learn how to join tables to GIS shapefiles to create a new, mappable dataset with both geographic boundaries and statistical or attribute information.&#xA;Why do we join? Often, spreadsheets contain useful information we want to map. GIS software, however, does not know how to translate a spreadsheet without any inherent spatial information (such as point coordinates) into a visual map.</description>
+      <guid>http://localhost:1313/tutorials/qgis-hub/perform-a-table-join/</guid>
+      <description>Need help turning your spreadsheet data into a map? In this tutorial, you will learn how to join tables to GIS shapefiles to create a new, mappable dataset with both geographic boundaries and statistical or attribute information.&#xA;1. Understanding Table Joins: Why Connect Data to Geography? Often, spreadsheets contain useful information we want to map. GIS software, however, does not know how to translate a spreadsheet without any inherent spatial information (such as point coordinates) into a visual map.</description>
     </item>
     <item>
       <title>Mapping the Russian Language</title>
@@ -507,51 +451,51 @@
     </item>
     <item>
       <title>1. Introduction to GIS</title>
-      <link>http://localhost:1313/resources/workshops/workshop/introduction/</link>
+      <link>http://localhost:1313/workshops/workshop/introduction/</link>
       <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop/introduction/</guid>
+      <guid>http://localhost:1313/workshops/workshop/introduction/</guid>
       <description>About this workshop This course is for those wishing to develop a strong foundational understanding of how GIS works. After completing this course, you will be well-positioned to begin GIS projects of your own.&#xA;The step-by-step materials here can be followed along asynchronously . The in-person version (register ) covers the same materials, but with live demonstrations and hands-on support from the instructor. We can schedule additional workshop sessions on demand, as well as in-class workshops.</description>
     </item>
     <item>
       <title>2. Tutorial requirements</title>
-      <link>http://localhost:1313/resources/workshops/workshop/tutorial-requirements/</link>
+      <link>http://localhost:1313/workshops/workshop/tutorial-requirements/</link>
       <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop/tutorial-requirements/</guid>
+      <guid>http://localhost:1313/workshops/workshop/tutorial-requirements/</guid>
       <description>In order to follow this workshop, you will need the free, open-source desktop software QGIS. This tutorial will teach you how to download it and use some of its most useful features.&#xA;There are many software options for manipulating, analyzing, and visualizing geospatial data. QGIS is a favorite, as it is free, lightweight, and doesn&amp;rsquo;t require a login or license.&#xA;The concepts from this course are not software-specific, so you will be able to apply them to whichever software you end up using.</description>
     </item>
     <item>
       <title>3. Data overview</title>
-      <link>http://localhost:1313/resources/workshops/workshop/data-overview/</link>
+      <link>http://localhost:1313/workshops/workshop/data-overview/</link>
       <pubDate>Wed, 04 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop/data-overview/</guid>
+      <guid>http://localhost:1313/workshops/workshop/data-overview/</guid>
       <description>As an example project, we are going study Poland at the end of WWI. By the end of the course, we will have made maps that help us understand the country&amp;rsquo;s demographic makeup at the time. This is a real mapmaking example we worked on with a history class about the making of borders. 1 At any point, you can skip ahead to the maps and datasets . To download the data, visit this Google Drive .</description>
     </item>
     <item>
       <title>4. Import datasets</title>
-      <link>http://localhost:1313/resources/workshops/workshop/import-datasets/</link>
+      <link>http://localhost:1313/workshops/workshop/import-datasets/</link>
       <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop/import-datasets/</guid>
+      <guid>http://localhost:1313/workshops/workshop/import-datasets/</guid>
       <description>To review the difference between raster and vector data, visit the Introduction .&#xA;Raster data If you haven&amp;rsquo;t already, download and install QGIS .&#xA;Open QGIS.&#xA;Open a New Empty Project.&#xA;In the left-hand Browser menu, find the dropdown titled XYZ tiles. Expand the XYZ tiles dropown and double-click OpenStreetMap to add a basemap to your project. The basemap exists in the background of the project to give us a reference while we are working.</description>
     </item>
     <item>
       <title>5. Visualize statistics</title>
-      <link>http://localhost:1313/resources/workshops/workshop/visualize-statistics/</link>
+      <link>http://localhost:1313/workshops/workshop/visualize-statistics/</link>
       <pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop/visualize-statistics/</guid>
+      <guid>http://localhost:1313/workshops/workshop/visualize-statistics/</guid>
       <description>Exploring the Polish cities dataset Now, let&amp;rsquo;s familiarize ourselves with the Polish cities statistical data. Right-click on the poland-stats layer in the Layer Panel and select Open Attribute Table. You should see a table where each row is one of the Polish cities on the map, and each layer is a statistical figure about that city. Take a look and try to make sense of the table. You may have noticed that the field headers are not easy to understand.</description>
     </item>
     <item>
       <title>6. Share results</title>
-      <link>http://localhost:1313/resources/workshops/workshop/share-results/</link>
+      <link>http://localhost:1313/workshops/workshop/share-results/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop/share-results/</guid>
+      <guid>http://localhost:1313/workshops/workshop/share-results/</guid>
       <description>Now we are ready to learn how to style a &amp;ldquo;finished product&amp;rdquo; version of the map. So far, we have been using GIS to overlay different GIS layers and see how they compare with one another. We&amp;rsquo;ve been exploring the data by looking at the attribute table and playing with the map symbols. We&amp;rsquo;ve been trying to understand the data for ourselves. Now, we are going to learn how to prepare an outward-facing map to communicate our findings with others.</description>
     </item>
     <item>
       <title>7. Browse maps and data</title>
-      <link>http://localhost:1313/resources/workshops/workshop/browse-maps-and-data/</link>
+      <link>http://localhost:1313/workshops/workshop/browse-maps-and-data/</link>
       <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop/browse-maps-and-data/</guid>
+      <guid>http://localhost:1313/workshops/workshop/browse-maps-and-data/</guid>
       <description>Polish cities data: interactive map view Hover over each Polish city to engage with statistics about the city from around the time of WWI. In addition to plebiscite vote results, there is also statistical demographic data from 1911 conveying the percentage of Polish-speaking school children in each city. Polish cities data: table view This is what the Polish cities GIS dataset looks like, displayed in tabular view in the GIS software.</description>
     </item>
     <item>
@@ -640,9 +584,9 @@
     </item>
     <item>
       <title>In-person materials</title>
-      <link>http://localhost:1313/resources/workshops/workshop/in-person/</link>
+      <link>http://localhost:1313/workshops/workshop/in-person/</link>
       <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop/in-person/</guid>
+      <guid>http://localhost:1313/workshops/workshop/in-person/</guid>
       <description>https://bit.ly/intro-1919&#xA;Slides Data Raster data service https://allmaps.xyz/maps/8d5cc5d1fec615d6/{z}/{x}/{y}.png&#xA;Vector data download Google drive link Hex codes #e0f3db&#xA;Follow-along workshop steps Tutorial version Survey Post-workshop survey </description>
     </item>
     <item>
@@ -672,13 +616,6 @@
       <pubDate>Mon, 16 Aug 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/graphics/</guid>
       <description>Skills to create beautiful and engaging maps can be strengthened in a semester, says Bloomberg graphics journalist.&#xA;The type of narrative, map-based digital projects we see in the news, like the recent CityLab project documenting racist urban infrastructure in St. Paul, Minnesota require many research and technical skills to pull off.&#xA;The Harvard Map Collection asked Bloomberg graphics journalist, Rachael Dottle about her methodology in scoping, researching, and creating maps for this story.</description>
-    </item>
-    <item>
-      <title>Connect</title>
-      <link>http://localhost:1313/connect/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/connect/</guid>
-      <description>About This site is an effort of the Harvard Map Collection to make our GIS teaching and research materials more discoverable.&#xA;Already using GIS @ Harvard? Want to start? We&amp;rsquo;d love to connect. Email us at maps@harvard.edu .&#xA;Remixing these materials Would you like to use any of these tutorials, or tweak them to include data more relevant or local to your needs? We have designed these to be open resources, and encourage you to use them how best fits.</description>
     </item>
   </channel>
 </rss>

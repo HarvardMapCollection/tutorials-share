@@ -10,31 +10,17 @@
     <atom:link href="http://localhost:1313/tags/data-topics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to download poverty rate data by census tract for GIS</title>
-      <link>http://localhost:1313/resources/workshops/workshop-4/poverty-rate/</link>
+      <link>http://localhost:1313/workshops/workshop-4/poverty-rate/</link>
       <pubDate>Sun, 21 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop-4/poverty-rate/</guid>
+      <guid>http://localhost:1313/workshops/workshop-4/poverty-rate/</guid>
       <description>In order to map poverty rate per census tract, you must first perform some steps to prepare the data. In this tutorial, we will practice:&#xA;Downloading high-quality data Cleaning the data to prepare it for mapping Downloading the data Visit NHGIS.org . Create a free academic use account, if you haven&amp;rsquo;t already, and log in.&#xA;From the NHGIS.org home screen, choose START HERE: Get Data in the middle of the page, or SELECT DATA in the navigation bar menu at the top of the page.</description>
     </item>
     <item>
       <title>How to download percent non-white population data by census tract for GIS</title>
-      <link>http://localhost:1313/resources/workshops/workshop-4/non-white-population/</link>
+      <link>http://localhost:1313/workshops/workshop-4/non-white-population/</link>
       <pubDate>Sat, 20 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/workshops/workshop-4/non-white-population/</guid>
+      <guid>http://localhost:1313/workshops/workshop-4/non-white-population/</guid>
       <description>In order to map non-white population per census tract, you must first perform some steps to prepare the data. In this tutorial, we will practice:&#xA;Downloading high-quality data Cleaning the data to prepare it for mapping Downloading the data You can achieve these steps using a number of software environments, including R and Python. In this tutorial we will download the data manually from NHGIS.org, and show how to clean the data using 3 different spreadsheet tools: Excel, LibreOffice, and Google Sheets.</description>
-    </item>
-    <item>
-      <title>Extract OpenStreetMap features</title>
-      <link>http://localhost:1313/tutorials/openstreetmap/extractbyfeature/</link>
-      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/openstreetmap/extractbyfeature/</guid>
-      <description>In the previous OpenStreetMap (OSM) tutorial , we learned how to extract a standard set of map features from OpenStreetMap including waterways, buildings, general points of interest, and roads.&#xA;In this tutorial, we will learn how to specify by type of feature, and extract data within a particular extent for only that type of feature.&#xA;No programming is required for this tutorial; we will use only a QGIS plugin called QuickOSM.</description>
-    </item>
-    <item>
-      <title>Extract OpenStreetMap Layers</title>
-      <link>http://localhost:1313/tutorials/openstreetmap/extractbylayer/</link>
-      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/openstreetmap/extractbylayer/</guid>
-      <description>In this tutorial, you will learn how to extract waterways, buildings, transport, places, and land use data from OpenStreetMap.&#xA;As a GIS user, you may encounter scenarios where data about a place&amp;rsquo;s built and natural environment is challenging to find.&#xA;Depending on the administrative resources of the place you are studying, GIS data may be more or less available for that place.&#xA;OpenStreetMap (OSM) can sometimes be a solution to that problem &amp;ndash; with some important caveats.</description>
     </item>
   </channel>
 </rss>

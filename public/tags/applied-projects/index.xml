@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Applied-Projects on GIS, maps &#43; data @ Harvard Library</title>
+    <link>http://localhost:1313/tags/applied-projects/</link>
+    <description>Recent content in Applied-Projects on GIS, maps &#43; data @ Harvard Library</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/applied-projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vectorizing Historic Maps for Spatial Analysis</title>
+      <link>http://localhost:1313/projects/adler/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/adler/</guid>
+      <description>Generating Geospatial Data from Historic Maps: A Step-by-Step Guide This project illustrates a core methodology supported by the Harvard Map Collection: transforming static historic maps into analyzable geospatial data. Through our partnership with Joyce Chaplin&amp;#39;s &amp;#39;Re-Wilding Harvard&amp;#39; course, this initiative empowered students to investigate the evolving histories and changing natures of open space within Harvard&amp;#39;s campus and its surroundings, showcasing the library&amp;#39;s critical role in digital scholarship.&#xA;Hannah Adler &amp;#39;25, a student from the course, undertook an ambitious project focusing on the Charles River region of Harvard&amp;#39;s campus, particularly the area near Memorial Drive in Cambridge.</description>
+    </item>
+    <item>
+      <title>Mapping Land Use Change in the Sacramento San-Joaquin River Delta</title>
+      <link>http://localhost:1313/posts/adler-delta/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/adler-delta/</guid>
+      <description>Early one August morning, I found myself donning borrowed fishing waders on the banks of a restored tidal wetland in Northern California. Thanks to a Salata Institute grant, I spent a week studying the Sacramento San-Joaquin River Delta alongside biometeorology experts. After exploring maps of the region through my assistantship with the Harvard Map Collection, I was incredibly grateful for the opportunity to traverse the landscape on foot, and prepare for my senior thesis on the science of these special ecosystems.</description>
+    </item>
+    <item>
+      <title>Off the Beaten Path?</title>
+      <link>http://localhost:1313/posts/off-the-beaten-path/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/off-the-beaten-path/</guid>
+      <description>When I first arrived in Boston three years ago, only a few weeks away from starting college in the heart of Cambridge, I wanted to take in as much of the city as I could. Armed with a TripAdvisor list of &amp;ldquo;The 10 Best Things to Do in Boston&amp;rdquo; and a confusing MBTA map I found at the airport, I set off to the city&amp;rsquo;s tourists hotspots, historical landmarks, and buzzing restaurants.</description>
+    </item>
+    <item>
+      <title>Re-Wilding Harvard, Spring 2024</title>
+      <link>http://localhost:1313/posts/re-wilding-2024/</link>
+      <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/re-wilding-2024/</guid>
+      <description>During Spring 2024, the Harvard Map Collection embedded with history course Re-Wilding Harvard, taught by Professor Joyce Chaplin. From the syllabus, &amp;ldquo;re-wilding returns a place to an earlier form to promote biodiversity; urban re-wilding does this within urban spaces, including Harvard’s.&amp;rdquo;&#xA;Re-wilded site from 2021, at the Harvard Museum of Natural History.&#xA;In past iterations of the course, students studied historic dimensions of pre-colonial landscapes and ecosystems at Harvard and their impact on what exists now.</description>
+    </item>
+    <item>
+      <title>Mapping Black Cambridge</title>
+      <link>http://localhost:1313/posts/mapping-black-cambridge/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/mapping-black-cambridge/</guid>
+      <description>The Harvard Map Collection recently partnered with the Leventhal Map and Education Center at the Boston Public Library to support a digital mapping project by scholars Joan Brunetta and Eve Loftus. Joan and Eve&amp;rsquo;s project, titled Mapping Black Cambridge , contributes to an evolving landscape of available data used to discern historic dimensions of Black life in Boston and Cambridge.&#xA;Leveraging historic maps and records from local libraries and archives, along with GIS training services , Joan and Eve have created a dataset from their meticulous research about Black life in Cambridge in the 19th century.</description>
+    </item>
+    <item>
+      <title>Undoing Empire, One Plant at a Time</title>
+      <link>http://localhost:1313/posts/odessa-biodiversity/</link>
+      <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/odessa-biodiversity/</guid>
+      <description>Floral motif from Ukrainian textile produced in 1902.&#xA;This year, the Harvard Map Collection partnered with Kelly O&amp;rsquo;Neill from the Davis Center on a project to demonstrate the value of our GIS data curation services . Dr. O&amp;rsquo;Neill&amp;rsquo;s project aims to capture data about historic biodiversity in the Ukraine. The Harvard Map Collection worked with her team to co-develop robust and useful metadata, so that the sources can be archived for long-term discovery and reuse.</description>
+    </item>
+    <item>
+      <title>Mapping the Russian Language</title>
+      <link>http://localhost:1313/posts/russian-language/</link>
+      <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/russian-language/</guid>
+      <description>We met undergraduate Paige Lee while working with her general education class about how borders are constructed. In the class, students were asked to complete a project, choosing from a variety of format options, including making a map. The Harvard Map Collection supported students by advising on searching for data, using mapping software, and scoping out project ideas.&#xA;In this interview, we look at Paige’s custom-coded interactive mapping visualization, and learn more about her thought process and workflow.</description>
+    </item>
+    <item>
+      <title>A GIS database and webmap of historic Black life on Boston&#39;s Beacon Hill</title>
+      <link>http://localhost:1313/projects/mapping-black-boston/</link>
+      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/mapping-black-boston/</guid>
+      <description>This is a prototype for Mapping Black Boston, a research project by David Weimer. Dave, our former Map Librarian, is now Curator of Maps and Director of the Center for the History of Cartography at the Newberry Library. For information on the project, or to collaborate, you can get in touch with Dave .&#xA;Check out the interactive Mapping Black Boston prototype .&#xA;To access the underlying project data, visit the project Github .</description>
+    </item>
+    <item>
+      <title>City Fictions</title>
+      <link>http://localhost:1313/posts/city-fictions/</link>
+      <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/city-fictions/</guid>
+      <description>This semester, we worked with Tara K. Menon&amp;rsquo;s English class, titled City Fictions. In this class, undergraduates explored the various ways writers capture the constituent features of life in urban environments, reading books set in London, Bombay, New York, and Tokyo.&#xA;Wonderground map of the London town, 1914. We were happy to learn that one of the course assignments involved mapmaking; in order to get at different ways the experience of city might be represented, students were tasked with creating two distinct maps of the same place.</description>
+    </item>
+  </channel>
+</rss>

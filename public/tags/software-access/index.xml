@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software-Access on GIS, maps &#43; data @ Harvard Library</title>
+    <link>http://localhost:1313/tags/software-access/</link>
+    <description>Recent content in Software-Access on GIS, maps &#43; data @ Harvard Library</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/software-access/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ArcGIS Pro Access &amp; Support at Harvard</title>
+      <link>http://localhost:1313/tutorials/software-access/arcgis-pro/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/software-access/arcgis-pro/</guid>
+      <description>Access ArcGIS Pro On Your Own Computer Use ArcGIS Pro at the Library Lamont Media Lab Widener Atkins Reading Room Cabot Science Library Graduate School of Design (GSD) Frances Loeb Library Harvard Kennedy School (HKS) Library Access ArcGIS From Institute for Quantitative Social Science Lab Access ArcGIS from a HUIT laptop Access ArcGIS from House Commuter Labs ArcGIS Pro Tutorials and Support GIS Technical Support from the Harvard Map Collection ArcGIS Pro is a powerful, proprietary desktop GIS software developed by Esri.</description>
+    </item>
+    <item>
+      <title>Download QGIS Software</title>
+      <link>http://localhost:1313/tutorials/software-access/qgis/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/software-access/qgis/</guid>
+      <description>QGIS is a free and open-source desktop GIS software used to create, edit, visualize, analyze, and publish geospatial information on Windows, Mac, Linux, BSD and mobile devices.&#xA;How to Download Visit QGIS.org . Select Download Now. Select your desired platform. Tips If you have the option between many installer packages, choose Standalone Long Term Release. To learn your way around the QGIS interface, you can check out these resources: Understanding the QGIS Interface QGIS Documentation Installation Troubleshooting on Mac If you get an error message that Apple can&amp;rsquo;t check the app for malicious software, instead of double-clicking the icon to open the program, instead try right-clicking, and select Open.</description>
+    </item>
+  </channel>
+</rss>

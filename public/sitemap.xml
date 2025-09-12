@@ -3,8 +3,41 @@
       
       
 	  <url>
+	    <loc>http://localhost:1313/tutorials/data-curation/accessing-maps-for-georeferencing/</loc>
+	    <lastmod>2025-09-12</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/tags/applied-projects/</loc>
+	    <lastmod>2025-09-12</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/tags/data-curation/</loc>
+	    <lastmod>2025-09-12</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
 	    <loc>http://localhost:1313/</loc>
-	    <lastmod>2026-03-11</lastmod>
+	    <lastmod>2025-09-12</lastmod>
         
 
         
@@ -14,8 +47,8 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/posts/</loc>
-	    <lastmod>2026-03-11</lastmod>
+	    <loc>http://localhost:1313/tags/news/</loc>
+	    <lastmod>2025-09-12</lastmod>
         
 
         
@@ -25,8 +58,8 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/workshops/find-gis-data/</loc>
-	    <lastmod>2025-03-18</lastmod>
+	    <loc>http://localhost:1313/tags/</loc>
+	    <lastmod>2025-09-12</lastmod>
         
 
         
@@ -36,7 +69,29 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/</loc>
+	    <loc>http://localhost:1313/tutorials/</loc>
+	    <lastmod>2025-09-12</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/projects/adler/</loc>
+	    <lastmod>2025-09-12</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/workshops/find-gis-data/</loc>
 	    <lastmod>2025-03-18</lastmod>
         
 
@@ -69,85 +124,8 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/tags/news/</loc>
+	    <loc>http://localhost:1313/posts/</loc>
 	    <lastmod>2024-12-20</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/</loc>
-	    <lastmod>2024-12-20</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/qgis/</loc>
-	    <lastmod>2024-12-16</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tutorials/</loc>
-	    <lastmod>2024-12-16</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tutorials/qgis/use-field-filters/</loc>
-	    <lastmod>2024-12-16</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/georeferencing/</loc>
-	    <lastmod>2024-10-30</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tutorials/georeferencing/selecting-a-map/</loc>
-	    <lastmod>2024-10-30</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/tutorials/</loc>
-	    <lastmod>2024-10-30</lastmod>
         
 
         
@@ -278,17 +256,6 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/tags/case-study/</loc>
-	    <lastmod>2024-08-27</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
 	    <loc>http://localhost:1313/posts/adler-delta/</loc>
 	    <lastmod>2024-08-27</lastmod>
         
@@ -311,7 +278,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/workshops/find-gis-data/welcome/</loc>
+	    <loc>http://localhost:1313/workshops/find-gis-data/welcome/</loc>
 	    <lastmod>2024-08-15</lastmod>
         
 
@@ -355,7 +322,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/workshops/find-gis-data/activity-1/</loc>
+	    <loc>http://localhost:1313/workshops/find-gis-data/activity-1/</loc>
 	    <lastmod>2024-08-13</lastmod>
         
 
@@ -377,7 +344,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/workshops/find-gis-data/activity-2/</loc>
+	    <loc>http://localhost:1313/workshops/find-gis-data/activity-2/</loc>
 	    <lastmod>2024-08-12</lastmod>
         
 
@@ -388,7 +355,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/workshops/find-gis-data/activity-3/</loc>
+	    <loc>http://localhost:1313/workshops/find-gis-data/activity-3/</loc>
 	    <lastmod>2024-08-11</lastmod>
         
 
@@ -399,7 +366,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/workshops/find-gis-data/activity-4/</loc>
+	    <loc>http://localhost:1313/workshops/find-gis-data/activity-4/</loc>
 	    <lastmod>2024-08-10</lastmod>
         
 
@@ -454,7 +421,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/tags/spatial-analysis/</loc>
+	    <loc>http://localhost:1313/tags/qgis-hub/</loc>
 	    <lastmod>2024-08-08</lastmod>
         
 
@@ -465,18 +432,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/tags/vectorization/</loc>
-	    <lastmod>2024-08-08</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tutorials/qgis/adler/</loc>
+	    <loc>http://localhost:1313/tutorials/qgis-hub/vectorization/</loc>
 	    <lastmod>2024-08-08</lastmod>
         
 
@@ -586,7 +542,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/workshops/workshop-4/in-person/</loc>
+	    <loc>http://localhost:1313/workshops/workshop-4/in-person/</loc>
 	    <lastmod>2024-07-24</lastmod>
         
 
@@ -619,7 +575,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/workshops/workshop-4/registration/</loc>
+	    <loc>http://localhost:1313/workshops/workshop-4/registration/</loc>
 	    <lastmod>2024-07-23</lastmod>
         
 
@@ -630,7 +586,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/workshops/workshop-4/what-are-we-mapping/</loc>
+	    <loc>http://localhost:1313/workshops/workshop-4/what-are-we-mapping/</loc>
 	    <lastmod>2024-07-22</lastmod>
         
 
@@ -652,7 +608,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/workshops/workshop-4/poverty-rate/</loc>
+	    <loc>http://localhost:1313/workshops/workshop-4/poverty-rate/</loc>
 	    <lastmod>2024-07-21</lastmod>
         
 
@@ -663,7 +619,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/workshops/workshop-4/non-white-population/</loc>
+	    <loc>http://localhost:1313/workshops/workshop-4/non-white-population/</loc>
 	    <lastmod>2024-07-20</lastmod>
         
 
@@ -685,7 +641,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/workshops/workshop-4/working-with-locations/</loc>
+	    <loc>http://localhost:1313/workshops/workshop-4/working-with-locations/</loc>
 	    <lastmod>2024-07-19</lastmod>
         
 
@@ -696,7 +652,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/workshops/workshop-4/upload-census-to-felt/</loc>
+	    <loc>http://localhost:1313/workshops/workshop-4/upload-census-to-felt/</loc>
 	    <lastmod>2024-07-19</lastmod>
         
 
@@ -707,7 +663,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/workshops/workshop-4/spatial-analysis/</loc>
+	    <loc>http://localhost:1313/workshops/workshop-4/spatial-analysis/</loc>
 	    <lastmod>2024-07-18</lastmod>
         
 
@@ -718,7 +674,18 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/workshops/workshop-4/archival-maps/</loc>
+	    <loc>http://localhost:1313/tags/spatial-analysis/</loc>
+	    <lastmod>2024-07-18</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/workshops/workshop-4/archival-maps/</loc>
 	    <lastmod>2024-07-17</lastmod>
         
 
@@ -729,7 +696,29 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/workshops/workshop-4/exporting-data/</loc>
+	    <loc>http://localhost:1313/tags/georeferencing/</loc>
+	    <lastmod>2024-07-17</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/tags/vectorization/</loc>
+	    <lastmod>2024-07-17</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/workshops/workshop-4/exporting-data/</loc>
 	    <lastmod>2024-07-08</lastmod>
         
 
@@ -850,94 +839,6 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/projects/hgl-explore/</loc>
-	    <lastmod>2023-08-11</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/projects/hgl-explore/overview/</loc>
-	    <lastmod>2023-08-11</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/projects/hgl-explore/places/</loc>
-	    <lastmod>2023-08-10</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/projects/hgl-explore/subjects/</loc>
-	    <lastmod>2023-08-09</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/projects/hgl-explore/descriptions/</loc>
-	    <lastmod>2023-08-08</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/resources/researchers-handbook/long-term-preservation/</loc>
-	    <lastmod>2023-08-08</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/research/</loc>
-	    <lastmod>2023-08-08</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/resources/</loc>
-	    <lastmod>2023-08-08</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
 	    <loc>http://localhost:1313/posts/potterbusch/</loc>
 	    <lastmod>2023-06-06</lastmod>
         
@@ -971,7 +872,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/tags/arcgis/</loc>
+	    <loc>http://localhost:1313/tutorials/software-access/arcgis-pro/</loc>
 	    <lastmod>2023-06-01</lastmod>
         
 
@@ -982,18 +883,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/tutorials/qgis/</loc>
-	    <lastmod>2023-06-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tutorials/arcgis-online/arcgis-pro/</loc>
+	    <loc>http://localhost:1313/tags/software-access/</loc>
 	    <lastmod>2023-06-01</lastmod>
         
 
@@ -1026,7 +916,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/tutorials/georeferencing/qgis/</loc>
+	    <loc>http://localhost:1313/tutorials/qgis-hub/georeference/</loc>
 	    <lastmod>2023-01-20</lastmod>
         
 
@@ -1037,18 +927,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/tutorials/arcgis-online/arcgis-imagery/</loc>
-	    <lastmod>2023-01-20</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/allmaps/</loc>
+	    <loc>http://localhost:1313/tutorials/software-access/qgis/</loc>
 	    <lastmod>2023-01-19</lastmod>
         
 
@@ -1059,7 +938,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/researchers-handbook/prompts/</loc>
+	    <loc>http://localhost:1313/workshops/workshop/</loc>
 	    <lastmod>2023-01-19</lastmod>
         
 
@@ -1070,62 +949,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/tutorials/census-data-primer/download-software/</loc>
-	    <lastmod>2023-01-19</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tutorials/openstreetmap/extractbyfeature/</loc>
-	    <lastmod>2023-01-19</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tutorials/georeferencing/allmaps/</loc>
-	    <lastmod>2023-01-19</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/openstreetmap/</loc>
-	    <lastmod>2023-01-19</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/resources/workshops/workshop/</loc>
-	    <lastmod>2023-01-19</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tutorials/qgis/add-basemap/</loc>
+	    <loc>http://localhost:1313/tutorials/data-curation/openstreetmap/</loc>
 	    <lastmod>2023-01-18</lastmod>
         
 
@@ -1136,7 +960,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/tutorials/qgis/add-spreadsheet/</loc>
+	    <loc>http://localhost:1313/tutorials/qgis-hub/basemap/</loc>
 	    <lastmod>2023-01-18</lastmod>
         
 
@@ -1147,7 +971,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/tutorials/qgis/adjust-layer-opacity/</loc>
+	    <loc>http://localhost:1313/tutorials/qgis-hub/add-spreadsheet/</loc>
 	    <lastmod>2023-01-18</lastmod>
         
 
@@ -1158,7 +982,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/tags/arcgis-pro/</loc>
+	    <loc>http://localhost:1313/tutorials/data-curation/readme/</loc>
 	    <lastmod>2023-01-18</lastmod>
         
 
@@ -1169,7 +993,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/tutorials/qgis/change-crs/</loc>
+	    <loc>http://localhost:1313/tutorials/data-curation/census-data/</loc>
 	    <lastmod>2023-01-18</lastmod>
         
 
@@ -1180,7 +1004,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/tutorials/openstreetmap/extractbylayer/</loc>
+	    <loc>http://localhost:1313/tutorials/qgis-hub/crs/</loc>
 	    <lastmod>2023-01-18</lastmod>
         
 
@@ -1191,7 +1015,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/tutorials/georeferencing/arcgis-pro/</loc>
+	    <loc>http://localhost:1313/tutorials/data-curation/metadata-services/</loc>
 	    <lastmod>2023-01-18</lastmod>
         
 
@@ -1202,19 +1026,8 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/tutorials/census-data-primer/perform-a-table-join/</loc>
+	    <loc>http://localhost:1313/tutorials/qgis-hub/perform-a-table-join/</loc>
 	    <lastmod>2023-01-17</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tutorials/openstreetmap/</loc>
-	    <lastmod>2023-01-16</lastmod>
         
 
         
@@ -1235,18 +1048,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/tutorials/georeferencing/</loc>
-	    <lastmod>2023-01-09</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/resources/workshops/workshop/introduction/</loc>
+	    <loc>http://localhost:1313/workshops/workshop/introduction/</loc>
 	    <lastmod>2023-01-06</lastmod>
         
 
@@ -1257,7 +1059,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/workshops/workshop/tutorial-requirements/</loc>
+	    <loc>http://localhost:1313/workshops/workshop/tutorial-requirements/</loc>
 	    <lastmod>2023-01-05</lastmod>
         
 
@@ -1268,7 +1070,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/workshops/workshop/data-overview/</loc>
+	    <loc>http://localhost:1313/workshops/workshop/data-overview/</loc>
 	    <lastmod>2023-01-04</lastmod>
         
 
@@ -1279,7 +1081,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/workshops/workshop/import-datasets/</loc>
+	    <loc>http://localhost:1313/workshops/workshop/import-datasets/</loc>
 	    <lastmod>2023-01-03</lastmod>
         
 
@@ -1290,7 +1092,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/workshops/workshop/visualize-statistics/</loc>
+	    <loc>http://localhost:1313/workshops/workshop/visualize-statistics/</loc>
 	    <lastmod>2023-01-02</lastmod>
         
 
@@ -1301,7 +1103,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/workshops/workshop/share-results/</loc>
+	    <loc>http://localhost:1313/workshops/workshop/share-results/</loc>
 	    <lastmod>2023-01-01</lastmod>
         
 
@@ -1312,7 +1114,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/workshops/workshop/browse-maps-and-data/</loc>
+	    <loc>http://localhost:1313/workshops/workshop/browse-maps-and-data/</loc>
 	    <lastmod>2022-12-31</lastmod>
         
 
@@ -1455,7 +1257,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/workshops/workshop/in-person/</loc>
+	    <loc>http://localhost:1313/workshops/workshop/in-person/</loc>
 	    <lastmod>2022-11-11</lastmod>
         
 
@@ -1490,17 +1292,6 @@
 	  <url>
 	    <loc>http://localhost:1313/classes/womgen/1274/spring-2023/</loc>
 	    <lastmod>2022-02-11</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tutorials/census-data-primer/</loc>
-	    <lastmod>2022-01-18</lastmod>
         
 
         
@@ -1631,17 +1422,6 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/tutorials/arcgis-online/</loc>
-	    <lastmod>2022-01-17</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
 	    <loc>http://localhost:1313/classes/programs/cga-institute/</loc>
 	    <lastmod>2022-01-17</lastmod>
         
@@ -1708,7 +1488,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/resources/workshops/</loc>
+	    <loc>http://localhost:1313/workshops/</loc>
 	    <lastmod>2022-01-17</lastmod>
         
 
@@ -1720,17 +1500,6 @@
       
 	  <url>
 	    <loc>http://localhost:1313/classes/hunap/</loc>
-	    <lastmod>2022-01-17</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/resources/researchers-handbook/</loc>
 	    <lastmod>2022-01-17</lastmod>
         
 
@@ -1797,17 +1566,6 @@
       
 	  <url>
 	    <loc>http://localhost:1313/categories/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/connect/</loc>
 	    <lastmod>0001-01-01</lastmod>
         
 

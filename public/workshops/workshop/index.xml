@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Using GIS with archival sources on GIS, maps &#43; data @ Harvard Library</title>
+    <link>http://localhost:1313/workshops/workshop/</link>
+    <description>Recent content in Using GIS with archival sources on GIS, maps &#43; data @ Harvard Library</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/workshops/workshop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1. Introduction to GIS</title>
+      <link>http://localhost:1313/workshops/workshop/introduction/</link>
+      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workshops/workshop/introduction/</guid>
+      <description>About this workshop This course is for those wishing to develop a strong foundational understanding of how GIS works. After completing this course, you will be well-positioned to begin GIS projects of your own.&#xA;The step-by-step materials here can be followed along asynchronously . The in-person version (register ) covers the same materials, but with live demonstrations and hands-on support from the instructor. We can schedule additional workshop sessions on demand, as well as in-class workshops.</description>
+    </item>
+    <item>
+      <title>2. Tutorial requirements</title>
+      <link>http://localhost:1313/workshops/workshop/tutorial-requirements/</link>
+      <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workshops/workshop/tutorial-requirements/</guid>
+      <description>In order to follow this workshop, you will need the free, open-source desktop software QGIS. This tutorial will teach you how to download it and use some of its most useful features.&#xA;There are many software options for manipulating, analyzing, and visualizing geospatial data. QGIS is a favorite, as it is free, lightweight, and doesn&amp;rsquo;t require a login or license.&#xA;The concepts from this course are not software-specific, so you will be able to apply them to whichever software you end up using.</description>
+    </item>
+    <item>
+      <title>3. Data overview</title>
+      <link>http://localhost:1313/workshops/workshop/data-overview/</link>
+      <pubDate>Wed, 04 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workshops/workshop/data-overview/</guid>
+      <description>As an example project, we are going study Poland at the end of WWI. By the end of the course, we will have made maps that help us understand the country&amp;rsquo;s demographic makeup at the time. This is a real mapmaking example we worked on with a history class about the making of borders. 1 At any point, you can skip ahead to the maps and datasets . To download the data, visit this Google Drive .</description>
+    </item>
+    <item>
+      <title>4. Import datasets</title>
+      <link>http://localhost:1313/workshops/workshop/import-datasets/</link>
+      <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workshops/workshop/import-datasets/</guid>
+      <description>To review the difference between raster and vector data, visit the Introduction .&#xA;Raster data If you haven&amp;rsquo;t already, download and install QGIS .&#xA;Open QGIS.&#xA;Open a New Empty Project.&#xA;In the left-hand Browser menu, find the dropdown titled XYZ tiles. Expand the XYZ tiles dropown and double-click OpenStreetMap to add a basemap to your project. The basemap exists in the background of the project to give us a reference while we are working.</description>
+    </item>
+    <item>
+      <title>5. Visualize statistics</title>
+      <link>http://localhost:1313/workshops/workshop/visualize-statistics/</link>
+      <pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workshops/workshop/visualize-statistics/</guid>
+      <description>Exploring the Polish cities dataset Now, let&amp;rsquo;s familiarize ourselves with the Polish cities statistical data. Right-click on the poland-stats layer in the Layer Panel and select Open Attribute Table. You should see a table where each row is one of the Polish cities on the map, and each layer is a statistical figure about that city. Take a look and try to make sense of the table. You may have noticed that the field headers are not easy to understand.</description>
+    </item>
+    <item>
+      <title>6. Share results</title>
+      <link>http://localhost:1313/workshops/workshop/share-results/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workshops/workshop/share-results/</guid>
+      <description>Now we are ready to learn how to style a &amp;ldquo;finished product&amp;rdquo; version of the map. So far, we have been using GIS to overlay different GIS layers and see how they compare with one another. We&amp;rsquo;ve been exploring the data by looking at the attribute table and playing with the map symbols. We&amp;rsquo;ve been trying to understand the data for ourselves. Now, we are going to learn how to prepare an outward-facing map to communicate our findings with others.</description>
+    </item>
+    <item>
+      <title>7. Browse maps and data</title>
+      <link>http://localhost:1313/workshops/workshop/browse-maps-and-data/</link>
+      <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workshops/workshop/browse-maps-and-data/</guid>
+      <description>Polish cities data: interactive map view Hover over each Polish city to engage with statistics about the city from around the time of WWI. In addition to plebiscite vote results, there is also statistical demographic data from 1911 conveying the percentage of Polish-speaking school children in each city. Polish cities data: table view This is what the Polish cities GIS dataset looks like, displayed in tabular view in the GIS software.</description>
+    </item>
+    <item>
+      <title>In-person materials</title>
+      <link>http://localhost:1313/workshops/workshop/in-person/</link>
+      <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workshops/workshop/in-person/</guid>
+      <description>https://bit.ly/intro-1919&#xA;Slides Data Raster data service https://allmaps.xyz/maps/8d5cc5d1fec615d6/{z}/{x}/{y}.png&#xA;Vector data download Google drive link Hex codes #e0f3db&#xA;Follow-along workshop steps Tutorial version Survey Post-workshop survey </description>
+    </item>
+  </channel>
+</rss>

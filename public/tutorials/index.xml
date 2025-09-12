@@ -6,7 +6,98 @@
     <description>Recent content in Tutorials on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accessing Maps for Georeferencing</title>
+      <link>http://localhost:1313/tutorials/data-curation/accessing-maps-for-georeferencing/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/data-curation/accessing-maps-for-georeferencing/</guid>
+      <description>This guide will walk you through finding georeferenced historic maps from the Harvard Map Collection and understanding the difference between raster and vector data.&#xA;Finding a historical map to use Depending on your project topic, it may be useful to be able to compare information from historic maps against the modern layers you are working with.&#xA;Many map library special collections allow you to download versions of their maps in formats that are already spatial data, and will be compatible with GIS mapping.</description>
+    </item>
+    <item>
+      <title>Vectorizing from Historic Maps in QGIS</title>
+      <link>http://localhost:1313/tutorials/qgis-hub/vectorization/</link>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/qgis-hub/vectorization/</guid>
+      <description>This tutorial provides detailed, step-by-step instructions for digitizing features from raster (image) maps to create new vector data in QGIS. This process is essential for transforming historical maps or scanned images into analyzable geospatial datasets, enabling you to conduct spatial analyses like area calculations and attribute queries.&#xA;Set a Project Coordinate Reference System Download QGIS. Create a new QGIS project. Add a basemap to the project by going to the Browser panel, expanding XYZ Tiles and double-clicking OpenStreetMap.</description>
+    </item>
+    <item>
+      <title>ArcGIS Pro Access &amp; Support at Harvard</title>
+      <link>http://localhost:1313/tutorials/software-access/arcgis-pro/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/software-access/arcgis-pro/</guid>
+      <description>Access ArcGIS Pro On Your Own Computer Use ArcGIS Pro at the Library Lamont Media Lab Widener Atkins Reading Room Cabot Science Library Graduate School of Design (GSD) Frances Loeb Library Harvard Kennedy School (HKS) Library Access ArcGIS From Institute for Quantitative Social Science Lab Access ArcGIS from a HUIT laptop Access ArcGIS from House Commuter Labs ArcGIS Pro Tutorials and Support GIS Technical Support from the Harvard Map Collection ArcGIS Pro is a powerful, proprietary desktop GIS software developed by Esri.</description>
+    </item>
+    <item>
+      <title>Georeference in QGIS</title>
+      <link>http://localhost:1313/tutorials/qgis-hub/georeference/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/qgis-hub/georeference/</guid>
+      <description>This tutorial provides step-by-step instructions for aligning historical maps with modern geographic locations in QGIS, a process known as georeferencing.&#xA;Download QGIS, if you haven&amp;#39;t already. Add a basemap Browser &amp;rarr; XYZ Tiles &amp;rarr; Open Street Map. Set the project coordinate reference system to WGS 84. At all times in the bottom right of the QGIS document, EPSG should read 4326. Adjusting Your Project CRS Following Basemap Import Every dataset and every QGIS project each has a coordinate reference system (CRS).</description>
+    </item>
+    <item>
+      <title>Download QGIS Software</title>
+      <link>http://localhost:1313/tutorials/software-access/qgis/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/software-access/qgis/</guid>
+      <description>QGIS is a free and open-source desktop GIS software used to create, edit, visualize, analyze, and publish geospatial information on Windows, Mac, Linux, BSD and mobile devices.&#xA;How to Download Visit QGIS.org . Select Download Now. Select your desired platform. Tips If you have the option between many installer packages, choose Standalone Long Term Release. To learn your way around the QGIS interface, you can check out these resources: Understanding the QGIS Interface QGIS Documentation Installation Troubleshooting on Mac If you get an error message that Apple can&amp;rsquo;t check the app for malicious software, instead of double-clicking the icon to open the program, instead try right-clicking, and select Open.</description>
+    </item>
+    <item>
+      <title>Accessing OpenStreetMap Data Guide</title>
+      <link>http://localhost:1313/tutorials/data-curation/openstreetmap/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/data-curation/openstreetmap/</guid>
+      <description>OpenStreetMap (OSM) offers a rich and dynamic source of geospatial data, often filling gaps where traditional datasets are unavailable. This guide explores two methods for extracting OSM data, allowing you to choose the approach that best suits your project&amp;#39;s requirements: a general extraction of common features, and a more specific extraction based on feature type.&#xA;Before diving into the extraction methods, it&amp;#39;s helpful to understand the nature of OpenStreetMap data. OSM is a collaborative, crowd-contributed project, akin to Wikipedia for maps.</description>
+    </item>
+    <item>
+      <title>Add a basemap in QGIS</title>
+      <link>http://localhost:1313/tutorials/qgis-hub/basemap/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/qgis-hub/basemap/</guid>
+      <description>Basemaps can be helpful reference points when working with spatial data.&#xA;How to add a basemap to your project Open a new QGIS project. In the left-hand browser menu, locate XYZ Tiles &amp;rarr; OpenStreetMap. OpenStreetMap base tiles are built in to QGIS. Drag OpenStreetMap into the Map Canvas. Zoom in to the desired location by selecting the Zoom In menu item, and clicking and dragging on the Map Canvas. Tips To add other styles of basemap not included by default in the QGIS install, you can run a Google search about the latest QGIS plugins for basemaps.</description>
+    </item>
+    <item>
+      <title>Add Spreadsheet Data (CSV/XLSX) Tutorial</title>
+      <link>http://localhost:1313/tutorials/qgis-hub/add-spreadsheet/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/qgis-hub/add-spreadsheet/</guid>
+      <description>This tutorial will cover how to add tabular data to a QGIS project.&#xA;If your spreadsheet is saved in .XLSX format, export it as a .CSV before bringing it into QGIS. QGIS will not be able to read .XLSX. To ensure interoperability, it&#39;s best to err on the side of encoding data in open data formats, such as .csv, .geoJSON or geopackage. Once you have spreadsheet data saved in .CSV format, open QGIS .</description>
+    </item>
+    <item>
+      <title>Guide to Creating README-Style Metadata for GIS Data</title>
+      <link>http://localhost:1313/tutorials/data-curation/readme/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/data-curation/readme/</guid>
+      <description>Effective data documentation (metadata) is crucial for the long-term usability and understanding of your GIS data, whether you&amp;#39;re sharing it publicly or revisiting it years later. While creating formal metadata can seem daunting, this guide offers a flexible, prompt-based approach to help you document the context of your data.&#xA;The goal is to provide a free-form, permissive way to begin documenting the flow of ideas around your data, without the pressure of strict templates or getting it &amp;quot;wrong.</description>
+    </item>
+    <item>
+      <title>How to Download and Prepare Census Data for GIS Analysis</title>
+      <link>http://localhost:1313/tutorials/data-curation/census-data/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/data-curation/census-data/</guid>
+      <description>To effectively map and analyze social, economic, or demographic patterns using Census data in a GIS interface, this tutorial will walk you through the process of downloading and preparing data manually.&#xA;This tutorial focuses on manual data preparation using spreadsheet software. While every step in this guide details manual processes, most of these tasks &amp;ndash; including downloading, filtering, and calculating derived variables &amp;ndash; could also be efficiently performed using programming languages like Python or R, especially for larger datasets or automated workflows.</description>
+    </item>
+    <item>
+      <title>Manage Coordinate Reference Systems (CRS) Tutorial in QGIS</title>
+      <link>http://localhost:1313/tutorials/qgis-hub/crs/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/qgis-hub/crs/</guid>
+      <description>This tutorial will guide you through a straightforward, practical method to ensure all your datasets share the same coordinate reference system (CRS), allowing you to begin mapping effectively.&#xA;Understanding Coordinate Reference Systems &amp;ldquo;Map projections attempt to represent the Earth&amp;rsquo;s surface, or a portion of it, on a flat piece of paper or a computer screen. In simpler terms, map projections transform the Earth from its spherical (3D) shape to a planar (2D) one.</description>
+    </item>
+    <item>
+      <title>Partnering for Data Discovery &amp; Reuse - GIS Metadata Services Guide</title>
+      <link>http://localhost:1313/tutorials/data-curation/metadata-services/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/data-curation/metadata-services/</guid>
+      <description>Partnering for Data Discovery &amp;amp; Reuse: GIS Metadata Services Guide The Harvard Map Collection actively collects and preserves GIS data for long-term discovery and reuse in the Harvard Geospatial Library (HGL) and other platforms like Dataverse and the Open Science Framework (OSF). Whether you&amp;#39;re considering depositing your data in tools like HGL or Dataverse, seeking feedback on communicating your project&amp;#39;s GIS components, or simply beginning to explore this topic, we&amp;#39;re here to help you ensure your GIS components are well-communicated and discoverable.</description>
+    </item>
+    <item>
+      <title>Perform a table join in QGIS</title>
+      <link>http://localhost:1313/tutorials/qgis-hub/perform-a-table-join/</link>
+      <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/qgis-hub/perform-a-table-join/</guid>
+      <description>Need help turning your spreadsheet data into a map? In this tutorial, you will learn how to join tables to GIS shapefiles to create a new, mappable dataset with both geographic boundaries and statistical or attribute information.&#xA;1. Understanding Table Joins: Why Connect Data to Geography? Often, spreadsheets contain useful information we want to map. GIS software, however, does not know how to translate a spreadsheet without any inherent spatial information (such as point coordinates) into a visual map.</description>
+    </item>
   </channel>
 </rss>

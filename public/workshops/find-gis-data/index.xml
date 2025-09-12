@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Finding GIS data for your project on GIS, maps &#43; data @ Harvard Library</title>
+    <link>http://localhost:1313/workshops/find-gis-data/</link>
+    <description>Recent content in Finding GIS data for your project on GIS, maps &#43; data @ Harvard Library</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/workshops/find-gis-data/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome</title>
+      <link>http://localhost:1313/workshops/find-gis-data/welcome/</link>
+      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workshops/find-gis-data/welcome/</guid>
+      <description>Get here quickly: https://bit.ly/gis-find-data&#xA;Harvard Map Collection Map Collection website .&#xA;Scope 🚨 This is not a workshop on how to use GIS mapping software. Please consider referring to our other in-person learning opportunities or follow-along materials from previous events. 🚨 Today will focus on how to find relevant source data for a GIS project. Goals Understand the value of a few common GIS data approaches. Get a feel for the flow and pace of working with GIS data.</description>
+    </item>
+    <item>
+      <title>1. Portals</title>
+      <link>http://localhost:1313/workshops/find-gis-data/activity-1/</link>
+      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workshops/find-gis-data/activity-1/</guid>
+      <description>Explore open data portals and learn how to use them to find GIS data Explore how content may be organized and how to refine searching In class activity Consider this request a student made to the Harvard Map Collection for help with finding GIS data in 2024:&#xA;&amp;ldquo;I would like to create a GIS map of food deserts in DC by layering maps of grocery store locations, corner store locations, and other options found on Open Data DC with census data to identify areas where large populations do not have access to healthy foods.</description>
+    </item>
+    <item>
+      <title>2. Coordinates</title>
+      <link>http://localhost:1313/workshops/find-gis-data/activity-2/</link>
+      <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workshops/find-gis-data/activity-2/</guid>
+      <description>Learn where to find coordinate information for locations Learn how to format coordinates in a table so they can be opened in a map Learn how to import a table of coordinates into a GIS mapping interface In class activity Open a new spreadsheet, for example in Excel, or quickly make a new Google Sheets by typing sheets.new into a browser. Create three header columns, name, latitude, and longitude. In a new tab, navigate to Google Maps .</description>
+    </item>
+    <item>
+      <title>3. Georeferencing</title>
+      <link>http://localhost:1313/workshops/find-gis-data/activity-3/</link>
+      <pubDate>Sun, 11 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workshops/find-gis-data/activity-3/</guid>
+      <description>Understand why georeferenced maps can be useful when asking and answering spatial questions Understand how to find georeferenced maps to use in a GIS project Find out how to take next steps in using information from paper maps in a GIS project In class activity What is georeferencing? Visit Atlascope.org , search for a place in Boston or Cambridge you are interested in exploring on a historical map, and get a sense of the value of georeferencing historical maps by toggling between different georeferenced map layers.</description>
+    </item>
+    <item>
+      <title>4. OpenStreetMap</title>
+      <link>http://localhost:1313/workshops/find-gis-data/activity-4/</link>
+      <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workshops/find-gis-data/activity-4/</guid>
+      <description>Understand what OpenStreetMap (OSM) is, and how it can be helpful for finding data In class activity Visit OpenStreetMap.org , which we can think of as the Wikipedia of GIS. It is free, crowd-contributed geospatial data. Navigate to anywhere in the world you are interested in. Zoom super close in so that you can see individual features, such as buildings, roads, or bike lanes. Right-click a feature and select Query features.</description>
+    </item>
+  </channel>
+</rss>

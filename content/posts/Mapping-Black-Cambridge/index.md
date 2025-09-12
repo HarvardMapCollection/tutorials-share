@@ -1,7 +1,7 @@
 ---
 title: Mapping Black Cambridge
 date: 2024-02-01
-tags: ["news", "research story"]
+tags: ["news", "applied-projects"]
 image: old.png
 authors: ["Harvard Map Collection", "Joan Brunetta", "Eve Loftus"]
 description: Quote, 'In August 1790, the United States of America conducted its first federal census. The data collected was minimal; census takers recorded no addresses, no professions, and no names except for head of household. Household members were tallied in demographic categories race, and—for white people only—gender and age...'

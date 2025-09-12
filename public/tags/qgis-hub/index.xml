@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qgis-Hub on GIS, maps &#43; data @ Harvard Library</title>
+    <link>http://localhost:1313/tags/qgis-hub/</link>
+    <description>Recent content in Qgis-Hub on GIS, maps &#43; data @ Harvard Library</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/qgis-hub/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vectorizing from Historic Maps in QGIS</title>
+      <link>http://localhost:1313/tutorials/qgis-hub/vectorization/</link>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/qgis-hub/vectorization/</guid>
+      <description>This tutorial provides detailed, step-by-step instructions for digitizing features from raster (image) maps to create new vector data in QGIS. This process is essential for transforming historical maps or scanned images into analyzable geospatial datasets, enabling you to conduct spatial analyses like area calculations and attribute queries.&#xA;Set a Project Coordinate Reference System Download QGIS. Create a new QGIS project. Add a basemap to the project by going to the Browser panel, expanding XYZ Tiles and double-clicking OpenStreetMap.</description>
+    </item>
+    <item>
+      <title>Georeference in QGIS</title>
+      <link>http://localhost:1313/tutorials/qgis-hub/georeference/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/qgis-hub/georeference/</guid>
+      <description>This tutorial provides step-by-step instructions for aligning historical maps with modern geographic locations in QGIS, a process known as georeferencing.&#xA;Download QGIS, if you haven&amp;#39;t already. Add a basemap Browser &amp;rarr; XYZ Tiles &amp;rarr; Open Street Map. Set the project coordinate reference system to WGS 84. At all times in the bottom right of the QGIS document, EPSG should read 4326. Adjusting Your Project CRS Following Basemap Import Every dataset and every QGIS project each has a coordinate reference system (CRS).</description>
+    </item>
+    <item>
+      <title>Add a basemap in QGIS</title>
+      <link>http://localhost:1313/tutorials/qgis-hub/basemap/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/qgis-hub/basemap/</guid>
+      <description>Basemaps can be helpful reference points when working with spatial data.&#xA;How to add a basemap to your project Open a new QGIS project. In the left-hand browser menu, locate XYZ Tiles &amp;rarr; OpenStreetMap. OpenStreetMap base tiles are built in to QGIS. Drag OpenStreetMap into the Map Canvas. Zoom in to the desired location by selecting the Zoom In menu item, and clicking and dragging on the Map Canvas. Tips To add other styles of basemap not included by default in the QGIS install, you can run a Google search about the latest QGIS plugins for basemaps.</description>
+    </item>
+    <item>
+      <title>Add Spreadsheet Data (CSV/XLSX) Tutorial</title>
+      <link>http://localhost:1313/tutorials/qgis-hub/add-spreadsheet/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/qgis-hub/add-spreadsheet/</guid>
+      <description>This tutorial will cover how to add tabular data to a QGIS project.&#xA;If your spreadsheet is saved in .XLSX format, export it as a .CSV before bringing it into QGIS. QGIS will not be able to read .XLSX. To ensure interoperability, it&#39;s best to err on the side of encoding data in open data formats, such as .csv, .geoJSON or geopackage. Once you have spreadsheet data saved in .CSV format, open QGIS .</description>
+    </item>
+    <item>
+      <title>Manage Coordinate Reference Systems (CRS) Tutorial in QGIS</title>
+      <link>http://localhost:1313/tutorials/qgis-hub/crs/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/qgis-hub/crs/</guid>
+      <description>This tutorial will guide you through a straightforward, practical method to ensure all your datasets share the same coordinate reference system (CRS), allowing you to begin mapping effectively.&#xA;Understanding Coordinate Reference Systems &amp;ldquo;Map projections attempt to represent the Earth&amp;rsquo;s surface, or a portion of it, on a flat piece of paper or a computer screen. In simpler terms, map projections transform the Earth from its spherical (3D) shape to a planar (2D) one.</description>
+    </item>
+    <item>
+      <title>Perform a table join in QGIS</title>
+      <link>http://localhost:1313/tutorials/qgis-hub/perform-a-table-join/</link>
+      <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/qgis-hub/perform-a-table-join/</guid>
+      <description>Need help turning your spreadsheet data into a map? In this tutorial, you will learn how to join tables to GIS shapefiles to create a new, mappable dataset with both geographic boundaries and statistical or attribute information.&#xA;1. Understanding Table Joins: Why Connect Data to Geography? Often, spreadsheets contain useful information we want to map. GIS software, however, does not know how to translate a spreadsheet without any inherent spatial information (such as point coordinates) into a visual map.</description>
+    </item>
+  </channel>
+</rss>

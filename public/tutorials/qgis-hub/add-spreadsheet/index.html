@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>
+    
+    Add Spreadsheet Data (CSV/XLSX) Tutorial | 
+    
+    GIS, maps &#43; data @ Harvard Library
+</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="http://localhost:1313/tutorials/qgis-hub/add-spreadsheet/" />
+<link rel="icon" type="image/png" href="http://localhost:1313/image/favicon.ico">
+
+
+<meta name="description" content="
+    This tutorial will cover how to add tabular data to a QGIS project.
+If your spreadsheet is saved in .XLSX format, export it as a .CSV before bringing it into QGIS. QGIS will not be able to read .XLSX. To ensure interoperability, it&#39;s best to err on the side of encoding data in open data formats, such as .csv, .geoJSON or geopackage. Once you have spreadsheet data saved in .CSV format, open QGIS .
+    "
+/>
+<meta property="og:description" content="
+    This tutorial will cover how to add tabular data to a QGIS project.
+If your spreadsheet is saved in .XLSX format, export it as a .CSV before bringing it into QGIS. QGIS will not be able to read .XLSX. To ensure interoperability, it&#39;s best to err on the side of encoding data in open data formats, such as .csv, .geoJSON or geopackage. Once you have spreadsheet data saved in .CSV format, open QGIS .
+    " 
+/>
+
+
+<meta property="og:image" content="http://localhost:1313/tutorials/qgis-hub/add-spreadsheet/add-csv.png" />
+
+
+
+
+
+
+<meta property="og:title" content="Add Spreadsheet Data (CSV/XLSX) Tutorial" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/tutorials/qgis-hub/add-spreadsheet/" /><meta property="article:section" content="tutorials" />
+<meta property="article:published_time" content="2023-01-18T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-01-18T00:00:00+00:00" />
+
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Add Spreadsheet Data (CSV/XLSX) Tutorial">
+  <meta name="twitter:description" content="This tutorial will cover how to add tabular data to a QGIS project.
+If your spreadsheet is saved in .XLSX format, export it as a .CSV before bringing it into QGIS. QGIS will not be able to read .XLSX. To ensure interoperability, it&#39;s best to err on the side of encoding data in open data formats, such as .csv, .geoJSON or geopackage. Once you have spreadsheet data saved in .CSV format, open QGIS .">
+
+
+  <meta itemprop="name" content="Add Spreadsheet Data (CSV/XLSX) Tutorial">
+  <meta itemprop="description" content="This tutorial will cover how to add tabular data to a QGIS project.
+If your spreadsheet is saved in .XLSX format, export it as a .CSV before bringing it into QGIS. QGIS will not be able to read .XLSX. To ensure interoperability, it&#39;s best to err on the side of encoding data in open data formats, such as .csv, .geoJSON or geopackage. Once you have spreadsheet data saved in .CSV format, open QGIS .">
+  <meta itemprop="datePublished" content="2023-01-18T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2023-01-18T00:00:00+00:00">
+  <meta itemprop="wordCount" content="352">
+  <meta itemprop="keywords" content="Qgis-Hub">
+
+
+
+
+<link rel="stylesheet" href="/main.min.css">
+<link rel="stylesheet" href="https://use.typekit.net/yiq3yrx.css">
+<link rel="stylesheet" href="/typekit/stylesheet.css">
+
+
+
+
+
+<script src="/bundle.js"></script>
+
+
+
+
+
+
+
+<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body><header id="header">
+  <div class="top-bar">
+    <div class="container-md">
+
+      <div class="row align-items-center">
+
+        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
+          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <i class="fas fa-bars"></i> Menu
+          </button>
+        </div>
+
+        <div class="col-12 col-sm-12">
+          <h2 class="title"><a href="/">GIS, maps &#43; data @ Harvard Library</a></h2>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-md">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+
+
+
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/">
+              Home
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Guides and Tutorials
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/tags/software-access/">Software access</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/qgis-hub/">QGIS Hub</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/data-curation/">Data curation</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/workshops/">
+              Workshops
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/tags/applied-projects/">
+              Applied projects
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/tags/news">
+              News
+            </a>
+          </li>
+          
+          
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="blog-content">
+    <div class="container-md">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 px-lg-4">
+                
+                <div class="breadcrumb-container">
+                    <nav aria-label="breadcrumb" class="breadcrumb">
+                        <ol>
+                          
+                          ↵
+                            <li>
+                              <a href="/"> GIS, maps &#43; data @ Harvard Library</a>
+                            </li>
+                          
+                          ↵
+                            <li>
+                              <a href="/tutorials/"> Tutorials</a>
+                            </li>
+                          
+                          <li style="margin-right: 0;" class="active">
+                            👋
+                            <a aria-current="page" href="/tutorials/qgis-hub/add-spreadsheet/">Add Spreadsheet Data (CSV/XLSX) Tutorial</a>
+                          </li>
+                        </ol>
+                      </nav>
+                      </div>
+
+
+                <h1 class="title">Add Spreadsheet Data (CSV/XLSX) Tutorial</h1>
+
+                <p>This tutorial will cover how to add tabular data to a QGIS project.</p>
+<ol>
+<li>If your spreadsheet is saved in <code>.XLSX</code> format, export it as a <code>.CSV</code> before bringing it into QGIS. QGIS <strong>will not</strong> be able to read <code>.XLSX</code>.</li>
+</ol>
+<div class="alert-success">
+  To ensure interoperability, it's best to err on the side of encoding data in open data formats, such as .csv, .geoJSON or geopackage.
+  </div>
+<ol start="2">
+<li>
+<p>Once you have spreadsheet data saved in <code>.CSV</code> format, open <a href="https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-software/" target="_blank">QGIS</a>
+.</p>
+</li>
+<li>
+<p>In the main QGIS menu (banner across the top of the computer screen), select <code>Layer → Add Layer → Add delimited text layer</code>.
+<img src="media/1.png" alt="Screenshot of the add delimited text wizard in QGIS"></p>
+</li>
+<li>
+<p>Under <code>File name</code> select the ellipses dots icon to navigate to the <code>.csv</code> you wish to import.</p>
+</li>
+<li>
+<p>Pay attention to <code>Record and Field options</code>. You can start by accepting the defaults, but depending on the way your data is structured, you may want to make use of some of these settings.</p>
+</li>
+<li>
+<p>If your table&hellip;</p>
+</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>&hellip;has coordinates</th>
+<th>&hellip;does not have coordinates</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>QGIS will be able to display the rows as points. Select <code>Point coordinates</code> and define which field in the spreadsheet is <code>X</code> (longitude), and which is <code>Y</code> (latitude).</td>
+<td>Later on you&rsquo;ll <a href="/tutorials/census-data-primer/perform-a-table-join/">perform a join</a>
+. For now under <code>Geometry definition</code> select <code>No Geometry (attribute only table)</code>.</td>
+</tr>
+</tbody>
+</table>
+<ol start="7">
+<li>
+<p>Select <code>Add</code>.</p>
+</li>
+<li>
+<p>Select <code>Close</code>.</p>
+</li>
+</ol>
+<div class="alert-danger">
+<h2>Add button not highlighted?</h2>
+<p>If the "Add" button is greyed out, it is probably a sign that you have not selected a coordinate reference system. Maybe it says something like "invalid projection".</p>
+<img alt="add projection wizard" src="media/invalid-proj.png">
+<p>If you are unsure which projection to use, you can start with WGS 84. Open the dialog box by clicking where it says "invalid projection", and search for the WGS 84 code, "4326". Set this as the coordinate reference system, and then the "Add" button should re-appear.</p>
+<p>You can also <a href="https://mapping.share.library.harvard.edu/tutorials/qgis/change-crs/">Learn more about working with coordinate reference systems in QGIS</a>.</p>
+</div>
+<div class="alert-warning">
+<h2>Example data</h2>
+ <p>Please find an <a href="https://drive.google.com/file/d/1dBbqzEm3vq7zANaTiqquekefiCJIWkqd/view?usp=sharing" target="_blank" download>example spreadsheet</a> saved as a .csv with the latitude and longitude formatted correctly so that it should import as points in QGIS. </p>
+ <p>You can also <a href="https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/working-with-locations/">practice working with location data</a>, and start to visualize it in a shareable web map.</p>
+</div>
+<div class="alert-success">
+<h2>Give your feedback to improve our tutorials</h2>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeIFB5VI2ijy9pIPByQB0Ci4K49vu_2htzeW9Y71B-b3Ps_gQ/viewform?embedded=true" width="640" height="422" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+
+    <div class="site-wide-banner" style="background-color: black; font-size: 22px; color: white; padding: 10px; text-align: center; font-weight: bold; border-bottom: 2px solid #f5c6cb;">
+    This site is a project of the Harvard Map Collection. Visit <a style ="color:#81b3d7; font-family: 'truenoregular';"href="https://library.harvard.edu/libraries/harvard-map-collection" target = "_blank">our website</a> to learn more. 
+</div>
+</body>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-55D9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+</html>

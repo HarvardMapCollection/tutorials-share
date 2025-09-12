@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>
+    
+    Guide to Creating README-Style Metadata for GIS Data | 
+    
+    GIS, maps &#43; data @ Harvard Library
+</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="http://localhost:1313/tutorials/data-curation/readme/" />
+<link rel="icon" type="image/png" href="http://localhost:1313/image/favicon.ico">
+
+
+<meta name="description" content="
+    Effective data documentation (metadata) is crucial for the long-term usability and understanding of your GIS data, whether you&#39;re sharing it publicly or revisiting it years later. While creating formal metadata can seem daunting, this guide offers a flexible, prompt-based approach to help you document the context of your data.
+The goal is to provide a free-form, permissive way to begin documenting the flow of ideas around your data, without the pressure of strict templates or getting it &quot;wrong.
+    "
+/>
+<meta property="og:description" content="
+    Effective data documentation (metadata) is crucial for the long-term usability and understanding of your GIS data, whether you&#39;re sharing it publicly or revisiting it years later. While creating formal metadata can seem daunting, this guide offers a flexible, prompt-based approach to help you document the context of your data.
+The goal is to provide a free-form, permissive way to begin documenting the flow of ideas around your data, without the pressure of strict templates or getting it &quot;wrong.
+    " 
+/>
+
+
+<meta property="og:image" content="http://localhost:1313/tutorials/data-curation/readme/default-gradient.png" />
+
+
+
+
+
+
+<meta property="og:title" content="Guide to Creating README-Style Metadata for GIS Data" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/tutorials/data-curation/readme/" /><meta property="article:section" content="tutorials" />
+<meta property="article:published_time" content="2023-01-18T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-01-18T00:00:00+00:00" />
+
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Guide to Creating README-Style Metadata for GIS Data">
+  <meta name="twitter:description" content="Effective data documentation (metadata) is crucial for the long-term usability and understanding of your GIS data, whether you&#39;re sharing it publicly or revisiting it years later. While creating formal metadata can seem daunting, this guide offers a flexible, prompt-based approach to help you document the context of your data.
+The goal is to provide a free-form, permissive way to begin documenting the flow of ideas around your data, without the pressure of strict templates or getting it &#34;wrong.">
+
+
+  <meta itemprop="name" content="Guide to Creating README-Style Metadata for GIS Data">
+  <meta itemprop="description" content="Effective data documentation (metadata) is crucial for the long-term usability and understanding of your GIS data, whether you&#39;re sharing it publicly or revisiting it years later. While creating formal metadata can seem daunting, this guide offers a flexible, prompt-based approach to help you document the context of your data.
+The goal is to provide a free-form, permissive way to begin documenting the flow of ideas around your data, without the pressure of strict templates or getting it &#34;wrong.">
+  <meta itemprop="datePublished" content="2023-01-18T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2023-01-18T00:00:00+00:00">
+  <meta itemprop="wordCount" content="657">
+  <meta itemprop="keywords" content="Data-Curation">
+
+
+
+
+<link rel="stylesheet" href="/main.min.css">
+<link rel="stylesheet" href="https://use.typekit.net/yiq3yrx.css">
+<link rel="stylesheet" href="/typekit/stylesheet.css">
+
+
+
+
+
+<script src="/bundle.js"></script>
+
+
+
+
+
+
+
+<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body><header id="header">
+  <div class="top-bar">
+    <div class="container-md">
+
+      <div class="row align-items-center">
+
+        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
+          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <i class="fas fa-bars"></i> Menu
+          </button>
+        </div>
+
+        <div class="col-12 col-sm-12">
+          <h2 class="title"><a href="/">GIS, maps &#43; data @ Harvard Library</a></h2>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-md">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+
+
+
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/">
+              Home
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Guides and Tutorials
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/tags/software-access/">Software access</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/qgis-hub/">QGIS Hub</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/data-curation/">Data curation</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/workshops/">
+              Workshops
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/tags/applied-projects/">
+              Applied projects
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/tags/news">
+              News
+            </a>
+          </li>
+          
+          
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="blog-content">
+    <div class="container-md">
+        <div class="row">
+            
+            <div class="col-lg-2 d-none d-xl-block">
+                <div class="ad-left-offset"></div>
+                
+            </div>
+
+            
+
+            <div class="col-md-12 col-lg-8 px-lg-4">
+                
+
+
+                <div class="breadcrumb-container">
+                    <nav aria-label="breadcrumb" class="breadcrumb">
+                        <ol>
+                          
+                          ↵
+                            <li>
+                              <a href="/"> GIS, maps &#43; data @ Harvard Library</a>
+                            </li>
+                          
+                          ↵
+                            <li>
+                              <a href="/tutorials/"> Tutorials</a>
+                            </li>
+                          
+                          <li style="margin-right: 0;" class="active">
+                            👋
+                            <a aria-current="page" href="/tutorials/data-curation/readme/">Guide to Creating README-Style Metadata for GIS Data</a>
+                          </li>
+                        </ol>
+                      </nav>
+                      </div>
+
+                      <h1 class="title">Guide to Creating README-Style Metadata for GIS Data</h1>
+
+                <div class="container-fluid px-0 mb-4">
+                    <div class="row align-items-end">
+                        <div class="col-md-8 date-time">
+                            
+                            <span class="date">
+    Jan 18, 2023
+</span>
+                            &centerdot;
+                            <span class="time-to-read">
+    4 mins read</span>
+                        </div>
+
+                        <div class="col-md-4 tags ">
+                            
+                            <a href="/tags/data-curation"><span
+                                    class="tag bg-dark">data-curation</span></a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <p>Effective data documentation (metadata) is crucial for the long-term usability and understanding of your GIS data, whether you&#39;re sharing it publicly or revisiting it years later. While creating formal metadata can seem daunting, this guide offers a flexible, prompt-based approach to help you document the context of your data.</p>
+<p>The goal is to provide a free-form, permissive way to begin documenting the flow of ideas around your data, without the pressure of strict templates or getting it &quot;wrong.&quot; This allows you to start documenting your work now, preventing the loss of crucial context that often occurs when formal requirements feel overwhelming. These prompts are designed as thought-starters; choose to answer as much or as little as you find helpful.</p>
+<p>Completing this guide can serve as an excellent starting point for a deeper consultation with our team, or simply as a valuable personal record for your project.</p>
+<h3>Prompts for Creating Your README-Style Metadata:</h3>
+<ul>
+	<li><strong>Originator(s):</strong> The name(s) of the organization(s) or individual(s) who developed the dataset.</li>
+	<li><strong>Publication date:</strong> The date when the dataset is published or otherwise made available for release.</li>
+	<li><strong>Calendar date(s) of the content:</strong> The date, dates, or date range describing the content of the dataset.</li>
+	<li><strong>Title:</strong> A clear and descriptive title for the dataset.</li>
+	<li><strong>Geospatial data presentation form:</strong> The mode in which the geospatial data are represented (e.g., &quot;vector digital data,&quot; &quot;raster digital data&quot;).</li>
+	<li><strong>Abstract:</strong> A brief narrative description of the dataset, summarizing its content and purpose.</li>
+	<li><strong>Motivations:</strong> The reason why the dataset was developed or intentions for its use. If you created the data yourself, or augmented existing data, how does the work add value to the current data landscape? (i.e., what are the project&#39;s successes?)</li>
+	<li><strong>Data sources:</strong> If you obtained and edited data from elsewhere, the source of the original datasets and date accessed.</li>
+	<li><strong>Body of work:</strong> Is this data related to any larger bodies of work or projects which could help explain the methods or content? Please include links to any relevant citations.</li>
+	<li><strong>Process steps and methods:</strong> A sequential explanation of the step-by-step process for creating or editing the data.</li>
+	<li><strong>Challenges:</strong> Difficult aspects of working with the data, or words-to-the-wise for someone else endeavoring to work with it.</li>
+	<li><strong>Key highlights (&quot;pride points&quot;):</strong> If you were showing this dataset to someone for the first time, which aspects would you draw attention to, and why? Which columns do you think are the most important and valuable?</li>
+	<li><strong>Relationships:</strong> If there are multiple datasets, processing scripts, or other resources in the project, describe their filenames and how the materials relate to or were used with one another.</li>
+	<li><strong>Data integrity:</strong> If values are missing, or fields are blank, instructions for future users for making sense of possible reasons why. You can also provide any guidance on how you were thinking about &quot;accuracy&quot; for this project.</li>
+	<li><strong>Codebooks:</strong> If you cleaned data, deleted, renamed, mathematically calculated or inferred fields from other fields, the filename and link to a plain-text codebook with field name definitions, including units of measurement.</li>
+	<li><strong>Taxonomies:</strong> If you used any taxonomic authorities, provide the reference and any modifications.</li>
+	<li><strong>Completion and maintenance:</strong> Acknowledging that projects are seldom &quot;finished&quot; or &quot;perfect,&quot; what, in your estimation, marks this submission as &quot;complete&quot;? Speak a little about the data&#39;s current status, and anticipated maintenance frequency (e.g., &quot;annually,&quot; &quot;never&quot;).</li>
+	<li><strong>Point of contact:</strong> Contact information for an individual or organization that is knowledgeable about the dataset (person/organization, e-mail, etc.).</li>
+	<li><strong>Access constraints:</strong> Restrictions on accessing the data.</li>
+	<li><strong>Use constraints:</strong> Restrictions on the use of the data (e.g., &quot;For educational non-commercial use only. This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License, CC BY-NC-SA 4.0 DEED (<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">https://creativecommons.org/licenses/by-nc-sa/4.0/</a>)&quot;).</li>
+</ul>
+<h3>Next Steps &amp; More Resources:</h3>
+<p>To formalize your metadata or for in-depth consultation on your GIS data project, schedule a guided interview with our team through <a href="https://guides.library.harvard.edu/c.php?g=1477394&amp;p=11028580" target="_blank">Partnering for Data Discovery &amp; Reuse: GIS Metadata Services Guide</a>.</p>
+<ul>
+	<li><a href="https://guides.library.cornell.edu/data_management/readme" target="_blank">Guide to writing &quot;readme&quot; style metadata</a> from Cornell Data Services</li>
+	<li><a href="https://www.usgs.gov/media/files/metadata-questionnaire-form" target="_blank">Metadata Questionnaire Form</a> from the United States Geological Survey (U.S.G.S.)</li>
+</ul>
+
+
+
+                
+                <br>
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    (function () {
+        
+        
+        if (window.location.hostname == "localhost")
+            return;
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = '';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>
+
+            <div class="col-lg-2 d-none d-xl-block">
+                <div class="ad-right-offset"></div>
+                
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+    <div class="site-wide-banner" style="background-color: black; font-size: 22px; color: white; padding: 10px; text-align: center; font-weight: bold; border-bottom: 2px solid #f5c6cb;">
+    This site is a project of the Harvard Map Collection. Visit <a style ="color:#81b3d7; font-family: 'truenoregular';"href="https://library.harvard.edu/libraries/harvard-map-collection" target = "_blank">our website</a> to learn more. 
+</div>
+</body>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-55D9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+</html>

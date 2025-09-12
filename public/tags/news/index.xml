@@ -6,8 +6,15 @@
     <description>Recent content in News on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vectorizing Historic Maps for Spatial Analysis</title>
+      <link>http://localhost:1313/projects/adler/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/adler/</guid>
+      <description>Generating Geospatial Data from Historic Maps: A Step-by-Step Guide This project illustrates a core methodology supported by the Harvard Map Collection: transforming static historic maps into analyzable geospatial data. Through our partnership with Joyce Chaplin&amp;#39;s &amp;#39;Re-Wilding Harvard&amp;#39; course, this initiative empowered students to investigate the evolving histories and changing natures of open space within Harvard&amp;#39;s campus and its surroundings, showcasing the library&amp;#39;s critical role in digital scholarship.&#xA;Hannah Adler &amp;#39;25, a student from the course, undertook an ambitious project focusing on the Charles River region of Harvard&amp;#39;s campus, particularly the area near Memorial Drive in Cambridge.</description>
+    </item>
     <item>
       <title>Faces Behind the Data, Anna He and the Harvard Geospatial Library</title>
       <link>http://localhost:1313/posts/faces-behind-the-data-anna-he/</link>

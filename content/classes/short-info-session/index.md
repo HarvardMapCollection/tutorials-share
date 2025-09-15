@@ -2,7 +2,7 @@
 title: Harvard Maps GIS Services in 4 stories
 date: 2025-09-15
 tags: ["class"]
-image: map.png
+image: illegal-mining.png
 layout: class
 description: Informational slides about Harvard Map Collection services and how to make use of them
 ---

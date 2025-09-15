@@ -25,10 +25,12 @@ _Map sketch by HKS student Justine Baillart._
 3. Students make use of GIS resources beyond class projects.
 
 ![Amazon deforestation](../media/illegal-mining.png)
+_Map by Luisa Shida._
 
 ![Hannah in waders](../media/ha1.png)
 
 ![Map of old agricultural zones](../media/ha2.png)
+_Map by Hannah Adler._
 
 ## Story #4
 

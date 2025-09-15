@@ -6,7 +6,21 @@
     <description>Recent content in Classes on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Mon, 15 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/classes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Harvard Maps GIS Services in 4 stories</title>
+      <link>http://localhost:1313/classes/short-info-session/</link>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/classes/short-info-session/</guid>
+      <description>Story #1 A student needed help finding geospatial data and we made them a step-by-step tutorial. Here is the tutorial to obtain crowd-sourced OpenStreetMap data developed for the student. Story #2 A student was still developing the concept for their mapping project and used their initial Harvard Maps consult to brainstorm and sketch out ideas. Map sketch by HKS student Justine Baillart.&#xA;Story #3 Students make use of GIS resources beyond class projects.</description>
+    </item>
+    <item>
+      <title>Harvard Map Collection</title>
+      <link>http://localhost:1313/classes/intro-to-map-collection/</link>
+      <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/classes/intro-to-map-collection/</guid>
+      <description>Classes GSD: Spatial Analysis Fall 2021 presentation .&#xA;Map created by GSD students Aeshna Prasad, Michael Lidwin, Megan Mcglinchey, and Mehvish Jamal working with the Map Collection.&#xA;Data management OldNYC: Mapping Historic Photographs at the NYPL .&#xA;1880 census from Archive.org .&#xA;ArcGIS Map comparing 1890 atlas to today.&#xA;Harvard Geospatial Library (HGL) - demo Research Record from Harvard Map Collection card catalog .&#xA;Services and Resources Tutorials The Harvard Map Collection maintains a series of tutorials, guides, and updates about mapmaking.</description>
+    </item>
   </channel>
 </rss>

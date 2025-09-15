@@ -3,6 +3,50 @@
       
       
 	  <url>
+	    <loc>http://localhost:1313/tags/class/</loc>
+	    <lastmod>2025-09-15</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/classes/short-info-session/</loc>
+	    <lastmod>2025-09-15</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/</loc>
+	    <lastmod>2025-09-15</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/tags/</loc>
+	    <lastmod>2025-09-15</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
 	    <loc>http://localhost:1313/tutorials/data-curation/accessing-maps-for-georeferencing/</loc>
 	    <lastmod>2025-09-12</lastmod>
         
@@ -36,29 +80,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/</loc>
-	    <lastmod>2025-09-12</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
 	    <loc>http://localhost:1313/tags/news/</loc>
-	    <lastmod>2025-09-12</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/</loc>
 	    <lastmod>2025-09-12</lastmod>
         
 
@@ -135,140 +157,8 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/tags/class/</loc>
-	    <lastmod>2024-09-29</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/history/1473/fall-2024/</loc>
-	    <lastmod>2024-09-29</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/history/1473/</loc>
-	    <lastmod>2024-09-27</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/history/</loc>
-	    <lastmod>2024-09-24</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/hks/dpi-852m/</loc>
-	    <lastmod>2024-09-22</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/hks/dpi-852m/fall-2024/</loc>
-	    <lastmod>2024-09-22</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/hks/</loc>
-	    <lastmod>2024-09-22</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/haa/174p/</loc>
-	    <lastmod>2024-09-12</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/haa/</loc>
-	    <lastmod>2024-09-12</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/government/1008/fall-2024/</loc>
-	    <lastmod>2024-08-29</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/sociology/</loc>
-	    <lastmod>2024-08-29</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
 	    <loc>http://localhost:1313/posts/adler-delta/</loc>
 	    <lastmod>2024-08-27</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/sociology/sociol-90gis/fall-2024/</loc>
-	    <lastmod>2024-08-24</lastmod>
         
 
         
@@ -751,39 +641,6 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/classes/programs/cga-institute/data-management-workshop/</loc>
-	    <lastmod>2024-05-17</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/history/re-wilding/</loc>
-	    <lastmod>2024-02-12</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/history/re-wilding/spring-2024/</loc>
-	    <lastmod>2024-02-12</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
 	    <loc>http://localhost:1313/posts/mapping-black-cambridge/</loc>
 	    <lastmod>2024-02-01</lastmod>
         
@@ -850,28 +707,6 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/classes/programs/dcwg/</loc>
-	    <lastmod>2023-06-05</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/programs/dcwg/summer-2023/</loc>
-	    <lastmod>2023-06-05</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
 	    <loc>http://localhost:1313/tutorials/software-access/arcgis-pro/</loc>
 	    <lastmod>2023-06-01</lastmod>
         
@@ -885,28 +720,6 @@
 	  <url>
 	    <loc>http://localhost:1313/tags/software-access/</loc>
 	    <lastmod>2023-06-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/programs/scdg/spring-2023/</loc>
-	    <lastmod>2023-04-10</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/programs/scdg/</loc>
-	    <lastmod>2023-04-10</lastmod>
         
 
         
@@ -982,6 +795,17 @@
       
       
 	  <url>
+	    <loc>http://localhost:1313/tutorials/data-curation/metadata-services/</loc>
+	    <lastmod>2023-01-18</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
 	    <loc>http://localhost:1313/tutorials/data-curation/readme/</loc>
 	    <lastmod>2023-01-18</lastmod>
         
@@ -1005,17 +829,6 @@
       
 	  <url>
 	    <loc>http://localhost:1313/tutorials/qgis-hub/crs/</loc>
-	    <lastmod>2023-01-18</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tutorials/data-curation/metadata-services/</loc>
 	    <lastmod>2023-01-18</lastmod>
         
 
@@ -1125,117 +938,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/classes/emr/155/fall-2022/</loc>
-	    <lastmod>2022-12-19</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/english/90dr/fall-2022/</loc>
-	    <lastmod>2022-12-19</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/english/90ln/fall-2022/</loc>
-	    <lastmod>2022-12-19</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/general-education/1140/fall-2022/</loc>
-	    <lastmod>2022-12-19</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/government/1008/fall-2022/</loc>
-	    <lastmod>2022-12-19</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/hunap/naiswg/fall-2022/</loc>
-	    <lastmod>2022-12-19</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/programs/cga-institute/intro-to-map-collection/</loc>
-	    <lastmod>2022-12-19</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/anthropology/2030/spring-2023/</loc>
-	    <lastmod>2022-12-19</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/english/195bd/spring-2023/</loc>
-	    <lastmod>2022-12-19</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/government/94dn/spring-2023/</loc>
-	    <lastmod>2022-12-19</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/history/3920/spring-2023/</loc>
+	    <loc>http://localhost:1313/classes/intro-to-map-collection/</loc>
 	    <lastmod>2022-12-19</lastmod>
         
 
@@ -1268,216 +971,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/classes/history/97p/</loc>
-	    <lastmod>2022-02-11</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/history/97p/spring-2023/</loc>
-	    <lastmod>2022-02-11</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/womgen/1274/spring-2023/</loc>
-	    <lastmod>2022-02-11</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/government/1008/</loc>
-	    <lastmod>2022-01-17</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/general-education/1140/</loc>
-	    <lastmod>2022-01-17</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/womgen/1274/</loc>
-	    <lastmod>2022-01-17</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/emr/155/</loc>
-	    <lastmod>2022-01-17</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/english/195bd/</loc>
-	    <lastmod>2022-01-17</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/anthropology/2030/</loc>
-	    <lastmod>2022-01-17</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/history/3920/</loc>
-	    <lastmod>2022-01-17</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/english/90dr/</loc>
-	    <lastmod>2022-01-17</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/english/90ln/</loc>
-	    <lastmod>2022-01-17</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/government/94dn/</loc>
-	    <lastmod>2022-01-17</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/anthropology/</loc>
-	    <lastmod>2022-01-17</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/programs/cga-institute/</loc>
-	    <lastmod>2022-01-17</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
 	    <loc>http://localhost:1313/classes/</loc>
-	    <lastmod>2022-01-17</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/english/</loc>
-	    <lastmod>2022-01-17</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/emr/</loc>
-	    <lastmod>2022-01-17</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/general-education/</loc>
-	    <lastmod>2022-01-17</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/government/</loc>
 	    <lastmod>2022-01-17</lastmod>
         
 
@@ -1499,41 +993,8 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/classes/hunap/</loc>
-	    <lastmod>2022-01-17</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/womgen/</loc>
-	    <lastmod>2022-01-17</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
 	    <loc>http://localhost:1313/posts/city-fictions/</loc>
 	    <lastmod>2021-12-16</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/classes/programs/</loc>
-	    <lastmod>2021-12-11</lastmod>
         
 
         

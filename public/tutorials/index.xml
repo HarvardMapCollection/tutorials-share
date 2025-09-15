@@ -65,6 +65,13 @@
       <description>This tutorial will cover how to add tabular data to a QGIS project.&#xA;If your spreadsheet is saved in .XLSX format, export it as a .CSV before bringing it into QGIS. QGIS will not be able to read .XLSX. To ensure interoperability, it&#39;s best to err on the side of encoding data in open data formats, such as .csv, .geoJSON or geopackage. Once you have spreadsheet data saved in .CSV format, open QGIS .</description>
     </item>
     <item>
+      <title>GIS Data Management Consultation Service Guide</title>
+      <link>http://localhost:1313/tutorials/data-curation/metadata-services/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/data-curation/metadata-services/</guid>
+      <description>The Harvard Map Collection actively collects and preserves GIS data for long-term discovery and reuse in the Harvard Geospatial Library (HGL) and other platforms like Dataverse and the Open Science Framework (OSF). Whether you&amp;#39;re considering depositing your data in tools like HGL or Dataverse, seeking feedback on communicating your project&amp;#39;s GIS components, or simply beginning to explore this topic, we&amp;#39;re here to help you ensure your GIS components are well-communicated and discoverable.</description>
+    </item>
+    <item>
       <title>Guide to Creating README-Style Metadata for GIS Data</title>
       <link>http://localhost:1313/tutorials/data-curation/readme/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
@@ -84,13 +91,6 @@
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/qgis-hub/crs/</guid>
       <description>This tutorial will guide you through a straightforward, practical method to ensure all your datasets share the same coordinate reference system (CRS), allowing you to begin mapping effectively.&#xA;Understanding Coordinate Reference Systems &amp;ldquo;Map projections attempt to represent the Earth&amp;rsquo;s surface, or a portion of it, on a flat piece of paper or a computer screen. In simpler terms, map projections transform the Earth from its spherical (3D) shape to a planar (2D) one.</description>
-    </item>
-    <item>
-      <title>Partnering for Data Discovery &amp; Reuse - GIS Metadata Services Guide</title>
-      <link>http://localhost:1313/tutorials/data-curation/metadata-services/</link>
-      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/data-curation/metadata-services/</guid>
-      <description>Partnering for Data Discovery &amp;amp; Reuse: GIS Metadata Services Guide The Harvard Map Collection actively collects and preserves GIS data for long-term discovery and reuse in the Harvard Geospatial Library (HGL) and other platforms like Dataverse and the Open Science Framework (OSF). Whether you&amp;#39;re considering depositing your data in tools like HGL or Dataverse, seeking feedback on communicating your project&amp;#39;s GIS components, or simply beginning to explore this topic, we&amp;#39;re here to help you ensure your GIS components are well-communicated and discoverable.</description>
     </item>
     <item>
       <title>Perform a table join in QGIS</title>

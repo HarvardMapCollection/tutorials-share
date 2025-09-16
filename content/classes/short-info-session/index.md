@@ -6,6 +6,10 @@ image: illegal-mining.png
 layout: class
 description: Informational slides about Harvard Map Collection services and how to make use of them
 ---
+
+![Map room](../media/nora-poetry.png)
+_Photo credit: Honora Spicer._
+
 ## Story #1
 1. A student needed help finding geospatial data and we made them a step-by-step tutorial. 
 
@@ -43,15 +47,14 @@ _Map by Hannah Adler._
 
 
 
-
-
 ### Consultations
 
 ![Harvard Map Collection website](../media/harvardmapcollection_website.png)
 _The best way to find maps or data is to make an appointment on the [Harvard Map Collection website](https://library.harvard.edu/libraries/harvard-map-collection)._
 
+![List of most downloaded datasets in HGL](../media/top-hgl.png)
 
 ### Questions
-Or, you can follow up with any questions by emailing:
+Follow up with any questions by emailing:
 `belle_lipton@harvard.edu`
 

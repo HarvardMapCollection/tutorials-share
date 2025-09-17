@@ -14,6 +14,7 @@ description: Information about how to access and use ArcGIS Pro and other ESRI p
     - [Cabot Science Library](#cabot-science-library)
     - [Graduate School of Design (GSD) Frances Loeb Library](#graduate-school-of-design-gsd-frances-loeb-library)
     - [Harvard Kennedy School (HKS) Library](#cabot-science-library)
+    - [Countway Library](#countway-library)
 - [Access ArcGIS From Institute for Quantitative Social Science Lab](#access-arcgis-from-institute-for-quantitative-social-science-lab)
 - [Access ArcGIS from a HUIT laptop](#request-a-laptop)
 - [Access ArcGIS from House Commuter Labs](#access-arcgis-from-house-commuter-labs)
@@ -72,6 +73,11 @@ All Harvard affiliates can use ArcGIS Pro on the 5 PCs in the [HKS Library](http
 ##### Harvard Kennedy School Students
 
 HKS students with a HUID can borrow 3-hour loaner laptops from the HKS Library Services Desk. These loaner laptops include ArcGIS Pro.
+
+#### Countway Library
+
+The Countway Library at the Harvard Longwood Boston campus has a computer lab with 12 PCs with ArcGIS Pro installed. The computer lab is located on the L2 floor of the building. The lab is open any time the building is open. Harvard ID is required to enter the building. 
+
 
 ### Access ArcGIS From Institute for Quantitative Social Science Lab
 

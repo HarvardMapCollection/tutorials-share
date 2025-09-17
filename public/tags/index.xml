@@ -58,55 +58,6 @@
       <description></description>
     </item>
     <item>
-      <title>Census</title>
-      <link>http://localhost:1313/tags/census/</link>
-      <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/census/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Felt</title>
-      <link>http://localhost:1313/tags/felt/</link>
-      <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/felt/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data Topics</title>
-      <link>http://localhost:1313/tags/data-topics/</link>
-      <pubDate>Sun, 21 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/data-topics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>File-Formats</title>
-      <link>http://localhost:1313/tags/file-formats/</link>
-      <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/file-formats/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Spatial-Analysis</title>
-      <link>http://localhost:1313/tags/spatial-analysis/</link>
-      <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/spatial-analysis/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Georeferencing</title>
-      <link>http://localhost:1313/tags/georeferencing/</link>
-      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/georeferencing/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Vectorization</title>
-      <link>http://localhost:1313/tags/vectorization/</link>
-      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/vectorization/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Test-Template</title>
       <link>http://localhost:1313/tags/test-template/</link>
       <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
@@ -118,6 +69,13 @@
       <link>http://localhost:1313/tags/software-access/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/software-access/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>File-Formats</title>
+      <link>http://localhost:1313/tags/file-formats/</link>
+      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/file-formats/</guid>
       <description></description>
     </item>
   </channel>

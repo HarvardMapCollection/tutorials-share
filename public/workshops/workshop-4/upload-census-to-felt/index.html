@@ -260,30 +260,30 @@
 <p>We don&rsquo;t want to choose either of those options. We want to map our data as <em>polygons</em>, because having the polygon shapes will allow us to shade each unique region with a different color to visualize population density. To play around with different graduated color schemes, check out the mapping website <a href="https://colorbrewer2.org/#type=sequential&amp;scheme=BuGn&amp;n=3" target="_blank">Color Brewer</a>
 .</p>
 <table>
-<thead>
-<tr>
-<th><strong>GEOID</strong></th>
-<th><strong>County</strong></th>
-<th><strong>Pct_Nonwhite</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1400000US36001000100</td>
-<td>Albany County</td>
-<td>66.7994687915007</td>
-</tr>
-<tr>
-<td>1400000US36001000201</td>
-<td>Bronx County</td>
-<td>84.2596348884381</td>
-</tr>
-<tr>
-<td>1400000US36001000401</td>
-<td>Kings County</td>
-<td>10.7779226423294</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th><strong>GEOID</strong></th>
+          <th><strong>County</strong></th>
+          <th><strong>Pct_Nonwhite</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1400000US36001000100</td>
+          <td>Albany County</td>
+          <td>66.7994687915007</td>
+      </tr>
+      <tr>
+          <td>1400000US36001000201</td>
+          <td>Bronx County</td>
+          <td>84.2596348884381</td>
+      </tr>
+      <tr>
+          <td>1400000US36001000401</td>
+          <td>Kings County</td>
+          <td>10.7779226423294</td>
+      </tr>
+  </tbody>
 </table>
 <p>Notice how in the table above, there is both a column for <code>GEOID</code> (the field we would use to join our data to matching polygons), <em>and</em> a column listing which county each census tract is contained by. If we uploaded a dataset like this to Felt, there is a chance Felt could trying to use the <code>County</code> field to treat as the spreadsheet geography, and instead of joining the <code>GEOID</code> field, it would place the data as dots on the map representing county centroids.</p>
 <p>To avoid this and ensure your census spreadsheet data will join up with census polygons, it&rsquo;s best to do some pre-processing cleaning of your spreadsheet, and remove any redundant geography columns you don&rsquo;t need for your map.</p>

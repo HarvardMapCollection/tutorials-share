@@ -13,7 +13,7 @@
       <link>http://localhost:1313/workshops/workshop-4/spatial-analysis/</link>
       <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/workshops/workshop-4/spatial-analysis/</guid>
-      <description>We are working with a lot of different layers! We can look at the maps and visually assess the information, but a better way to start understanding our data is using some GIS spatial analysis methods.&#xA;Buffer First, let&amp;rsquo;s explore the relationship between the fitness classes and basketball courts to public transportation. We&amp;rsquo;re going to create a ten-minute walking buffer around all subway stops to try to identify locations which are not within a 10-minute walk to transit.</description>
+      <description>&lt;p&gt;We are working with a lot of different layers! We can look at the maps and visually assess the information, but a better way to start understanding our data is using some GIS spatial analysis methods.&lt;/p&gt;&#xA;&lt;h2 id=&#34;buffer&#34;&gt;Buffer&lt;/h2&gt;&#xA;&lt;p&gt;First, let&amp;rsquo;s explore the relationship between the fitness classes and basketball courts to public transportation. We&amp;rsquo;re going to create a ten-minute walking buffer around all subway stops to try to identify locations which are not within a 10-minute walk to transit.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

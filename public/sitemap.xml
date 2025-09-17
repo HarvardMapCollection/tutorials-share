@@ -14,7 +14,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/classes/short-info-session/</loc>
+	    <loc>http://localhost:1313/</loc>
 	    <lastmod>2025-09-15</lastmod>
         
 
@@ -25,7 +25,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/</loc>
+	    <loc>http://localhost:1313/classes/short-info-session/</loc>
 	    <lastmod>2025-09-15</lastmod>
         
 
@@ -432,193 +432,6 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/workshops/workshop-4/in-person/</loc>
-	    <lastmod>2024-07-24</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/census/</loc>
-	    <lastmod>2024-07-23</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/felt/</loc>
-	    <lastmod>2024-07-23</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/workshops/workshop-4/registration/</loc>
-	    <lastmod>2024-07-23</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/workshops/workshop-4/what-are-we-mapping/</loc>
-	    <lastmod>2024-07-22</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/data-topics/</loc>
-	    <lastmod>2024-07-21</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/workshops/workshop-4/poverty-rate/</loc>
-	    <lastmod>2024-07-21</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/workshops/workshop-4/non-white-population/</loc>
-	    <lastmod>2024-07-20</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/file-formats/</loc>
-	    <lastmod>2024-07-19</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/workshops/workshop-4/working-with-locations/</loc>
-	    <lastmod>2024-07-19</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/workshops/workshop-4/upload-census-to-felt/</loc>
-	    <lastmod>2024-07-19</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/workshops/workshop-4/spatial-analysis/</loc>
-	    <lastmod>2024-07-18</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/spatial-analysis/</loc>
-	    <lastmod>2024-07-18</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/workshops/workshop-4/archival-maps/</loc>
-	    <lastmod>2024-07-17</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/georeferencing/</loc>
-	    <lastmod>2024-07-17</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/vectorization/</loc>
-	    <lastmod>2024-07-17</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/workshops/workshop-4/exporting-data/</loc>
-	    <lastmod>2024-07-08</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
 	    <loc>http://localhost:1313/posts/off-the-beaten-path/</loc>
 	    <lastmod>2024-07-01</lastmod>
         
@@ -862,6 +675,17 @@
       
 	  <url>
 	    <loc>http://localhost:1313/workshops/workshop/introduction/</loc>
+	    <lastmod>2023-01-06</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/tags/file-formats/</loc>
 	    <lastmod>2023-01-06</lastmod>
         
 

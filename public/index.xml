@@ -6,8 +6,15 @@
     <description>Recent content on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dive into the Putumayo &#34;World Music&#34; archive</title>
+      <link>http://localhost:1313/posts/putumayo/</link>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/putumayo/</guid>
+      <description>&lt;p&gt;We met Natalia Neira Nieto, a G1 in the Ethnomusicology Department this summer when she was completing work for a library fellowship. Natalia&amp;rsquo;s work this summer was focused on wrangling geographic data about an important recording collection held in the Harvard Eda Kuhn Loeb Music Library.&lt;/p&gt;&#xA;&lt;p&gt;Natalia&amp;rsquo;s project, in addition to exploring the subject matter related to her area of study, ethomusicology, uncovered many insights about the complexities and real-world impact that decision making within data projects can entail. Her work perfectly encapsulates what one can expect when embarking on a thoughtfully-scoped data project. We are happy to share her reflections.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Harvard Maps GIS Services in 4 stories</title>
       <link>http://localhost:1313/classes/short-info-session/</link>

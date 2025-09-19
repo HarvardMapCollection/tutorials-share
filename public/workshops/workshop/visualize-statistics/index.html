@@ -15,27 +15,11 @@
 
 
 <meta name="description" content="
-    Exploring the Polish cities dataset
-
-
-Now, let&rsquo;s familiarize ourselves with the Polish cities statistical data. Right-click on the poland-stats layer in the Layer Panel and select Open Attribute Table.
-
-
-
-You should see a table where each row is one of the Polish cities on the map, and each layer is a statistical figure about that city. Take a look and try to make sense of the table.
-
+    Exploring the Polish cities dataset Now, let&rsquo;s familiarize ourselves with the Polish cities statistical data. Right-click on the poland-stats layer in the Layer Panel and select Open Attribute Table. You should see a table where each row is one of the Polish cities on the map, and each layer is a statistical figure about that city. Take a look and try to make sense of the table. You may have noticed that the field headers are not easy to understand.
     "
 />
 <meta property="og:description" content="
-    Exploring the Polish cities dataset
-
-
-Now, let&rsquo;s familiarize ourselves with the Polish cities statistical data. Right-click on the poland-stats layer in the Layer Panel and select Open Attribute Table.
-
-
-
-You should see a table where each row is one of the Polish cities on the map, and each layer is a statistical figure about that city. Take a look and try to make sense of the table.
-
+    Exploring the Polish cities dataset Now, let&rsquo;s familiarize ourselves with the Polish cities statistical data. Right-click on the poland-stats layer in the Layer Panel and select Open Attribute Table. You should see a table where each row is one of the Polish cities on the map, and each layer is a statistical figure about that city. Take a look and try to make sense of the table. You may have noticed that the field headers are not easy to understand.
     " 
 />
 
@@ -59,11 +43,11 @@ You should see a table where each row is one of the Polish cities on the map, an
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="5. Visualize statistics">
-  <meta name="twitter:description" content="Exploring the Polish cities dataset Now, let’s familiarize ourselves with the Polish cities statistical data. Right-click on the poland-stats layer in the Layer Panel and select Open Attribute Table. You should see a table where each row is one of the Polish cities on the map, and each layer is a statistical figure about that city. Take a look and try to make sense of the table.">
+  <meta name="twitter:description" content="Exploring the Polish cities dataset Now, let’s familiarize ourselves with the Polish cities statistical data. Right-click on the poland-stats layer in the Layer Panel and select Open Attribute Table. You should see a table where each row is one of the Polish cities on the map, and each layer is a statistical figure about that city. Take a look and try to make sense of the table. You may have noticed that the field headers are not easy to understand.">
 
 
   <meta itemprop="name" content="5. Visualize statistics">
-  <meta itemprop="description" content="Exploring the Polish cities dataset Now, let’s familiarize ourselves with the Polish cities statistical data. Right-click on the poland-stats layer in the Layer Panel and select Open Attribute Table. You should see a table where each row is one of the Polish cities on the map, and each layer is a statistical figure about that city. Take a look and try to make sense of the table.">
+  <meta itemprop="description" content="Exploring the Polish cities dataset Now, let’s familiarize ourselves with the Polish cities statistical data. Right-click on the poland-stats layer in the Layer Panel and select Open Attribute Table. You should see a table where each row is one of the Polish cities on the map, and each layer is a statistical figure about that city. Take a look and try to make sense of the table. You may have noticed that the field headers are not easy to understand.">
   <meta itemprop="datePublished" content="2023-01-02T00:00:00+00:00">
   <meta itemprop="dateModified" content="2023-01-02T00:00:00+00:00">
   <meta itemprop="wordCount" content="791">
@@ -272,7 +256,8 @@ You should see a table where each row is one of the Polish cities on the map, an
 </li>
 </ol>
 <blockquote>
-<p>QGIS had been symbolizing each city with the same, singular symbology. We are now telling it we want to symbolize the values so they gradually get larger based on the values within our data.</p></blockquote>
+<p>QGIS had been symbolizing each city with the same, singular symbology. We are now telling it we want to symbolize the values so they gradually get larger based on the values within our data.</p>
+</blockquote>
 <ol start="4">
 <li>
 <p>We need to tell the program <em>which</em> column or attribute we want to create graduated symbology based on. Let&rsquo;s select <code>P0001</code>, which as we learned from our codebook, is the percent of Polish-speaking school children in each city. Use the drop-down next to <code>Value</code> and select <code>P0001</code>.
@@ -304,7 +289,8 @@ You should see a table where each row is one of the Polish cities on the map, an
 </ol>
 <blockquote>
 <p>We are going to emulate the comparative proportional symbol style of this hand-drawn map in the Harvard Map Collection&rsquo;s digital collections. This map from 1911 shows Polish school children (in black) compared to German school children (in white) in the pie charts, scaled by size depending on the total number of children who lived in that city. We are going to apply the same symbology to look at votes for Germany vs. votes for Poland in the plebiscite result.
-<img src="media/poland-old-map.png" alt="Screenshot of old hand-drawn map of Poland showing pie chart symbols for German vs. Polish schoolchildren"></p></blockquote>
+<img src="media/poland-old-map.png" alt="Screenshot of old hand-drawn map of Poland showing pie chart symbols for German vs. Polish schoolchildren"></p>
+</blockquote>
 <ol start="12">
 <li>
 <p>The QGIS program handles pie-chart maps as <code>Diagrams</code>, rather than <code>Symbology</code>, as we have been working with so far. Click the <code>Diagrams</code> tab in the <code>Layer Properties</code>.
@@ -337,7 +323,8 @@ You should see a table where each row is one of the Polish cities on the map, an
 <li>Set the size to <code>10.0</code>, and switch the <code>Scale</code> from <code>Area</code> to <code>Diameter</code>.
 The dialog box should look like this when you&rsquo;re all done:
 <img src="media/size-params.png" alt="Screenshot of the settings populated in the diagram size menu in QGIS"></li>
-</ul></blockquote>
+</ul>
+</blockquote>
 <ol start="18">
 <li>Select <code>OK</code>. Your map should now look like this, with the symbol showing two comparative variables for each city.
 <img src="media/pies-done.png" alt="Screenshot of completed pie charts"></li>

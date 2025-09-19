@@ -3,8 +3,19 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/tags/class/</loc>
-	    <lastmod>2025-09-15</lastmod>
+	    <loc>http://localhost:1313/tags/applied-projects/</loc>
+	    <lastmod>2025-09-18</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/posts/putumayo/</loc>
+	    <lastmod>2025-09-18</lastmod>
         
 
         
@@ -15,6 +26,50 @@
       
 	  <url>
 	    <loc>http://localhost:1313/</loc>
+	    <lastmod>2025-09-18</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/tags/news/</loc>
+	    <lastmod>2025-09-18</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/posts/</loc>
+	    <lastmod>2025-09-18</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/tags/</loc>
+	    <lastmod>2025-09-18</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/tags/class/</loc>
 	    <lastmod>2025-09-15</lastmod>
         
 
@@ -36,17 +91,6 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/tags/</loc>
-	    <lastmod>2025-09-15</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
 	    <loc>http://localhost:1313/tutorials/data-curation/accessing-maps-for-georeferencing/</loc>
 	    <lastmod>2025-09-12</lastmod>
         
@@ -58,29 +102,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/tags/applied-projects/</loc>
-	    <lastmod>2025-09-12</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
 	    <loc>http://localhost:1313/tags/data-curation/</loc>
-	    <lastmod>2025-09-12</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/news/</loc>
 	    <lastmod>2025-09-12</lastmod>
         
 
@@ -136,17 +158,6 @@
       
 	  <url>
 	    <loc>http://localhost:1313/tags/interview/</loc>
-	    <lastmod>2024-12-20</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/posts/</loc>
 	    <lastmod>2024-12-20</lastmod>
         
 

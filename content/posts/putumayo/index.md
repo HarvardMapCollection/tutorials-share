@@ -74,7 +74,7 @@ Another interesting thing I encountered while working with this collection was d
  
 ## Next steps
 - To access Natalia's maps and data, visit her data [project repository](https://osf.io/g7sk2/?view_only=b8c940520917488c8e0fcf298ecedd52) in the Open Science Framework.
-- To learn more about the world music archive, and other collections at the Eda Kuhn Loeb Music Library, visit the Music Library's [Ethnomusicology research guide](https://guides.library.harvard.edu/c.php?g=310120&p=6879889).
+- To learn more about the Archive of World Music and other collections at the Eda Kuhn Loeb Music Library, visit the Music Library's [Ethnomusicology research guide](https://guides.library.harvard.edu/c.php?g=310120&p=6879889).
 - To request similar support with a mapping project, please [reach out](https://ask.library.harvard.edu/maps?_gl=1*1l9zbvl*_ga*NTc3NDAzMzIxLjE3NTgyMDk1NzE.*_ga_3CXC97RWEK*czE3NTgyMTc5MjUkbzIkZzEkdDE3NTgyMTgxNjQkajUxJGwwJGgw) to the Harvard Map Collection.
  
 

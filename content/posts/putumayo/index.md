@@ -7,7 +7,7 @@ authors: ["Harvard Map Collection", "Natalia Neira Nieto"]
 description: Follow a research project from a music industry database to a global map. See how data cleaning and GIS reveal the hidden geography of the Putumayo World Music collection.
 ---
 
-We met Natalia Neira Nieto, a G1 in the Ethnomusicology Department this summer when she was completing work for a library fellowship. Natalia's work this summer was focused on wrangling geographic data about an important recording collection held in the Harvard Eda Kuhn Loeb Music Library. 
+We met Natalia Neira Nieto, a G1 in the Music Department's Ethnomusicology program this summer when she was completing work for a library fellowship. Natalia's work this summer was focused on wrangling geographic data about an important recording collection held in the Harvard Eda Kuhn Loeb Music Library. 
 
 Natalia's project, in addition to exploring the subject matter related to her area of study, ethomusicology, uncovered many insights about the complexities and real-world impact that decision making within data projects can entail. Her work perfectly encapsulates what one can expect when embarking on a thoughtfully-scoped data project. We are happy to share her reflections.
 
@@ -23,12 +23,12 @@ Part of the maps I did included three in which I separated the data into three-t
 
 
 <div class="img-zoom">
-  <img src="map.png" style="width:100%; max-height:70em;" alt="map showing country of origin for artists catalogged as 'Latin Music.'">
+  <img src="map.png" style="width:100%; max-height:70em;" alt="map showing country of origin for artists classified within the region of ‘Latin America’ and ‘Caribbean.'">
 </div>
 
-*Map by Natalia Neira Nieto showing the country of origin of artists who are classfied as "Latin Music" in the Putumayo recording collection database.*
+*Map by Natalia Neira Nieto showing the country of origin of artists who are classified within the region of ‘Latin America’ and ‘Caribbean in the Putumayo recording collection database.*
 
-<span style="font-family:lorabold;color:#5f0217;">BELLE:</span> Natalia, you mentioned that doing this geographic visualization helped you identify some specific examples of artists from other countries of origin who are tagged as "Latin Music." This helped you understand the phenomenon more closely. Can you share some examples you found?
+<span style="font-family:lorabold;color:#5f0217;">BELLE:</span> Natalia, you mentioned that doing this geographic visualization helped you identify some specific examples of artists from other countries of origin who are categorized as being in the region of Latin America and/or the Caribbean. This helped you understand the phenomenon more closely. Can you share some examples you found?
 
 <iframe width="100%" height="600px;" src="https://www.youtube.com/embed/BSpPdkCR4JE?si=Nx8B-WIMKTWSKesc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

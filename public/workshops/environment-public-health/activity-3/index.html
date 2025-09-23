@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>
+    
+    3. Georeferencing | 
+    
+    GIS, maps &#43; data @ Harvard Library
+</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="http://localhost:1313/workshops/environment-public-health/activity-3/" />
+<link rel="icon" type="image/png" href="http://localhost:1313/image/favicon.ico">
+
+
+<meta name="description" content="
+    Understand the value of georeferenced maps and how to start using them in a GIS project.
+    "
+/>
+<meta property="og:description" content="
+    Understand the value of georeferenced maps and how to start using them in a GIS project.
+    " 
+/>
+
+
+<meta property="og:image" content="http://localhost:1313/workshops/environment-public-health/activity-3/cover.png" />
+
+
+
+
+
+
+<meta property="og:title" content="3. Georeferencing" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/workshops/environment-public-health/activity-3/" /><meta property="article:section" content="workshops" />
+<meta property="article:published_time" content="2024-08-11T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-08-11T00:00:00+00:00" />
+
+
+
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/workshops/environment-public-health/activity-3/cover.png">
+  <meta name="twitter:title" content="3. Georeferencing">
+  <meta name="twitter:description" content="Understand the value of georeferenced maps and how to start using them in a GIS project.">
+
+
+  <meta itemprop="name" content="3. Georeferencing">
+  <meta itemprop="description" content="Understand the value of georeferenced maps and how to start using them in a GIS project.">
+  <meta itemprop="datePublished" content="2024-08-11T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-08-11T00:00:00+00:00">
+  <meta itemprop="wordCount" content="426">
+  <meta itemprop="image" content="http://localhost:1313/workshops/environment-public-health/activity-3/cover.png">
+
+
+
+
+<link rel="stylesheet" href="/main.min.css">
+<link rel="stylesheet" href="https://use.typekit.net/yiq3yrx.css">
+<link rel="stylesheet" href="/typekit/stylesheet.css">
+
+
+
+
+
+<script src="/bundle.js"></script>
+
+
+
+
+
+
+
+<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body><header id="header">
+  <div class="top-bar">
+    <div class="container-md">
+
+      <div class="row align-items-center">
+
+        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
+          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <i class="fas fa-bars"></i> Menu
+          </button>
+        </div>
+
+        <div class="col-12 col-sm-12">
+          <h2 class="title"><a href="/">GIS, maps &#43; data @ Harvard Library</a></h2>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-md">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+
+
+
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/">
+              Home
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Guides and Tutorials
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/tags/software-access/">Software access</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/qgis-hub/">QGIS Hub</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/data-curation/">Data curation</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/workshops/">
+              Workshops
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/tags/applied-projects/">
+              Applied projects
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/tags/news">
+              News
+            </a>
+          </li>
+          
+          
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="blog-content">
+    <div class="container-md">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 px-lg-4">
+                
+                <div class="breadcrumb-container">
+                    <nav aria-label="breadcrumb" class="breadcrumb">
+                        <ol>
+                          
+                          ↵
+                            <li>
+                              <a href="/"> GIS, maps &#43; data @ Harvard Library</a>
+                            </li>
+                          
+                          ↵
+                            <li>
+                              <a href="/workshops/"> Harvard Library GIS Workshops </a>
+                            </li>
+                          
+                          ↵
+                            <li>
+                              <a href="/workshops/environment-public-health/"> Environment and public health</a>
+                            </li>
+                          
+                          <li style="margin-right: 0;" class="active">
+                            👋
+                            <a aria-current="page" href="/workshops/environment-public-health/activity-3/">3. Georeferencing</a>
+                          </li>
+                        </ol>
+                      </nav>
+                      </div>
+
+
+                <h1 class="title">3. Georeferencing</h1>
+
+                <ul>
+<li>Understand why georeferenced maps can be useful when asking and answering spatial questions</li>
+<li>Understand how to find georeferenced maps to use in a GIS project</li>
+<li>Find out how to take next steps in using information from paper maps in a GIS project</li>
+</ul>
+<h2 id="in-class-activity">In class activity</h2>
+<h3 id="what-is-georeferencing">What is georeferencing?</h3>
+<blockquote>
+<ol>
+<li>Visit <a href="https://www.atlascope.org/" target="_blank">Atlascope.org</a>
+, search for a place in Boston or Cambridge you are interested in exploring on a historical map, and get a sense of the value of georeferencing historical maps by toggling between different georeferenced map layers.</li>
+</ol></blockquote>
+<h3 id="how-to-search-for-harvard-maps-that-are-already-georeferenced">How to search for Harvard Maps that are already georeferenced</h3>
+<blockquote>
+<ol start="2">
+<li>Visit the <a href="https://hgl.harvard.edu/?_gl=1*1y0xlw4*_ga*NTcxOTEzNDcyLjE3MjE4NTI2NzQ.*_ga_3CXC97RWEK*MTcyNDQzNTUyMC4yNy4wLjE3MjQ0MzU1MjAuNjAuMC4w" target="_blank">Harvard Geospatial Library (HGL)</a>
+.</li>
+</ol></blockquote>
+<p><img src="hgl-search.png" alt="HGL Search"></p>
+<blockquote>
+<ol start="3">
+<li>Click the <code>Search</code> button.</li>
+</ol></blockquote>
+<blockquote>
+<ol start="4">
+<li>In the left-hand side facets, under <code>Institution</code> choose <code>Harvard</code> and under <code>Format</code> choose <code>GeoTIFF</code>.</li>
+</ol></blockquote>
+<blockquote>
+<ol start="5">
+<li>Click on some results. Select <code>Click to Wake</code> on the map to see the georeferenced map layer.</li>
+</ol></blockquote>
+<blockquote>
+<ol start="6">
+<li>Notice the <code>Download GeoTIFF</code> button which gives a file that will work in QGIS.</li>
+</ol></blockquote>
+<hr>
+<h2 id="demo-and-explore-more">Demo and explore more</h2>
+<h3 id="sample-data">Sample data</h3>
+<p>You can download and explore sample datasets related to this activity from the workshop data homepage, hosted on the Open Science Framework (OSF.io)</p>
+<blockquote>
+<ol>
+<li>Visit the <a href="https://osf.io/exnyg" target="_blank">workshop data homepage</a>
+.</li>
+</ol></blockquote>
+<blockquote>
+<ol start="2">
+<li>Click the three vertical dots icon and select <code>Download</code>.
+<img src="../media/download.png" alt="OSF data download page"></li>
+</ol></blockquote>
+<blockquote>
+<ol start="3">
+<li>The folder that downloads to your computer contains sample data from all the workshop activities. It is a zipped or compressed file. In order to use it, you will have to <code>double-click</code> it on Mac or <code>right-click</code> → <code>Extract</code> or <code>Uncompress</code> on a PC.</li>
+</ol></blockquote>
+<div class="alert-success">
+<p>4. The sample data for this activity, <strong>Activity 3</strong> is in the folder <code>activity3_georeferencing</code>. In this folder you will find the following files:
+</p>
+<ul>
+<li><code>G7625_1897_W2.tif</code>, a georeferenced TIFF image of the <a href="https://id.lib.harvard.edu/alma/990126040650203941/catalog">Afghanistan-Pakistan Border Region, 1897</a>.</li>
+</ul>
+</div>
+<h3 id="follow-along-steps">Follow-along steps</h3>
+<ol>
+<li>Search in <a href="https://hollis.harvard.edu/primo-explore/search?query=any,contains,massachusetts&amp;tab=books&amp;search_scope=default_scope&amp;vid=HVD2&amp;facet=library,include,map&amp;lang=en_US&amp;offset=0" target="_blank">HOLLIS</a>
+ using the term &ldquo;Massachusetts&rdquo; making sure to filter for <code>Library Catalog</code> and <code>Location</code> = <code>Harvard Map Collection</code>.</li>
+<li>Any map that says <code>Online Access</code> can be georeferenced in a web browser. For the class demo we will use the map <a href="https://hollis.harvard.edu/primo-explore/fulldisplay?docid=01HVD_ALMA212094551850003941&amp;context=L&amp;vid=HVD2&amp;lang=en_US&amp;search_scope=default_scope&amp;adaptor=Local%20Search%20Engine&amp;tab=books&amp;query=any%2Ccontains%2Cmassachusetts&amp;facet=library%2Cinclude%2Cmap&amp;facet=searchcreationdate%2Cinclude%2C1800%7C%2C%7C1950&amp;offset=30" target="_blank">Map of Massachusetts : exhibiting the Representative, Senatorial and Councillor districts</a>
+.</li>
+<li>For the class demo we will georeference this map using <a href="https://editor.allmaps.org/" target="_blank">AllMaps</a>
+, and then display the new georeferenced layer in QGIS. The demo steps can be replicated using two guides: <a href="https://mapping.share.library.harvard.edu/tutorials/georeferencing/selecting-a-map/" target="_blank">Select a map to georeference</a>
+ ; <a href="https://mapping.share.library.harvard.edu/tutorials/georeferencing/allmaps/" target="_blank">Georeference collections with Allmaps</a>
+.</li>
+<li>If the scanned image of the map is not streaming online via HOLLIS, you will need to obtain a hard copy of the image on your computer and use QGIS to georeference it. The sample layer included with this activity, <code>G7625_1897_W2.tif</code> is an example of this process. <br><a href="https://library.harvard.edu/libraries/harvard-map-collection" target="_blank">Make an appointment</a>
+ ; <a href="https://mapping.share.library.harvard.edu/tutorials/georeferencing/qgis/" target="_blank">Georeference with QGIS</a>
+.</li>
+</ol>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+
+    <div class="site-wide-banner" style="background-color: black; font-size: 22px; color: white; padding: 10px; text-align: center; font-weight: bold; border-bottom: 2px solid #f5c6cb;">
+    This site is a project of the Harvard Map Collection. Visit <a style ="color:#81b3d7; font-family: 'truenoregular';"href="https://library.harvard.edu/libraries/harvard-map-collection" target = "_blank">our website</a> to learn more. 
+</div>
+</body>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-55D9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+</html>

@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>
+    
+    4. Import Datasets | 
+    
+    GIS, maps &#43; data @ Harvard Library
+</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="http://localhost:1313/workshops/archival/import-datasets/" />
+<link rel="icon" type="image/png" href="http://localhost:1313/image/favicon.ico">
+
+
+<meta name="description" content="
+    To review the difference between raster and vector data, visit the Introduction
+.
+Raster data
+
+
+If you haven&rsquo;t already, download and install QGIS
+.
+
+
+Open QGIS.
+
+
+Open a New Empty Project.
+
+
+In the left-hand Browser menu, find the dropdown titled XYZ tiles.
+
+
+
+Expand the XYZ tiles dropown and double-click OpenStreetMap to add a basemap to your project. The basemap exists in the background of the project to give us a reference while we are working.
+    "
+/>
+<meta property="og:description" content="
+    To review the difference between raster and vector data, visit the Introduction
+.
+Raster data
+
+
+If you haven&rsquo;t already, download and install QGIS
+.
+
+
+Open QGIS.
+
+
+Open a New Empty Project.
+
+
+In the left-hand Browser menu, find the dropdown titled XYZ tiles.
+
+
+
+Expand the XYZ tiles dropown and double-click OpenStreetMap to add a basemap to your project. The basemap exists in the background of the project to give us a reference while we are working.
+    " 
+/>
+
+
+<meta property="og:image" content="http://localhost:1313/workshops/archival/import-datasets/gradient2.png" />
+
+
+
+
+
+
+<meta property="og:title" content="4. Import datasets" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/workshops/archival/import-datasets/" /><meta property="article:section" content="workshops" />
+<meta property="article:published_time" content="2023-01-03T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-01-03T00:00:00+00:00" />
+
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="4. Import datasets">
+  <meta name="twitter:description" content="To review the difference between raster and vector data, visit the Introduction .
+Raster data If you haven’t already, download and install QGIS .
+Open QGIS.
+Open a New Empty Project.
+In the left-hand Browser menu, find the dropdown titled XYZ tiles. Expand the XYZ tiles dropown and double-click OpenStreetMap to add a basemap to your project. The basemap exists in the background of the project to give us a reference while we are working.">
+
+
+  <meta itemprop="name" content="4. Import datasets">
+  <meta itemprop="description" content="To review the difference between raster and vector data, visit the Introduction .
+Raster data If you haven’t already, download and install QGIS .
+Open QGIS.
+Open a New Empty Project.
+In the left-hand Browser menu, find the dropdown titled XYZ tiles. Expand the XYZ tiles dropown and double-click OpenStreetMap to add a basemap to your project. The basemap exists in the background of the project to give us a reference while we are working.">
+  <meta itemprop="datePublished" content="2023-01-03T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2023-01-03T00:00:00+00:00">
+  <meta itemprop="wordCount" content="960">
+
+
+
+
+<link rel="stylesheet" href="/main.min.css">
+<link rel="stylesheet" href="https://use.typekit.net/yiq3yrx.css">
+<link rel="stylesheet" href="/typekit/stylesheet.css">
+
+
+
+
+
+<script src="/bundle.js"></script>
+
+
+
+
+
+
+
+<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body><header id="header">
+  <div class="top-bar">
+    <div class="container-md">
+
+      <div class="row align-items-center">
+
+        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
+          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <i class="fas fa-bars"></i> Menu
+          </button>
+        </div>
+
+        <div class="col-12 col-sm-12">
+          <h2 class="title"><a href="/">GIS, maps &#43; data @ Harvard Library</a></h2>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-md">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+
+
+
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/">
+              Home
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Guides and Tutorials
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/tags/software-access/">Software access</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/qgis-hub/">QGIS Hub</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/data-curation/">Data curation</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/workshops/">
+              Workshops
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/tags/applied-projects/">
+              Applied projects
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/tags/news">
+              News
+            </a>
+          </li>
+          
+          
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="blog-content">
+    <div class="container-md">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 px-lg-4">
+                
+                <div class="breadcrumb-container">
+                    <nav aria-label="breadcrumb" class="breadcrumb">
+                        <ol>
+                          
+                          ↵
+                            <li>
+                              <a href="/"> GIS, maps &#43; data @ Harvard Library</a>
+                            </li>
+                          
+                          ↵
+                            <li>
+                              <a href="/workshops/"> Harvard Library GIS Workshops </a>
+                            </li>
+                          
+                          ↵
+                            <li>
+                              <a href=""> Using GIS with archival sources</a>
+                            </li>
+                          
+                          <li style="margin-right: 0;" class="active">
+                            👋
+                            <a aria-current="page" href="/workshops/archival/import-datasets/">4. Import datasets</a>
+                          </li>
+                        </ol>
+                      </nav>
+                      </div>
+
+
+                <h1 class="title">4. Import Datasets</h1>
+
+                <p>To review the difference between raster and vector data, visit the <a href="/resources/new-to-gis/workshop/introduction/">Introduction</a>
+.</p>
+<h2 id="raster-data">Raster data</h2>
+<ol>
+<li>
+<p>If you haven&rsquo;t already, <a href="https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-software/" target="_blank">download and install QGIS</a>
+.</p>
+</li>
+<li>
+<p>Open QGIS.</p>
+</li>
+<li>
+<p>Open a <code>New Empty Project</code>.</p>
+</li>
+<li>
+<p>In the left-hand <code>Browser</code> menu, find the dropdown titled <code>XYZ tiles</code>.
+<img src="media/6.png" alt="Screenshot of XYZ tiles in the QGIS browser menu interface"></p>
+</li>
+<li>
+<p>Expand the <code>XYZ tiles</code> dropown and double-click <code>OpenStreetMap</code> to add a basemap to your project. The basemap exists in the background of the project to give us a reference while we are working.</p>
+</li>
+<li>
+<p>In the banner that runs across the top of the QGIS project, find the <code>Zoom in</code> button. Select this button.
+<img src="media/7.png" alt="Screenshot of the QGIS interface showing the top banner with the Zoom in button highlighted"></p>
+</li>
+<li>
+<p>Click and hold to drag a square around Europe. You can also scroll in and out on your mouse to Zoom in and out. To pan around the map without zooming, engage the <code>Pan map</code> button, which looks like a hand.
+<img src="media/zoompan.gif" alt="GIF of zooming and panning around the QGIS map document"></p>
+</li>
+<li>
+<p>In the left-hand browser menu, right-click <code>XYZ Tiles</code> and select <code>New Connection</code>.
+<img src="media/9.png" alt="Screenshot of New XYZ tile connection menu option in QGIS"></p>
+</li>
+</ol>
+<blockquote>
+<p>We are adding the map of Poland nationalities. This map has already been georeferenced. Georeferencing maps like this one allows us to overlay it onto other maps and directly compare maps and data of the same area. The map is currently hosted online as a streaming data layer. We can bring it into our project by specifying in QGIS what the layer URL is.</p></blockquote>
+<ol start="9">
+<li>
+<p>In the XYZ Connection wizard, title the new layer <code>Poland Nationalities 1919</code>.</p>
+</li>
+<li>
+<p>Copy and paste the following link into where it asks for a URL: <code>https://allmaps.xyz/maps/8d5cc5d1fec615d6/{z}/{x}/{y}.png</code>
+<img src="media/25.png" alt="Screenshot of XYZ Connection wizard in QGIS"></p>
+</li>
+</ol>
+<blockquote>
+<p>To learn how we georeferenced this <a href="https://iiif.lib.harvard.edu/manifests/view/ids:445002895" target="_blank">map from our Digital Collections</a>
+, you can follow <a href="https://harvardmapcollection.github.io/tutorials/allmaps/georeference/" target="_blank">this tutorial</a>
+.</p></blockquote>
+<ol start="11">
+<li>
+<p>Accept all other defaults. Select <code>OK</code>.</p>
+</li>
+<li>
+<p>Make sure the dropdown caret next to <code>XYZ Tiles</code> in the browser menu is expanded. To add the Poland Nationalities 1919 map layer to your QGIS project, double-click on <code>Poland Nationalities 1919</code>. You should be able to see the old map overlaid on the basemap now.</p>
+</li>
+</ol>
+<blockquote>
+<p>It might take a few moments to render. As you zoom in and pan around, you are querying the map data at different zoom levels. The resolution should improve as it finishes loading.</p></blockquote>
+<h2 id="vector-data">Vector data</h2>
+<ol>
+<li>
+<p>Download <a href="https://drive.google.com/file/d/1cKUtwbPIaWjvI_a_zD-Su_fItkA9u5UT/view?usp=sharing" target="_blank">the zipped data from this Google Drive link</a>
+.</p>
+</li>
+<li>
+<p>Uncompress the zipped data folder. If you need help unzipping folders, follow <a href="https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/" target="_blank">the steps on this website</a>
+.</p>
+</li>
+<li>
+<p>In the very top QGIS program menu, select <code>Layer → Add Layer → Add Vector Layer</code>.
+<img src="media/13.png" alt="Screenshot of Add Vector Layer menu option in QGIS"></p>
+</li>
+<li>
+<p>In the Data Source Manager, Under <code>Source</code>, click the ellipsis next to <code>Vector dataset(s)</code>. This will open your computer&rsquo;s files. Navigate to where you downloaded and unzipped the project data. In the <code>allenstein-region</code> folder, select the file <code>allenstein-region.shp</code>.
+<img src="media/add-shp.gif" alt="GIF of navigating to find the right shapefile file"></p>
+</li>
+<li>
+<p>Select <code>Open</code>.</p>
+</li>
+<li>
+<p>Select <code>Add</code> and <code>Close</code>. The <code>allenstein-region</code> layer should now appear in your layer list, and on your map.</p>
+</li>
+<li>
+<p>Follow the same prompts to add the Polish cities statistical data. In the Data Source Manager, Under <code>Source</code>, click the ellipsis next to <code>Vector dataset(s)</code>. This will open your computer&rsquo;s files. Navigate to where you downloaded and unzipped the project data. In the <code>poland-stats</code> folder, select the file <code>poland-stats.shp</code>.</p>
+</li>
+<li>
+<p>Select <code>Open</code>.</p>
+</li>
+<li>
+<p>Select <code>Add</code> and <code>Close</code>. The <code>poland-stats</code> layer should now appear in your layer list, and on your map. Your map document should look something like this.
+<img src="media/2-5.png" alt="Screenshot of the QGIS document showing all three layers">
+<em>All three layers, the georeferenced map, the allenstein region, and the polish cities statistics.</em></p>
+</li>
+<li>
+<p>Let&rsquo;s make this data a little easier to work with. Double-click the <code>allenstein-region</code> layer in the <code>Layers Panel</code>. This will open up the <code>Layer Properties</code> for the <code>allenstein-region</code> shapefile.
+<img src="media/layer-props1.gif" alt="GIF of double-clicking the layer in the layer list to open the properties"></p>
+</li>
+<li>
+<p>Select the <code>Symbology</code> tab from the Layer Properties menu.
+<img src="media/2-6.png" alt="Screenshot of the Symbology layer properties in QGIS"></p>
+</li>
+<li>
+<p>We want to change the symbology on the plebiscite region layer so that instead of QGIS symbolizing the region as a solid shape, it is just a border around the region. Select where it says <code>Simple Fill</code>.
+<img src="media/simple-fill.gif" alt="GIF of clicking on the Simple Fill button in the Symbology Properties Menu"></p>
+</li>
+<li>
+<p>In the <code>Fill Style</code> drop-down, change <code>Solid</code> to <code>No Brush</code>.
+<img src="media/no-brush.gif" alt="Screenshot of Fill style symbology options in QGIS"></p>
+</li>
+<li>
+<p>Let&rsquo;s change the border outline, or &ldquo;Stroke&rdquo;, to a color and width that appears a bit more prominently against the detail of the bold colors on the historic map. Click the colorful bar which appears to the right of the <code>Stroke Color</code> option to open the <code>Select Stroke Color</code> menu.
+<img src="media/select-fill-color.gif" alt="GIF of clicking on the select stroke color menu"></p>
+</li>
+<li>
+<p>We&rsquo;re going to use a light greenish color which will pop against the map background. Paste the color code for this color into where it says <code>HTML notation</code>. The value to paste in is <code>#e0f3db</code>
+<img src="media/color-code.gif" alt="GIF of pasting in the correct color code"></p>
+</li>
+</ol>
+<blockquote>
+<p>To learn more about color codes, check out <a href="https://htmlcolorcodes.com/" target="_blank">htmlcolorcodes.com</a>
+.</p></blockquote>
+<ol start="13">
+<li>
+<p>Increase the <code>Stroke Width</code> to <code>1.0</code>.
+<img src="media/stroke-width.gif" alt="Screenshot of the Stroke width symbology options in QGIS"></p>
+</li>
+<li>
+<p>Select <code>OK</code></p>
+</li>
+<li>
+<p>This works better for us, because now we can see the extent of the plebiscite region, but can also &ldquo;peer under&rdquo; the layer to see the details of the historic map. Your map should look something like this.
+<img src="media/2-7.png" alt="Screenshot of map with the allenstein region layer&rsquo;s symbology adjusted"></p>
+</li>
+<li>
+<p>Now let&rsquo;s label the Allenstein region. Double-click the <code>allenstein-region</code> layer in the <code>Layers Panel</code> again, to open up the <code>Layer Properties</code>.
+<img src="media/layer-props2.gif" alt="GIF of double-clicking the layer in the layer list to open the properties"></p>
+</li>
+<li>
+<p>Select the <code>Labels</code> tab in the <code>Layer Properties</code> menu.
+<img src="media/2-8.png" alt="Screenshot of the Label tab in the Layer Properties menu"></p>
+</li>
+<li>
+<p>Select the drop-down that says <code>No Labels</code>, and change it to <code>Single Labels</code>.
+<img src="media/single-labels.gif" alt="GIF of changing no labels to single labels in the label interface"></p>
+</li>
+<li>
+<p>Select the <code>Text</code> tab, and change the size of the label to <code>14.0</code>.
+<img src="media/text-size.gif" alt="GIF of changing the text size"></p>
+</li>
+<li>
+<p>Click the color bar next to <code>Color</code> and paste <code>#eee</code> as the color code into the <code>HTML notation</code> field.<br>
+<img src="media/text-color.gif" alt="GIF of changing the text color"></p>
+</li>
+<li>
+<p>Let&rsquo;s add a drop shadow to make the label stand out better against the map background. Select the label tab called <code>Shadow</code>, and toggle on <code>Draw drop shadow</code>.
+<img src="media/drop-shadow.gif" alt="GIF of toggling on the drop shadow"></p>
+</li>
+<li>
+<p>Select <code>OK</code>. Your map should now look like this, with the Allenstein region outlined and labeled.
+<img src="media/2-10.png" alt="Screenshot of the map with the allenstein region labeled"></p>
+</li>
+<li>
+<p>The points representing the Polish cities in the <code>poland-stats</code> layer are also quite small and difficult to see. Let&rsquo;s make them bigger. Double-click the <code>poland-stats</code> layer in the <code>Layers Panel</code> to open the <code>Layer Properties</code>.</p>
+</li>
+<li>
+<p>Select the <code>Symbology</code> tab.</p>
+</li>
+<li>
+<p>Select where it says <code>Simple Marker</code>.
+<img src="media/simple-marker.gif" alt="GIF of selecting simple marker from the Layer Properties symbology tab"></p>
+</li>
+<li>
+<p>In the text box next to <code>Size</code>, change the marker size to <code>6.0</code>.
+<img src="media/marker-size.gif" alt="GIF of changing the marker size from 2.0 to 6.0 in the QGIS layer properties symbology interface"></p>
+</li>
+<li>
+<p>Select <code>OK</code>. Your map should look something like this.
+<img src="media/2-11.png" alt="Screenshot of the current map state, showing the cities layer with larger points"></p>
+</li>
+</ol>
+<p><a href="/resources/new-to-gis/workshop/visualize-statistics/">Next lesson: 5. Visualize statistics →</a>
+</p>
+<p><a href="/resources/new-to-gis/workshop/data-overview/">← Previous lesson: 3. Data overview</a>
+</p>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+
+    <div class="site-wide-banner" style="background-color: black; font-size: 22px; color: white; padding: 10px; text-align: center; font-weight: bold; border-bottom: 2px solid #f5c6cb;">
+    This site is a project of the Harvard Map Collection. Visit <a style ="color:#81b3d7; font-family: 'truenoregular';"href="https://library.harvard.edu/libraries/harvard-map-collection" target = "_blank">our website</a> to learn more. 
+</div>
+</body>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-55D9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+</html>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Environment and public health on GIS, maps &#43; data @ Harvard Library</title>
+    <link>http://localhost:1313/workshops/environment-public-health/</link>
+    <description>Recent content in Environment and public health on GIS, maps &#43; data @ Harvard Library</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/workshops/environment-public-health/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intro</title>
+      <link>http://localhost:1313/workshops/environment-public-health/intro/</link>
+      <pubDate>Sat, 17 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workshops/environment-public-health/intro/</guid>
+      <description>&lt;p&gt;Intro&#xA;Stories&#xA;GIS useful for environment + public health&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>1. Searching for and understanding data</title>
+      <link>http://localhost:1313/workshops/environment-public-health/1-searching-for-understanding-data/</link>
+      <pubDate>Fri, 16 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workshops/environment-public-health/1-searching-for-understanding-data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2. Opening and understanding GIS files</title>
+      <link>http://localhost:1313/workshops/environment-public-health/2-opening-understanding-files/</link>
+      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workshops/environment-public-health/2-opening-understanding-files/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Visualizing data</title>
+      <link>http://localhost:1313/workshops/environment-public-health/3-visualizing-data/</link>
+      <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workshops/environment-public-health/3-visualizing-data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Follow-up resources</title>
+      <link>http://localhost:1313/workshops/environment-public-health/resources/</link>
+      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workshops/environment-public-health/resources/</guid>
+      <description>&lt;p&gt;Follow-up resources&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

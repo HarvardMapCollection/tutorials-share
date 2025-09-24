@@ -51,6 +51,27 @@
       <description>&lt;p&gt;Early one August morning, I found myself donning borrowed fishing waders on the banks of a restored tidal wetland in Northern California. Thanks to a Salata Institute grant, I spent a week studying the Sacramento San-Joaquin River Delta alongside biometeorology experts. After exploring maps of the region through my assistantship with the Harvard Map Collection, I was incredibly grateful for the opportunity to traverse the landscape on foot, and prepare for my senior thesis on the science of these special ecosystems. In broad terms, I&amp;rsquo;m interested in wetlands — swamps, marshes, sloughs, estuaries — and how they exchange carbon dioxide and methane with the atmosphere. GIS and historic maps allow me to track wetlands over time and estimate historic data related to this gas exchange. The following article explores how wetlands are related to global warming, the relationship between land-use and greenhouse gasses, and what a century-old map can teach us about climate change.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Intro</title>
+      <link>http://localhost:1313/workshops/environment-public-health/intro/</link>
+      <pubDate>Sat, 17 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workshops/environment-public-health/intro/</guid>
+      <description>&lt;p&gt;Intro&#xA;Stories&#xA;GIS useful for environment + public health&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.c-heatproject.org/data-applications&#34; target=&#34;_blank&#34;&gt;C-Heat application&lt;/a&gt;&#xA;&#xA;They use the GIS data application to document fine-scale temperature differences to select the location of the cool block&lt;/p&gt;&#xA;&lt;iframe width=&#34;100%&#34; height=&#34;600&#34; src=&#34;https://www.youtube.com/embed/kFmiCOLESsk?si=0_-vY2KLoPDuO4dE&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.turnaround-films.com/14-public-chelsea-cool-block&#34; target=&#34;_blank&#34;&gt;Cool block film #2&lt;/a&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>1. Searching for and understanding data</title>
+      <link>http://localhost:1313/workshops/environment-public-health/1-searching-for-understanding-data/</link>
+      <pubDate>Fri, 16 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workshops/environment-public-health/1-searching-for-understanding-data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2. Opening and understanding GIS files</title>
+      <link>http://localhost:1313/workshops/environment-public-health/2-opening-understanding-files/</link>
+      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workshops/environment-public-health/2-opening-understanding-files/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Welcome</title>
       <link>http://localhost:1313/workshops/find-gis-data/welcome/</link>
       <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
@@ -63,6 +84,13 @@
       <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/nicolae/</guid>
       <description>&lt;p&gt;This dataset and story open the past of Harvard University’s &lt;em&gt;Institute of Geographical Exploration&lt;/em&gt; (HUIGE, 1930-1951). The HUIGE was a building, a branch of Harvard’s defunct Geography department, a home to many students, and still a mystery to this day.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The scope of this project is simple: making &lt;a href=&#34;https://mapping.share.library.harvard.edu/projects/huige/&#34; target=&#34;_blank&#34;&gt;a guide&lt;/a&gt;&#xA; to as many repositories of HUIGE-related artifacts across Harvard’s campus and other institutions across Massachusetts.&lt;/li&gt;&#xA;&lt;li&gt;This guide cannot be complete but will hopefully help launch further inquiries into the fate of Aerial Photography and Geography at Harvard and in the USA.&lt;/li&gt;&#xA;&lt;li&gt;The hope of this project is to call to action anyone with further knowledge about the HUIGE, its activities, and the evolving role of Aerial Photography between WWI and the evolution of Satellite Imagery in order to complete the gaps hinted at in this story.&lt;/li&gt;&#xA;&lt;li&gt;This project was supported by the &lt;a href=&#34;https://library.harvard.edu/grants-fellowships/pforzheimer-fellowships&#34; target=&#34;_blank&#34;&gt;Pforzheimer Fellowship&lt;/a&gt;&#xA; at Harvard, with a focus on Geospatial Data and Archival Research, and overseen by the Map Collections and especially Belle Lipton.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Every good story starts with a spark and a helping hand to fan it. This one stems from the records and institutional knowledge unveiled by the wonderful people at Havard’s Map Collection. Custodians of many important maps and the personal documents of geographers having worked at Harvard, our Map librarians have kept a finger on the pulse of Geography’s unravelling at Harvard and beyond. Due to their unrestrained support, I was brought in contact in the very beginning of my Pforzheimer Fellowship with four inestimable pillars of the HUIGE’s story:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Visualizing data</title>
+      <link>http://localhost:1313/workshops/environment-public-health/3-visualizing-data/</link>
+      <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workshops/environment-public-health/3-visualizing-data/</guid>
+      <description></description>
     </item>
     <item>
       <title>Welcome and discovery map</title>
@@ -84,27 +112,6 @@
       <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/workshops/environment-public-health/resources/</guid>
       <description>&lt;p&gt;Follow-up resources&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Intro</title>
-      <link>http://localhost:1313/workshops/environment-public-health/intro-copy-2/</link>
-      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/workshops/environment-public-health/intro-copy-2/</guid>
-      <description>&lt;p&gt;Intro&#xA;Stories&#xA;GIS useful for environment + public health&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Intro</title>
-      <link>http://localhost:1313/workshops/environment-public-health/intro-copy/</link>
-      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/workshops/environment-public-health/intro-copy/</guid>
-      <description>&lt;p&gt;Intro&#xA;Stories&#xA;GIS useful for environment + public health&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Intro</title>
-      <link>http://localhost:1313/workshops/environment-public-health/intro/</link>
-      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/workshops/environment-public-health/intro/</guid>
-      <description>&lt;p&gt;Intro&#xA;Stories&#xA;GIS useful for environment + public health&lt;/p&gt;</description>
     </item>
     <item>
       <title>2. Coordinates</title>

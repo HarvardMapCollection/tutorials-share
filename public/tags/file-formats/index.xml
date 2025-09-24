@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/tags/file-formats/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1. Introduction to GIS</title>
-      <link>http://localhost:1313/workshops/workshop/introduction/</link>
+      <link>http://localhost:1313/workshops/archival/introduction/</link>
       <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/workshops/workshop/introduction/</guid>
+      <guid>http://localhost:1313/workshops/archival/introduction/</guid>
       <description>&lt;h2 id=&#34;about-this-workshop&#34;&gt;About this workshop&lt;/h2&gt;&#xA;&lt;p&gt;This course is for those wishing to develop a strong foundational understanding of how GIS works. After completing this course, you will be well-positioned to begin GIS projects of your own.&lt;/p&gt;&#xA;&lt;p&gt;The step-by-step materials here can be &lt;a href=&#34;https://mapping.share.library.harvard.edu/resources/workshops/workshop/introduction/&#34; target=&#34;_blank&#34;&gt;followed along asynchronously&lt;/a&gt;&#xA;. The in-person version (&lt;a href=&#34;https://libcal.library.harvard.edu/calendar/main?t=d&amp;amp;q=gis&amp;amp;cid=15049&amp;amp;cal=15049&amp;amp;inc=0&#34; target=&#34;_blank&#34;&gt;register&lt;/a&gt;&#xA;) covers the same materials, but with live demonstrations and hands-on support from the instructor. We can schedule additional workshop sessions on demand, as well as in-class workshops.&lt;/p&gt;</description>
     </item>
   </channel>

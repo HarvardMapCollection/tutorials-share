@@ -7,9 +7,8 @@ description:
 ---
 
 
-Intro
-Stories
-GIS useful for environment + public health
+~ * ~ Any work shop intro materials ~ * ~
+
 
 ## Breathe Easy Berkshires
 
@@ -18,7 +17,15 @@ GIS useful for environment + public health
 ![Breathe Easy Berkshires web map](aq.png)
 _[breatheasyberkshires.org](https://breatheeasyberkshires.org/)_
 
+![Peaker plants times dataset](epa.png)
+
 Peaking power plants - Pittsfield has 12 year life span differential depending on neighborhood. Data related to peaker plants // spatial analysis with air quality monitor locations.
+
+![Dataverse](dataverse.png)
+
+[EJ screen](https://envirodatagov.org/epa-removes-ejscreen-from-its-website/)
+
+- Limitation: Lack of access to hospitalization data
 
 ## Cool block
 

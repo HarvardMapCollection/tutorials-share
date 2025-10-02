@@ -6,3 +6,6 @@ layout: single2
 description: 
 ---
 
+Look at the EJ pop data to understand:
+- the structure of the files (like people open them and look at them)
+- the codes to use

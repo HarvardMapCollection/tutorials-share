@@ -7,3 +7,5 @@ description:
 ---
 
 
+Use canopy (graduated) and EJ pop (categorical) to demo diff kinds of maps
+Show split screen thing if time

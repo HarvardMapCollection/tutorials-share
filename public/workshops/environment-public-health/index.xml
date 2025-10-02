@@ -20,21 +20,21 @@
       <link>http://localhost:1313/workshops/environment-public-health/1-searching-for-understanding-data/</link>
       <pubDate>Fri, 16 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/workshops/environment-public-health/1-searching-for-understanding-data/</guid>
-      <description></description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;Where did we find it? Looking at source&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;chem.png&#34; alt=&#34;attribute table showing chemicals&#34;&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Looking at the &lt;span style=&#34;background-color:yellow;&#34;&gt;TRI metadata&lt;/span&gt; for metadata discussion&lt;/li&gt;&#xA;&lt;li&gt;Look at them both in HGL&lt;/li&gt;&#xA;&lt;li&gt;[] [] [] images for these records when they&amp;rsquo;re available&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>2. Opening and understanding GIS files</title>
       <link>http://localhost:1313/workshops/environment-public-health/2-opening-understanding-files/</link>
       <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/workshops/environment-public-health/2-opening-understanding-files/</guid>
-      <description></description>
+      <description>&lt;p&gt;Look at the EJ pop data to understand:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;the structure of the files (like people open them and look at them)&lt;/li&gt;&#xA;&lt;li&gt;the codes to use&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Visualizing data</title>
       <link>http://localhost:1313/workshops/environment-public-health/3-visualizing-data/</link>
       <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/workshops/environment-public-health/3-visualizing-data/</guid>
-      <description></description>
+      <description>&lt;p&gt;Use canopy (graduated) and EJ pop (categorical) to demo diff kinds of maps&#xA;Show split screen thing if time&lt;/p&gt;</description>
     </item>
     <item>
       <title>Follow-up resources</title>

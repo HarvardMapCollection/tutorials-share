@@ -136,12 +136,12 @@ image: filing.png
 <div class="callout-box">
 <h3>Georeferencing</h3>
 
-<p>Georeferencing historic maps is somewhat more of an art than a science, and the tools can be sensitive. Budget time for troubleshooting. You can use the <a href="https://guides.library.harvard.edu/c.php?g=1477394&amp;p=11028769">georeferencing tutorial </a>to get started.</p>
+<p>Georeferencing historic maps is somewhat more of an art than a science, and the tools can be sensitive. Budget time for troubleshooting. You can use the <a href="https://mapping.share.library.harvard.edu/tutorials/qgis-hub/georeference/">georeferencing tutorial </a>to get started.</p>
 </div>
 
 <h3>Next steps</h3>
 
-<p>If you&#39;ve successfully georeferenced a map, and would like to learn how to extract data for analysis, check out our tutorial, <a href="https://guides.library.harvard.edu/c.php?g=1477394&amp;p=11039032">Vectorizing from Historic Maps Tutorial</a>.</p>
+<p>If you&#39;ve successfully georeferenced a map, and would like to learn how to extract data for analysis, check out our tutorial, <a href="https://mapping.share.library.harvard.edu/tutorials/qgis-hub/vectorization/">Vectorizing from Historic Maps Tutorial</a>.</p>
 
 <hr />
 <div class="callout-box">

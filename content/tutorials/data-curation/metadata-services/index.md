@@ -91,5 +91,5 @@ image: default-gradient.png
 
 <h3>Suggested Next Steps:</h3>
 
-<p><a href="https://outlook.office365.com/book/HarvardMapCollection1@HU.onmicrosoft.com/?ismsaljsauthenabled=true" target="_blank">Schedule a guided interview with us.</a> We will walk through prompts designed to generate high-quality metadata. Even if your goal is not to deposit datasets, organizing your thoughts about communicating your data work can be highly beneficial. If you&#39;d like to preview our flexible prompts ahead of time, please refer to our <a href="https://guides.library.harvard.edu/c.php?g=1477394&amp;p=11028788" target="_blank">guide to creating README-style metadata for GIS data</a> tab at the top of this page.</p>
+<p><a href="https://outlook.office365.com/book/HarvardMapCollection1@HU.onmicrosoft.com/?ismsaljsauthenabled=true" target="_blank">Schedule a guided interview with us.</a> We will walk through prompts designed to generate high-quality metadata. Even if your goal is not to deposit datasets, organizing your thoughts about communicating your data work can be highly beneficial. If you&#39;d like to preview our flexible prompts ahead of time, please refer to our <a href="https://mapping.share.library.harvard.edu/tutorials/data-curation/readme/" target="_blank">guide to creating README-style metadata for GIS data</a> tab at the top of this page.</p>
 

@@ -34,7 +34,7 @@ If you have a PC and a Harvard Key, you can download and install ArcGIS Pro dire
 If you do not have a PC, consider these alternatives:
 
 1.  Consult the Harvard Center for Geographic Analysis (CGA) guide on [How to install ArcGIS Desktop or Pro on a Mac](https://gis.harvard.edu/faq/how-installing-arcgis-desktop-or-pro-mac-computer).
-2.  Explore QGIS, an open-source GIS desktop software that is OS-independent. You can find [QGIS download and installation instructions here](https://guides.library.harvard.edu/c.php?g=1477394&p=11028732). 
+2.  Explore QGIS, an open-source GIS desktop software that is OS-independent. You can find [QGIS download and installation instructions here](https://mapping.share.library.harvard.edu/tutorials/software-access/qgis/). 
 
 ### Use ArcGIS Pro at the Library
 

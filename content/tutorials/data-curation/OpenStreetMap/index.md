@@ -94,7 +94,7 @@ image: subregions.gif
 <h4>How to Export Data with QuickOSM</h4>
 
 <ol>
-	<li>Download <a href="https://guides.library.harvard.edu/c.php?g=1477394&amp;p=11028732">QGIS</a> if you haven&#39;t already.</li>
+	<li>Download <a href="https://mapping.share.library.harvard.edu/tutorials/software-access/qgis/">QGIS</a> if you haven&#39;t already.</li>
 	<li>In the main (top, horizontal) QGIS menu, select &quot;Plugins&quot;, then &quot;Manage and Install Plugins&quot;.</li>
 	<li>Search for &quot;QuickOSM&quot; and install the plugin.</li>
 	<li>Once installed, the plugin will appear under the &quot;Vector&quot; menu in the main QGIS menu. Select &quot;Vector&quot;, then &quot;QuickOSM&quot;, then &quot;QuickOSM&quot;. The QuickOSM wizard will open.

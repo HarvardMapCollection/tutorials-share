@@ -39,7 +39,7 @@ image: default-gradient.png
 
 <h3>Next Steps &amp; More Resources:</h3>
 
-<p>To formalize your metadata or for in-depth consultation on your GIS data project, schedule a guided interview with our team through <a href="https://guides.library.harvard.edu/c.php?g=1477394&amp;p=11028580" target="_blank">Partnering for Data Discovery &amp; Reuse: GIS Metadata Services Guide</a>.</p>
+<p>To formalize your metadata or for in-depth consultation on your GIS data project, schedule a guided interview with our team through <a href="https://mapping.share.library.harvard.edu/tutorials/data-curation/metadata-services/" target="_blank">GIS Data Management Consultation Services Guide</a>.</p>
 
 <ul>
 	<li><a href="https://guides.library.cornell.edu/data_management/readme" target="_blank">Guide to writing &quot;readme&quot; style metadata</a> from Cornell Data Services</li>

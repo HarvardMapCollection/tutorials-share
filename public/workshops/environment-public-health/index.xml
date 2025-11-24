@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Environment and public health on GIS, maps &#43; data @ Harvard Library</title>
+    <title>Introduction to GIS for public health on GIS, maps &#43; data @ Harvard Library</title>
     <link>http://localhost:1313/workshops/environment-public-health/</link>
-    <description>Recent content in Environment and public health on GIS, maps &#43; data @ Harvard Library</description>
+    <description>Recent content in Introduction to GIS for public health on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 17 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/workshops/environment-public-health/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Intro</title>
+      <title>Introduction</title>
       <link>http://localhost:1313/workshops/environment-public-health/intro/</link>
       <pubDate>Sat, 17 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/workshops/environment-public-health/intro/</guid>
-      <description>&lt;p&gt;~ * ~ Any work shop intro materials ~ * ~&lt;/p&gt;&#xA;&lt;h2 id=&#34;breathe-easy-berkshires&#34;&gt;Breathe Easy Berkshires&lt;/h2&gt;&#xA;&lt;p&gt;“BEAT’s Breathe Easy Berkshires program monitors the ambient air quality in Pittsfield. We’re looking for sources of pollution that can be discussed with our community and reduced to improve air quality and health for the people of Pittsfield.” - &lt;a href=&#34;https://www.thebeatnews.org/BeatTeam/&#34; target=&#34;_blank&#34;&gt;www.thebeatnews.org/BeatTeam&lt;/a&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;aq.png&#34; alt=&#34;Breathe Easy Berkshires web map&#34;&gt;&#xA;&lt;em&gt;&lt;a href=&#34;https://breatheeasyberkshires.org/&#34; target=&#34;_blank&#34;&gt;breatheasyberkshires.org&lt;/a&gt;&#xA;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;epa.png&#34; alt=&#34;Peaker plants times dataset&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Peaking power plants - Pittsfield has 12 year life span differential depending on neighborhood. Data related to peaker plants // spatial analysis with air quality monitor locations.&lt;/p&gt;</description>
+      <description>Workshop objectives and outline In this course, you will learn:&#xA;Activity Number Competency Sample Data Introduction [add link] Cover workshop housekeeping; Introduce QGIS software; Understand GIS relevancy to public health N/A Workshop requirements No prior geospatial knowledge is required for this workshop This workshop does not require any specialized software to participate, other than a standard web browser (Chrome, Firefox, etc.) Each competency covered will have practical GIS applications live demonstrated by the instructor.</description>
     </item>
     <item>
       <title>1. Searching for and understanding data</title>
       <link>http://localhost:1313/workshops/environment-public-health/1-searching-for-understanding-data/</link>
       <pubDate>Fri, 16 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/workshops/environment-public-health/1-searching-for-understanding-data/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;Where did we find it? Looking at source&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;chem.png&#34; alt=&#34;attribute table showing chemicals&#34;&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Looking at the &lt;span style=&#34;background-color:yellow;&#34;&gt;TRI metadata&lt;/span&gt; for metadata discussion&lt;/li&gt;&#xA;&lt;li&gt;Look at them both in HGL&lt;/li&gt;&#xA;&lt;li&gt;[] [] [] images for these records when they&amp;rsquo;re available&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description> Where did we find it? Looking at source Looking at the TRI metadata for metadata discussion Look at them both in HGL [] [] [] images for these records when they&amp;rsquo;re available </description>
     </item>
     <item>
       <title>2. Opening and understanding GIS files</title>
       <link>http://localhost:1313/workshops/environment-public-health/2-opening-understanding-files/</link>
       <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/workshops/environment-public-health/2-opening-understanding-files/</guid>
-      <description>&lt;p&gt;Look at the EJ pop data to understand:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;the structure of the files (like people open them and look at them)&lt;/li&gt;&#xA;&lt;li&gt;the codes to use&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>Look at the EJ pop data to understand:&#xA;the structure of the files (like people open them and look at them) the codes to use </description>
     </item>
     <item>
       <title>Visualizing data</title>
       <link>http://localhost:1313/workshops/environment-public-health/3-visualizing-data/</link>
       <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/workshops/environment-public-health/3-visualizing-data/</guid>
-      <description>&lt;p&gt;Use canopy (graduated) and EJ pop (categorical) to demo diff kinds of maps&#xA;Show split screen thing if time&lt;/p&gt;</description>
+      <description>Use canopy (graduated) and EJ pop (categorical) to demo diff kinds of maps Show split screen thing if time</description>
     </item>
     <item>
       <title>Follow-up resources</title>
       <link>http://localhost:1313/workshops/environment-public-health/resources/</link>
       <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/workshops/environment-public-health/resources/</guid>
-      <description>&lt;p&gt;Follow-up resources&lt;/p&gt;</description>
+      <description>Follow-up resources</description>
     </item>
   </channel>
 </rss>

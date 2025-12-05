@@ -55,14 +55,14 @@
       <link>http://localhost:1313/workshops/environment-public-health/intro/</link>
       <pubDate>Sat, 17 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/workshops/environment-public-health/intro/</guid>
-      <description>Workshop objectives and outline In this course, you will learn:&#xA;Activity Number Competency Sample Data Introduction [add link] Cover workshop housekeeping; Introduce QGIS software; Understand GIS relevancy to public health N/A Workshop requirements No prior geospatial knowledge is required for this workshop This workshop does not require any specialized software to participate, other than a standard web browser (Chrome, Firefox, etc.) Each competency covered will have practical GIS applications live demonstrated by the instructor.</description>
+      <description>Workshop objectives and outline In this course, you will learn:&#xA;Activity Number Competency Sample Data Introduction [add link] Cover workshop housekeeping; Introduce QGIS software; Understand GIS relevancy to public health N/A Searching for and understanding GIS data [add link] Utilize geospatial data portals; Leverage geospatial metadata •Toxics Release Inventory (TRI) Facilities, Massachusetts, 2024 • •Social Vulnerability Index (SVI) Overall Score by Census Tract, Massachusetts, 2020 • Workshop requirements No prior geospatial knowledge is required for this workshop This workshop does not require any specialized software to participate, other than a standard web browser (Chrome, Firefox, etc.</description>
     </item>
     <item>
-      <title>1. Searching for and understanding data</title>
+      <title>1. Searching for and understanding GIS data</title>
       <link>http://localhost:1313/workshops/environment-public-health/1-searching-for-understanding-data/</link>
       <pubDate>Fri, 16 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/workshops/environment-public-health/1-searching-for-understanding-data/</guid>
-      <description> Where did we find it? Looking at source Looking at the TRI metadata for metadata discussion Look at them both in HGL [] [] [] images for these records when they&amp;rsquo;re available </description>
+      <description>To start to explore how to access and use geospatial data, we will start with an example data scenario. The map below shows census tracts graded by social vulnerability index, layered against the locations of known toxics release facilities in Massachusetts.&#xA;Map layers displayed in desktop GIS program, QGIS.&#xA;The Social Vulnerability Index (SVI) is a dataset that garners census variables to identify and rank communities based on their vulnerability to environmental hazards or other emergencies.</description>
     </item>
     <item>
       <title>2. Opening and understanding GIS files</title>

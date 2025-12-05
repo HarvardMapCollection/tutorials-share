@@ -3,7 +3,7 @@
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>
     
-    1. Searching for and Understanding Data | 
+    1. Searching for and Understanding GIS Data | 
     
     GIS, maps &#43; data @ Harvard Library
 </title>
@@ -15,11 +15,15 @@
 
 
 <meta name="description" content="
-     Where did we find it? Looking at source Looking at the TRI metadata for metadata discussion Look at them both in HGL [] [] [] images for these records when they&rsquo;re available 
+    To start to explore how to access and use geospatial data, we will start with an example data scenario. The map below shows census tracts graded by social vulnerability index, layered against the locations of known toxics release facilities in Massachusetts.
+Map layers displayed in desktop GIS program, QGIS.
+The Social Vulnerability Index (SVI) is a dataset that garners census variables to identify and rank communities based on their vulnerability to environmental hazards or other emergencies.
     "
 />
 <meta property="og:description" content="
-     Where did we find it? Looking at source Looking at the TRI metadata for metadata discussion Look at them both in HGL [] [] [] images for these records when they&rsquo;re available 
+    To start to explore how to access and use geospatial data, we will start with an example data scenario. The map below shows census tracts graded by social vulnerability index, layered against the locations of known toxics release facilities in Massachusetts.
+Map layers displayed in desktop GIS program, QGIS.
+The Social Vulnerability Index (SVI) is a dataset that garners census variables to identify and rank communities based on their vulnerability to environmental hazards or other emergencies.
     " 
 />
 
@@ -31,7 +35,7 @@
 
 
 
-<meta property="og:title" content="1. Searching for and understanding data" />
+<meta property="og:title" content="1. Searching for and understanding GIS data" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/workshops/environment-public-health/1-searching-for-understanding-data/" /><meta property="article:section" content="workshops" />
 <meta property="article:published_time" content="2024-08-16T00:00:00+00:00" />
@@ -43,15 +47,19 @@
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/workshops/environment-public-health/1-searching-for-understanding-data/cover.png">
-  <meta name="twitter:title" content="1. Searching for and understanding data">
-  <meta name="twitter:description" content=" Where did we find it? Looking at source Looking at the TRI metadata for metadata discussion Look at them both in HGL [] [] [] images for these records when they’re available ">
+  <meta name="twitter:title" content="1. Searching for and understanding GIS data">
+  <meta name="twitter:description" content="To start to explore how to access and use geospatial data, we will start with an example data scenario. The map below shows census tracts graded by social vulnerability index, layered against the locations of known toxics release facilities in Massachusetts.
+Map layers displayed in desktop GIS program, QGIS.
+The Social Vulnerability Index (SVI) is a dataset that garners census variables to identify and rank communities based on their vulnerability to environmental hazards or other emergencies.">
 
 
-  <meta itemprop="name" content="1. Searching for and understanding data">
-  <meta itemprop="description" content=" Where did we find it? Looking at source Looking at the TRI metadata for metadata discussion Look at them both in HGL [] [] [] images for these records when they’re available ">
+  <meta itemprop="name" content="1. Searching for and understanding GIS data">
+  <meta itemprop="description" content="To start to explore how to access and use geospatial data, we will start with an example data scenario. The map below shows census tracts graded by social vulnerability index, layered against the locations of known toxics release facilities in Massachusetts.
+Map layers displayed in desktop GIS program, QGIS.
+The Social Vulnerability Index (SVI) is a dataset that garners census variables to identify and rank communities based on their vulnerability to environmental hazards or other emergencies.">
   <meta itemprop="datePublished" content="2024-08-16T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-08-16T00:00:00+00:00">
-  <meta itemprop="wordCount" content="32">
+  <meta itemprop="wordCount" content="556">
   <meta itemprop="image" content="http://localhost:1313/workshops/environment-public-health/1-searching-for-understanding-data/cover.png">
 
 
@@ -212,29 +220,104 @@
                           
                           ↵
                             <li>
-                              <a href="/workshops/environment-public-health/"> Introduction to GIS for public health</a>
+                              <a href=""> Introduction to GIS for public health</a>
                             </li>
                           
                           <li style="margin-right: 0;" class="active">
                             👋
-                            <a aria-current="page" href="/workshops/environment-public-health/1-searching-for-understanding-data/">1. Searching for and understanding data</a>
+                            <a aria-current="page" href="/workshops/environment-public-health/1-searching-for-understanding-data/">1. Searching for and understanding GIS data</a>
                           </li>
                         </ol>
                       </nav>
                       </div>
 
 
-                <h1 class="title">1. Searching for and Understanding Data</h1>
+                <h1 class="title">1. Searching for and Understanding GIS Data</h1>
 
-                <ul>
-<li>Where did we find it? Looking at source</li>
-</ul>
-<p><img src="chem.png" alt="attribute table showing chemicals"></p>
+                <p>To start to explore how to access and use geospatial data, we will start with an example data scenario. The map below shows census tracts graded by social vulnerability index, layered against the locations of known toxics release facilities in Massachusetts.</p>
+<p><img src="tri_svi.png" alt="Map showing toxic release sites in Massachusetts layered on top of social vulnerability index">
+<em>Map layers displayed in desktop GIS program, QGIS.</em></p>
 <ul>
-<li>Looking at the <span style="background-color:yellow;">TRI metadata</span> for metadata discussion</li>
-<li>Look at them both in HGL</li>
-<li>[] [] [] images for these records when they&rsquo;re available</li>
+<li>The Social Vulnerability Index (SVI) is a dataset that garners census variables to identify and rank communities based on their vulnerability to environmental hazards or other emergencies.</li>
+<li>Comparing the locations of vulnerable populations against environmental hazards such as toxic release facilities can help identify disproportionately burdened communities and prioritize health interventions.</li>
 </ul>
+<h2 id="where-to-obtain-the-data">Where to obtain the data?</h2>
+<p>Both of these datasets are available from the Harvard Geospatial Library (HGL):</p>
+<ul>
+<li><a href="https://hgl.harvard.edu/catalog/harvard-rtlmod1-tri-facilities-ma-2024" target="_blank">Toxics Release Inventory (TRI) Facilities, Massachusetts 2024</a>
+</li>
+<li><a href="https://hgl.harvard.edu/catalog/harvard-rtlmod1-svi-ma-tracts2020" target="_blank">Social Vulnerability Index (SVI) Overall Score by Census Tract, Massachusetts, 2020</a>
+</li>
+</ul>
+<h2 id="in-class-activity">In-class activity</h2>
+<ol>
+<li>Click on the <a href="%28https://hgl.harvard.edu/catalog/harvard-rtlmod1-tri-facilities-ma-2024%29">Toxics Release Inventory dataset</a>
+.</li>
+</ol>
+<p><img src="tri.png" alt="Homepage for the TRI dataset on HGL"></p>
+<ol start="2">
+<li>Scroll down to the <code>Description</code> section of the metadata, and expand the information by selecting <code>More Description</code>.</li>
+</ol>
+<blockquote>
+<p>💡 Discussion: Where did this dataset come from?</p>
+</blockquote>
+<ol start="3">
+<li>To learn more about the dataset, let&rsquo;s look at the full metadata record. On the right-hand side of the data record in HGL, select the <code>Metadata</code> button.</li>
+</ol>
+<p><img src="metadata.png" alt="Metadata side-bar in HGL"></p>
+<ol start="4">
+<li>Scroll down in the <code>Metadata</code> pop-up modal and find the following information:</li>
+</ol>
+<ul>
+<li><code>Spatial Reference Information</code> → <code>Grid Coordinate System Name</code></li>
+<li><code>Entity and Attribute Information</code> → <code>Attributes</code> → Read through, e.g. <code>F9__TRIFD</code></li>
+</ul>
+<blockquote>
+<p>💡 Discussion: Why is this information important to know before using the dataset?</p>
+</blockquote>
+<ol start="5">
+<li>
+<p>Back at the top of the screen in the map view, on the map click <code>Click to Wake</code>.</p>
+</li>
+<li>
+<p>Click on one of the points on the map. Attribute information about the facility you selected will appear in a table below the map.</p>
+</li>
+</ol>
+<p><img src="attr.png" alt="Attribute table for toxic release facilities displayed in HGL"></p>
+<blockquote>
+<p>❓ Pause for questions.</p>
+</blockquote>
+<h2 id="next-steps-demonstration-in-qgis">Next steps demonstration in QGIS</h2>
+<p>The instructor will demo next steps in QGIS. Participants are not required to follow along, but can use the tutorial below to do so in-class, or later at home.</p>
+<ol>
+<li>
+<p>Download the <a href="https://hgl.harvard.edu/catalog/harvard-rtlmod1-tri-facilities-ma-2024" target="_blank">Toxics Release Inventory (TRI) Facilities, Massachusetts 2024</a>
+ from HGL or use the copy included in the <code>demo_materials</code> folder.</p>
+</li>
+<li>
+<p>Open QGIS. (<a href="https://mapping.share.library.harvard.edu/tutorials/software-access/qgis/" target="_blank">Download instructions</a>
+)</p>
+</li>
+<li>
+<p>Open a new <code>Empty Project</code>. <a href="https://mapping.share.library.harvard.edu/tutorials/qgis-hub/basemap/" target="_blank">Add a basemap</a>
+.</p>
+</li>
+<li>
+<p>Add the Toxics Release Inventory (downloaded to your computer) to the QGIS project by either: (1) dragging the file with the <code>.shp</code> file extension directly into the QGIS window from your file browser, <em>or</em> (2) using the menu navigation <code>Layer</code> → <code>Add Layer</code> → <code>Add Vector Layer</code> and using the <code>Data Source Manager</code> to select the file with the <code>.shp</code> file extension, then selecting <code>Add</code> and <code>Close</code>.</p>
+</li>
+<li>
+<p>Zoom to the extent of the data by right-clicking the TRI data layer in the <code>Layers</code> panel and selecting <code>Zoom to Layer</code>.</p>
+</li>
+<li>
+<p>Right-click the layer in the <code>Layers</code> panel again, and select <code>Open Attribute Table</code>. Observe the attributes, including <code>F18__CHEMI</code>, which we observed in the metadata refers to &ldquo;Name of the chemical as listed on the TRI chemical list, or generic name, if the chemical is claimed as a trade secret.&rdquo;</p>
+</li>
+<li>
+<p>Close the attribute table and open the TRI layer properties by either (1) double-clicking on the layer in the <code>Layers</code> panel, <em>or</em> (2) right-clicking the layer in the <code>Layers</code> panel and selecting <code>Properties</code>.</p>
+</li>
+<li>
+<p>Choose the <code>Symbology</code> menu. Click <code>Single Symbol</code> and select <code>Categorized</code>. From the drop-down arrow to the right of <code>Value</code>, choose the attribute to symbolize, <code>F18__CHEMI</code>. Select <code>Classify</code>, and then <code>OK</code>.</p>
+</li>
+</ol>
 
             </div>
         </div>

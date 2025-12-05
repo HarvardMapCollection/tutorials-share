@@ -12,6 +12,7 @@ In this course, you will learn:
 | **Activity Number** | **Competency** | **Sample Data** |
 |---|---|---|
 | Introduction [add link] | Cover workshop housekeeping; Introduce QGIS software; Understand GIS relevancy to public health | N/A |
+| Searching for and understanding GIS data [add link] | Utilize geospatial data portals; Leverage geospatial metadata | •[Toxics Release Inventory (TRI) Facilities, Massachusetts, 2024](https://hgl.harvard.edu/catalog/harvard-rtlmod1-tri-facilities-ma-2024)• •[Social Vulnerability Index (SVI) Overall Score by Census Tract, Massachusetts, 2020](https://hgl.harvard.edu/catalog/harvard-rtlmod1-svi-ma-tracts2020)• |
 
 ## Workshop requirements
 - No prior geospatial knowledge is required for this workshop
@@ -19,6 +20,7 @@ In this course, you will learn:
 - Each competency covered will have practical GIS applications live demonstrated by the instructor. Follow-along steps and sample data are included in these course materials. Following along with the data and software on your own computer (in class, or later at home) is **optional**. To do so, download the free, open source desktop GIS software called QGIS. 
     - [Download instructions for QGIS](https://mapping.share.library.harvard.edu/tutorials/software-access/qgis/). 
 - The instructor will give a brief overview of the QGIS software at the beginning of class to familiarize the software environment.
+- The instructor will give an overview of the data source, the [Harvard Geospatial Library (HGL)](https://hgl.harvard.edu/?_gl=1*1bsysif*_ga*OTM1NDk4NTczLjE3NTc5MzQyNTk.*_ga_3CXC97RWEK*czE3NjQ4NjgwOTAkbzc4JGcxJHQxNzY0ODY5ODQzJGo2MCRsMCRoMA..).
 
 
 ## GIS Relevancy Example #1
@@ -40,17 +42,6 @@ _[breatheasyberkshires.org](https://breatheeasyberkshires.org/)_
 ![Dataverse](dataverse.png)
 - This type of work also relies on datasets that have been archived in Harvard's Dataverse, such as [EJScreen](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/RLR5AX), and other research data partnerships, such as details on hospitalizations.
 
-
-
-## GIS Relevancy Example #2
-
-[C-Heat application](https://www.c-heatproject.org/data-applications)
-They use the GIS data application to document fine-scale temperature differences to select the location of the cool block
-
-
-<iframe width="100%" height="600" src="https://www.youtube.com/embed/kFmiCOLESsk?si=0_-vY2KLoPDuO4dE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-[Cool block film #2](https://www.turnaround-films.com/14-public-chelsea-cool-block)
 
 
 ## Follow-up 

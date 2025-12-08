@@ -9,11 +9,11 @@ description:
 To start to explore how to access and use geospatial data, we will start with an example data scenario. The map below shows census tracts graded by social vulnerability index, layered against the locations of known toxics release facilities in Massachusetts. 
 
 
-![Map showing toxic release sites in Massachusetts layered on top of social vulnerability index](tri_svi.png)
+![Map showing toxics release sites in Massachusetts layered on top of social vulnerability index](tri_svi.png)
 *Map layers displayed in desktop GIS program, QGIS.*
 
 - The Social Vulnerability Index (SVI) is a dataset that garners census variables to identify and rank communities based on their vulnerability to environmental hazards or other emergencies. 
-- Comparing the locations of vulnerable populations against environmental hazards such as toxic release facilities can help identify disproportionately burdened communities and prioritize health interventions.
+- Comparing the locations of vulnerable populations against environmental hazards such as toxics release facilities can help identify disproportionately burdened communities and prioritize health interventions.
 
 
 ## Where to obtain the data?

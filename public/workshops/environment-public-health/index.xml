@@ -27,7 +27,7 @@
       <link>http://localhost:1313/workshops/environment-public-health/2-opening-understanding-files/</link>
       <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/workshops/environment-public-health/2-opening-understanding-files/</guid>
-      <description>Look at the EJ pop data to understand:&#xA;the structure of the files (like people open them and look at them) the codes to use </description>
+      <description>In this activity, we will use the Environmental Justice (EJ) Populations by Census Block Group dataset for the City of Boston to understand how geospatial data is structured.&#xA;The EJ Populations dataset serves as a planning and analytical tool to locate neighborhoods that may face disproportionate environmental burdens or have limited access to environmental benefits due to socioeconomic factors.&#xA;In-class activity Visit the EJ population dataset in the Harvard Geospatial Library (HGL): Environmental Justice Populations by Census Block Group, Boston, Massachusetts, 2020 .</description>
     </item>
     <item>
       <title>Visualizing data</title>

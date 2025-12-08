@@ -15,13 +15,15 @@
 
 
 <meta name="description" content="
-    Look at the EJ pop data to understand:
-the structure of the files (like people open them and look at them) the codes to use 
+    In this activity, we will use the Environmental Justice (EJ) Populations by Census Block Group dataset for the City of Boston to understand how geospatial data is structured.
+The EJ Populations dataset serves as a planning and analytical tool to locate neighborhoods that may face disproportionate environmental burdens or have limited access to environmental benefits due to socioeconomic factors.
+In-class activity Visit the EJ population dataset in the Harvard Geospatial Library (HGL): Environmental Justice Populations by Census Block Group, Boston, Massachusetts, 2020 .
     "
 />
 <meta property="og:description" content="
-    Look at the EJ pop data to understand:
-the structure of the files (like people open them and look at them) the codes to use 
+    In this activity, we will use the Environmental Justice (EJ) Populations by Census Block Group dataset for the City of Boston to understand how geospatial data is structured.
+The EJ Populations dataset serves as a planning and analytical tool to locate neighborhoods that may face disproportionate environmental burdens or have limited access to environmental benefits due to socioeconomic factors.
+In-class activity Visit the EJ population dataset in the Harvard Geospatial Library (HGL): Environmental Justice Populations by Census Block Group, Boston, Massachusetts, 2020 .
     " 
 />
 
@@ -46,16 +48,18 @@ the structure of the files (like people open them and look at them) the codes to
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/workshops/environment-public-health/2-opening-understanding-files/cover.png">
   <meta name="twitter:title" content="2. Opening and understanding GIS files">
-  <meta name="twitter:description" content="Look at the EJ pop data to understand:
-the structure of the files (like people open them and look at them) the codes to use ">
+  <meta name="twitter:description" content="In this activity, we will use the Environmental Justice (EJ) Populations by Census Block Group dataset for the City of Boston to understand how geospatial data is structured.
+The EJ Populations dataset serves as a planning and analytical tool to locate neighborhoods that may face disproportionate environmental burdens or have limited access to environmental benefits due to socioeconomic factors.
+In-class activity Visit the EJ population dataset in the Harvard Geospatial Library (HGL): Environmental Justice Populations by Census Block Group, Boston, Massachusetts, 2020 .">
 
 
   <meta itemprop="name" content="2. Opening and understanding GIS files">
-  <meta itemprop="description" content="Look at the EJ pop data to understand:
-the structure of the files (like people open them and look at them) the codes to use ">
+  <meta itemprop="description" content="In this activity, we will use the Environmental Justice (EJ) Populations by Census Block Group dataset for the City of Boston to understand how geospatial data is structured.
+The EJ Populations dataset serves as a planning and analytical tool to locate neighborhoods that may face disproportionate environmental burdens or have limited access to environmental benefits due to socioeconomic factors.
+In-class activity Visit the EJ population dataset in the Harvard Geospatial Library (HGL): Environmental Justice Populations by Census Block Group, Boston, Massachusetts, 2020 .">
   <meta itemprop="datePublished" content="2024-08-15T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-08-15T00:00:00+00:00">
-  <meta itemprop="wordCount" content="25">
+  <meta itemprop="wordCount" content="431">
   <meta itemprop="image" content="http://localhost:1313/workshops/environment-public-health/2-opening-understanding-files/cover.png">
 
 
@@ -230,11 +234,72 @@ the structure of the files (like people open them and look at them) the codes to
 
                 <h1 class="title">2. Opening and Understanding GIS Files</h1>
 
-                <p>Look at the EJ pop data to understand:</p>
-<ul>
-<li>the structure of the files (like people open them and look at them)</li>
-<li>the codes to use</li>
-</ul>
+                <p>In this activity, we will use the Environmental Justice (EJ) Populations by Census Block Group dataset for the City of Boston to understand how geospatial data is structured.</p>
+<p>The EJ Populations dataset serves as a planning and analytical tool to locate neighborhoods that may face disproportionate environmental burdens or have limited access to environmental benefits due to socioeconomic factors.</p>
+<h2 id="in-class-activity">In-class activity</h2>
+<ol>
+<li>Visit the EJ population dataset in the Harvard Geospatial Library (HGL): <a href="https://hgl.harvard.edu/catalog/harvard-rtlmod1-envjusticepop-boston-2020" target="_blank">Environmental Justice Populations by Census Block Group, Boston, Massachusetts, 2020</a>
+.</li>
+</ol>
+<blockquote>
+<p>💡 Discussion: Where does this dataset come from?</p>
+</blockquote>
+<ol start="2">
+<li>On the right-hand side of the screen under <code>Tools &amp; Related Services</code> select <code>Download Shapefile</code>.</li>
+</ol>
+<p><img src="download.png" alt="Data download button in HGL highlighted in red"></p>
+<ol start="3">
+<li>In your <code>Downloads</code> folder in your file browser, find the downloaded zip file titled <code>RTLMOD1_ENVJUSTICEPOP_BOSTON_2020.zip</code>. Unzip this file by double-clicking it on a Mac or right-click <code>Extract</code> on a PC.</li>
+</ol>
+<blockquote>
+<p>💡 Discussion: What do you notice about the files included in the downloads?</p>
+</blockquote>
+<h2 id="next-steps-demonstration-in-qgis">Next steps demonstration in QGIS</h2>
+<p>The instructor will demo next steps in QGIS. Participants are not required to follow along, but can use the tutorial below to do so in-class, or later at home.</p>
+<ol>
+<li>
+<p>Open QGIS. (<a href="https://mapping.share.library.harvard.edu/tutorials/software-access/qgis/" target="_blank">Download instructions</a>
+)</p>
+</li>
+<li>
+<p>Open a new <code>Empty Project</code>. <a href="https://mapping.share.library.harvard.edu/tutorials/qgis-hub/basemap/" target="_blank">Add a basemap</a>
+.</p>
+</li>
+<li>
+<p>Add the Environmental Justice Populations by Census Block dataset (downloaded to your computer) to the QGIS project by either: (1) dragging the file with the <code>.shp</code> file extension directly into the QGIS window from your file browser, <em>or</em> (2) using the menu navigation <code>Layer</code> → <code>Add Layer</code> → <code>Add Vector Layer</code> and using the <code>Data Source Manager</code> to select the file with the <code>.shp</code> file extension, then selecting <code>Add</code> and <code>Close</code>.</p>
+</li>
+<li>
+<p>Right-click the data layer in the <code>Layers</code> pane in QGIS and select <code>Open Attribute Table</code>.</p>
+</li>
+<li>
+<p>Select any row at random by clicking on the row number to the left of the row. Notice how the feature is highlighted both in the table and on the map.</p>
+</li>
+</ol>
+<p><img src="select_row.png" alt="QGIS attribute table">
+<em>Record selected in the table showing the polygon feature&rsquo;s attributes.</em></p>
+<p><img src="select_polygon.png" alt="Polygons in a QGIS map">
+<em>The same feature displayed in the QGIS map view.</em></p>
+<blockquote>
+<p>💡 Discussion: Which kind of real-world phenomena might be encoded into these different types of feature representations?
+<img src="points-lines-polygons.jpeg" alt="Diagram showing point, line, and polygon vector features"></p>
+</blockquote>
+<ol start="7">
+<li>Look at the attribute table column headers. Let&rsquo;s make sense of what variables are available to us to map.</li>
+</ol>
+<div class="alert-warning">
+  <p>Tip: To read the column headers better, you can drag and adjust the column width.</p>
+</div>
+<ol start="8">
+<li>Let&rsquo;s use the metadata <a href="https://hgl.harvard.edu/catalog/harvard-rtlmod1-envjusticepop-boston-2020" target="_blank">from HGL</a>
+ to understand the variables better. From the <code>Description</code>, click on the <code>source dataset link</code> from mass.gov.</li>
+</ol>
+<p><img src="source_link.png" alt="Dataset description"></p>
+<ol start="9">
+<li>Expand the <code>Attributes</code> dropdown.</li>
+</ol>
+<blockquote>
+<p>💡 Discussion: Compare the attribute descriptions in the metadata against the attribute data in the table. Select potential fields to map.</p>
+</blockquote>
 
             </div>
         </div>

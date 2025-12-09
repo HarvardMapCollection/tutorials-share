@@ -12,7 +12,7 @@ description:
 ## Workshop objectives and outline
 In this course, you will learn:
 
-| **Activity Number** | **Competency** | 
+| **Lesson** | **Competency** | 
 |---|---|
 | [Introduction](https://mapping.share.library.harvard.edu/workshops/environment-public-health/intro/) | Workshop housekeeping; Introduce QGIS software; Grounding examples | 
 | [Searching for and understanding GIS data](https://mapping.share.library.harvard.edu/workshops/environment-public-health/1-searching-for-understanding-data/)| Utilize geospatial data portals; Leverage geospatial metadata | 

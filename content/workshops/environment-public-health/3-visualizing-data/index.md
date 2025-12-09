@@ -1,7 +1,7 @@
 ---
 title: Visualizing GIS data
 image: histogram.png
-date: 2024-08-14
+date: 2025-12-06
 layout: single2
 description: 
 ---

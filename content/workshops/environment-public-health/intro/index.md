@@ -1,10 +1,13 @@
 ---
 title: Introduction
 image: peaker.png
-date: 2024-08-17
+date: 2025-12-09
 layout: single2
 description: 
 ---
+
+> Get to this page:
+> `https://bit.ly/gis-health` 
 
 ## Workshop objectives and outline
 In this course, you will learn:
@@ -51,4 +54,4 @@ _[breatheasyberkshires.org](https://breatheeasyberkshires.org/)_
 - Email the instructor, [Belle Lipton](https://library.harvard.edu/staff/belle-lipton) @ belle_lipton@harvard.edu
 - Search for datasets in the [Harvard Geospatial Library](https://library.harvard.edu/services-tools/harvard-geospatial-library)
 - [Request other datasets](https://ask.library.harvard.edu/maps?_gl=1*1c9t5ge*_ga*OTM1NDk4NTczLjE3NTc5MzQyNTk.*_ga_3CXC97RWEK*czE3NjQwMDI2MDIkbzc3JGcxJHQxNzY0MDAyNzQyJGo2MCRsMCRoMA..)
-- Take the workshop survey
+- Take the [workshop survey](https://harvard.az1.qualtrics.com/jfe/form/SV_bOzVza2Bhj6KR5Y)

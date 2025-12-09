@@ -1,7 +1,7 @@
 ---
 title: Opening and understanding GIS files
 image: select_polygon.png
-date: 2024-08-15
+date: 2025-12-07
 layout: single2
 description: 
 ---

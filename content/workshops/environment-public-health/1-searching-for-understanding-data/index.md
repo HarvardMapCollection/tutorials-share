@@ -1,7 +1,7 @@
 ---
 title: Searching for and understanding GIS data
 image: attr.png
-date: 2024-08-16
+date: 2025-12-08
 layout: single2
 description: 
 ---

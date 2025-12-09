@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Introduction to GIS for public health on GIS, maps &#43; data @ Harvard Library</title>
+    <title>Mapping Health Determinants - Introduction to GIS Data &amp; Visualization on GIS, maps &#43; data @ Harvard Library</title>
     <link>http://localhost:1313/workshops/environment-public-health/</link>
-    <description>Recent content in Introduction to GIS for public health on GIS, maps &#43; data @ Harvard Library</description>
+    <description>Recent content in Mapping Health Determinants - Introduction to GIS Data &amp; Visualization on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 17 Aug 2024 00:00:00 +0000</lastBuildDate>
@@ -13,35 +13,28 @@
       <link>http://localhost:1313/workshops/environment-public-health/intro/</link>
       <pubDate>Sat, 17 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/workshops/environment-public-health/intro/</guid>
-      <description>Workshop objectives and outline In this course, you will learn:&#xA;Activity Number Competency Sample Data Introduction [add link] Cover workshop housekeeping; Introduce QGIS software; Understand GIS relevancy to public health N/A Searching for and understanding GIS data [add link] Utilize geospatial data portals; Leverage geospatial metadata •Toxics Release Inventory (TRI) Facilities, Massachusetts, 2024 • •Social Vulnerability Index (SVI) Overall Score by Census Tract, Massachusetts, 2020 • Workshop requirements No prior geospatial knowledge is required for this workshop This workshop does not require any specialized software to participate, other than a standard web browser (Chrome, Firefox, etc.</description>
+      <description>Workshop objectives and outline In this course, you will learn:&#xA;Activity Number Competency Introduction [add link] Workshop housekeeping; Introduce QGIS software; Grounding examples Searching for and understanding GIS data [add link] Utilize geospatial data portals; Leverage geospatial metadata Opening and Understanding GIS Files [add link] Understand the structure of spatial data Visualizing GIS Data [add link] Map symbology tips; Visualize nominal and interval data Workshop requirements No prior geospatial knowledge is required for this workshop This workshop does not require any specialized software to participate, other than a standard web browser (Chrome, Firefox, etc.</description>
     </item>
     <item>
-      <title>1. Searching for and understanding GIS data</title>
+      <title>Searching for and understanding GIS data</title>
       <link>http://localhost:1313/workshops/environment-public-health/1-searching-for-understanding-data/</link>
       <pubDate>Fri, 16 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/workshops/environment-public-health/1-searching-for-understanding-data/</guid>
       <description>To start to explore how to access and use geospatial data, we will start with an example data scenario. The map below shows census tracts graded by social vulnerability index, layered against the locations of known toxics release facilities in Massachusetts.&#xA;Map layers displayed in desktop GIS program, QGIS.&#xA;The Social Vulnerability Index (SVI) is a dataset that garners census variables to identify and rank communities based on their vulnerability to environmental hazards or other emergencies.</description>
     </item>
     <item>
-      <title>2. Opening and understanding GIS files</title>
+      <title>Opening and understanding GIS files</title>
       <link>http://localhost:1313/workshops/environment-public-health/2-opening-understanding-files/</link>
       <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/workshops/environment-public-health/2-opening-understanding-files/</guid>
       <description>In this activity, we will use the Environmental Justice (EJ) Populations by Census Block Group dataset for the City of Boston to understand how geospatial data is structured.&#xA;The EJ Populations dataset serves as a planning and analytical tool to locate neighborhoods that may face disproportionate environmental burdens or have limited access to environmental benefits due to socioeconomic factors.&#xA;In-class activity Visit the EJ population dataset in the Harvard Geospatial Library (HGL): Environmental Justice Populations by Census Block Group, Boston, Massachusetts, 2020 .</description>
     </item>
     <item>
-      <title>Visualizing data</title>
+      <title>Visualizing GIS data</title>
       <link>http://localhost:1313/workshops/environment-public-health/3-visualizing-data/</link>
       <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/workshops/environment-public-health/3-visualizing-data/</guid>
       <description>In this tutorial, we are going to demonstrate how to map both nominal and interval data, using Environmental Justice Population and Tree Cover data as examples.&#xA;Nominal data refers to categories without any inherent numerical relationship. Interval data refers to a numerical scale where the distance between numbers is known and consistent. You can use this understanding to leverage cartographic conventions and software templates designed for each level of measurement.</description>
-    </item>
-    <item>
-      <title>Follow-up resources</title>
-      <link>http://localhost:1313/workshops/environment-public-health/resources/</link>
-      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/workshops/environment-public-health/resources/</guid>
-      <description>Follow-up resources</description>
     </item>
   </channel>
 </rss>

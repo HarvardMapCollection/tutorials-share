@@ -1,6 +1,6 @@
 ---
-title: Visualizing data
-image: cover.png
+title: Visualizing GIS data
+image: histogram.png
 date: 2024-08-14
 layout: single2
 description: 
@@ -23,7 +23,7 @@ You can use this understanding to leverage cartographic conventions and software
 
 The instructor will demo next steps in QGIS. Participants are not required to follow along. If you wish to follow-along in class or later at home, you will need:
 - QGIS [[Download instructions](https://mapping.share.library.harvard.edu/tutorials/software-access/qgis/)]
-- The sample data is available from the [Harvard Geospatial Library (HGL)](https://hgl.harvard.edu/?_gl=1*1mov24z*_ga*OTM1NDk4NTczLjE3NTc5MzQyNTk.*_ga_3CXC97RWEK*czE3NjUyODgyMTMkbzgzJGcxJHQxNzY1Mjg5NDc4JGo2MCRsMCRoMA..), and also pre-packaged for the workshop. [[Workshop data](LINK!!!!)]
+- The sample data is available from the [Harvard Geospatial Library (HGL)](https://hgl.harvard.edu/?_gl=1*1mov24z*_ga*OTM1NDk4NTczLjE3NTc5MzQyNTk.*_ga_3CXC97RWEK*czE3NjUyODgyMTMkbzgzJGcxJHQxNzY1Mjg5NDc4JGo2MCRsMCRoMA..), and also pre-packaged for the workshop. [[Workshop data](https://drive.google.com/file/d/1v1eot3JZy_NX9bd9t9hP8CsuC0I2wKTX/view?usp=sharing)]
 
 
 

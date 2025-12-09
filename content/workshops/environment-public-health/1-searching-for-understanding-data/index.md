@@ -1,6 +1,6 @@
 ---
-title: 1. Searching for and understanding GIS data
-image: cover.png
+title: Searching for and understanding GIS data
+image: attr.png
 date: 2024-08-16
 layout: single2
 description: 
@@ -21,6 +21,10 @@ To start to explore how to access and use geospatial data, we will start with an
 Both of these datasets are available from the Harvard Geospatial Library (HGL):
 - [Toxics Release Inventory (TRI) Facilities, Massachusetts 2024](https://hgl.harvard.edu/catalog/harvard-rtlmod1-tri-facilities-ma-2024)
 - [Social Vulnerability Index (SVI) Overall Score by Census Tract, Massachusetts, 2020](https://hgl.harvard.edu/catalog/harvard-rtlmod1-svi-ma-tracts2020)
+
+<div class="alert-warning">
+  A note that visually overlaying data layers helps us obtain basic descriptive statistics about the spatial patterns of our data. To prove any hypotheses about cause and effect, you will likely need to follow up with subsequent training on spatial analysis, which is outside the scope of this workshop. 
+</div>
 
 ## In-class activity
 

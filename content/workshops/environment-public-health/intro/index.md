@@ -1,6 +1,6 @@
 ---
 title: Introduction
-image: cover.png
+image: peaker.png
 date: 2024-08-17
 layout: single2
 description: 
@@ -9,15 +9,17 @@ description:
 ## Workshop objectives and outline
 In this course, you will learn:
 
-| **Activity Number** | **Competency** | **Sample Data** |
-|---|---|---|
-| Introduction [add link] | Cover workshop housekeeping; Introduce QGIS software; Understand GIS relevancy to public health | N/A |
-| Searching for and understanding GIS data [add link] | Utilize geospatial data portals; Leverage geospatial metadata | •[Toxics Release Inventory (TRI) Facilities, Massachusetts, 2024](https://hgl.harvard.edu/catalog/harvard-rtlmod1-tri-facilities-ma-2024)• •[Social Vulnerability Index (SVI) Overall Score by Census Tract, Massachusetts, 2020](https://hgl.harvard.edu/catalog/harvard-rtlmod1-svi-ma-tracts2020)• |
+| **Activity Number** | **Competency** | 
+|---|---|
+| Introduction [add link] | Workshop housekeeping; Introduce QGIS software; Grounding examples | 
+| Searching for and understanding GIS data [add link] | Utilize geospatial data portals; Leverage geospatial metadata | 
+| Opening and Understanding GIS Files [add link] | Understand the structure of spatial data | 
+| Visualizing GIS Data [add link] | Map symbology tips; Visualize nominal and interval data | 
 
 ## Workshop requirements
 - No prior geospatial knowledge is required for this workshop
 - This workshop does not require any specialized software to participate, other than a standard web browser (Chrome, Firefox, etc.)
-- Each competency covered will have practical GIS applications live demonstrated by the instructor. Follow-along steps and sample data are included in these course materials. Following along with the data and software on your own computer (in class, or later at home) is **optional**. To do so, download the free, open source desktop GIS software called QGIS. 
+- Each competency covered will have practical GIS applications live demonstrated by the instructor. Follow-along steps and sample data are included in these course materials. Following along with the [data](https://drive.google.com/file/d/1v1eot3JZy_NX9bd9t9hP8CsuC0I2wKTX/view?usp=sharing) and software on your own computer (in class, or later at home) is **optional**. To do so, download the free, open source desktop GIS software called QGIS. 
     - [Download instructions for QGIS](https://mapping.share.library.harvard.edu/tutorials/software-access/qgis/). 
 - The instructor will give a brief overview of the QGIS software at the beginning of class to familiarize the software environment.
 - The instructor will give an overview of the data source, the [Harvard Geospatial Library (HGL)](https://hgl.harvard.edu/?_gl=1*1bsysif*_ga*OTM1NDk4NTczLjE3NTc5MzQyNTk.*_ga_3CXC97RWEK*czE3NjQ4NjgwOTAkbzc4JGcxJHQxNzY0ODY5ODQzJGo2MCRsMCRoMA..).

@@ -14,10 +14,10 @@ In this course, you will learn:
 
 | **Activity Number** | **Competency** | 
 |---|---|
-| Introduction [add link] | Workshop housekeeping; Introduce QGIS software; Grounding examples | 
-| Searching for and understanding GIS data [add link] | Utilize geospatial data portals; Leverage geospatial metadata | 
-| Opening and Understanding GIS Files [add link] | Understand the structure of spatial data | 
-| Visualizing GIS Data [add link] | Map symbology tips; Visualize nominal and interval data | 
+| [Introduction](https://mapping.share.library.harvard.edu/workshops/environment-public-health/intro/) | Workshop housekeeping; Introduce QGIS software; Grounding examples | 
+| [Searching for and understanding GIS data](https://mapping.share.library.harvard.edu/workshops/environment-public-health/1-searching-for-understanding-data/)| Utilize geospatial data portals; Leverage geospatial metadata | 
+| [Opening and Understanding GIS Files](https://mapping.share.library.harvard.edu/workshops/environment-public-health/2-opening-understanding-files/) | Understand the structure of spatial data | 
+| [Visualizing GIS Data](https://mapping.share.library.harvard.edu/workshops/environment-public-health/3-visualizing-data/) | Map symbology tips; Visualize nominal and interval data | 
 
 ## Workshop requirements
 - No prior geospatial knowledge is required for this workshop

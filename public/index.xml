@@ -90,7 +90,7 @@
       <link>http://localhost:1313/workshops/environment-public-health/3-visualizing-data/</link>
       <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/workshops/environment-public-health/3-visualizing-data/</guid>
-      <description>Use canopy (graduated) and EJ pop (categorical) to demo diff kinds of maps Show split screen thing if time</description>
+      <description>In this tutorial, we are going to demonstrate how to map both nominal and interval data, using Environmental Justice Population and Tree Cover data as examples.&#xA;Nominal data refers to categories without any inherent numerical relationship. Interval data refers to a numerical scale where the distance between numbers is known and consistent. You can use this understanding to leverage cartographic conventions and software templates designed for each level of measurement.</description>
     </item>
     <item>
       <title>Welcome and discovery map</title>

@@ -15,11 +15,13 @@
 
 
 <meta name="description" content="
-    Use canopy (graduated) and EJ pop (categorical) to demo diff kinds of maps Show split screen thing if time
+    In this tutorial, we are going to demonstrate how to map both nominal and interval data, using Environmental Justice Population and Tree Cover data as examples.
+Nominal data refers to categories without any inherent numerical relationship. Interval data refers to a numerical scale where the distance between numbers is known and consistent. You can use this understanding to leverage cartographic conventions and software templates designed for each level of measurement.
     "
 />
 <meta property="og:description" content="
-    Use canopy (graduated) and EJ pop (categorical) to demo diff kinds of maps Show split screen thing if time
+    In this tutorial, we are going to demonstrate how to map both nominal and interval data, using Environmental Justice Population and Tree Cover data as examples.
+Nominal data refers to categories without any inherent numerical relationship. Interval data refers to a numerical scale where the distance between numbers is known and consistent. You can use this understanding to leverage cartographic conventions and software templates designed for each level of measurement.
     " 
 />
 
@@ -44,14 +46,16 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/workshops/environment-public-health/3-visualizing-data/cover.png">
   <meta name="twitter:title" content="Visualizing data">
-  <meta name="twitter:description" content="Use canopy (graduated) and EJ pop (categorical) to demo diff kinds of maps Show split screen thing if time">
+  <meta name="twitter:description" content="In this tutorial, we are going to demonstrate how to map both nominal and interval data, using Environmental Justice Population and Tree Cover data as examples.
+Nominal data refers to categories without any inherent numerical relationship. Interval data refers to a numerical scale where the distance between numbers is known and consistent. You can use this understanding to leverage cartographic conventions and software templates designed for each level of measurement.">
 
 
   <meta itemprop="name" content="Visualizing data">
-  <meta itemprop="description" content="Use canopy (graduated) and EJ pop (categorical) to demo diff kinds of maps Show split screen thing if time">
+  <meta itemprop="description" content="In this tutorial, we are going to demonstrate how to map both nominal and interval data, using Environmental Justice Population and Tree Cover data as examples.
+Nominal data refers to categories without any inherent numerical relationship. Interval data refers to a numerical scale where the distance between numbers is known and consistent. You can use this understanding to leverage cartographic conventions and software templates designed for each level of measurement.">
   <meta itemprop="datePublished" content="2024-08-14T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-08-14T00:00:00+00:00">
-  <meta itemprop="wordCount" content="19">
+  <meta itemprop="wordCount" content="913">
   <meta itemprop="image" content="http://localhost:1313/workshops/environment-public-health/3-visualizing-data/cover.png">
 
 
@@ -226,8 +230,109 @@
 
                 <h1 class="title">Visualizing Data</h1>
 
-                <p>Use canopy (graduated) and EJ pop (categorical) to demo diff kinds of maps
-Show split screen thing if time</p>
+                <p>In this tutorial, we are going to demonstrate how to map both nominal and interval data, using Environmental Justice Population and Tree Cover data as examples.</p>
+<ul>
+<li><strong>Nominal data</strong> refers to categories without any inherent numerical relationship.</li>
+<li><strong>Interval data</strong> refers to a numerical scale where the distance between numbers is known and consistent.</li>
+</ul>
+<p>You can use this understanding to leverage cartographic conventions and software templates designed for each level of measurement.</p>
+<h2 id="datasets">Datasets</h2>
+<ul>
+<li>We are going to use the <code>EJ_CRIT_DE</code> field of the <a href="https://hgl.harvard.edu/catalog/harvard-rtlmod1-envjusticepop-boston-2020" target="_blank">Environmental Justice Populations by Census Block Group, Boston, Massachusetts, 2020</a>
+ to map <code>nominal</code> data. <code>EJ_CRIT_DE</code> refers to the EJ criteria description. Each census block group is assigned a category, e.g. <code>English isolation</code>; <code>Minority and income</code>, etc.</li>
+<li>We are going to use the <code>Percent_Tr</code> field of the <a href="https://hgl.harvard.edu/catalog/harvard-rtlmod1-treecanopy-boston-2019" target="_blank">Tree Canopy Percentage by Census Tract (CT), Boston, Massachusetts, 2019</a>
+ to map <code>interval</code> data. <code>Percent_Tr</code> refers to the tree canopy per census tract as a percentage of total land cover. These values are represented as percentages, e.g. <code>23.05%</code>; <code>14.25%</code>, etc.</li>
+</ul>
+<h2 id="requirements">Requirements</h2>
+<p>The instructor will demo next steps in QGIS. Participants are not required to follow along. If you wish to follow-along in class or later at home, you will need:</p>
+<ul>
+<li>QGIS [<a href="https://mapping.share.library.harvard.edu/tutorials/software-access/qgis/" target="_blank">Download instructions</a>
+]</li>
+<li>The sample data is available from the <a href="https://hgl.harvard.edu/?_gl=1*1mov24z*_ga*OTM1NDk4NTczLjE3NTc5MzQyNTk.*_ga_3CXC97RWEK*czE3NjUyODgyMTMkbzgzJGcxJHQxNzY1Mjg5NDc4JGo2MCRsMCRoMA.." target="_blank">Harvard Geospatial Library (HGL)</a>
+, and also pre-packaged for the workshop. [<a href="LINK!!!!">Workshop data</a>
+]</li>
+</ul>
+<h2 id="nominal-data">Nominal Data</h2>
+<ol>
+<li>
+<p>Start a new QGIS project and add the Environmental Justice Populations by Census Block dataset (downloaded to your computer) to the QGIS project by either: (1) dragging the file with the <code>.shp</code> file extension directly into the QGIS window from your file browser, <em>or</em> (2) using the menu navigation <code>Layer</code> → <code>Add Layer</code> → <code>Add Vector Layer</code> and using the <code>Data Source Manager</code> to select the file with the <code>.shp</code> file extension, then selecting <code>Add</code> and <code>Close</code>.</p>
+</li>
+<li>
+<p>Open the EJ Population layer properties by either double-clicking the layer in the <code>Layers</code> pane, or right-clicking the layer and selecting <code>Properties</code>.</p>
+</li>
+<li>
+<p>From the <code>Properties</code> window, select <code>Symbology</code> from the menu.</p>
+</li>
+<li>
+<p>Click where it says <code>Single Symbol</code>, and select <code>Categorized</code>. This is the QGIS template for symbolizing <code>nominal</code> data.</p>
+</li>
+<li>
+<p>Underneath where it says <code>Categorized</code>, there is a field called <code>Value</code>. Click arrow to the right of this field, to open a drop-down menu. This lets you select which attribute or variable you want to symbolize.</p>
+</li>
+<li>
+<p>Select <code>EJ_CRIT_DE</code>.</p>
+</li>
+<li>
+<p>Click <code>Classify</code>.</p>
+</li>
+</ol>
+<div class="alert-success">
+  <p>Tip: QGIS will select colors at random to symbolize the data categories. To have more control over how your map looks, you can use a tool developed by cartographers called <a href="https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3">Color Brewer</a>. Using Color Brewer, select the <code>Nature of your data</code> = <code>Qualitative</code> (nominal), and the number of classes you'd like (e.g. 7), to generate color schemes well-suited for mapping. The website will provide color codes you can copy-paste into QGIS. Double-click the colorful squares in QGIS to open the individual color properties.</p>
+</div>
+<ol start="8">
+<li>
+<p>In the QGIS <code>Symbology Properties</code> menu, select <code>Apply</code> and then <code>OK</code>.</p>
+</li>
+<li>
+<p>Your map will be symbolized by Environmental Justice Population criteria category now. In the <code>Layers</code> pane, engage the toggle drop-down arrow to the left of the EJ Population layer to reveal the map legend.</p>
+</li>
+</ol>
+<h2 id="interval-data">Interval Data</h2>
+<ol>
+<li>
+<p>Add the <a href="https://hgl.harvard.edu/catalog/harvard-rtlmod1-treecanopy-boston-2019" target="_blank">Tree Canopy Percentage by Census Tract (CT), Boston, Massachusetts, 2019</a>
+ dataset to the same QGIS project by either: (1) dragging the file with the <code>.shp</code> file extension directly into the QGIS window from your file browser, <em>or</em> (2) using the menu navigation <code>Layer</code> → <code>Add Layer</code> → <code>Add Vector Layer</code> and using the <code>Data Source Manager</code> to select the file with the <code>.shp</code> file extension, then selecting <code>Add</code> and <code>Close</code>.</p>
+</li>
+<li>
+<p>Open the tree canopy layer properties by either double-clicking the layer in the <code>Layers</code> pane, or right-clicking the layer and selecting <code>Properties</code>.</p>
+</li>
+<li>
+<p>From the <code>Properties</code> window, select <code>Symbology</code> from the menu.</p>
+</li>
+<li>
+<p>Click where it says <code>Single Symbol</code>, and select <code>Graduated</code>. This is the QGIS template for symbolizing <code>interval</code> data.</p>
+</li>
+<li>
+<p>Underneath where it says <code>Graduated</code>, there is a field called <code>Value</code>. Click arrow to the right of this field, to open a drop-down menu. This lets you select which attribute or variable you want to symbolize.</p>
+</li>
+<li>
+<p>Select <code>Percent_Tr</code>.</p>
+</li>
+<li>
+<p>Click <code>Classify</code>. You will notice this populates your data classification with a graduated color ramp to represent density of the variable selected.</p>
+</li>
+</ol>
+<blockquote>
+<h3 id="graduated-symbology-tips">Graduated symbology tips</h3>
+<p>Here are some tips to pay attention to when working with graduated symbology:</p>
+<ul>
+<li>There are a number of classification <code>Modes</code> you can choose from, e.g. <code>Equal Count</code>, <code>Equal Interval</code>. There is plenty of <a href="https://pro.arcgis.com/en/pro-app/latest/help/mapping/layer-properties/data-classification-methods.htm" target="_blank">documentation</a>
+ available online to help you understanding how each of these modes work.</li>
+<li>If you are using GIS to understand your data from a descriptive statistics perspective, you will likely need to trial and error different classification <code>Modes</code> to understand the shape of your data.</li>
+<li>Using the <code>Histogram</code> tab, which is right next to the current <code>Classes</code> tab you are viewing can help you understand the values present in your data. Make sure to click <code>Load Values</code>.
+<img src="histogram.png" alt="QGIS layer histogram"></li>
+<li>Once you have a better sense of your dataset using these exploratory tools, you will be better positioned to choose which classification <code>Mode</code> you choose in any published or rhetorical maps you make.</li>
+<li>The choices you make for classification <code>Mode</code> will impact how readers interpret your data.</li>
+<li>You will also want to consider color. You can use <a href="https://colorbrewer2.org/#type=sequential&amp;scheme=BuGn&amp;n=3" target="_blank">Color Brewer</a>
+ to select a color scheme. Let&rsquo;s use green since we are representing tree canopy.</li>
+</ul>
+</blockquote>
+<ol start="8">
+<li>Select <code>Apply</code> and then <code>OK</code>.</li>
+</ol>
+<blockquote>
+<p>💡 Discussion: Toggle the layers in the <code>Layers</code> pane using the checkboxes to compare the two maps. What do you observe?</p>
+</blockquote>
 
             </div>
         </div>

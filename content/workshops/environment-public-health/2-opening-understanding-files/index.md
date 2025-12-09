@@ -43,9 +43,6 @@ The instructor will demo next steps in QGIS. Participants are not required to fo
 ![Polygons in a QGIS map](select_polygon.png)
 *The same feature displayed in the QGIS map view.*
 
-> 💡 Discussion: Which kind of real-world phenomena might be encoded into these different types of feature representations?
-> ![Diagram showing point, line, and polygon vector features](points-lines-polygons.jpeg)
-
 
 7. Look at the attribute table column headers. Let's make sense of what variables are available to us to map. 
 

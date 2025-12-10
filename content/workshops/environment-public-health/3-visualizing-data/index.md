@@ -49,7 +49,7 @@ The instructor will demo next steps in QGIS. Participants are not required to fo
 
 8. In the QGIS `Symbology Properties` menu, select `Apply` and then `OK`.
 
-9. Your map will be symbolized by Environmental Justice Population criteria category now. In the `Layers` pane, engage the toggle drop-down arrow to the left of the EJ Population layer to reveal the map legend.
+9. Your map will now be symbolized by Environmental Justice Population criteria category. In the `Layers` pane, engage the toggle drop-down arrow to the left of the EJ Population layer to reveal the map legend.
 
 ## Interval Data
 
@@ -61,19 +61,19 @@ The instructor will demo next steps in QGIS. Participants are not required to fo
 
 4. Click where it says `Single Symbol`, and select `Graduated`. This is the QGIS template for symbolizing `interval` data.
 
-5. Underneath where it says `Graduated`, there is a field called `Value`. Click arrow to the right of this field, to open a drop-down menu. This lets you select which attribute or variable you want to symbolize.
+5. Underneath where it says `Graduated`, there is a field for `Value`. Click arrow to the right of this field, to open a drop-down menu. This lets you select which attribute or variable you want to symbolize.
 
 6. Select `Percent_Tr`.
 
 7. Click `Classify`. You will notice this populates your data classification with a graduated color ramp to represent density of the variable selected. 
 
 > ### Graduated symbology tips
-> Here are some tips to pay attention to when working with graduated symbology:
-> - There are a number of classification `Modes` you can choose from, e.g. `Equal Count`, `Equal Interval`. There is plenty of [documentation](https://pro.arcgis.com/en/pro-app/latest/help/mapping/layer-properties/data-classification-methods.htm) available online to help you understanding how each of these modes work.
-> - If you are using GIS to understand your data from a descriptive statistics perspective, you will likely need to trial and error different classification `Modes` to understand the shape of your data.
-> - Using the `Histogram` tab, which is right next to the current `Classes` tab you are viewing can help you understand the values present in your data. Make sure to click `Load Values`. 
+> Here are some considerations for working with graduated symbology:
+> - You will need to choose a classification `Modes` e.g. `Equal Count`, `Equal Interval`. To support your understanding, you can refer to mode [documentation](https://pro.arcgis.com/en/pro-app/latest/help/mapping/layer-properties/data-classification-methods.htm).
+> - It is typical when exploring your data to try out various classification `Modes`.
+> - The `Histogram` tab is a helpful tool for understanding the distribution of your data values. This tool is located next to the `Classes` tab. Click `Load Values` to display the diagram. 
 > ![QGIS layer histogram](histogram.png)
-> - Once you have a better sense of your dataset using these exploratory tools, you will be better positioned to choose which classification `Mode` you choose in any published or rhetorical maps you make. 
+> - Once you have a better sense of your dataset using these exploratory tools, you will be better positioned to identify which classification `Mode` would be suitable for any published or rhetorical maps you make. 
 > - The choices you make for classification `Mode` will impact how readers interpret your data. 
 > - You will also want to consider color. You can use [Color Brewer](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3) to select a color scheme. Let's use green since we are representing tree canopy. 
 

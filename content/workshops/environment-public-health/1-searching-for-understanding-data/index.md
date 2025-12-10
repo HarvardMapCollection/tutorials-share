@@ -6,7 +6,7 @@ layout: single2
 description: 
 ---
 
-To start to explore how to access and use geospatial data, we will start with an example data scenario. The map below shows census tracts graded by social vulnerability index, layered against the locations of known toxics release facilities in Massachusetts. 
+To explore accessing and using geospatial data, we will start with an example data scenario. The map below shows census tracts graded by social vulnerability index, layered against the locations of known toxics release facilities in Massachusetts. 
 
 
 ![Map showing toxics release sites in Massachusetts layered on top of social vulnerability index](tri_svi.png)
@@ -28,7 +28,7 @@ Both of these datasets are available from the Harvard Geospatial Library (HGL):
 
 ## In-class activity
 
-1. Click on the [Toxics Release Inventory dataset]((https://hgl.harvard.edu/catalog/harvard-rtlmod1-tri-facilities-ma-2024)).
+1. Click on the [Toxics Release Inventory dataset](https://hgl.harvard.edu/catalog/harvard-rtlmod1-tri-facilities-ma-2024).
 
 ![Homepage for the TRI dataset on HGL](tri.png)
 

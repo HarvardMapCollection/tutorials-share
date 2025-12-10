@@ -16,12 +16,20 @@
 
 <meta name="description" content="
     In this tutorial, we are going to demonstrate how to map both nominal and interval data, using Environmental Justice Population and Tree Cover data as examples.
-Nominal data refers to categories without any inherent numerical relationship. Interval data refers to a numerical scale where the distance between numbers is known and consistent. You can use this understanding to leverage cartographic conventions and software templates designed for each level of measurement.
+
+Nominal data refers to categories without any inherent numerical relationship.
+Interval data refers to a numerical scale where the distance between numbers is known and consistent.
+
+You can use this understanding to leverage cartographic conventions and software templates designed for each level of measurement.
     "
 />
 <meta property="og:description" content="
     In this tutorial, we are going to demonstrate how to map both nominal and interval data, using Environmental Justice Population and Tree Cover data as examples.
-Nominal data refers to categories without any inherent numerical relationship. Interval data refers to a numerical scale where the distance between numbers is known and consistent. You can use this understanding to leverage cartographic conventions and software templates designed for each level of measurement.
+
+Nominal data refers to categories without any inherent numerical relationship.
+Interval data refers to a numerical scale where the distance between numbers is known and consistent.
+
+You can use this understanding to leverage cartographic conventions and software templates designed for each level of measurement.
     " 
 />
 
@@ -55,7 +63,7 @@ Nominal data refers to categories without any inherent numerical relationship. I
 Nominal data refers to categories without any inherent numerical relationship. Interval data refers to a numerical scale where the distance between numbers is known and consistent. You can use this understanding to leverage cartographic conventions and software templates designed for each level of measurement.">
   <meta itemprop="datePublished" content="2025-12-06T00:00:00+00:00">
   <meta itemprop="dateModified" content="2025-12-06T00:00:00+00:00">
-  <meta itemprop="wordCount" content="913">
+  <meta itemprop="wordCount" content="881">
   <meta itemprop="image" content="http://localhost:1313/workshops/environment-public-health/3-visualizing-data/cover.png">
 
 
@@ -284,7 +292,7 @@ Nominal data refers to categories without any inherent numerical relationship. I
 <p>In the QGIS <code>Symbology Properties</code> menu, select <code>Apply</code> and then <code>OK</code>.</p>
 </li>
 <li>
-<p>Your map will be symbolized by Environmental Justice Population criteria category now. In the <code>Layers</code> pane, engage the toggle drop-down arrow to the left of the EJ Population layer to reveal the map legend.</p>
+<p>Your map will now be symbolized by Environmental Justice Population criteria category. In the <code>Layers</code> pane, engage the toggle drop-down arrow to the left of the EJ Population layer to reveal the map legend.</p>
 </li>
 </ol>
 <h2 id="interval-data">Interval Data</h2>
@@ -303,7 +311,7 @@ Nominal data refers to categories without any inherent numerical relationship. I
 <p>Click where it says <code>Single Symbol</code>, and select <code>Graduated</code>. This is the QGIS template for symbolizing <code>interval</code> data.</p>
 </li>
 <li>
-<p>Underneath where it says <code>Graduated</code>, there is a field called <code>Value</code>. Click arrow to the right of this field, to open a drop-down menu. This lets you select which attribute or variable you want to symbolize.</p>
+<p>Underneath where it says <code>Graduated</code>, there is a field for <code>Value</code>. Click arrow to the right of this field, to open a drop-down menu. This lets you select which attribute or variable you want to symbolize.</p>
 </li>
 <li>
 <p>Select <code>Percent_Tr</code>.</p>
@@ -314,25 +322,23 @@ Nominal data refers to categories without any inherent numerical relationship. I
 </ol>
 <blockquote>
 <h3 id="graduated-symbology-tips">Graduated symbology tips</h3>
-<p>Here are some tips to pay attention to when working with graduated symbology:</p>
+<p>Here are some considerations for working with graduated symbology:</p>
 <ul>
-<li>There are a number of classification <code>Modes</code> you can choose from, e.g. <code>Equal Count</code>, <code>Equal Interval</code>. There is plenty of <a href="https://pro.arcgis.com/en/pro-app/latest/help/mapping/layer-properties/data-classification-methods.htm" target="_blank">documentation</a>
- available online to help you understanding how each of these modes work.</li>
-<li>If you are using GIS to understand your data from a descriptive statistics perspective, you will likely need to trial and error different classification <code>Modes</code> to understand the shape of your data.</li>
-<li>Using the <code>Histogram</code> tab, which is right next to the current <code>Classes</code> tab you are viewing can help you understand the values present in your data. Make sure to click <code>Load Values</code>.
+<li>You will need to choose a classification <code>Modes</code> e.g. <code>Equal Count</code>, <code>Equal Interval</code>. To support your understanding, you can refer to mode <a href="https://pro.arcgis.com/en/pro-app/latest/help/mapping/layer-properties/data-classification-methods.htm" target="_blank">documentation</a>
+.</li>
+<li>It is typical when exploring your data to try out various classification <code>Modes</code>.</li>
+<li>The <code>Histogram</code> tab is a helpful tool for understanding the distribution of your data values. This tool is located next to the <code>Classes</code> tab. Click <code>Load Values</code> to display the diagram.
 <img src="histogram.png" alt="QGIS layer histogram"></li>
-<li>Once you have a better sense of your dataset using these exploratory tools, you will be better positioned to choose which classification <code>Mode</code> you choose in any published or rhetorical maps you make.</li>
+<li>Once you have a better sense of your dataset using these exploratory tools, you will be better positioned to identify which classification <code>Mode</code> would be suitable for any published or rhetorical maps you make.</li>
 <li>The choices you make for classification <code>Mode</code> will impact how readers interpret your data.</li>
 <li>You will also want to consider color. You can use <a href="https://colorbrewer2.org/#type=sequential&amp;scheme=BuGn&amp;n=3" target="_blank">Color Brewer</a>
  to select a color scheme. Let&rsquo;s use green since we are representing tree canopy.</li>
-</ul>
-</blockquote>
+</ul></blockquote>
 <ol start="8">
 <li>Select <code>Apply</code> and then <code>OK</code>.</li>
 </ol>
 <blockquote>
-<p>💡 Discussion: Toggle the layers in the <code>Layers</code> pane using the checkboxes to compare the two maps. What do you observe?</p>
-</blockquote>
+<p>💡 Discussion: Toggle the layers in the <code>Layers</code> pane using the checkboxes to compare the two maps. What do you observe?</p></blockquote>
 
             </div>
         </div>

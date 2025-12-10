@@ -4,7 +4,51 @@
       
 	  <url>
 	    <loc>http://localhost:1313/</loc>
-	    <lastmod>2025-09-23</lastmod>
+	    <lastmod>2025-12-09</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/workshops/environment-public-health/intro/</loc>
+	    <lastmod>2025-12-09</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/workshops/environment-public-health/1-searching-for-understanding-data/</loc>
+	    <lastmod>2025-12-08</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/workshops/environment-public-health/2-opening-understanding-files/</loc>
+	    <lastmod>2025-12-07</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/workshops/environment-public-health/3-visualizing-data/</loc>
+	    <lastmod>2025-12-06</lastmod>
         
 
         
@@ -190,39 +234,6 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/workshops/environment-public-health/intro/</loc>
-	    <lastmod>2024-08-17</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/workshops/environment-public-health/1-searching-for-understanding-data/</loc>
-	    <lastmod>2024-08-16</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/workshops/environment-public-health/2-opening-understanding-files/</loc>
-	    <lastmod>2024-08-15</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
 	    <loc>http://localhost:1313/workshops/find-gis-data/welcome/</loc>
 	    <lastmod>2024-08-15</lastmod>
         
@@ -256,17 +267,6 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/workshops/environment-public-health/3-visualizing-data/</loc>
-	    <lastmod>2024-08-14</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
 	    <loc>http://localhost:1313/projects/huige/project-welcome/</loc>
 	    <lastmod>2024-08-14</lastmod>
         
@@ -279,17 +279,6 @@
       
 	  <url>
 	    <loc>http://localhost:1313/workshops/find-gis-data/activity-1/</loc>
-	    <lastmod>2024-08-13</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/workshops/environment-public-health/resources/</loc>
 	    <lastmod>2024-08-13</lastmod>
         
 

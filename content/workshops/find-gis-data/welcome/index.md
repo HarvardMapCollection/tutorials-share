@@ -19,7 +19,7 @@ Get here quickly:
 <div class="alert-success">
 <h2>Scope</h2>
 
-<p> 🚨 This is not a workshop on how to use GIS mapping software. Please consider referring to our other in-person <a href="https://libcal.library.harvard.edu/calendar/main?t=d&q=gis&cid=15049&cal=15049&inc=0">learning opportunities</a> or <a href = "https://mapping.share.library.harvard.edu/resources/workshops">follow-along materials</a> from previous events. </p>
+<p> 🚨 This is not a workshop on how to use GIS mapping software. Please consider referring to our other in-person <a href="https://libcal.library.harvard.edu/calendar/main?t=d&q=gis&cid=15049&cal=15049&inc=0">learning opportunities</a> or <a href = "https://mapping.share.library.harvard.edu/workshops">follow-along materials</a> from previous events. </p>
 
 <p>🚨 Today will focus on how to find relevant <em>source data</em> for a GIS project. </p>
 

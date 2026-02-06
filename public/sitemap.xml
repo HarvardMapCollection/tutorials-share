@@ -190,6 +190,17 @@
       
       
 	  <url>
+	    <loc>http://localhost:1313/workshops/fing-gis-data-arcgis/</loc>
+	    <lastmod>2025-03-18</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
 	    <loc>http://localhost:1313/workshops/find-gis-data/</loc>
 	    <lastmod>2025-03-18</lastmod>
         
@@ -245,6 +256,17 @@
       
       
 	  <url>
+	    <loc>http://localhost:1313/workshops/fing-gis-data-arcgis/welcome/</loc>
+	    <lastmod>2024-08-15</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
 	    <loc>http://localhost:1313/posts/nicolae/</loc>
 	    <lastmod>2024-08-14</lastmod>
         
@@ -289,6 +311,17 @@
       
       
 	  <url>
+	    <loc>http://localhost:1313/workshops/fing-gis-data-arcgis/activity-1/</loc>
+	    <lastmod>2024-08-13</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
 	    <loc>http://localhost:1313/projects/huige/</loc>
 	    <lastmod>2024-08-13</lastmod>
         
@@ -311,6 +344,17 @@
       
       
 	  <url>
+	    <loc>http://localhost:1313/workshops/fing-gis-data-arcgis/activity-2/</loc>
+	    <lastmod>2024-08-12</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
 	    <loc>http://localhost:1313/workshops/find-gis-data/activity-3/</loc>
 	    <lastmod>2024-08-11</lastmod>
         
@@ -322,7 +366,29 @@
       
       
 	  <url>
+	    <loc>http://localhost:1313/workshops/fing-gis-data-arcgis/activity-3/</loc>
+	    <lastmod>2024-08-11</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
 	    <loc>http://localhost:1313/workshops/find-gis-data/activity-4/</loc>
+	    <lastmod>2024-08-10</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/workshops/fing-gis-data-arcgis/activity-4/</loc>
 	    <lastmod>2024-08-10</lastmod>
         
 

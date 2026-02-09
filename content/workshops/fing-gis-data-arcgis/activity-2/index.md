@@ -60,13 +60,32 @@ You can download and explore sample datasets related to this activity from the w
 
 
 
-<!-- LEFT OFF HERE!!!!  -->
-
-
-
 ### Follow-along steps
 
-1. Import the coordinates csv, `example-coordinates.csv` by 
+1. Import the coordinates csv, `example-coordinates.csv`. From the `Map` menu tab → Click the arrow below the `Add Data` icon to expand the `Add Data Menu` → Hover over `Points from Table` → Select `XY Table to Point`. 
+
+2. In the resulting `XY Table to Point` menu, populate the parameters. `Input Table` = Click the folder icon and navigate into `Computer` and then the folder where the downloaded data is saved. Select folder `activity2_coordinates` and then file `example_coordinates.csv`. The rest of the parameter fields should autopopulate. 
+
+> Depending on how the x,y data is labelled in your table, you may need to manually designate which column maps to `X Field` and `Y Field` respectively.
+
+<div class="alert-success">
+<h2>Saving Geospatial Data for Future Use</h2>
+  <p>A common question students ask GIS librarians is "How do I get my data out of ArcGIS Pro or share it with someone not using this software?"</p> 
+  <p>You may notice that when using this import wizard (and may other dialog boxes in ArcGIS Pro), you are prompted to save files by default in your project's file geodatabase.</p>
+  <img src="gdb.png" alt="Save output in ArcGIS Pro highlighting file geodatabases"><br>
+  <p>It is okay to use the file .gdb temporarily while working on your project. Keep in mind the suggestion to periodically archiving any important files using legible, open data formats such as geopackage or geojson.</p>
+  <h3>Next steps</h3>
+  <ol>
+  <li>Use either <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/conversion/features-to-json.htm">Features to JSON</a> tool to create a GeoJSON or <code>Export as Geopackage</code> by clicking: <code>Insert tab</code> → <code>Add Folder</code> → Create a normal, non-file gdb folder on your computer to organize your geospatial data. Select this folder to add the folder connection. Next, <code>Catalog pane</code> → Right click the folder you created to manage your geospatial data → <code>New</code> → <code>Geopackage</code>. Rename the new geopackage the name of the layer you want to save, e.g. "example_coordinates.gpkg". Then use <code>Feature Class to Geodatabase</code> tool to export your layer in an open, legible format that will work in any GIS software. <code>Input Features</code> = the layer you want to copy; <code>Output Geodatabase</code> = the empty <code>.gpkg</code> you just created.</li>
+ <li>Use the <a href="https://mapping.share.library.harvard.edu/tags/data-curation/">Harvard Library GIS Data Management online guides</a> for guidance on your project data. </li>
+  <li>Set yourself up for success by booking a <a href="https://ask.library.harvard.edu/maps?_gl=1*8tuawi*_ga*MTc0Nzk5MjkyOS4xNzcwNjYxOTEz*_ga_3CXC97RWEK*czE3NzA2NjIwNTIkbzEkZzAkdDE3NzA2NjIwNTIkajYwJGwwJGgw">45 minute instruction session</a> with a GIS librarian to ensure your project structure and data practices are top notch. </li>
+  </ol>
+</div>
+
+
+
+<!-- LEFT OFF HERE --> 
+  
 4. Right-click `example-coordinates` in the Layers pane → `Zoom to layer` to see the points better.
 5. Right-click `example-coordinates` in the Layers pane → `Open attribute table` to view the data attributes.
 6. Right-click `example-coordinates` in the Layers pane → `Properties` → `Symbology` → Change `Single Symbol` to `Categorized` → Under `Value` choose `type` → `Classify` → `OK` to change the color symbols of the map. Click the dot icon next to `Symbol` (underneath `Value`) to change the size of the points.

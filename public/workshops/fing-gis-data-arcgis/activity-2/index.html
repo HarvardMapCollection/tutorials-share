@@ -50,7 +50,7 @@
   <meta itemprop="description" content="Learn how to create coordinate data compatible with GIS software.">
   <meta itemprop="datePublished" content="2024-08-12T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-08-12T00:00:00+00:00">
-  <meta itemprop="wordCount" content="502">
+  <meta itemprop="wordCount" content="859">
 
 
 
@@ -210,7 +210,7 @@
                           
                           ↵
                             <li>
-                              <a href="/workshops/fing-gis-data-arcgis/"> Finding GIS data for your project [demo in ArcGIS Pro]</a>
+                              <a href=""> Finding GIS data for your project [demo in ArcGIS Pro]</a>
                             </li>
                           
                           <li style="margin-right: 0;" class="active">
@@ -314,12 +314,31 @@
 </div>
 <h3 id="follow-along-steps">Follow-along steps</h3>
 <ol>
-<li>Open QGIS (<a href="https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-software/" target="_blank">download instructions</a>
-).</li>
-<li>Add a basemap (<a href="https://mapping.share.library.harvard.edu/tutorials/qgis/add-basemap/" target="_blank">instructions</a>
-).</li>
-<li>Import the coordinates (<a href="https://mapping.share.library.harvard.edu/tutorials/qgis/add-spreadsheet/" target="_blank">instructions</a>
-).</li>
+<li>
+<p>Import the coordinates csv, <code>example-coordinates.csv</code>. From the <code>Map</code> menu tab → Click the arrow below the <code>Add Data</code> icon to expand the <code>Add Data Menu</code> → Hover over <code>Points from Table</code> → Select <code>XY Table to Point</code>.</p>
+</li>
+<li>
+<p>In the resulting <code>XY Table to Point</code> menu, populate the parameters. <code>Input Table</code> = Click the folder icon and navigate into <code>Computer</code> and then the folder where the downloaded data is saved. Select folder <code>activity2_coordinates</code> and then file <code>example_coordinates.csv</code>. The rest of the parameter fields should autopopulate.</p>
+</li>
+</ol>
+<blockquote>
+<p>Depending on how the x,y data is labelled in your table, you may need to manually designate which column maps to <code>X Field</code> and <code>Y Field</code> respectively.</p>
+</blockquote>
+<div class="alert-success">
+<h2>Saving Geospatial Data for Future Use</h2>
+  <p>A common question students ask GIS librarians is "How do I get my data out of ArcGIS Pro or share it with someone not using this software?"</p> 
+  <p>You may notice that when using this import wizard (and may other dialog boxes in ArcGIS Pro), you are prompted to save files by default in your project's file geodatabase.</p>
+  <img src="gdb.png" alt="Save output in ArcGIS Pro highlighting file geodatabases"><br>
+  <p>It is okay to use the file .gdb temporarily while working on your project. Keep in mind the suggestion to periodically archiving any important files using legible, open data formats such as geopackage or geojson.</p>
+  <h3>Next steps</h3>
+  <ol>
+  <li>Use either <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/conversion/features-to-json.htm">Features to JSON</a> tool to create a GeoJSON or <code>Export as Geopackage</code> by clicking: <code>Insert tab</code> → <code>Add Folder</code> → Create a normal, non-file gdb folder on your computer to organize your geospatial data. Select this folder to add the folder connection. Next, <code>Catalog pane</code> → Right click the folder you created to manage your geospatial data → <code>New</code> → <code>Geopackage</code>. Rename the new geopackage the name of the layer you want to save, e.g. "example_coordinates.gpkg". Then use <code>Feature Class to Geodatabase</code> tool to export your layer in an open, legible format that will work in any GIS software. <code>Input Features</code> = the layer you want to copy; <code>Output Geodatabase</code> = the empty <code>.gpkg</code> you just created.</li>
+ <li>Use the <a href="https://mapping.share.library.harvard.edu/tags/data-curation/">Harvard Library GIS Data Management online guides</a> for guidance on your project data. </li>
+  <li>Set yourself up for success by booking a <a href="https://ask.library.harvard.edu/maps?_gl=1*8tuawi*_ga*MTc0Nzk5MjkyOS4xNzcwNjYxOTEz*_ga_3CXC97RWEK*czE3NzA2NjIwNTIkbzEkZzAkdDE3NzA2NjIwNTIkajYwJGwwJGgw">45 minute instruction session</a> with a GIS librarian to ensure your project structure and data practices are top notch. </li>
+  </ol>
+</div>
+<!-- LEFT OFF HERE --> 
+<ol start="4">
 <li>Right-click <code>example-coordinates</code> in the Layers pane → <code>Zoom to layer</code> to see the points better.</li>
 <li>Right-click <code>example-coordinates</code> in the Layers pane → <code>Open attribute table</code> to view the data attributes.</li>
 <li>Right-click <code>example-coordinates</code> in the Layers pane → <code>Properties</code> → <code>Symbology</code> → Change <code>Single Symbol</code> to <code>Categorized</code> → Under <code>Value</code> choose <code>type</code> → <code>Classify</code> → <code>OK</code> to change the color symbols of the map. Click the dot icon next to <code>Symbol</code> (underneath <code>Value</code>) to change the size of the points.</li>

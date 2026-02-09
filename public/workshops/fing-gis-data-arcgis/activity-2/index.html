@@ -50,7 +50,7 @@
   <meta itemprop="description" content="Learn how to create coordinate data compatible with GIS software.">
   <meta itemprop="datePublished" content="2024-08-12T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-08-12T00:00:00+00:00">
-  <meta itemprop="wordCount" content="818">
+  <meta itemprop="wordCount" content="721">
 
 
 
@@ -332,7 +332,7 @@
   <p>It is okay to use the file .gdb temporarily while working on your project. Keep in mind the suggestion to periodically archive any important files using legible, open data formats such as geopackage or geojson.</p>
   <h3>Next steps</h3>
   <ol>
-  <li>Use either <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/conversion/features-to-json.htm">Features to JSON</a> tool to create a GeoJSON or <code>Export as Geopackage</code> by clicking: <code>Insert tab</code> → <code>Add Folder</code> → Create a normal, non-file gdb folder on your computer to organize your geospatial data. Select this folder to add the folder connection. Next, <code>Catalog pane</code> → Right click the folder you created to manage your geospatial data → <code>New</code> → <code>Geopackage</code>. Rename the new geopackage the name of the layer you want to save, e.g. "example_coordinates.gpkg". Then use <code>Feature Class to Geodatabase</code> tool to export your layer in an open, legible format that will work in any GIS software. <code>Input Features</code> = the layer you want to copy; <code>Output Geodatabase</code> = the empty <code>.gpkg</code> you just created.</li>
+  <li>Learn <a href="https://mapping.share.library.harvard.edu/tutorials/arcgis-hub/export-file-types/">how to export your data as geojson or geopackage</a> from ArcGIS Pro.</li>
  <li>Use the <a href="https://mapping.share.library.harvard.edu/tags/data-curation/">Harvard Library GIS Data Management online guides</a> for guidance on your project data. </li>
   <li>Set yourself up for success by booking a <a href="https://ask.library.harvard.edu/maps?_gl=1*8tuawi*_ga*MTc0Nzk5MjkyOS4xNzcwNjYxOTEz*_ga_3CXC97RWEK*czE3NzA2NjIwNTIkbzEkZzAkdDE3NzA2NjIwNTIkajYwJGwwJGgw">45 minute instruction session</a> with a GIS librarian to ensure your project structure and data practices are top notch. </li>
   </ol>
@@ -341,8 +341,9 @@
 <li>Right-click <code>example-coordinates</code> in the Layers pane → <code>Zoom to layer</code> to see the points better.</li>
 <li>Right-click <code>example-coordinates</code> in the Layers pane → <code>Attribute table</code> to view the data attributes.</li>
 <li>Right-click <code>example-coordinates</code> in the Layers pane → <code>Symbology</code> → Change <code>Single Symbol</code> to <code>Unique Values</code> → Under <code>Field 1</code> choose <code>type</code> → <code>Classify</code> → <code>OK</code> to change the color symbols of the map.</li>
-<li>Save as either geojson or</li>
-<li>Notice how you can drag the <code>.geoJSON</code> file directly into the QGIS window to display the geometry now (rather than use the table import window). This is because it is stored as spatial data.</li>
+<li>Export your data as either geoJSON or geopackage. (<a href="https://mapping.share.library.harvard.edu/tutorials/arcgis-hub/export-file-types/" target="_blank">Tutorial</a>
+)</li>
+<li>Notice how you can drag the <code>.geoJSON</code> file directly into the ArcGIS window to display the geometry now (rather than use the XY Points to Table import wizard). This is because it is now stored as spatial data.</li>
 </ol>
 
             </div>

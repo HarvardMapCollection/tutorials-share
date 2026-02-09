@@ -6,8 +6,15 @@
     <description>Recent content in Qgis-Hub on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/qgis-hub/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Export GeoJSON and Geopackage from ArcGIS Pro</title>
+      <link>http://localhost:1313/tutorials/arcgis-hub/export-file-types/</link>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/arcgis-hub/export-file-types/</guid>
+      <description>&lt;p&gt;A common question students ask GIS librarians is &amp;ldquo;How do I get my data out of ArcGIS Pro or share it with someone not using this software?&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;You may notice that when using ArcGIS dialog boxes, you are prompted to save files by default in your project&amp;rsquo;s file geodatabase.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;gdb.png&#34; alt=&#34;Save output in ArcGIS Pro highlighting file geodatabases&#34;&gt;&lt;br&gt;&#xA;It is okay to use the file .gdb temporarily while working on your project. Keep in mind the suggestion to periodically archive any important files using legible, open data formats such as geopackage or geojson.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Vectorizing from Historic Maps in QGIS</title>
       <link>http://localhost:1313/tutorials/qgis-hub/vectorization/</link>

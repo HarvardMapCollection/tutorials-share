@@ -16,6 +16,13 @@
       <description>&lt;p&gt;This guide will walk you through finding georeferenced historic maps from the Harvard Map Collection and understanding the difference between raster and vector data.&lt;/p&gt;&#xD;&#xA;&lt;hr /&gt;&#xD;&#xA;&lt;h3&gt;Finding a historical map to use&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;Depending on your project topic, it may be useful to be able to compare information from historic maps against the modern layers you are working with.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Many map library special collections allow you to download versions of their maps in formats that are already spatial data, and will be compatible with GIS mapping.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>How to Export GeoJSON and Geopackage from ArcGIS Pro</title>
+      <link>http://localhost:1313/tutorials/arcgis-hub/export-file-types/</link>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/arcgis-hub/export-file-types/</guid>
+      <description>&lt;p&gt;A common question students ask GIS librarians is &amp;ldquo;How do I get my data out of ArcGIS Pro or share it with someone not using this software?&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;You may notice that when using ArcGIS dialog boxes, you are prompted to save files by default in your project&amp;rsquo;s file geodatabase.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;gdb.png&#34; alt=&#34;Save output in ArcGIS Pro highlighting file geodatabases&#34;&gt;&lt;br&gt;&#xA;It is okay to use the file .gdb temporarily while working on your project. Keep in mind the suggestion to periodically archive any important files using legible, open data formats such as geopackage or geojson.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Vectorizing from Historic Maps in QGIS</title>
       <link>http://localhost:1313/tutorials/qgis-hub/vectorization/</link>
       <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>

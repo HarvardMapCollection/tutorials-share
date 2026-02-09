@@ -27,7 +27,7 @@ theme = 'BlogRa'
                 weight = 1
             [[menu.main]]
                 parent = "Guides and Tutorials"
-                name = "QGIS Hub"
+                name = "ArcGIS + QGIS Hub"
                 url = "/tags/QGIS-hub/"
                 weight = 2
             [[menu.main]]

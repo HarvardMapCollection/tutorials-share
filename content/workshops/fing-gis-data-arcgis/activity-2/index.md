@@ -73,7 +73,7 @@ You can download and explore sample datasets related to this activity from the w
   <p>A common question students ask GIS librarians is "How do I get my data out of ArcGIS Pro or share it with someone not using this software?"</p> 
   <p>You may notice that when using this import wizard (and may other dialog boxes in ArcGIS Pro), you are prompted to save files by default in your project's file geodatabase.</p>
   <img src="gdb.png" alt="Save output in ArcGIS Pro highlighting file geodatabases"><br>
-  <p>It is okay to use the file .gdb temporarily while working on your project. Keep in mind the suggestion to periodically archiving any important files using legible, open data formats such as geopackage or geojson.</p>
+  <p>It is okay to use the file .gdb temporarily while working on your project. Keep in mind the suggestion to periodically archive any important files using legible, open data formats such as geopackage or geojson.</p>
   <h3>Next steps</h3>
   <ol>
   <li>Use either <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/conversion/features-to-json.htm">Features to JSON</a> tool to create a GeoJSON or <code>Export as Geopackage</code> by clicking: <code>Insert tab</code> → <code>Add Folder</code> → Create a normal, non-file gdb folder on your computer to organize your geospatial data. Select this folder to add the folder connection. Next, <code>Catalog pane</code> → Right click the folder you created to manage your geospatial data → <code>New</code> → <code>Geopackage</code>. Rename the new geopackage the name of the layer you want to save, e.g. "example_coordinates.gpkg". Then use <code>Feature Class to Geodatabase</code> tool to export your layer in an open, legible format that will work in any GIS software. <code>Input Features</code> = the layer you want to copy; <code>Output Geodatabase</code> = the empty <code>.gpkg</code> you just created.</li>
@@ -83,12 +83,10 @@ You can download and explore sample datasets related to this activity from the w
 </div>
 
 
-
-<!-- LEFT OFF HERE --> 
   
-4. Right-click `example-coordinates` in the Layers pane → `Zoom to layer` to see the points better.
-5. Right-click `example-coordinates` in the Layers pane → `Open attribute table` to view the data attributes.
-6. Right-click `example-coordinates` in the Layers pane → `Properties` → `Symbology` → Change `Single Symbol` to `Categorized` → Under `Value` choose `type` → `Classify` → `OK` to change the color symbols of the map. Click the dot icon next to `Symbol` (underneath `Value`) to change the size of the points.
-7. Save as spatial data by right-clicking `example-coordinates` in the Layers pane → `Export` → `Format = GeoJSON` → Click `...` icon next to `Filename` to choose where to save.
+3. Right-click `example-coordinates` in the Layers pane → `Zoom to layer` to see the points better.
+4. Right-click `example-coordinates` in the Layers pane → `Attribute table` to view the data attributes.
+5. Right-click `example-coordinates` in the Layers pane → `Symbology` → Change `Single Symbol` to `Unique Values` → Under `Field 1` choose `type` → `Classify` → `OK` to change the color symbols of the map. 
+7. Save as either geojson or 
 8. Notice how you can drag the `.geoJSON` file directly into the QGIS window to display the geometry now (rather than use the table import window). This is because it is stored as spatial data.
 

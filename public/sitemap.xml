@@ -190,7 +190,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/workshops/fing-gis-data-arcgis/</loc>
+	    <loc>http://localhost:1313/workshops/find-gis-data/</loc>
 	    <lastmod>2025-03-18</lastmod>
         
 
@@ -201,8 +201,19 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/workshops/find-gis-data/</loc>
-	    <lastmod>2025-03-18</lastmod>
+	    <loc>http://localhost:1313/tutorials/arcgis-hub/export-file-types/</loc>
+	    <lastmod>2025-02-10</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/tags/qgis-hub/</loc>
+	    <lastmod>2025-02-10</lastmod>
         
 
         
@@ -433,17 +444,6 @@
       
 	  <url>
 	    <loc>http://localhost:1313/projects/huige/map-collection/</loc>
-	    <lastmod>2024-08-08</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tags/qgis-hub/</loc>
 	    <lastmod>2024-08-08</lastmod>
         
 

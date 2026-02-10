@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>
+    
+    Georeference Scanned Library Maps in a Web Browser | 
+    
+    GIS, maps &#43; data @ Harvard Library
+</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="http://localhost:1313/tutorials/data-curation/allmaps/" />
+<link rel="icon" type="image/png" href="http://localhost:1313/image/favicon.ico">
+
+
+<meta name="description" content="
+    Learn how to use AllMaps to georeference Harvard Library Digital Collections items in the browser, to use in GIS and map making projects.
+    "
+/>
+<meta property="og:description" content="
+    Learn how to use AllMaps to georeference Harvard Library Digital Collections items in the browser, to use in GIS and map making projects.
+    " 
+/>
+
+
+<meta property="og:image" content="http://localhost:1313/tutorials/data-curation/allmaps/media/4.png" />
+
+
+
+
+
+
+<meta property="og:title" content="Georeference scanned library maps in a web browser" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/tutorials/data-curation/allmaps/" /><meta property="article:section" content="tutorials" />
+<meta property="article:published_time" content="2023-01-19T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-01-19T00:00:00+00:00" />
+
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Georeference scanned library maps in a web browser">
+  <meta name="twitter:description" content="Learn how to use AllMaps to georeference Harvard Library Digital Collections items in the browser, to use in GIS and map making projects.">
+
+
+  <meta itemprop="name" content="Georeference scanned library maps in a web browser">
+  <meta itemprop="description" content="Learn how to use AllMaps to georeference Harvard Library Digital Collections items in the browser, to use in GIS and map making projects.">
+  <meta itemprop="datePublished" content="2023-01-19T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2023-01-19T00:00:00+00:00">
+  <meta itemprop="wordCount" content="433">
+  <meta itemprop="keywords" content="Data-Curation">
+
+
+
+
+<link rel="stylesheet" href="/main.min.css">
+<link rel="stylesheet" href="https://use.typekit.net/yiq3yrx.css">
+<link rel="stylesheet" href="/typekit/stylesheet.css">
+
+
+
+
+
+<script src="/bundle.js"></script>
+
+
+
+
+
+
+
+<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body><header id="header">
+  <div class="top-bar">
+    <div class="container-md">
+
+      <div class="row align-items-center">
+
+        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
+          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <i class="fas fa-bars"></i> Menu
+          </button>
+        </div>
+
+        <div class="col-12 col-sm-12">
+          <h2 class="title"><a href="/">GIS, maps &#43; data @ Harvard Library</a></h2>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-md">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+
+
+
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/">
+              Home
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Guides and Tutorials
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="/tags/software-access/">Software access</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/qgis-hub/">ArcGIS &#43; QGIS Hub</a>
+              
+              
+              
+                <a class="dropdown-item" href="/tags/data-curation/">Data curation</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/workshops/">
+              Workshops
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/tags/applied-projects/">
+              Applied projects
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="/tags/news">
+              News
+            </a>
+          </li>
+          
+          
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="blog-content">
+    <div class="container-md">
+        <div class="row">
+            
+            <div class="col-lg-2 d-none d-xl-block">
+                <div class="ad-left-offset"></div>
+                
+            </div>
+
+            
+
+            <div class="col-md-12 col-lg-8 px-lg-4">
+                
+
+
+                <div class="breadcrumb-container">
+                    <nav aria-label="breadcrumb" class="breadcrumb">
+                        <ol>
+                          
+                          ↵
+                            <li>
+                              <a href="/"> GIS, maps &#43; data @ Harvard Library</a>
+                            </li>
+                          
+                          ↵
+                            <li>
+                              <a href="/tutorials/"> Tutorials</a>
+                            </li>
+                          
+                          <li style="margin-right: 0;" class="active">
+                            👋
+                            <a aria-current="page" href="/tutorials/data-curation/allmaps/">Georeference scanned library maps in a web browser</a>
+                          </li>
+                        </ol>
+                      </nav>
+                      </div>
+
+                      <h1 class="title">Georeference scanned library maps in a web browser</h1>
+
+                <div class="container-fluid px-0 mb-4">
+                    <div class="row align-items-end">
+                        <div class="col-md-8 date-time">
+                            
+                            <span class="date">
+    Jan 19, 2023
+</span>
+                            &centerdot;
+                            <span class="time-to-read">
+    2 mins read</span>
+                        </div>
+
+                        <div class="col-md-4 tags ">
+                            
+                            <a href="/tags/data-curation"><span
+                                    class="tag bg-dark">data-curation</span></a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <h2 id="topics-covered-by-this-guide">Topics covered by this guide</h2>
+<ul>
+<li>Select a map to georeference from the Harvard Libraries’ digital collections</li>
+<li>Georeference with free browser tool, <a href="https://allmaps.org/" target="_blank">AllMaps</a>
+</li>
+<li>Add the georeferenced map to a GIS project in QGIS or ArcGIS Pro</li>
+</ul>
+<hr>
+<h2 id="select-a-map-to-georeference-from-the-harvard-libraries-digital-collections">Select a map to georeference from the Harvard Libraries&rsquo; digital collections</h2>
+<ol>
+<li>Visit the Harvard Library catalog, <a href="https://hollis.harvard.edu/primo-explore/search?query=any,contains,map%20cambridge&amp;tab=books&amp;search_scope=default_scope&amp;vid=HVD2&amp;facet=library,include,map&amp;lang=en_US&amp;offset=0" target="_blank">HOLLIS</a>
+.
+<ul>
+<li>Change the initial search drop-down from <code>Catalog &amp; Articles</code> to <code>Library Catalog</code>.</li>
+<li>Scroll down to the <strong>Location</strong> filter on the right and filter by <strong>Harvard Map Collection</strong>.</li>
+</ul>
+</li>
+<li>Select <strong>ONLINE ACCESS</strong> on a scanned map record.</li>
+<li>In the top-right corner of the image viewer, select the metadata Tooltip by clicking the <strong>&ldquo;i&rdquo; icon</strong>.</li>
+<li>Scroll to the bottom of the popup and under <strong>Links → Manifest</strong>, copy the manifest URL.</li>
+</ol>
+<blockquote>
+<p><strong>Example IIIF Manifest:</strong> <a href="https://iiif.lib.harvard.edu/manifests/ids:12216977" target="_blank">https://iiif.lib.harvard.edu/manifests/ids:12216977</a>
+<br>
+If you need help finding a manifest for a specific item, contact the <a href="https://ask.library.harvard.edu/maps?_gl=1*12rkoui*_ga*MjE0NTMxNzk2My4xNzcwNzMxMDAx*_ga_3CXC97RWEK*czE3NzA3MzEyODAkbzEkZzEkdDE3NzA3MzI2MDYkajYwJGwwJGgw" target="_blank">Harvard Map Collection</a>
+.</p>
+</blockquote>
+<ol start="5">
+<li>Navigate to the <a href="https://editor.allmaps.org/#/" target="_blank">AllMaps.org Editor</a>
+.</li>
+<li>Paste the manifest URL into the input box and select <strong>Load</strong>.</li>
+</ol>
+<hr>
+<h2 id="learn-how-to-georeference-with-allmaps">Learn how to georeference with AllMaps</h2>
+<p>Use the <strong>Georeference</strong> tab to assign control points between the map (left) and the baselayer (right).</p>
+<ul>
+<li>Start with at least three control points, evenly distributed.</li>
+<li>Click the <strong>results</strong> tab to check the accuracy of your placement.</li>
+</ul>
+<p><img src="media/4.png" alt="Georeferencing in AllMaps"></p>
+<h3 id="view-the-results">View the results</h3>
+<ol>
+<li>Select the <strong>Results</strong> tab.</li>
+</ol>
+<p><img src="media/opacity.png" alt="Georeferencing in AllMaps"></p>
+<ol start="2">
+<li>Click the gear icon to adjust view settings, such as background baselayer and map opacity/transparency.</li>
+</ol>
+<hr>
+<h2 id="get-a-link-for-gis-software">Get a link for GIS software</h2>
+<ol>
+<li>On the <strong>Results</strong> tab, click the <code>Export</code> button.</li>
+<li>Scroll down to <code>XYZ map tiles</code>.</li>
+<li>Copy the URL to your computer&rsquo;s clipboard.</li>
+</ol>
+<hr>
+<h2 id="add-the-layer-to-a-felt-map">Add the layer to a Felt map</h2>
+<ol>
+<li>In a Felt map, select the <strong>Upload anything</strong> button.</li>
+<li>Choose <strong>From URL</strong>.</li>
+<li>Paste the <strong>XYZ tile URL</strong> from AllMaps.</li>
+<li>Select <strong>Add to map</strong>.</li>
+<li>To adjust settings, click the layer name in the <strong>Legend</strong>. You can edit the title and use the slider to adjust <strong>Opacity</strong>.</li>
+</ol>
+<hr>
+<h2 id="add-the-layer-to-a-qgis-project">Add the layer to a QGIS project</h2>
+<ol>
+<li>Open <strong>QGIS</strong> and start a new project.</li>
+<li>In the <strong>Browser</strong> window, under <strong>XYZ Tiles</strong>, drag <strong>OpenStreetMap</strong> into the canvas.</li>
+<li>Right-click <strong>XYZ Tiles</strong> and select <strong>New Connection</strong>.</li>
+<li>Name your map and paste the <strong>XYZ tile URL</strong> from AllMaps. Select <strong>OK</strong>.</li>
+<li>Double-click your new connection in the Browser window to add it to the map.</li>
+</ol>
+<h3 id="adjusting-opacity-in-qgis">Adjusting Opacity in QGIS</h3>
+<ol>
+<li>Right-click the map layer in the <strong>Layer list</strong> and select <strong>Properties</strong>.</li>
+<li>Under the <strong>Legend</strong> tab, highlight <strong>Opacity Slider</strong> in &ldquo;Available widgets.&rdquo;</li>
+<li>Click the <strong>right-pointing arrow</strong> to move it to &ldquo;Used Widgets.&rdquo;</li>
+<li>Select <strong>OK</strong>. You can now control opacity directly from the Layer list.</li>
+</ol>
+<p><img src="media/qgisopacity.gif" alt="QGIS Opacity Control"></p>
+<h2 id="add-the-layer-to-an-arcgis-pro-project">Add the layer to an ArcGIS Pro project</h2>
+<ol>
+<li>Click the <code>Map</code> tab.</li>
+<li>In the banner in the <code>Layer</code> section, select <code>Add Layer from Path</code>.</li>
+</ol>
+
+
+
+                
+                <br>
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    (function () {
+        
+        
+        if (window.location.hostname == "localhost")
+            return;
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = '';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>
+
+            <div class="col-lg-2 d-none d-xl-block">
+                <div class="ad-right-offset"></div>
+                
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+    <div class="site-wide-banner" style="background-color: black; font-size: 22px; color: white; padding: 10px; text-align: center; font-weight: bold; border-bottom: 2px solid #f5c6cb;">
+    This site is a project of the Harvard Map Collection. Visit <a style ="color:#81b3d7; font-family: 'truenoregular';"href="https://library.harvard.edu/libraries/harvard-map-collection" target = "_blank">our website</a> to learn more. 
+</div>
+</body>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-55D9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+</html>

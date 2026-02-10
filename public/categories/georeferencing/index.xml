@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Georeferencing on GIS, maps &#43; data @ Harvard Library</title>
-    <link>http://localhost:1313/tags/georeferencing/</link>
+    <link>http://localhost:1313/categories/georeferencing/</link>
     <description>Recent content in Georeferencing on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 19 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/georeferencing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/georeferencing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Georeference Harvard Library Digital Collections Using Allmaps</title>
       <link>http://localhost:1313/tutorials/data-curation/allmaps/</link>

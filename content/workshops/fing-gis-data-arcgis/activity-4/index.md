@@ -54,12 +54,10 @@ You can download and explore sample datasets related to this activity from the w
 
 
 ### Follow-along steps
-1. Install the QuickOSM plugin using the [steps in this guide](https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbyfeature/).
-2. Select `Vector` → `QuickOSM` → `QuickOSM`.
-3. Choose `key` = `amenity` ; `value` = `place_of_worship` ; `in` = `Massachusetts`.
-4. `Run query`.
-5. The data returns in two formats: point locations and polygons of buildings.
-6. Explore the layers. You could try to:
-    - Right-click the layer in the Layers pane → `Open attribute table` → Sort the fields by value by clicking the column header. Try the `religion` column to show religious affiliation for each place of worship.
-    - Symbolize the values by right-clicking the layer in the Layers pane → `Properties` → `Symbology` → Changing `Single symbol` to `Categories` → Select a column or `Value` to map → `Classify` → `OK`.
 
+1. Visit [https://overpass-turbo.eu/](https://overpass-turbo.eu/).
+2. Make sure you are zoomed in on a relatively close extent. Sometimes the query builders time out when voluminous spatial extents are requested. Note: the [QuickOSM plugin for QGIS](https://mapping.share.library.harvard.edu/tutorials/data-curation/openstreetmap/) handles large requests especially well. 
+3. Click `Wizard` and type `amenity = place_of_worship`.
+
+
+<!-- LEFT OFF HERE -->

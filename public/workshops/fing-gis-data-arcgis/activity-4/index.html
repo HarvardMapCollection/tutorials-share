@@ -50,7 +50,7 @@
   <meta itemprop="description" content="Learn how to access crowdsourced GIS data for situations where data is difficult to find.">
   <meta itemprop="datePublished" content="2024-08-10T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-08-10T00:00:00+00:00">
-  <meta itemprop="wordCount" content="434">
+  <meta itemprop="wordCount" content="360">
 
 
 
@@ -210,7 +210,7 @@
                           
                           ↵
                             <li>
-                              <a href="/workshops/fing-gis-data-arcgis/"> Finding GIS data for your project [demo in ArcGIS Pro]</a>
+                              <a href=""> Finding GIS data for your project [demo in ArcGIS Pro]</a>
                             </li>
                           
                           <li style="margin-right: 0;" class="active">
@@ -302,20 +302,13 @@
 </div>
 <h3 id="follow-along-steps">Follow-along steps</h3>
 <ol>
-<li>Install the QuickOSM plugin using the <a href="https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbyfeature/" target="_blank">steps in this guide</a>
+<li>Visit <a href="https://overpass-turbo.eu/" target="_blank">https://overpass-turbo.eu/</a>
 .</li>
-<li>Select <code>Vector</code> → <code>QuickOSM</code> → <code>QuickOSM</code>.</li>
-<li>Choose <code>key</code> = <code>amenity</code> ; <code>value</code> = <code>place_of_worship</code> ; <code>in</code> = <code>Massachusetts</code>.</li>
-<li><code>Run query</code>.</li>
-<li>The data returns in two formats: point locations and polygons of buildings.</li>
-<li>Explore the layers. You could try to:
-<ul>
-<li>Right-click the layer in the Layers pane → <code>Open attribute table</code> → Sort the fields by value by clicking the column header. Try the <code>religion</code> column to show religious affiliation for each place of worship.</li>
-<li>Symbolize the values by right-clicking the layer in the Layers pane → <code>Properties</code> → <code>Symbology</code> → Changing <code>Single symbol</code> to <code>Categories</code> → Select a column or <code>Value</code> to map → <code>Classify</code> → <code>OK</code>.</li>
-</ul>
-</li>
+<li>Make sure you are zoomed in on a relatively close extent. Sometimes the query builders time out when voluminous spatial extents are requested. Note: the <a href="https://mapping.share.library.harvard.edu/tutorials/data-curation/openstreetmap/" target="_blank">QuickOSM plugin for QGIS</a>
+ handles large requests especially well.</li>
+<li>Click <code>Wizard</code> and type <code>amenity = place_of_worship</code>.</li>
 </ol>
-
+<!-- LEFT OFF HERE -->
             </div>
         </div>
     </div>

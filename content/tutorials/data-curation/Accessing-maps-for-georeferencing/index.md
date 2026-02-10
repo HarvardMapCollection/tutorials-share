@@ -143,7 +143,3 @@ image: filing.png
 
 <p>If you&#39;ve successfully georeferenced a map, and would like to learn how to extract data for analysis, check out our tutorial, <a href="https://mapping.share.library.harvard.edu/tutorials/qgis-hub/vectorization/">Vectorizing from Historic Maps Tutorial</a>.</p>
 
-<hr />
-<div class="callout-box">
-<h3>Give your feedback to improve our tutorials</h3>
-<iframe frameborder="0" height="422" marginheight="0" marginwidth="0" sandbox="allow-scripts allow-same-origin" src="https://harvard.az1.qualtrics.com/jfe/form/SV_4OdXbDAe7c7fFzM" style="display: block; margin: 0 auto; min-height: 600px; overflow: hidden;" width="100%"></iframe></div>

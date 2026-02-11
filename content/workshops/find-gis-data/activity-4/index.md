@@ -54,11 +54,14 @@ You can download and explore sample datasets related to this activity from the w
 
 
 ### Follow-along steps
-1. Install the QuickOSM plugin using the [steps in this guide](https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbyfeature/).
-2. Select `Vector` → `QuickOSM` → `QuickOSM`.
-3. Choose `key` = `amenity` ; `value` = `place_of_worship` ; `in` = `Massachusetts`.
-4. `Run query`.
-5. The data returns in two formats: point locations and polygons of buildings.
+
+1. We are going to use the detailed steps outlined in the **How To Export Data from Overpass-turbo.edu** section of the [Accessing OSM data guide](https://mapping.share.library.harvard.edu/tutorials/data-curation/openstreetmap/). 
+2. Once we are on [overpass-turbo.eu](https://overpass-turbo.edu) and have opened the `Wizard` to build our query:
+- Type in `amenity=place_of_worship in Massachusetts` and select `Run and Build Query`.
+> If you get an error, change the `timeout` variable in the query builder text box to 900 seconds.
+3. You may need to change the extent of the map to the area of interest (e.g. Massachusetts) to have the results show up.
+4. Once data is displayed, you can select `Export` → `Data` → `GeoJSON`. 
+5. You can drag this `.geoJSON` directly into the QGIS map. 
 6. Explore the layers. You could try to:
     - Right-click the layer in the Layers pane → `Open attribute table` → Sort the fields by value by clicking the column header. Try the `religion` column to show religious affiliation for each place of worship.
     - Symbolize the values by right-clicking the layer in the Layers pane → `Properties` → `Symbology` → Changing `Single symbol` to `Categories` → Select a column or `Value` to map → `Classify` → `OK`.

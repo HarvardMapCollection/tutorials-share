@@ -50,7 +50,7 @@
   <meta itemprop="description" content="Learn how to access crowdsourced GIS data for situations where data is difficult to find.">
   <meta itemprop="datePublished" content="2024-08-10T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-08-10T00:00:00+00:00">
-  <meta itemprop="wordCount" content="434">
+  <meta itemprop="wordCount" content="504">
 
 
 
@@ -302,12 +302,21 @@
 </div>
 <h3 id="follow-along-steps">Follow-along steps</h3>
 <ol>
-<li>Install the QuickOSM plugin using the <a href="https://mapping.share.library.harvard.edu/tutorials/openstreetmap/extractbyfeature/" target="_blank">steps in this guide</a>
+<li>We are going to use the detailed steps outlined in the <strong>How To Export Data from Overpass-turbo.edu</strong> section of the <a href="https://mapping.share.library.harvard.edu/tutorials/data-curation/openstreetmap/" target="_blank">Accessing OSM data guide</a>
 .</li>
-<li>Select <code>Vector</code> → <code>QuickOSM</code> → <code>QuickOSM</code>.</li>
-<li>Choose <code>key</code> = <code>amenity</code> ; <code>value</code> = <code>place_of_worship</code> ; <code>in</code> = <code>Massachusetts</code>.</li>
-<li><code>Run query</code>.</li>
-<li>The data returns in two formats: point locations and polygons of buildings.</li>
+<li>Once we are on <a href="https://overpass-turbo.edu" target="_blank">overpass-turbo.eu</a>
+ and have opened the <code>Wizard</code> to build our query:</li>
+</ol>
+<ul>
+<li>Type in <code>amenity=place_of_worship in Massachusetts</code> and select <code>Run and Build Query</code>.</li>
+</ul>
+<blockquote>
+<p>If you get an error, change the <code>timeout</code> variable in the query builder text box to 900 seconds.</p>
+</blockquote>
+<ol start="3">
+<li>You may need to change the extent of the map to the area of interest (e.g. Massachusetts) to have the results show up.</li>
+<li>Once data is displayed, you can select <code>Export</code> → <code>Data</code> → <code>GeoJSON</code>.</li>
+<li>You can drag this <code>.geoJSON</code> directly into the QGIS map.</li>
 <li>Explore the layers. You could try to:
 <ul>
 <li>Right-click the layer in the Layers pane → <code>Open attribute table</code> → Sort the fields by value by clicking the column header. Try the <code>religion</code> column to show religious affiliation for each place of worship.</li>

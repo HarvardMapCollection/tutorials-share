@@ -55,9 +55,13 @@ You can download and explore sample datasets related to this activity from the w
 
 ### Follow-along steps
 
-1. Visit [https://overpass-turbo.eu/](https://overpass-turbo.eu/).
-2. Make sure you are zoomed in on a relatively close extent. Sometimes the query builders time out when voluminous spatial extents are requested. Note: the [QuickOSM plugin for QGIS](https://mapping.share.library.harvard.edu/tutorials/data-curation/openstreetmap/) handles large requests especially well. 
-3. Click `Wizard` and type `amenity = place_of_worship`.
-
-
-<!-- LEFT OFF HERE -->
+1. We are going to use the detailed steps outlined in the **How To Export Data from Overpass-turbo.edu** section of the [Accessing OSM data guide](https://mapping.share.library.harvard.edu/tutorials/data-curation/openstreetmap/). 
+2. Once we are on [overpass-turbo.eu](https://overpass-turbo.edu) and have opened the `Wizard` to build our query:
+- Type in `amenity=place_of_worship in Massachusetts` and select `Run and Build Query`.
+> If you get an error, change the `timeout` variable in the query builder text box to 900 seconds.
+3. You may need to change the extent of the map to the area of interest (e.g. Massachusetts) to have the results show up.
+4. Once data is displayed, you can select `Export` → `Data` → `GeoJSON`. 
+5. To use this dataset in ArcGIS Pro, follow the steps in [How to Import GeoJSON Into ArcGIS Pro](https://mapping.share.library.harvard.edu/tutorials/arcgis-hub/import-geojson/).
+6. To look at the variables, right-click the layer in the layer list and select `Attribute Table`. Notice which columns are and aren't populated.
+7. We are going to symbolize based on the `religion` field. Right-click the layer in the layer list and select `Symbology`. 
+8. Change `Primary symbology` from `Single Symbol` to `Unique values` and select `religion` as the field to symbolize.

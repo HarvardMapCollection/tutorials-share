@@ -50,7 +50,7 @@
   <meta itemprop="description" content="Learn how to access crowdsourced GIS data for situations where data is difficult to find.">
   <meta itemprop="datePublished" content="2024-08-10T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-08-10T00:00:00+00:00">
-  <meta itemprop="wordCount" content="360">
+  <meta itemprop="wordCount" content="498">
 
 
 
@@ -210,7 +210,7 @@
                           
                           ↵
                             <li>
-                              <a href=""> Finding GIS data for your project [demo in ArcGIS Pro]</a>
+                              <a href="/workshops/fing-gis-data-arcgis/"> Finding GIS data for your project [demo in ArcGIS Pro]</a>
                             </li>
                           
                           <li style="margin-right: 0;" class="active">
@@ -302,13 +302,27 @@
 </div>
 <h3 id="follow-along-steps">Follow-along steps</h3>
 <ol>
-<li>Visit <a href="https://overpass-turbo.eu/" target="_blank">https://overpass-turbo.eu/</a>
+<li>We are going to use the detailed steps outlined in the <strong>How To Export Data from Overpass-turbo.edu</strong> section of the <a href="https://mapping.share.library.harvard.edu/tutorials/data-curation/openstreetmap/" target="_blank">Accessing OSM data guide</a>
 .</li>
-<li>Make sure you are zoomed in on a relatively close extent. Sometimes the query builders time out when voluminous spatial extents are requested. Note: the <a href="https://mapping.share.library.harvard.edu/tutorials/data-curation/openstreetmap/" target="_blank">QuickOSM plugin for QGIS</a>
- handles large requests especially well.</li>
-<li>Click <code>Wizard</code> and type <code>amenity = place_of_worship</code>.</li>
+<li>Once we are on <a href="https://overpass-turbo.edu" target="_blank">overpass-turbo.eu</a>
+ and have opened the <code>Wizard</code> to build our query:</li>
 </ol>
-<!-- LEFT OFF HERE -->
+<ul>
+<li>Type in <code>amenity=place_of_worship in Massachusetts</code> and select <code>Run and Build Query</code>.</li>
+</ul>
+<blockquote>
+<p>If you get an error, change the <code>timeout</code> variable in the query builder text box to 900 seconds.</p>
+</blockquote>
+<ol start="3">
+<li>You may need to change the extent of the map to the area of interest (e.g. Massachusetts) to have the results show up.</li>
+<li>Once data is displayed, you can select <code>Export</code> → <code>Data</code> → <code>GeoJSON</code>.</li>
+<li>To use this dataset in ArcGIS Pro, follow the steps in <a href="https://mapping.share.library.harvard.edu/tutorials/arcgis-hub/import-geojson/" target="_blank">How to Import GeoJSON Into ArcGIS Pro</a>
+.</li>
+<li>To look at the variables, right-click the layer in the layer list and select <code>Attribute Table</code>. Notice which columns are and aren&rsquo;t populated.</li>
+<li>We are going to symbolize based on the <code>religion</code> field. Right-click the layer in the layer list and select <code>Symbology</code>.</li>
+<li>Change <code>Primary symbology</code> from <code>Single Symbol</code> to <code>Unique values</code> and select <code>religion</code> as the field to symbolize.</li>
+</ol>
+
             </div>
         </div>
     </div>

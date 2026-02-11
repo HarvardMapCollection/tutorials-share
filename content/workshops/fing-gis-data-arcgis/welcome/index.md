@@ -7,7 +7,7 @@ description: Homepage including slides, data, and workshop objectives.
 ---
 
 Get here quickly: 
-`https://bit.ly/gis-find-data`
+`https://bit.ly/arcgis-find-data`
 
 ## Harvard Map Collection
 

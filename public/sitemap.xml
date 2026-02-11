@@ -696,40 +696,7 @@
       
       
 	  <url>
-	    <loc>http://localhost:1313/categories/</loc>
-	    <lastmod>2023-01-19</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
 	    <loc>http://localhost:1313/tutorials/software-access/qgis/</loc>
-	    <lastmod>2023-01-19</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/tutorials/data-curation/allmaps/</loc>
-	    <lastmod>2023-01-19</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>http://localhost:1313/categories/georeferencing/</loc>
 	    <lastmod>2023-01-19</lastmod>
         
 
@@ -1006,6 +973,17 @@
 	  <url>
 	    <loc>http://localhost:1313/projects/</loc>
 	    <lastmod>2019-02-28</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/categories/</loc>
+	    <lastmod>0001-01-01</lastmod>
         
 
         

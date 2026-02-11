@@ -54,7 +54,7 @@ Before diving into the extraction methods, it&#39;s helpful to understand the na
 Before diving into the extraction methods, it&#39;s helpful to understand the nature of OpenStreetMap data. OSM is a collaborative, crowd-contributed project, akin to Wikipedia for maps. This means its data is constantly updated by users worldwide, offering a broad range of information but also requiring a nuanced understanding of its completeness and accuracy.">
   <meta itemprop="datePublished" content="2023-01-18T00:00:00+00:00">
   <meta itemprop="dateModified" content="2023-01-18T00:00:00+00:00">
-  <meta itemprop="wordCount" content="1165">
+  <meta itemprop="wordCount" content="1317">
   <meta itemprop="keywords" content="Data-Curation">
 
 
@@ -242,7 +242,7 @@ Before diving into the extraction methods, it&#39;s helpful to understand the na
 </span>
                             &centerdot;
                             <span class="time-to-read">
-    6 mins read</span>
+    7 mins read</span>
                         </div>
 
                         <div class="col-md-4 tags ">
@@ -298,19 +298,35 @@ Before diving into the extraction methods, it&#39;s helpful to understand the na
 </li>
 </ol>
 <hr />
-<h3>Method 2: Specifying Feature Types with QGIS QuickOSM Plugin</h3>
+<h3>Method 2: Specifying Feature Types</h3>
 <p>This method is more granular, allowing you to extract data for a specific type of feature within a particular geographic extent. It&#39;s particularly useful when you need to isolate certain elements, such as all shopping malls or bicycle repair shops, and don&#39;t want to sift through broader datasets.</p>
 <h4>How OpenStreetMap Data is Created and Tagged</h4>
 <p>To effectively extract specific feature types, it&#39;s helpful to understand how data is entered into OSM. Any OSM user can add points, lines, and polygons to represent real-world phenomena. While there are standards for how data should be tagged, qualitative information about each feature is often optional. This means a restaurant might be tagged with a specific cuisine type in one instance, and have a blank or null value for &quot;cuisine&quot; in another.</p>
 <p>OSM defines standard ways for entering feature data, but sometimes people enter data incompletely or incorrectly.</p>
 <h4>Query Tips for Specific Feature Extraction</h4>
-<p>Before using an extraction tool like the QuickOSM QGIS plugin, it&#39;s helpful to research how features are typically tagged in the area you&#39;re interested in.</p>
+<p>Before using an extraction tool like <a href="https://overpass-turbo.eu" target="_blank">overpass-turbo.eu</a> or QuickOSM QGIS plugin, it&#39;s helpful to research how features are typically tagged in the area you&#39;re interested in.</p>
 <p>The first step is to consult the <a href="https://wiki.openstreetmap.org/wiki/Map_features" target="_blank">OpenStreetMap Map Features Wiki</a> and identify how a feature is supposed to be tagged. For instance, if you&#39;re looking for shopping malls, the suggested key-value pair is <strong>shop</strong> and <strong>mall</strong>, respectively.</p>
 <p>In practice, however, features can be tagged in various ways. For example, a contributor might tag a building correctly using the <strong>shop</strong> key with the <strong>mall</strong> value, while another might use the <strong>building</strong> tag with <strong>mall</strong> as the value.</p>
 <p>Such tagging variations are important to note because queries are constructed by supplying key-value pairs to the extraction tool. If a significant number of your desired features are tagged differently than the OSM standard, you&#39;ll need to account for this when building your query.</p>
 <h5>Reverse Search Strategy</h5>
 <p>We suggest visiting <a href="https://www.openstreetmap.org/#map=18/-6.22574/106.81122" target="_blank">OpenStreetMap (OSM)</a> first and inspecting the attributes of a selection of your desired features. You can inspect attributes by right-clicking an area on the map, selecting &quot;Query features&quot;, and clicking on the feature you are interested in. Note how the data is structured, and remember it for when you are building your query.</p>
+<h4>How to Export Data with overpass-turbo.edu</h4>
+<p>Overpass-turbo.eu is a browser tool which lets you build OSM queries using a graphical user interface, without requiring any specialized software.</p>
+<ol>
+	<li>Visit <a href="https://overpass-turbo.eu" target="_blank">overpass-turbo.eu</a>.</li>
+	<li>Select the <code>wizard</code> button to construct your query. You will know the key-value pairs by having consulted the <a href="https://wiki.openstreetmap.org/wiki/Map_features" target="_blank">OpenStreetMap Map Features Wiki</a>. Build and run the query. </li>
+	<li>Zoom to the area of your extract and confirm the data appears.</li>
+	<blockquote style="border-left: 5px solid #ccc; padding-left: 15px; color: #555;">
+	Note: If you receive an error message that the data cannot be retrieved because the server is overloaded, try changing the timeout length. Go back to the text box and trying changing the timeout from 25 seconds to something like 900 seconds.
+	<img src="timeout.gif">
+	</blockquote>
+	<li>Select <code>Export</code> → <code>Data</code> → <code>GeoJSON</code> to download the data for GIS mapping.</li>
+	<li></li>
+	<li></li>
+	<li></li>
+</ol>
 <h4>How to Export Data with QuickOSM</h4>
+<p>QuickOSM is a plugin for desktop GIS QGIS to build OSM queries. It is robust and powerful. If you are having trouble with overpass-turbo.eu, it may be worthwhile trying QuickOSM in QGIS.</p>
 <ol>
 	<li>Download <a href="https://mapping.share.library.harvard.edu/tutorials/software-access/qgis/">QGIS</a> if you haven&#39;t already.</li>
 	<li>In the main (top, horizontal) QGIS menu, select &quot;Plugins&quot;, then &quot;Manage and Install Plugins&quot;.</li>

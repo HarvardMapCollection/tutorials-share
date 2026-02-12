@@ -56,7 +56,7 @@ You can download and explore sample datasets related to this activity from the w
 ### Follow-along steps
 
 1. We are going to use the detailed steps outlined in the **How To Export Data from Overpass-turbo.edu** section of the [Accessing OSM data guide](https://mapping.share.library.harvard.edu/tutorials/data-curation/openstreetmap/). 
-2. Once we are on [overpass-turbo.eu](https://overpass-turbo.edu) and have opened the `Wizard` to build our query:
+2. Once we are on [overpass-turbo.eu](https://overpass-turbo.eu) and have opened the `Wizard` to build our query:
 - Type in `amenity=place_of_worship in Massachusetts` and select `Run and Build Query`.
 > If you get an error, change the `timeout` variable in the query builder text box to 900 seconds.
 3. You may need to change the extent of the map to the area of interest (e.g. Massachusetts) to have the results show up.

@@ -11,7 +11,6 @@
     position: relative;
     overflow: hidden;
 
-    // Subtle topographic/grid pattern
     &::before {
       content: '';
       position: absolute;
@@ -26,21 +25,24 @@
 
 .hero__overline {
   @extend .overline;
-  margin-bottom: var(--space-md);
+  margin-bottom: var(--space-sm);
   display: inline-block;
 }
 
 .hero__title {
+  font-family: $font-heading;
   font-size: clamp(#{$type-3xl}, 6vw, #{$type-5xl});
   font-weight: $weight-extrabold;
   letter-spacing: -0.03em;
-  margin-bottom: var(--space-lg);
+  margin-bottom: var(--space-md);
   max-width: 40rem;
   margin-left: auto;
   margin-right: auto;
+  color: var(--color-text);
 }
 
 .hero__subtitle {
+  font-family: $font-body;
   font-size: clamp(#{$type-base}, 2.5vw, #{$type-lg});
   color: var(--color-text-secondary);
   max-width: 36rem;
@@ -73,6 +75,7 @@
   gap: var(--space-lg);
   margin-top: var(--space-lg);
   font-size: $type-sm;
+  font-family: $font-heading;
   color: var(--color-text-secondary);
 
   .meta-item {

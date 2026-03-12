@@ -64,7 +64,7 @@ image: filing.png
 
 <p>And here is an embedded version of the online access viewer. Note how you can zoom in and pan around with a high degree of image resolution.</p>
 
-<div class="iframe-container"><iframe frameborder="0" height="700" sandbox="allow-scripts allow-same-origin" src="https://iiif.lib.harvard.edu/manifests/view/ids:2568928" title="Map of the city of Cambridge for 1865" width="100%"></iframe></div>
+{{< iiif id="2568928" height="700" >}}
 
 <figcaption class="append"><a href="https://curiosity.lib.harvard.edu/scanned-maps/catalog/44-990094789400203941">Map of the city of Cambridge for 1865, Harvard Map Collection.</a></figcaption>
 

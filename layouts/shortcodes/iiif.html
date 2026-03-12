@@ -1,0 +1,17 @@
+{{ $id := .Get "id" }}
+{{ $height := .Get "height" | default "600" }}
+{{ $uid := printf "osd-%s" (substr (md5 $id) 0 8) }}
+
+<div id="{{ $uid }}" style="width: 100%; height: {{ $height }}px; border-radius: 8px; overflow: hidden; border: 1px solid var(--color-border); margin: 1.5rem 0; background: #1a1a1a;"></div>
+<script src="https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/openseadragon.min.js"></script>
+<script>
+  OpenSeadragon({
+    id: '{{ $uid }}',
+    prefixUrl: 'https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/images/',
+    tileSources: 'https://ids.lib.harvard.edu/ids/iiif/' + '{{ $id }}' + '/info.json',
+    crossOriginPolicy: 'Anonymous',
+    ajaxWithCredentials: false,
+    showNavigator: true,
+    navigatorPosition: 'BOTTOM_RIGHT'
+  });
+</script>

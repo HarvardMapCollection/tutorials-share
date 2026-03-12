@@ -15,7 +15,7 @@ description: This guide demonstrates a method for transforming old maps into new
 
 <blockquote>&quot;I was interested in the Harvard Square adjacent area near the river, because today we think of the river walkways and Memorial Drive, especially when it&rsquo;s closed as a really valuable open space. I also had seen an image in HOLLIS that conveys a certain set of aesthetic ideals with how people were imagining the riverside could be.</blockquote>
 
-<div class="iframe-container"><iframe height="700" sandbox="allow-scripts allow-same-origin" src="https://iiif.lib.harvard.edu/manifests/view/ids:3043928$1i" title="New Boston and Charles River Basin, 1880" width="100%"></iframe></div>
+{{< iiif id="3043928" height="700" >}}
 
 <figcaption><a href="https://iiif.lib.harvard.edu/manifests/view/ids:3043928$1i" target="_blank">New Boston and Charles River Basin, 1880</a></figcaption>
 

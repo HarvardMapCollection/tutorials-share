@@ -2,7 +2,6 @@
 title: Manage Coordinate Reference Systems (CRS) Tutorial in QGIS
 date: 2023-01-18
 tags: ["qgis-hub"]
-image: 2.jpeg
 layout: single2
 description: Explains the fundamental concepts of map projections and Coordinate Reference Systems and quick tips for troubleshooting common CRS issues.
 ---

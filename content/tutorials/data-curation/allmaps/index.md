@@ -4,7 +4,6 @@ date: 2023-01-19
 description: "Learn how to use AllMaps to georeference Harvard Library Digital Collections items in the browser, to use in GIS and map making projects."
 tags: ["data-curation"]
 categories: ["Georeferencing"]
-image: "media/4.png"
 draft: true
 ---
 

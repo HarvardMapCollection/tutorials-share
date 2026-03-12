@@ -1,5 +1,4 @@
-+++
-title = "Harvard Library GIS Workshops "
-date = "2022-01-17"
-+++
-
+---
+title: "Workshops"
+date: 2022-01-17
+---

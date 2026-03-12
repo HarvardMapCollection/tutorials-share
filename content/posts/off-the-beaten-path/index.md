@@ -45,7 +45,7 @@ Both the georeferencing and vectorization steps were carried out using QGIS.
 
 When looking at [Boston maps](https://curiosity.lib.harvard.edu/scanned-maps/catalog?f%5Bplace-of-origin_ssim%5D%5B%5D=Boston&utm_source=library.harvard) in the Harvard Map Collection, the *Historic Massachusetts Travel Map* published by the state's Department of Commerce and Development in 1960 immediately caught my eye. Its beautiful marginalia and intricate in-map designs evoked in me exactly what it intended to: a desire to visit the entirety of Massachusetts and see all it had to offer. Its busy design and focus on the general location of historic attractions rather than more detailed geographic information made it feel almost like a list of things to do "to help you feel at home in the Bay State" in visual, mapped form.
 
-<iframe width="100%" height="700" src="https://iiif.lib.harvard.edu/manifests/view/ids:5860230$1i" title="Historic Massachusetts, a travel map to help you feel at home in the Bay State ; World of fun and relaxation Massachusetts, the historic vacationland" ></iframe>
+{{< iiif id="5860230" height="700" >}}
 <figcaption class="append">Zoom in to explore <a href="https://curiosity.lib.harvard.edu/scanned-maps/catalog/44-990026787590203941">Historic Massachusetts, a travel map to help you feel at home in the Bay State ; World of fun and relaxation Massachusetts, the historic vacationland, 1960
 </a></figcaption>
 

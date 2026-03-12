@@ -68,7 +68,7 @@ Though it was not required, most students in the course opted to use GIS for the
 <h4>💡 Niki<span>&#8217;</span>s Highlights</h4>
 <p style="text-indent:25px"><span>&#8220;</span>One big area of discussion that we've had in this class is with the term Re-Wilding. What is Re-Wilding? What are we going back to? One way our project contributed is by starting to poke by looking at pictures from 5, 10, 50, 100 years ago, we start to see that there hasn’t been a super consistent place to return to. Even the paths in the Yard have been retraced. So if we say, OK, they should be original, what are you choosing to set as the point of origin?</p>
 
-<iframe width="100%" height="700" src="https://iiif.lib.harvard.edu/manifests/view/ids:7329379$1i" title="[Removing books from Gore Hall prior to its demolition, photograph, ca. 1912]" ></iframe>
+{{< iiif id="7329379" height="700" >}}
 <figcaption class="append"><a href="https://iiif.lib.harvard.edu/manifests/view/ids:7329379$1i">[Removing books from Gore Hall prior to its demolition, photograph, ca. 1912]
 </a></figcaption>
 
@@ -101,8 +101,7 @@ Though it was not required, most students in the course opted to use GIS for the
 <p style="text-indent:25px">- Cody Vasquez <span>&#8216;</span>25</p>
 
 
-<iframe width="100%" height="700" src="https://iiif.lib.harvard.edu/manifests/view/ids:18785510$1i" title="Massachusetts Hall, looking north from Harvard Square
-" ></iframe>
+{{< iiif id="18785510" height="700" >}}
 <figcaption class="append"><a href="https://iiif.lib.harvard.edu/manifests/view/ids:18785510$1i">Massachusetts Hall, looking north from Harvard Square
 .</a></figcaption>
 
@@ -171,9 +170,7 @@ Hannah Adler '25 started to explore the relationship of built and undeveloped la
 
 > "I was  interested in the Harvard Square adjacent area near the river, because today we think of the river walkways and Memorial Drive, especially when it’s closed as a really valuable open space.
 
-<iframe width="100%" height="700" src="https://iiif.lib.harvard.edu/manifests/view/ids:3043928$1i" title="New Boston and Charles River Basin, 1880
-" ></iframe>
-<figcaption class="append"><a href="https://iiif.lib.harvard.edu/manifests/view/ids:3043928$1i">New Boston and Charles River Basin, 1880</a></figcaption>
+{{< iiif id="3043928" height="700" >}}<figcaption class="append"><a href="https://iiif.lib.harvard.edu/manifests/view/ids:3043928$1i">New Boston and Charles River Basin, 1880</a></figcaption>
 
 > "I also had seen this image in HOLLIS that conveys a certain set of aesthetic ideals with how people were imagining the riverside could be." - Hannah Adler
 

@@ -2,11 +2,16 @@
 // Typography
 // ============================================
 
-// Headings
+// Base body uses serif for reading
+body {
+  font-family: $font-body;
+}
+
+// All headings use the engineered sans
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: $font-heading;
-  font-weight: $weight-bold;
+  font-weight: $weight-extrabold;
   line-height: $leading-tight;
   color: var(--color-text);
   margin-top: 0;
@@ -15,7 +20,6 @@ h1, h2, h3, h4, h5, h6,
 
 h1, .h1 {
   font-size: clamp(#{$type-3xl}, 5vw, #{$type-5xl});
-  font-weight: $weight-extrabold;
   letter-spacing: -0.03em;
   margin-bottom: var(--space-lg);
 }
@@ -29,7 +33,7 @@ h2, .h2 {
 
 h3, .h3 {
   font-size: clamp(#{$type-xl}, 3vw, #{$type-2xl});
-  font-weight: $weight-semibold;
+  font-weight: $weight-bold;
   margin-bottom: var(--space-md);
   margin-top: var(--space-xl);
 }
@@ -56,7 +60,7 @@ h6, .h6 {
   margin-bottom: var(--space-sm);
 }
 
-// Body text
+// Body text (in content areas — these get the serif)
 p {
   margin-bottom: var(--space-md);
   line-height: $leading-normal;
@@ -118,8 +122,12 @@ blockquote {
   }
 }
 
-// Lists in content
+// Content area — long-form reading gets serif
 .content {
+  font-family: $font-body;
+  font-size: $type-base;
+  line-height: $leading-normal;
+
   ul, ol {
     padding-left: var(--space-lg);
     margin-bottom: var(--space-md);
@@ -132,17 +140,14 @@ blockquote {
 
   ul {
     list-style-type: disc;
-
-    ul {
-      list-style-type: circle;
-    }
+    ul { list-style-type: circle; }
   }
 
-  // Table styling
   table {
     width: 100%;
     border-collapse: collapse;
     margin: var(--space-xl) 0;
+    font-family: $font-heading;
     font-size: $type-sm;
 
     th, td {
@@ -154,7 +159,6 @@ blockquote {
     th {
       font-weight: $weight-semibold;
       background: var(--color-surface);
-      font-family: $font-heading;
       font-size: $type-xs;
       text-transform: uppercase;
       letter-spacing: 0.05em;
@@ -165,6 +169,35 @@ blockquote {
       background: var(--color-surface);
     }
   }
+}
+
+// UI text — everything that is NOT long-form content uses the heading font
+.meta,
+.overline,
+.tag,
+.btn,
+.nav-link,
+.nav-dropdown__item,
+.site-brand,
+.breadcrumbs,
+.step-indicator,
+.sidebar__title,
+.sidebar__link,
+.card__overline,
+.card__title,
+.card__footer,
+.card__tags,
+.footer-brand,
+.footer-description,
+.footer-col-title,
+.footer-col-list,
+.footer-bottom,
+.workshop-step__title,
+.workshop-step__desc,
+.nav-btn__label,
+.nav-btn__title,
+.suggestions__title {
+  font-family: $font-heading;
 }
 
 // Meta/date text

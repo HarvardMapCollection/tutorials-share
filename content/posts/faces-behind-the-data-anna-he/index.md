@@ -1,8 +1,7 @@
 ---
-title: Faces Behind the Data, Anna He and the Harvard Geospatial Library
+title: "Faces Behind the Data: Anna He"
 date: 2024-12-20
 tags: ["news", "interview"]
-image: he.jpg
 authors: ["Anna He", "Belle Lipton"]
 description: Get to know the newest member of the Harvard Map Collection, Anna He, in a discussion about the future of the Harvard Geospatial Library.
 ---

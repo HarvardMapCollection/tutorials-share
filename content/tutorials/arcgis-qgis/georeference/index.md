@@ -1,5 +1,5 @@
 ---
-title: Georeference in QGIS
+title: "Georeferencing in QGIS"
 date: 2023-01-20
 tags: ["qgis-hub"]
 

@@ -1,5 +1,5 @@
 ---
-title: ArcGIS Pro Access & Support at Harvard
+title: "ArcGIS Pro Access at Harvard"
 date: 2023-06-01
 tags: ["software-access"]
 

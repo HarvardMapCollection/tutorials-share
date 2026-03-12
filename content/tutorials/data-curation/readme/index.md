@@ -1,5 +1,5 @@
 ---
-title: Guide to Creating README-Style Metadata for GIS Data
+title: "Creating README Metadata for GIS Data"
 date: 2023-01-18
 tags: ["data-curation"]
 

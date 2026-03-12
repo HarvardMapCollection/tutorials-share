@@ -1,8 +1,7 @@
 ---
-title: Vectorizing Historic Maps for Spatial Analysis
+title: "Vectorizing Historic Maps for Spatial Analysis"
 date: 2025-09-12
 tags: ["applied-projects", "news"]
-image: cover.png
 layout: single2
 description: This guide demonstrates a method for transforming old maps into new, analyzable digital map data. It shows how an undergraduate used this process to study changes in Harvard's campus over time, particularly land development and ownership. The guide highlights the use of the Harvard Map Collection's resources and expertise in facilitating student research.
 ---

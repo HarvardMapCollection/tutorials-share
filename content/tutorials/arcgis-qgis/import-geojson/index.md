@@ -1,8 +1,7 @@
 ---
-title: How to Import GeoJSON into ArcGIS Pro
+title: "Importing GeoJSON into ArcGIS Pro"
 date: 2025-02-10
 tags: ["qgis-hub"]
-image: import.png
 layout: single2
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Off the Beaten Path? 
+title: "Off the Beaten Path?"
 date: 2024-07-01
 tags: ["news", "applied-projects"]
 authors: ["Luisa Shida"]

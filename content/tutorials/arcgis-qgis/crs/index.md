@@ -1,5 +1,5 @@
 ---
-title: Manage Coordinate Reference Systems (CRS) Tutorial in QGIS
+title: "Coordinate Reference Systems (CRS) in QGIS"
 date: 2023-01-18
 tags: ["qgis-hub"]
 layout: single2

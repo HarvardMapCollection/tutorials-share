@@ -1,8 +1,7 @@
 ---
-title: Perform a table join in QGIS
+title: "Table Joins in QGIS"
 date: 2023-01-17
 tags: ["qgis-hub"]
-image: 2.png
 layout: single2
 description: How to attach or merge boundaries to spreadsheet data (or perform a table join) in QGIS 
 

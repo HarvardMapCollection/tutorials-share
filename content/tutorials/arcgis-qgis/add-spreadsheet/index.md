@@ -1,8 +1,7 @@
 ---
-title: Add Spreadsheet Data (CSV/XLSX) Tutorial
+title: "Adding Spreadsheet Data to a Map"
 date: 2023-01-18
 tags: ["qgis-hub"]
-image: add-csv.png
 layout: single2
 ---
 

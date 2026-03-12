@@ -1,8 +1,7 @@
 ---
-title: Accessing OpenStreetMap Data Guide
+title: "Accessing OpenStreetMap Data"
 date: 2023-01-18
 tags: ["data-curation"]
-image: subregions.gif
 
 ---
 

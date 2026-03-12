@@ -1,5 +1,5 @@
 ---
-title: "Georeference scanned library maps in a web browser"
+title: "Georeferencing Library Maps in the Browser"
 date: 2023-01-19
 description: "Learn how to use AllMaps to georeference Harvard Library Digital Collections items in the browser, to use in GIS and map making projects."
 tags: ["data-curation"]

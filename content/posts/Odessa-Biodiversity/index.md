@@ -1,5 +1,5 @@
 ---
-title: Undoing Empire, One Plant at a Time
+title: "Undoing Empire, One Plant at a Time"
 date: 2023-10-03
 tags: ["news", "applied-projects"]
 

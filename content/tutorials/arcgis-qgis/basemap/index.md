@@ -1,8 +1,7 @@
 ---
-title: Add a basemap in QGIS
+title: "Adding a Basemap in QGIS"
 date: 2023-01-18
 tags: ["qgis-hub"]
-image: zoom.gif
 layout: single2
 description: How to add a basemap in QGIS.
 ---

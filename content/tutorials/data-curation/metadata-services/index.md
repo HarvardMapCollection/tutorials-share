@@ -1,5 +1,5 @@
 ---
-title: GIS Data Management Consultation Service Guide
+title: "GIS Data Management Consultation"
 date: 2023-01-18
 tags: ["data-curation"]
 

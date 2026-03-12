@@ -1,8 +1,7 @@
 ---
-title: Vectorizing from Historic Maps in QGIS
+title: "Vectorizing Historic Maps in QGIS"
 date: 2024-08-08
 tags: ["qgis-hub"]
-image: digi-parcel.gif
 description: Step-by-step instructions for vectorizing data from historic maps, including an example using Atlascope and spatial analysis.
 ---
 

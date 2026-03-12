@@ -1,8 +1,7 @@
 ---
-title: How to Export GeoJSON and Geopackage from ArcGIS Pro
+title: "Exporting GeoJSON and Geopackage from ArcGIS Pro"
 date: 2025-02-10
 tags: ["qgis-hub"]
-image: gdb.png
 layout: single2
 ---
 

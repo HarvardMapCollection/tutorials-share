@@ -1,8 +1,7 @@
 ---
-title: Accessing Maps for Georeferencing
+title: "Accessing Maps for Georeferencing"
 date: 2025-09-12
 tags: ["data-curation"]
-image: filing.png
 
 ---
 

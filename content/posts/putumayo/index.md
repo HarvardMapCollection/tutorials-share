@@ -1,8 +1,7 @@
 ---
-title: Dive into the Putumayo "World Music" archive
+title: "Dive into the Putumayo World Music Archive"
 date: 2025-09-18
 tags: ["news", "applied-projects"]
-image: 1.png
 authors: ["Harvard Map Collection", "Natalia Neira Nieto"]
 description: Follow a research project from a music industry database to a global map. See how data cleaning and GIS reveal the hidden geography of the Putumayo World Music collection.
 ---

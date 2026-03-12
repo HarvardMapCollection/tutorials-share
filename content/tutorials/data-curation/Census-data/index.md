@@ -1,5 +1,5 @@
 ---
-title: How to Download and Prepare Census Data for GIS Analysis
+title: "Downloading and Preparing Census Data"
 date: 2023-01-18
 tags: ["data-curation"]
 

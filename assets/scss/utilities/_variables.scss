@@ -1,0 +1,149 @@
+// ============================================
+// Design Tokens & Variables
+// ============================================
+
+// --- Color Palette ---
+// Harvard Crimson anchor with techie accents
+$crimson:           #A51C30;
+$crimson-dark:      #8C1826;
+$crimson-light:     #C53E50;
+
+$teal:              #0EA5A5;
+$teal-dark:         #0B8585;
+$teal-light:        #12D4D4;
+
+$blue:              #2E5EAA;
+$blue-dark:         #234A88;
+$blue-light:        #4A7DD4;
+
+// Neutrals
+$white:             #FFFFFF;
+$gray-50:           #F9FAFB;
+$gray-100:          #F3F4F6;
+$gray-200:          #E5E7EB;
+$gray-300:          #D1D5DB;
+$gray-400:          #9CA3AF;
+$gray-500:          #6B7280;
+$gray-600:          #4B5563;
+$gray-700:          #374151;
+$gray-800:          #1F2937;
+$gray-900:          #111827;
+
+// Dark mode surfaces
+$dark-bg:           #0F1117;
+$dark-surface:      #1A1D27;
+$dark-surface-2:    #252833;
+$dark-surface-3:    #2F3340;
+$dark-border:       #363A48;
+$dark-text:         #E2E4E9;
+$dark-text-muted:   #9CA3B0;
+
+// --- CSS Custom Properties ---
+// These get toggled by dark mode
+:root {
+  // Surfaces
+  --color-bg:             #{$white};
+  --color-surface:        #{$gray-50};
+  --color-surface-2:      #{$gray-100};
+  --color-surface-3:      #{$gray-200};
+  --color-border:         #{$gray-200};
+  --color-border-subtle:  #{$gray-100};
+
+  // Text
+  --color-text:           #{$gray-900};
+  --color-text-secondary: #{$gray-600};
+  --color-text-muted:     #{$gray-400};
+  --color-text-inverse:   #{$white};
+
+  // Brand
+  --color-primary:        #{$crimson};
+  --color-primary-hover:  #{$crimson-dark};
+  --color-accent:         #{$teal};
+  --color-accent-hover:   #{$teal-dark};
+  --color-secondary:      #{$blue};
+
+  // Code
+  --color-code-bg:        #{$gray-800};
+  --color-code-text:      #{$gray-100};
+  --color-code-inline-bg: #{$gray-100};
+  --color-code-inline-text: #{$crimson-dark};
+
+  // Shadows
+  --shadow-sm:   0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md:   0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  --shadow-lg:   0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+  --shadow-xl:   0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+
+  // Transitions
+  --transition-fast:   150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base:   250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow:   400ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  // Radius
+  --radius-sm:   4px;
+  --radius-md:   8px;
+  --radius-lg:   12px;
+  --radius-xl:   16px;
+  --radius-full: 9999px;
+
+  // Spacing scale
+  --space-xs:    0.25rem;   // 4px
+  --space-sm:    0.5rem;    // 8px
+  --space-md:    1rem;      // 16px
+  --space-lg:    1.5rem;    // 24px
+  --space-xl:    2rem;      // 32px
+  --space-2xl:   3rem;      // 48px
+  --space-3xl:   4.5rem;    // 72px
+  --space-4xl:   6rem;      // 96px
+
+  // Layout
+  --content-width:     48rem;    // 768px
+  --content-wide:      64rem;    // 1024px
+  --sidebar-width:     16rem;    // 256px
+  --header-height:     4rem;     // 64px
+
+  // Progress bar
+  --progress-height:   3px;
+  --progress-color:    #{$teal};
+}
+
+// --- Typography ---
+// Import Manrope + JetBrains Mono via Google Fonts (loaded in <head>)
+$font-heading:  'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+$font-body:     -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+$font-mono:     'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace;
+
+// Type scale (fluid)
+$type-xs:       0.75rem;     // 12px
+$type-sm:       0.875rem;    // 14px
+$type-base:     1rem;        // 16px
+$type-lg:       1.125rem;    // 18px
+$type-xl:       1.25rem;     // 20px
+$type-2xl:      1.5rem;      // 24px
+$type-3xl:      1.875rem;    // 30px
+$type-4xl:      2.25rem;     // 36px
+$type-5xl:      3rem;        // 48px
+
+// Line heights
+$leading-tight:   1.25;
+$leading-snug:    1.375;
+$leading-normal:  1.6;
+$leading-relaxed: 1.75;
+
+// Font weights
+$weight-normal:   400;
+$weight-medium:   500;
+$weight-semibold: 600;
+$weight-bold:     700;
+$weight-extrabold: 800;
+
+// --- Bootstrap overrides ---
+$primary:       $crimson;
+$font-family-base: $font-body;
+$body-color:    $gray-900;
+$body-bg:       $white;
+$link-color:    $crimson;
+$link-hover-color: $crimson-dark;
+$border-radius: 8px;
+$border-radius-sm: 4px;
+$border-radius-lg: 12px;

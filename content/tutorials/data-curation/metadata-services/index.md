@@ -2,7 +2,7 @@
 title: GIS Data Management Consultation Service Guide
 date: 2023-01-18
 tags: ["data-curation"]
-image: default-gradient.png
+
 
 ---
 

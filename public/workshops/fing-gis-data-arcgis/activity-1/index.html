@@ -1,230 +1,352 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us" data-theme="light">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=51718&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>1. Portals | GIS, maps &#43; data @ Harvard Library</title>
+  <meta name="description" content="Learn how to find and interpret materials in open GIS data portals.">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>
-    
-    1. Portals | 
-    
-    GIS, maps &#43; data @ Harvard Library
-</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<link rel="canonical" href="http://localhost:1313/workshops/fing-gis-data-arcgis/activity-1/" />
-<link rel="icon" type="image/png" href="http://localhost:1313/image/favicon.ico">
+  
+  
+  <link rel="stylesheet" href="/scss/main.d93a94b34c6beb76370c9ad70f37b18f9531b88b98e3b0f0b2f9ef53e4e44bdc.css">
 
+  
+  <script>
+    (function() {
+      var theme = localStorage.getItem('theme');
+      if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
 
-<meta name="description" content="
-    Learn how to find and interpret materials in open GIS data portals.
-    "
-/>
-<meta property="og:description" content="
-    Learn how to find and interpret materials in open GIS data portals.
-    " 
-/>
-
-
-<meta property="og:image" content="http://localhost:1313/workshops/fing-gis-data-arcgis/activity-1/flood.png" />
-
-
-
-
-
-
-<meta property="og:title" content="1. Portals" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/workshops/fing-gis-data-arcgis/activity-1/" /><meta property="article:section" content="workshops" />
-<meta property="article:published_time" content="2024-08-13T00:00:00+00:00" />
-<meta property="article:modified_time" content="2024-08-13T00:00:00+00:00" />
-
-
-
-
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="1. Portals">
-  <meta name="twitter:description" content="Learn how to find and interpret materials in open GIS data portals.">
-
-
-  <meta itemprop="name" content="1. Portals">
-  <meta itemprop="description" content="Learn how to find and interpret materials in open GIS data portals.">
-  <meta itemprop="datePublished" content="2024-08-13T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2024-08-13T00:00:00+00:00">
-  <meta itemprop="wordCount" content="666">
-
-
-
-
-<link rel="stylesheet" href="/main.min.css">
-<link rel="stylesheet" href="https://use.typekit.net/yiq3yrx.css">
-<link rel="stylesheet" href="/typekit/stylesheet.css">
-
-
-
-
-
-<script src="/bundle.js"></script>
-
-
-
-
-
-
-
-<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-
-
-
-
-
-
-
-
-
-
+  <meta name="generator" content="Hugo 0.150.0">
+  
 
 </head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-<body><header id="header">
-  <div class="top-bar">
-    <div class="container-md">
+  <div class="site-wrapper">
+    <header class="site-header" id="site-header">
+  <div class="header-inner">
 
-      <div class="row align-items-center">
+    
+    <a href="/" class="site-brand">
+      <svg class="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M2 12h20"/>
+        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+      </svg>
+      GIS, maps &#43; data @ Harvard Library
+      <span class="brand-tag">GIS</span>
+    </a>
 
-        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
-          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <i class="fas fa-bars"></i> Menu
-          </button>
-        </div>
-
-        <div class="col-12 col-sm-12">
-          <h2 class="title"><a href="/">GIS, maps &#43; data @ Harvard Library</a></h2>
-        </div>
-
-
-      </div>
-    </div>
-  </div>
-
-  <div class="container-md">
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mx-auto">
-
-
-
-          
-          
-          <li class="nav-item">
-            <a class="nav-link 
-              
-              " 
-              href="/">
-              Home
-            </a>
-          </li>
-          
-          
-          
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
-              Guides and Tutorials
-            </a>
-            <div class="dropdown-menu">
-              
-              
-                <a class="dropdown-item" href="/tags/software-access/">Software access</a>
-              
-              
-              
-                <a class="dropdown-item" href="/tags/qgis-hub/">ArcGIS &#43; QGIS Hub</a>
-              
-              
-              
-                <a class="dropdown-item" href="/tags/data-curation/">Data curation</a>
-              
-              
-            </div>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link 
-              
-              " 
-              href="/workshops/">
-              Workshops
-            </a>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link 
-              
-              " 
-              href="/tags/applied-projects/">
-              Applied projects
-            </a>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link 
-              
-              " 
-              href="/tags/news">
-              News
-            </a>
-          </li>
-          
-          
-        </ul>
-
-      </div>
+    
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      
+        <a class="nav-link"
+           href="/">
+          Home
+        </a>
+      
+        <a class="nav-link"
+           href="/tutorials/">
+          Guides and Tutorials
+        </a>
+      
+        <a class="nav-link"
+           href="/workshops/">
+          Workshops
+        </a>
+      
+        <a class="nav-link"
+           href="/tags/applied-projects/">
+          Applied projects
+        </a>
+      
+        <a class="nav-link"
+           href="/tags/news">
+          News
+        </a>
+      
     </nav>
+
+    
+    <div class="header-actions">
+      
+      <button class="dark-toggle" id="dark-toggle" aria-label="Toggle dark mode" type="button">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="5"/>
+          <line x1="12" y1="1" x2="12" y2="3"/>
+          <line x1="12" y1="21" x2="12" y2="23"/>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+          <line x1="1" y1="12" x2="3" y2="12"/>
+          <line x1="21" y1="12" x2="23" y2="12"/>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+        </svg>
+      </button>
+
+      
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+
   </div>
 </header>
 
-<main class="blog-content">
-    <div class="container-md">
-        <div class="row">
-            <div class="col-lg-8 offset-lg-2 px-lg-4">
-                
-                <div class="breadcrumb-container">
-                    <nav aria-label="breadcrumb" class="breadcrumb">
-                        <ol>
-                          
-                          ↵
-                            <li>
-                              <a href="/"> GIS, maps &#43; data @ Harvard Library</a>
-                            </li>
-                          
-                          ↵
-                            <li>
-                              <a href="/workshops/"> Harvard Library GIS Workshops </a>
-                            </li>
-                          
-                          ↵
-                            <li>
-                              <a href="/workshops/fing-gis-data-arcgis/"> Finding GIS data for your project [demo in ArcGIS Pro]</a>
-                            </li>
-                          
-                          <li style="margin-right: 0;" class="active">
-                            👋
-                            <a aria-current="page" href="/workshops/fing-gis-data-arcgis/activity-1/">1. Portals</a>
-                          </li>
-                        </ol>
-                      </nav>
-                      </div>
+
+    
+    
+      
 
 
-                <h1 class="title">1. Portals</h1>
 
-                <ul>
+
+
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+
+
+
+  
+
+
+<div class="progress-bar-container" role="progressbar"
+     aria-valuenow="2" aria-valuemin="0" aria-valuemax="5"
+     aria-label="Workshop progress: step 2 of 5">
+  <div class="progress-bar" style="width: 40%"></div>
+</div>
+
+    
+
+    <main id="main-content" class="site-main">
+      
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+    
+    
+      
+    
+    
+      
+    
+  
+
+  
+
+  
+
+  
+
+
+<article>
+  
+  <div class="container--wide" style="padding-top: var(--space-lg);">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+  <span class="breadcrumb-item">
+    <a href="/">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+        <polyline points="9 22 9 12 15 12 15 22"/>
+      </svg>
+      Home
+    </a>
+  </span>
+
+  
+    
+  
+    
+    <span class="breadcrumb-item">
+      <a href="/workshops/">Harvard Library GIS Workshops </a>
+    </span>
+    
+  
+    
+    <span class="breadcrumb-item">
+      <a href="/workshops/fing-gis-data-arcgis/">Finding GIS data for your project [demo in ArcGIS Pro]</a>
+    </span>
+    
+  
+
+  <span class="breadcrumb-item">1. Portals</span>
+</nav>
+
+  </div>
+
+  
+  <div class="layout-sidebar">
+
+    
+    
+
+
+
+
+<aside class="sidebar" aria-label="Workshop steps">
+  <div class="sidebar__title">Finding GIS data for your project [demo in ArcGIS Pro]</div>
+
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+    
+  
+    
+  
+    
+  
+
+  
+    <div class="step-indicator" style="margin-bottom: var(--space-md);">
+      Step <span class="step-current">2</span>
+      <span class="step-total">of 5</span>
+    </div>
+  
+
+  <ul class="sidebar__nav">
+    
+    <li class="sidebar__item">
+      <a class="sidebar__link"
+         href="/workshops/fing-gis-data-arcgis/">
+        <span class="sidebar__step-num"><span>○</span></span>
+        Overview
+      </a>
+    </li>
+
+    
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link is-completed"
+           href="/workshops/fing-gis-data-arcgis/welcome/">
+          <span class="sidebar__step-num"><span>1</span></span>
+          Welcome
+        </a>
+      </li>
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link is-active"
+           href="/workshops/fing-gis-data-arcgis/activity-1/">
+          <span class="sidebar__step-num"><span>2</span></span>
+          1. Portals
+        </a>
+      </li>
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link"
+           href="/workshops/fing-gis-data-arcgis/activity-2/">
+          <span class="sidebar__step-num"><span>3</span></span>
+          2. Coordinates
+        </a>
+      </li>
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link"
+           href="/workshops/fing-gis-data-arcgis/activity-3/">
+          <span class="sidebar__step-num"><span>4</span></span>
+          3. Georeferencing
+        </a>
+      </li>
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link"
+           href="/workshops/fing-gis-data-arcgis/activity-4/">
+          <span class="sidebar__step-num"><span>5</span></span>
+          4. OpenStreetMap
+        </a>
+      </li>
+    
+  </ul>
+</aside>
+
+
+    
+    <div class="content-main">
+      
+      <header style="margin-bottom: var(--space-xl);">
+        
+        <div class="step-indicator" style="margin-bottom: var(--space-md);">
+          Activity <span class="step-current">2</span>
+          <span class="step-total">of 5</span>
+        </div>
+        
+
+        <h1 style="margin-bottom: var(--space-sm);">1. Portals</h1>
+
+        
+        <p class="lead">Learn how to find and interpret materials in open GIS data portals.</p>
+        
+
+        
+        <span class="meta">
+          <svg style="display:inline;width:0.875rem;height:0.875rem;vertical-align:-2px;margin-right:4px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          4 min read
+        </span>
+        
+      </header>
+
+      
+      <div class="content">
+        <ul>
 <li>Explore open data portals and learn how to use them to find GIS data</li>
 <li>Explore how content may be organized and how to refine searching</li>
 </ul>
@@ -265,8 +387,7 @@
 <p>You can download and explore sample datasets related to this activity from the workshop data homepage, hosted on the Open Science Framework (OSF.io)</p>
 <blockquote>
 <ol>
-<li>Visit the <a href="https://osf.io/exnyg" target="_blank">workshop data homepage</a>
-.</li>
+<li>Visit the <a href="https://osf.io/exnyg">workshop data homepage</a>.</li>
 </ol></blockquote>
 <blockquote>
 <ol start="2">
@@ -292,8 +413,7 @@
 <p>From Open Data DC, search for <code>food</code> and filter by <code>feature service</code>.</p>
 </li>
 <li>
-<p>To understand the data and how it is structured, click <code>View Full Details</code>, which brings us to this <a href="https://opendata.dc.gov/datasets/DCGIS::low-food-access-areas/about" target="_blank">documentation page</a>
-.</p>
+<p>To understand the data and how it is structured, click <code>View Full Details</code>, which brings us to this <a href="https://opendata.dc.gov/datasets/DCGIS::low-food-access-areas/about">documentation page</a>.</p>
 </li>
 <li>
 <p>To download as GIS data, select the <code>Download</code> button in the left-hand sidebar, and choose <code>GeoJSON</code> or <code>Shapefile</code>.
@@ -304,29 +424,75 @@
 </li>
 </ol>
 <blockquote>
-<p>Why are there so many files associated with a shapefile? You can <a href="https://gisgeography.com/arcgis-shapefile-files-types-extensions/" target="_blank">learn more</a>
-.</p></blockquote>
+<p>Why are there so many files associated with a shapefile? You can <a href="https://gisgeography.com/arcgis-shapefile-files-types-extensions/">learn more</a>.</p></blockquote>
 <ol start="5">
 <li>
 <p>Right-click <code>Low_Food_Access_Areas</code> in the Layers pane and click <code>Open Attribute Table</code> to see how the table matches up with the &ldquo;View Full Details&rdquo; documentation from the portal.</p>
 </li>
 <li>
-<p>Right-click <code>Low_Food_Access_Areas</code> in the Layers pane → <code>Symbology</code> → <code>Primary symbology</code> = <code>Graduated colors</code> → <code>Field</code> = <code>PRTUND185</code> → Under <code>Method</code> notice there are many classification options. Be aware of which you’re choosing by <a href="https://pro.arcgis.com/en/pro-app/latest/help/mapping/layer-properties/data-classification-methods.htm" target="_blank">reading about each method</a>
-.</p>
+<p>Right-click <code>Low_Food_Access_Areas</code> in the Layers pane → <code>Symbology</code> → <code>Primary symbology</code> = <code>Graduated colors</code> → <code>Field</code> = <code>PRTUND185</code> → Under <code>Method</code> notice there are many classification options. Be aware of which you’re choosing by <a href="https://pro.arcgis.com/en/pro-app/latest/help/mapping/layer-properties/data-classification-methods.htm">reading about each method</a>.</p>
 </li>
 </ol>
 
-            </div>
-        </div>
+      </div>
+
+      
+      <nav class="workshop-nav-buttons" aria-label="Workshop navigation">
+        
+        <a href="/workshops/fing-gis-data-arcgis/welcome/" class="nav-btn nav-btn--prev">
+          <span class="nav-btn__label">← Previous</span>
+          <span class="nav-btn__title">Welcome</span>
+        </a>
+        
+
+        
+        <a href="/workshops/fing-gis-data-arcgis/activity-2/" class="nav-btn nav-btn--next">
+          <span class="nav-btn__label">Next →</span>
+          <span class="nav-btn__title">2. Coordinates</span>
+        </a>
+        
+      </nav>
+
     </div>
-</main>
+  </div>
+</article>
 
 
-    <div class="site-wide-banner" style="background-color: black; font-size: 22px; color: white; padding: 10px; text-align: center; font-weight: bold; border-bottom: 2px solid #f5c6cb;">
-    This site is a project of the Harvard Map Collection. Visit <a style ="color:#81b3d7; font-family: 'truenoregular';"href="https://library.harvard.edu/libraries/harvard-map-collection" target = "_blank">our website</a> to learn more. 
-</div>
+    </main>
+
+    <footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">GIS, maps &#43; data @ Harvard Library</div>
+        <p class="footer-description">
+          Mapping news and support from the Harvard Map Collection
+        </p>
+      </div>
+
+      <div class="footer-links">
+        
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>&copy; 2026 GIS, maps &#43; data @ Harvard Library. All rights reserved.</span>
+      <div class="footer-social">
+        
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+
+  
+  <div class="zoom-overlay" id="zoom-overlay">
+    <img src="" alt="" id="zoom-image">
+  </div>
+
+  
+  <script src="/js/main.js"></script>
 </body>
-
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-55D9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
 </html>

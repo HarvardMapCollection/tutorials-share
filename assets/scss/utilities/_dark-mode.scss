@@ -1,0 +1,87 @@
+// ============================================
+// Dark Mode
+// ============================================
+// Toggled via [data-theme="dark"] on <html>
+
+[data-theme="dark"] {
+  --color-bg:             #{$dark-bg};
+  --color-surface:        #{$dark-surface};
+  --color-surface-2:      #{$dark-surface-2};
+  --color-surface-3:      #{$dark-surface-3};
+  --color-border:         #{$dark-border};
+  --color-border-subtle:  #{$dark-surface-2};
+
+  --color-text:           #{$dark-text};
+  --color-text-secondary: #{$dark-text-muted};
+  --color-text-muted:     #{rgba($dark-text, 0.45)};
+
+  --color-primary:        #{$crimson-light};
+  --color-primary-hover:  #{$crimson};
+  --color-accent:         #{$teal-light};
+  --color-accent-hover:   #{$teal};
+
+  --color-code-bg:        #{$dark-surface-2};
+  --color-code-text:      #{$dark-text};
+  --color-code-inline-bg: #{$dark-surface-2};
+  --color-code-inline-text: #{$teal-light};
+
+  --shadow-sm:   0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md:   0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -2px rgba(0, 0, 0, 0.3);
+  --shadow-lg:   0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -4px rgba(0, 0, 0, 0.3);
+  --shadow-xl:   0 20px 25px -5px rgba(0, 0, 0, 0.6), 0 8px 10px -6px rgba(0, 0, 0, 0.3);
+
+  // Override Bootstrap dark
+  color-scheme: dark;
+
+  img {
+    opacity: 0.92;
+  }
+}
+
+// Dark mode toggle button
+.dark-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  background: var(--color-surface);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  padding: 0;
+  flex-shrink: 0;
+
+  &:hover {
+    color: var(--color-text);
+    border-color: var(--color-accent);
+    background: var(--color-surface-2);
+  }
+
+  svg {
+    width: 1.125rem;
+    height: 1.125rem;
+    transition: transform var(--transition-base);
+  }
+
+  // Sun icon (shown in dark mode)
+  .icon-sun {
+    display: none;
+  }
+
+  // Moon icon (shown in light mode)
+  .icon-moon {
+    display: block;
+  }
+}
+
+[data-theme="dark"] .dark-toggle {
+  .icon-sun {
+    display: block;
+  }
+  .icon-moon {
+    display: none;
+  }
+}

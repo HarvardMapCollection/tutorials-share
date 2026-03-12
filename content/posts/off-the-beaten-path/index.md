@@ -2,7 +2,6 @@
 title: Off the Beaten Path? 
 date: 2024-07-01
 tags: ["news", "applied-projects"]
-image: a-gradient12.png
 authors: ["Luisa Shida"]
 
 

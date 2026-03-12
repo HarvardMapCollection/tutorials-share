@@ -1,0 +1,25 @@
+{{/*
+  Progress bar for workshop activity pages.
+  Calculates progress based on current page position in parent's children.
+*/}}
+{{ $parent := .Parent }}
+{{ $pages := $parent.Pages }}
+{{ $total := len $pages }}
+{{ $current := 0 }}
+
+{{ range $i, $p := $pages }}
+  {{ if eq $p.RelPermalink $.RelPermalink }}
+    {{ $current = add $i 1 }}
+  {{ end }}
+{{ end }}
+
+{{ $percent := 0 }}
+{{ if gt $total 0 }}
+  {{ $percent = div (mul $current 100) $total }}
+{{ end }}
+
+<div class="progress-bar-container" role="progressbar"
+     aria-valuenow="{{ $current }}" aria-valuemin="0" aria-valuemax="{{ $total }}"
+     aria-label="Workshop progress: step {{ $current }} of {{ $total }}">
+  <div class="progress-bar" style="width: {{ $percent }}%"></div>
+</div>

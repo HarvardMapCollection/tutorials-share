@@ -1,237 +1,340 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us" data-theme="light">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>4. OpenStreetMap | GIS, maps &#43; data @ Harvard Library</title>
+  <meta name="description" content="Learn how to access crowdsourced GIS data for situations where data is difficult to find.">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>
-    
-    4. OpenStreetMap | 
-    
-    GIS, maps &#43; data @ Harvard Library
-</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<link rel="canonical" href="http://localhost:1313/workshops/find-gis-data/activity-4/" />
-<link rel="icon" type="image/png" href="http://localhost:1313/image/favicon.ico">
-
-
-<meta name="description" content="
-    Learn how to access crowdsourced GIS data for situations where data is difficult to find.
-    "
-/>
-<meta property="og:description" content="
-    Learn how to access crowdsourced GIS data for situations where data is difficult to find.
-    " 
-/>
+  
+  
+  <link rel="stylesheet" href="/scss/main.8f74ab48a200fc13a38aeefdc5e455ec710c0e8f3b47475dafcf80474beed59c.css">
 
 
-<meta property="og:image" content="http://localhost:1313/workshops/find-gis-data/activity-4/osm-denom.png" />
-
-
-
-
-
-
-<meta property="og:title" content="4. OpenStreetMap" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/workshops/find-gis-data/activity-4/" /><meta property="article:section" content="workshops" />
-<meta property="article:published_time" content="2024-08-10T00:00:00+00:00" />
-<meta property="article:modified_time" content="2024-08-10T00:00:00+00:00" />
-
-
-
-
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="4. OpenStreetMap">
-  <meta name="twitter:description" content="Learn how to access crowdsourced GIS data for situations where data is difficult to find.">
-
-
-  <meta itemprop="name" content="4. OpenStreetMap">
-  <meta itemprop="description" content="Learn how to access crowdsourced GIS data for situations where data is difficult to find.">
-  <meta itemprop="datePublished" content="2024-08-10T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2024-08-10T00:00:00+00:00">
-  <meta itemprop="wordCount" content="504">
-
-
-
-
-<link rel="stylesheet" href="/main.min.css">
-<link rel="stylesheet" href="https://use.typekit.net/yiq3yrx.css">
-<link rel="stylesheet" href="/typekit/stylesheet.css">
-
-
-
-
-
-<script src="/bundle.js"></script>
-
-
-
-
-
-
-
-<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-
-
-
-
-
-
-
-
-
-
+  <meta name="generator" content="Hugo 0.150.0">
+  
 
 </head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-<body><header id="header">
-  <div class="top-bar">
-    <div class="container-md">
+  <div class="site-wrapper">
+    <header class="site-header" id="site-header">
+  <div class="header-inner">
 
-      <div class="row align-items-center">
+    <a href="/" class="site-brand">
+      <svg class="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M2 12h20"/>
+        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+      </svg>
+      GIS, maps &#43; data @ Harvard Library
+      <span class="brand-tag">GIS</span>
+    </a>
 
-        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
-          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <i class="fas fa-bars"></i> Menu
-          </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      
+        
+        <a class="nav-link"
+           href="/">
+          Home
+        </a>
+        
+      
+        
+        <div class="nav-dropdown">
+          <a class="nav-link nav-link--has-children"
+             href="/tutorials/">
+            Tutorials
+            <svg class="nav-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="nav-dropdown__menu">
+            
+            <a class="nav-dropdown__item" href="/tutorials/software-access/">Software Access</a>
+            
+            <a class="nav-dropdown__item" href="/tutorials/arcgis-qgis/">ArcGIS &#43; QGIS</a>
+            
+            <a class="nav-dropdown__item" href="/tutorials/data-curation/">Data Curation</a>
+            
+          </div>
         </div>
-
-        <div class="col-12 col-sm-12">
-          <h2 class="title"><a href="/">GIS, maps &#43; data @ Harvard Library</a></h2>
-        </div>
-
-
-      </div>
-    </div>
-  </div>
-
-  <div class="container-md">
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mx-auto">
-
-
-
-          
-          
-          <li class="nav-item">
-            <a class="nav-link 
-              
-              " 
-              href="/">
-              Home
-            </a>
-          </li>
-          
-          
-          
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
-              Guides and Tutorials
-            </a>
-            <div class="dropdown-menu">
-              
-              
-                <a class="dropdown-item" href="/tags/software-access/">Software access</a>
-              
-              
-              
-                <a class="dropdown-item" href="/tags/qgis-hub/">ArcGIS &#43; QGIS Hub</a>
-              
-              
-              
-                <a class="dropdown-item" href="/tags/data-curation/">Data curation</a>
-              
-              
-            </div>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link 
-              
-              " 
-              href="/workshops/">
-              Workshops
-            </a>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link 
-              
-              " 
-              href="/tags/applied-projects/">
-              Applied projects
-            </a>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link 
-              
-              " 
-              href="/tags/news">
-              News
-            </a>
-          </li>
-          
-          
-        </ul>
-
-      </div>
+        
+      
+        
+        <a class="nav-link"
+           href="/workshops/">
+          Workshops
+        </a>
+        
+      
+        
+        <a class="nav-link"
+           href="/posts/">
+          News &amp; Projects
+        </a>
+        
+      
     </nav>
+
+    <div class="header-actions">
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+
   </div>
 </header>
 
-<main class="blog-content">
-    <div class="container-md">
-        <div class="row">
-            <div class="col-lg-8 offset-lg-2 px-lg-4">
-                
-                <div class="breadcrumb-container">
-                    <nav aria-label="breadcrumb" class="breadcrumb">
-                        <ol>
-                          
-                          ↵
-                            <li>
-                              <a href="/"> GIS, maps &#43; data @ Harvard Library</a>
-                            </li>
-                          
-                          ↵
-                            <li>
-                              <a href="/workshops/"> Harvard Library GIS Workshops </a>
-                            </li>
-                          
-                          ↵
-                            <li>
-                              <a href="/workshops/find-gis-data/"> Finding GIS data for your project [demo in QGIS]</a>
-                            </li>
-                          
-                          <li style="margin-right: 0;" class="active">
-                            👋
-                            <a aria-current="page" href="/workshops/find-gis-data/activity-4/">4. OpenStreetMap</a>
-                          </li>
-                        </ol>
-                      </nav>
-                      </div>
+
+    
+    
+      
 
 
-                <h1 class="title">4. OpenStreetMap</h1>
 
-                <ul>
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+
+
+
+  
+
+
+<div class="progress-bar-container" role="progressbar"
+     aria-valuenow="5" aria-valuemin="0" aria-valuemax="5"
+     aria-label="Workshop progress: step 5 of 5">
+  <div class="progress-bar" style="width: 100%"></div>
+</div>
+
+    
+
+    <main id="main-content" class="site-main">
+      
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+      
+    
+    
+  
+
+
+<article>
+  
+  <div class="container--wide" style="padding-top: var(--space-lg);">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+  <span class="breadcrumb-item">
+    <a href="/">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+        <polyline points="9 22 9 12 15 12 15 22"/>
+      </svg>
+      Home
+    </a>
+  </span>
+
+  
+    
+  
+    
+    <span class="breadcrumb-item">
+      <a href="/workshops/">Harvard Library GIS Workshops </a>
+    </span>
+    
+  
+    
+    <span class="breadcrumb-item">
+      <a href="/workshops/find-gis-data/">Finding GIS Data (QGIS)</a>
+    </span>
+    
+  
+
+  <span class="breadcrumb-item">4. OpenStreetMap</span>
+</nav>
+
+  </div>
+
+  
+  <div class="layout-sidebar">
+
+    
+    
+
+
+
+
+<aside class="sidebar" aria-label="Workshop steps">
+  <div class="sidebar__title">Finding GIS Data (QGIS)</div>
+
+  
+  
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      
+    
+  
+
+  
+    <div class="step-indicator" style="margin-bottom: var(--space-md);">
+      Step <span class="step-current">5</span>
+      <span class="step-total">of 5</span>
+    </div>
+  
+
+  <ul class="sidebar__nav">
+    
+    <li class="sidebar__item">
+      <a class="sidebar__link"
+         href="/workshops/find-gis-data/">
+        <span class="sidebar__step-num"><span>○</span></span>
+        Overview
+      </a>
+    </li>
+
+    
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link is-completed"
+           href="/workshops/find-gis-data/welcome/">
+          <span class="sidebar__step-num"><span>1</span></span>
+          Welcome
+        </a>
+      </li>
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link is-completed"
+           href="/workshops/find-gis-data/activity-1/">
+          <span class="sidebar__step-num"><span>2</span></span>
+          1. Portals
+        </a>
+      </li>
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link is-completed"
+           href="/workshops/find-gis-data/activity-2/">
+          <span class="sidebar__step-num"><span>3</span></span>
+          2. Coordinates
+        </a>
+      </li>
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link is-completed"
+           href="/workshops/find-gis-data/activity-3/">
+          <span class="sidebar__step-num"><span>4</span></span>
+          3. Georeferencing
+        </a>
+      </li>
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link is-active"
+           href="/workshops/find-gis-data/activity-4/">
+          <span class="sidebar__step-num"><span>5</span></span>
+          4. OpenStreetMap
+        </a>
+      </li>
+    
+  </ul>
+</aside>
+
+
+    
+    <div class="content-main">
+      
+      <header style="margin-bottom: var(--space-xl);">
+        
+        <div class="step-indicator" style="margin-bottom: var(--space-md);">
+          Activity <span class="step-current">5</span>
+          <span class="step-total">of 5</span>
+        </div>
+        
+
+        <h1 style="margin-bottom: var(--space-sm);">4. OpenStreetMap</h1>
+
+        
+        <p class="lead">Learn how to access crowdsourced GIS data for situations where data is difficult to find.</p>
+        
+
+        
+        <span class="meta">
+          <svg style="display:inline;width:0.875rem;height:0.875rem;vertical-align:-2px;margin-right:4px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          3 min read
+        </span>
+        
+      </header>
+
+      
+      <div class="content">
+        <ul>
 <li>Understand what OpenStreetMap (OSM) is, and how it can be helpful for finding data</li>
 </ul>
 <h2 id="in-class-activity">In class activity</h2>
 <blockquote>
 <ol>
-<li>Visit <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap.org</a>
-, which we can think of as the Wikipedia of GIS. It is free, crowd-contributed geospatial data.</li>
+<li>Visit <a href="https://www.openstreetmap.org/">OpenStreetMap.org</a>, which we can think of as the Wikipedia of GIS. It is free, crowd-contributed geospatial data.</li>
 </ol></blockquote>
 <blockquote>
 <ol start="2">
@@ -260,8 +363,7 @@
 </ol></blockquote>
 <blockquote>
 <ol start="7">
-<li>Later we will explore how to download layers of feature types, for instance, all of the places tagged as <code>arts_centre</code> for a certain place. For now, look through the OpenStreetMap wiki page of <a href="https://wiki.openstreetmap.org/wiki/Map_features" target="_blank">Map Features</a>
- to get a sense of all the different kinds of feature layers are available to extract.</li>
+<li>Later we will explore how to download layers of feature types, for instance, all of the places tagged as <code>arts_centre</code> for a certain place. For now, look through the OpenStreetMap wiki page of <a href="https://wiki.openstreetmap.org/wiki/Map_features">Map Features</a> to get a sense of all the different kinds of feature layers are available to extract.</li>
 </ol></blockquote>
 <hr>
 <h2 id="demo-and-explore-more">Demo and explore more</h2>
@@ -269,8 +371,7 @@
 <p>You can download and explore sample datasets related to this activity from the workshop data homepage, hosted on the Open Science Framework (OSF.io)</p>
 <blockquote>
 <ol>
-<li>Visit the <a href="https://osf.io/exnyg" target="_blank">workshop data homepage</a>
-.</li>
+<li>Visit the <a href="https://osf.io/exnyg">workshop data homepage</a>.</li>
 </ol></blockquote>
 <blockquote>
 <ol start="2">
@@ -291,10 +392,8 @@
 </div>
 <h3 id="follow-along-steps">Follow-along steps</h3>
 <ol>
-<li>We are going to use the detailed steps outlined in the <strong>How To Export Data from Overpass-turbo.edu</strong> section of the <a href="https://mapping.share.library.harvard.edu/tutorials/data-curation/openstreetmap/" target="_blank">Accessing OSM data guide</a>
-.</li>
-<li>Once we are on <a href="https://overpass-turbo.eu" target="_blank">overpass-turbo.eu</a>
- and have opened the <code>Wizard</code> to build our query:</li>
+<li>We are going to use the detailed steps outlined in the <strong>How To Export Data from Overpass-turbo.edu</strong> section of the <a href="https://mapping.share.library.harvard.edu/tutorials/data-curation/openstreetmap/">Accessing OSM data guide</a>.</li>
+<li>Once we are on <a href="https://overpass-turbo.eu">overpass-turbo.eu</a> and have opened the <code>Wizard</code> to build our query:</li>
 </ol>
 <ul>
 <li>Type in <code>amenity=place_of_worship in Massachusetts</code> and select <code>Run and Build Query</code>.</li>
@@ -313,17 +412,65 @@
 </li>
 </ol>
 
-            </div>
-        </div>
+      </div>
+
+      
+      <nav class="workshop-nav-buttons" aria-label="Workshop navigation">
+        
+        <a href="/workshops/find-gis-data/activity-3/" class="nav-btn nav-btn--prev">
+          <span class="nav-btn__label">← Previous</span>
+          <span class="nav-btn__title">3. Georeferencing</span>
+        </a>
+        
+
+        
+        <a href="/workshops/find-gis-data/" class="nav-btn nav-btn--next">
+          <span class="nav-btn__label">Complete ✓</span>
+          <span class="nav-btn__title">Back to Overview</span>
+        </a>
+        
+      </nav>
+
     </div>
-</main>
+  </div>
+</article>
 
 
-    <div class="site-wide-banner" style="background-color: black; font-size: 22px; color: white; padding: 10px; text-align: center; font-weight: bold; border-bottom: 2px solid #f5c6cb;">
-    This site is a project of the Harvard Map Collection. Visit <a style ="color:#81b3d7; font-family: 'truenoregular';"href="https://library.harvard.edu/libraries/harvard-map-collection" target = "_blank">our website</a> to learn more. 
-</div>
+    </main>
+
+    <footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">GIS, maps &#43; data @ Harvard Library</div>
+        <p class="footer-description">
+          Mapping news and support from the Harvard Map Collection
+        </p>
+      </div>
+
+      <div class="footer-links">
+        
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>&copy; 2026 GIS, maps &#43; data @ Harvard Library. All rights reserved.</span>
+      <div class="footer-social">
+        
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+
+  
+  <div class="zoom-overlay" id="zoom-overlay">
+    <img src="" alt="" id="zoom-image">
+  </div>
+
+  
+  <script src="/js/main.js"></script>
 </body>
-
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-55D9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
 </html>

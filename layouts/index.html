@@ -1,0 +1,160 @@
+{{ define "main" }}
+
+<section class="hero hero--home">
+  <div class="container--content" style="text-align: center;">
+    <span class="hero__overline">Harvard Library</span>
+    <h1 class="hero__title">{{ .Site.Title }}</h1>
+    <p class="hero__subtitle">
+      {{ with .Site.Params.description }}{{ . }}{{ end }}
+    </p>
+  </div>
+</section>
+
+{{/* Workshops */}}
+{{ $workshopSection := .Site.GetPage "section" "workshops" }}
+{{ with $workshopSection }}
+{{ if .Sections }}
+<section class="section--tight">
+  <div class="container--wide">
+    <span class="overline">Hands-on</span>
+    <h2 class="h3" style="margin-top: var(--space-sm);">Workshops</h2>
+
+    <div class="featured-grid" style="align-items: start;">
+      {{ range .Sections | first 6 }}
+      {{ $page := . }}
+      {{ $hasImage := false }}
+      {{ with .Params.image }}
+        {{ $img := $page.Resources.GetMatch . }}
+        {{ if $img }}{{ $hasImage = true }}{{ end }}
+      {{ end }}
+      <article class="card{{ if not $hasImage }} card--no-image{{ end }}">
+        {{ if $hasImage }}
+          {{ with .Params.image }}
+            {{ $img := $page.Resources.GetMatch . }}
+            {{ if $img }}
+            <div class="card__image">
+              <img src="{{ $img.RelPermalink }}" alt="" loading="lazy">
+            </div>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        <div class="card__body">
+          <span class="card__overline">Workshop</span>
+          <h3 class="card__title">
+            <a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
+          </h3>
+          {{ with $page.Description }}
+          <p class="card__excerpt">{{ . }}</p>
+          {{ end }}
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{/* Tutorials */}}
+{{ $tutorialSection := .Site.GetPage "section" "tutorials" }}
+{{ with $tutorialSection }}
+<section class="section--tight">
+  <div class="container--wide">
+    <span class="overline">Guides</span>
+    <h2 class="h3" style="margin-top: var(--space-sm);">Tutorials</h2>
+
+    {{ $sections := slice "software-access" "arcgis-qgis" "data-curation" }}
+    {{ range $sections }}
+      {{ $sub := $.Site.GetPage (printf "tutorials/%s" .) }}
+      {{ with $sub }}
+      <div style="margin-bottom: var(--space-xl);">
+        <h3 class="h4" style="margin-bottom: var(--space-sm);">
+          <a href="{{ .RelPermalink }}" style="color: var(--color-text);">{{ .Title }}</a>
+        </h3>
+        <div class="featured-grid" style="align-items: start;">
+          {{ range .Pages | first 3 }}
+          {{ $page := . }}
+          {{ $hasImage := false }}
+          {{ with .Params.image }}
+            {{ $img := $page.Resources.GetMatch . }}
+            {{ if $img }}{{ $hasImage = true }}{{ end }}
+          {{ end }}
+          <article class="card{{ if not $hasImage }} card--no-image{{ end }}">
+            {{ if $hasImage }}
+              {{ with .Params.image }}
+                {{ $img := $page.Resources.GetMatch . }}
+                {{ if $img }}
+                <div class="card__image">
+                  <img src="{{ $img.RelPermalink }}" alt="" loading="lazy">
+                </div>
+                {{ end }}
+              {{ end }}
+            {{ end }}
+            <div class="card__body">
+              <h3 class="card__title">
+                <a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
+              </h3>
+              {{ with $page.Description }}
+              <p class="card__excerpt">{{ . }}</p>
+              {{ else }}
+              {{ with $page.Summary }}
+              <p class="card__excerpt">{{ . | plainify | truncate 150 }}</p>
+              {{ end }}
+              {{ end }}
+            </div>
+          </article>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{/* Recent News & Projects */}}
+{{ $posts := where .Site.RegularPages "Section" "posts" }}
+{{ if $posts }}
+<section class="section">
+  <div class="container--wide">
+    <span class="overline">Latest</span>
+    <h2 class="h3" style="margin-top: var(--space-sm);">News &amp; Projects</h2>
+
+    <div class="featured-grid" style="align-items: start;">
+      {{ range $posts | first 3 }}
+      {{ $page := . }}
+      {{ $hasImage := false }}
+      {{ with .Params.image }}
+        {{ $img := $page.Resources.GetMatch . }}
+        {{ if $img }}{{ $hasImage = true }}{{ end }}
+      {{ end }}
+      <article class="card{{ if not $hasImage }} card--no-image{{ end }}">
+        {{ if $hasImage }}
+          {{ with .Params.image }}
+            {{ $img := $page.Resources.GetMatch . }}
+            {{ if $img }}
+            <div class="card__image">
+              <img src="{{ $img.RelPermalink }}" alt="" loading="lazy">
+            </div>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        <div class="card__body">
+          <h3 class="card__title">
+            <a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
+          </h3>
+          {{ with .Summary }}
+          <p class="card__excerpt">{{ . | plainify | truncate 150 }}</p>
+          {{ end }}
+          <div class="card__footer">
+            <span class="meta">{{ .Date.Format "Jan 2, 2006" }}</span>
+          </div>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ end }}

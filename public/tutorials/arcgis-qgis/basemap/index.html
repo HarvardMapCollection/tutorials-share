@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en-us" data-theme="light">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Add a basemap in QGIS | GIS, maps &#43; data @ Harvard Library</title>
+  <meta name="description" content="How to add a basemap in QGIS.">
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+  
+  
+  <link rel="stylesheet" href="/scss/main.8f74ab48a200fc13a38aeefdc5e455ec710c0e8f3b47475dafcf80474beed59c.css">
+
+
+  <meta name="generator" content="Hugo 0.150.0">
+  
+
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <div class="site-wrapper">
+    <header class="site-header" id="site-header">
+  <div class="header-inner">
+
+    <a href="/" class="site-brand">
+      <svg class="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M2 12h20"/>
+        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+      </svg>
+      GIS, maps &#43; data @ Harvard Library
+      <span class="brand-tag">GIS</span>
+    </a>
+
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      
+        
+        <a class="nav-link"
+           href="/">
+          Home
+        </a>
+        
+      
+        
+        <div class="nav-dropdown">
+          <a class="nav-link nav-link--has-children"
+             href="/tutorials/">
+            Tutorials
+            <svg class="nav-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="nav-dropdown__menu">
+            
+            <a class="nav-dropdown__item" href="/tutorials/software-access/">Software Access</a>
+            
+            <a class="nav-dropdown__item" href="/tutorials/arcgis-qgis/">ArcGIS &#43; QGIS</a>
+            
+            <a class="nav-dropdown__item" href="/tutorials/data-curation/">Data Curation</a>
+            
+          </div>
+        </div>
+        
+      
+        
+        <a class="nav-link"
+           href="/workshops/">
+          Workshops
+        </a>
+        
+      
+        
+        <a class="nav-link"
+           href="/posts/">
+          News &amp; Projects
+        </a>
+        
+      
+    </nav>
+
+    <div class="header-actions">
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+
+  </div>
+</header>
+
+
+    
+    
+
+    <main id="main-content" class="site-main">
+      
+
+<article>
+  
+  <header class="hero hero--workshop">
+    <div class="container--content">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+  <span class="breadcrumb-item">
+    <a href="/">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+        <polyline points="9 22 9 12 15 12 15 22"/>
+      </svg>
+      Home
+    </a>
+  </span>
+
+  
+    
+  
+    
+    <span class="breadcrumb-item">
+      <a href="/tutorials/">Tutorials</a>
+    </span>
+    
+  
+    
+    <span class="breadcrumb-item">
+      <a href="/tutorials/arcgis-qgis/">ArcGIS &#43; QGIS</a>
+    </span>
+    
+  
+
+  <span class="breadcrumb-item">Add a basemap in QGIS</span>
+</nav>
+
+
+      
+      <div class="tag-list" style="margin-bottom: var(--space-md);">
+        
+          <a href="/tags/qgis-hub/" class="tag">qgis-hub</a>
+        
+      </div>
+      
+
+      <h1 class="hero__title">Add a basemap in QGIS</h1>
+
+      
+      <p class="hero__subtitle">How to add a basemap in QGIS.</p>
+      
+
+      <div class="hero__meta">
+        
+        <span class="meta-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+          January 18, 2023
+        </span>
+        
+        
+        <span class="meta-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          1 min read
+        </span>
+        
+      </div>
+    </div>
+  </header>
+
+  
+  <div class="container--content section--tight">
+    <div class="content">
+      <p>Basemaps can be helpful reference points when working with spatial data.</p>
+<h3>How to add a basemap to your project</h3>
+<ol>
+	<li>Open a new QGIS project.</li>
+	<li>In the left-hand browser menu, locate <code>XYZ Tiles &rarr; OpenStreetMap</code>.
+	<blockquote>OpenStreetMap base tiles are built in to QGIS.</blockquote>
+	</li>
+	<li>Drag <code>OpenStreetMap</code> into the <code>Map Canvas</code>.</li>
+	<li>Zoom in to the desired location by selecting the <code>Zoom In</code> menu item, and clicking and dragging on the <code>Map Canvas</code>.</li>
+</ol>
+<h3>Tips</h3>
+<ul>
+	<li>To add other styles of basemap not included by default in the QGIS install, you can run a Google search about the latest QGIS plugins for basemaps. Here is a <a href="https://opengislab.com/blog/2018/4/15/add-basemaps-in-qgis-30" target="_blank">2018 article about using basemap plugin Quick Map Services</a> for additional basemap styles.</li>
+</ul>
+<div class="alert-success">
+<h2>Give your feedback to improve our tutorials</h2>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdsMkWf4QU1NAXaWkjSc_2d9WLSSnV8uXYIfIsjduyQ2fFxsQ/viewform?usp=sf_link" width="640" height="422" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+    </div>
+  </div>
+
+  
+  
+  
+  <div class="container--content">
+    <section class="suggestions">
+      <span class="suggestions__title">Related</span>
+      <div class="suggestions__grid">
+        
+        <article class="card card--minimal">
+          <div class="card__body">
+            <h3 class="card__title">
+              <a href="/tutorials/arcgis-qgis/add-spreadsheet/">Add Spreadsheet Data (CSV/XLSX) Tutorial</a>
+            </h3>
+            <div class="card__footer">
+              <span class="meta">Jan 18, 2023</span>
+            </div>
+          </div>
+        </article>
+        
+        <article class="card card--minimal">
+          <div class="card__body">
+            <h3 class="card__title">
+              <a href="/tutorials/arcgis-qgis/crs/">Manage Coordinate Reference Systems (CRS) Tutorial in QGIS</a>
+            </h3>
+            <div class="card__footer">
+              <span class="meta">Jan 18, 2023</span>
+            </div>
+          </div>
+        </article>
+        
+        <article class="card card--minimal">
+          <div class="card__body">
+            <h3 class="card__title">
+              <a href="/tutorials/arcgis-qgis/perform-a-table-join/">Perform a table join in QGIS</a>
+            </h3>
+            <div class="card__footer">
+              <span class="meta">Jan 17, 2023</span>
+            </div>
+          </div>
+        </article>
+        
+      </div>
+    </section>
+  </div>
+  
+</article>
+
+
+    </main>
+
+    <footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">GIS, maps &#43; data @ Harvard Library</div>
+        <p class="footer-description">
+          Mapping news and support from the Harvard Map Collection
+        </p>
+      </div>
+
+      <div class="footer-links">
+        
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>&copy; 2026 GIS, maps &#43; data @ Harvard Library. All rights reserved.</span>
+      <div class="footer-social">
+        
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+
+  
+  <div class="zoom-overlay" id="zoom-overlay">
+    <img src="" alt="" id="zoom-image">
+  </div>
+
+  
+  <script src="/js/main.js"></script>
+</body>
+</html>

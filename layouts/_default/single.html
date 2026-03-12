@@ -1,0 +1,72 @@
+{{ define "main" }}
+
+<article>
+  {{/* Page header */}}
+  <header class="hero hero--workshop">
+    <div class="container--content">
+      {{ partial "breadcrumbs.html" . }}
+
+      {{ with .Params.tags }}
+      <div class="tag-list" style="margin-bottom: var(--space-md);">
+        {{ range . }}
+          <a href="{{ "tags/" | relURL }}{{ . | urlize }}/" class="tag">{{ . }}</a>
+        {{ end }}
+      </div>
+      {{ end }}
+
+      <h1 class="hero__title">{{ .Title }}</h1>
+
+      {{ with .Description }}
+      <p class="hero__subtitle">{{ . }}</p>
+      {{ end }}
+
+      <div class="hero__meta">
+        {{ with .Date }}
+        <span class="meta-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+          {{ .Format "January 2, 2006" }}
+        </span>
+        {{ end }}
+        {{ with .ReadingTime }}
+        <span class="meta-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          {{ . }} min read
+        </span>
+        {{ end }}
+      </div>
+    </div>
+  </header>
+
+  {{/* Content */}}
+  <div class="container--content section--tight">
+    <div class="content">
+      {{ .Content }}
+    </div>
+  </div>
+
+  {{/* Related content */}}
+  {{ $related := .Site.RegularPages.Related . | first 3 }}
+  {{ with $related }}
+  <div class="container--content">
+    <section class="suggestions">
+      <span class="suggestions__title">Related</span>
+      <div class="suggestions__grid">
+        {{ range . }}
+        <article class="card card--minimal">
+          <div class="card__body">
+            <h3 class="card__title">
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h3>
+            <div class="card__footer">
+              <span class="meta">{{ .Date.Format "Jan 2, 2006" }}</span>
+            </div>
+          </div>
+        </article>
+        {{ end }}
+      </div>
+    </section>
+  </div>
+  {{ end }}
+</article>
+
+{{ end }}

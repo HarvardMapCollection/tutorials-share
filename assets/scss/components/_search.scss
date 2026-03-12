@@ -1,0 +1,36 @@
+// ============================================
+// Search (optional, for future use)
+// ============================================
+
+.search-trigger {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: var(--space-xs) var(--space-sm);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  color: var(--color-text-muted);
+  font-size: $type-sm;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+
+  &:hover {
+    border-color: var(--color-text-secondary);
+    color: var(--color-text-secondary);
+  }
+
+  kbd {
+    font-family: $font-mono;
+    font-size: $type-xs;
+    padding: 1px 5px;
+    background: var(--color-surface-2);
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--color-border);
+  }
+
+  svg {
+    width: 0.875rem;
+    height: 0.875rem;
+  }
+}

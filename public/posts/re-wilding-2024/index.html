@@ -1,293 +1,181 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us" data-theme="light">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Re-Wilding Harvard, Spring 2024 | GIS, maps &#43; data @ Harvard Library</title>
+  <meta name="description" content="Re-Wilding Harvard 2024 GIS projects.">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>
-    
-    Re-Wilding Harvard, Spring 2024 | 
-    
-    GIS, maps &#43; data @ Harvard Library
-</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<link rel="canonical" href="http://localhost:1313/posts/re-wilding-2024/" />
-<link rel="icon" type="image/png" href="http://localhost:1313/image/favicon.ico">
-
-
-<meta name="description" content="
-    Re-Wilding Harvard 2024 GIS projects.
-    "
-/>
-<meta property="og:description" content="
-    Re-Wilding Harvard 2024 GIS projects.
-    " 
-/>
+  
+  
+  <link rel="stylesheet" href="/scss/main.8f74ab48a200fc13a38aeefdc5e455ec710c0e8f3b47475dafcf80474beed59c.css">
 
 
-<meta property="og:image" content="http://localhost:1313/posts/re-wilding-2024/winter.png" />
-
-
-
-
-
-
-<meta property="og:title" content="Re-Wilding Harvard, Spring 2024" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/posts/re-wilding-2024/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-06-13T00:00:00+00:00" />
-<meta property="article:modified_time" content="2024-06-13T00:00:00+00:00" />
-
-
-
-
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Re-Wilding Harvard, Spring 2024">
-  <meta name="twitter:description" content="Re-Wilding Harvard 2024 GIS projects.">
-
-
-  <meta itemprop="name" content="Re-Wilding Harvard, Spring 2024">
-  <meta itemprop="description" content="Re-Wilding Harvard 2024 GIS projects.">
-  <meta itemprop="datePublished" content="2024-06-13T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2024-06-13T00:00:00+00:00">
-  <meta itemprop="wordCount" content="1962">
-  <meta itemprop="keywords" content="News,Applied-Projects">
-
-
-
-
-<link rel="stylesheet" href="/main.min.css">
-<link rel="stylesheet" href="https://use.typekit.net/yiq3yrx.css">
-<link rel="stylesheet" href="/typekit/stylesheet.css">
-
-
-
-
-
-<script src="/bundle.js"></script>
-
-
-
-
-
-
-
-<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-
-
-
-
-
-
-
-
-
-
+  <meta name="generator" content="Hugo 0.150.0">
+  
 
 </head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-<body><header id="header">
-  <div class="top-bar">
-    <div class="container-md">
+  <div class="site-wrapper">
+    <header class="site-header" id="site-header">
+  <div class="header-inner">
 
-      <div class="row align-items-center">
+    <a href="/" class="site-brand">
+      <svg class="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M2 12h20"/>
+        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+      </svg>
+      GIS, maps &#43; data @ Harvard Library
+      <span class="brand-tag">GIS</span>
+    </a>
 
-        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
-          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <i class="fas fa-bars"></i> Menu
-          </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      
+        
+        <a class="nav-link"
+           href="/">
+          Home
+        </a>
+        
+      
+        
+        <div class="nav-dropdown">
+          <a class="nav-link nav-link--has-children"
+             href="/tutorials/">
+            Tutorials
+            <svg class="nav-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="nav-dropdown__menu">
+            
+            <a class="nav-dropdown__item" href="/tutorials/software-access/">Software Access</a>
+            
+            <a class="nav-dropdown__item" href="/tutorials/arcgis-qgis/">ArcGIS &#43; QGIS</a>
+            
+            <a class="nav-dropdown__item" href="/tutorials/data-curation/">Data Curation</a>
+            
+          </div>
         </div>
-
-        <div class="col-12 col-sm-12">
-          <h2 class="title"><a href="/">GIS, maps &#43; data @ Harvard Library</a></h2>
-        </div>
-
-
-      </div>
-    </div>
-  </div>
-
-  <div class="container-md">
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mx-auto">
-
-
-
-          
-          
-          <li class="nav-item">
-            <a class="nav-link 
-              
-              " 
-              href="/">
-              Home
-            </a>
-          </li>
-          
-          
-          
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
-              Guides and Tutorials
-            </a>
-            <div class="dropdown-menu">
-              
-              
-                <a class="dropdown-item" href="/tags/software-access/">Software access</a>
-              
-              
-              
-                <a class="dropdown-item" href="/tags/qgis-hub/">ArcGIS &#43; QGIS Hub</a>
-              
-              
-              
-                <a class="dropdown-item" href="/tags/data-curation/">Data curation</a>
-              
-              
-            </div>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link 
-              
-              " 
-              href="/workshops/">
-              Workshops
-            </a>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link 
-              
-              " 
-              href="/tags/applied-projects/">
-              Applied projects
-            </a>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link 
-              
-              " 
-              href="/tags/news">
-              News
-            </a>
-          </li>
-          
-          
-        </ul>
-
-      </div>
+        
+      
+        
+        <a class="nav-link"
+           href="/workshops/">
+          Workshops
+        </a>
+        
+      
+        
+        <a class="nav-link"
+           href="/posts/">
+          News &amp; Projects
+        </a>
+        
+      
     </nav>
+
+    <div class="header-actions">
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+
   </div>
 </header>
 
-<main class="blog-content">
-    <div class="container-md">
-        <div class="row">
-            
-            <div class="col-lg-2 d-none d-xl-block">
-                <div class="ad-left-offset"></div>
-                
-            </div>
 
-            
+    
+    
 
-            <div class="col-md-12 col-lg-8 px-lg-4">
-                
+    <main id="main-content" class="site-main">
+      
+
+<article>
+  
+  <header class="hero hero--workshop">
+    <div class="container--content">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+  <span class="breadcrumb-item">
+    <a href="/">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+        <polyline points="9 22 9 12 15 12 15 22"/>
+      </svg>
+      Home
+    </a>
+  </span>
+
+  
+    
+  
+    
+    <span class="breadcrumb-item">
+      <a href="/posts/">Posts</a>
+    </span>
+    
+  
+
+  <span class="breadcrumb-item">Re-Wilding Harvard, Spring 2024</span>
+</nav>
 
 
-                <div class="breadcrumb-container">
-                    <nav aria-label="breadcrumb" class="breadcrumb">
-                        <ol>
-                          
-                          ↵
-                            <li>
-                              <a href="/"> GIS, maps &#43; data @ Harvard Library</a>
-                            </li>
-                          
-                          ↵
-                            <li>
-                              <a href="/posts/"> Posts</a>
-                            </li>
-                          
-                          <li style="margin-right: 0;" class="active">
-                            👋
-                            <a aria-current="page" href="/posts/re-wilding-2024/">Re-Wilding Harvard, Spring 2024</a>
-                          </li>
-                        </ol>
-                      </nav>
-                      </div>
+      
+      <div class="tag-list" style="margin-bottom: var(--space-md);">
+        
+          <a href="/tags/news/" class="tag">news</a>
+        
+          <a href="/tags/applied-projects/" class="tag">applied-projects</a>
+        
+      </div>
+      
 
-                      <h1 class="title">Re-Wilding Harvard, Spring 2024</h1>
+      <h1 class="hero__title">Re-Wilding Harvard, Spring 2024</h1>
 
-                <div class="container-fluid px-0 mb-4">
-                    <div class="row align-items-end">
-                        <div class="col-md-8 date-time">
-                            
-                                Belle Lipton
-                                &centerdot;
-                            
-                                Hannah Adler
-                                &centerdot;
-                            
-                                Nikita Nair
-                                &centerdot;
-                            
-                                Hayden Teeter
-                                &centerdot;
-                            
-                                Cody Vasquez
-                                &centerdot;
-                            
-                                Alyssia Wiesenbauer
-                                &centerdot;
-                            
-                                Boya Zhou
-                                &centerdot;
-                            
-                            <span class="date">
-    Jun 13, 2024
-</span>
-                            &centerdot;
-                            <span class="time-to-read">
-    11 mins read</span>
-                        </div>
+      
+      <p class="hero__subtitle">Re-Wilding Harvard 2024 GIS projects.</p>
+      
 
-                        <div class="col-md-4 tags ">
-                            
-                            <a href="/tags/news"><span
-                                    class="tag bg-dark">news</span></a>
-                            
-                            <a href="/tags/applied-projects"><span
-                                    class="tag bg-dark">applied-projects</span></a>
-                            
-                        </div>
-                    </div>
-                </div>
+      <div class="hero__meta">
+        
+        <span class="meta-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+          June 13, 2024
+        </span>
+        
+        
+        <span class="meta-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          10 min read
+        </span>
+        
+      </div>
+    </div>
+  </header>
 
-                
-
-                <p>During Spring 2024, the Harvard Map Collection embedded with history course Re-Wilding Harvard, taught by Professor Joyce Chaplin. From the syllabus, &ldquo;re-wilding returns a place to an earlier form to promote biodiversity; urban re-wilding does this within urban spaces, including Harvard’s.&rdquo;</p>
+  
+  <div class="container--content section--tight">
+    <div class="content">
+      <p>During Spring 2024, the Harvard Map Collection embedded with history course Re-Wilding Harvard, taught by Professor Joyce Chaplin. From the syllabus, &ldquo;re-wilding returns a place to an earlier form to promote biodiversity; urban re-wilding does this within urban spaces, including Harvard’s.&rdquo;</p>
 <p><img src="media/re-wild.png" alt="Planter at Harvard Museum of Natural History">
-<em><a href="https://www.harvardmagazine.com/2022/08/re-wilding-harvard" target="_blank">Re-wilded site</a>
- from 2021, at the Harvard Museum of Natural History.</em></p>
+<em><a href="https://www.harvardmagazine.com/2022/08/re-wilding-harvard">Re-wilded site</a> from 2021, at the Harvard Museum of Natural History.</em></p>
 <p>In past iterations of the course, students studied historic dimensions of pre-colonial landscapes and ecosystems at Harvard and their impact on what exists now. Students have even re-wilded two sites, one at the Museum of Natural History, and another at the Business School. Throughout this learning, maps played a role in helping to understand places on campus, past and present. When Professor Chaplin and I met during a visit to the Map Collection in 2022, she was interested in the potential for beginning to introduce GIS in class, so students could engage more deeply with these topics.</p>
 <p>In this article, we will focus on the ways our resulting partnership opened up outcomes previously inaccessible when we had to rely on drop-in models in the past, models where course librarians are limited by one or two course visits during the semester. We will also highlight the delightful geospatial findings of Re-Wilding students from Spring 2024.</p>
 <h2 id="preparation">Preparation</h2>
 <p>First, let&rsquo;s talk about what we did to prepare. In the months leading up to the course, Professor Chaplin and I held a number of 1:1 technical sessions, where we conducted hands-on run-throughs of the workshop materials slated for class. Professor Chaplin&rsquo;s interest and investment during these early stages paid off; it allowed us to be thoughtful and intentional when synthesizing the ways the library&rsquo;s technical instruction during class would meld well with the course objectives.</p>
 <p>During the semester, I visited four times. The first visit was a lecture-based introduction to GIS, showing off many project examples. The second visit was a hands-on workshop where students practiced georeferencing, the process of matching up historic maps to modern coordinates. The third visit was another hands-on workshop where we practiced extracting crunchable data from historic maps. Finally, I visited at the end of the semester for project presentations, and to discuss outcomes. I was available during the semester by appointment, and met with students throughout for technical troubleshooting and project feedback.</p>
 <h2 id="the-projects">The projects</h2>
-<p>Though it was not required, most students in the course opted to use GIS for their final projects. One group of students newer to GIS but interested in learning more teamed up to create a Harvard-focused version of a tool we went over in class called <a href="https://www.oldnyc.org/" target="_blank">OldNYC</a>
-, which unites archival photographs in the holdings of the New York Public Library into one spatial web interface. In a data wrap-up and offboarding session, Alyssia Wiesenbauer &lsquo;26 said, &ldquo;I had zero GIS experience when I enrolled in the class. I didn&rsquo;t really know what to expect at all, but I am definitely planning to use it in the future. It’s something I have in my toolbox now.&rdquo; Others came into class with some GIS background, and hoping to expand it, chose to work towards exploring diverse elements of Harvard&rsquo;s places and ecologies.</p>
+<p>Though it was not required, most students in the course opted to use GIS for their final projects. One group of students newer to GIS but interested in learning more teamed up to create a Harvard-focused version of a tool we went over in class called <a href="https://www.oldnyc.org/">OldNYC</a>, which unites archival photographs in the holdings of the New York Public Library into one spatial web interface. In a data wrap-up and offboarding session, Alyssia Wiesenbauer &lsquo;26 said, &ldquo;I had zero GIS experience when I enrolled in the class. I didn&rsquo;t really know what to expect at all, but I am definitely planning to use it in the future. It’s something I have in my toolbox now.&rdquo; Others came into class with some GIS background, and hoping to expand it, chose to work towards exploring diverse elements of Harvard&rsquo;s places and ecologies.</p>
 <div class="alert-success">
 <h3><a href="https://felt.com/embed/map/Old-Harvard-Yard-lxyv4F5eQ79Bz9AeXW1wcnoD?loc=42.374231%2C-71.116411%2C17.57z&legend=0&logo=1&link=1">Old Harvard Yard</a></h3>
 <iframe width="100%" height="450" frameborder="0" title="Felt Map" src="https://felt.com/embed/map/Old-Harvard-Yard-lxyv4F5eQ79Bz9AeXW1wcnoD?loc=42.374231%2C-71.116411%2C17.57z&legend=0&logo=1&link=1" referrerpolicy="strict-origin-when-cross-origin"></iframe>
@@ -367,8 +255,7 @@
 <p><img src="media/boya4.png" alt="section drawing of microhabitats">
 <em>Boya&rsquo;s section drawing depicting various possible microhabitats in the yard.</em></p>
 <h2 id="more-gis-projects">More GIS projects</h2>
-<p>Other projects focused on comparing green space and tree cover across centuries, leveraging maps from the Harvard Map Collection, and <a href="https://www.arcgis.com/apps/mapviewer/index.html?webmap=3f2564e04ab94ce7b3f220fec913d3c2" target="_blank">data shared by Harvard University Planning and Design</a>
-. Others used spatial analysis to identify viable locations for future re-wilding spots, based on distance from a number of variables, including transit stops, public schools, and walkways.</p>
+<p>Other projects focused on comparing green space and tree cover across centuries, leveraging maps from the Harvard Map Collection, and <a href="https://www.arcgis.com/apps/mapviewer/index.html?webmap=3f2564e04ab94ce7b3f220fec913d3c2">data shared by Harvard University Planning and Design</a>. Others used spatial analysis to identify viable locations for future re-wilding spots, based on distance from a number of variables, including transit stops, public schools, and walkways.</p>
 <p>Hannah Adler &lsquo;25 started to explore the relationship of built and undeveloped land along the Charles River.</p>
 <blockquote>
 <p>&ldquo;I was  interested in the Harvard Square adjacent area near the river, because today we think of the river walkways and Memorial Drive, especially when it’s closed as a really valuable open space.</p></blockquote>
@@ -380,45 +267,94 @@
 <img src="media/hannah-parcels.png" style="width:150%;object-fit: cover;">
 <br>
 <figcaption class="append">Parcel data Hannah created for 1873.</figcaption>
-<p>Hannah created parcel data for four slices of time between 1873 and 1930, and tagged each historic parcel with information about whether it had buildings developed on it, as well as ownership information. During Re-Wilding Harvard, she piloted methods for understanding the spatial relationships of these variables, and plans to join the Map Collection in a paid assistantship this summer, where she&rsquo;ll refine her methods, create additional meaningful spatial datasets from the maps in our collections, and continue building out our <a href="https://osf.io/g8rcj/" target="_blank">spatial data collections</a>
- for Research, Teaching, and Learning.</p>
+<p>Hannah created parcel data for four slices of time between 1873 and 1930, and tagged each historic parcel with information about whether it had buildings developed on it, as well as ownership information. During Re-Wilding Harvard, she piloted methods for understanding the spatial relationships of these variables, and plans to join the Map Collection in a paid assistantship this summer, where she&rsquo;ll refine her methods, create additional meaningful spatial datasets from the maps in our collections, and continue building out our <a href="https://osf.io/g8rcj/">spatial data collections</a> for Research, Teaching, and Learning.</p>
 
-
-
-                
-                <br>
-                <div id="disqus_thread"></div>
-<script type="text/javascript">
-    (function () {
-        
-        
-        if (window.location.hostname == "localhost")
-            return;
-
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        var disqus_shortname = '';
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-            </div>
-
-            <div class="col-lg-2 d-none d-xl-block">
-                <div class="ad-right-offset"></div>
-                
-            </div>
-        </div>
     </div>
-</main>
+  </div>
+
+  
+  
+  
+  <div class="container--content">
+    <section class="suggestions">
+      <span class="suggestions__title">Related</span>
+      <div class="suggestions__grid">
+        
+        <article class="card card--minimal">
+          <div class="card__body">
+            <h3 class="card__title">
+              <a href="/posts/mapping-black-cambridge/">Mapping Black Cambridge</a>
+            </h3>
+            <div class="card__footer">
+              <span class="meta">Feb 1, 2024</span>
+            </div>
+          </div>
+        </article>
+        
+        <article class="card card--minimal">
+          <div class="card__body">
+            <h3 class="card__title">
+              <a href="/posts/odessa-biodiversity/">Undoing Empire, One Plant at a Time</a>
+            </h3>
+            <div class="card__footer">
+              <span class="meta">Oct 3, 2023</span>
+            </div>
+          </div>
+        </article>
+        
+        <article class="card card--minimal">
+          <div class="card__body">
+            <h3 class="card__title">
+              <a href="/posts/russian-language/">Mapping the Russian Language</a>
+            </h3>
+            <div class="card__footer">
+              <span class="meta">Jan 13, 2023</span>
+            </div>
+          </div>
+        </article>
+        
+      </div>
+    </section>
+  </div>
+  
+</article>
 
 
+    </main>
 
-    <div class="site-wide-banner" style="background-color: black; font-size: 22px; color: white; padding: 10px; text-align: center; font-weight: bold; border-bottom: 2px solid #f5c6cb;">
-    This site is a project of the Harvard Map Collection. Visit <a style ="color:#81b3d7; font-family: 'truenoregular';"href="https://library.harvard.edu/libraries/harvard-map-collection" target = "_blank">our website</a> to learn more. 
-</div>
+    <footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">GIS, maps &#43; data @ Harvard Library</div>
+        <p class="footer-description">
+          Mapping news and support from the Harvard Map Collection
+        </p>
+      </div>
+
+      <div class="footer-links">
+        
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>&copy; 2026 GIS, maps &#43; data @ Harvard Library. All rights reserved.</span>
+      <div class="footer-social">
+        
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+
+  
+  <div class="zoom-overlay" id="zoom-overlay">
+    <img src="" alt="" id="zoom-image">
+  </div>
+
+  
+  <script src="/js/main.js"></script>
 </body>
-
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-55D9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
 </html>

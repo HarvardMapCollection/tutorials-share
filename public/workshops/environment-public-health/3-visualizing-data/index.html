@@ -1,244 +1,315 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us" data-theme="light">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visualizing GIS data | GIS, maps &#43; data @ Harvard Library</title>
+  <meta name="description" content="Mapping news and support from the Harvard Map Collection">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>
-    
-    Visualizing GIS Data | 
-    
-    GIS, maps &#43; data @ Harvard Library
-</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<link rel="canonical" href="http://localhost:1313/workshops/environment-public-health/3-visualizing-data/" />
-<link rel="icon" type="image/png" href="http://localhost:1313/image/favicon.ico">
-
-
-<meta name="description" content="
-    In this tutorial, we are going to demonstrate how to map both nominal and interval data, using Environmental Justice Population and Tree Cover data as examples.
-
-Nominal data refers to categories without any inherent numerical relationship.
-Interval data refers to a numerical scale where the distance between numbers is known and consistent.
-
-You can use this understanding to leverage cartographic conventions and software templates designed for each level of measurement.
-    "
-/>
-<meta property="og:description" content="
-    In this tutorial, we are going to demonstrate how to map both nominal and interval data, using Environmental Justice Population and Tree Cover data as examples.
-
-Nominal data refers to categories without any inherent numerical relationship.
-Interval data refers to a numerical scale where the distance between numbers is known and consistent.
-
-You can use this understanding to leverage cartographic conventions and software templates designed for each level of measurement.
-    " 
-/>
+  
+  
+  <link rel="stylesheet" href="/scss/main.8f74ab48a200fc13a38aeefdc5e455ec710c0e8f3b47475dafcf80474beed59c.css">
 
 
-<meta property="og:image" content="http://localhost:1313/workshops/environment-public-health/3-visualizing-data/histogram.png" />
-
-
-
-
-
-
-<meta property="og:title" content="Visualizing GIS data" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/workshops/environment-public-health/3-visualizing-data/" /><meta property="article:section" content="workshops" />
-<meta property="article:published_time" content="2025-12-06T00:00:00+00:00" />
-<meta property="article:modified_time" content="2025-12-06T00:00:00+00:00" />
-
-
-
-
-
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="http://localhost:1313/workshops/environment-public-health/3-visualizing-data/cover.png">
-  <meta name="twitter:title" content="Visualizing GIS data">
-  <meta name="twitter:description" content="In this tutorial, we are going to demonstrate how to map both nominal and interval data, using Environmental Justice Population and Tree Cover data as examples.
-Nominal data refers to categories without any inherent numerical relationship. Interval data refers to a numerical scale where the distance between numbers is known and consistent. You can use this understanding to leverage cartographic conventions and software templates designed for each level of measurement.">
-
-
-  <meta itemprop="name" content="Visualizing GIS data">
-  <meta itemprop="description" content="In this tutorial, we are going to demonstrate how to map both nominal and interval data, using Environmental Justice Population and Tree Cover data as examples.
-Nominal data refers to categories without any inherent numerical relationship. Interval data refers to a numerical scale where the distance between numbers is known and consistent. You can use this understanding to leverage cartographic conventions and software templates designed for each level of measurement.">
-  <meta itemprop="datePublished" content="2025-12-06T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2025-12-06T00:00:00+00:00">
-  <meta itemprop="wordCount" content="881">
-  <meta itemprop="image" content="http://localhost:1313/workshops/environment-public-health/3-visualizing-data/cover.png">
-
-
-
-
-<link rel="stylesheet" href="/main.min.css">
-<link rel="stylesheet" href="https://use.typekit.net/yiq3yrx.css">
-<link rel="stylesheet" href="/typekit/stylesheet.css">
-
-
-
-
-
-<script src="/bundle.js"></script>
-
-
-
-
-
-
-
-<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-
-
-
-
-
-
-
-
-
-
+  <meta name="generator" content="Hugo 0.150.0">
+  
 
 </head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-<body><header id="header">
-  <div class="top-bar">
-    <div class="container-md">
+  <div class="site-wrapper">
+    <header class="site-header" id="site-header">
+  <div class="header-inner">
 
-      <div class="row align-items-center">
+    <a href="/" class="site-brand">
+      <svg class="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M2 12h20"/>
+        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+      </svg>
+      GIS, maps &#43; data @ Harvard Library
+      <span class="brand-tag">GIS</span>
+    </a>
 
-        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
-          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <i class="fas fa-bars"></i> Menu
-          </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      
+        
+        <a class="nav-link"
+           href="/">
+          Home
+        </a>
+        
+      
+        
+        <div class="nav-dropdown">
+          <a class="nav-link nav-link--has-children"
+             href="/tutorials/">
+            Tutorials
+            <svg class="nav-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="nav-dropdown__menu">
+            
+            <a class="nav-dropdown__item" href="/tutorials/software-access/">Software Access</a>
+            
+            <a class="nav-dropdown__item" href="/tutorials/arcgis-qgis/">ArcGIS &#43; QGIS</a>
+            
+            <a class="nav-dropdown__item" href="/tutorials/data-curation/">Data Curation</a>
+            
+          </div>
         </div>
-
-        <div class="col-12 col-sm-12">
-          <h2 class="title"><a href="/">GIS, maps &#43; data @ Harvard Library</a></h2>
-        </div>
-
-
-      </div>
-    </div>
-  </div>
-
-  <div class="container-md">
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mx-auto">
-
-
-
-          
-          
-          <li class="nav-item">
-            <a class="nav-link 
-              
-              " 
-              href="/">
-              Home
-            </a>
-          </li>
-          
-          
-          
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
-              Guides and Tutorials
-            </a>
-            <div class="dropdown-menu">
-              
-              
-                <a class="dropdown-item" href="/tags/software-access/">Software access</a>
-              
-              
-              
-                <a class="dropdown-item" href="/tags/qgis-hub/">ArcGIS &#43; QGIS Hub</a>
-              
-              
-              
-                <a class="dropdown-item" href="/tags/data-curation/">Data curation</a>
-              
-              
-            </div>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link 
-              
-              " 
-              href="/workshops/">
-              Workshops
-            </a>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link 
-              
-              " 
-              href="/tags/applied-projects/">
-              Applied projects
-            </a>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link 
-              
-              " 
-              href="/tags/news">
-              News
-            </a>
-          </li>
-          
-          
-        </ul>
-
-      </div>
+        
+      
+        
+        <a class="nav-link"
+           href="/workshops/">
+          Workshops
+        </a>
+        
+      
+        
+        <a class="nav-link"
+           href="/posts/">
+          News &amp; Projects
+        </a>
+        
+      
     </nav>
+
+    <div class="header-actions">
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+
   </div>
 </header>
 
-<main class="blog-content">
-    <div class="container-md">
-        <div class="row">
-            <div class="col-lg-8 offset-lg-2 px-lg-4">
-                
-                <div class="breadcrumb-container">
-                    <nav aria-label="breadcrumb" class="breadcrumb">
-                        <ol>
-                          
-                          ↵
-                            <li>
-                              <a href="/"> GIS, maps &#43; data @ Harvard Library</a>
-                            </li>
-                          
-                          ↵
-                            <li>
-                              <a href="/workshops/"> Harvard Library GIS Workshops </a>
-                            </li>
-                          
-                          ↵
-                            <li>
-                              <a href="/workshops/environment-public-health/"> Mapping health determinants - Intro to GIS data &#43; visualization</a>
-                            </li>
-                          
-                          <li style="margin-right: 0;" class="active">
-                            👋
-                            <a aria-current="page" href="/workshops/environment-public-health/3-visualizing-data/">Visualizing GIS data</a>
-                          </li>
-                        </ol>
-                      </nav>
-                      </div>
+
+    
+    
+      
 
 
-                <h1 class="title">Visualizing GIS Data</h1>
 
-                <p>In this tutorial, we are going to demonstrate how to map both nominal and interval data, using Environmental Justice Population and Tree Cover data as examples.</p>
+
+
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+
+
+
+  
+
+
+<div class="progress-bar-container" role="progressbar"
+     aria-valuenow="4" aria-valuemin="0" aria-valuemax="4"
+     aria-label="Workshop progress: step 4 of 4">
+  <div class="progress-bar" style="width: 100%"></div>
+</div>
+
+    
+
+    <main id="main-content" class="site-main">
+      
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+    
+    
+      
+    
+    
+  
+
+
+<article>
+  
+  <div class="container--wide" style="padding-top: var(--space-lg);">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+  <span class="breadcrumb-item">
+    <a href="/">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+        <polyline points="9 22 9 12 15 12 15 22"/>
+      </svg>
+      Home
+    </a>
+  </span>
+
+  
+    
+  
+    
+    <span class="breadcrumb-item">
+      <a href="/workshops/">Harvard Library GIS Workshops </a>
+    </span>
+    
+  
+    
+    <span class="breadcrumb-item">
+      <a href="/workshops/environment-public-health/">Mapping Health Determinants</a>
+    </span>
+    
+  
+
+  <span class="breadcrumb-item">Visualizing GIS data</span>
+</nav>
+
+  </div>
+
+  
+  <div class="layout-sidebar">
+
+    
+    
+
+
+
+
+<aside class="sidebar" aria-label="Workshop steps">
+  <div class="sidebar__title">Mapping Health Determinants</div>
+
+  
+  
+  
+  
+    
+  
+    
+  
+    
+  
+    
+      
+    
+  
+
+  
+    <div class="step-indicator" style="margin-bottom: var(--space-md);">
+      Step <span class="step-current">4</span>
+      <span class="step-total">of 4</span>
+    </div>
+  
+
+  <ul class="sidebar__nav">
+    
+    <li class="sidebar__item">
+      <a class="sidebar__link"
+         href="/workshops/environment-public-health/">
+        <span class="sidebar__step-num"><span>○</span></span>
+        Overview
+      </a>
+    </li>
+
+    
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link is-completed"
+           href="/workshops/environment-public-health/intro/">
+          <span class="sidebar__step-num"><span>1</span></span>
+          Introduction
+        </a>
+      </li>
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link is-completed"
+           href="/workshops/environment-public-health/1-searching-for-understanding-data/">
+          <span class="sidebar__step-num"><span>2</span></span>
+          Searching for and understanding GIS data
+        </a>
+      </li>
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link is-completed"
+           href="/workshops/environment-public-health/2-opening-understanding-files/">
+          <span class="sidebar__step-num"><span>3</span></span>
+          Opening and understanding GIS files
+        </a>
+      </li>
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link is-active"
+           href="/workshops/environment-public-health/3-visualizing-data/">
+          <span class="sidebar__step-num"><span>4</span></span>
+          Visualizing GIS data
+        </a>
+      </li>
+    
+  </ul>
+</aside>
+
+
+    
+    <div class="content-main">
+      
+      <header style="margin-bottom: var(--space-xl);">
+        
+        <div class="step-indicator" style="margin-bottom: var(--space-md);">
+          Activity <span class="step-current">4</span>
+          <span class="step-total">of 4</span>
+        </div>
+        
+
+        <h1 style="margin-bottom: var(--space-sm);">Visualizing GIS data</h1>
+
+        
+
+        
+        <span class="meta">
+          <svg style="display:inline;width:0.875rem;height:0.875rem;vertical-align:-2px;margin-right:4px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          5 min read
+        </span>
+        
+      </header>
+
+      
+      <div class="content">
+        <p>In this tutorial, we are going to demonstrate how to map both nominal and interval data, using Environmental Justice Population and Tree Cover data as examples.</p>
 <ul>
 <li><strong>Nominal data</strong> refers to categories without any inherent numerical relationship.</li>
 <li><strong>Interval data</strong> refers to a numerical scale where the distance between numbers is known and consistent.</li>
@@ -246,19 +317,14 @@ Nominal data refers to categories without any inherent numerical relationship. I
 <p>You can use this understanding to leverage cartographic conventions and software templates designed for each level of measurement.</p>
 <h2 id="datasets">Datasets</h2>
 <ul>
-<li>We are going to use the <code>EJ_CRIT_DE</code> field of the <a href="https://hgl.harvard.edu/catalog/harvard-rtlmod1-envjusticepop-boston-2020" target="_blank">Environmental Justice Populations by Census Block Group, Boston, Massachusetts, 2020</a>
- to map <code>nominal</code> data. <code>EJ_CRIT_DE</code> refers to the EJ criteria description. Each census block group is assigned a category, e.g. <code>English isolation</code>; <code>Minority and income</code>, etc.</li>
-<li>We are going to use the <code>Percent_Tr</code> field of the <a href="https://hgl.harvard.edu/catalog/harvard-rtlmod1-treecanopy-boston-2019" target="_blank">Tree Canopy Percentage by Census Tract (CT), Boston, Massachusetts, 2019</a>
- to map <code>interval</code> data. <code>Percent_Tr</code> refers to the tree canopy per census tract as a percentage of total land cover. These values are represented as percentages, e.g. <code>23.05%</code>; <code>14.25%</code>, etc.</li>
+<li>We are going to use the <code>EJ_CRIT_DE</code> field of the <a href="https://hgl.harvard.edu/catalog/harvard-rtlmod1-envjusticepop-boston-2020">Environmental Justice Populations by Census Block Group, Boston, Massachusetts, 2020</a> to map <code>nominal</code> data. <code>EJ_CRIT_DE</code> refers to the EJ criteria description. Each census block group is assigned a category, e.g. <code>English isolation</code>; <code>Minority and income</code>, etc.</li>
+<li>We are going to use the <code>Percent_Tr</code> field of the <a href="https://hgl.harvard.edu/catalog/harvard-rtlmod1-treecanopy-boston-2019">Tree Canopy Percentage by Census Tract (CT), Boston, Massachusetts, 2019</a> to map <code>interval</code> data. <code>Percent_Tr</code> refers to the tree canopy per census tract as a percentage of total land cover. These values are represented as percentages, e.g. <code>23.05%</code>; <code>14.25%</code>, etc.</li>
 </ul>
 <h2 id="requirements">Requirements</h2>
 <p>The instructor will demo next steps in QGIS. Participants are not required to follow along. If you wish to follow-along in class or later at home, you will need:</p>
 <ul>
-<li>QGIS [<a href="https://mapping.share.library.harvard.edu/tutorials/software-access/qgis/" target="_blank">Download instructions</a>
-]</li>
-<li>The sample data is available from the <a href="https://hgl.harvard.edu/?_gl=1*1mov24z*_ga*OTM1NDk4NTczLjE3NTc5MzQyNTk.*_ga_3CXC97RWEK*czE3NjUyODgyMTMkbzgzJGcxJHQxNzY1Mjg5NDc4JGo2MCRsMCRoMA.." target="_blank">Harvard Geospatial Library (HGL)</a>
-, and also pre-packaged for the workshop. [<a href="https://drive.google.com/file/d/1v1eot3JZy_NX9bd9t9hP8CsuC0I2wKTX/view?usp=sharing" target="_blank">Workshop data</a>
-]</li>
+<li>QGIS [<a href="https://mapping.share.library.harvard.edu/tutorials/software-access/qgis/">Download instructions</a>]</li>
+<li>The sample data is available from the <a href="https://hgl.harvard.edu/?_gl=1*1mov24z*_ga*OTM1NDk4NTczLjE3NTc5MzQyNTk.*_ga_3CXC97RWEK*czE3NjUyODgyMTMkbzgzJGcxJHQxNzY1Mjg5NDc4JGo2MCRsMCRoMA..">Harvard Geospatial Library (HGL)</a>, and also pre-packaged for the workshop. [<a href="https://drive.google.com/file/d/1v1eot3JZy_NX9bd9t9hP8CsuC0I2wKTX/view?usp=sharing">Workshop data</a>]</li>
 </ul>
 <h2 id="nominal-data">Nominal Data</h2>
 <ol>
@@ -298,8 +364,7 @@ Nominal data refers to categories without any inherent numerical relationship. I
 <h2 id="interval-data">Interval Data</h2>
 <ol>
 <li>
-<p>Add the <a href="https://hgl.harvard.edu/catalog/harvard-rtlmod1-treecanopy-boston-2019" target="_blank">Tree Canopy Percentage by Census Tract (CT), Boston, Massachusetts, 2019</a>
- dataset to the same QGIS project by either: (1) dragging the file with the <code>.shp</code> file extension directly into the QGIS window from your file browser, <em>or</em> (2) using the menu navigation <code>Layer</code> → <code>Add Layer</code> → <code>Add Vector Layer</code> and using the <code>Data Source Manager</code> to select the file with the <code>.shp</code> file extension, then selecting <code>Add</code> and <code>Close</code>.</p>
+<p>Add the <a href="https://hgl.harvard.edu/catalog/harvard-rtlmod1-treecanopy-boston-2019">Tree Canopy Percentage by Census Tract (CT), Boston, Massachusetts, 2019</a> dataset to the same QGIS project by either: (1) dragging the file with the <code>.shp</code> file extension directly into the QGIS window from your file browser, <em>or</em> (2) using the menu navigation <code>Layer</code> → <code>Add Layer</code> → <code>Add Vector Layer</code> and using the <code>Data Source Manager</code> to select the file with the <code>.shp</code> file extension, then selecting <code>Add</code> and <code>Close</code>.</p>
 </li>
 <li>
 <p>Open the tree canopy layer properties by either double-clicking the layer in the <code>Layers</code> pane, or right-clicking the layer and selecting <code>Properties</code>.</p>
@@ -324,15 +389,13 @@ Nominal data refers to categories without any inherent numerical relationship. I
 <h3 id="graduated-symbology-tips">Graduated symbology tips</h3>
 <p>Here are some considerations for working with graduated symbology:</p>
 <ul>
-<li>You will need to choose a classification <code>Modes</code> e.g. <code>Equal Count</code>, <code>Equal Interval</code>. To support your understanding, you can refer to mode <a href="https://pro.arcgis.com/en/pro-app/latest/help/mapping/layer-properties/data-classification-methods.htm" target="_blank">documentation</a>
-.</li>
+<li>You will need to choose a classification <code>Modes</code> e.g. <code>Equal Count</code>, <code>Equal Interval</code>. To support your understanding, you can refer to mode <a href="https://pro.arcgis.com/en/pro-app/latest/help/mapping/layer-properties/data-classification-methods.htm">documentation</a>.</li>
 <li>It is typical when exploring your data to try out various classification <code>Modes</code>.</li>
 <li>The <code>Histogram</code> tab is a helpful tool for understanding the distribution of your data values. This tool is located next to the <code>Classes</code> tab. Click <code>Load Values</code> to display the diagram.
 <img src="histogram.png" alt="QGIS layer histogram"></li>
 <li>Once you have a better sense of your dataset using these exploratory tools, you will be better positioned to identify which classification <code>Mode</code> would be suitable for any published or rhetorical maps you make.</li>
 <li>The choices you make for classification <code>Mode</code> will impact how readers interpret your data.</li>
-<li>You will also want to consider color. You can use <a href="https://colorbrewer2.org/#type=sequential&amp;scheme=BuGn&amp;n=3" target="_blank">Color Brewer</a>
- to select a color scheme. Let&rsquo;s use green since we are representing tree canopy.</li>
+<li>You will also want to consider color. You can use <a href="https://colorbrewer2.org/#type=sequential&amp;scheme=BuGn&amp;n=3">Color Brewer</a> to select a color scheme. Let&rsquo;s use green since we are representing tree canopy.</li>
 </ul></blockquote>
 <ol start="8">
 <li>Select <code>Apply</code> and then <code>OK</code>.</li>
@@ -340,17 +403,65 @@ Nominal data refers to categories without any inherent numerical relationship. I
 <blockquote>
 <p>💡 Discussion: Toggle the layers in the <code>Layers</code> pane using the checkboxes to compare the two maps. What do you observe?</p></blockquote>
 
-            </div>
-        </div>
+      </div>
+
+      
+      <nav class="workshop-nav-buttons" aria-label="Workshop navigation">
+        
+        <a href="/workshops/environment-public-health/2-opening-understanding-files/" class="nav-btn nav-btn--prev">
+          <span class="nav-btn__label">← Previous</span>
+          <span class="nav-btn__title">Opening and understanding GIS files</span>
+        </a>
+        
+
+        
+        <a href="/workshops/environment-public-health/" class="nav-btn nav-btn--next">
+          <span class="nav-btn__label">Complete ✓</span>
+          <span class="nav-btn__title">Back to Overview</span>
+        </a>
+        
+      </nav>
+
     </div>
-</main>
+  </div>
+</article>
 
 
-    <div class="site-wide-banner" style="background-color: black; font-size: 22px; color: white; padding: 10px; text-align: center; font-weight: bold; border-bottom: 2px solid #f5c6cb;">
-    This site is a project of the Harvard Map Collection. Visit <a style ="color:#81b3d7; font-family: 'truenoregular';"href="https://library.harvard.edu/libraries/harvard-map-collection" target = "_blank">our website</a> to learn more. 
-</div>
+    </main>
+
+    <footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">GIS, maps &#43; data @ Harvard Library</div>
+        <p class="footer-description">
+          Mapping news and support from the Harvard Map Collection
+        </p>
+      </div>
+
+      <div class="footer-links">
+        
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>&copy; 2026 GIS, maps &#43; data @ Harvard Library. All rights reserved.</span>
+      <div class="footer-social">
+        
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+
+  
+  <div class="zoom-overlay" id="zoom-overlay">
+    <img src="" alt="" id="zoom-image">
+  </div>
+
+  
+  <script src="/js/main.js"></script>
 </body>
-
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-55D9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
 </html>

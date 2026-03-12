@@ -1,0 +1,19 @@
+{{/*
+  Two-column image layout.
+  Usage: {{< image-columns src1="img1.png" src2="img2.png" alt1="..." alt2="..." caption="..." >}}
+*/}}
+{{ $src1 := .Get "src1" }}
+{{ $src2 := .Get "src2" }}
+{{ $alt1 := .Get "alt1" | default "" }}
+{{ $alt2 := .Get "alt2" | default "" }}
+{{ $caption := .Get "caption" }}
+
+<figure>
+  <div class="image-columns">
+    <img src="{{ $src1 | relURL }}" alt="{{ $alt1 }}" class="zoomable" loading="lazy">
+    <img src="{{ $src2 | relURL }}" alt="{{ $alt2 }}" class="zoomable" loading="lazy">
+  </div>
+  {{ with $caption }}
+  <figcaption>{{ . }}</figcaption>
+  {{ end }}
+</figure>

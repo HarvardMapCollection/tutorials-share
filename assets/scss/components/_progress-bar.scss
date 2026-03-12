@@ -1,0 +1,32 @@
+// ============================================
+// Progress Bar (Top of Page)
+// ============================================
+
+.progress-bar-container {
+  position: fixed;
+  top: var(--header-height);
+  left: 0;
+  right: 0;
+  height: var(--progress-height);
+  background: var(--color-border);
+  z-index: 99;
+  transition: background-color var(--transition-base);
+}
+
+.progress-bar {
+  height: 100%;
+  background: var(--progress-color);
+  width: 0%;
+  transition: width var(--transition-fast);
+  border-radius: 0 var(--radius-full) var(--radius-full) 0;
+
+  // Subtle glow effect
+  box-shadow: 0 0 8px rgba($teal, 0.4);
+}
+
+// Reading progress (for blog posts — JS-driven scroll progress)
+.reading-progress {
+  .progress-bar {
+    background: linear-gradient(90deg, var(--color-accent), var(--color-secondary));
+  }
+}

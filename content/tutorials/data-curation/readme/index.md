@@ -2,7 +2,7 @@
 title: Guide to Creating README-Style Metadata for GIS Data
 date: 2023-01-18
 tags: ["data-curation"]
-image: default-gradient.png
+
 
 ---
 

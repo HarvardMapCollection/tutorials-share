@@ -1,0 +1,71 @@
+{{ define "main" }}
+
+<section class="hero">
+  <div class="container--content">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="hero__title">{{ .Title }}</h1>
+    {{ with .Description }}
+    <p class="hero__subtitle">{{ . }}</p>
+    {{ end }}
+  </div>
+</section>
+
+<section class="section--tight">
+  <div class="container--wide">
+
+    {{ $sections := slice "software-access" "arcgis-qgis" "data-curation" }}
+
+    {{ range $sections }}
+      {{ $section := $.Site.GetPage (printf "tutorials/%s" .) }}
+      {{ with $section }}
+      <div style="margin-bottom: var(--space-2xl);">
+        <div style="display: flex; align-items: baseline; justify-content: space-between; margin-bottom: var(--space-md);">
+          <h2 class="h3" style="margin: 0;">
+            <a href="{{ .RelPermalink }}" style="color: var(--color-text);">{{ .Title }}</a>
+          </h2>
+        </div>
+
+        <div class="featured-grid" style="align-items: start;">
+          {{ range .Pages }}
+          {{ $page := . }}
+          {{ $hasImage := false }}
+          {{ with .Params.image }}
+            {{ $img := $page.Resources.GetMatch . }}
+            {{ if $img }}
+              {{ $hasImage = true }}
+            {{ end }}
+          {{ end }}
+          <article class="card{{ if not $hasImage }} card--no-image{{ end }}">
+            {{ if $hasImage }}
+              {{ with .Params.image }}
+                {{ $img := $page.Resources.GetMatch . }}
+                {{ if $img }}
+                <div class="card__image">
+                  <img src="{{ $img.RelPermalink }}" alt="" loading="lazy">
+                </div>
+                {{ end }}
+              {{ end }}
+            {{ end }}
+            <div class="card__body">
+              <h3 class="card__title">
+                <a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
+              </h3>
+              {{ with $page.Description }}
+              <p class="card__excerpt">{{ . }}</p>
+              {{ else }}
+              {{ with $page.Summary }}
+              <p class="card__excerpt">{{ . | plainify | truncate 150 }}</p>
+              {{ end }}
+              {{ end }}
+            </div>
+          </article>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    {{ end }}
+
+  </div>
+</section>
+
+{{ end }}

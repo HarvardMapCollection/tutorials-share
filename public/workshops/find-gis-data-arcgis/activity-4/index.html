@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en-us" data-theme="light">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>4. OpenStreetMap | GIS, maps &#43; data @ Harvard Library</title>
+  <meta name="description" content="Learn how to access crowdsourced GIS data for situations where data is difficult to find.">
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+  
+  
+  <link rel="stylesheet" href="/scss/main.8f74ab48a200fc13a38aeefdc5e455ec710c0e8f3b47475dafcf80474beed59c.css">
+
+
+  <meta name="generator" content="Hugo 0.150.0">
+  
+
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <div class="site-wrapper">
+    <header class="site-header" id="site-header">
+  <div class="header-inner">
+
+    <a href="/" class="site-brand">
+      <svg class="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M2 12h20"/>
+        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+      </svg>
+      GIS, maps &#43; data @ Harvard Library
+      <span class="brand-tag">GIS</span>
+    </a>
+
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      
+        
+        <a class="nav-link"
+           href="/">
+          Home
+        </a>
+        
+      
+        
+        <div class="nav-dropdown">
+          <a class="nav-link nav-link--has-children"
+             href="/tutorials/">
+            Tutorials
+            <svg class="nav-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="nav-dropdown__menu">
+            
+            <a class="nav-dropdown__item" href="/tutorials/software-access/">Software Access</a>
+            
+            <a class="nav-dropdown__item" href="/tutorials/arcgis-qgis/">ArcGIS &#43; QGIS</a>
+            
+            <a class="nav-dropdown__item" href="/tutorials/data-curation/">Data Curation</a>
+            
+          </div>
+        </div>
+        
+      
+        
+        <a class="nav-link"
+           href="/workshops/">
+          Workshops
+        </a>
+        
+      
+        
+        <a class="nav-link"
+           href="/posts/">
+          News &amp; Projects
+        </a>
+        
+      
+    </nav>
+
+    <div class="header-actions">
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+
+  </div>
+</header>
+
+
+    
+    
+      
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+
+
+
+  
+
+
+<div class="progress-bar-container" role="progressbar"
+     aria-valuenow="5" aria-valuemin="0" aria-valuemax="5"
+     aria-label="Workshop progress: step 5 of 5">
+  <div class="progress-bar" style="width: 100%"></div>
+</div>
+
+    
+
+    <main id="main-content" class="site-main">
+      
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+      
+    
+    
+  
+
+
+<article>
+  
+  <div class="container--wide" style="padding-top: var(--space-lg);">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+  <span class="breadcrumb-item">
+    <a href="/">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+        <polyline points="9 22 9 12 15 12 15 22"/>
+      </svg>
+      Home
+    </a>
+  </span>
+
+  
+    
+  
+    
+    <span class="breadcrumb-item">
+      <a href="/workshops/">Harvard Library GIS Workshops </a>
+    </span>
+    
+  
+    
+    <span class="breadcrumb-item">
+      <a href="/workshops/find-gis-data-arcgis/">Finding GIS Data (ArcGIS Pro)</a>
+    </span>
+    
+  
+
+  <span class="breadcrumb-item">4. OpenStreetMap</span>
+</nav>
+
+  </div>
+
+  
+  <div class="layout-sidebar">
+
+    
+    
+
+
+
+
+<aside class="sidebar" aria-label="Workshop steps">
+  <div class="sidebar__title">Finding GIS Data (ArcGIS Pro)</div>
+
+  
+  
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      
+    
+  
+
+  
+    <div class="step-indicator" style="margin-bottom: var(--space-md);">
+      Step <span class="step-current">5</span>
+      <span class="step-total">of 5</span>
+    </div>
+  
+
+  <ul class="sidebar__nav">
+    
+    <li class="sidebar__item">
+      <a class="sidebar__link"
+         href="/workshops/find-gis-data-arcgis/">
+        <span class="sidebar__step-num"><span>○</span></span>
+        Overview
+      </a>
+    </li>
+
+    
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link is-completed"
+           href="/workshops/find-gis-data-arcgis/welcome/">
+          <span class="sidebar__step-num"><span>1</span></span>
+          Welcome
+        </a>
+      </li>
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link is-completed"
+           href="/workshops/find-gis-data-arcgis/activity-1/">
+          <span class="sidebar__step-num"><span>2</span></span>
+          1. Portals
+        </a>
+      </li>
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link is-completed"
+           href="/workshops/find-gis-data-arcgis/activity-2/">
+          <span class="sidebar__step-num"><span>3</span></span>
+          2. Coordinates
+        </a>
+      </li>
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link is-completed"
+           href="/workshops/find-gis-data-arcgis/activity-3/">
+          <span class="sidebar__step-num"><span>4</span></span>
+          3. Georeferencing
+        </a>
+      </li>
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link is-active"
+           href="/workshops/find-gis-data-arcgis/activity-4/">
+          <span class="sidebar__step-num"><span>5</span></span>
+          4. OpenStreetMap
+        </a>
+      </li>
+    
+  </ul>
+</aside>
+
+
+    
+    <div class="content-main">
+      
+      <header style="margin-bottom: var(--space-xl);">
+        
+        <div class="step-indicator" style="margin-bottom: var(--space-md);">
+          Activity <span class="step-current">5</span>
+          <span class="step-total">of 5</span>
+        </div>
+        
+
+        <h1 style="margin-bottom: var(--space-sm);">4. OpenStreetMap</h1>
+
+        
+        <p class="lead">Learn how to access crowdsourced GIS data for situations where data is difficult to find.</p>
+        
+
+        
+        <span class="meta">
+          <svg style="display:inline;width:0.875rem;height:0.875rem;vertical-align:-2px;margin-right:4px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          3 min read
+        </span>
+        
+      </header>
+
+      
+      <div class="content">
+        <ul>
+<li>Understand what OpenStreetMap (OSM) is, and how it can be helpful for finding data</li>
+</ul>
+<h2 id="in-class-activity">In class activity</h2>
+<blockquote>
+<ol>
+<li>Visit <a href="https://www.openstreetmap.org/">OpenStreetMap.org</a>, which we can think of as the Wikipedia of GIS. It is free, crowd-contributed geospatial data.</li>
+</ol></blockquote>
+<blockquote>
+<ol start="2">
+<li>Navigate to anywhere in the world you are interested in.</li>
+</ol></blockquote>
+<blockquote>
+<ol start="3">
+<li>Zoom super close in so that you can see individual features, such as buildings, roads, or bike lanes.</li>
+</ol></blockquote>
+<blockquote>
+<ol start="4">
+<li>Right-click a feature and select <code>Query features</code>.</li>
+</ol></blockquote>
+<blockquote>
+<ol start="5">
+<li>Select one of the features, whether it&rsquo;s a <code>Building</code>, <code>Residential Road</code>, <code>Footpath</code>, or another kind of feature.</li>
+</ol></blockquote>
+<blockquote>
+<ol start="6">
+<li>Inspect the way that the attributes about this kind of feature are encoded. For instance, notice how the Harvard Film Archive in the Carpenter Center is tagged as <code>amentiy</code> = <code>arts_centre</code>: <br><br>
+<img src="../media/arts_centre.png" alt="Carpenter center shown in HMC "></li>
+</ol></blockquote>
+<blockquote>
+<ol start="6">
+<li>Try the same exercise for another type of environment. For example, if you picked a city initially, inspect features typical to a desert, or somewhere with lots of bodies of water.</li>
+</ol></blockquote>
+<blockquote>
+<ol start="7">
+<li>Later we will explore how to download layers of feature types, for instance, all of the places tagged as <code>arts_centre</code> for a certain place. For now, look through the OpenStreetMap wiki page of <a href="https://wiki.openstreetmap.org/wiki/Map_features">Map Features</a> to get a sense of all the different kinds of feature layers are available to extract.</li>
+</ol></blockquote>
+<hr>
+<h2 id="demo-and-explore-more">Demo and explore more</h2>
+<h3 id="sample-data">Sample data</h3>
+<p>You can download and explore sample datasets related to this activity from the workshop data homepage, hosted on the Open Science Framework (OSF.io)</p>
+<blockquote>
+<ol>
+<li>Visit the <a href="https://osf.io/exnyg">workshop data homepage</a>.</li>
+</ol></blockquote>
+<blockquote>
+<ol start="2">
+<li>Click the three vertical dots icon and select <code>Download</code>.
+<img src="../media/download.png" alt="OSF data download page"></li>
+</ol></blockquote>
+<blockquote>
+<ol start="3">
+<li>The folder that downloads to your computer contains sample data from all the workshop activities. It is a zipped or compressed file. In order to use it, you will have to <code>double-click</code> it on Mac or <code>right-click</code> → <code>Extract</code> or <code>Uncompress</code> on a PC.</li>
+</ol></blockquote>
+<div class="alert-success">
+<p>4. The sample data for this activity, <strong>Activity 4</strong> is in the folder <code>activity4_crowdsourced</code>. In this folder you will find the following files:
+</p>
+<ul>
+<li><code>places_of_worship_polygons_ma.geojson</code></li>
+<li><code>places_of_worship_points_ma.geojson</code></li>
+</ul>
+</div>
+<h3 id="follow-along-steps">Follow-along steps</h3>
+<ol>
+<li>We are going to use the detailed steps outlined in the <strong>How To Export Data from Overpass-turbo.edu</strong> section of the <a href="https://mapping.share.library.harvard.edu/tutorials/data-curation/openstreetmap/">Accessing OSM data guide</a>.</li>
+<li>Once we are on <a href="https://overpass-turbo.eu">overpass-turbo.eu</a> and have opened the <code>Wizard</code> to build our query:</li>
+</ol>
+<ul>
+<li>Type in <code>amenity=place_of_worship in Massachusetts</code> and select <code>Run and Build Query</code>.</li>
+</ul>
+<blockquote>
+<p>If you get an error, change the <code>timeout</code> variable in the query builder text box to 900 seconds.</p></blockquote>
+<ol start="3">
+<li>You may need to change the extent of the map to the area of interest (e.g. Massachusetts) to have the results show up.</li>
+<li>Once data is displayed, you can select <code>Export</code> → <code>Data</code> → <code>GeoJSON</code>.</li>
+<li>To use this dataset in ArcGIS Pro, follow the steps in <a href="https://mapping.share.library.harvard.edu/tutorials/arcgis-hub/import-geojson/">How to Import GeoJSON Into ArcGIS Pro</a>.</li>
+<li>To look at the variables, right-click the layer in the layer list and select <code>Attribute Table</code>. Notice which columns are and aren&rsquo;t populated.</li>
+<li>We are going to symbolize based on the <code>religion</code> field. Right-click the layer in the layer list and select <code>Symbology</code>.</li>
+<li>Change <code>Primary symbology</code> from <code>Single Symbol</code> to <code>Unique values</code> and select <code>religion</code> as the field to symbolize.</li>
+</ol>
+
+      </div>
+
+      
+      <nav class="workshop-nav-buttons" aria-label="Workshop navigation">
+        
+        <a href="/workshops/find-gis-data-arcgis/activity-3/" class="nav-btn nav-btn--prev">
+          <span class="nav-btn__label">← Previous</span>
+          <span class="nav-btn__title">3. Georeferencing</span>
+        </a>
+        
+
+        
+        <a href="/workshops/find-gis-data-arcgis/" class="nav-btn nav-btn--next">
+          <span class="nav-btn__label">Complete ✓</span>
+          <span class="nav-btn__title">Back to Overview</span>
+        </a>
+        
+      </nav>
+
+    </div>
+  </div>
+</article>
+
+
+    </main>
+
+    <footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">GIS, maps &#43; data @ Harvard Library</div>
+        <p class="footer-description">
+          Mapping news and support from the Harvard Map Collection
+        </p>
+      </div>
+
+      <div class="footer-links">
+        
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>&copy; 2026 GIS, maps &#43; data @ Harvard Library. All rights reserved.</span>
+      <div class="footer-social">
+        
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+
+  
+  <div class="zoom-overlay" id="zoom-overlay">
+    <img src="" alt="" id="zoom-image">
+  </div>
+
+  
+  <script src="/js/main.js"></script>
+</body>
+</html>

@@ -1,257 +1,321 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us" data-theme="light">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Opening and understanding GIS files | GIS, maps &#43; data @ Harvard Library</title>
+  <meta name="description" content="Mapping news and support from the Harvard Map Collection">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>
-    
-    Opening and Understanding GIS Files | 
-    
-    GIS, maps &#43; data @ Harvard Library
-</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<link rel="canonical" href="http://localhost:1313/workshops/environment-public-health/2-opening-understanding-files/" />
-<link rel="icon" type="image/png" href="http://localhost:1313/image/favicon.ico">
-
-
-<meta name="description" content="
-    In this activity, we will use the Environmental Justice (EJ) Populations by Census Block Group dataset for the City of Boston to understand how geospatial data is structured.
-The EJ Populations dataset serves as a planning and analytical tool to locate neighborhoods that may face disproportionate environmental burdens or have limited access to environmental benefits due to socioeconomic factors.
-In-class activity
-
-Visit the EJ population dataset in the Harvard Geospatial Library (HGL): Environmental Justice Populations by Census Block Group, Boston, Massachusetts, 2020
-.
+  
+  
+  <link rel="stylesheet" href="/scss/main.8f74ab48a200fc13a38aeefdc5e455ec710c0e8f3b47475dafcf80474beed59c.css">
 
 
-💡 Discussion: Where does this dataset come from?
-    "
-/>
-<meta property="og:description" content="
-    In this activity, we will use the Environmental Justice (EJ) Populations by Census Block Group dataset for the City of Boston to understand how geospatial data is structured.
-The EJ Populations dataset serves as a planning and analytical tool to locate neighborhoods that may face disproportionate environmental burdens or have limited access to environmental benefits due to socioeconomic factors.
-In-class activity
-
-Visit the EJ population dataset in the Harvard Geospatial Library (HGL): Environmental Justice Populations by Census Block Group, Boston, Massachusetts, 2020
-.
-
-
-💡 Discussion: Where does this dataset come from?
-    " 
-/>
-
-
-<meta property="og:image" content="http://localhost:1313/workshops/environment-public-health/2-opening-understanding-files/select_polygon.png" />
-
-
-
-
-
-
-<meta property="og:title" content="Opening and understanding GIS files" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/workshops/environment-public-health/2-opening-understanding-files/" /><meta property="article:section" content="workshops" />
-<meta property="article:published_time" content="2025-12-07T00:00:00+00:00" />
-<meta property="article:modified_time" content="2025-12-07T00:00:00+00:00" />
-
-
-
-
-
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="http://localhost:1313/workshops/environment-public-health/2-opening-understanding-files/cover.png">
-  <meta name="twitter:title" content="Opening and understanding GIS files">
-  <meta name="twitter:description" content="In this activity, we will use the Environmental Justice (EJ) Populations by Census Block Group dataset for the City of Boston to understand how geospatial data is structured.
-The EJ Populations dataset serves as a planning and analytical tool to locate neighborhoods that may face disproportionate environmental burdens or have limited access to environmental benefits due to socioeconomic factors.
-In-class activity Visit the EJ population dataset in the Harvard Geospatial Library (HGL): Environmental Justice Populations by Census Block Group, Boston, Massachusetts, 2020 . 💡 Discussion: Where does this dataset come from?">
-
-
-  <meta itemprop="name" content="Opening and understanding GIS files">
-  <meta itemprop="description" content="In this activity, we will use the Environmental Justice (EJ) Populations by Census Block Group dataset for the City of Boston to understand how geospatial data is structured.
-The EJ Populations dataset serves as a planning and analytical tool to locate neighborhoods that may face disproportionate environmental burdens or have limited access to environmental benefits due to socioeconomic factors.
-In-class activity Visit the EJ population dataset in the Harvard Geospatial Library (HGL): Environmental Justice Populations by Census Block Group, Boston, Massachusetts, 2020 . 💡 Discussion: Where does this dataset come from?">
-  <meta itemprop="datePublished" content="2025-12-07T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2025-12-07T00:00:00+00:00">
-  <meta itemprop="wordCount" content="414">
-  <meta itemprop="image" content="http://localhost:1313/workshops/environment-public-health/2-opening-understanding-files/cover.png">
-
-
-
-
-<link rel="stylesheet" href="/main.min.css">
-<link rel="stylesheet" href="https://use.typekit.net/yiq3yrx.css">
-<link rel="stylesheet" href="/typekit/stylesheet.css">
-
-
-
-
-
-<script src="/bundle.js"></script>
-
-
-
-
-
-
-
-<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-
-
-
-
-
-
-
-
-
-
+  <meta name="generator" content="Hugo 0.150.0">
+  
 
 </head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-<body><header id="header">
-  <div class="top-bar">
-    <div class="container-md">
+  <div class="site-wrapper">
+    <header class="site-header" id="site-header">
+  <div class="header-inner">
 
-      <div class="row align-items-center">
+    <a href="/" class="site-brand">
+      <svg class="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M2 12h20"/>
+        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+      </svg>
+      GIS, maps &#43; data @ Harvard Library
+      <span class="brand-tag">GIS</span>
+    </a>
 
-        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
-          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <i class="fas fa-bars"></i> Menu
-          </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      
+        
+        <a class="nav-link"
+           href="/">
+          Home
+        </a>
+        
+      
+        
+        <div class="nav-dropdown">
+          <a class="nav-link nav-link--has-children"
+             href="/tutorials/">
+            Tutorials
+            <svg class="nav-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="nav-dropdown__menu">
+            
+            <a class="nav-dropdown__item" href="/tutorials/software-access/">Software Access</a>
+            
+            <a class="nav-dropdown__item" href="/tutorials/arcgis-qgis/">ArcGIS &#43; QGIS</a>
+            
+            <a class="nav-dropdown__item" href="/tutorials/data-curation/">Data Curation</a>
+            
+          </div>
         </div>
-
-        <div class="col-12 col-sm-12">
-          <h2 class="title"><a href="/">GIS, maps &#43; data @ Harvard Library</a></h2>
-        </div>
-
-
-      </div>
-    </div>
-  </div>
-
-  <div class="container-md">
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mx-auto">
-
-
-
-          
-          
-          <li class="nav-item">
-            <a class="nav-link 
-              
-              " 
-              href="/">
-              Home
-            </a>
-          </li>
-          
-          
-          
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
-              Guides and Tutorials
-            </a>
-            <div class="dropdown-menu">
-              
-              
-                <a class="dropdown-item" href="/tags/software-access/">Software access</a>
-              
-              
-              
-                <a class="dropdown-item" href="/tags/qgis-hub/">ArcGIS &#43; QGIS Hub</a>
-              
-              
-              
-                <a class="dropdown-item" href="/tags/data-curation/">Data curation</a>
-              
-              
-            </div>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link 
-              
-              " 
-              href="/workshops/">
-              Workshops
-            </a>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link 
-              
-              " 
-              href="/tags/applied-projects/">
-              Applied projects
-            </a>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link 
-              
-              " 
-              href="/tags/news">
-              News
-            </a>
-          </li>
-          
-          
-        </ul>
-
-      </div>
+        
+      
+        
+        <a class="nav-link"
+           href="/workshops/">
+          Workshops
+        </a>
+        
+      
+        
+        <a class="nav-link"
+           href="/posts/">
+          News &amp; Projects
+        </a>
+        
+      
     </nav>
+
+    <div class="header-actions">
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+
   </div>
 </header>
 
-<main class="blog-content">
-    <div class="container-md">
-        <div class="row">
-            <div class="col-lg-8 offset-lg-2 px-lg-4">
-                
-                <div class="breadcrumb-container">
-                    <nav aria-label="breadcrumb" class="breadcrumb">
-                        <ol>
-                          
-                          ↵
-                            <li>
-                              <a href="/"> GIS, maps &#43; data @ Harvard Library</a>
-                            </li>
-                          
-                          ↵
-                            <li>
-                              <a href="/workshops/"> Harvard Library GIS Workshops </a>
-                            </li>
-                          
-                          ↵
-                            <li>
-                              <a href="/workshops/environment-public-health/"> Mapping health determinants - Intro to GIS data &#43; visualization</a>
-                            </li>
-                          
-                          <li style="margin-right: 0;" class="active">
-                            👋
-                            <a aria-current="page" href="/workshops/environment-public-health/2-opening-understanding-files/">Opening and understanding GIS files</a>
-                          </li>
-                        </ol>
-                      </nav>
-                      </div>
+
+    
+    
+      
 
 
-                <h1 class="title">Opening and Understanding GIS Files</h1>
 
-                <p>In this activity, we will use the Environmental Justice (EJ) Populations by Census Block Group dataset for the City of Boston to understand how geospatial data is structured.</p>
+
+
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+
+
+  
+
+
+<div class="progress-bar-container" role="progressbar"
+     aria-valuenow="3" aria-valuemin="0" aria-valuemax="4"
+     aria-label="Workshop progress: step 3 of 4">
+  <div class="progress-bar" style="width: 75%"></div>
+</div>
+
+    
+
+    <main id="main-content" class="site-main">
+      
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+    
+    
+      
+    
+    
+      
+    
+  
+
+  
+
+
+<article>
+  
+  <div class="container--wide" style="padding-top: var(--space-lg);">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+  <span class="breadcrumb-item">
+    <a href="/">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+        <polyline points="9 22 9 12 15 12 15 22"/>
+      </svg>
+      Home
+    </a>
+  </span>
+
+  
+    
+  
+    
+    <span class="breadcrumb-item">
+      <a href="/workshops/">Harvard Library GIS Workshops </a>
+    </span>
+    
+  
+    
+    <span class="breadcrumb-item">
+      <a href="/workshops/environment-public-health/">Mapping Health Determinants</a>
+    </span>
+    
+  
+
+  <span class="breadcrumb-item">Opening and understanding GIS files</span>
+</nav>
+
+  </div>
+
+  
+  <div class="layout-sidebar">
+
+    
+    
+
+
+
+
+<aside class="sidebar" aria-label="Workshop steps">
+  <div class="sidebar__title">Mapping Health Determinants</div>
+
+  
+  
+  
+  
+    
+  
+    
+  
+    
+      
+    
+  
+    
+  
+
+  
+    <div class="step-indicator" style="margin-bottom: var(--space-md);">
+      Step <span class="step-current">3</span>
+      <span class="step-total">of 4</span>
+    </div>
+  
+
+  <ul class="sidebar__nav">
+    
+    <li class="sidebar__item">
+      <a class="sidebar__link"
+         href="/workshops/environment-public-health/">
+        <span class="sidebar__step-num"><span>○</span></span>
+        Overview
+      </a>
+    </li>
+
+    
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link is-completed"
+           href="/workshops/environment-public-health/intro/">
+          <span class="sidebar__step-num"><span>1</span></span>
+          Introduction
+        </a>
+      </li>
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link is-completed"
+           href="/workshops/environment-public-health/1-searching-for-understanding-data/">
+          <span class="sidebar__step-num"><span>2</span></span>
+          Searching for and understanding GIS data
+        </a>
+      </li>
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link is-active"
+           href="/workshops/environment-public-health/2-opening-understanding-files/">
+          <span class="sidebar__step-num"><span>3</span></span>
+          Opening and understanding GIS files
+        </a>
+      </li>
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link"
+           href="/workshops/environment-public-health/3-visualizing-data/">
+          <span class="sidebar__step-num"><span>4</span></span>
+          Visualizing GIS data
+        </a>
+      </li>
+    
+  </ul>
+</aside>
+
+
+    
+    <div class="content-main">
+      
+      <header style="margin-bottom: var(--space-xl);">
+        
+        <div class="step-indicator" style="margin-bottom: var(--space-md);">
+          Activity <span class="step-current">3</span>
+          <span class="step-total">of 4</span>
+        </div>
+        
+
+        <h1 style="margin-bottom: var(--space-sm);">Opening and understanding GIS files</h1>
+
+        
+
+        
+        <span class="meta">
+          <svg style="display:inline;width:0.875rem;height:0.875rem;vertical-align:-2px;margin-right:4px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          2 min read
+        </span>
+        
+      </header>
+
+      
+      <div class="content">
+        <p>In this activity, we will use the Environmental Justice (EJ) Populations by Census Block Group dataset for the City of Boston to understand how geospatial data is structured.</p>
 <p>The EJ Populations dataset serves as a planning and analytical tool to locate neighborhoods that may face disproportionate environmental burdens or have limited access to environmental benefits due to socioeconomic factors.</p>
 <h2 id="in-class-activity">In-class activity</h2>
 <ol>
-<li>Visit the EJ population dataset in the Harvard Geospatial Library (HGL): <a href="https://hgl.harvard.edu/catalog/harvard-rtlmod1-envjusticepop-boston-2020" target="_blank">Environmental Justice Populations by Census Block Group, Boston, Massachusetts, 2020</a>
-.</li>
+<li>Visit the EJ population dataset in the Harvard Geospatial Library (HGL): <a href="https://hgl.harvard.edu/catalog/harvard-rtlmod1-envjusticepop-boston-2020">Environmental Justice Populations by Census Block Group, Boston, Massachusetts, 2020</a>.</li>
 </ol>
 <blockquote>
 <p>💡 Discussion: Where does this dataset come from?</p></blockquote>
@@ -268,12 +332,10 @@ In-class activity Visit the EJ population dataset in the Harvard Geospatial Libr
 <p>The instructor will demo next steps in QGIS. Participants are not required to follow along, but can use the tutorial below to do so in-class, or later at home.</p>
 <ol>
 <li>
-<p>Open QGIS. (<a href="https://mapping.share.library.harvard.edu/tutorials/software-access/qgis/" target="_blank">Download instructions</a>
-)</p>
+<p>Open QGIS. (<a href="https://mapping.share.library.harvard.edu/tutorials/software-access/qgis/">Download instructions</a>)</p>
 </li>
 <li>
-<p>Open a new <code>Empty Project</code>. <a href="https://mapping.share.library.harvard.edu/tutorials/qgis-hub/basemap/" target="_blank">Add a basemap</a>
-.</p>
+<p>Open a new <code>Empty Project</code>. <a href="https://mapping.share.library.harvard.edu/tutorials/qgis-hub/basemap/">Add a basemap</a>.</p>
 </li>
 <li>
 <p>Add the Environmental Justice Populations by Census Block dataset (downloaded to your computer) to the QGIS project by either: (1) dragging the file with the <code>.shp</code> file extension directly into the QGIS window from your file browser, <em>or</em> (2) using the menu navigation <code>Layer</code> → <code>Add Layer</code> → <code>Add Vector Layer</code> and using the <code>Data Source Manager</code> to select the file with the <code>.shp</code> file extension, then selecting <code>Add</code> and <code>Close</code>.</p>
@@ -296,8 +358,7 @@ In-class activity Visit the EJ population dataset in the Harvard Geospatial Libr
   <p>Tip: To read the column headers better, you can drag and adjust the column width.</p>
 </div>
 <ol start="8">
-<li>Let&rsquo;s use the metadata <a href="https://hgl.harvard.edu/catalog/harvard-rtlmod1-envjusticepop-boston-2020" target="_blank">from HGL</a>
- to understand the variables better. From the <code>Description</code>, click on the <code>source dataset link</code> from mass.gov.</li>
+<li>Let&rsquo;s use the metadata <a href="https://hgl.harvard.edu/catalog/harvard-rtlmod1-envjusticepop-boston-2020">from HGL</a> to understand the variables better. From the <code>Description</code>, click on the <code>source dataset link</code> from mass.gov.</li>
 </ol>
 <p><img src="source_link.png" alt="Dataset description"></p>
 <ol start="9">
@@ -306,17 +367,65 @@ In-class activity Visit the EJ population dataset in the Harvard Geospatial Libr
 <blockquote>
 <p>💡 Discussion: Compare the attribute descriptions in the metadata against the attribute data in the table. Select potential fields to map.</p></blockquote>
 
-            </div>
-        </div>
+      </div>
+
+      
+      <nav class="workshop-nav-buttons" aria-label="Workshop navigation">
+        
+        <a href="/workshops/environment-public-health/1-searching-for-understanding-data/" class="nav-btn nav-btn--prev">
+          <span class="nav-btn__label">← Previous</span>
+          <span class="nav-btn__title">Searching for and understanding GIS data</span>
+        </a>
+        
+
+        
+        <a href="/workshops/environment-public-health/3-visualizing-data/" class="nav-btn nav-btn--next">
+          <span class="nav-btn__label">Next →</span>
+          <span class="nav-btn__title">Visualizing GIS data</span>
+        </a>
+        
+      </nav>
+
     </div>
-</main>
+  </div>
+</article>
 
 
-    <div class="site-wide-banner" style="background-color: black; font-size: 22px; color: white; padding: 10px; text-align: center; font-weight: bold; border-bottom: 2px solid #f5c6cb;">
-    This site is a project of the Harvard Map Collection. Visit <a style ="color:#81b3d7; font-family: 'truenoregular';"href="https://library.harvard.edu/libraries/harvard-map-collection" target = "_blank">our website</a> to learn more. 
-</div>
+    </main>
+
+    <footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">GIS, maps &#43; data @ Harvard Library</div>
+        <p class="footer-description">
+          Mapping news and support from the Harvard Map Collection
+        </p>
+      </div>
+
+      <div class="footer-links">
+        
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>&copy; 2026 GIS, maps &#43; data @ Harvard Library. All rights reserved.</span>
+      <div class="footer-social">
+        
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+
+  
+  <div class="zoom-overlay" id="zoom-overlay">
+    <img src="" alt="" id="zoom-image">
+  </div>
+
+  
+  <script src="/js/main.js"></script>
 </body>
-
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-55D9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
 </html>

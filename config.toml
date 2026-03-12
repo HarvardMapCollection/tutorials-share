@@ -1,15 +1,13 @@
 baseURL = 'https://mapping.share.library.harvard.edu/'
 languageCode = 'en-us'
 title = 'GIS, maps + data @ Harvard Library'
-theme = 'BlogRa'
 
 [params]
     description     = "Mapping news and support from the Harvard Map Collection"
     github= "https://github.com/HarvardMapCollection/tutorials-share"
-    googleAnalytics = "G-XCNRPXZNVM" 
+    googleAnalytics = "G-XCNRPXZNVM"
     gtm_id = "GTM-55D9M4Z"
 
-# Configure the site menu here
 [menu]
     [[menu.main]]
         name = "Home"
@@ -17,50 +15,44 @@ theme = 'BlogRa'
         weight = 1
 
     [[menu.main]]
-        name = "Guides and Tutorials"
+        identifier = "tutorials"
+        name = "Tutorials"
         url = "/tutorials/"
         weight = 2
-            [[menu.main]]
-                parent = "Guides and Tutorials"
-                name = "Software access"
-                url = "/tags/software-access/"
-                weight = 1
-            [[menu.main]]
-                parent = "Guides and Tutorials"
-                name = "ArcGIS + QGIS Hub"
-                url = "/tags/QGIS-hub/"
-                weight = 2
-            [[menu.main]]
-                parent = "Guides and Tutorials"
-                name = "Data curation"
-                url = "/tags/data-curation/"
-                weight = 3
 
+    [[menu.main]]
+        parent = "tutorials"
+        name = "Software Access"
+        url = "/tutorials/software-access/"
+        weight = 1
 
+    [[menu.main]]
+        parent = "tutorials"
+        name = "ArcGIS + QGIS"
+        url = "/tutorials/arcgis-qgis/"
+        weight = 2
+
+    [[menu.main]]
+        parent = "tutorials"
+        name = "Data Curation"
+        url = "/tutorials/data-curation/"
+        weight = 3
 
     [[menu.main]]
         name = "Workshops"
         url = "/workshops/"
         weight = 3
 
-        [[menu.main]]
-        name = "Applied projects"
-        url = "/tags/applied-projects/"
-        weight=4
-
     [[menu.main]]
-        identifier = "blog"
-        name = "News"
-        url = "/tags/news"
-        weight = 5
-
+        name = "News & Projects"
+        url = "/posts/"
+        weight = 4
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.extensions]
       table = true
       footnote = true
-
 
 [markup.goldmark.parser.attribute]
     block = true
@@ -72,6 +64,3 @@ theme = 'BlogRa'
   [module.hugoVersion]
     extended = true
     min = "0.132.1"
-
-
-

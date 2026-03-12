@@ -1,0 +1,14 @@
+{{/*
+  Zoomable image with optional caption.
+  Usage: {{< zoomimg src="image.png" alt="Description" caption="Optional caption" >}}
+*/}}
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $caption := .Get "caption" }}
+
+<figure>
+  <img src="{{ $src | relURL }}" alt="{{ $alt }}" class="zoomable" loading="lazy">
+  {{ with $caption }}
+  <figcaption>{{ . }}</figcaption>
+  {{ end }}
+</figure>

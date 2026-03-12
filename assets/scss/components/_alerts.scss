@@ -1,0 +1,113 @@
+// ============================================
+// Alert Boxes
+// ============================================
+// Usage: {{< alert type="info" >}} Content {{< /alert >}}
+
+.alert {
+  position: relative;
+  padding: var(--space-md) var(--space-lg);
+  margin: var(--space-lg) 0;
+  border-radius: var(--radius-md);
+  border-left: 3px solid;
+  font-size: $type-sm;
+  line-height: $leading-relaxed;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  a {
+    font-weight: $weight-semibold;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+  }
+
+  code {
+    font-size: 0.8125em;
+  }
+}
+
+.alert__title {
+  font-family: $font-heading;
+  font-weight: $weight-bold;
+  font-size: $type-sm;
+  margin-bottom: var(--space-xs);
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+
+  svg {
+    width: 1rem;
+    height: 1rem;
+    flex-shrink: 0;
+  }
+}
+
+// Variants
+.alert--info {
+  background: rgba($blue, 0.06);
+  border-color: $blue;
+  color: var(--color-text);
+
+  .alert__title {
+    color: $blue;
+  }
+
+  a { color: $blue; }
+
+  [data-theme="dark"] & {
+    background: rgba($blue-light, 0.08);
+    border-color: $blue-light;
+    .alert__title { color: $blue-light; }
+    a { color: $blue-light; }
+  }
+}
+
+.alert--success {
+  background: rgba(#059669, 0.06);
+  border-color: #059669;
+  color: var(--color-text);
+
+  .alert__title { color: #059669; }
+  a { color: #059669; }
+
+  [data-theme="dark"] & {
+    background: rgba(#34D399, 0.08);
+    border-color: #34D399;
+    .alert__title { color: #34D399; }
+    a { color: #34D399; }
+  }
+}
+
+.alert--warning {
+  background: rgba(#D97706, 0.06);
+  border-color: #D97706;
+  color: var(--color-text);
+
+  .alert__title { color: #D97706; }
+  a { color: #D97706; }
+
+  [data-theme="dark"] & {
+    background: rgba(#FBBF24, 0.08);
+    border-color: #FBBF24;
+    .alert__title { color: #FBBF24; }
+    a { color: #FBBF24; }
+  }
+}
+
+.alert--danger {
+  background: rgba($crimson, 0.06);
+  border-color: $crimson;
+  color: var(--color-text);
+
+  .alert__title { color: $crimson; }
+  a { color: $crimson; }
+
+  [data-theme="dark"] & {
+    background: rgba($crimson-light, 0.08);
+    border-color: $crimson-light;
+    .alert__title { color: $crimson-light; }
+    a { color: $crimson-light; }
+  }
+}

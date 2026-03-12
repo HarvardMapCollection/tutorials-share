@@ -1,0 +1,102 @@
+// ============================================
+// Hero / Page Header
+// ============================================
+
+.hero {
+  padding: var(--space-3xl) 0;
+  text-align: center;
+
+  &--home {
+    padding: var(--space-4xl) 0 var(--space-3xl);
+    position: relative;
+    overflow: hidden;
+
+    // Subtle topographic/grid pattern
+    &::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image:
+        radial-gradient(circle at 25% 25%, rgba($teal, 0.04) 0%, transparent 50%),
+        radial-gradient(circle at 75% 75%, rgba($crimson, 0.03) 0%, transparent 50%);
+      pointer-events: none;
+    }
+  }
+}
+
+.hero__overline {
+  @extend .overline;
+  margin-bottom: var(--space-md);
+  display: inline-block;
+}
+
+.hero__title {
+  font-size: clamp(#{$type-3xl}, 6vw, #{$type-5xl});
+  font-weight: $weight-extrabold;
+  letter-spacing: -0.03em;
+  margin-bottom: var(--space-lg);
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero__subtitle {
+  font-size: clamp(#{$type-base}, 2.5vw, #{$type-lg});
+  color: var(--color-text-secondary);
+  max-width: 36rem;
+  margin: 0 auto var(--space-xl);
+  line-height: $leading-relaxed;
+}
+
+// Workshop hero — left-aligned with metadata
+.hero--workshop {
+  text-align: left;
+  padding: var(--space-2xl) 0;
+  border-bottom: 1px solid var(--color-border);
+
+  .hero__title {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: none;
+  }
+
+  .hero__subtitle {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 48rem;
+  }
+}
+
+.hero__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-lg);
+  margin-top: var(--space-lg);
+  font-size: $type-sm;
+  color: var(--color-text-secondary);
+
+  .meta-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+
+    svg {
+      width: 1rem;
+      height: 1rem;
+      color: var(--color-accent);
+      flex-shrink: 0;
+    }
+  }
+}
+
+// Featured grid on homepage
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  gap: var(--space-lg);
+  margin-top: var(--space-xl);
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+  }
+}

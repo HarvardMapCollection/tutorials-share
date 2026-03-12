@@ -1,248 +1,390 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us" data-theme="light">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>7. Browse maps and data | GIS, maps &#43; data @ Harvard Library</title>
+  <meta name="description" content="Mapping news and support from the Harvard Map Collection">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>
-    
-    7. Browse Maps and Data | 
-    
-    GIS, maps &#43; data @ Harvard Library
-</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<link rel="canonical" href="http://localhost:1313/workshops/archival/browse-maps-and-data/" />
-<link rel="icon" type="image/png" href="http://localhost:1313/image/favicon.ico">
-
-
-<meta name="description" content="
-    Polish cities data: interactive map view
-
-Hover over each Polish city to engage with statistics about the city from around the time of WWI. In addition to plebiscite vote results, there is also statistical demographic data from 1911 conveying the percentage of Polish-speaking school children in each city.
-Polish cities data: table view
-
-This is what the Polish cities GIS dataset looks like, displayed in tabular view in the GIS software. To interpret what the column headers mean, use the codebook pictured below. The codebook and dataset are both available for download as spreadsheets in .csv format. You can open these files in Excel, if you would like to use the data, but don&rsquo;t want to map it. Here is the data download link
-.
-    "
-/>
-<meta property="og:description" content="
-    Polish cities data: interactive map view
-
-Hover over each Polish city to engage with statistics about the city from around the time of WWI. In addition to plebiscite vote results, there is also statistical demographic data from 1911 conveying the percentage of Polish-speaking school children in each city.
-Polish cities data: table view
-
-This is what the Polish cities GIS dataset looks like, displayed in tabular view in the GIS software. To interpret what the column headers mean, use the codebook pictured below. The codebook and dataset are both available for download as spreadsheets in .csv format. You can open these files in Excel, if you would like to use the data, but don&rsquo;t want to map it. Here is the data download link
-.
-    " 
-/>
+  
+  
+  <link rel="stylesheet" href="/scss/main.8f74ab48a200fc13a38aeefdc5e455ec710c0e8f3b47475dafcf80474beed59c.css">
 
 
-<meta property="og:image" content="http://localhost:1313/workshops/archival/browse-maps-and-data/gradient.png" />
-
-
-
-
-
-
-<meta property="og:title" content="7. Browse maps and data" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/workshops/archival/browse-maps-and-data/" /><meta property="article:section" content="workshops" />
-<meta property="article:published_time" content="2022-12-31T00:00:00+00:00" />
-<meta property="article:modified_time" content="2022-12-31T00:00:00+00:00" />
-
-
-
-
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="7. Browse maps and data">
-  <meta name="twitter:description" content="Polish cities data: interactive map view Hover over each Polish city to engage with statistics about the city from around the time of WWI. In addition to plebiscite vote results, there is also statistical demographic data from 1911 conveying the percentage of Polish-speaking school children in each city. Polish cities data: table view This is what the Polish cities GIS dataset looks like, displayed in tabular view in the GIS software. To interpret what the column headers mean, use the codebook pictured below. The codebook and dataset are both available for download as spreadsheets in .csv format. You can open these files in Excel, if you would like to use the data, but don’t want to map it. Here is the data download link .">
-
-
-  <meta itemprop="name" content="7. Browse maps and data">
-  <meta itemprop="description" content="Polish cities data: interactive map view Hover over each Polish city to engage with statistics about the city from around the time of WWI. In addition to plebiscite vote results, there is also statistical demographic data from 1911 conveying the percentage of Polish-speaking school children in each city. Polish cities data: table view This is what the Polish cities GIS dataset looks like, displayed in tabular view in the GIS software. To interpret what the column headers mean, use the codebook pictured below. The codebook and dataset are both available for download as spreadsheets in .csv format. You can open these files in Excel, if you would like to use the data, but don’t want to map it. Here is the data download link .">
-  <meta itemprop="datePublished" content="2022-12-31T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2022-12-31T00:00:00+00:00">
-  <meta itemprop="wordCount" content="271">
-
-
-
-
-<link rel="stylesheet" href="/main.min.css">
-<link rel="stylesheet" href="https://use.typekit.net/yiq3yrx.css">
-<link rel="stylesheet" href="/typekit/stylesheet.css">
-
-
-
-
-
-<script src="/bundle.js"></script>
-
-
-
-
-
-
-
-<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-
-
-
-
-
-
-
-
-
-
+  <meta name="generator" content="Hugo 0.150.0">
+  
 
 </head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-<body><header id="header">
-  <div class="top-bar">
-    <div class="container-md">
+  <div class="site-wrapper">
+    <header class="site-header" id="site-header">
+  <div class="header-inner">
 
-      <div class="row align-items-center">
+    <a href="/" class="site-brand">
+      <svg class="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M2 12h20"/>
+        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+      </svg>
+      GIS, maps &#43; data @ Harvard Library
+      <span class="brand-tag">GIS</span>
+    </a>
 
-        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
-          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <i class="fas fa-bars"></i> Menu
-          </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      
+        
+        <a class="nav-link"
+           href="/">
+          Home
+        </a>
+        
+      
+        
+        <div class="nav-dropdown">
+          <a class="nav-link nav-link--has-children"
+             href="/tutorials/">
+            Tutorials
+            <svg class="nav-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="nav-dropdown__menu">
+            
+            <a class="nav-dropdown__item" href="/tutorials/software-access/">Software Access</a>
+            
+            <a class="nav-dropdown__item" href="/tutorials/arcgis-qgis/">ArcGIS &#43; QGIS</a>
+            
+            <a class="nav-dropdown__item" href="/tutorials/data-curation/">Data Curation</a>
+            
+          </div>
         </div>
-
-        <div class="col-12 col-sm-12">
-          <h2 class="title"><a href="/">GIS, maps &#43; data @ Harvard Library</a></h2>
-        </div>
-
-
-      </div>
-    </div>
-  </div>
-
-  <div class="container-md">
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mx-auto">
-
-
-
-          
-          
-          <li class="nav-item">
-            <a class="nav-link 
-              
-              " 
-              href="/">
-              Home
-            </a>
-          </li>
-          
-          
-          
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
-              Guides and Tutorials
-            </a>
-            <div class="dropdown-menu">
-              
-              
-                <a class="dropdown-item" href="/tags/software-access/">Software access</a>
-              
-              
-              
-                <a class="dropdown-item" href="/tags/qgis-hub/">ArcGIS &#43; QGIS Hub</a>
-              
-              
-              
-                <a class="dropdown-item" href="/tags/data-curation/">Data curation</a>
-              
-              
-            </div>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link 
-              
-              " 
-              href="/workshops/">
-              Workshops
-            </a>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link 
-              
-              " 
-              href="/tags/applied-projects/">
-              Applied projects
-            </a>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link 
-              
-              " 
-              href="/tags/news">
-              News
-            </a>
-          </li>
-          
-          
-        </ul>
-
-      </div>
+        
+      
+        
+        <a class="nav-link"
+           href="/workshops/">
+          Workshops
+        </a>
+        
+      
+        
+        <a class="nav-link"
+           href="/posts/">
+          News &amp; Projects
+        </a>
+        
+      
     </nav>
+
+    <div class="header-actions">
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+
   </div>
 </header>
 
-<main class="blog-content">
-    <div class="container-md">
-        <div class="row">
-            <div class="col-lg-8 offset-lg-2 px-lg-4">
-                
-                <div class="breadcrumb-container">
-                    <nav aria-label="breadcrumb" class="breadcrumb">
-                        <ol>
-                          
-                          ↵
-                            <li>
-                              <a href="/"> GIS, maps &#43; data @ Harvard Library</a>
-                            </li>
-                          
-                          ↵
-                            <li>
-                              <a href="/workshops/"> Harvard Library GIS Workshops </a>
-                            </li>
-                          
-                          ↵
-                            <li>
-                              <a href=""> Using GIS with archival sources</a>
-                            </li>
-                          
-                          <li style="margin-right: 0;" class="active">
-                            👋
-                            <a aria-current="page" href="/workshops/archival/browse-maps-and-data/">7. Browse maps and data</a>
-                          </li>
-                        </ol>
-                      </nav>
-                      </div>
+
+    
+    
+      
 
 
-                <h1 class="title">7. Browse Maps and Data</h1>
 
-                <h2 id="polish-cities-data-interactive-map-view">Polish cities data: interactive map view</h2>
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+
+
+  
+
+
+<div class="progress-bar-container" role="progressbar"
+     aria-valuenow="7" aria-valuemin="0" aria-valuemax="8"
+     aria-label="Workshop progress: step 7 of 8">
+  <div class="progress-bar" style="width: 87%"></div>
+</div>
+
+    
+
+    <main id="main-content" class="site-main">
+      
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+      
+    
+    
+      
+    
+  
+
+  
+
+
+<article>
+  
+  <div class="container--wide" style="padding-top: var(--space-lg);">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+  <span class="breadcrumb-item">
+    <a href="/">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+        <polyline points="9 22 9 12 15 12 15 22"/>
+      </svg>
+      Home
+    </a>
+  </span>
+
+  
+    
+  
+    
+    <span class="breadcrumb-item">
+      <a href="/workshops/">Harvard Library GIS Workshops </a>
+    </span>
+    
+  
+    
+    <span class="breadcrumb-item">
+      <a href="/workshops/archival/">Mapping Historical Data in QGIS</a>
+    </span>
+    
+  
+
+  <span class="breadcrumb-item">7. Browse maps and data</span>
+</nav>
+
+  </div>
+
+  
+  <div class="layout-sidebar">
+
+    
+    
+
+
+
+
+<aside class="sidebar" aria-label="Workshop steps">
+  <div class="sidebar__title">Mapping Historical Data in QGIS</div>
+
+  
+  
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      
+    
+  
+    
+  
+
+  
+    <div class="step-indicator" style="margin-bottom: var(--space-md);">
+      Step <span class="step-current">7</span>
+      <span class="step-total">of 8</span>
+    </div>
+  
+
+  <ul class="sidebar__nav">
+    
+    <li class="sidebar__item">
+      <a class="sidebar__link"
+         href="/workshops/archival/">
+        <span class="sidebar__step-num"><span>○</span></span>
+        Overview
+      </a>
+    </li>
+
+    
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link is-completed"
+           href="/workshops/archival/introduction/">
+          <span class="sidebar__step-num"><span>1</span></span>
+          1. Introduction to GIS
+        </a>
+      </li>
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link is-completed"
+           href="/workshops/archival/tutorial-requirements/">
+          <span class="sidebar__step-num"><span>2</span></span>
+          2. Tutorial requirements
+        </a>
+      </li>
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link is-completed"
+           href="/workshops/archival/data-overview/">
+          <span class="sidebar__step-num"><span>3</span></span>
+          3. Data overview
+        </a>
+      </li>
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link is-completed"
+           href="/workshops/archival/import-datasets/">
+          <span class="sidebar__step-num"><span>4</span></span>
+          4. Import datasets
+        </a>
+      </li>
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link is-completed"
+           href="/workshops/archival/visualize-statistics/">
+          <span class="sidebar__step-num"><span>5</span></span>
+          5. Visualize statistics
+        </a>
+      </li>
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link is-completed"
+           href="/workshops/archival/share-results/">
+          <span class="sidebar__step-num"><span>6</span></span>
+          6. Share results
+        </a>
+      </li>
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link is-active"
+           href="/workshops/archival/browse-maps-and-data/">
+          <span class="sidebar__step-num"><span>7</span></span>
+          7. Browse maps and data
+        </a>
+      </li>
+    
+      
+      
+      
+      <li class="sidebar__item">
+        <a class="sidebar__link"
+           href="/workshops/archival/in-person/">
+          <span class="sidebar__step-num"><span>8</span></span>
+          In-person materials
+        </a>
+      </li>
+    
+  </ul>
+</aside>
+
+
+    
+    <div class="content-main">
+      
+      <header style="margin-bottom: var(--space-xl);">
+        
+        <div class="step-indicator" style="margin-bottom: var(--space-md);">
+          Activity <span class="step-current">7</span>
+          <span class="step-total">of 8</span>
+        </div>
+        
+
+        <h1 style="margin-bottom: var(--space-sm);">7. Browse maps and data</h1>
+
+        
+
+        
+        <span class="meta">
+          <svg style="display:inline;width:0.875rem;height:0.875rem;vertical-align:-2px;margin-right:4px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          2 min read
+        </span>
+        
+      </header>
+
+      
+      <div class="content">
+        <h2 id="polish-cities-data-interactive-map-view">Polish cities data: interactive map view</h2>
 <iframe title="Interactive map of the Polish cities statistical data. Hovering over each city reveals information about the city." src="https://harvardmapcollection.github.io/classes/gened1140/fall-2022/assignment/demo/polish-cities/" width="100%" height="600px"></iframe>
 <figcaption class="append">Hover over each Polish city to engage with statistics about the city from around the time of WWI. In addition to plebiscite vote results, there is also statistical demographic data from 1911 conveying the percentage of Polish-speaking school children in each city.</figcaption>
 <h2 id="polish-cities-data-table-view">Polish cities data: table view</h2>
 <p><img src="media/table-poland.png" alt="A screenshot of the tabular data, each row showing a Polish city, and each column containing statistical information about that city">
-<em>This is what the Polish cities GIS dataset looks like, displayed in tabular view in the GIS software. To interpret what the column headers mean, use the codebook pictured below. The codebook and dataset are both available for download as spreadsheets in <code>.csv</code> format. You can open these files in Excel, if you would like to use the data, but don&rsquo;t want to map it. Here is the <a href="https://drive.google.com/file/d/1cKUtwbPIaWjvI_a_zD-Su_fItkA9u5UT/view?usp=sharing" target="_blank">data download link</a>
-.</em></p>
+<em>This is what the Polish cities GIS dataset looks like, displayed in tabular view in the GIS software. To interpret what the column headers mean, use the codebook pictured below. The codebook and dataset are both available for download as spreadsheets in <code>.csv</code> format. You can open these files in Excel, if you would like to use the data, but don&rsquo;t want to map it. Here is the <a href="https://drive.google.com/file/d/1cKUtwbPIaWjvI_a_zD-Su_fItkA9u5UT/view?usp=sharing">data download link</a>.</em></p>
 <h2 id="polish-cities-data-codebook">Polish cities data codebook</h2>
 <p><img src="media/2-13.png" alt="A screenshot of the data codebook, where one column the table is the dataset field header, and another column is the human readable description of what that column represents. For example, P0001 translates into Percent of Polish-speaking school children.">
 <em>The codebook, used to interpret the column headers in the Polish cities dataset.</em></p>
@@ -251,22 +393,68 @@ This is what the Polish cities GIS dataset looks like, displayed in tabular view
 <em>The source of this dataset is a table found in <code>The American Political Science Review</code>. So long as sources contain some indication of where phenomena occur, such as city names, or coordinates, we can transform the information into GIS data used for map making.</em></p>
 <h2 id="polish-cities-data-symbolized-and-compared-against-nationalities-map">Polish cities data symbolized and compared against nationalities map</h2>
 <p><img src="media/MAP.png" alt="The finished map, showing a base layer of demographic makeup in Poland in 1919, and pie chart symbols for each Polish city, depicting the comparative percentage of votes for Poland versus East Prussia, or Germany, in the Allenstein plebiscite vote. There is also a border around the Allenstein plebiscite region.">
-<em>In the GIS tutorial, we learn how to make this map, using the above datasets to compare the percent of plebiscite vote results for East Prussia (Germany) and Poland, respectively. The data is scaled by number of votes per city. This data is overlaid onto a <a href="https://id.lib.harvard.edu/alma/990152910700203941/catalog" target="_blank">map from 1919</a>
-, showing nationality demographics of Poland at the time &ndash; red for Polish, and blue for German.</em></p>
-<p><a href="/resources/new-to-gis/workshop/share-results/">← Previous lesson: 6. Share results</a>
-</p>
+<em>In the GIS tutorial, we learn how to make this map, using the above datasets to compare the percent of plebiscite vote results for East Prussia (Germany) and Poland, respectively. The data is scaled by number of votes per city. This data is overlaid onto a <a href="https://id.lib.harvard.edu/alma/990152910700203941/catalog">map from 1919</a>, showing nationality demographics of Poland at the time &ndash; red for Polish, and blue for German.</em></p>
+<p><a href="/resources/new-to-gis/workshop/share-results/">← Previous lesson: 6. Share results</a></p>
 
-            </div>
-        </div>
+      </div>
+
+      
+      <nav class="workshop-nav-buttons" aria-label="Workshop navigation">
+        
+        <a href="/workshops/archival/share-results/" class="nav-btn nav-btn--prev">
+          <span class="nav-btn__label">← Previous</span>
+          <span class="nav-btn__title">6. Share results</span>
+        </a>
+        
+
+        
+        <a href="/workshops/archival/in-person/" class="nav-btn nav-btn--next">
+          <span class="nav-btn__label">Next →</span>
+          <span class="nav-btn__title">In-person materials</span>
+        </a>
+        
+      </nav>
+
     </div>
-</main>
+  </div>
+</article>
 
 
-    <div class="site-wide-banner" style="background-color: black; font-size: 22px; color: white; padding: 10px; text-align: center; font-weight: bold; border-bottom: 2px solid #f5c6cb;">
-    This site is a project of the Harvard Map Collection. Visit <a style ="color:#81b3d7; font-family: 'truenoregular';"href="https://library.harvard.edu/libraries/harvard-map-collection" target = "_blank">our website</a> to learn more. 
-</div>
+    </main>
+
+    <footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">GIS, maps &#43; data @ Harvard Library</div>
+        <p class="footer-description">
+          Mapping news and support from the Harvard Map Collection
+        </p>
+      </div>
+
+      <div class="footer-links">
+        
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>&copy; 2026 GIS, maps &#43; data @ Harvard Library. All rights reserved.</span>
+      <div class="footer-social">
+        
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+
+  
+  <div class="zoom-overlay" id="zoom-overlay">
+    <img src="" alt="" id="zoom-image">
+  </div>
+
+  
+  <script src="/js/main.js"></script>
 </body>
-
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-55D9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
 </html>

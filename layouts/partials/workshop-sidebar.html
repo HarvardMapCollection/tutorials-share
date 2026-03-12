@@ -1,0 +1,53 @@
+{{/*
+  Workshop sidebar navigation.
+  Shows all activity steps with current step highlighted.
+  Used on workshop activity pages (children of a workshop _index.md).
+*/}}
+{{ $parent := .Parent }}
+{{ $pages := $parent.Pages }}
+{{ $currentURL := .RelPermalink }}
+
+<aside class="sidebar" aria-label="Workshop steps">
+  <div class="sidebar__title">{{ $parent.Title }}</div>
+
+  {{/* Step indicator */}}
+  {{ $total := len $pages }}
+  {{ $currentNum := 0 }}
+  {{ range $i, $p := $pages }}
+    {{ if eq $p.RelPermalink $currentURL }}
+      {{ $currentNum = add $i 1 }}
+    {{ end }}
+  {{ end }}
+
+  {{ if gt $currentNum 0 }}
+    <div class="step-indicator" style="margin-bottom: var(--space-md);">
+      Step <span class="step-current">{{ $currentNum }}</span>
+      <span class="step-total">of {{ $total }}</span>
+    </div>
+  {{ end }}
+
+  <ul class="sidebar__nav">
+    {{/* Overview link */}}
+    <li class="sidebar__item">
+      <a class="sidebar__link{{ if eq $currentURL $parent.RelPermalink }} is-active{{ end }}"
+         href="{{ $parent.RelPermalink }}">
+        <span class="sidebar__step-num"><span>○</span></span>
+        Overview
+      </a>
+    </li>
+
+    {{/* Activity steps */}}
+    {{ range $i, $page := $pages }}
+      {{ $stepNum := add $i 1 }}
+      {{ $isActive := eq $page.RelPermalink $currentURL }}
+      {{ $isCompleted := lt $stepNum $currentNum }}
+      <li class="sidebar__item">
+        <a class="sidebar__link{{ if $isActive }} is-active{{ end }}{{ if $isCompleted }} is-completed{{ end }}"
+           href="{{ $page.RelPermalink }}">
+          <span class="sidebar__step-num"><span>{{ $stepNum }}</span></span>
+          {{ $page.Title }}
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+</aside>

@@ -1,0 +1,35 @@
+// ============================================
+// Harvard GIS Site — Modern Design System
+// ============================================
+// A sleek, academic, techie design system
+// built on Bootstrap 5 with custom overrides.
+// ============================================
+
+// 1. Custom Variables (must come before Bootstrap)
+@import "utilities/variables";
+
+// 2. Bootstrap (core only — we override the rest)
+@import "bootstrap/bootstrap";
+
+// 3. Base & Reset
+@import "utilities/base";
+@import "utilities/typography";
+@import "utilities/dark-mode";
+
+// 4. Layout
+@import "layouts/header";
+@import "layouts/footer";
+@import "layouts/hero";
+@import "layouts/sidebar";
+
+// 5. Components
+@import "components/cards";
+@import "components/alerts";
+@import "components/buttons";
+@import "components/code-blocks";
+@import "components/images";
+@import "components/breadcrumbs";
+@import "components/workshop-nav";
+@import "components/progress-bar";
+@import "components/tags";
+@import "components/search";

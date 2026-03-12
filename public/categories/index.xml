@@ -6,6 +6,14 @@
     <description>Recent content in Categories on GIS, maps &#43; data @ Harvard Library</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 19 Jan 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Georeferencing</title>
+      <link>http://localhost:1313/categories/georeferencing/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/georeferencing/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

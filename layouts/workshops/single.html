@@ -1,0 +1,106 @@
+{{ define "main" }}
+{{/*
+  Workshop Activity Layout
+  Used for individual activity pages inside a workshop.
+  Structure: /workshops/workshop-name/activity-N/index.md
+
+  Features:
+  - Sticky sidebar with all steps
+  - Progress bar (via baseof.html)
+  - Step indicator
+  - Prev/Next navigation
+*/}}
+
+{{ $parent := .Parent }}
+{{ $pages := $parent.Pages }}
+{{ $total := len $pages }}
+{{ $currentNum := 0 }}
+{{ $prevPage := false }}
+{{ $nextPage := false }}
+
+{{ range $i, $p := $pages }}
+  {{ if eq $p.RelPermalink $.RelPermalink }}
+    {{ $currentNum = add $i 1 }}
+    {{ if gt $i 0 }}
+      {{ $prevPage = index $pages (sub $i 1) }}
+    {{ end }}
+    {{ if lt (add $i 1) $total }}
+      {{ $nextPage = index $pages (add $i 1) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<article>
+  {{/* Breadcrumbs — full width above the sidebar layout */}}
+  <div class="container--wide" style="padding-top: var(--space-lg);">
+    {{ partial "breadcrumbs.html" . }}
+  </div>
+
+  {{/* Sidebar + Content grid */}}
+  <div class="layout-sidebar">
+
+    {{/* Sidebar */}}
+    {{ partial "workshop-sidebar.html" . }}
+
+    {{/* Main content */}}
+    <div class="content-main">
+      {{/* Step indicator + Title */}}
+      <header style="margin-bottom: var(--space-xl);">
+        {{ if gt $currentNum 0 }}
+        <div class="step-indicator" style="margin-bottom: var(--space-md);">
+          Activity <span class="step-current">{{ $currentNum }}</span>
+          <span class="step-total">of {{ $total }}</span>
+        </div>
+        {{ end }}
+
+        <h1 style="margin-bottom: var(--space-sm);">{{ .Title }}</h1>
+
+        {{ with .Description }}
+        <p class="lead">{{ . }}</p>
+        {{ end }}
+
+        {{ with .ReadingTime }}
+        <span class="meta">
+          <svg style="display:inline;width:0.875rem;height:0.875rem;vertical-align:-2px;margin-right:4px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          {{ . }} min read
+        </span>
+        {{ end }}
+      </header>
+
+      {{/* Article content */}}
+      <div class="content">
+        {{ .Content }}
+      </div>
+
+      {{/* Prev / Next navigation */}}
+      <nav class="workshop-nav-buttons" aria-label="Workshop navigation">
+        {{ if $prevPage }}
+        <a href="{{ $prevPage.RelPermalink }}" class="nav-btn nav-btn--prev">
+          <span class="nav-btn__label">← Previous</span>
+          <span class="nav-btn__title">{{ $prevPage.Title }}</span>
+        </a>
+        {{ else }}
+        <a href="{{ $parent.RelPermalink }}" class="nav-btn nav-btn--prev">
+          <span class="nav-btn__label">← Back</span>
+          <span class="nav-btn__title">Workshop Overview</span>
+        </a>
+        {{ end }}
+
+        {{ if $nextPage }}
+        <a href="{{ $nextPage.RelPermalink }}" class="nav-btn nav-btn--next">
+          <span class="nav-btn__label">Next →</span>
+          <span class="nav-btn__title">{{ $nextPage.Title }}</span>
+        </a>
+        {{ else }}
+        <a href="{{ $parent.RelPermalink }}" class="nav-btn nav-btn--next">
+          <span class="nav-btn__label">Complete ✓</span>
+          <span class="nav-btn__title">Back to Overview</span>
+        </a>
+        {{ end }}
+      </nav>
+
+    </div>
+  </div>
+</article>
+
+{{ end }}

@@ -1,0 +1,85 @@
+{{ define "main" }}
+{{/*
+  Workshop Overview Layout
+  Used for _index.md inside a workshop directory.
+  Shows the workshop description + list of all activities.
+*/}}
+
+{{ $pages := .Pages }}
+{{ $total := len $pages }}
+
+<article>
+  {{/* Header */}}
+  <header class="hero hero--workshop">
+    <div class="container--content">
+      {{ partial "breadcrumbs.html" . }}
+
+      <span class="overline">Workshop</span>
+      <h1 class="hero__title">{{ .Title }}</h1>
+
+      {{ with .Description }}
+      <p class="hero__subtitle">{{ . }}</p>
+      {{ end }}
+
+      <div class="hero__meta">
+        {{ with .Params.duration }}
+        <span class="meta-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          {{ . }}
+        </span>
+        {{ end }}
+        <span class="meta-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          {{ $total }} {{ if eq $total 1 }}activity{{ else }}activities{{ end }}
+        </span>
+        {{ with .Params.difficulty }}
+        <span class="meta-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          {{ . }}
+        </span>
+        {{ end }}
+      </div>
+    </div>
+  </header>
+
+  {{/* Workshop description content */}}
+  <div class="container--content section--tight">
+    {{ with .Content }}
+    <div class="content">
+      {{ . }}
+    </div>
+    {{ end }}
+
+    {{/* Activity list */}}
+    {{ if $pages }}
+    <div class="workshop-overview">
+      <h2 class="h3">Activities</h2>
+      <ol class="workshop-steps">
+        {{ range $i, $page := $pages }}
+        <li class="workshop-step">
+          <div class="workshop-step__number"></div>
+          <div class="workshop-step__content">
+            <div class="workshop-step__title">
+              <a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
+            </div>
+            {{ with $page.Description }}
+            <p class="workshop-step__desc">{{ . }}</p>
+            {{ end }}
+          </div>
+        </li>
+        {{ end }}
+      </ol>
+
+      {{/* Start button */}}
+      {{ with index $pages 0 }}
+      <a href="{{ .RelPermalink }}" class="workshop-start">
+        Start Workshop
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</article>
+
+{{ end }}

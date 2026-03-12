@@ -2,7 +2,7 @@
 title: How to Download and Prepare Census Data for GIS Analysis
 date: 2023-01-18
 tags: ["data-curation"]
-image: default-gradient.png
+
 
 ---
 

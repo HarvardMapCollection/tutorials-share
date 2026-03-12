@@ -1,0 +1,111 @@
+// ============================================
+// Code Blocks
+// ============================================
+
+// Fenced code blocks
+pre {
+  background: var(--color-code-bg);
+  color: var(--color-code-text);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  margin: var(--space-lg) 0;
+  overflow-x: auto;
+  font-size: $type-sm;
+  line-height: $leading-relaxed;
+  border: 1px solid var(--color-border);
+  position: relative;
+
+  // Scrollbar
+  &::-webkit-scrollbar {
+    height: 6px;
+  }
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: var(--radius-full);
+  }
+
+  code {
+    background: none;
+    color: inherit;
+    padding: 0;
+    font-size: inherit;
+    border-radius: 0;
+    font-weight: $weight-normal;
+  }
+}
+
+// Copy button (added via JS)
+.code-copy-btn {
+  position: absolute;
+  top: var(--space-sm);
+  right: var(--space-sm);
+  padding: var(--space-xs) var(--space-sm);
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-sm);
+  font-family: $font-mono;
+  font-size: $type-xs;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  opacity: 0;
+
+  pre:hover & {
+    opacity: 1;
+  }
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.15);
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  &.is-copied {
+    color: $teal-light;
+    border-color: $teal;
+  }
+}
+
+// Language label
+.code-lang {
+  position: absolute;
+  top: 0;
+  right: var(--space-md);
+  padding: 2px var(--space-sm);
+  background: rgba(255, 255, 255, 0.06);
+  font-family: $font-mono;
+  font-size: 0.625rem;
+  font-weight: $weight-bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.35);
+  border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+}
+
+// Hugo syntax highlighting overrides
+.highlight {
+  margin: var(--space-lg) 0;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+
+  pre {
+    margin: 0;
+    border-radius: var(--radius-lg);
+  }
+
+  // Line numbers
+  .lnt {
+    color: rgba(255, 255, 255, 0.25);
+    padding-right: var(--space-md);
+    user-select: none;
+  }
+}
+
+// Dark mode adjustments
+[data-theme="dark"] {
+  pre {
+    border-color: var(--color-border);
+  }
+}

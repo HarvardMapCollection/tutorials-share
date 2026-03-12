@@ -109,16 +109,16 @@ $dark-text-muted:   #9CA3B0;
 
 // --- Typography ---
 // Import Manrope + JetBrains Mono via Google Fonts (loaded in <head>)
-$font-heading:  'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-$font-body:     -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+$font-heading:  'Barlow', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+$font-body:     'Spectral', Georgia, 'Times New Roman', serif;
 $font-mono:     'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace;
 
 // Type scale (fluid)
-$type-xs:       0.75rem;     // 12px
-$type-sm:       0.875rem;    // 14px
-$type-base:     1rem;        // 16px
-$type-lg:       1.125rem;    // 18px
-$type-xl:       1.25rem;     // 20px
+$type-xs:       0.875rem;     // 12px
+$type-sm:       1.0625rem;    // 14px
+$type-base:     1.25rem;        // 16px
+$type-lg:       1.375rem;    // 18px
+$type-xl:       1.625rem;     // 20px
 $type-2xl:      1.5rem;      // 24px
 $type-3xl:      1.875rem;    // 30px
 $type-4xl:      2.25rem;     // 36px

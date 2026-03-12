@@ -1,9 +1,9 @@
 baseURL = 'https://mapping.share.library.harvard.edu/'
 languageCode = 'en-us'
-title = 'GIS, maps + data @ Harvard Library'
+title = 'Harvard Library GIS Notes'
 
 [params]
-    description     = "Mapping news and support from the Harvard Map Collection"
+    description     = "Research guides, sample projects, and technical tutorials prepared by the Harvard Map Collection"
     github= "https://github.com/HarvardMapCollection/tutorials-share"
     googleAnalytics = "G-XCNRPXZNVM"
     gtm_id = "GTM-55D9M4Z"

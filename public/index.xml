@@ -6,8 +6,22 @@
     <description>Recent content on Harvard Library GIS Notes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exporting GeoJSON and Geopackage from ArcGIS Pro</title>
+      <link>http://localhost:1313/tutorials/arcgis-qgis/export-file-types/</link>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/arcgis-qgis/export-file-types/</guid>
+      <description>A common question students ask GIS librarians is &amp;ldquo;How do I get my data out of ArcGIS Pro or share it with someone not using this software?&amp;rdquo;&#xA;You may notice that when using ArcGIS dialog boxes, you are prompted to save files by default in your project&amp;rsquo;s file geodatabase.&#xA;It is okay to use the file .gdb temporarily while working on your project. Keep in mind the suggestion to periodically archive any important files using legible, open data formats such as geopackage or geojson.</description>
+    </item>
+    <item>
+      <title>Importing GeoJSON into ArcGIS Pro</title>
+      <link>http://localhost:1313/tutorials/arcgis-qgis/import-geojson/</link>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/arcgis-qgis/import-geojson/</guid>
+      <description>If you try to drag and drop a .geoJSON or .json file into the ArcGIS map interface and receive an error, try these steps.&#xA;Navigate to the Analysis tab. Select Tools or the red toolbox icon in the Geoprocessessing section of the Analysis ribbon. Search for JSON to Features. Specify your source, output, and geometry parameters. Select Run. </description>
+    </item>
     <item>
       <title>Introduction</title>
       <link>http://localhost:1313/workshops/environment-public-health/intro/</link>
@@ -63,20 +77,6 @@
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/adler-project/</guid>
       <description>Generating Geospatial Data from Historic Maps: A Step-by-Step Guide This project illustrates a core methodology supported by the Harvard Map Collection: transforming static historic maps into analyzable geospatial data. Through our partnership with Joyce Chaplin&amp;#39;s &amp;#39;Re-Wilding Harvard&amp;#39; course, this initiative empowered students to investigate the evolving histories and changing natures of open space within Harvard&amp;#39;s campus and its surroundings, showcasing the library&amp;#39;s critical role in digital scholarship.&#xA;Hannah Adler &amp;#39;25, a student from the course, undertook an ambitious project focusing on the Charles River region of Harvard&amp;#39;s campus, particularly the area near Memorial Drive in Cambridge.</description>
-    </item>
-    <item>
-      <title>Exporting GeoJSON and Geopackage from ArcGIS Pro</title>
-      <link>http://localhost:1313/tutorials/arcgis-qgis/export-file-types/</link>
-      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/arcgis-qgis/export-file-types/</guid>
-      <description>A common question students ask GIS librarians is &amp;ldquo;How do I get my data out of ArcGIS Pro or share it with someone not using this software?&amp;rdquo;&#xA;You may notice that when using ArcGIS dialog boxes, you are prompted to save files by default in your project&amp;rsquo;s file geodatabase.&#xA;It is okay to use the file .gdb temporarily while working on your project. Keep in mind the suggestion to periodically archive any important files using legible, open data formats such as geopackage or geojson.</description>
-    </item>
-    <item>
-      <title>Importing GeoJSON into ArcGIS Pro</title>
-      <link>http://localhost:1313/tutorials/arcgis-qgis/import-geojson/</link>
-      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/arcgis-qgis/import-geojson/</guid>
-      <description>If you try to drag and drop a .geoJSON or .json file into the ArcGIS map interface and receive an error, try these steps.&#xA;Navigate to the Analysis tab. Select Tools or the red toolbox icon in the Geoprocessessing section of the Analysis ribbon. Search for JSON to Features. Specify your source, output, and geometry parameters. Select Run. </description>
     </item>
     <item>
       <title>Faces Behind the Data: Anna He</title>

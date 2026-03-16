@@ -36,7 +36,7 @@ description: Step-by-step instructions for vectorizing data from historic maps, 
 
 <ul>
 	<li>If you have a <code>.geoTIFF</code>, you should be able to drag the file directly into the QGIS document and have it show up in the correct place.</li>
-	<li>If you do not yet have a georeferenced map you&#39;d like to work with, please refer to other guides on this pre-requisite step. A useful place to start is our Introduction to Georeferencing tutorial. You can also <a href="https://outlook.office365.com/book/HarvardMapCollection1@HU.onmicrosoft.com/?ismsaljsauthenabled=true" target="_blank">make an appointment</a>.</li>
+	<li>If you do not yet have a georeferenced map you&#39;d like to work with, please refer to other guides on this pre-requisite step. A useful place to start is our <a href="https://mapping.share.library.harvard.edu/tutorials/arcgis-qgis/georeference/">Georferencing in QGIS</a> tutorial. You can also <a href="https://outlook.office365.com/book/HarvardMapCollection1@HU.onmicrosoft.com/?ismsaljsauthenabled=true" target="_blank">make an appointment</a> at the Map Collection.</li>
 </ul>
 
 <h3>Create New Shapefile Layer</h3>
@@ -50,8 +50,7 @@ description: Step-by-step instructions for vectorizing data from historic maps, 
 <p><img alt="select crs" loading="lazy" src="https://d2jv02qf7xgjwx.cloudfront.net/accounts/289282/images/crs.png" /></p>
 
 <ol start="4">
-	<li>Add necessary fields for the attributes you want to record (e.g., development status, owner name). These fields will become the column headers in the data table you will create. For every polygon you create, you will also fill out a value for each of these attributes.
-	<blockquote>These attributes are also what powers the map symbolization. In the orange and purple map, we were able to ask the software to turn every polygon with the value of <code>Developed=no</code> orange, and every polygon with the value of <code>Developed=yes</code> purple.</blockquote>
+	<li>Add necessary fields for the attributes you want to record. These fields will become the column headers in the data table you will create. For every polygon you create, you will also fill out a value for each of these attributes.
 	</li>
 	<li>Pay attention to field types. If you are recording categories or text data, make sure you select <code>Text</code> as the field&#39;s data type. If you are recording a number you&#39;d like to be able to symbolize by density, make sure to select <code>Number</code> as the field type.</li>
 </ol>
@@ -84,36 +83,3 @@ description: Step-by-step instructions for vectorizing data from historic maps, 
 	<li>Any changes you don&#39;t want to lose, make sure to <code>Save</code> by continuously clicking the <code>Pencil</code> or <code>Toggle Editing</code> icon.</li>
 	<li>To really learn the true ins and outs of everything you can do with the editing toolbar, including moving or deleting points, check out the <a href="https://docs.qgis.org/3.34/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html" target="_blank">QGIS Editing Documentation</a>.</li>
 </ol>
-
-<h3>Calculate Area of Each Polygon</h3>
-
-<ol>
-	<li>Open the Attribute Table.</li>
-	<li>Go to <code>Field Calculator</code>.</li>
-	<li>Create a new field named <code>Area</code>.</li>
-	<li>Use the <code>$area</code> expression to calculate the area of each polygon.</li>
-</ol>
-
-<h3>Edit Map Symbology</h3>
-
-<ol>
-	<li>Double-click the map layer to open its properties.</li>
-	<li>Go to the <code>Symbology</code> tab.</li>
-	<li>Change symbology from <code>single symbol</code> to <code>categorized</code>.</li>
-	<li>Choose <code>developed</code> for Value and select distinct colors for <code>yes</code> and <code>no</code> (e.g., #cd782e and #8c5fed).</li>
-</ol>
-
-<h3>Identify Parcels Based on Variables of Interest</h3>
-
-<ol>
-	<li>Filter the attribute table to highlight specific parcels.</li>
-	<li>For example, to identify parcels owned by Harvard College, apply the filter <code>owner_name = &quot;Harvard College&quot;</code>.</li>
-</ol>
-
-<h3>Export Data Table for Analysis</h3>
-
-<ol>
-	<li>Right-click on the map layer.</li>
-	<li>Select <code>Export</code> and choose the file type (<code>.xlsx</code> or <code>.csv</code>) as needed for your analysis.</li>
-</ol>
-

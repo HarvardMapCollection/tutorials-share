@@ -94,7 +94,7 @@ HUIT loans laptops for up to two weeks. Initiate this process by [filling out th
 
 HUIT loaner PCs are provided with admin privileges. You can then access ArcGIS Pro by following the Harvard Center for Geographic Analysis [ArcGIS Pro for Harvard Key holders](https://gis.harvard.edu/arcgis-pro) download instructions.
 
-### Access ArcGIS from House Commuter Labs
+### Access ArcGIS from House Computer Labs
 
 View a [list of available computers](https://harvard.service-now.com/ithelp?id=kb_article&sys_id=dc44f1ea93ad82104cf93f9a7bba10e5) in the houses.
 
@@ -112,5 +112,5 @@ For ArcGIS Pro tutorials, the Center for Geographic Analysis (CGA) manages Harva
 
 The Harvard Map Collection, located in the basement of [Pusey Library](https://maps.app.goo.gl/gBQgTUvYNfTuGAG76), offers free, customized GIS instructional consultations regardless of your chosen software.
 
-Our librarians provide advice on various software, project specifics, and sources for GIS data. Visit the [Harvard Map Collection website](https://library.harvard.edu/libraries/harvard-map-collection) to request an appointment.
+Our librarians provide advice on various software, project specifics, and sources for GIS data. [Request GIS support](https://ask.library.harvard.edu/maps?_gl=1*16xkwg0*_ga*ODE1NzM1NTExLjE3Njc2MzQzMTc.*_ga_3CXC97RWEK*czE3NzM2OTMwOTMkbzI5JGcwJHQxNzczNjkzMTA2JGo0NyRsMCRoMA..) from the Harvard Map Collection.
 

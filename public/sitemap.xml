@@ -2,276 +2,276 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://mapping.share.library.harvard.edu/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-12-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/workshops/environment-public-health/intro/</loc>
+    <loc>http://localhost:1313/workshops/environment-public-health/intro/</loc>
     <lastmod>2025-12-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/workshops/environment-public-health/1-searching-for-understanding-data/</loc>
+    <loc>http://localhost:1313/workshops/environment-public-health/1-searching-for-understanding-data/</loc>
     <lastmod>2025-12-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/workshops/environment-public-health/2-opening-understanding-files/</loc>
+    <loc>http://localhost:1313/workshops/environment-public-health/2-opening-understanding-files/</loc>
     <lastmod>2025-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/workshops/environment-public-health/3-visualizing-data/</loc>
+    <loc>http://localhost:1313/workshops/environment-public-health/3-visualizing-data/</loc>
     <lastmod>2025-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/workshops/environment-public-health/</loc>
+    <loc>http://localhost:1313/workshops/environment-public-health/</loc>
     <lastmod>2025-09-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/tags/applied-projects/</loc>
+    <loc>http://localhost:1313/tags/applied-projects/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/posts/putumayo/</loc>
+    <loc>http://localhost:1313/posts/putumayo/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/tags/news/</loc>
+    <loc>http://localhost:1313/tags/news/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/tags/class/</loc>
+    <loc>http://localhost:1313/tags/class/</loc>
     <lastmod>2025-09-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/classes/short-info-session/</loc>
+    <loc>http://localhost:1313/classes/short-info-session/</loc>
     <lastmod>2025-09-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/tutorials/data-curation/accessing-maps-for-georeferencing/</loc>
+    <loc>http://localhost:1313/tutorials/data-curation/accessing-maps-for-georeferencing/</loc>
     <lastmod>2025-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/tutorials/data-curation/</loc>
+    <loc>http://localhost:1313/tutorials/data-curation/</loc>
     <lastmod>2025-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/tags/data-curation/</loc>
+    <loc>http://localhost:1313/tags/data-curation/</loc>
     <lastmod>2025-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/tutorials/</loc>
+    <loc>http://localhost:1313/tutorials/</loc>
     <lastmod>2025-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/posts/adler-project/</loc>
+    <loc>http://localhost:1313/posts/adler-project/</loc>
     <lastmod>2025-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/workshops/find-gis-data-arcgis/</loc>
+    <loc>http://localhost:1313/workshops/find-gis-data-arcgis/</loc>
     <lastmod>2025-03-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/workshops/find-gis-data/</loc>
+    <loc>http://localhost:1313/workshops/find-gis-data/</loc>
     <lastmod>2025-03-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/tutorials/arcgis-qgis/</loc>
+    <loc>http://localhost:1313/tutorials/arcgis-qgis/</loc>
     <lastmod>2025-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/tutorials/arcgis-qgis/export-file-types/</loc>
+    <loc>http://localhost:1313/tutorials/arcgis-qgis/export-file-types/</loc>
     <lastmod>2025-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/tutorials/arcgis-qgis/import-geojson/</loc>
+    <loc>http://localhost:1313/tutorials/arcgis-qgis/import-geojson/</loc>
     <lastmod>2025-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/tags/qgis-hub/</loc>
+    <loc>http://localhost:1313/tags/qgis-hub/</loc>
     <lastmod>2025-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/posts/faces-behind-the-data-anna-he/</loc>
+    <loc>http://localhost:1313/posts/faces-behind-the-data-anna-he/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/tags/interview/</loc>
+    <loc>http://localhost:1313/tags/interview/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/posts/adler-delta/</loc>
+    <loc>http://localhost:1313/posts/adler-delta/</loc>
     <lastmod>2024-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/workshops/find-gis-data-arcgis/welcome/</loc>
+    <loc>http://localhost:1313/workshops/find-gis-data-arcgis/welcome/</loc>
     <lastmod>2024-08-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/workshops/find-gis-data/welcome/</loc>
+    <loc>http://localhost:1313/workshops/find-gis-data/welcome/</loc>
     <lastmod>2024-08-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/tags/research-story/</loc>
+    <loc>http://localhost:1313/tags/research-story/</loc>
     <lastmod>2024-08-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/posts/nicolae/</loc>
+    <loc>http://localhost:1313/posts/nicolae/</loc>
     <lastmod>2024-08-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/posts/huige/project-welcome/</loc>
+    <loc>http://localhost:1313/posts/huige/project-welcome/</loc>
     <lastmod>2024-08-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/workshops/find-gis-data-arcgis/activity-1/</loc>
+    <loc>http://localhost:1313/workshops/find-gis-data-arcgis/activity-1/</loc>
     <lastmod>2024-08-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/workshops/find-gis-data/activity-1/</loc>
+    <loc>http://localhost:1313/workshops/find-gis-data/activity-1/</loc>
     <lastmod>2024-08-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/posts/huige/</loc>
+    <loc>http://localhost:1313/posts/huige/</loc>
     <lastmod>2024-08-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/workshops/find-gis-data-arcgis/activity-2/</loc>
+    <loc>http://localhost:1313/workshops/find-gis-data-arcgis/activity-2/</loc>
     <lastmod>2024-08-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/workshops/find-gis-data/activity-2/</loc>
+    <loc>http://localhost:1313/workshops/find-gis-data/activity-2/</loc>
     <lastmod>2024-08-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/workshops/find-gis-data-arcgis/activity-3/</loc>
+    <loc>http://localhost:1313/workshops/find-gis-data-arcgis/activity-3/</loc>
     <lastmod>2024-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/workshops/find-gis-data/activity-3/</loc>
+    <loc>http://localhost:1313/workshops/find-gis-data/activity-3/</loc>
     <lastmod>2024-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/workshops/find-gis-data-arcgis/activity-4/</loc>
+    <loc>http://localhost:1313/workshops/find-gis-data-arcgis/activity-4/</loc>
     <lastmod>2024-08-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/workshops/find-gis-data/activity-4/</loc>
+    <loc>http://localhost:1313/workshops/find-gis-data/activity-4/</loc>
     <lastmod>2024-08-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/posts/huige/collection-for-historical-scientific-instruments/</loc>
+    <loc>http://localhost:1313/posts/huige/collection-for-historical-scientific-instruments/</loc>
     <lastmod>2024-08-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/posts/huige/harvard-university-archive/</loc>
+    <loc>http://localhost:1313/posts/huige/harvard-university-archive/</loc>
     <lastmod>2024-08-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/posts/huige/yenching-library/</loc>
+    <loc>http://localhost:1313/posts/huige/yenching-library/</loc>
     <lastmod>2024-08-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/posts/huige/map-collection/</loc>
+    <loc>http://localhost:1313/posts/huige/map-collection/</loc>
     <lastmod>2024-08-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/tutorials/arcgis-qgis/vectorization/</loc>
+    <loc>http://localhost:1313/tutorials/arcgis-qgis/vectorization/</loc>
     <lastmod>2024-08-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/posts/huige/hfa/</loc>
+    <loc>http://localhost:1313/posts/huige/hfa/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/posts/huige/hua-contents/</loc>
+    <loc>http://localhost:1313/posts/huige/hua-contents/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/posts/huige/hua-flight-reports/</loc>
+    <loc>http://localhost:1313/posts/huige/hua-flight-reports/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/posts/huige/hua-geo-students/</loc>
+    <loc>http://localhost:1313/posts/huige/hua-geo-students/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/posts/huige/list-of-photo-related-objects/</loc>
+    <loc>http://localhost:1313/posts/huige/list-of-photo-related-objects/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/posts/huige/list-of-small-oblique-photos/</loc>
+    <loc>http://localhost:1313/posts/huige/list-of-small-oblique-photos/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/posts/huige/list-of-t3a-pictures/</loc>
+    <loc>http://localhost:1313/posts/huige/list-of-t3a-pictures/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/posts/huige/frances-loeb-library/</loc>
+    <loc>http://localhost:1313/posts/huige/frances-loeb-library/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/posts/huige/schlesinger-library/</loc>
+    <loc>http://localhost:1313/posts/huige/schlesinger-library/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/posts/off-the-beaten-path/</loc>
+    <loc>http://localhost:1313/posts/off-the-beaten-path/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/posts/re-wilding-2024/</loc>
+    <loc>http://localhost:1313/posts/re-wilding-2024/</loc>
     <lastmod>2024-06-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/posts/mapping-black-cambridge/</loc>
+    <loc>http://localhost:1313/posts/mapping-black-cambridge/</loc>
     <lastmod>2024-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/posts/odessa-biodiversity/</loc>
+    <loc>http://localhost:1313/posts/odessa-biodiversity/</loc>
     <lastmod>2023-10-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/posts/potterbusch/</loc>
+    <loc>http://localhost:1313/posts/potterbusch/</loc>
     <lastmod>2023-06-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/tutorials/software-access/arcgis-pro/</loc>
+    <loc>http://localhost:1313/tutorials/software-access/arcgis-pro/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/tutorials/software-access/</loc>
+    <loc>http://localhost:1313/tutorials/software-access/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/tags/software-access/</loc>
+    <loc>http://localhost:1313/tags/software-access/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/tutorials/arcgis-qgis/georeference/</loc>
+    <loc>http://localhost:1313/tutorials/arcgis-qgis/georeference/</loc>
     <lastmod>2023-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/tutorials/software-access/qgis/</loc>
+    <loc>http://localhost:1313/tutorials/software-access/qgis/</loc>
     <lastmod>2023-01-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/workshops/archival/</loc>
+    <loc>http://localhost:1313/workshops/archival/</loc>
     <lastmod>2023-01-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/tutorials/data-curation/openstreetmap/</loc>
+    <loc>http://localhost:1313/tutorials/data-curation/openstreetmap/</loc>
     <lastmod>2023-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/tutorials/arcgis-qgis/basemap/</loc>
+    <loc>http://localhost:1313/tutorials/arcgis-qgis/basemap/</loc>
     <lastmod>2023-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/tutorials/arcgis-qgis/add-spreadsheet/</loc>
+    <loc>http://localhost:1313/tutorials/arcgis-qgis/add-spreadsheet/</loc>
     <lastmod>2023-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/tutorials/arcgis-qgis/crs/</loc>
+    <loc>http://localhost:1313/tutorials/arcgis-qgis/crs/</loc>
     <lastmod>2023-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/tutorials/data-curation/readme/</loc>
+    <loc>http://localhost:1313/tutorials/data-curation/readme/</loc>
     <lastmod>2023-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/tutorials/data-curation/census-data/</loc>
+    <loc>http://localhost:1313/tutorials/data-curation/census-data/</loc>
     <lastmod>2023-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/tutorials/data-curation/metadata-services/</loc>
+    <loc>http://localhost:1313/tutorials/data-curation/metadata-services/</loc>
     <lastmod>2023-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/tutorials/arcgis-qgis/perform-a-table-join/</loc>
+    <loc>http://localhost:1313/tutorials/arcgis-qgis/perform-a-table-join/</loc>
     <lastmod>2023-01-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/posts/russian-language/</loc>
+    <loc>http://localhost:1313/posts/russian-language/</loc>
     <lastmod>2023-01-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/workshops/archival/introduction/</loc>
+    <loc>http://localhost:1313/workshops/archival/introduction/</loc>
     <lastmod>2023-01-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/tags/file-formats/</loc>
+    <loc>http://localhost:1313/tags/file-formats/</loc>
     <lastmod>2023-01-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/workshops/archival/tutorial-requirements/</loc>
+    <loc>http://localhost:1313/workshops/archival/tutorial-requirements/</loc>
     <lastmod>2023-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/workshops/archival/data-overview/</loc>
+    <loc>http://localhost:1313/workshops/archival/data-overview/</loc>
     <lastmod>2023-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/workshops/archival/import-datasets/</loc>
+    <loc>http://localhost:1313/workshops/archival/import-datasets/</loc>
     <lastmod>2023-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/workshops/archival/visualize-statistics/</loc>
+    <loc>http://localhost:1313/workshops/archival/visualize-statistics/</loc>
     <lastmod>2023-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/workshops/archival/share-results/</loc>
+    <loc>http://localhost:1313/workshops/archival/share-results/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/workshops/archival/browse-maps-and-data/</loc>
+    <loc>http://localhost:1313/workshops/archival/browse-maps-and-data/</loc>
     <lastmod>2022-12-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/classes/intro-to-map-collection/</loc>
+    <loc>http://localhost:1313/classes/intro-to-map-collection/</loc>
     <lastmod>2022-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/posts/mapping-black-boston/</loc>
+    <loc>http://localhost:1313/posts/mapping-black-boston/</loc>
     <lastmod>2022-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/workshops/archival/in-person/</loc>
+    <loc>http://localhost:1313/workshops/archival/in-person/</loc>
     <lastmod>2022-11-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/classes/</loc>
+    <loc>http://localhost:1313/classes/</loc>
     <lastmod>2022-01-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/workshops/</loc>
+    <loc>http://localhost:1313/workshops/</loc>
     <lastmod>2022-01-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/posts/city-fictions/</loc>
+    <loc>http://localhost:1313/posts/city-fictions/</loc>
     <lastmod>2021-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/posts/graphics/</loc>
+    <loc>http://localhost:1313/posts/graphics/</loc>
     <lastmod>2021-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mapping.share.library.harvard.edu/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url>
 </urlset>

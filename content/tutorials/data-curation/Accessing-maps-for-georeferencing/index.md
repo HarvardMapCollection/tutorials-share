@@ -68,6 +68,7 @@ tags: ["data-curation"]
 
 <figcaption class="append"><a href="https://curiosity.lib.harvard.edu/scanned-maps/catalog/44-990094789400203941">Map of the city of Cambridge for 1865, Harvard Map Collection.</a></figcaption>
 
+<br>
 
 <h5>Harvard Geospatial Library</h5>
 

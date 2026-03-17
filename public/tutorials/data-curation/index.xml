@@ -30,13 +30,6 @@
       <description>&lt;p&gt;Effective data documentation (metadata) is crucial for the long-term usability and understanding of your GIS data, whether you&amp;#39;re sharing it publicly or revisiting it years later. While creating formal metadata can seem daunting, this guide offers a flexible, prompt-based approach to help you document the context of your data.&lt;/p&gt;&#xA;&lt;p&gt;The goal is to provide a free-form, permissive way to begin documenting the flow of ideas around your data, without the pressure of strict templates or getting it &amp;quot;wrong.&amp;quot; This allows you to start documenting your work now, preventing the loss of crucial context that often occurs when formal requirements feel overwhelming. These prompts are designed as thought-starters; choose to answer as much or as little as you find helpful.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Downloading and Preparing Census Data</title>
-      <link>http://localhost:1313/tutorials/data-curation/census-data/</link>
-      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/data-curation/census-data/</guid>
-      <description>&lt;p&gt;To effectively map and analyze social, economic, or demographic patterns using Census data in a GIS interface, this tutorial will walk you through the process of downloading and preparing data manually.&lt;/p&gt;&#xA;&lt;p&gt;This tutorial focuses on manual data preparation using spreadsheet software. While every step in this guide details manual processes, most of these tasks &amp;ndash; including downloading, filtering, and calculating derived variables &amp;ndash; could also be efficiently performed using programming languages like Python or R, especially for larger datasets or automated workflows.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>GIS Data Management Consultation</title>
       <link>http://localhost:1313/tutorials/data-curation/metadata-services/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>

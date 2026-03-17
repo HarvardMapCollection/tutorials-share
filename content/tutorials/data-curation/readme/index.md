@@ -42,6 +42,6 @@ tags: ["data-curation"]
 <p>To formalize your metadata or for in-depth consultation on your GIS data project, schedule a guided interview with our team through <a href="https://mapping.share.library.harvard.edu/tutorials/data-curation/metadata-services/" target="_blank">GIS Data Management Consultation Services Guide</a>.</p>
 
 <ul>
-	<li><a href="https://guides.library.cornell.edu/data_management/readme" target="_blank">Guide to writing &quot;readme&quot; style metadata</a> from Cornell Data Services</li>
-	<li><a href="https://www.usgs.gov/media/files/metadata-questionnaire-form" target="_blank">Metadata Questionnaire Form</a> from the United States Geological Survey (U.S.G.S.)</li>
+	<li><a href="https://data.research.cornell.edu/data-management/sharing/readme/" target="_blank">Guide to writing &quot;readme&quot; style metadata</a> from Cornell Data Services</li>
+	<li><a href="https://www.usgs.gov/media/files/metadata-questionnaire" target="_blank">Metadata Questionnaire Form</a> from the United States Geological Survey (U.S.G.S.)</li>
 </ul>

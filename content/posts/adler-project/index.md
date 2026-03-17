@@ -146,5 +146,5 @@ description: This guide demonstrates a method for transforming old maps into new
 	<li><code>Download this folder</code>.</li>
 </ol>
 
-<p>To follow these steps on your own, use our&nbsp;<a href="https://mapping.share.library.harvard.edu/tutorials/qgis-hub/vectorization/" target="_blank">QGIS: Vectorizing from Historic Maps Tutorial</a>.</p>
+<p>To follow these steps on your own, use our&nbsp;<a href="https://mapping.share.library.harvard.edu/tutorials/arcgis-qgis/vectorization/" target="_blank">QGIS: Vectorizing from Historic Maps Tutorial</a>.</p>
 

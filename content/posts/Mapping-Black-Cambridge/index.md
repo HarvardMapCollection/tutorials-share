@@ -16,5 +16,5 @@ Leveraging historic maps and records from local libraries and archives, along wi
 
 ![More old archives](media/2.png)
 
-In addition to discovering historic GIS datasets via these portals, researchers can also make use of the library's [trainings](https://library.harvard.edu/libraries/harvard-map-collection#teach) and [guided brainstorming sessions](https://mapping.share.library.harvard.edu/resources/researchers-handbook/long-term-preservation/) on how to maintain and preserve their own historic datasets for long-term discovery and reuse. 
+
 

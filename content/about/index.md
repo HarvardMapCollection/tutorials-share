@@ -17,7 +17,7 @@ Once you have software running, the [Tutorials](/tutorials/) section covers the 
 
 The [Workshops](/workshops/) section is different from the tutorials. Each workshop is a complete, multi-step activity designed around a real research scenario. You start at the beginning and work through to the end, building on each step as you go. Topics include [finding GIS data for a project](/workshops/find-gis-data/), [mapping environmental health determinants](/workshops/environment-public-health/), and [working with historical maps and archival sources](/workshops/archival/).
 
-These workshops are the same ones we teach in person at Harvard. You're welcome to follow along on your own at any pace. If you're a faculty member or instructor and would like us to teach one of these in your class, or if you'd like to request a custom workshop, [reach out to us](https://ask.library.harvard.edu/maps).
+These workshops are the same ones we teach in person at Harvard. You're welcome to follow along on your own at any pace. If you're a faculty member or instructor and would like us to teach one of these in your class, or if you'd like us to bring one of these workshops to your class, [reach out to us](https://ask.library.harvard.edu/maps).
 
 ## If you're looking for ideas
 

@@ -29,7 +29,7 @@ Only after starting college did I realize the influence of my first few adventur
 
 And when thinking of tourism, one ought to think about maps. They are often the very first spatial visualization travelers will have of their destination even before arrival – thus not only setting the tone for the trip, but also being a key feature in helping visitors decide where to go under their time, physical and financial constraints.
 
-However, in the same way I could not experience the entirety of a place's history or culture in the span of a few days before college, maps cannot encompass the entirety of the place itself. Therefore, through the spots and activities they choose to highlight to their audiences, travel maps can narrate different stories about a place. Inspired by these reflections, this project aims to analyze how travel maps have shaped narratives about Boston over time, highlighting a [1960 travel map](https://curiosity.lib.harvard.edu/scanned-maps/catalog/44-990026787590203941) and the [2024 Boston Duck tours map](https://bostonducktours.com/wp-content/uploads/2022/04/2022-Map-for-Website.png). This project will be carried out using Geographic Information Systems (GIS) methods, given that they allow for a more nuanced analysis when using, comparing, and interpreting physical and digital maps. 
+However, in the same way I could not experience the entirety of a place's history or culture in the span of a few days before college, maps cannot encompass the entirety of the place itself. Therefore, through the spots and activities they choose to highlight to their audiences, travel maps can narrate different stories about a place. Inspired by these reflections, this project aims to analyze how travel maps have shaped narratives about Boston over time, highlighting a [1960 travel map](https://curiosity.lib.harvard.edu/scanned-maps/catalog/44-990026787590203941) and the [2024 Boston Duck tours map](https://bostonducktours.com/the-tour/tour-sites-map/). This project will be carried out using Geographic Information Systems (GIS) methods, given that they allow for a more nuanced analysis when using, comparing, and interpreting physical and digital maps. 
 
 ## Methods
 
@@ -63,7 +63,7 @@ This is interesting given that it puts forth a notion of History centered around
 
 ### Boston Duck Tours Map
 
-![https://hackmd.io/_uploads/ByknrlPU0.png](https://hackmd.io/_uploads/ByknrlPU0.png)
+![duck tour map](media/duck-tour.png)
 *Map from [bostonducktours.com](https://bostonducktours.com/)*
 
 Turning to our second map of interest, the 2024 Boston Duck Tours map, we are looking at one of the most popular tourist activities in the city. The Duck tours [started in 1994](https://www.bostonducktours.com/about/company-history/), and are famous for their use of World War II-style "duck" boats that allow for travel both on the ground and water. 
@@ -137,7 +137,7 @@ With the data from each map, as well as demographic information for different ce
 <iframe width="100%" height="488" frameborder="0" title="Felt Map" src="https://felt.com/embed/map/Final-map-u9C2GAbqMQrG2WHEIvlMJrD?loc=42.35718%2C-71.07506%2C14.61z&legend=1&cooperativeGestures=1&link=1&geolocation=0&zoomControls=1&scaleBar=1" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
 
->[Luisa Shida](https://history.fas.harvard.edu/people/luisa-shida)'s project was funded by a 2024 [May Crane fellowship](https://library.harvard.edu/may-crane-fellowships), which was geared towards supporting undergraduate research exploring information embedded in historic maps and archives.
+>Luisa Shida's project was funded by a 2024 [May Crane fellowship](https://library.harvard.edu/may-crane-fellowships), which was geared towards supporting undergraduate research exploring information embedded in historic maps and archives.
 
 
 

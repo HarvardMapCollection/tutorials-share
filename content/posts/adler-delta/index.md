@@ -53,5 +53,5 @@ Toggle between the historic georeferenced map, historic wetlands data, and moder
 
 <iframe width="100%" height="488" frameborder="0" title="Felt Map" src="https://felt.com/embed/map/California-wetlands-0y39AwKOPQKe5Z4f7csGjcC?loc=38.2875%2C-121.7981%2C9.42z&legend=1&cooperativeGestures=1&link=1&geolocation=0&zoomControls=1&scaleBar=1" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
-Download [the project data](https://osf.io/3s4dq/) from the Harvard Map Collection's site for Research, Teaching, and Learning GIS materials. 
+Download [the project data](https://osf.io/3s4dq/) from the Harvard Map Collection's OSF site for Research, Teaching, and Learning GIS materials. 
 

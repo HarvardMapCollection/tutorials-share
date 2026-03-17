@@ -41,7 +41,8 @@ tags: ["data-curation"]
 
 <p>On the other hand, many of the maps in the Harvard Map Collection do not have online access links, and they are listed in the catalog as records only; the records are there simply to let you know you can request to come see these items if you visit the map collection.</p>
 
-<p>If you find a map in the HOLLIS catalog that does <em>not</em> have online access, from the HOLLIS catalog record, you can request this item. Then, you can <a href="https://outlook.office365.com/book/HarvardMapCollection1@HU.onmicrosoft.com/">make an appointment</a> with the Harvard Map Collection to come see the map. If you think it would work for your project, you can request a scanned copy, and use that image file to perform <a href="https://mapping.share.library.harvard.edu/tutorials/georeferencing/qgis/">georeferencing</a>.</p>
+<p>If you find a map in the HOLLIS catalog that does <em>not</em> have online access, from the HOLLIS catalog record, you can request this item. Then, you can <a href="https://outlook.office365.com/book/HarvardMapCollection1@HU.onmicrosoft.com/">make an appointment</a> with the Harvard Map Collection to come see the map. If you think it would work for your project, you can request a scanned copy, and use that image file to perform <a href="https://mapping.share.library.harvard.edu/tutorials/arcgis-qgis/georeference/">georeferencing</a>.</p>
+
 
 <p><img alt="Process of georeferencing" loading="lazy" src="https://d2jv02qf7xgjwx.cloudfront.net/accounts/289282/images/georef.gif" /></p>
 

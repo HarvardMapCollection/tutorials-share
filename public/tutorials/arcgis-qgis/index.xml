@@ -57,12 +57,5 @@
       <guid>http://localhost:1313/tutorials/arcgis-qgis/crs/</guid>
       <description>&lt;p&gt;This tutorial will guide you through a straightforward, practical method to ensure all your datasets share the same coordinate reference system (CRS), allowing you to begin mapping effectively.&lt;/p&gt;&#xA;&lt;h3 id=&#34;understanding-coordinate-reference-systems&#34;&gt;Understanding Coordinate Reference Systems&lt;/h3&gt;&#xA;&lt;p&gt;&amp;ldquo;Map projections attempt to represent the Earth&amp;rsquo;s surface, or a portion of it, on a flat piece of paper or a computer screen. In simpler terms, map projections transform the Earth from its spherical (3D) shape to a planar (2D) one.&lt;/p&gt;</description>
     </item>
-    <item>
-      <title>Table Joins in QGIS</title>
-      <link>http://localhost:1313/tutorials/arcgis-qgis/perform-a-table-join/</link>
-      <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/arcgis-qgis/perform-a-table-join/</guid>
-      <description>&lt;p&gt;Need help turning your spreadsheet data into a map? In this tutorial, you will learn how to join tables to GIS shapefiles to create a new, mappable dataset with both geographic boundaries and statistical or attribute information.&lt;/p&gt;&#xA;&lt;hr /&gt;&#xA;&lt;h3&gt;1. Understanding Table Joins: Why Connect Data to Geography?&lt;/h3&gt;&#xA;&lt;p&gt;Often, spreadsheets contain useful information we want to map. GIS software, however, does not know how to translate a spreadsheet without any inherent spatial information (such as point coordinates) into a visual map.&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>

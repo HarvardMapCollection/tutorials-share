@@ -3,7 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-12-09T00:00:00+00:00</lastmod>
+    <lastmod>2026-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2026-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/arcgis-qgis/</loc>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/arcgis-qgis/export-file-types/</loc>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/arcgis-qgis/import-geojson/</loc>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/qgis-hub/</loc>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/</loc>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/workshops/environment-public-health/intro/</loc>
     <lastmod>2025-12-09T00:00:00+00:00</lastmod>
@@ -32,9 +53,6 @@
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-09-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/class/</loc>
     <lastmod>2025-09-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -50,9 +68,6 @@
     <loc>http://localhost:1313/tags/data-curation/</loc>
     <lastmod>2025-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tutorials/</loc>
-    <lastmod>2025-09-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/adler-project/</loc>
     <lastmod>2025-09-12T00:00:00+00:00</lastmod>
   </url><url>
@@ -61,18 +76,6 @@
   </url><url>
     <loc>http://localhost:1313/workshops/find-gis-data/</loc>
     <lastmod>2025-03-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tutorials/arcgis-qgis/</loc>
-    <lastmod>2025-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tutorials/arcgis-qgis/export-file-types/</loc>
-    <lastmod>2025-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tutorials/arcgis-qgis/import-geojson/</loc>
-    <lastmod>2025-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/qgis-hub/</loc>
-    <lastmod>2025-02-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/faces-behind-the-data-anna-he/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>

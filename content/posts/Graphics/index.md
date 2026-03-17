@@ -24,7 +24,7 @@ We were interested in how Rachael initially thinks of ideas for stories, and the
 For the recent CityLab piece, Rachael started framing her project by thinking about political significance and data availability.
 
 
-<span style="font-family:lorabold;color:#5f0217;">DOTTLE:</span> "I knew right off the bat that [NHGIS]([nhgis.org](http://nhgis.org/)), the program at the University of Minnesota, has all that historical census data available as shapefiles, so I thought, alright, I'm going to start with the 1950 data. Starting at the census tract level, I can deep-dive into data for some of the cities I *know* had highways built through black neighborhoods. I started my project with what I knew about cities with highways constructed, and what I knew about what data is available.
+<span style="font-family:lorabold;color:#5f0217;">DOTTLE:</span> "I knew right off the bat that [NHGIS](https://www.nhgis.org/), the program at the University of Minnesota, has all that historical census data available as shapefiles, so I thought, alright, I'm going to start with the 1950 data. Starting at the census tract level, I can deep-dive into data for some of the cities I *know* had highways built through black neighborhoods. I started my project with what I knew about cities with highways constructed, and what I knew about what data is available.
 
 {{< figure src="media//7.png" alt="Photograph of a highway overpass">}}
 <figcaption class="append">Archival photograph used in the project. Photographer: William Russell. Tulane University Special Collections.</figcaption>
@@ -92,7 +92,7 @@ Really understanding data is not always included in GIS courses. You learn all t
 
 - Illustrator
 
-- [ai2html]([http://ai2html.org/](http://ai2html.org/))
+- [ai2html](http://ai2html.org/)
 
 <h3>Technical steps</h3>
 
@@ -144,7 +144,7 @@ Really understanding data is not always included in GIS courses. You learn all t
 
 - Two images are positioned atop one another in a web page. The transition is controlled with CSS and JavaScript.
 - The map edge effect, which evokes memories of the paste-ons you can find in real [Sanborn atlases](https://www.wikiwand.com/en/Sanborn_maps), was achieved using a drop-shadow and the Photoshop eraser tool. 
-- Maps like these are archived in the [Harvard Map Collection](https://curiosity.lib.harvard.edu/scanned-maps/catalog?search_field=all_fields). You can look at them in person, or use them in your digital project by contacting maps@harvard.edu.
+- Maps like these are archived in the [Harvard Map Collection](https://curiosity.lib.harvard.edu/scanned-maps/catalog?search_field=all_fields). You can look at them in person, or use them in your digital project by [contacting the Harvard Map Collection](https://ask.library.harvard.edu/maps?_gl=1*1vht5re*_ga*MTE4OTYzODM3Mi4xNzcyNzI2MTAw*_ga_3CXC97RWEK*czE3NzM3NjkzMjckbzExJGcxJHQxNzczNzcxODczJGoxMSRsMCRoMA..). 
 
 </div>
 

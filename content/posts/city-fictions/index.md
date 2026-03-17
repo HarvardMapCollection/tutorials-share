@@ -18,7 +18,7 @@ We were happy to learn that one of the course assignments involved mapmaking; in
 
 At the library, supporting a hand-drawn mapping assignment for an English class helped us learn ways of introducing useful GIS and data mapping competencies, even when a main learning objective wasn't mastering GIS software. 
 
-While some students did experiment with GIS tools to create their maps, like [this StoryMap](https://storymaps.arcgis.com/stories/29f325491029422290d8e014f2929862) interrogating the complexities of leisure and safety in the experience of nightlife for women, or [this project](http://jesseng.com/london-maps/) using data [extracted from Open Street Map](https://mapping.share.library.harvard.edu/blog/2021/extract-osm-data/) and censuses to explore a city's cultural life, most of the projects were completed using paper alone. In this post, we will share some of the spatial skills leveraged, as well as highlight some great student projects.
+While some students did experiment with GIS tools to create their maps, like [this StoryMap](https://storymaps.arcgis.com/stories/29f325491029422290d8e014f2929862) interrogating the complexities of leisure and safety in the experience of nightlife for women, or [this project](http://jesseng.com/london-maps/) using crowd-sourced data from Open Street Map and censuses to explore a city's cultural life, most of the projects were completed using paper alone. In this post, we will share some of the spatial skills leveraged, as well as highlight some great student projects.
 
 ## Class context
 
@@ -39,7 +39,7 @@ Most of the students focused on the experiences and lived reality of themselves,
 
 For instance, Tamar Sella was interested in exploring gentrification in the Shoreditch neighborhood, and compared Instagram reviews of upscale bakeries to areas with high Bangladeshi population density.
 
-The learning curve for downloading and manipulating geospatial census data to create census maps is steep, and outside the scope of this assignment. In this situation, we helped students find and use a tool called [DataShine](https://datashine.org.uk/), which is England’s version of something like [SocialExplorer](http://nrs.harvard.edu/urn-3:hul.eresource:socialex)—a tool that makes it easy to explore the country's census data. Using tools like these, one can get a sense of the demographic breakdown in an area, and even export map images.
+The learning curve for downloading and manipulating geospatial census data to create census maps is steep, and outside the scope of this assignment. In this situation, we helped students find and use a tool called [DataShine](https://datashine.org.uk/), which is England’s version of something like [SocialExplorer](https://www.socialexplorer.com/my-home)—a tool that makes it easy to explore the country's census data. Using tools like these, one can get a sense of the demographic breakdown in an area, and even export map images.
 
 <div class="img-zoom-a-little">
     <img src="media/4.png" style="width:100%; max-height:70em;" alt="Screen capture of data maps showing people who commute by foot.">

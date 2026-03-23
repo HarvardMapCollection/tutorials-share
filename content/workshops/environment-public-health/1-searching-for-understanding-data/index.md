@@ -6,6 +6,8 @@ layout: single2
 description: 
 ---
 
+_Guiding question: How do the 'hidden' details in a dataset—like its source and attribute names—determine how we visually layer and symbolize information to reveal patterns of environmental burden?_
+
 To explore accessing and using geospatial data, we will start with an example data scenario. The map below shows census tracts graded by social vulnerability index, layered against the locations of known toxics release facilities in Massachusetts. 
 
 

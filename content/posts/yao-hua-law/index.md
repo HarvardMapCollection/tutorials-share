@@ -4,9 +4,6 @@ date: 2026-04-07
 tags: ["news", "applied-projects"]
 authors: ["Yao Hua Law"]
 ---
-
-# What I learned making a geospatial platform
-
 During my 9-month [Nieman Fellowship for Journalism at Harvard](https://nieman.harvard.edu/), I built -- as a side project -- an online platform for tracking forest reserve changes in Peninsular Malaysia. While the platform has some rough edges, it works and is ready to improve on user feedback.
 
 I have been mulling about this project when I was reporting for environmental newsroom [Macaranga](https://www.macaranga.org). Visiting the Harvard Map Collection spurred me into action. To my pleasant surprise, the Collection has land-use maps and atlas of 1970s Peninsular Malaysia that provided baselines for charting forest changes across decades. And I found a guide in librarian Belle Lipton. Chats with Belle kept me on course and shaped my design of the platform.

@@ -27,7 +27,7 @@ From this file, you can select the countries traveled to by right-clicking the l
 
 ![How to open the attribute table](media/attribute-table.png)
 
-### Pulling out specific places traveled to
+#### Pulling out specific places traveled to
 
 Use the columns in the `Attribute Table` to make sense of which record pertains to which feature on the map. You can select features you want to include on the travel route by highlighting the row corresponding to that country. To the very left of the rows, there is a list 1, 2, 3, 4, etc. numbering the rows. To select a row, click the number to the left of that row. To highlight multiple rows, hold down the `command` key while making your selection. You'll notice that once you have selected a feature, that row/feature will now be highlighted on the map. 
 
@@ -40,3 +40,24 @@ Add that new file to the project.
 Pictured below is a map demonstrating the two layers compiled together: (1) the original data source (all countries), and (2) the selected features (the countries along the travel path). 
 ![selected countries](media/map2.png)
 *We are styling the map as we work along using tips from the guide Cartographic Conventions for Academic Publishing.*
+
+### Creating the centroids or "stops"
+
+Now that we have selected the polygons representing the locations visisted, we can use the `Centroids` tool to create point data. The resulting layer is what we can use to style a travel path represented by a line.
+
+From the main menu across the top of the screen, select `Vector`. Hover over `Geometry Tools` and select `Centroids`.
+
+![Menu for navigating to centroid tool in QGIS](media/centroids.png)
+
+For the `Input Layer` ensure you are selecting the correct layer -- the layer containing only the features selected as being part of the travel route. 
+
+Under `Centroids` click the ellipses button and choose where to save the new layer on your computer. Choose `Save to File`. You can now select `Run` to run the tool. 
+
+The centroids should now be visible. 
+
+![map showing selected countries with centroids](media/centroids2.png)
+*Example result of running the centroids tool.*
+
+### Ensuring the route order
+
+Next, you will need to add the order of the stops. Do this by opening the attribute table: Right-click the layer in the `Layer List` and select `Open Attribute Table`.

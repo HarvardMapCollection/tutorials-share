@@ -6,8 +6,15 @@
     <description>Recent content on Harvard Library GIS Notes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Points to Path for Journey Maps in QGIS</title>
+      <link>http://localhost:1313/tutorials/arcgis-qgis/travel-paths/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/arcgis-qgis/travel-paths/</guid>
+      <description>1. Ensure you have data for the travel stops stored as points If you already have point data&amp;hellip; If you already have a spreadsheet that indicates the stops on the route as points or latitude and longitude coordinate pairs, you&amp;rsquo;ll want to make sure you&amp;rsquo;ve successfully added your spreadsheet data to the map (tutorial). The add a spreadsheet to QGIS tutorial also gives some example spreadsheet data you can use to model how to format the coordinates, if you are creating or cleaning this data yourself.</description>
+    </item>
     <item>
       <title>What I Learned Creating a Geospatial Platform</title>
       <link>http://localhost:1313/posts/yao-hua-law/</link>

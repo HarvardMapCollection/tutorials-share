@@ -3,7 +3,7 @@ title: "Using Points to Path for Journey Maps in QGIS"
 date: 2026-04-13
 tags: ["qgis-hub"]
 layout: single2
-draft: false
+draft: true
 description: Step-by-step instructions for converting a series of locations into a journey map.
 ---
 

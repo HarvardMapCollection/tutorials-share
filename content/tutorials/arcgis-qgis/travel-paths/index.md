@@ -51,7 +51,7 @@ From the main menu across the top of the screen, select `Vector`. Hover over `Ge
 
 For the `Input Layer` ensure you are selecting the correct layer -- the layer containing only the features selected as being part of the travel route. 
 
-Under `Centroids` click the ellipses button and choose where to save the new layer on your computer. Choose `Save to File`. You can now select `Run` to run the tool. 
+Under `Centroids` click the ellipsis button and choose where to save the new layer on your computer. Choose `Save to File`. You can now select `Run` to run the tool. 
 
 The centroids should now be visible. 
 
@@ -71,7 +71,7 @@ Now you are ready to generate the path by using the `Point to Path` tool. Locate
 
 Search for `Points to path` in the processing tools search bar. Open the widget. As the `Input layer` select the `centroids` with the `fid` edits to reflect the travel path sequence. Under `Order expression` select `fid`.
 
-Click the elipsis icon to the right of `Paths` and select `Save to file`. Designate where you want to save this on your computer, saving as a `geopackage` or `.gpkg`. Select `Run` to run the tool. You should now see a line representing a travel path.
+Click the ellipsis icon to the right of `Paths` and select `Save to file`. Designate where you want to save this on your computer, saving as a `geopackage` or `.gpkg`. Select `Run` to run the tool. You should now see a line representing a travel path.
 
 To symbolize this line, including directionality, you can use the following settings:
 

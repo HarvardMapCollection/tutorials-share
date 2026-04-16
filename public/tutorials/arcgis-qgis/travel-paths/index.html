@@ -203,7 +203,7 @@ Pictured below is a map demonstrating the two layers compiled together: (1) the 
 <p>From the main menu across the top of the screen, select <code>Vector</code>. Hover over <code>Geometry Tools</code> and select <code>Centroids</code>.</p>
 <p><img src="media/centroids.png" alt="Menu for navigating to centroid tool in QGIS"></p>
 <p>For the <code>Input Layer</code> ensure you are selecting the correct layer &ndash; the layer containing only the features selected as being part of the travel route.</p>
-<p>Under <code>Centroids</code> click the ellipses button and choose where to save the new layer on your computer. Choose <code>Save to File</code>. You can now select <code>Run</code> to run the tool.</p>
+<p>Under <code>Centroids</code> click the ellipsis button and choose where to save the new layer on your computer. Choose <code>Save to File</code>. You can now select <code>Run</code> to run the tool.</p>
 <p>The centroids should now be visible.</p>
 <p><img src="media/centroids2.png" alt="map showing selected countries with centroids">
 <em>Example result of running the centroids tool.</em></p>
@@ -214,7 +214,7 @@ Pictured below is a map demonstrating the two layers compiled together: (1) the 
 <p>Now you are ready to generate the path by using the <code>Point to Path</code> tool. Locate the <code>Toolbox</code> icon in the QGIS menu bar represented by a blue gear icon.
 <img src="media/toolbox.png" alt="Toolbox icon in QGIS"></p>
 <p>Search for <code>Points to path</code> in the processing tools search bar. Open the widget. As the <code>Input layer</code> select the <code>centroids</code> with the <code>fid</code> edits to reflect the travel path sequence. Under <code>Order expression</code> select <code>fid</code>.</p>
-<p>Click the elipsis icon to the right of <code>Paths</code> and select <code>Save to file</code>. Designate where you want to save this on your computer, saving as a <code>geopackage</code> or <code>.gpkg</code>. Select <code>Run</code> to run the tool. You should now see a line representing a travel path.</p>
+<p>Click the ellipsis icon to the right of <code>Paths</code> and select <code>Save to file</code>. Designate where you want to save this on your computer, saving as a <code>geopackage</code> or <code>.gpkg</code>. Select <code>Run</code> to run the tool. You should now see a line representing a travel path.</p>
 <p>To symbolize this line, including directionality, you can use the following settings:</p>
 <p>Double-click on the new travel path line layer in the <code>Layer list</code> to open the layer properties and ensure the <code>Symbology</code> sub-menu is selected.</p>
 <p>At the top of the page where it says <code>Line</code> and then <code>Simple Line</code>, make sure <code>Line</code> is engaged, and then click the green plus sign to the right to <code>Add a symbol layer</code>. You should now have two items reading <code>Simple Line</code>. Click on the bottom one, and click the <code>Color</code> bar to <code>Select a line color</code>. Under <code>HTML Notation</code> type in <code>#000000</code> or true black. Change the <code>Stroke width</code> to <code>.4</code> and the <code>Stroke style</code> to <code>Dash Line</code>.</p>

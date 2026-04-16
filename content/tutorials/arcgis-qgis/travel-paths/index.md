@@ -3,7 +3,7 @@ title: "Using Points to Path for Journey Maps in QGIS"
 date: 2026-04-13
 tags: ["qgis-hub"]
 layout: single2
-draft: true
+draft: false
 description: Step-by-step instructions for converting a series of locations into a journey map.
 ---
 
@@ -39,7 +39,7 @@ Once you have all of your features selected, save them to a new layer. Right-cli
 Add that new file to the project. 
 Pictured below is a map demonstrating the two layers compiled together: (1) the original data source (all countries), and (2) the selected features (the countries along the travel path). 
 ![selected countries](media/map2.png)
-*We are styling the map as we work along using tips from the guide Cartographic Conventions for Academic Publishing.*
+*We are styling the map as we work along using tips from the guide Cartographic Conventions for Academic Publishing [coming soon].*
 
 ### Creating the centroids or "stops"
 
@@ -61,3 +61,35 @@ The centroids should now be visible.
 ### Ensuring the route order
 
 Next, you will need to add the order of the stops. Do this by opening the attribute table: Right-click the layer in the `Layer List` and select `Open Attribute Table`.
+
+`Toggle editing mode` by clicking the button in the top left of the attribute table window represented by a pencil icon. While editing mode is toggled on, you should be able to directly edit the values in the table. In the `fid` field, you can assign values (e.g. `1`, `2`, `3`, etc.) to the features in the order you want them to appear in the travel path. 
+
+Save your edits by clicking the pencil icon again to `toggle editing mode`.
+
+Now you are ready to generate the path by using the `Point to Path` tool. Locate the `Toolbox` icon in the QGIS menu bar represented by a blue gear icon.
+![Toolbox icon in QGIS](media/toolbox.png)
+
+Search for `Points to path` in the processing tools search bar. Open the widget. As the `Input layer` select the `centroids` with the `fid` edits to reflect the travel path sequence. Under `Order expression` select `fid`.
+
+Click the elipsis icon to the right of `Paths` and select `Save to file`. Designate where you want to save this on your computer, saving as a `geopackage` or `.gpkg`. Select `Run` to run the tool. You should now see a line representing a travel path.
+
+To symbolize this line, including directionality, you can use the following settings:
+
+Double-click on the new travel path line layer in the `Layer list` to open the layer properties and ensure the `Symbology` sub-menu is selected. 
+
+At the top of the page where it says `Line` and then `Simple Line`, make sure `Line` is engaged, and then click the green plus sign to the right to `Add a symbol layer`. You should now have two items reading `Simple Line`. Click on the bottom one, and click the `Color` bar to `Select a line color`. Under `HTML Notation` type in `#000000` or true black. Change the `Stroke width` to `.4` and the `Stroke style` to `Dash Line`.
+
+Click the top `Single Line` back at the top of the page. We will change this from `Single Line` by finding where it says `Symbol Layer Type` and clicking the currently selected value `Single Line` to reveal more options. Choose `Marker Line.` Engage where it says `Simple Marker` and select an `Arrow` icon.
+
+![Selecting a new marker in QGIS symbology interface](media/simple-marker.png)
+
+Select the `Fill color` bar to `Select a fill color` and change the `HTML Notation` to `#000000`. Change the `Size` to `4.0`. Under `Stroke style` choose `No Line` to make the arrow appear more clearly.
+
+Select where it says `Marker Line` at the top of the widget, and change the following settings: Uncheck `With interval` and select `On first vertex`; `On last vertex` and `On inner vertices`. Choose `OK` to observe if the line path is appearing how you want it to. These style guides are suggestions only; you can edit these settings to make sure you are representing the data effectively. 
+
+![travel path styled](media/map.png)
+
+You can either change the point symbology of the centroids to a smaller black dot (e.g. size `1.5`) _or_`uncheck` the `Centroids` layer entirely in the layer list to have the dots not appear. You may want to leave them in the layer list, though not symbolized, so that you can use the attributes to power labelling later on. Tips for labeling and otherwise laying out the rest of the map (e.g. titles, legends, exporting as an image, etc.) are covered in Cartographic Conventions for Academic Publishing [coming soon].
+
+
+

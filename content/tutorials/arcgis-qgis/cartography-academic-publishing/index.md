@@ -50,7 +50,7 @@ Please find the following go-to resources for getting started with styling a map
     * **Option 1**: If you want to opt out of using additional water data, you can set the background of the map to light gray from the `Print Layout`. 
         * In the `Print Layout`, click on the `Map`. In `Item Properties`, find the `Background` section.
         * Change the color from white to a very light gray `#f0f0f0` or `#e0e0e0`.
-        * The problem with this method is that it doesn't show any inland water bodies, such as lakes or rivers.
+        * The problem with this method is that it doesn't show any inland water bodies, such as lakes or rivers. This will be fixed if you download ocean/lakes datasets.
     * **Option 2**: The professional standard for map making is to obtain data to represent water features. You can obtain this data on [Natural Earth](https://www.naturalearthdata.com/downloads/10m-physical-vectors/) by visiting the `Physical Vectors` section of the downloads page. 
         * Download [Ocean](https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/physical/ne_10m_ocean.zip) and [Lakes + Reservoirs](https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/physical/ne_10m_lakes.zip) datasets from Natural Earth. 
         * Place the ocean layer underneath any landmass data layers you have, e.g. countries.

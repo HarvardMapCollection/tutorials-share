@@ -167,7 +167,7 @@
         
         <span class="meta-item">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-          4 min read
+          11 min read
         </span>
         
       </div>
@@ -190,19 +190,69 @@
 </blockquote>
 <h2 id="where-to-find-terms-used-in-this-guide">Where to find terms used in this guide</h2>
 <blockquote>
-<p><code>Print Layout</code>
-<code>Natural Earth</code></p>
+<p><code>Natural Earth</code> → While you may have data you have created or obtained elsewhere, you will likely need background or cartographic data layers to make your map more legible. <a href="https://www.naturalearthdata.com/">Natural Earth</a> is a great source for open cartography data.</p>
+</blockquote>
+<blockquote>
+<p><code>Print Layout</code> → While much of the individual layer styling will occur in the <code>Layer Properties</code> from the main QGIS project window, a good portion of the map design will happen in QGIS&rsquo; <code>Print Layout</code>. You can access this facet of QGIS by navigating in the top menu <code>Project</code> → <code>New Print Layout</code>. You will be prompted to enter a name for your map; this simply refers to what the image you end up exporting will be called as a filename (e.g. if you name your map &ldquo;map&rdquo;, the filename will be called <code>map.png</code> or <code>map.pdf</code>). It is highly recommended to become briefly acquainted with the different elements of the QGIS <code>Print Layout</code> before starting your mapping. Here is a YouTube video that is under 3 minutes about the print layout: <a href="https://www.youtube.com/watch?v=ojRrIZ0M8o4">A quick guide to setting up a Print Layout in QGIS</a>.</p>
 </blockquote>
 <h2 id="general-rules-of-thumb">General rules of thumb</h2>
 <ul>
-<li>
-<p>Academic publishing has strict requirements: High contrast, legibility at small scales, and no reliance on color. Many readers print in grayscale or journals charge extra for color.</p>
+<li>Academic publishing has strict requirements: High contrast, legibility at small scales, and no reliance on color. Many readers print in grayscale or journals charge extra for color.</li>
+<li>For academic maps, less is more. Do not use Google Maps/Satellite imagery unless that style is the actual subject.</li>
+<li>Journals often compress images. Colors that look different to you may look identical when desaturated.</li>
+<li>If categorizing data, use no more than 3-4 shades of gray. If you need more categories, use patterns, e.g. use a solid light gray for &ldquo;Category A&rdquo; and a diagonal line pattern for &ldquo;Category B.&rdquo;</li>
+<li><strong>Line Widths</strong>:
+<ul>
+<li>Primary boundaries: <code>0.3 mm</code></li>
+<li>Secondary boundaries/Roads: <code>0.1 mm</code></li>
+</ul>
 </li>
-<li>
-<p>For academic maps, less is more. Do not use Google Maps/Satellite imagery unless that style is the actual subject.</p>
+<li><strong>The Scale Bar</strong>: Use the &ldquo;Line Ticks Up/Down&rdquo; style (avoid zebra blocks, which can appear too heavy).</li>
+<li><strong>North Arrows</strong>: Avoid decorative roses. If you want to include one, a simple arrow is sufficient.</li>
+<li><strong>The Frame</strong>: Add a simple black frame <code>0.2 mm</code> around the map item in the <code>Print Layout</code>.</li>
+<li><strong>The Squint Test</strong>: Squint at your map. If you can&rsquo;t tell the difference between two layers, a reader won&rsquo;t be able to either.</li>
+<li><strong>Aspect Ratios</strong>: Academic journals usually have specific widths (e.g., 3.5 inches for single column, 7 inches for double). Set <code>Page Size</code> in the <code>Print Layout</code> to the exact dimensions the journal requests before you start styling.</li>
+</ul>
+<h2 id="centering-the-map">Centering the map</h2>
+<ul>
+<li>Academic journals usually have strict size limits. You will want to gain facility with displaying important areas at the right scale/size.</li>
+<li>Your study area should occupy at least 70-80% of the map frame.</li>
+<li>From the vertical toolbar in the <code>Print Layout</code> you will find the <code>Select</code> tool, which is represented by a standard white arrow. This moves the &ldquo;box&rdquo; around the page.</li>
+<li>You will also find the <code>Move Item Content</code> tool, which is represented by a blue map with a four-way arrow inside it. Once this tool is engaged, you can click and drag inside the map to pan (re-center the world).</li>
+<li>Technically, if you have the <code>Move Item Content</code> tool engaged, you are able to zoom in and out of the map to adjust the <code>Scale</code>. You can achieve this on by holding the <code>Ctrl</code> key (or <code>Command</code> on Mac) and scroll the mouse wheel while the tool is active.</li>
+<li>The scroll approach to adjustment of scale, however, can be quite finnicky, and you also might not always have a mouse! A more precise way is to use the sidebar to set scale.
+<ul>
+<li>Click on the map in the layout using the <code>Select</code> tool.</li>
+<li>On the right-hand side, look for the <code>Item Properties</code> tab.</li>
+<li>Find the <code>Scale</code> box.
+<ul>
+<li>A <em>smaller</em> number means you are zoomed <em>in</em> further, e.g. If the scale is <code>100,000,000</code>, try changing it to <code>40,000,000</code> to zoom into a specific continent.</li>
+</ul>
 </li>
 </ul>
-<h2 id="background">Background</h2>
+</li>
+<li>Above the <code>Scale</code> box in the <code>Item Properties</code> there are icons that let you set the QGIS map project canvas to match the scale of the map in the <code>Print Layout</code> and vice versa.</li>
+<li>You can show at least one area of neighboring countries/water bodies around your target area so a reader can orient themselves.</li>
+<li><strong>Inset Maps</strong>: If you need to show two far-apart places, you can use two map frames or an <code>Inset Map</code>.</li>
+<li><strong>Locator Maps</strong>: If you want to give more geographic context about where in the world your map data is situated, you can add a locator map.</li>
+<li>Steps for adding <code>Inset</code> or <code>Locator</code> maps in the QGIS <code>Print Layout</code> are included in the Stanford Geospatial Center <a href="https://sites.google.com/stanford.edu/gis-cartography/workshops/maps-for-academic-journals">QGIS Cartography guide</a> included in the introductory resources section at the top of this page.</li>
+</ul>
+<h2 id="choosing-a-projection">Choosing a projection</h2>
+<blockquote>
+<p>QGIS defaults to using Mercator (EPSG: 4326), but you should probably <strong>avoid using Mercator</strong> for your map. While this is a common style you will recognize from Google Maps, it&rsquo;s known to warp continents in ways that misrepresent size and imply bias. Also, there are generally usually more attractive projections available to you, depending on which region of the world you&rsquo;re representing.</p>
+</blockquote>
+<ul>
+<li>If you click the <code>Coordinate Reference System</code> box at the bottom of the <strong>QGIS project canvas</strong> (it is likely to display <code>EPSG: 4326</code>), this will open a widget that allows you to search for other projections.</li>
+<li>A good way to start choosing a projection is to ask yourself &ldquo;What am I measuring?&rdquo;:
+<ul>
+<li>If you&rsquo;re creating a <strong>global reference map</strong>, you can choose <code>World_Robinson</code> or <code>World_Winkel_Tripel_NGS</code>. These don&rsquo;t perfectly preserve area or shape, but they look right to the human eye.</li>
+<li>If you are <strong>comparing the size or density</strong> (e.g. choropleth) of regions, choose an Mollweide or Albers Equal Area projection for the region you are studying, such as <code>World_Mollweide</code> or <code>Europe_Albers_Equal_Area</code>.</li>
+<li>If you are showing a <strong>specific continent or country</strong>, you can choose a localized UTM Zone or State Plane. Because they&rsquo;re focused so locally, there is way less distortion. Search in the widget for specific places.</li>
+</ul>
+</li>
+<li>Don&rsquo;t be afraid to search online for help selecting a projection. GIS forums or search results will give you EPSG codes you can apply in the QGIS <code>Coordinate Reference System</code> widget.</li>
+</ul>
+<h2 id="canvas-background">Canvas background</h2>
 <ul>
 <li>Set your project background to white: <code>#ffffff</code>
 <ul>
@@ -273,9 +323,74 @@
 </ul>
 </li>
 </ul>
-<blockquote>
-<p>If something in this guide is not working as expected, please consider letting us know. Here is the link to the Harvard Map Collection&rsquo;s <a href="https://ask.library.harvard.edu/maps?_gl=1*kcj41q*_ga*ODE1NzM1NTExLjE3Njc2MzQzMTc.*_ga_3CXC97RWEK*czE3NzY0NDE0MTYkbzQyJGcwJHQxNzc2NDQxNDE2JGo2MCRsMCRoMA..">support request form</a>. We will get back to you promptly.</p>
-</blockquote>
+<h2 id="land-mass">Land mass</h2>
+<ul>
+<li>Use Natural Earth data (1:10m or 1:50m) for country/state outlines.
+<ul>
+<li>Landmass: <code>#f2f2f2</code> <em>No fill, or a very light gray.</em></li>
+<li>Borders: <code>#636363</code> <em>Dark gray.</em></li>
+</ul>
+</li>
+<li><strong>Selected polygons</strong>: If you have particular polygons you want to call out or draw attention to, you can style them differently than the background landmass features.
+<ul>
+<li><strong>Option 1 double-encode</strong>: In academic cartography, you can &ldquo;double-encode&rdquo; information so it works even if the print quality is poor. Identify callout polygons by both their <code>Fill</code> and their <code>Outline</code>.
+<ul>
+<li><code>Fill Style</code>: <code>#b3b3b3</code></li>
+<li><code>Stroke Color</code>: <code>#000000</code></li>
+<li><code>Stroke Width</code>: <code>0.3 mm</code></li>
+<li><strong>Contrast</strong>: Keep the background polygon layer outline at <code>0.1 mm</code> and a light gray <code>#cccccc</code>. This makes the selected polygons stand out.</li>
+</ul>
+</li>
+<li><strong>Option 2 adding subtle texture</strong>: The &ldquo;Stipple&rdquo; effect makes polygons look distinct.
+<ul>
+<li>From <code>Symbology</code> you should see <code>Simple Fill</code> in the box. Click <code>Add symbol layer</code>, represented by a green plus sign button at the top right of that box to add a second layer.</li>
+<li>Click on the bottom <code>Simple Fill</code> in the tree.
+<ul>
+<li><code>Fill color</code>: <code>#f2f2f2</code></li>
+<li><code>Stroke color</code>: <code>#000000</code></li>
+<li><code>Stroke width</code>: <code>0.3 mm</code></li>
+</ul>
+</li>
+<li>Click on the top <code>Simple Fill</code> in the tree.
+<ul>
+<li><code>Symbol layer type</code>: Change this from <code>Simple Fill</code> to <code>Point Pattern Fill</code></li>
+<li><code>Distance X and Y</code>: Set both to <code>2.0 mm</code></li>
+<li><code>Displacement X</code>: <code>1.0 mm</code></li>
+</ul>
+</li>
+<li>Click on <code>Simple Marker</code> nested inside the <code>Point Pattern Fill</code>
+<ul>
+<li><code>Size</code>: <code>0.2 mm</code></li>
+<li><code>Fill color</code>: <code>#000000</code></li>
+<li><code>Stroke style</code>: <code>No Pen</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="typography-and-labels">Typography and labels</h2>
+<ul>
+<li>Use a standard Sans-Serif (Arial, Helvetica, or Roboto). They remain legible even when the map is shrunk to a single-column width in a PDF.</li>
+<li>For font size, never go below <code>6pt</code>. Aim for <code>8pt</code> for general labels.</li>
+<li>Use label buffers:
+<ul>
+<li><strong>Size</strong>: <code>0.7 mm</code></li>
+<li><strong>Color</strong>: <code>White</code> <em>This creates a tiny &ldquo;halo&rdquo; so text remains readable when it crosses lines or borders.</em></li>
+<li><strong>Target Countries</strong>: <code>8pt</code> or <code>9pt</code>, and <code>BOLD CAPS</code>. <em>Caps are found under <code>Labels</code> sub-menu <code>Formatting</code>. Under <code>Type Case</code> select <code>All uppercase</code>.</em></li>
+<li><strong>Water Bodies</strong>: Use <em>Italics</em>, <code>7pt</code> or <code>8pt</code>, <code>#555555</code> or <code>#454545</code>.</li>
+</ul>
+</li>
+<li>Use the <code>Move Label</code> tool in the <code>QGIS Label Toolbar</code> to manually move names so they don&rsquo;t overlap important features.</li>
+<li>For small regions, enable <code>Callouts</code> in the <code>Labels tab</code>. This will draw a neat &ldquo;leader line&rdquo; from text back to the feature.</li>
+</ul>
+<h2 id="advanced-map-design">Advanced map design</h2>
+<p>If you have facility with Adobe Illustrator, you can export your GIS map layers from QGIS into a format that will open in Illustrator and preserve the layer relationships. From the <code>Print Layout</code> select <code>Layout</code> from the top menu. You can choose to export your map data as either <code>SVG</code> or <code>PDF</code>. Check <code>Export labels as paths</code> (if you don&rsquo;t have the font) or <code>Export labels as text objects</code> (if you want to edit them).</p>
+<h2 id="contracting-a-cartographer">Contracting a cartographer</h2>
+<p>If you are looking for even more professional-looking maps, or have limited bandwidth to try your own hand at map making, don&rsquo;t worry, you have options. The North American Cartographic Information Society, or NACIS, maintains an up-to-date <a href="https://nacis.org/our-society/companies/">list of professional cartography companies</a> or independent map makers. Peruse this list, check out the designs on the portfolio pages, and you might find a style of cartographer you want to hire. You might also consider NACIS&rsquo; <a href="https://nacis.org/our-society/university-labs/">list of University cartography labs</a>. Schools with cartography programs often have talented students looking to build their portfolios and gain experience.</p>
+<h2 id="additional-support">Additional support</h2>
+<p>Thank you for reading this guide! If any features are not working as expected, please consider letting us know. Here is the link to the Harvard Map Collection&rsquo;s <a href="https://ask.library.harvard.edu/maps?_gl=1*kcj41q*_ga*ODE1NzM1NTExLjE3Njc2MzQzMTc.*_ga_3CXC97RWEK*czE3NzY0NDE0MTYkbzQyJGcwJHQxNzc2NDQxNDE2JGo2MCRsMCRoMA..">support request form</a>. We aim to get back to you promptly.</p>
 
     </div>
   </div>

@@ -167,7 +167,7 @@
         
         <span class="meta-item">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-          2 min read
+          4 min read
         </span>
         
       </div>
@@ -188,7 +188,91 @@
 <h2 id="using-this-guide">Using this guide</h2>
 <p>At the time of writing, <a href="https://qgis.org/download/">QGIS</a> is in-between versions. Version 3.4 is the <strong>long-term release</strong> which means the features are more or less tried and true. Newer versions (e.g. v. 4), while with overall improved features, can often have bugs and functionalities that don&rsquo;t match expected behavior. Navigating the distance between different versions can result in guides with slightly differing instructions than your version of software. This can usually be resolved with a quick online search (e.g. &ldquo;I can&rsquo;t find where to turn my labels into uppercase in QGIS&rdquo;), but if you would appreciate additional troubleshooting support after trying on your own, please don&rsquo;t hesitate to <a href="https://ask.library.harvard.edu/maps?_gl=1*1uxp7rt*_ga*ODE1NzM1NTExLjE3Njc2MzQzMTc.*_ga_3CXC97RWEK*czE3NzY0NDMyNTIkbzQzJGcxJHQxNzc2NDQzNjAwJGo2MCRsMCRoMA..">fill out our request support form</a>.</p>
 </blockquote>
+<h2 id="where-to-find-terms-used-in-this-guide">Where to find terms used in this guide</h2>
+<blockquote>
+<p><code>Print Layout</code>
+<code>Natural Earth</code></p>
+</blockquote>
 <h2 id="general-rules-of-thumb">General rules of thumb</h2>
+<ul>
+<li>
+<p>Academic publishing has strict requirements: High contrast, legibility at small scales, and no reliance on color. Many readers print in grayscale or journals charge extra for color.</p>
+</li>
+<li>
+<p>For academic maps, less is more. Do not use Google Maps/Satellite imagery unless that style is the actual subject.</p>
+</li>
+</ul>
+<h2 id="background">Background</h2>
+<ul>
+<li>Set your project background to white: <code>#ffffff</code>
+<ul>
+<li><strong>Option 1</strong>: Set the <code>Canvas Background</code> (The Working Area). This changes the &ldquo;paper&rdquo; color you see while working in the main QGIS window.
+<ul>
+<li>Go to <code>Project</code> &gt; <code>Properties</code>.</li>
+<li>Select the <code>General</code> tab on the left sidebar.</li>
+<li>Locate the <code>Background</code> color setting.</li>
+<li>Click the <code>color</code> bar and set the hex code: <code>#ffffff</code>.</li>
+</ul>
+</li>
+<li><strong>Option 2</strong>: Set the <code>Map Background</code> in the <code>Print Layout</code>. This ensures your final exported map has a clean white background.
+<ul>
+<li>Open your <code>Print Layout</code> window.</li>
+<li>Select the <code>Map</code> item on your layout.</li>
+<li>In the <code>Item Properties</code> panel on the right, scroll down to the <code>Background</code> section.</li>
+<li>Ensure the box is <code>checked</code> and set the color to <code>#ffffff</code>.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="water">Water</h2>
+<ul>
+<li>
+<p>Water Bodies: Use a very light gray <code>#e0e0e0</code> or a subtle hatch pattern. Avoid blue.</p>
+</li>
+<li>
+<p>You don&rsquo;t technically <em>need</em> GIS data layers to represent water bodies, but it improves the aesthetics of the map.</p>
+<ul>
+<li><strong>Option 1</strong>: If you want to opt out of using additional water data, you can set the background of the map to light gray from the <code>Print Layout</code>.
+<ul>
+<li>In the <code>Print Layout</code>, click on the <code>Map</code>. In <code>Item Properties</code>, find the <code>Background</code> section.</li>
+<li>Change the color from white to a very light gray <code>#f0f0f0</code> or <code>#e0e0e0</code>.</li>
+<li>The problem with this method is that it doesn&rsquo;t show any inland water bodies, such as lakes or rivers.</li>
+</ul>
+</li>
+<li><strong>Option 2</strong>: The professional standard for map making is to obtain data to represent water features. You can obtain this data on <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/">Natural Earth</a> by visiting the <code>Physical Vectors</code> section of the downloads page.
+<ul>
+<li>Download <a href="https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/physical/ne_10m_ocean.zip">Ocean</a> and <a href="https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/physical/ne_10m_lakes.zip">Lakes + Reservoirs</a> datasets from Natural Earth.</li>
+<li>Place the ocean layer underneath any landmass data layers you have, e.g. countries.
+<ul>
+<li><strong>Styling option #1</strong>:
+<ul>
+<li><code>Fill</code>: <code>#f2f2f2</code> <em>Almost white, but distinct.</em></li>
+<li><code>Stroke</code>: <code>No Pen</code> <em>You don&rsquo;t want a dark line around the ocean.</em></li>
+</ul>
+</li>
+<li><strong>Styling option #2</strong>: You can also use a <code>Line Pattern Fill</code> to achieve subtle hatching with thin, light gray lines spaced widely apart. This signifies &ldquo;water&rdquo; without using color.
+<ul>
+<li><code>Symbol layer type</code>: <code>Line Pattern Fill</code></li>
+<li><code>Hatch color</code>: <code>#d0d0d0</code></li>
+<li><code>Stroke</code>: <code>0.1 mm</code> or <code>0.05 mm</code></li>
+<li><code>Rotation</code>: <code>45.0°</code></li>
+<li><code>Spacing</code>: <code>3.0 mm</code></li>
+<li><code>Base Fill (Optional)</code>: Beneath the lines, you may include a solid <code>Simple Fill</code> layer set to a very light gray <code>#f9f9f9</code> or white <code>#ffffff</code> to define the water&rsquo;s surface. Add a base fill by using the <code>Add symbol layer</code>, represented by a green plus sign to the right of the lines symbology widget, and the <code>Move down</code> button represented by a blue arrow to move it down below the hatching.</li>
+<li><strong>Lakes</strong>: If you added a lake layer, you&rsquo;ll want to copy the same symbology you used for oceans.
+<ul>
+<li>Right-click the Oceans layer in the <code>Layer list</code> and select <code>Styles</code> &gt; <code>Copy Style</code>, and then right-click the Lakes layer and select <code>Styles</code> &gt; <code>Paste Style</code>.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 <blockquote>
 <p>If something in this guide is not working as expected, please consider letting us know. Here is the link to the Harvard Map Collection&rsquo;s <a href="https://ask.library.harvard.edu/maps?_gl=1*kcj41q*_ga*ODE1NzM1NTExLjE3Njc2MzQzMTc.*_ga_3CXC97RWEK*czE3NzY0NDE0MTYkbzQyJGcwJHQxNzc2NDQxNDE2JGo2MCRsMCRoMA..">support request form</a>. We will get back to you promptly.</p>
 </blockquote>

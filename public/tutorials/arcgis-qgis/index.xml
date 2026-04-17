@@ -6,15 +6,8 @@
     <description>Recent content in ArcGIS &#43; QGIS on Harvard Library GIS Notes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tutorials/arcgis-qgis/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Styling Maps for Academic Publishing in QGIS</title>
-      <link>http://localhost:1313/tutorials/arcgis-qgis/cartography-academic-publishing/</link>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/arcgis-qgis/cartography-academic-publishing/</guid>
-      <description>Introductory resources Please find the following go-to resources for getting started with styling a map:&#xA;QGIS Cartography, Stanford Geospatial Center This guide is a must-read if you are new to map design. It covers important concepts, especially that of visual hierarchy, and includes sets of useful instructional graphics. Cartography Guide, Axis Maps This guide goes into more depth about important map design topics, such as why cartographers label maps or choose a projection in a certain way.</description>
-    </item>
     <item>
       <title>Using Points to Path for Journey Maps in QGIS</title>
       <link>http://localhost:1313/tutorials/arcgis-qgis/travel-paths/</link>

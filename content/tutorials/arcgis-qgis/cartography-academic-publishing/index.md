@@ -3,7 +3,7 @@ title: "Styling Maps for Academic Publishing in QGIS"
 date: 2026-04-17
 tags: ["qgis-hub"]
 layout: single2
-draft: false
+draft: true
 description: This guide provides cartography tips for map making in QGIS to ensure legibility in grayscale / black-and-white printing by way of academic journal publishing standards. 
 ---
 

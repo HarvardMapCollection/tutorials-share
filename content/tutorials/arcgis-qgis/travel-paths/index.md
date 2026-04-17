@@ -39,7 +39,7 @@ Once you have all of your features selected, save them to a new layer. Right-cli
 Add that new file to the project. 
 Pictured below is a map demonstrating the two layers compiled together: (1) the original data source (all countries), and (2) the selected features (the countries along the travel path). 
 ![selected countries](media/map2.png)
-*We are styling the map as we work along using tips from the guide Cartographic Conventions for Academic Publishing [coming soon].*
+*We are styling the map as we work along using tips from the guide [Styling Maps for Academic Publishing in QGIS](https://mapping.share.library.harvard.edu/tutorials/arcgis-qgis/cartography-academic-publishing/).*
 
 ### Creating the centroids or "stops"
 
@@ -89,7 +89,7 @@ Select where it says `Marker Line` at the top of the widget, and change the foll
 
 ![travel path styled](media/map.png)
 
-You can either change the point symbology of the centroids to a smaller black dot (e.g. size `1.5`) _or_`uncheck` the `Centroids` layer entirely in the layer list to have the dots not appear. You may want to leave them in the layer list, though not symbolized, so that you can use the attributes to power labelling later on. Tips for labeling and otherwise laying out the rest of the map (e.g. titles, legends, exporting as an image, etc.) are covered in Cartographic Conventions for Academic Publishing [coming soon].
+You can either change the point symbology of the centroids to a smaller black dot (e.g. size `1.5`) _or_`uncheck` the `Centroids` layer entirely in the layer list to have the dots not appear. You may want to leave them in the layer list, though not symbolized, so that you can use the attributes to power labelling later on. Tips for labeling and otherwise laying out the rest of the map (e.g. titles, legends, exporting as an image, etc.) are covered in [Styling Maps for Academic Publishing in QGIS](https://mapping.share.library.harvard.edu/tutorials/arcgis-qgis/cartography-academic-publishing/).
 
 
 

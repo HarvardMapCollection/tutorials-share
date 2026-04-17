@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Using Points to Path for Journey Maps in QGIS | Harvard Library GIS Notes</title>
+  <meta name="description" content="Step-by-step instructions for converting a series of locations into a journey map.">
+
+  
+  <meta property="og:title" content="Using Points to Path for Journey Maps in QGIS">
+  <meta property="og:description" content="Step-by-step instructions for converting a series of locations into a journey map.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://localhost:1313/tutorials/arcgis-qgis/travel-paths-copy/">
+  <meta property="og:site_name" content="Harvard Library GIS Notes">
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+  
+  
+  <link rel="stylesheet" href="/scss/main.1a876a819e3dfa4bc212a1755efe5f62355b9f28df9538e69fab51da5d95cef5.css">
+
+  <meta name="generator" content="Hugo 0.132.1">
+  
+
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <div class="site-wrapper">
+    <header class="site-header" id="site-header">
+  <div class="header-inner">
+
+    <a href="/" class="site-brand">
+      <svg class="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M2 12h20"/>
+        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+      </svg>
+      Harvard Library GIS Notes
+      <span class="brand-tag">GIS</span>
+    </a>
+
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      
+        
+        <a class="nav-link"
+           href="/">
+          Home
+        </a>
+        
+      
+        
+        <div class="nav-dropdown">
+          <a class="nav-link nav-link--has-children"
+             href="/tutorials/">
+            Tutorials
+            <svg class="nav-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="nav-dropdown__menu">
+            
+            <a class="nav-dropdown__item" href="/tutorials/software-access/">Software Access</a>
+            
+            <a class="nav-dropdown__item" href="/tutorials/arcgis-qgis/">ArcGIS &#43; QGIS</a>
+            
+            <a class="nav-dropdown__item" href="/tutorials/data-curation/">Data Curation</a>
+            
+          </div>
+        </div>
+        
+      
+        
+        <a class="nav-link"
+           href="/workshops/">
+          Workshops
+        </a>
+        
+      
+        
+        <a class="nav-link"
+           href="/posts/">
+          News &amp; Projects
+        </a>
+        
+      
+    </nav>
+
+    <div class="header-actions">
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+
+  </div>
+</header>
+
+
+    
+    
+
+    <main id="main-content" class="site-main">
+      
+
+<article>
+  
+  <header class="hero hero--workshop">
+    <div class="container--content">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+  <span class="breadcrumb-item">
+    <a href="/">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+        <polyline points="9 22 9 12 15 12 15 22"/>
+      </svg>
+      Home
+    </a>
+  </span>
+
+  
+    
+  
+    
+    <span class="breadcrumb-item">
+      <a href="/tutorials/">Tutorials</a>
+    </span>
+    
+  
+    
+    <span class="breadcrumb-item">
+      <a href="/tutorials/arcgis-qgis/">ArcGIS &#43; QGIS</a>
+    </span>
+    
+  
+
+  <span class="breadcrumb-item">Using Points to Path for Journey Maps in QGIS</span>
+</nav>
+
+
+      
+      <div class="tag-list" style="margin-bottom: var(--space-md);">
+        
+          <a href="/tags/qgis-hub/" class="tag">qgis-hub</a>
+        
+      </div>
+      
+
+      <h1 class="hero__title">Using Points to Path for Journey Maps in QGIS</h1>
+
+      
+      <p class="hero__subtitle">Step-by-step instructions for converting a series of locations into a journey map.</p>
+      
+
+      <div class="hero__meta">
+        
+        
+        <span class="meta-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+          April 13, 2026
+        </span>
+        
+        
+        <span class="meta-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          6 min read
+        </span>
+        
+      </div>
+    </div>
+  </header>
+
+  
+  <div class="container--content section--tight">
+    <div class="content">
+      <h2 id="1-ensure-you-have-data-for-the-travel-stops-stored-as-points">1. Ensure you have data for the travel stops stored as points</h2>
+<h3 id="if-you-already-have-point-data">If you already have point data&hellip;</h3>
+<p>If you already have a spreadsheet that indicates the stops on the route as points or latitude and longitude coordinate pairs, you&rsquo;ll want to make sure you&rsquo;ve successfully added your spreadsheet data to the map (<a href="https://mapping.share.library.harvard.edu/tutorials/arcgis-qgis/add-spreadsheet/">tutorial</a>). The add a spreadsheet to QGIS tutorial also gives some example spreadsheet data you can use to model how to format the coordinates, if you are creating or cleaning this data yourself.</p>
+<blockquote>
+<p>Tip: If you are working with a spreadsheet of locations, make sure you have a column that indicates the order of the stops on the travel route. For instance, in the row for the first stop of the route, under the column header <code>stops</code> enter value <code>1</code>, in the row for the second stop, enter <code>2</code> and so on.</p>
+</blockquote>
+<h3 id="creating-centroids">Creating centroids</h3>
+<p>Alternatively, you can start with a polygon <code>shapefile</code> of places, and use this file to generate centroids or stops on the journey. For example, in this tutorial we will show how someone traveled from country to country. To do this, we&rsquo;ll start with a file with all of the countries from cartographic data site Natural Earth. (<a href="https://www.naturalearthdata.com/downloads/50m-cultural-vectors/">Download countries</a>).</p>
+<p>Add the file to QGIS by dragging the extension ending in <code>.shp</code> or the entire compressed shapefile folder.
+<img src="media/map4.png" alt="map of all countries from natural earth">
+<em>Countries shapefile from Natural Earth loaded into QGIS.</em></p>
+<p>From this file, you can select the countries traveled to by right-clicking the layer in the layer list and selecting <code>Open Attribute Table</code>.</p>
+<p><img src="media/attribute-table.png" alt="How to open the attribute table"></p>
+<h4 id="pulling-out-specific-places-traveled-to">Pulling out specific places traveled to</h4>
+<p>Use the columns in the <code>Attribute Table</code> to make sense of which record pertains to which feature on the map. You can select features you want to include on the travel route by highlighting the row corresponding to that country. To the very left of the rows, there is a list 1, 2, 3, 4, etc. numbering the rows. To select a row, click the number to the left of that row. To highlight multiple rows, hold down the <code>command</code> key while making your selection. You&rsquo;ll notice that once you have selected a feature, that row/feature will now be highlighted on the map.</p>
+<p>Alternatively, you can also use the map interface to visually select features by using the <code>Select Features by Area or Single Click</code> button. This is on the icon banner menu across the top of the QGIS project. Once this is engaged, you can simply click features on the map to add them to your selection, rather than using the attributes in the attribute table to make your selection.
+<img src="media/select-features.png" alt="select features button on QGIS"></p>
+<p>Once you have all of your features selected, save them to a new layer. Right-click the layer in the layer list, and select <code>Export</code> → <code>Save Selected Features As</code>. Make sure to indicate where on your computer you want to save the <code>shapefile</code> or <code>geopackage</code>.</p>
+<p>Add that new file to the project.
+Pictured below is a map demonstrating the two layers compiled together: (1) the original data source (all countries), and (2) the selected features (the countries along the travel path).
+<img src="media/map2.png" alt="selected countries">
+<em>We are styling the map as we work along using tips from the guide Cartographic Conventions for Academic Publishing [coming soon].</em></p>
+<h3 id="creating-the-centroids-or-stops">Creating the centroids or &ldquo;stops&rdquo;</h3>
+<p>Now that we have selected the polygons representing the locations visisted, we can use the <code>Centroids</code> tool to create point data. The resulting layer is what we can use to style a travel path represented by a line.</p>
+<p>From the main menu across the top of the screen, select <code>Vector</code>. Hover over <code>Geometry Tools</code> and select <code>Centroids</code>.</p>
+<p><img src="media/centroids.png" alt="Menu for navigating to centroid tool in QGIS"></p>
+<p>For the <code>Input Layer</code> ensure you are selecting the correct layer &ndash; the layer containing only the features selected as being part of the travel route.</p>
+<p>Under <code>Centroids</code> click the ellipsis button and choose where to save the new layer on your computer. Choose <code>Save to File</code>. You can now select <code>Run</code> to run the tool.</p>
+<p>The centroids should now be visible.</p>
+<p><img src="media/centroids2.png" alt="map showing selected countries with centroids">
+<em>Example result of running the centroids tool.</em></p>
+<h3 id="ensuring-the-route-order">Ensuring the route order</h3>
+<p>Next, you will need to add the order of the stops. Do this by opening the attribute table: Right-click the layer in the <code>Layer List</code> and select <code>Open Attribute Table</code>.</p>
+<p><code>Toggle editing mode</code> by clicking the button in the top left of the attribute table window represented by a pencil icon. While editing mode is toggled on, you should be able to directly edit the values in the table. In the <code>fid</code> field, you can assign values (e.g. <code>1</code>, <code>2</code>, <code>3</code>, etc.) to the features in the order you want them to appear in the travel path.</p>
+<p>Save your edits by clicking the pencil icon again to <code>toggle editing mode</code>.</p>
+<p>Now you are ready to generate the path by using the <code>Point to Path</code> tool. Locate the <code>Toolbox</code> icon in the QGIS menu bar represented by a blue gear icon.
+<img src="media/toolbox.png" alt="Toolbox icon in QGIS"></p>
+<p>Search for <code>Points to path</code> in the processing tools search bar. Open the widget. As the <code>Input layer</code> select the <code>centroids</code> with the <code>fid</code> edits to reflect the travel path sequence. Under <code>Order expression</code> select <code>fid</code>.</p>
+<p>Click the ellipsis icon to the right of <code>Paths</code> and select <code>Save to file</code>. Designate where you want to save this on your computer, saving as a <code>geopackage</code> or <code>.gpkg</code>. Select <code>Run</code> to run the tool. You should now see a line representing a travel path.</p>
+<p>To symbolize this line, including directionality, you can use the following settings:</p>
+<p>Double-click on the new travel path line layer in the <code>Layer list</code> to open the layer properties and ensure the <code>Symbology</code> sub-menu is selected.</p>
+<p>At the top of the page where it says <code>Line</code> and then <code>Simple Line</code>, make sure <code>Line</code> is engaged, and then click the green plus sign to the right to <code>Add a symbol layer</code>. You should now have two items reading <code>Simple Line</code>. Click on the bottom one, and click the <code>Color</code> bar to <code>Select a line color</code>. Under <code>HTML Notation</code> type in <code>#000000</code> or true black. Change the <code>Stroke width</code> to <code>.4</code> and the <code>Stroke style</code> to <code>Dash Line</code>.</p>
+<p>Click the top <code>Single Line</code> back at the top of the page. We will change this from <code>Single Line</code> by finding where it says <code>Symbol Layer Type</code> and clicking the currently selected value <code>Single Line</code> to reveal more options. Choose <code>Marker Line.</code> Engage where it says <code>Simple Marker</code> and select an <code>Arrow</code> icon.</p>
+<p><img src="media/simple-marker.png" alt="Selecting a new marker in QGIS symbology interface"></p>
+<p>Select the <code>Fill color</code> bar to <code>Select a fill color</code> and change the <code>HTML Notation</code> to <code>#000000</code>. Change the <code>Size</code> to <code>4.0</code>. Under <code>Stroke style</code> choose <code>No Line</code> to make the arrow appear more clearly.</p>
+<p>Select where it says <code>Marker Line</code> at the top of the widget, and change the following settings: Uncheck <code>With interval</code> and select <code>On first vertex</code>; <code>On last vertex</code> and <code>On inner vertices</code>. Choose <code>OK</code> to observe if the line path is appearing how you want it to. These style guides are suggestions only; you can edit these settings to make sure you are representing the data effectively.</p>
+<p><img src="media/map.png" alt="travel path styled"></p>
+<p>You can either change the point symbology of the centroids to a smaller black dot (e.g. size <code>1.5</code>) <em>or</em><code>uncheck</code> the <code>Centroids</code> layer entirely in the layer list to have the dots not appear. You may want to leave them in the layer list, though not symbolized, so that you can use the attributes to power labelling later on. Tips for labeling and otherwise laying out the rest of the map (e.g. titles, legends, exporting as an image, etc.) are covered in Cartographic Conventions for Academic Publishing [coming soon].</p>
+
+    </div>
+  </div>
+
+  
+  
+  
+  <div class="container--content">
+    <section class="suggestions">
+      <span class="suggestions__title">Related</span>
+      <div class="suggestions__grid">
+        
+        <article class="card card--minimal">
+          <div class="card__body">
+            <h3 class="card__title">
+              <a href="/tutorials/arcgis-qgis/travel-paths/">Using Points to Path for Journey Maps in QGIS</a>
+            </h3>
+            <div class="card__footer">
+              <span class="meta">Apr 13, 2026</span>
+            </div>
+          </div>
+        </article>
+        
+        <article class="card card--minimal">
+          <div class="card__body">
+            <h3 class="card__title">
+              <a href="/tutorials/arcgis-qgis/export-file-types/">Exporting GeoJSON and Geopackage from ArcGIS Pro</a>
+            </h3>
+            <div class="card__footer">
+              <span class="meta">Feb 10, 2026</span>
+            </div>
+          </div>
+        </article>
+        
+        <article class="card card--minimal">
+          <div class="card__body">
+            <h3 class="card__title">
+              <a href="/tutorials/arcgis-qgis/import-geojson/">Importing GeoJSON into ArcGIS Pro</a>
+            </h3>
+            <div class="card__footer">
+              <span class="meta">Feb 10, 2026</span>
+            </div>
+          </div>
+        </article>
+        
+      </div>
+    </section>
+  </div>
+  
+</article>
+
+
+    </main>
+
+    <footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">Harvard Library GIS Notes</div>
+        <p class="footer-description">
+          Research guides, sample projects, and technical tutorials prepared by the <a href="https://library.harvard.edu/libraries/harvard-map-collection">Harvard Map Collection</a>.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>&copy; 2026 Harvard Library GIS Notes. All rights reserved.</span>
+      <div class="footer-social">
+        
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+
+  
+  <div class="zoom-overlay" id="zoom-overlay">
+    <img src="" alt="" id="zoom-image">
+  </div>
+
+  
+  <script src="/js/main.js"></script>
+</body>
+</html>

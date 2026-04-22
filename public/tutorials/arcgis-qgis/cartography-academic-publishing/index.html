@@ -22,7 +22,7 @@
   
   <link rel="stylesheet" href="/scss/main.1a876a819e3dfa4bc212a1755efe5f62355b9f28df9538e69fab51da5d95cef5.css">
 
-  <meta name="generator" content="Hugo 0.132.1">
+  <meta name="generator" content="Hugo 0.150.0">
   
 
 </head>
@@ -186,15 +186,12 @@
 </ul>
 <blockquote>
 <h2 id="using-this-guide">Using this guide</h2>
-<p>At the time of writing, <a href="https://qgis.org/download/">QGIS</a> is in-between versions. Version 3.4 is the <strong>long-term release</strong> which means the features are more or less tried and true. Newer versions (e.g. v. 4), while with overall improved features, can often have bugs and functionalities that don&rsquo;t match expected behavior. Navigating the distance between different versions can result in guides with slightly differing instructions than your version of software. This can usually be resolved with a quick online search (e.g. &ldquo;I can&rsquo;t find where to turn my labels into uppercase in QGIS&rdquo;), but if you would appreciate additional troubleshooting support after trying on your own, please don&rsquo;t hesitate to <a href="https://ask.library.harvard.edu/maps?_gl=1*1uxp7rt*_ga*ODE1NzM1NTExLjE3Njc2MzQzMTc.*_ga_3CXC97RWEK*czE3NzY0NDMyNTIkbzQzJGcxJHQxNzc2NDQzNjAwJGo2MCRsMCRoMA..">fill out our request support form</a>.</p>
-</blockquote>
+<p>At the time of writing, <a href="https://qgis.org/download/">QGIS</a> is in-between versions. Version 3.4 is the <strong>long-term release</strong> which means the features are more or less tried and true. Newer versions (e.g. v. 4), while with overall improved features, can often have bugs and functionalities that don&rsquo;t match expected behavior. Navigating the distance between different versions can result in guides with slightly differing instructions than your version of software. This can usually be resolved with a quick online search (e.g. &ldquo;I can&rsquo;t find where to turn my labels into uppercase in QGIS&rdquo;), but if you would appreciate additional troubleshooting support after trying on your own, please don&rsquo;t hesitate to <a href="https://ask.library.harvard.edu/maps?_gl=1*1uxp7rt*_ga*ODE1NzM1NTExLjE3Njc2MzQzMTc.*_ga_3CXC97RWEK*czE3NzY0NDMyNTIkbzQzJGcxJHQxNzc2NDQzNjAwJGo2MCRsMCRoMA..">fill out our request support form</a>.</p></blockquote>
 <h2 id="where-to-find-terms-used-in-this-guide">Where to find terms used in this guide</h2>
 <blockquote>
-<p><code>Natural Earth</code> → While you may have data you have created or obtained elsewhere, you will likely need background or cartographic data layers to make your map more legible. <a href="https://www.naturalearthdata.com/">Natural Earth</a> is a great source for open cartography data.</p>
-</blockquote>
+<p><code>Natural Earth</code> → While you may have data you have created or obtained elsewhere, you will likely need background or cartographic data layers to make your map more legible. <a href="https://www.naturalearthdata.com/">Natural Earth</a> is a great source for open cartography data.</p></blockquote>
 <blockquote>
-<p><code>Print Layout</code> → While much of the individual layer styling will occur in the <code>Layer Properties</code> from the main QGIS project window, a good portion of the map design will happen in QGIS&rsquo; <code>Print Layout</code>. You can access this facet of QGIS by navigating in the top menu <code>Project</code> → <code>New Print Layout</code>. You will be prompted to enter a name for your map; this simply refers to what the image you end up exporting will be called as a filename (e.g. if you name your map &ldquo;map&rdquo;, the filename will be called <code>map.png</code> or <code>map.pdf</code>). It is highly recommended to become briefly acquainted with the different elements of the QGIS <code>Print Layout</code> before starting your mapping. Here is a YouTube video that is under 3 minutes about the print layout: <a href="https://www.youtube.com/watch?v=ojRrIZ0M8o4">A quick guide to setting up a Print Layout in QGIS</a>.</p>
-</blockquote>
+<p><code>Print Layout</code> → While much of the individual layer styling will occur in the <code>Layer Properties</code> from the main QGIS project window, a good portion of the map design will happen in QGIS&rsquo; <code>Print Layout</code>. You can access this facet of QGIS by navigating in the top menu <code>Project</code> → <code>New Print Layout</code>. You will be prompted to enter a name for your map; this simply refers to what the image you end up exporting will be called as a filename (e.g. if you name your map &ldquo;map&rdquo;, the filename will be called <code>map.png</code> or <code>map.pdf</code>). It is highly recommended to become briefly acquainted with the different elements of the QGIS <code>Print Layout</code> before starting your mapping. Here is a YouTube video that is under 3 minutes about the print layout: <a href="https://www.youtube.com/watch?v=ojRrIZ0M8o4">A quick guide to setting up a Print Layout in QGIS</a>.</p></blockquote>
 <h2 id="general-rules-of-thumb">General rules of thumb</h2>
 <ul>
 <li>Academic publishing has strict requirements: High contrast, legibility at small scales, and no reliance on color. Many readers print in grayscale or journals charge extra for color.</li>
@@ -239,8 +236,7 @@
 </ul>
 <h2 id="choosing-a-projection">Choosing a projection</h2>
 <blockquote>
-<p>QGIS defaults to using Mercator (EPSG: 4326), but you should probably <strong>avoid using Mercator</strong> for your map. While this is a common style you will recognize from Google Maps, it&rsquo;s known to warp continents in ways that misrepresent size and imply bias. Also, there are generally usually more attractive projections available to you, depending on which region of the world you&rsquo;re representing.</p>
-</blockquote>
+<p>QGIS defaults to using Mercator (EPSG: 4326), but you should probably <strong>avoid using Mercator</strong> for your map. While this is a common style you will recognize from Google Maps, it&rsquo;s known to warp continents in ways that misrepresent size and imply bias. Also, there are generally usually more attractive projections available to you, depending on which region of the world you&rsquo;re representing.</p></blockquote>
 <ul>
 <li>If you click the <code>Coordinate Reference System</code> box at the bottom of the <strong>QGIS project canvas</strong> (it is likely to display <code>EPSG: 4326</code>), this will open a widget that allows you to search for other projections.</li>
 <li>A good way to start choosing a projection is to ask yourself &ldquo;What am I measuring?&rdquo;:

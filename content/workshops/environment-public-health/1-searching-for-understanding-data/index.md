@@ -12,7 +12,7 @@ To explore accessing and using geospatial data, we will start with an example da
 
 
 ![Map showing toxics release sites in Massachusetts layered on top of social vulnerability index](tri_svi.png)
-*Map layers displayed in desktop GIS program, QGIS.*
+*Map layers displayed in desktop GIS program, QGIS. On first glance, this looks like it may reveal a pattern, but we need to understand the dots.*
 
 - The Social Vulnerability Index (SVI) is a dataset that garners census variables to identify and rank communities based on their vulnerability to environmental hazards or other emergencies. 
 - Comparing the locations of vulnerable populations against environmental hazards such as toxics release facilities can help identify disproportionately burdened communities and prioritize health interventions.
@@ -29,6 +29,8 @@ Both of these datasets are available from the Harvard Geospatial Library (HGL):
 </div>
 
 ## In-class activity
+
+> Mock research question: Which facilities in our neighborhoods are the highest priority for intervention?
 
 1. Click on the [Toxics Release Inventory dataset](https://hgl.harvard.edu/catalog/harvard-rtlmod1-tri-facilities-ma-2024).
 
@@ -48,7 +50,7 @@ Both of these datasets are available from the Harvard Geospatial Library (HGL):
 - `Entity and Attribute Information` → `Attributes` → Read through, e.g. `F9__TRIFD`
 
 
-> 💡 Discussion: Why is this information important to know before using the dataset?
+> 💡 Discussion: Why is this information important to know before using the dataset? Which variables are most useful for our investigation?
 
 5. Back at the top of the screen in the map view, on the map click `Click to Wake`. 
 
@@ -76,6 +78,8 @@ The instructor will demo next steps in QGIS. Participants are not required to fo
 
 7. Close the attribute table and open the TRI layer properties by either (1) double-clicking on the layer in the `Layers` panel, *or* (2) right-clicking the layer in the `Layers` panel and selecting `Properties`. 
 
-8. Choose the `Symbology` menu. Click `Single Symbol` and select `Categorized`. From the drop-down arrow to the right of `Value`, choose the attribute to symbolize, `F18__CHEMI`. Select `Classify`, and then `OK`. 
+8. Choose the `Symbology` menu. Click `Single Symbol` and select `Categorized`. From the drop-down arrow to the right of `Value`, choose the attribute to symbolize, `F87__CARCI`. Select `Classify`, and then `OK`. 
+
+> 💡 Discussion: What other questions could we investigate with this dataset? Which other spatial datasets might we layer this with this one to better understand? 
 
 

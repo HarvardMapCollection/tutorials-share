@@ -60,4 +60,4 @@ The instructor will demo next steps in QGIS. Participants are not required to fo
 
 9. Expand the `Attributes` dropdown. 
 
-> 💡 Discussion: Compare the attribute descriptions in the metadata against the attribute data in the table. Select potential fields to map.
+> 💡 Discussion: Compare the attribute descriptions in the metadata against the attribute data in the table. Which fields would help us decide how we might make the clinic more accessible?

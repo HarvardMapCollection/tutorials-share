@@ -6,9 +6,6 @@ layout: single2
 description: 
 ---
 
-_Guiding question: When we layer social data over environmental data, what patterns emerge? How does the visual contrast between populations and tree cover help us identify where resources are concentrated?_
-
-
 In this tutorial, we are going to demonstrate how to map both nominal and interval data, using Environmental Justice Population and Tree Cover data as examples.
 
 - **Nominal data** refers to categories without any inherent numerical relationship.

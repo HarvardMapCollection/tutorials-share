@@ -6,8 +6,6 @@ layout: single2
 description: 
 ---
 
-_Guiding question: In GIS, every point or polygon is a row in a database. How does the relationship between the Attribute Table and the Map View allow us to ask deeper questions?_
-
 In this activity, we will use the Environmental Justice (EJ) Populations by Census Block Group dataset for the City of Boston to understand how geospatial data is structured.
 
 The EJ Populations dataset serves as a planning and analytical tool to locate neighborhoods that may face disproportionate environmental burdens or have limited access to environmental benefits due to socioeconomic factors.

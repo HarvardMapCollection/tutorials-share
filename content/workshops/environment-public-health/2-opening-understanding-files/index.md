@@ -13,6 +13,8 @@ In this activity, we will use the Environmental Justice (EJ) Populations by Cens
 The EJ Populations dataset serves as a planning and analytical tool to locate neighborhoods that may face disproportionate environmental burdens or have limited access to environmental benefits due to socioeconomic factors.
 
 ## In-class activity
+> Mock research question: You are opening a new health clinic. How might you go about understanding barriers to access?
+
 1. Visit the EJ population dataset in the Harvard Geospatial Library (HGL): [Environmental Justice Populations by Census Block Group, Boston, Massachusetts, 2020](https://hgl.harvard.edu/catalog/harvard-rtlmod1-envjusticepop-boston-2020).
 
 > 💡 Discussion: Where does this dataset come from?

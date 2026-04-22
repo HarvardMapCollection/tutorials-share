@@ -18,6 +18,8 @@ You can use this understanding to leverage cartographic conventions and software
 
 ## Datasets
 
+> Mock researcher question: Are cooling resources in the city fairly distributed?
+
 - We are going to use the `EJ_CRIT_DE` field of the [Environmental Justice Populations by Census Block Group, Boston, Massachusetts, 2020](https://hgl.harvard.edu/catalog/harvard-rtlmod1-envjusticepop-boston-2020) to map `nominal` data. `EJ_CRIT_DE` refers to the EJ criteria description. Each census block group is assigned a category, e.g. `English isolation`; `Minority and income`, etc.
 - We are going to use the `Percent_Tr` field of the [Tree Canopy Percentage by Census Tract (CT), Boston, Massachusetts, 2019](https://hgl.harvard.edu/catalog/harvard-rtlmod1-treecanopy-boston-2019) to map `interval` data. `Percent_Tr` refers to the tree canopy per census tract as a percentage of total land cover. These values are represented as percentages, e.g. `23.05%`; `14.25%`, etc.
 
@@ -81,4 +83,4 @@ The instructor will demo next steps in QGIS. Participants are not required to fo
 
 8. Select `Apply` and then `OK`. 
 
-> 💡 Discussion: Toggle the layers in the `Layers` pane using the checkboxes to compare the two maps. What do you observe?
+> 💡 Discussion: Toggle the layers in the `Layers` pane using the checkboxes to compare the two maps. What do you observe? If you could plant 1,000 new trees, where on the map would you put them?

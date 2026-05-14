@@ -34,7 +34,7 @@ Please find the following go-to resources for getting started with styling a map
 * **The Scale Bar**: Use the "Line Ticks Up/Down" style (avoid zebra blocks, which can appear too heavy).
 * **North Arrows**: Avoid decorative roses. If you want to include one, a simple arrow is sufficient.
 * **The Frame**: Add a simple black frame `0.2 mm` around the map item in the `Print Layout`.
-* **The Squint Test**: Squint at your map. If you can't tell the difference between two layers, a reader won't be able to either.
+* **The Squint Test**: Squint at your map. If you can't tell the difference between two layers, a reader won't be able to either. It's best to do this in the final format (print or digital) and size. 
 * **Aspect Ratios**: Academic journals usually have specific widths (e.g., 3.5 inches for single column, 7 inches for double). Set `Page Size` in the `Print Layout` to the exact dimensions the journal requests before you start styling.
 
 ## Centering the map 

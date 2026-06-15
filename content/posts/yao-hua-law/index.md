@@ -8,7 +8,7 @@ During my 9-month [Nieman Fellowship for Journalism at Harvard](https://nieman.h
 
 I have been mulling about this project when I was reporting for environmental newsroom [Macaranga](https://www.macaranga.org). Visiting the Harvard Map Collection spurred me into action. To my pleasant surprise, the Collection has land-use maps and atlas of 1970s Peninsular Malaysia that provided baselines for charting forest changes across decades. And I found a guide in librarian Belle Lipton. Chats with Belle kept me on course and shaped my design of the platform.
 
-The platform, called "[Fate of Our Forests](https://yhlreporter.github.io/frt/)," shows changes in forest reserves since 2002. These changes were recorded in government notices called 'gazettes'. Users can study the changes via interactive tables, maps, and figures. Anybody can download the datasets for free.
+The platform, called "[Fate of Our Forests](https://yhlreporter.github.io/fate-of-our-forests/)," shows changes in forest reserves since 2002. These changes were recorded in government notices called 'gazettes'. Users can study the changes via interactive tables, maps, and figures. Anybody can download the datasets for free.
 ## What's the need?
 
 My main goal for the platform is to make Peninsular Malaysia forest data available and usable to everyone. Forest data comes in many forms. I chose to start with gazettes and reserve boundaries because I have received the most requests for these. 

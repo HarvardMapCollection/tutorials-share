@@ -1,6 +1,6 @@
 ---
 title: "Downloading QGIS"
-date: 2023-01-19
+date: 2026-06-24
 tags: ["software-access"]
 layout: single2
 description: How to download QGIS and debug malicious software problem, "QGIS can't be opened because Apple cannot check it for malicious software error"

@@ -1,6 +1,6 @@
 ---
 title: "ArcGIS Pro Access at Harvard"
-date: 2023-06-01
+date: 2026-06-26
 tags: ["software-access"]
 
 layout: single2

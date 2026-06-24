@@ -29,4 +29,5 @@ jobs:
           port: ${{ secrets.SERVER_PORT }}
           local-dir: ./public/
           server-dir: public_html/
+          dangerous-clean-slate: true
          

@@ -6,7 +6,7 @@ image: cover.png
 authors: ["Ana Luiza Nicolae"]
 ---
 
-CHSI’s records of the Institute of Geographical Exploration may be found on [Waywiser](http://waywiser.fas.harvard.edu/people/1473/institute-of-geographical-exploration;jsessionid=F18D88AB5AA248DEBE6C0830D15D45BC/objects). This is a broad summary of the collection’s contents, with links to more detailed inventories.
+CHSI’s records of the Institute of Geographical Exploration may be found on [Waywiser](https://chsi.emuseum.com/people/1473/institute-of-geographical-exploration;jsessionid=2D0BE985D9F0461B6D443F51EE170F86). This is a broad summary of the collection’s contents, with links to more detailed inventories.
 
 | Contents | Quantity | Further details |
 | --- | --- | --- |

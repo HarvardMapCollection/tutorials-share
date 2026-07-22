@@ -15,7 +15,7 @@ For access to any of these boxes, use the below call numbers and folder names in
 
 For more information of Course numbers and titles across time, see the Harvard repository of [Courses of Instruction at Harvard (1879-2009)](https://listview.lib.harvard.edu/lists/drs-467484628).
 
-Below are all the boxes I have consulted for this project, including a short description. For more information on my numbering of the boxes, see [HUA Contents](hua-contents). For a full list of students engaged in aerial photography work at the Institute, see <a href="https://mapping.share.library.harvard.edu/posts/huige/hua-geo-studentshuige/hua-geo-students/">HUA Students of Geog. 36 & 20d/38</a>. For the Flight report summaries of the first three years of flights at the Institute, see [HUA Flight Reports](https://mapping.share.library.harvard.edu/posts/huige/hua-geo-studentshuige/hua-flight-reports/).
+Below are all the boxes I have consulted for this project, including a short description. For more information on my numbering of the boxes, see [HUA Contents](hua-contents). For a full list of students engaged in aerial photography work at the Institute, see <a href="https://mapping.share.library.harvard.edu/posts/huige/hua-geo-students/">HUA Students of Geog. 36 & 20d/38</a>. For the Flight report summaries of the first three years of flights at the Institute, see [HUA Flight Reports](https://mapping.share.library.harvard.edu/posts/huige/hua-flight-reports/).
 
 
 | HUA Call Number | Folder Name | Contents |

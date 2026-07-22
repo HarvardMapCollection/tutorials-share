@@ -40,7 +40,7 @@ _Map by Hannah Adler._
 
 4. Students take advantage of Map Collection networks and expertise for mixed methods.
 
-- Example of [vectorizing and spatial analysis](https://mapping.share.library.harvard.edu/projects/adler/).
+- Example of [vectorizing and spatial analysis](https://mapping.share.library.harvard.edu/posts/adler-project/).
 
 ![Description of a complicated data project](../media/referral.png)
 

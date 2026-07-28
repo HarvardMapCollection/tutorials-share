@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Harvard Library GIS Notes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Salt, Fat, Acid, Distance: an interview with Matthew Scott Tan</title>
+      <link>http://localhost:1313/posts/tan/</link>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tan/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;cover.png&#34; alt=&#34;One of the maps Matthew made for his project&#34;&gt;&#xA;&lt;em&gt;Check out Matthew Scott Tan&amp;rsquo;s prize winning project: &lt;a href=&#34;https://storymaps.arcgis.com/stories/26438114683f4ae88dbf47551f5b0063&#34;&gt;Salt, Fat, Acid, Distance&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;span style=&#34;font-family:lorabold;color:#5f0217;&#34;&gt;BELLE LIPTON:&lt;/span&gt; Hi Matthew. You&amp;rsquo;ve just graduated and I&amp;rsquo;m wondering not only how you initially became interested in into geospatial data science but where you&amp;rsquo;re excited to go with it next?&lt;/p&gt;&#xA;&lt;p&gt;&lt;span style=&#34;font-family:lorabold;color:#5f0217;&#34;&gt;MATTHEW TAN:&lt;/span&gt; Of course. I think maybe a good way to start is actually to talk about my background. I’m an international student from Singapore, so going to Harvard as a freshman was the very first time I ever came to the U.S.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>What I Learned Creating a Geospatial Platform</title>
       <link>http://localhost:1313/posts/yao-hua-law/</link>

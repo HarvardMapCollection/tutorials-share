@@ -10,7 +10,7 @@ description: The Fisher Prize at Harvard is awarded annually to celebrate excell
 _Check out Matthew Scott Tan's prize winning project: [Salt, Fat, Acid, Distance](https://storymaps.arcgis.com/stories/26438114683f4ae88dbf47551f5b0063)._
 
 
-<span style="font-family:lorabold;color:#5f0217;">BELLE LIPTON:</span> Hi Matthew. You've just graduated and I'm wondering not only how you initially became interested in into geospatial data science but where you're excited to go with it next?
+<span style="font-family:lorabold;color:#5f0217;">BELLE LIPTON:</span> Hi Matthew. You've just graduated and I'm wondering not only how you initially became interested in geospatial data science but where you're excited to go with it next?
 
 <span style="font-family:lorabold;color:#5f0217;">MATTHEW TAN:</span> Of course. I think maybe a good way to start is actually to talk about my background. I’m an international student from Singapore, so going to Harvard as a freshman was the very first time I ever came to the U.S.
 

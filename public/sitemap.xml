@@ -2,19 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tutorials/software-access/arcgis-pro/</loc>
-    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2026-07-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/interview/</loc>
+    <lastmod>2026-07-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/news/</loc>
+    <lastmod>2026-07-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-07-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/tan/</loc>
+    <lastmod>2026-07-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-07-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/software-access/arcgis-pro/</loc>
     <lastmod>2026-06-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/software-access/</loc>
     <lastmod>2026-06-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/software-access/</loc>
-    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-06-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/</loc>
@@ -36,12 +48,6 @@
     <lastmod>2026-04-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/applied-projects/</loc>
-    <lastmod>2026-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/news/</loc>
-    <lastmod>2026-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2026-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/yao-hua-law/</loc>
@@ -99,9 +105,6 @@
     <lastmod>2025-03-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/faces-behind-the-data-anna-he/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/interview/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/adler-delta/</loc>
@@ -204,9 +207,6 @@
     <lastmod>2023-10-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/potterbusch/</loc>
-    <lastmod>2023-06-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/tan/</loc>
     <lastmod>2023-06-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/arcgis-qgis/georeference/</loc>

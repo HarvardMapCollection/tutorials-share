@@ -1,0 +1,31 @@
+{{/* Renders a single tutorial card. Context: a Page */}}
+{{ $page := . }}
+{{ $hasImage := false }}
+{{ with .Params.image }}
+  {{ $img := $page.Resources.GetMatch . }}
+  {{ if $img }}{{ $hasImage = true }}{{ end }}
+{{ end }}
+<article class="card{{ if not $hasImage }} card--no-image{{ end }}">
+  {{ if $hasImage }}
+    {{ with .Params.image }}
+      {{ $img := $page.Resources.GetMatch . }}
+      {{ if $img }}
+      <div class="card__image">
+        <img src="{{ $img.RelPermalink }}" alt="" loading="lazy">
+      </div>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  <div class="card__body">
+    <h3 class="card__title">
+      <a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
+    </h3>
+    {{ with $page.Description }}
+    <p class="card__excerpt">{{ . }}</p>
+    {{ else }}
+    {{ with $page.Summary }}
+    <p class="card__excerpt">{{ . | plainify | truncate 150 }}</p>
+    {{ end }}
+    {{ end }}
+  </div>
+</article>

@@ -81,9 +81,7 @@ The Countway Library at the Harvard Longwood Boston campus has a computer lab wi
 
 ### Access ArcGIS From Institute for Quantitative Social Science Lab
 
-The Institute for Quantitative Social Science (IQSS) has a [computer lab](https://www.iq.harvard.edu/computer-labs) in the [CGIS Knafel building (concourse level)](https://maps.app.goo.gl/SaiKxpSP8FrexV3x7). Each computer has ArcGIS Pro and other specialized software and computing services.
-
-First-time IQSS lab users must [fill out a form](https://harvard.az1.qualtrics.com/jfe/form/SV_2ivxTdteFPmzfwi?Q_CHL=qr) for manual approval before accessing lab computers. Please account for processing time before your visit.
+The Institute for Quantitative Social Science (IQSS) has a computer lab in the [CGIS Knafel building](https://www.google.com/maps/place/Cgis+Knafel,+1737+Cambridge+St,+Cambridge,+MA+02138/@42.375638,-71.1158159,17z/data=!3m1!4b1!4m6!3m5!1s0x89e37744241b934f:0x70603c849cad1301!8m2!3d42.375638!4d-71.1132356!16s%2Fg%2F1vhlz5zg?entry=tts&g_ep=EgoyMDI0MDUxNC4wKgBIAVAD) with computers running ArcGIS Pro and other GIS and statistical computing software. To access this resource and for more information, visit the [IQSS Labs website](https://www.iq.harvard.edu/computer-labs).
 
 ### Access ArcGIS from a HUIT laptop
 #### Request a Laptop

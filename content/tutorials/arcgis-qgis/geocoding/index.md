@@ -1,5 +1,5 @@
 ---
-title: "Geocoding addresses"
+title: "Geocoding Addresses"
 date: 2026-08-26
 tags: ["qgis-hub"]
 layout: single2

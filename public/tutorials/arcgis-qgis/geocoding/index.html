@@ -172,7 +172,7 @@
         
         <span class="meta-item">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-          1 min read
+          5 min read
         </span>
         
       </div>
@@ -182,7 +182,68 @@
   
   <div class="container--content section--tight">
     <div class="content">
-      <p>Geocoding is</p>
+      <h2 id="what-is-geocoding">What is geocoding?</h2>
+<p>Geocoding is the process of taking a spreadsheet with street addresses and running it through a GIS tool called a &ldquo;geocoder.&rdquo; The process of geocoding will result in a new spreadsheet with appended columns for latitude and longitude. GIS software can then read this new spreadsheet with latitude and longitude columns and know where to place the data on a map. Therefore, geocoding is a way of going from <em>information about</em> location stored into a tabular format, and transforming it into actual <em>geospatial data</em> which is legible to GIS software.</p>
+<h2 id="sample-dataset">Sample dataset</h2>
+<p><img src="sample.png" alt="Example dataset">
+<em>A <a href="https://mapping.share.library.harvard.edu/tutorials/arcgis-qgis/geocoding/sample.csv">sample dataset</a> of 25 mock addresses is included with this guide. Pictured above is an example of the data format you would want to start with when beginning geocoding.</em></p>
+<p>Notice we start with legal addresses divided into columns by street number, street name, city, state, etc. In this example dataset, we are preparing the spreadsheet so that the resulting points on a map are as geographically precise as possible. In cases where you do not have the street addresses, but still have the town or city, you can use those columns to geocode. It will result in geodata with points located at the <a href="https://support.esri.com/en-us/gis-dictionary/centroid">centroid</a> of a town, state, etc. The more specific columns you include, the more geographically precise the points in your geodata will be.</p>
+<h2 id="methods-for-geocoding">Methods for geocoding</h2>
+<h3 id="online-geocoders-limited-quantity-of-records">Online geocoders (limited quantity of records)</h3>
+<p>Deciding which tool to use for geocoding is usually a numbers game. There are a number of free online tools available which work pretty well if you are working with under a certain number of records.</p>
+<ul>
+<li><a href="https://researchguides.uoregon.edu/geocoding/free-batch">Research guide on free batch geocoder options</a></li>
+</ul>
+<h3 id="free-desktop-geocoder-limited-quantity-of-records">Free desktop geocoder (limited quantity of records)</h3>
+<p>If you are working in <a href="https://mapping.share.library.harvard.edu/tutorials/software-access/qgis/">QGIS</a> and have only a couple hundred records, one of the most simple and straightforward ways to geocode data is to use the <code>MMQGIS</code> plugin for QGIS. This tool has robust functionality for many geocoding tasks. It allows you to choose from different geocoding services, including <a href="https://nominatim.org/">Nominatim</a>, which is free and open source. Many geocoding services charge per credit. The benefit of using a free service like <code>Nominatim</code> is that you do not have to pay.</p>
+<ul>
+<li><a href="https://guides.library.duke.edu/QGIS/Geocode">Research guide on how to use MMQGIS plugin in QGIS</a></li>
+</ul>
+<h3 id="programming-unlimited-records-requires-coding">Programming (unlimited records; requires coding)</h3>
+<p>You will start to run into trouble using the <code>MMQGIS</code> plugin with the free <code>Nominatim</code> service once the number of records you are trying to geocode exceeds a couple hundred of rows. This basically comes down to the desktop interface freezing before the geoprocessing tool gets a chance to finish running. If you don&rsquo;t want to pay and have many thousands of records, another option is to use the <code>Nominatim</code> geocoder in a <code>Python</code> or <code>R</code> script. That way, you are accessing the free geocoder, but running the program more efficiently on your computer so it can execute more successfully. You can search online for <a href="https://cran.r-project.org/web/packages/nominatimlite/vignettes/nominatimlite.html">packages and approaches</a> to using <code>Nominatim</code>, which is the geocoder that powers Open Street Map (OSM) in your script.</p>
+<ul>
+<li><a href="https://github.com/HarvardMapCollection/modalities-cleaning/blob/main/displaced-scholars/steps/geocode/geocode.R">Sample code for R</a></li>
+</ul>
+<h3 id="institutional-arcgis-online-limited-records-requires-license">Institutional ArcGIS Online (limited records; requires license)</h3>
+<p>If your institution has an ArcGIS license, you may have access to geocoding directly within your ArcGIS Online account. This can be convenient, and some find premium geocoding services such as ESRI World Geocoding Service at times to have better functionality than local or free geocoders, but this process can easily eat up your credits quickly. For example, at Harvard, you can geocode by <a href="https://gis.harvard.edu/arcgis-online">logging in to your ArcGIS Online account</a>, but every 1,000 rows you geocode uses 40 credits, and accounts are capped at 250 credits total. You can find more details from the Harvard ESRI license manager, the Center for Geographic Analysis on their <a href="https://gis.harvard.edu/geocoding">Geocoding FAQ page</a>.</p>
+<h3 id="institutional-local-geocoder-unlimited-requires-license">Institutional local geocoder (unlimited; requires license)</h3>
+<p>Finally, if you have thousands or even millions of rows you need to geocode, you don&rsquo;t want to use a coding approach, and have access to an institutional license, you can consider downloading a local geocoder for ArcGIS Pro. The rest of this tutorial will focus on how to use a local geocoder with ArcGIS Pro for Harvard affiliates. If you have a Harvard key login, you will be able to follow these steps.</p>
+<p><em>Note: This process works only for addresses in the United States; to gain access to international local geocoders, please refer to your license manager. In the case of Harvard, contact information is on the <a href="https://gis.harvard.edu/geocoding">Geocoding FAQ page</a>.</em></p>
+<ol>
+<li>
+<p>Ensure you have access to the desktop software, ArcGIS Pro. Instructions for how to download ArcGIS Pro or access it in Harvard computer labs are available in the <a href="https://mapping.share.library.harvard.edu/tutorials/software-access/arcgis-pro/">Access ArcGIS Pro research guide</a>.</p>
+</li>
+<li>
+<p>Log in to ArcGIS Pro with your Harvard key. <em>Instructions for logging in are also in the Access ArcGIS Pro research guide.</em></p>
+</li>
+<li>
+<p>Click <code>Map</code> to create a new map project.</p>
+</li>
+<li>
+<p>In the menu, select <code>Analysis</code> and then <code>Tools</code>. Search for <code>geocode</code>. Select <code>Geocode Addresses</code>.</p>
+</li>
+<li>
+<p>Under <code>Input Table</code> select the spreadsheet you want to geocode.</p>
+</li>
+<li>
+<p>Download the <a href="https://drive.google.com/drive/folders/13LT3LtwayZy640hm1FRv4reQo_YBAaav">local USA locator</a>, <code>USA.loz</code>. In the <code>Geocode Addresses</code> widget in ArcGIS Pro, under <code>Input Address Locator</code>, navigate to where you downloaded this file and select it. <em>Note: this file is big and can take some time to downlad.</em></p>
+</li>
+<li>
+<p>Fill out the <code>Address Field</code> and <code>Output</code> and select <code>Run</code></p>
+</li>
+<li>
+<p>Select <code>Run</code></p>
+</li>
+</ol>
+<blockquote>
+<p>Note: Sometimes addresses won’t find a match with this geocoder on the first attempt. If many are unmatched, try this:
+Right click the geocoded result and choose <code>Selection</code> → <code>Select All</code>. Then right click and choose Data &gt; Rematch Addresses. Click the Auto Rematch button: and it will match all addresses it can.</p>
+</blockquote>
+<blockquote>
+<p>Note: If you are using geoprocessing tools in ArcGIS Pro, you will need to take additional steps to convert the output formats into open-source data formats. The library recommends taking this last step with any data files you create, to ensure long-term access and interoperability of your files. Follow the steps in <a href="https://mapping.share.library.harvard.edu/tutorials/arcgis-qgis/export-file-types/">Exporting GeoJSON and GeoPackage from ArcGIS Pro</a></p>
+</blockquote>
+<p><img src="results.png" alt="geocodin results">
+<em>Pictured above are the results of geocoding the tutorial <a href="https://mapping.share.library.harvard.edu/tutorials/arcgis-qgis/geocoding/sample.csv">sample addresses</a> in ArcGIS Pro.</em></p>
 
     </div>
   </div>

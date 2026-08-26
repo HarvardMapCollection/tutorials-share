@@ -18,7 +18,7 @@
 				<link>http://localhost:1313/tutorials/arcgis-qgis/geocoding/</link>
 				<pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/tutorials/arcgis-qgis/geocoding/</guid>
-				<description>&lt;p&gt;Geocoding is&lt;/p&gt;</description>
+				<description>&lt;h2 id=&#34;what-is-geocoding&#34;&gt;What is geocoding?&lt;/h2&gt;&#xA;&lt;p&gt;Geocoding is the process of taking a spreadsheet with street addresses and running it through a GIS tool called a &amp;ldquo;geocoder.&amp;rdquo; The process of geocoding will result in a new spreadsheet with appended columns for latitude and longitude. GIS software can then read this new spreadsheet with latitude and longitude columns and know where to place the data on a map. Therefore, geocoding is a way of going from &lt;em&gt;information about&lt;/em&gt; location stored into a tabular format, and transforming it into actual &lt;em&gt;geospatial data&lt;/em&gt; which is legible to GIS software.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Salt, Fat, Acid, Distance: an interview with Matthew Scott Tan</title>

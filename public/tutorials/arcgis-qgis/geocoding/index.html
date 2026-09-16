@@ -3,11 +3,11 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Geocoding addresses | Harvard Library GIS Notes</title>
+  <title>Geocoding Addresses | Harvard Library GIS Notes</title>
   <meta name="description" content="Research guides, sample projects, and technical tutorials prepared by the Harvard Map Collection">
 
   
-  <meta property="og:title" content="Geocoding addresses">
+  <meta property="og:title" content="Geocoding Addresses">
   <meta property="og:description" content="Research guides, sample projects, and technical tutorials prepared by the Harvard Map Collection">
   <meta property="og:type" content="article">
   <meta property="og:url" content="http://localhost:1313/tutorials/arcgis-qgis/geocoding/">
@@ -22,7 +22,7 @@
   
   <link rel="stylesheet" href="/scss/main.1a876a819e3dfa4bc212a1755efe5f62355b9f28df9538e69fab51da5d95cef5.css">
 
-  <meta name="generator" content="Hugo 0.165.0">
+  <meta name="generator" content="Hugo 0.166.0">
   
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XCNRPXZNVM"></script>
 <script>
@@ -145,7 +145,7 @@
     
   
 
-  <span class="breadcrumb-item">Geocoding addresses</span>
+  <span class="breadcrumb-item">Geocoding Addresses</span>
 </nav>
 
 
@@ -157,7 +157,7 @@
       </div>
       
 
-      <h1 class="hero__title">Geocoding addresses</h1>
+      <h1 class="hero__title">Geocoding Addresses</h1>
 
       
 
@@ -172,7 +172,7 @@
         
         <span class="meta-item">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-          5 min read
+          6 min read
         </span>
         
       </div>
@@ -225,9 +225,27 @@
 <li>
 <p>Under <code>Input Table</code> select the spreadsheet you want to geocode.</p>
 </li>
-<li>
-<p>Download the <a href="https://drive.google.com/drive/folders/13LT3LtwayZy640hm1FRv4reQo_YBAaav">local USA locator</a>, <code>USA.loz</code>. In the <code>Geocode Addresses</code> widget in ArcGIS Pro, under <code>Input Address Locator</code>, navigate to where you downloaded this file and select it. <em>Note: this file is big and can take some time to downlad.</em></p>
-</li>
+</ol>
+<blockquote>
+<h4 id="accessing-the-local-usa-locator-file">Accessing the local USA locator file</h4>
+<p>You will need a copy of the USA locator file downloaded locally to your computer to run this function. You can download the file yourself from this <a href="https://drive.google.com/drive/folders/13LT3LtwayZy640hm1FRv4reQo_YBAaav">Google Drive</a>. Please note:</p>
+<ul>
+<li>The local USA geocoder file is quite large and can take some time to download.</li>
+<li>The <code>USA.loz</code> and <code>USA.loc</code> files may need to be copied into your ArcGIS Project file for the software to recognize it.</li>
+</ul>
+</blockquote>
+<ol start="6">
+<li>Download the <a href="https://drive.google.com/drive/folders/13LT3LtwayZy640hm1FRv4reQo_YBAaav">local USA locator</a>, <code>USA.loz</code> into your ArcGIS Pro project file. In the <code>Geocode Addresses</code> widget in ArcGIS Pro, under <code>Input Address Locator</code>, navigate to where you downloaded this file and select it.</li>
+</ol>
+<blockquote>
+<h4 id="please-note">Please note:</h4>
+<ul>
+<li>You may need to <code>right-click</code> the project folder in your ArcGIS catalog pane and <code>Refresh</code> the contents to see it appear.</li>
+<li>If the widget finds the locator, the required field asterisk next to <code>Input Address Locator</code> will disappear.</li>
+<li>If the field for <code>Input Address Locator</code> is still blank, you may need to select the drop-down bar and manually choose <code>USA</code>. You will know the <code>USA</code> selector file has been properly selected when all of the additional <code>Input Address Fields</code> display.</li>
+</ul>
+</blockquote>
+<ol start="7">
 <li>
 <p>Fill out the <code>Address Field</code> and <code>Output</code> and select <code>Run</code></p>
 </li>

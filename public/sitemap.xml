@@ -2,8 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tutorials/arcgis-qgis/</loc>
+    <lastmod>2026-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/arcgis-qgis/geocoding/</loc>
+    <lastmod>2026-08-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-07-28T00:00:00+00:00</lastmod>
+    <lastmod>2026-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/qgis-hub/</loc>
+    <lastmod>2026-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/</loc>
+    <lastmod>2026-08-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/interview/</loc>
     <lastmod>2026-07-28T00:00:00+00:00</lastmod>
@@ -17,9 +32,6 @@
     <loc>http://localhost:1313/posts/tan/</loc>
     <lastmod>2026-07-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-07-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tutorials/software-access/arcgis-pro/</loc>
     <lastmod>2026-06-26T00:00:00+00:00</lastmod>
   </url><url>
@@ -29,17 +41,8 @@
     <loc>http://localhost:1313/tags/software-access/</loc>
     <lastmod>2026-06-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tutorials/</loc>
-    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tutorials/software-access/qgis/</loc>
     <lastmod>2026-06-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tutorials/arcgis-qgis/</loc>
-    <lastmod>2026-04-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/qgis-hub/</loc>
-    <lastmod>2026-04-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/arcgis-qgis/cartography-academic-publishing/</loc>
     <lastmod>2026-04-17T00:00:00+00:00</lastmod>

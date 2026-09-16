@@ -58,7 +58,17 @@ Finally, if you have thousands or even millions of rows you need to geocode, you
 
 5. Under `Input Table` select the spreadsheet you want to geocode. 
 
-6. Download the [local USA locator](https://drive.google.com/drive/folders/13LT3LtwayZy640hm1FRv4reQo_YBAaav), `USA.loz`. In the `Geocode Addresses` widget in ArcGIS Pro, under `Input Address Locator`, navigate to where you downloaded this file and select it. *Note: this file is big and can take some time to downlad.*
+> #### Accessing the local USA locator file
+> You will need a copy of the USA locator file downloaded locally to your computer to run this function. You can download the file yourself from this [Google Drive](https://drive.google.com/drive/folders/13LT3LtwayZy640hm1FRv4reQo_YBAaav). Please note:
+> * The local USA geocoder file is quite large and can take some time to download. 
+> * The `USA.loz` and `USA.loc` files may need to be copied into your ArcGIS Project file for the software to recognize it. 
+
+6. Download the [local USA locator](https://drive.google.com/drive/folders/13LT3LtwayZy640hm1FRv4reQo_YBAaav), `USA.loz` into your ArcGIS Pro project file. In the `Geocode Addresses` widget in ArcGIS Pro, under `Input Address Locator`, navigate to where you downloaded this file and select it. 
+
+> #### Please note: 
+> * You may need to `right-click` the project folder in your ArcGIS catalog pane and `Refresh` the contents to see it appear. 
+> * If the widget finds the locator, the required field asterisk next to `Input Address Locator` will disappear. 
+> * If the field for `Input Address Locator` is still blank, you may need to select the drop-down bar and manually choose `USA`. You will know the `USA` selector file has been properly selected when all of the additional `Input Address Fields` display.
 
 7. Fill out the `Address Field` and `Output` and select `Run`
 

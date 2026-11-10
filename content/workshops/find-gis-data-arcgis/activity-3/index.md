@@ -37,13 +37,7 @@ description: Understand the value of georeferenced maps and how to start using t
 ## Demo and explore more
 
 ### Sample data
-You can download and explore sample datasets related to this activity from the workshop data homepage, hosted on the Open Science Framework (OSF.io)
-> 1. Visit the [workshop data homepage](https://osf.io/exnyg). 
-
-> 2. Click the three vertical dots icon and select `Download`.
-![OSF data download page](../media/download.png)
-
-> 3. The folder that downloads to your computer contains sample data from all the workshop activities. It is a zipped or compressed file. In order to use it, you will have to `double-click` it on Mac or `right-click` → `Extract` or `Uncompress` on a PC. 
+Data for this workshop is [available for download](https://drive.google.com/file/d/1W0nwSI1_9BghxraNDuFktJeU8c1lO_bi/view?usp=drive_link) to work with during class or from home. 
 
 <div class="alert-success">
 <p>4. The sample data for this activity, <strong>Activity 3</strong> is in the folder <code>activity3_georeferencing</code>. In this folder you will find the following files:

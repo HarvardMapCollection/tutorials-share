@@ -78,13 +78,7 @@ Get here quickly:
 
 
 ### Sample data
-You can download and explore sample datasets related to this activity from the workshop data homepage, hosted on the Open Science Framework (OSF.io)
-> 1. Visit the [workshop data homepage](https://osf.io/exnyg). 
-
-> 2. Click the three vertical dots icon and select `Download`.
-![OSF data download page](../media/download.png)
-
-> 3. The folder that downloads to your computer contains sample data from all the workshop activities. It is a zipped or compressed file. In order to use it, you will have to `double-click` it on Mac or `right-click` → `Extract` or `Uncompress` on a PC. 
+Data for this workshop is [available for download](https://drive.google.com/file/d/1W0nwSI1_9BghxraNDuFktJeU8c1lO_bi/view?usp=drive_link) to work with during class or from home. 
 
 > To follow-along in class, or explore the sample data at home, [download QGIS](https://mapping.share.library.harvard.edu/tutorials/census-data-primer/download-software/), a free tool. Note, if you have a Mac, you will have to `right-click` the green Q desktop icon and select `Open` the first time you use it, since is not available from the App Store.
 
